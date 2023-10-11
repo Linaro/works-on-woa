@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /
 
 Sitemap: https://www.worksonwoa.com/sitemap-index.xml
