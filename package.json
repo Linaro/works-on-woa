@@ -21,6 +21,7 @@
     "@astrolib/seo": "^0.6.0",
     "@solid-primitives/pagination": "^0.2.8",
     "astro": "^3.2.2",
+    "astro-og-canvas": "^0.2.1",
     "astro-pagefind": "^1.2.4",
     "sass": "^1.63.6",
     "solid-js": "^1.4.3",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "pagefind": "^0.12.0",
+    "puppeteer": "^21.3.6",
     "vite": "^4.4.11",
     "write-yaml-file": "^5.0.0"
   }

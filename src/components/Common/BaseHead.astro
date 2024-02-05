@@ -10,7 +10,6 @@ export interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-
 const { title, description } = Astro.props;
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -21,6 +20,8 @@ import { AstroSeo } from "@astrolib/seo";
 <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
 <link rel="sitemap" href="/sitemap-index.xml" />
+<meta property="og:image" content="/api/og-image.png" />
+<meta property="twitter:image" content="/blog/og-image.png" />
 <AstroSeo
   title={title}
   description={description}
