@@ -5,10 +5,13 @@ import Header from "../components/Common/Header.astro";
 import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
+import { Image } from "astro:assets";
 
-type Props = CollectionEntry<"projects"> & { date: Date };
+type Props = CollectionEntry<"projects"> & { date: Date, };
 
-const { data, render, date } = Astro.props;
+const { data, render, date  } = Astro.props;
+
+
 
 const { Content } = await render();
 
@@ -19,16 +22,21 @@ const textFields = Object.entries(data).filter(
 ) as [string, string][];
 
 // extract special fields
-const { link, icon, name, categories } = data;
+const {link, icon, name, categories, type } = data;
+
+
+
 
 // get category data from references
 const categoryPromises = categories.map(async (category) =>
-  getEntry("categories", category.slug)
+  getEntry("applications_categories", category.slug) 
 );
 const categoriesData = await Promise.all(categoryPromises);
 
 // construct field array
-const fields = [
+let fields;
+const fieldsType = type === "applications" ?
+ fields = [
   ...textFields.map((field) => ({
     key: field[0],
     value: field[1],
@@ -44,9 +52,17 @@ const fields = [
     value: categoriesData,
     type: "array",
   },
-];
+]: 
+fields = [
+  ...textFields.map((field) => ({
+    key: field[0],
+    value: field[1],
+    type: "text",
+  })),
+  
+]
 
-export type ProjectFields = typeof fields;
+export type ProjectFields = typeof fieldsType;
 
 // sort fields
 const sortOrder = ["compatibility", "category", "versionFrom", "link", "notes"];
@@ -61,7 +77,11 @@ const sortKeys = sortOrder.reduce((obj: any, item: string, index: number) => {
 fields.sort((a, b) => sortKeys[a.key] - sortKeys[b.key]);
 
 // list filtering fields
-const filters = ["category", "compatibility"];
+
+const filters = ["category", "compatibility", "type"];
+// check path
+
+
 ---
 
 <html lang="en">
@@ -73,10 +93,12 @@ const filters = ["category", "compatibility"];
   </head>
 
   <body class="min-h-screen flex flex-col">
-    <Header />
-    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full">
+    
+    <!-- <Header /> header should not be in the page layouts since there are two different pages-->
+    <main class="max-w-5xl mx-auto px-2 sm:px-5 w-full"> 
+      <!-- <Image src={test_image || ""} alt="test" /> -->
       <!-- <Search /> -->
-      <Search shouldRedirect={true} />
+      <Search shouldRedirect={true} type={type}/>
       <section
         data-pagefind-body
         class="flex flex-col items-center p-1 sm:pb-10 pt-0"
@@ -94,6 +116,7 @@ const filters = ["category", "compatibility"];
           filters={filters}
           Content={Content}
           name={name}
+          type={type}
         />
         <p class="w-full py-6">
           Last updated {

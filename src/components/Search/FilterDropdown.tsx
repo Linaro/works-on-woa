@@ -16,19 +16,28 @@ const filters = [
   { key: "compatibility", name: "Compatibility" },
 ];
 
+const gamesFilters = [
+  { key: "compatibility", name: "Compatibility" },
+  
+];
 const FilterDropdown = ({
   filterOptions,
   search,
   setFilter,
   results,
+  type,
 }: {
   filterOptions: Resource<any>;
   search: Accessor<{ query: string | null; filters: Filters }>;
   results: Resource<any>;
   setFilter: (filter: string, selection: string, value: boolean) => void;
+  type: "games" | "applications"
 }) => {
+  const initialFilters = type === "games" ? gamesFilters : filters;
+  
+  
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
-    filters.reduce(
+     filters.reduce(
       (p, f) => ({
         ...p,
         [f.key]: false,
@@ -36,7 +45,8 @@ const FilterDropdown = ({
       {}
     )
   );
-
+  
+  
   const toggleFilters = (option: string) => {
     setShowFilters({
       ...Object.keys(showFilters()).reduce(
@@ -51,7 +61,7 @@ const FilterDropdown = ({
   const handleClick = (event: MouseEvent) => {
     if (!ref.contains(event.target as Node)) {
       setShowFilters(
-        filters.reduce(
+        initialFilters.reduce(
           (p, f) => ({
             ...p,
             [f.key]: false,
@@ -79,7 +89,7 @@ const FilterDropdown = ({
 
   return (
     <div class=" flex" ref={ref!}>
-      <For each={filters}>
+      <For each={initialFilters}>
         {(filter) => (
           <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
             <button

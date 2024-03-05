@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/Common/BaseHead.astro";
+import Header from "../../components/Common/Header.astro";
+import Search from "../../components/Search/Search.astro";
+import Footer from "../../components/Common/Footer.astro";
+import { getImage } from "astro:assets";
+import WoaBanner from "../../assets/WoA-banner.png";
+
+
+const optimizedBanner = await getImage({ src: WoaBanner });
+const bgUrl = `url('${optimizedBanner.src}')`;
+
+
+
+
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title={"Windows on Arm Ready Applications"}
+      description={`Find applications ready for Windows on Arm`}
+    />
+  </head>
+  <body>
+    <header class="w-full">
+        <div
+          class:list={[
+            "p-10 sm:p-20 flex flex-col items-center  bg-center bg-no-repeat",
+            `bg-[${bgUrl}]`,
+          ]}
+          style={`background-image: ${bgUrl}`}
+        >
+          <a
+            class="text-3xl sm:text-5xl text-center text-white w-full no-underline"
+            href="/">Windows on Arm Ready Games</a
+          >
+          <h2>Looking for applications ? <a href="/" class="text-xl text-blue-500" id="change-page"><button >click here</button></a></h2>
+        </div>
+      </header>
+    <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
+      <Search shouldRedirect={false} type="games" />
+    </main>
+    <Footer  />
+  </body>
+</html>

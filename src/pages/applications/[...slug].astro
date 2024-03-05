@@ -7,7 +7,11 @@ import { promisify } from "node:util";
 const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
-  const projects = await getCollection("projects");
+  const projects = await getCollection("projects", ({ data }) => {
+    return data.type === "applications"
+  });
+ 
+  
   return projects.map((project) => ({
     params: { slug: project.slug },
     props: project,
@@ -30,4 +34,4 @@ type Props = CollectionEntry<"projects">;
 const project = Astro.props;
 ---
 
-<ProjectLayout {...project} date={date} />
+<ProjectLayout {...project} date={date}  />

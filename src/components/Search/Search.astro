@@ -3,11 +3,12 @@ import PageFind from "./PageFind";
 
 export interface Props {
   shouldRedirect: boolean;
+  type: "games" | "applications"
 }
 
-const { shouldRedirect } = Astro.props;
+const { shouldRedirect, type } = Astro.props;
 ---
 
 <section class="pt-10 min-h-[8rem]">
-  <PageFind client:only="solid-js" shouldRedirect={shouldRedirect} />
+  <PageFind client:only="solid-js" shouldRedirect={shouldRedirect} type={type} />
 </section>

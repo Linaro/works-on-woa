@@ -10,7 +10,7 @@ export default defineConfig({
   output: "static",
   integrations: [
     sitemap(),
-    pagefind(),
+    // pagefind(),
     tailwind({
       applyBaseStyles: false,
     }),

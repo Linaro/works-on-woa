@@ -9,7 +9,7 @@ const bgUrl = `url('${optimizedBanner.src}')`;
 <header class="w-full">
   <div
     class:list={[
-      "p-10 sm:p-20 flex items-center  bg-center bg-no-repeat",
+      "p-10 sm:p-20 flex flex-col items-center  bg-center bg-no-repeat",
       `bg-[${bgUrl}]`,
     ]}
     style={`background-image: ${bgUrl}`}
@@ -18,5 +18,6 @@ const bgUrl = `url('${optimizedBanner.src}')`;
       class="text-3xl sm:text-5xl text-center text-white w-full no-underline"
       href="/">Windows on Arm Ready Applications</a
     >
+    <h2>Looking for games ? <a href="/games" class="text-xl text-blue-500">click here</a></h2>
   </div>
 </header>

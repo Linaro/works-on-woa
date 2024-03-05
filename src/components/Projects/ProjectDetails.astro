@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import type { ProjectFields } from "../../layouts/ProjectLayout.astro";
 import { toTitleCase } from "../../util/formatting";
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
-type Categories = CollectionEntry<"categories">;
+type Categories = CollectionEntry<"applications_categories">;
 type Props = {
   fields: ProjectFields;
   icon: string;
@@ -11,8 +11,31 @@ type Props = {
   categoriesData: Categories[];
   Content: AstroComponentFactory;
   name: string;
+  type: "applications" | "games"
 };
-const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
+const fieldLabels : { [key: string]: string } = {
+  device_configuration: "Device Configuration",
+  date_tested: "Date Tested",
+  game_type: "Game Type",
+  overall_status: "Overall status", 
+  publisher: "Publisher",
+  frame_rate: "Frame rate",
+  status_description: "Overall Status Description",
+  os_version: "Os Version",
+  game_type: "Game type",
+  compatibility: "compatibility",
+  name: "name", 
+  icon: "icon",
+  categories: "categories",
+  link: "link", 
+  versionFrom: "versionFrom",
+  type:"type"
+};
+const { fields, icon, categoriesData, filters, Content, name, type } = Astro.props; 
+
+
+
+
 
 // const imageExt = icon.split(".")[1]
 // console.log(imageExt)
@@ -26,7 +49,7 @@ const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
     {
       fields.map((field) => (
         <li class="mb-2">
-          <b data-pagefind-ignore>{toTitleCase(field.key)}</b>
+          <b data-pagefind-ignore>{fieldLabels[field.key] || toTitleCase(field.key)}</b>
           {field.type === "array" ? (
             <p>
               {(field.value as typeof categoriesData).map((value, index) => (
@@ -47,7 +70,7 @@ const { fields, icon, categoriesData, filters, Content, name } = Astro.props;
               data-pagefind-meta={!filters.includes(field.key) && field.key}
 
             >
-              {field.type === "link" ? (
+              {field.type === "link"  ? (
                 <a href={field.value as string} class="text-blue-700 underline break-all">
                   {field.value}
                 </a>

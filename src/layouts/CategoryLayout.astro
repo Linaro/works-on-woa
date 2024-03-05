@@ -10,7 +10,7 @@ import CategoryDropdown from "../components/Categories/CategoryDropdown";
 
 const { categoryData, page, slug } = Astro.props;
 type Project = CollectionEntry<"projects">;
-const categories = await getCollection("categories");
+const categories = await getCollection("applications_categories");
 ---
 
 <html lang="en">
