@@ -1,0 +1,10 @@
+---
+name: NaturalReader16
+icon: 
+categories: [app]
+link: https://www.naturalreaders.com/software.html
+compatibility: Native
+versionFrom: "10.2.24"
+type: applications
+notes: This app uses MSFT Edge to run them so architecture is taken as Edge's architecture (ARM64)
+---

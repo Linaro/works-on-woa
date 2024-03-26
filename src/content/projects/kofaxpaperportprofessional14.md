@@ -1,0 +1,10 @@
+---
+name: kofaxpaperportprofessional14
+icon: 
+categories: [app]
+link: https://www.kofax.com/products/paperport/professional-trial-version
+compatibility: Emulated
+versionFrom: "14.7"
+type: applications
+notes: Validated kofax paperport professional 14
+---

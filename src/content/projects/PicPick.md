@@ -1,0 +1,10 @@
+---
+name: PicPick
+icon: 
+categories: [app]
+link: https://picpick.app/en/download/
+compatibility: Emulated
+versionFrom: "7.2.50"
+type: applications
+notes: 
+---

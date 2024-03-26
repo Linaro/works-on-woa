@@ -1,0 +1,10 @@
+---
+name: Flipkart
+icon: 
+categories: [app]
+link: https://apps.microsoft.com/detail/9wzdncrfj356?hl=en-us&gl=US
+compatibility: Native
+versionFrom: "4.1.3.0"
+type: applications
+notes: Basic Function Fail: Drop down & scroll bar not working, contents are loading, app freezes when item quantity is increased/decreased,order history is not loading issues were seen.
+---
