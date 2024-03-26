@@ -1,0 +1,10 @@
+---
+name: FormatFactory
+icon: 
+categories: [app]
+link: https://apps.microsoft.com/search?query=FormatFactory&hl=en-us&gl=US
+compatibility: Emulated
+versionFrom: "5.16"
+type: applications
+notes: 
+---

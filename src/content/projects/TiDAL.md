@@ -1,0 +1,10 @@
+---
+name: TiDAL
+icon: 
+categories: [app]
+link: https://apps.microsoft.com/detail/xpfpgsrwgpxm3j?hl=en-us&gl=US
+compatibility: Emulated
+versionFrom: "2.36.2.0"
+type: applications
+notes: 
+---
