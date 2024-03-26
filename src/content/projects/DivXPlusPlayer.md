@@ -1,0 +1,9 @@
+---
+name: DivXPlusPlayer
+categories: [app]
+link: https://www.divx.com/en/software/divx/
+compatibility: Emulated
+versionFrom: "10.10.1.0"
+type: applications
+---
+

@@ -1,0 +1,10 @@
+---
+name: AcronisTrueImage
+categories: [app]
+link: https://www.acronis.com/en-us/products/true-image/new/
+compatibility: InCompatible
+versionFrom: "TBD"
+type: applications
+---
+
+App installation is failing as app is not compatible on ARM
