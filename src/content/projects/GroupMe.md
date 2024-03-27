@@ -1,0 +1,10 @@
+---
+name: GroupMe
+icon: 
+categories: [app]
+link: https://apps.microsoft.com/detail/9nblggh5z4f2?hl=en-us&gl=US
+compatibility: Emulated
+versionFrom: "2.53.57.0"
+type: applications
+---
+

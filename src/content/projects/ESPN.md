@@ -1,0 +1,10 @@
+---
+name: ESPN
+icon: 
+categories: [app]
+link: https://apps.microsoft.com/detail/9nwd3s85mtfb?hl=en-us&gl=US
+compatibility: Native
+versionFrom: "16.0.1.0"
+type: applications
+---
+

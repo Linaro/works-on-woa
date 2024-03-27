@@ -1,0 +1,10 @@
+---
+name: uTorrent
+icon: 
+categories: [app]
+link: https://www.utorrent.com/desktop/
+compatibility: Emulated
+versionFrom: "3.6.0.46922"
+type: applications
+---
+
