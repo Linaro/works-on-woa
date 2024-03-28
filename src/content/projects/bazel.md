@@ -1,9 +1,9 @@
 ---
-name: Bazel
-icon: bazel.svg
-categories: [oss, dev-tools]
-link: https://bazel.build
+name: "Bazel"
+categories: [app]
+link: https://github.com/bazelbuild/bazel/releases
 compatibility: native
-versionFrom: "5.1"
+versionFrom: "6.3.2"
 type: applications
 ---
+

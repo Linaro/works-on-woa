@@ -1,9 +1,9 @@
 ---
-name: CMake
-icon: cmake.svg
-categories: [oss, dev-tools]
-link: https://cmake.org/
+name: "CMAKE"
+categories: [app]
+link: https://cmake.org/download/
 compatibility: native
-versionFrom: "3.24"
+versionFrom: "3.27.1"
 type: applications
 ---
+

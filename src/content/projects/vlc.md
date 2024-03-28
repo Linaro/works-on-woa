@@ -1,11 +1,9 @@
 ---
-name: VLC
-icon: vlc.svg
-categories: [oss]
-link: https://videolan.org/
-compatibility: native
-versionFrom: "v4 alpha"
+name: "VLC"
+categories: [app]
+link: https://apps.microsoft.com/detail/xpdm1zw6815mqm?hl=en-us&gl=US
+compatibility: emulation
+versionFrom: "3.0.20"
 type: applications
 ---
 
-Only available via nightlies, selectable from the arrow menu on VLC download page

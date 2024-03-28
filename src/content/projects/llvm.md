@@ -1,9 +1,9 @@
 ---
-name: LLVM / Clang
-icon: llvm.svg
-categories: [oss, dev-tools]
-link: https://llvm.org/
-compatibility: native
-versionFrom: "6.2"
+name: "LLVM"
+categories: [app]
+link: https://release.llvm.org/download.html
+compatibility: emulation
+versionFrom: "16.0.0"
 type: applications
 ---
+

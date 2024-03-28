@@ -1,11 +1,9 @@
 ---
-name: Tcl/Tk
-icon: tcltk.svg
-categories: [oss, dev-tools, library]
-link: https://www.tcl.tk
-compatibility: native
-versionFrom: "8.6"
+name: "Tcl/TK"
+categories: [app]
+link: https://www.activestate.com/products/tcl/downloads./
+compatibility: emulation
+versionFrom: "8.6.13.0000"
 type: applications
 ---
 
-No prebuilt binaries available. Compile from source from v8.6.
