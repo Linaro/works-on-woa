@@ -26,6 +26,10 @@ jobs:
           if [[ "${{ github.ref_name }}" == "staging" ]]; then
             echo "env_name=Development" >> $GITHUB_OUTPUT
           fi
+          if [[ "${{ github.ref_name }}" == "main" ]]; then
+            echo "env_name=Production" >> $GITHUB_OUTPUT
+          fi
+
   build:
     needs: [pre-build]
     runs-on: ubuntu-latest
@@ -68,5 +72,8 @@ jobs:
           # Build & deploy
           if [[ "${{ github.ref_name }}" == "staging" ]]; then
             export STAGE="dev"
+          fi
+          if [[ "${{ github.ref_name }}" == "main" ]]; then
+            export STAGE="main"
           fi
           yarn sst deploy --stage $STAGE
