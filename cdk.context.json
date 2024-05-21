@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=497503705704:domainName=staging.worksonwoa.com:region=us-east-1": {
+    "Id": "/hostedzone/Z03672012HG3S9ZFMNF15",
+    "Name": "staging.worksonwoa.com."
+  },
+  "hosted-zone:account=497503705704:domainName=worksonwoa.com:region=us-east-1": {
+    "Id": "/hostedzone/Z08678803D3DH2PWQL6O9",
+    "Name": "worksonwoa.com."
+  }
+}

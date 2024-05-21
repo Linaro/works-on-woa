@@ -1,0 +1,12 @@
+{
+    "state": "state1",
+    "a": {
+        "state": "state2"
+    },
+    "b": {
+        "state": "state2"
+    },
+    "c": {
+        "state": "state2"
+    },
+}

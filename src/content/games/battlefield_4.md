@@ -1,0 +1,11 @@
+---
+name: "Battlefield 4"
+categories: [unknown]
+publisher: Electronic Arts
+compatibility: perfect
+device_configuration: Surface Laptop (7th Edition)
+frame_rate: 72.41 FPS
+date_tested: 2024-04-08
+os_version: "26100.1"
+driver_id: 31.0.47.0
+---

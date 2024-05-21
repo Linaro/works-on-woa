@@ -1,0 +1,60 @@
+---
+export type Breadcrumb = {
+  title: string;
+  href: string;
+};
+
+type Props = {
+  breadcrumbs: Breadcrumb[];
+};
+const { breadcrumbs } = Astro.props;
+
+console.log(Astro.url.pathname);
+---
+
+{
+  breadcrumbs.length > 0 && (
+    <nav class="flex w-full justify-start mt-5" aria-label="Breadcrumb">
+      <ol class="inline-flex items-center space-x-1 md:space-x-3">
+        <li class="inline-flex items-center">
+          <a
+            href="/"
+            class="inline-flex items-center text-lg font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white"
+          >
+            Home
+          </a>
+        </li>
+        {breadcrumbs.map((breadcrumb: Breadcrumb) => {
+          return (
+            <li class="inline-flex items-center">
+              <svg
+                class="w-3 h-3 text-gray-400 mr-3"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+              <a
+                href={breadcrumb.href}
+                class:list={[
+                  "inline-flex items-center text-lg font-medium  text-gray-400 hover:text-white",
+                  breadcrumb.href === `${Astro.url.pathname}` && "text-white",
+                ]}
+              >
+                {breadcrumb.title}
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  )
+}

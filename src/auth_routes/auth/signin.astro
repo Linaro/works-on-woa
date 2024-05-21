@@ -1,0 +1,28 @@
+---
+export const prerender = false;
+import { getSession } from "auth-astro/server";
+const session = await getSession(Astro.request);
+const redirect = Astro.url.searchParams.get("callbackUrl") || "/"
+if (session) {
+  return Astro.redirect(redirect);
+}
+---
+
+<html>
+  <head>
+    <script>
+      const { signIn, signOut } = await import("auth-astro/client");
+         const searchParams = new URLSearchParams(window.location.search);
+      if (document.readyState !== "loading") {
+        signIn("spire");
+      } else {
+        document.addEventListener("DOMContentLoaded", function () {
+          signIn("spire", {redirect: true, callbackUrl: searchParams.get("callbackUrl") || "/" });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Signing in...</h1>
+  </body>
+</html>

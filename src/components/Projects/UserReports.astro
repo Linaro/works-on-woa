@@ -1,0 +1,109 @@
+---
+import type { CollectionEntry } from "astro:content";
+import dayjs from "dayjs";
+
+type Props<T extends "games"> = {
+  reports: CollectionEntry<`user_reports_${T}`>[];
+  type: T;
+};
+const { reports, type } = Astro.props;
+console.log(reports);
+---
+
+{
+  reports?.length > 0 && (
+    <section class="mb-8">
+      <h2 class="px-0 text-xl">User Reports</h2>
+      <ul class="flex flex-col gap-4">
+        {reports.map(({ data }: any) => (
+          <li class="w-full p-5 bg-white text-black rounded-xl">
+            <h4 class="mb-4">
+              {type === "games" && (
+                <b
+                  class=""
+                  class:list={[
+                    "mr-4 px-4 rounded-xl text-white",
+                    data.compatibility === "perfect" && "bg-green-700 ",
+                    data.compatibility === "playable" && "bg-green-700",
+                    data.compatibility === "runs" && "bg-orange-500",
+                    data.compatibility === "unplayable" && "bg-red-500",
+                  ]}
+                >
+                  {data.compatibility.toUpperCase()}
+                </b>
+              )}
+              <i>
+                {data.reporter}
+                {data.date_tested
+                  ? ` - ${dayjs(data.date_tested).format("YYYY-MM-DD")}`
+                  : ""}
+              </i>
+            </h4>
+            <ul class="flex flex-row flex-wrap gap-x-16 gap-y-6">
+              {() => {
+                if (type === "games") {
+                  return (
+                    <>
+                      {data.device_configuration && (
+                        <li>
+                          <b>Device Configuration: </b>
+                          <span>{data.device_configuration}</span>
+                        </li>
+                      )}
+                      {data.os_version && (
+                        <li>
+                          <b>OS Build Number: </b>
+                          <span>{data.os_version}</span>
+                        </li>
+                      )}
+                      {data.driver_id && (
+                        <li>
+                          <b>Driver ID: </b>
+                          <span>{data.driver_id}</span>
+                        </li>
+                      )}
+                      {data.auto_super_resolution && (
+                        <li class="basis-full">
+                          <h5 class="mb-2 font-bold">
+                            Auto Super Resolution:{" "}
+                          </h5>
+                          <ul class="flex gap-x-8 ml-6 flex-wrap">
+                            <li>
+                              <b>Compatible: </b>
+                              <span>
+                                {data.auto_super_resolution.compatibility}
+                              </span>
+                            </li>
+                            <li>
+                              <b>Enablement: </b>
+                              <span>
+                                {data.auto_super_resolution.enablement}
+                              </span>
+                            </li>
+                            {data.auto_super_resolution.fps_boost && (
+                              <li>
+                                <b>FPS Boost: </b>
+                                <span>
+                                  {data.auto_super_resolution.fps_boost}
+                                </span>
+                              </li>
+                            )}
+                          </ul>
+                        </li>
+                      )}
+                    </>
+                  );
+                }
+              }}
+
+              <li class="basis-full">
+                <b>Details: </b>
+                <p>{data.compatibility_details}</p>
+              </li>
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

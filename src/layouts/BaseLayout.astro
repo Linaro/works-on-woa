@@ -1,0 +1,24 @@
+---
+import BaseHead from "../components/Common/BaseHead.astro";
+import type { Breadcrumb } from "../components/Common/Breadcrumbs.astro";
+import Breadcrumbs from "../components/Common/Breadcrumbs.astro";
+import Footer from "../components/Common/Footer.astro";
+import Header from "../components/Common/Header.astro";
+
+type Props = { title: string; description: string; breadcrumbs: Breadcrumb[] };
+const props = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={props.title} description={props.description} />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
+      <Breadcrumbs breadcrumbs={props.breadcrumbs ?? []} />
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

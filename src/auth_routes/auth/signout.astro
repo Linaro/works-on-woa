@@ -1,0 +1,37 @@
+---
+import { getSession } from "auth-astro/server";
+
+Astro.response.headers.delete('Set-Cookie');
+const callbackUrl = Astro.url.searchParams.get("callbackUrl") || "/"
+---
+<html>
+  <head>
+    <script>
+      const { signOut } = await import("auth-astro/client");
+         const searchParams = new URLSearchParams(window.location.search);
+        
+          let callbackUrl = document.getElementById("callback-url")?.innerText 
+          if (callbackUrl === "/auth/signout") callbackUrl = "/"
+          if (document.readyState !== "loading") {
+            
+              signOut({
+                callbackUrl: callbackUrl || "/"
+              });
+            
+          } else {
+            document.addEventListener("DOMContentLoaded", function () {
+             
+                signOut(
+                  {
+                    callbackUrl: callbackUrl || "/"
+                  }
+                );
+              
+            });
+          }
+    </script>
+  </head>
+  <body>
+        <div id="callback-url" style="display:none">{callbackUrl}</div>
+  </body>
+</html>

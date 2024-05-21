@@ -1,0 +1,24 @@
+---
+import { getImage } from "astro:assets";
+import WoaBanner from "../../assets/WoA-banner.png";
+
+const optimizedBanner = await getImage({ src: WoaBanner });
+const bgUrl = `url('${optimizedBanner.src}')`;
+---
+
+<header class="w-full">
+  <div
+    class:list={[
+      "p-10 sm:p-20 flex flex-col items-center  bg-center bg-no-repeat",
+      `bg-[${bgUrl}]`,
+    ]}
+    style={`background-image: ${bgUrl}`}
+  >
+    <h1>
+      <a
+        class="text-3xl sm:text-5xl text-center text-white w-full no-underline"
+        href="/">Windows on Arm Ready Software</a
+      >
+    </h1>
+  </div>
+</header>

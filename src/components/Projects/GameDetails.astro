@@ -1,0 +1,178 @@
+---
+import { getEntries } from "astro:content";
+import { type CollectionEntry } from "astro:content";
+import dayjs from "dayjs";
+import { toTitleCase } from "../../util/formatting";
+
+type Props = { game: CollectionEntry<"games"> };
+const {
+  game: { data, render },
+} = Astro.props;
+
+const categories = await getEntries(data.categories);
+const {
+  icon,
+  name,
+  compatibility,
+  publisher,
+  compatibility_details,
+  date_tested,
+  frame_rate,
+  device_configuration,
+  os_version,
+  driver_id,
+  auto_super_resolution,
+  link,
+} = data;
+
+const { Content } = await render();
+---
+
+<div class="w-full">
+  <span class="hidden" data-pagefind-filter="type:games"></span>
+  <div class="flex justify-between items-center">
+    <p
+      class:list={[
+        "font-bold text-2xl md:text-center px-4 rounded-xl text-white",
+        compatibility === "perfect" && "bg-green-700 ",
+        compatibility === "playable" && "bg-green-700",
+        compatibility === "runs" && "bg-orange-500",
+        compatibility === "unplayable" && "bg-red-500",
+      ]}
+      data-pagefind-ignore
+      data-pagefind-filter={`compatibility:${toTitleCase(compatibility)}`}
+    >
+      {compatibility.toUpperCase()}
+    </p>
+    <img
+      src={icon !== "gaming-icon-white.svg"
+        ? `/icons/${icon}`
+        : "/icons/gaming-icon-black.svg"}
+      width="75px"
+      data-pagefind-meta={`image:/icons/${icon}`}
+      alt={`${name} logo`}
+    />
+  </div>
+  {compatibility_details && <p data-pagefind-ignore>{compatibility_details}</p>}
+
+  <ul class="flex flex-row flex-wrap gap-x-16 gap-y-6">
+    {
+      publisher && (
+        <li>
+          <b data-pagefind-ignore>Publisher: </b>
+          <span data-pagefind-meta="publisher">{publisher}</span>
+        </li>
+      )
+    }
+    <li>
+      <b data-pagefind-ignore>Categories: </b>
+      {
+        categories.length > 0 ? (
+          categories.map((category, index) => (
+            <span>
+              <a
+                data-pagefind-ignore
+                data-pagefind-filter="category"
+                class="text-blue-700 underline"
+                href={`/games/?category=${encodeURIComponent(category.data.name)}`}
+              >
+                {category.data.name}
+              </a>
+              <span>{index >= categories.length - 1 ? "" : ", "}</span>
+            </span>
+          ))
+        ) : (
+          <span>None</span>
+        )
+      }
+    </li>
+    {
+      date_tested && (
+        <li data-pagefind-ignore>
+          <b>Date tested: </b>
+          <span>{dayjs(date_tested).format("YYYY-MM-DD")}</span>
+        </li>
+      )
+    }
+    {
+      frame_rate && (
+        <li data-pagefind-ignore>
+          <b>Frame Rate: </b>
+          <span>{frame_rate}</span>
+        </li>
+      )
+    }
+    {
+      device_configuration && (
+        <li>
+          <b data-pagefind-ignore>Device Configuration: </b>
+          <span>{device_configuration}</span>
+        </li>
+      )
+    }
+    {
+      os_version && (
+        <li>
+          <b data-pagefind-ignore>OS Build Number: </b>
+          <span>{os_version}</span>
+        </li>
+      )
+    }
+    {
+      driver_id && (
+        <li>
+          <b data-pagefind-ignore>Driver ID: </b>
+          <span>{driver_id}</span>
+        </li>
+      )
+    }
+    {
+      auto_super_resolution && (
+        <li data-pagefind-ignore class="basis-full">
+          <h5 class="mb-2 font-bold">Auto Super Resolution: </h5>
+          <ul class="flex gap-x-8">
+            <li>
+              <b>Compatible: </b>
+              <span data-pagefind-filter="auto_super_resolution.compatibility">{auto_super_resolution.compatibility}</span>
+            </li>
+            
+            {auto_super_resolution.fps_boost && (
+              <li>
+                <b>FPS Boost: </b>
+                <span>{auto_super_resolution.fps_boost}</span>
+              </li>
+            )}
+          </ul>
+          <li>
+              <b>Opt In Steps: </b>
+              <div style="display: flex; flex-direction: column;">
+                {auto_super_resolution.opt_in_steps.map((item) => (
+                  <p>{item}</p>
+                ))}
+            </div>
+          </li>
+        </li>
+      )
+    }
+    {
+      link && (
+        <li class="basis-full">
+          <b data-pagefind-ignore>Link: </b>
+          <a href={link} target="_blank">
+            {link}
+          </a>
+        </li>
+      )
+    }
+    {
+      (
+        <li class="project-notes basis-full">
+          <b data-pagefind-ignore>Notes</b>
+          <div class="note-container">
+            <Content />
+          </div>
+        </li>
+      )
+    }
+  </ul>
+</div>

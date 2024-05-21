@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-800 text-white;
+  }
+
+  h1 {
+    font-weight: bold;
+    width: auto;
+    padding-bottom: 2rem;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    width: auto;
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .pagination-button {
+    @apply flex items-center justify-center px-4 h-10 ml-0 leading-tight  border bg-neutral-600 border-neutral-700 text-neutral-200 hover:bg-neutral-700 hover:text-white;
+  }
+}

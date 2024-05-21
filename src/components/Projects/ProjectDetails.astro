@@ -1,0 +1,29 @@
+---
+import GameDetails from "./GameDetails.astro";
+import type { CollectionEntry } from "astro:content";
+
+type Props<T extends "games"> = {
+  project: CollectionEntry<T>;
+  type: T;
+};
+
+const props = Astro.props;
+---
+
+<div
+  class="w-full max-w-full p-5 bg-white text-black rounded-xl relative prose prose-a:text-blue-500 prose-a:underline prose-a:break-all prose-ul:list-none prose-ul:m-0 prose-ul:p-0 prose-img:m-0 prose-li:m-0"
+>
+  {
+    () => {
+      if (props.type === "games") {
+        return <GameDetails game={props.project} />;
+      }
+    }
+  }
+</div>
+<style is:global lang="scss">
+  /* style markdown content here */
+  .project-notes:has(> *) {
+    display: none;
+  }
+</style>

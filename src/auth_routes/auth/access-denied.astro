@@ -1,0 +1,37 @@
+---
+import { getSession } from "auth-astro/server";
+
+Astro.response.headers.delete('Set-Cookie');
+const session = await getSession(Astro.request) as any;
+console.log(session)
+---
+<html>
+  <head>
+    <script>
+      const { signOut } = await import("auth-astro/client");
+         const searchParams = new URLSearchParams(window.location.search);
+          const signInStatus = document.getElementById('sign-in-status')
+          const isSignedIn = signInStatus?.dataset.isSignedIn === "true"
+          console.log(isSignedIn)
+          if (document.readyState !== "loading") {
+            if (isSignedIn) {
+              signOut();
+            }
+          } else {
+            document.addEventListener("DOMContentLoaded", function () {
+              if (isSignedIn) {
+                signOut();
+              }
+            });
+          }
+    </script>
+  </head>
+  <body>
+        <h1>
+          You do not have permission to see this site. Please contact{" "}
+          <a href="mailto:it-support@linaro.org">Linaro IT Support</a> to be granted
+          permission.
+        </h1>
+        <div id="sign-in-status" style="display:none" data-is-signed-in={session ? "true" : "false"} />
+  </body>
+</html>

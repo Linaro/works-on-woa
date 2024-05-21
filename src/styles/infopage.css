@@ -1,0 +1,57 @@
+main {
+  max-width: 40rem;
+  margin: 1.5rem auto;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  border-color: #ccc;
+  border-spacing: 0;
+  margin: 2rem auto;
+  font-size: 1.125rem;
+}
+
+table td {
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  border-color: inherit;
+  text-align: left;
+}
+
+table th {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+}

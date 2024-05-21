@@ -1,0 +1,81 @@
+on:
+  push:
+    branches: ["main", "staging"]
+  workflow_dispatch:
+
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "18.x"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: "0"
+      - name: Set up environment
+        run: |
+          if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
+            echo "No support for main branch yet"
+          else
+            echo "CF_DIST_ID_STATIC_LO=${{ vars.STAGING_CF_DIST }}" >> "$GITHUB_ENV"
+            echo "AWS_STATIC_SITE_URL=${{ vars.STAGING_SITE_URL }}" >> "$GITHUB_ENV"
+            echo "CF_DIST_ID_STATIC_LO=${{ vars.STAGING_CF_DIST }}"
+            echo "AWS_STATIC_SITE_URL=${{ vars.STAGING_SITE_URL }}"
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          npm run test --if-present
+
+      - name: Deploy to AWS
+        run: |
+          sudo apt update && sudo apt upgrade -y && sudo apt install -y pipx
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install --update
+          cp -R .aws ~/
+          pipx run pipenv install
+          $(pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }})
+          cd dist
+          echo "aws s3 sync --exclude \"*\" --include \"*.html\" --cache-control \"no-cache, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
+          /usr/local/bin/aws s3 sync --exclude "*" --include "*.html" --cache-control "no-cache, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+          echo "aws s3 sync --include \"*\" --exclude \"*.html\" --cache-control \"public, max-age=86400\" ./ \"s3://$AWS_STATIC_SITE_URL\" --delete --no-progress"
+          /usr/local/bin/aws s3 sync --include "*" --exclude "*.html" --cache-control "public, max-age=86400" ./ "s3://$AWS_STATIC_SITE_URL" --delete --no-progress
+          cd ..
+          echo "======== CREATING INVALIDATION ========"
+          invID=$(aws cloudfront create-invalidation \
+            --distribution-id "$CF_DIST_ID_STATIC_LO" --paths "/*" --query Invalidation.Id --output text)
+          export invID
+          echo "======== INVALIDATION ID ========"
+          echo "${invID}"
+          echo "======== POLLING COMPLETED INVALIDATION ========"
+          until aws cloudfront wait invalidation-completed \
+            --distribution-id "$CF_DIST_ID_STATIC_LO" --id "${invID}" 2>/dev/null
+          do
+            # Still waiting - output some progress
+            echo "Still waiting ..."
+            aws cloudfront get-invalidation \
+              --distribution-id "$CF_DIST_ID_STATIC_LO" --id "${invID}"
+            sleep 10
+          done
+          # and final confirmation
+          aws cloudfront get-invalidation \
+            --distribution-id "$CF_DIST_ID_STATIC_LO" --id "${invID}"
+          echo "======== INVALIDATION COMPLETED ========"

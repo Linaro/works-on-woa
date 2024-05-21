@@ -1,0 +1,53 @@
+---
+import { getEntry, type CollectionEntry } from "astro:content";
+import BaseHead from "../components/Common/BaseHead.astro";
+import Footer from "../components/Common/Footer.astro";
+import Search from "../components/Search/Search.astro";
+import ProjectDetails from "../components/Projects/ProjectDetails.astro";
+import dayjs from "dayjs";
+import UserReports from "../components/Projects/UserReports.astro";
+import BaseLayout from "./BaseLayout.astro";
+
+type Props<T extends "games"> = {
+  project: CollectionEntry<T>;
+  date: Date | null;
+  reports: CollectionEntry<`user_reports_${T}`>[];
+  type: T;
+};
+
+const { project, date, reports, type } = Astro.props;
+
+const {
+  data: { name },
+} = project;
+
+const title = "Games";
+---
+
+<BaseLayout
+  title={`${name} | Windows on Arm Ready ${title}`}
+  description={`Windows on Arm compatibility details for ${name}`}
+  breadcrumbs={[
+    { href: `/${type}/`, title: title },
+    { href: `/${type}/${project.slug}/`, title: name },
+  ]}
+>
+  <Search shouldRedirect={true} type={type} />
+  <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
+    <h1 class="font-bold text-3xl px-0 self-start" data-pagefind-meta="title">
+      {name}
+    </h1>
+    <span class="hidden" data-pagefind-sort="name">{name.toLowerCase()}</span>
+    <ProjectDetails project={project} type={type} />
+    <p class="w-full py-6">
+      Last updated {
+        import.meta.env.SSR ? (
+          <i>- not available on private staging site</i>
+        ) : (
+          dayjs(date.format("YYYY-MM-DD"))
+        )
+      }
+    </p>
+  </section>
+  <UserReports reports={reports} type={type} />
+</BaseLayout>

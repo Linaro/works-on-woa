@@ -1,0 +1,29 @@
+on:
+  pull_request:
+
+env:
+  NODE_VERSION: "20.x"
+
+permissions:
+  contents: read
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: "0"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Build to make sure data is OK
+        run: |
+          # Set up yarn
+          yarn install
+          # Build
+          yarn build:public

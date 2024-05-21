@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import PageFind from "./PageFind";
+
+export interface Props {
+  shouldRedirect: boolean;
+  type: "games";
+}
+
+const { shouldRedirect, type } = Astro.props;
+
+const categories = await getCollection("games_categories")
+---
+
+<section class="pt-10 min-h-[8rem]">
+  <PageFind
+    client:only="solid-js"
+    shouldRedirect={shouldRedirect}
+    type={type}
+    categories={categories}
+  />
+</section>

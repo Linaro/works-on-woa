@@ -1,0 +1,16 @@
+---
+const error = Astro.url.searchParams.get("error");
+console.log("error", error)
+Astro.response.headers.delete('Set-Cookie');
+---
+
+
+<html>
+  <body>
+        <h1>
+          {error}: Please contact{" "}
+          <a href="mailto:it-support@linaro.org">Linaro IT Support</a> to report the
+          issue.
+        </h1>
+  </body>
+</html>

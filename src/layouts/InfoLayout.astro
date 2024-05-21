@@ -1,0 +1,28 @@
+---
+import "../styles/infopage.css";
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter, file } = Astro.props;
+console.log(Astro.props);
+let title = frontmatter.title + " | Windows on Arm Ready Software";
+let breadcrumbs = [{ href: `${Astro.url.pathname}`, title: frontmatter.title }];
+if (frontmatter.title === "Homepage") {
+  title = "Windows on Arm Ready Software";
+  breadcrumbs = [];
+}
+---
+
+<BaseLayout
+  title={title}
+  description={frontmatter.description}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- <div
+    data-pagefind-
+    class="text-white mt-12 prose prose-invert prose-p:text-xl max-w-full mx-auto prose:text-white prose-th:text-black prose-th:px-2 prose-td:px-2"
+  > -->
+  <div
+    data-pagefind-
+    class="mt-12 max-w-full mx-auto prose prose-invert prose-th:text-black prose-strong:prose-table:text-black prose-code:prose-table:text-black prose-code:before:hidden prose-code:after:hidden prose-th:px-2 prose-td:px-2">
+    <slot />
+  </div>
+</BaseLayout>

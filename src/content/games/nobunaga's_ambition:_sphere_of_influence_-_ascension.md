@@ -1,0 +1,11 @@
+---
+name: "NOBUNAGA'S AMBITION: Sphere of Influence - Ascension"
+categories: [unknown]
+compatibility: playable
+compatibility_details: "Playing with the \"Fullscreen\" setting caused the cursor to disappear, making it hard to navigate, so game was tested using \"Borderless\" or \"No Frame\" setting "
+device_configuration: Snapdragon X Elite - 32 GB
+frame_rate: 59.2 FPS
+date_tested: 2024-04-01
+os_version: "26002.1"
+driver_id: 31.0.38.0
+---

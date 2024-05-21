@@ -1,0 +1,72 @@
+on:
+  push:
+    branches: ["main", "staging"]
+  workflow_dispatch:
+
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "20.x"
+
+permissions:
+  contents: read
+
+jobs:
+  pre-build:
+    runs-on: ubuntu-latest
+    outputs:
+      env_name: ${{ steps.set_env.outputs.env_name }}
+    steps:
+      - name: Set environment name
+        id: set_env
+        run: |
+          if [[ "${{ github.ref_name }}" == "staging" ]]; then
+            echo "env_name=Development" >> $GITHUB_OUTPUT
+          fi
+  build:
+    needs: [pre-build]
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ needs.pre-build.outputs.env_name }}
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: "0"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Build and deploy
+        run: |
+          # Set up the environment variables
+          export NODE_OPTIONS=--experimental-wasm-modules
+          export AUTH_SECRET=${{ secrets.AUTH_SECRET }}
+          export AUTH0_CLIENT_ID=${{ secrets.AUTH0_CLIENT_ID }}
+          export AUTH0_CLIENT_SECRET=${{ secrets.AUTH0_CLIENT_SECRET }}
+          export AUTH_TRUST_HOST=${{ vars.AUTH_TRUST_HOST }}
+          export AUTH0_ISSUER_BASE=${{ vars.AUTH0_ISSUER_BASE }}
+          export AUTH_API_URL=${{ vars.AUTH_API_URL }}
+          export SPIRE_WEBSITES_ID=${{ vars.SPIRE_WEBSITES_ID }}
+          export PUBLIC_KEY_URL=${{ vars.PUBLIC_KEY_URL }}
+          export CUSTOM_DOMAIN=${{ vars.CUSTOM_DOMAIN }}
+          # Set up yarn
+          yarn install
+          # Set up AWS CLI & credentials
+          sudo apt update && sudo apt upgrade -y && sudo apt install -y pipx
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install --update
+          cp -R .aws ~/
+          pipx run pipenv install
+          $(pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }})
+          # Build & deploy
+          if [[ "${{ github.ref_name }}" == "staging" ]]; then
+            export STAGE="dev"
+          fi
+          yarn sst deploy --stage $STAGE
