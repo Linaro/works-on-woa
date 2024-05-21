@@ -59,6 +59,8 @@ jobs:
           export SPIRE_WEBSITES_ID=${{ vars.SPIRE_WEBSITES_ID }}
           export PUBLIC_KEY_URL=${{ vars.PUBLIC_KEY_URL }}
           export CUSTOM_DOMAIN=${{ vars.CUSTOM_DOMAIN }}
+          export HOSTED_ZONE=${{ vars.HOSTED_ZONE }}
+          export IS_PUBLIC=${{ vars.IS_PUBLIC }}
           # Set up yarn
           yarn install
           # Set up AWS CLI & credentials
