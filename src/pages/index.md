@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/InfoLayout.astro
 title: "Homepage"
-description: Help page for using the Windows on Arm ready website.
+description: Windows on Arm Ready Software
 ---
 
 Welcome to Works on Windows on Arm! 

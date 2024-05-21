@@ -21,6 +21,7 @@ export default defineConfig({
   ...(is_public
     ? {
         output: "static",
+        adapter: aws(),
         integrations: [
           sitemap(),
           pagefind({

@@ -1,5 +1,5 @@
 import type { SSTConfig } from "sst";
-import { AstroSite, StaticSite } from "sst/constructs";
+import { AstroSite } from "sst/constructs";
 
 export default {
   config(_input) {
@@ -11,18 +11,20 @@ export default {
   },
   stacks(app) {
     app.stack(function Site({ stack }) {
-      if (process.env.IS_PUBLIC) {
-        const site = new StaticSite(stack, "staticSite", {
-          buildCommand: "yarn build:public",
-          path: "dist/",
+      if (process.env.IS_PUBLIC === "true") {
+        const site = new AstroSite(stack, "staticSite", {
           customDomain: {
             domainAlias: process.env.CUSTOM_DOMAIN!.replace("www.", ""),
             domainName: process.env.CUSTOM_DOMAIN!,
+            hostedZone: process.env.HOSTED_ZONE,
           },
           environment: {
             IS_PUBLIC: "true",
           }
         })
+        stack.addOutputs({
+          url: site.url,
+        });
       } else {
         const site = new AstroSite(stack, "protectedSite", {
           runtime: "nodejs20.x",
@@ -49,7 +51,7 @@ export default {
           url: site.url,
         });
       }
-     
+
     });
   },
 } satisfies SSTConfig;

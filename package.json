@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "sst bind astro dev",
     "preview": "astro preview",
-    "postbuild": "pagefind --site ./dist_prebuild/dist/client --output-path ./dist/client/pagefind",
     "start": "astro dev",
     "start:public": "IS_PUBLIC=true astro dev",
     "start:build": "IS_PUBLIC=true astro build --ignore-scripts && IS_PUBLIC=true astro dev",
