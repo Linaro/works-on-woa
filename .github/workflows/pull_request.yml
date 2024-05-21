@@ -1,5 +1,6 @@
 on:
-  pull_request:
+  pull_request_target:
+    branches: ["main", "staging"]
 
 env:
   NODE_VERSION: "20.x"
