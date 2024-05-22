@@ -40,11 +40,11 @@ const title = "Games";
     <span class="hidden" data-pagefind-sort="name">{name.toLowerCase()}</span>
     <ProjectDetails project={project} type={type} />
     <p class="w-full py-6">
-      Last updated {
-        import.meta.env.SSR ? (
-          <i>- not available on private staging site</i>
+      Report last updated: {
+        date ? (
+          dayjs(date).format("DD MMM YYYY")
         ) : (
-          dayjs(date.format("YYYY-MM-DD"))
+          <i>- not available on private staging site</i>
         )
       }
     </p>
