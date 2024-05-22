@@ -17,8 +17,6 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 
-console.log(`Slug is ${slug}`);
-
 let date: Date | null = null;
 
 const reports = await getCollection("user_reports_games", ({ data }: any) => {
@@ -27,17 +25,20 @@ const reports = await getCollection("user_reports_games", ({ data }: any) => {
 
 type Props = CollectionEntry<"games">;
 let project;
-if (date) {
+if (!import.meta.env.IS_PUBLIC) {
   project = await getEntry("games", slug);
 } else {
   project = Astro.props;
   try {
     const { stdout } = await execAsync(
-      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/games/${slug}.md`
+      `git log -1 --pretty="format:%ci" -- "${process.cwd()}/src/content/games/${project.id}"`
     );
+    if (stdout == "") {
+      throw new Error(`Failed to retrieve date for ${process.cwd()}/src/content/games/${project.id}`);
+    }
     date = new Date(stdout);
   } catch (e) {
-    throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);
+    throw new Error(`Failed to parse date for ${project.id}.\n${e}`);
   }
 }
 ---
