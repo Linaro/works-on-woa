@@ -17,6 +17,8 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 
+console.log(`Slug is ${slug}`);
+
 let date: Date | null = null;
 
 const reports = await getCollection("user_reports_games", ({ data }: any) => {
@@ -25,7 +27,7 @@ const reports = await getCollection("user_reports_games", ({ data }: any) => {
 
 type Props = CollectionEntry<"games">;
 let project;
-if (import.meta.env.SSR) {
+if (date) {
   project = await getEntry("games", slug);
 } else {
   project = Astro.props;
