@@ -7,4 +7,7 @@ frame_rate: 55.69 FPS
 date_tested: 2024-04-29
 os_version: "26100.1"
 driver_id: 31.0.52.0
+auto_super_resolution:
+    compatibility: yes, out-of-box
+    fps_boost: 15+% Boost
 ---
