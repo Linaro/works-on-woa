@@ -16,7 +16,7 @@ For games, the **Compatibility** field can be one of the following values:
 | ---------- | ------------------------------------- |
 | perfect    | Runs at 60+ FPS at 1080p resolution with no glitches / issues that affect gaming experience |
 | playable   | Runs at 30+ FPS at 1080p resolution with minimal glitches/ issues that affect gaming experience |
-| runs       | Runs with bugs that may affect gaming experience |
+| runs       | Runs at less than 30 FPS and/or with bugs that may affect gaming experience |
 | unplayable | Does not run due to anti-cheat or other failures |
 
 In each game, you'll see the following fields. Below, we've defined what they mean.
