@@ -2,7 +2,6 @@
 name: "Kingdom Come: Deliverance"
 categories: [unknown]
 compatibility: playable
-compatibility_details: "Retested on CRM 6306 + 255.1 driver"
 device_configuration: Surface Laptop (7th Edition)
 frame_rate: 40.0 FPS
 date_tested: 2024-04-29
