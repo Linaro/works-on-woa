@@ -1,7 +1,7 @@
 ---
-name: "Roblox"
+name: "ARK: Survival Evolved"
 categories: [unknown]
-publisher: ROBLOX Corporation
+publisher: Studio Wildcard
 compatibility: runs
 frame_rate: 0.0 FPS
 date_tested: 2023-11-01
