@@ -1,8 +1,7 @@
 ---
 name: "dzclient"
 categories: [unknown]
-publisher: 网之易
+publisher: Ã§Â½â€˜Ã¤Â¹â€¹Ã¦Ëœâ€œ
 compatibility: runs
-frame_rate: 0.0 FPS
 os_version: "0.0"
 ---

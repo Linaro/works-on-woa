@@ -14,6 +14,8 @@ Once you have your account, go to https://github.com/Linaro/works-on-woa/fork to
 
 Once you have forked the repository, clone it to your computer with the `git clone` command. See https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository for more guidance if you need it.
 
+**NOTE:** You need to clone the repository into WSL (Windows Subsystem for Linux). The repository will not build locally unless it is in WSL.
+
 Once you have cloned the repository, make the necessary changes to the files. Guidance can be found below on the contents required and optional for each of the different files. If you need help, please create an issue via https://github.com/Linaro/works-on-woa/issues/new and we'll do our best to help.
 
 When you've made your changes, [commit them](https://github.com/git-guides/git-commit) to your own repository and then [push](https://github.com/git-guides/git-push) them back to GitHub.
