@@ -6,7 +6,15 @@ description: How to contribute to this site
 
 # Contributing to this site
 
-## How to contribute
+## How to contribute via Microsoft Forms
+
+Fill out the below form with your game test details. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions. 
+
+<iframe width="800px" height= "480px" src= "https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[Click here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u) to open the MS Form directly
+
+## How to contribute via GitHub
 
 You will need your own GitHub account. If you do not already have one, go to https://github.com, click on **Sign up** in the top right corner of the page and follow the instructions from there.
 
