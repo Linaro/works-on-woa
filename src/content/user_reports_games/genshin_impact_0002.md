@@ -6,7 +6,6 @@ date_tested: 2024-06-26
 os_version: "26100.999"
 compatibility_details: ""
 auto_super_resolution:
-    compatibility: Unknown
+    compatibility: unknown
     fps boost: 
-reporter: 
 ---
