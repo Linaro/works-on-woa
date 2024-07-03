@@ -6,7 +6,7 @@ date_tested: 2024-06-21
 os_version: ""
 compatibility_details: "you can open the game but it doesn't show gpu in settings and you can't use vulkan only directx12 and the loading screen infinitely spins after pressing play"
 auto_super_resolution:
-    compatibility: No
+    compatibility: no
     fps boost: 
 reporter: josher14
 ---
