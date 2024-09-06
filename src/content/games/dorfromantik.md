@@ -1,12 +1,9 @@
 ---
 name: "Dorfromantik"
 categories: [unknown]
-publisher:  Toukana Interactive
-compatibility: playable
-device_configuration: Snapdragon 7c Gen 2 - 4GB
-os_version: "Windows 11"
-compatibility_details: "Everything works, recommends Low graphics settings"
-auto_super_resolution:
-    compatibility: unknown
-    fps boost: 
+compatibility: unplayable
+device_configuration: Surface Laptop (7th Edition)
+date_tested: 2024-04-01
+os_version: "26002.1"
+driver_id: 31.0.38.0
 ---

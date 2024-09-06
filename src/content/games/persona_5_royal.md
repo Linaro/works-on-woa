@@ -8,6 +8,6 @@ date_tested: 2024-07-11
 os_version: "10.0.26100"
 compatibility_details: "Crashes after the loading screen."
 auto_super_resolution:
-    compatibility: yes, opt-in
+    compatibility: unknown
     fps boost: 
 ---
