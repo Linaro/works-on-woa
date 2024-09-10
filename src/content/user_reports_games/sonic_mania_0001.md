@@ -8,5 +8,4 @@ compatibility_details: "Game runs a 60+ fps at 1080p. few tearing but smooth ove
 auto_super_resolution:
     compatibility: unknown
     fps boost: 
-reporter: 
 ---

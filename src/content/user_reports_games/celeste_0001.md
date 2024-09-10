@@ -1,5 +1,5 @@
 ---
-game: "Celeste"
+game: "celeste"
 compatibility: unplayable
 device_configuration: Snapdragon X Elite - 32 GB
 date_tested: 2024-09-05

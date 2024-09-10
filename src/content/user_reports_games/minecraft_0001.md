@@ -1,5 +1,5 @@
 ---
-game: "Minecraft"
+game: "minecraft"
 compatibility: playable
 device_configuration: Qualcomm Snapdragon X Elite X1E-78-100
 date_tested: 2024-09-01

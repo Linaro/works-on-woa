@@ -8,5 +8,4 @@ compatibility_details: "Graphics Glitches"
 auto_super_resolution:
     compatibility: unknown
     fps boost: 
-reporter: 
 ---
