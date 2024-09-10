@@ -8,5 +8,4 @@ compatibility_details: "When entering new levels, and going into options menu, y
 auto_super_resolution:
     compatibility: no
     fps boost: 
-reporter: 
 ---

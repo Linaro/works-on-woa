@@ -8,5 +8,4 @@ compatibility_details: "Does not launch"
 auto_super_resolution:
     compatibility: no
     fps boost: 
-reporter: 
 ---
