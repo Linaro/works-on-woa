@@ -4,12 +4,15 @@ import PageFind from "./PageFind";
 
 export interface Props {
   shouldRedirect: boolean;
-  type: "games";
+  type: "games" | "applications";
 }
 
 const { shouldRedirect, type } = Astro.props;
 
-const categories = await getCollection("games_categories")
+const categories =
+  type === "games"
+    ? await getCollection("games_categories")
+    : await getCollection("applications_categories");
 ---
 
 <section class="pt-10 min-h-[8rem]">
