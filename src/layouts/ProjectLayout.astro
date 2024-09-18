@@ -8,7 +8,7 @@ import dayjs from "dayjs";
 import UserReports from "../components/Projects/UserReports.astro";
 import BaseLayout from "./BaseLayout.astro";
 
-type Props<T extends "games"> = {
+type Props<T extends "games" | "applications"> = {
   project: CollectionEntry<T>;
   date: Date | null;
   reports: CollectionEntry<`user_reports_${T}`>[];
@@ -21,7 +21,7 @@ const {
   data: { name },
 } = project;
 
-const title = "Games";
+const title = type === "applications" ? "Applications" : "Games";
 ---
 
 <BaseLayout
@@ -32,7 +32,7 @@ const title = "Games";
     { href: `/${type}/${project.slug}/`, title: name },
   ]}
 >
-  <Search shouldRedirect={true} type={type} />
+  {type === "games" && <Search shouldRedirect={true} type={type} />}
   <section data-pagefind-body class="flex flex-col items-center p-1 pt-0">
     <h1 class="font-bold text-3xl px-0 self-start" data-pagefind-meta="title">
       {name}
@@ -49,5 +49,18 @@ const title = "Games";
       }
     </p>
   </section>
+
+  <section class="flex flex-col items-center">
+    {
+      type === "applications" && (
+        <a href="/applications/search/" class="mx-auto">
+          <button class="px-8 py-2 bg-white text-black rounded-full font-bold mt-16 mb-8 text-xl hover:bg-zinc-500 hover:text-white">
+            Search for more applications
+          </button>
+        </a>
+      )
+    }
+  </section>
+
   <UserReports reports={reports} type={type} />
 </BaseLayout>

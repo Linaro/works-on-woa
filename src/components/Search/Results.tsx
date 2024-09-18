@@ -41,7 +41,8 @@ const Result = ({
 }: {
   result: any;
   onClickFilterLink: JSX.CustomEventHandlersCamelCase<HTMLButtonElement>["onClick"];
-  type: "games";
+  type: "applications" | "games";
+
 }) => {
   const [project] = createResource(result, getProject);
   return (
@@ -67,6 +68,35 @@ const Result = ({
             </a>
 
             <div class="px-3 flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
+
+              <Show when={type === "applications"}>
+                <Switch fallback={
+                  <p class="text-red-500 flex flex flex-col sm:flex-row gap-1 flex-wrap">
+                    {project().filters.compatibility[0]}
+                  </p>
+                }>
+                  <Match when={project().filters.compatibility[0] === 'Compatible'}>
+                    <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
+                      <span class="pr-2">✓</span>{" "}
+                      {project().filters.compatibility[0]}
+                    </p>
+                  </Match>
+                  <Match when={project().filters.compatibility[0] === 'Compatible via Web Browser'}>
+                    <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
+                      <span class="pr-2">✓</span>{" "}
+                      {project().filters.compatibility[0]}
+                    </p>
+                  </Match>
+                  <Match when={project().filters.compatibility[0] === 'Vendor Announced - Launching Soon'}>
+                    <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
+                      {project().filters.compatibility[0]}
+                    </p>
+                  </Match>
+                </Switch>
+
+              </Show>
+
+              <Show when={type === "games"}>
               <p class="flex gap-2 flex-wrap">
                 <b>Categories: </b>
                 <span class="flex flex-wrap gap-1">
@@ -84,6 +114,28 @@ const Result = ({
                   </For>
                 </span>
               </p>
+              </Show>
+              <Show when={type === "applications"}>
+              <p class="flex gap-2 flex-wrap">
+                <b>Categories: </b>
+                <span class="flex flex-wrap gap-1">
+                  <For each={project().filters.category}>
+                    {(cat: string) => (
+                        <span class="inline">
+                          {cat}
+                        </span>
+                    )}
+                  </For>
+                </span>
+              </p>
+              </Show>
+
+              <Show when={type === "applications"}>
+                <p class="break-all text-orange-200">
+                  <b>Version:&nbsp;</b>
+                  <span class="min-w-0">{project()?.meta.version_from}</span>
+                </p>
+              </Show>
 
               <Show when={type === "games"}>
                 <p>
@@ -134,7 +186,7 @@ const Results = ({
   search: Accessor<SearchQuery>;
   clearSearch: () => void;
   setFilter: (filter: string, selection: string, value: boolean) => void;
-  type: "games";
+  type: "applications" | "games";
 }) => {
   const [paginatedResults, setPaginatedResults] = createSignal([]);
 
@@ -214,6 +266,19 @@ const Results = ({
             </button>
           </div>
         </Match>
+
+        <Match
+          when={
+            request().query === null &&
+            request().filters?.category?.length === 0
+          }
+        >
+          <p class="text-center text-xl">
+            To begin searching, enter a search query and press enter, or choose
+            a category.
+          </p>
+        </Match>
+
       </Switch>
     </div>
   );
