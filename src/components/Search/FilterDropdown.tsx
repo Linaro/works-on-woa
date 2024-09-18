@@ -17,10 +17,19 @@ import type { CollectionEntry } from "astro:content";
 
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
+type FilterConfig = {
+  key: FilterKey;
+  name: string;
+}[];
+
 const gameFilters: { key: FilterKey; name: string }[] = [
   { key: "auto_super_resolution.compatibility", name: "Auto SR" },
   { key: "category", name: "Category" },
   { key: "compatibility", name: "Compatibility" }
+];
+
+const applicationFilters: { key: FilterKey; name: string }[] = [
+  { key: "category", name: "Category"},
 ];
 
 const FilterDropdown = ({
@@ -29,13 +38,13 @@ const FilterDropdown = ({
   categories,
   type,
 }: {
-  type: "games";
+  type: "games" | "applications";
   search: Accessor<{ query: string | null; filters: Filters }>;
   setFilter: (filter: string, selection: string, value: boolean) => void;
-  categories: CollectionEntry<"games_categories">[];
+  categories: CollectionEntry<"games_categories" | "applications_categories">[];
 
 }) => {
-  const filters = gameFilters;
+  const filters = type === "applications" ? applicationFilters : gameFilters;
 
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
     filters.reduce(

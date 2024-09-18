@@ -1,0 +1,51 @@
+---
+import { getSession } from "auth-astro/server";
+
+Astro.response.headers.delete("Set-Cookie");
+const session = (await getSession(Astro.request)) as any;
+console.log(session);
+---
+
+<html>
+  <head>
+    <script>
+      const { signOut } = await import("auth-astro/client");
+      const searchParams = new URLSearchParams(window.location.search);
+      const signInStatus = document.getElementById("sign-in-status");
+      const isSignedIn = signInStatus?.dataset.isSignedIn === "true";
+      console.log(isSignedIn);
+      if (document.readyState !== "loading") {
+        if (isSignedIn) {
+          signOut();
+        }
+      } else {
+        document.addEventListener("DOMContentLoaded", function () {
+          if (isSignedIn) {
+            signOut();
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h2>
+      You have successfully signed in but either you have not yet verified your
+      email address or your account has been disabled.
+    </h2>
+    <h2>
+      To verify your email address, please click on the link in the email that
+      was sent to you when you signed-up for this website.
+    </h2>
+    <h2>
+      If you cannot find that email or you believe you have verified your email
+      address, please contact{" "}
+      <a href="mailto:it-support@linaro.org">Linaro IT Support</a> for further assistance.
+    </h2>
+    <div
+      id="sign-in-status"
+      style="display:none"
+      data-is-signed-in={session ? "true" : "false"}
+    >
+    </div>
+  </body>
+</html>

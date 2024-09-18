@@ -1,11 +1,46 @@
 import { defineCollection, reference, z } from "astro:content";
 
+const applications_categories = defineCollection({
+  type: "content",
+  schema: z.object({
+    name: z.string(),
+    description: z.string().optional(),
+  }),
+});
+
 const games_categories = defineCollection({
   type: "content",
   schema: z.object({
     name: z.string(),
     description: z.string().optional(),
   }),
+});
+
+const applications = defineCollection({
+  type: "content",
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      icon: z.string().optional().default("application-icon-white.svg"),
+      categories: z.array(reference("applications_categories")),
+      link: z.string().url().optional(),
+      version_from: z.string().optional(),
+      compatibility: z
+        .enum(["native", "emulation", "no", "unknown"])
+        .optional()
+        .default("unknown"),
+      display_result: z
+        .enum([
+          "Compatible",
+          "Vendor Announced - Launching Soon",
+          "Unsupported",
+          "Unknown"
+        ])
+        .optional()
+        .default("Compatible"),
+      vendor_announcement_link: z.string().url().optional(),
+      featured: z.boolean().optional(),
+    }),
 });
 
 const games = defineCollection({
@@ -59,8 +94,24 @@ const user_reports_games = defineCollection({
   }),
 });
 
+const user_reports_applications = defineCollection({
+  type: "content",
+  schema: z.object({
+    reporter: z.string().optional().default("Anonymous"),
+    application: reference("applications"),
+    device_configuration: z.string().optional(),
+    date_tested: z
+      .date({ invalid_type_error: "Invalid date format. Must be YYYY-MM-DD" })
+      .optional(),
+    compatibility_details: z.string(),
+  }),
+});
+
 export const collections = {
+  applications_categories,
   games_categories,
   games,
+  applications,
   user_reports_games,
+  user_reports_applications,
 };

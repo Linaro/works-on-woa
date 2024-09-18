@@ -1,8 +1,9 @@
 ---
 import GameDetails from "./GameDetails.astro";
+import ApplicationDetails from "./ApplicationDetails.astro";
 import type { CollectionEntry } from "astro:content";
 
-type Props<T extends "games"> = {
+type Props<T extends "games" | "applications"> = {
   project: CollectionEntry<T>;
   type: T;
 };
@@ -17,6 +18,8 @@ const props = Astro.props;
     () => {
       if (props.type === "games") {
         return <GameDetails game={props.project} />;
+      } else if (props.type === "applications") {
+        return <ApplicationDetails application={props.project} />;
       }
     }
   }

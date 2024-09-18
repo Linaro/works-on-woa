@@ -1,0 +1,50 @@
+---
+import { type CollectionEntry, getCollection, getEntry } from "astro:content";
+import ProjectLayout from "../../layouts/ProjectLayout.astro";
+import { exec } from "node:child_process";
+import { promisify } from "node:util";
+
+const execAsync = promisify(exec);
+
+export async function getStaticPaths() {
+  const projects = await getCollection("applications");
+
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: project,
+  }));
+}
+
+const { slug } = Astro.params;
+
+const reports = await getCollection(
+  "user_reports_applications",
+  ({ data }: any) => {
+    return data.application.slug === slug;
+  }
+);
+
+let date: Date | null = null;
+type Props = CollectionEntry<"applications">;
+let project;
+if (import.meta.env.SSR) {
+  project = await getEntry("applications", slug);
+} else {
+  project = Astro.props;
+  try {
+    const { stdout } = await execAsync(
+      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/applications/${slug}.md`
+    );
+    date = new Date(stdout);
+  } catch (e) {
+    throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);
+  }
+}
+---
+
+<ProjectLayout
+  project={project}
+  type="applications"
+  date={date}
+  reports={reports}
+/>
