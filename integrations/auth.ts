@@ -34,7 +34,7 @@ export default (config: AstroAuthConfig = {}): AstroIntegration => ({
                     
                 });
 
-                ["access-denied", "error", "index", "signin", "signout"].forEach((route: string) => {
+                ["access-denied", "error", "index", "signin", "signout", "user-inactive"].forEach((route: string) => {
                     injectRoute({
                         pattern: `/auth/${route == "index" ? "" : route}`,
                         entrypoint: `./src/auth_routes/auth/${route}.astro`,
