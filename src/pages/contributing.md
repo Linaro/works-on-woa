@@ -12,7 +12,12 @@ description: How to contribute to this site
 Contributions for apps can be made directly to <a href="#how-to-contribute-via-github-apps">the github project</a> or using a convenient <a href="#how-to-contribute-via-microsoft-forms-apps">form process</a>.
 
 ### How to contribute via Microsoft Forms (apps)
-Comming soon!
+
+Fill out the below form with your App request. You can use this form for requesting a new app to be tested and added, to tell us where we have something wrong for an app, or to submit your own new app data. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions.
+
+<iframe width="640px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[Click here](https://forms.office.com/r/JZ1ywk2FaJ) to open the MS Form directly
 
 ### How to contribute via GitHub (apps)
 
