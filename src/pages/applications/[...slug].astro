@@ -27,7 +27,7 @@ const reports = await getCollection(
 let date: Date | null = null;
 type Props = CollectionEntry<"applications">;
 let project;
-if (import.meta.env.SSR) {
+if (!import.meta.env.IS_PUBLIC) {
   project = await getEntry("applications", slug);
 } else {
   project = Astro.props;
@@ -35,6 +35,7 @@ if (import.meta.env.SSR) {
     const { stdout } = await execAsync(
       `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/applications/${slug}.md`
     );
+    console.log("Output from git log:", stdout);
     date = new Date(stdout);
   } catch (e) {
     throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);
