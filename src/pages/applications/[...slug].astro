@@ -33,14 +33,14 @@ if (!import.meta.env.IS_PUBLIC) {
   project = Astro.props;
   try {
     const { stdout } = await execAsync(
-      `git log -1 --pretty="format:%ci" -- "${process.cwd()}/src/content/applications/${project.id}.md"`
+      `git log -1 --pretty="format:%ci" -- "${process.cwd()}/src/content/applications/${project.id}"`
     );
     if (stdout == "") {
-      throw new Error(`Failed to retrieve date for ${project.id}.md`);
+      throw new Error(`Failed to retrieve date for ${project.id}`);
     }
     date = new Date(stdout);
   } catch (e) {
-    throw new Error(`Failed to parse date for ${project.id}.md.\n${e}`);
+    throw new Error(`Failed to parse date for ${project.id}\n${e}`);
   }
 }
 ---
