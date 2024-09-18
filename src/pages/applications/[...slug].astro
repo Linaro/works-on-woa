@@ -35,7 +35,6 @@ if (!import.meta.env.IS_PUBLIC) {
     const { stdout } = await execAsync(
       `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/applications/${slug}.md`
     );
-    console.log("Output from git log:", stdout);
     date = new Date(stdout);
   } catch (e) {
     throw new Error(`Failed to parse date for ${slug}.md.\n${e}`);
