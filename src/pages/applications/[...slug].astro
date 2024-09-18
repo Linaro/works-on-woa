@@ -33,7 +33,7 @@ if (!import.meta.env.IS_PUBLIC) {
   project = Astro.props;
   try {
     const { stdout } = await execAsync(
-      `git log -1 --pretty="format:%ci" ${process.cwd()}/src/content/applications/${slug}.md`
+      `git log -1 --pretty="format:%ci" -- "${process.cwd()}/src/content/applications/${slug}.md"`
     );
     date = new Date(stdout);
   } catch (e) {
