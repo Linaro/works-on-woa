@@ -65,7 +65,12 @@ const url = `/applications/${slug}/`;
             }
           }
         </p>
-        
+
+        <p class="break-all text-orange-200">
+          <b>Version From:&nbsp;</b>
+          <span class="min-w-0">{data.version_from}</span>
+        </p>
+
         <p class="px-3 flex flex-wrap">
           <b>Categories: </b>
           <span class="px-3 flex flex-wrap gap-1">
@@ -79,11 +84,6 @@ const url = `/applications/${slug}/`;
               ))
             }
           </span>
-        </p>
-
-        <p class="break-all text-orange-200">
-          <b>Version:&nbsp;</b>
-          <span class="min-w-0">{data.version_from}</span>
         </p>
       </div>
     </div>

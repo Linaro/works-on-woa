@@ -115,6 +115,14 @@ const Result = ({
                 </span>
               </p>
               </Show>
+
+              <Show when={type === "applications"}>
+                <p class="break-all text-orange-200">
+                  <b>Version from:&nbsp;</b>
+                  <span class="min-w-0">{project()?.meta.version_from}</span>
+                </p>
+              </Show>
+
               <Show when={type === "applications"}>
               <p class="flex gap-2 flex-wrap">
                 <b>Categories: </b>
@@ -128,13 +136,6 @@ const Result = ({
                   </For>
                 </span>
               </p>
-              </Show>
-
-              <Show when={type === "applications"}>
-                <p class="break-all text-orange-200">
-                  <b>Version:&nbsp;</b>
-                  <span class="min-w-0">{project()?.meta.version_from}</span>
-                </p>
               </Show>
 
               <Show when={type === "games"}>

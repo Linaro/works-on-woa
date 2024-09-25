@@ -67,6 +67,15 @@ const { Content } = await render();
 </div>
 
 <ul class="flex flex-row flex-wrap gap-x-16 gap-y-6">
+  {
+    version_from && (
+      <li>
+        <b data-pagefind-ignore>Version From: </b>
+        <span data-pagefind-meta="version_from">{version_from}</span>
+      </li>
+    )
+  }
+
   <li>
     <b data-pagefind-ignore>Categories: </b>
     {
@@ -84,14 +93,6 @@ const { Content } = await render();
       )
     }
   </li>
-  {
-    version_from && (
-      <li>
-        <b data-pagefind-ignore>Version From: </b>
-        <span data-pagefind-meta="version_from">{version_from}</span>
-      </li>
-    )
-  }
   {
     () => {
       if (link)
