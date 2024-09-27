@@ -1,6 +1,6 @@
 ---
 name: "Brave Browser"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: native
 display_result: "Compatible"
 featured: true

@@ -1,6 +1,6 @@
 ---
 name: "CA Secure Browser"
-categories: ['communication']
+categories: ['education', 'browsers']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "V16"

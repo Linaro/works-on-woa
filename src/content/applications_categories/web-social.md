@@ -1,4 +1,4 @@
 ---
-name: Web & Social Media
-description: Software for web application development
+name: Social Media
+description: Software for social media services
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Microsoft Azure Virtual Desktop"
-categories: ['virtualization']
+categories: ['remote-desktop']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.2.4157.0"

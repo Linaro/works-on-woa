@@ -1,4 +1,4 @@
 ---
 name: Multimedia Design
-description: Creativity software
+description: Audio and Visual Creativity software
 ---

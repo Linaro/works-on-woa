@@ -1,6 +1,6 @@
 ---
 name: "HeidiSQL"
-categories: ['dev-tools']
+categories: ['dev-tools','database']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "12.7.0.6850"

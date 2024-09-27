@@ -1,6 +1,6 @@
 ---
 name: "Tor Browser"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "13.0.8"

@@ -1,6 +1,6 @@
 ---
 name: "Postgre SQL"
-categories: ['dev-tools']
+categories: ['dev-tools','database']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "15.4"

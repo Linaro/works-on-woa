@@ -1,6 +1,6 @@
 ---
 name: "Vivaldi Browser"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: native
 display_result: "Compatible"
 version_from: "6.1"
