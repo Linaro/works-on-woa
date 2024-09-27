@@ -1,6 +1,6 @@
 ---
 name: "Davinci Resolve"
-categories: ['creative']
+categories: ['creative','video']
 compatibility: native
 display_result: "Compatible"
 version_from: "19.0.0"

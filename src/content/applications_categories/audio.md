@@ -1,4 +1,4 @@
 ---
-name: Audio editor
-description: Applications to edit audio
+name: Digital Audio Workstation
+description: Creator apps for audio / studio customers
 ---

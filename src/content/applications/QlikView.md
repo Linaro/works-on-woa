@@ -1,6 +1,6 @@
 ---
 name: "QlikView"
-categories: ['data-vis']
+categories: ['business']
 compatibility: native
 display_result: "Compatible"
 version_from: "nan"

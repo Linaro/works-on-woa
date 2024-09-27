@@ -1,6 +1,6 @@
 ---
 name: "PyTorch"
-categories: ['comms']
+categories: ['dev-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "2.3.0"

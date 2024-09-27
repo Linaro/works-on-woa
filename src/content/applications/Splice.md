@@ -1,6 +1,6 @@
 ---
 name: "Splice"
-categories: ['musicvideos']
+categories: ['entertainment','music']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "5.0.6"

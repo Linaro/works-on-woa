@@ -1,6 +1,6 @@
 ---
 name: "Cricut Design Space"
-categories: ['creativity']
+categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "V8.21.54"

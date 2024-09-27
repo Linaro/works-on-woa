@@ -1,6 +1,6 @@
 ---
 name: "Opera"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: native
 display_result: "Compatible"
 version_from: "112.0.5172.0"

@@ -1,6 +1,6 @@
 ---
 name: "VNC Server"
-categories: ['business']
+categories: ['business','remote-desktop']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "7.8.0.51458"

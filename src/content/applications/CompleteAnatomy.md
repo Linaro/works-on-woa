@@ -1,6 +1,6 @@
 ---
 name: "Complete Anatomy"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "10.1.1"

@@ -1,6 +1,6 @@
 ---
 name: "Rstudio"
-categories: ['dev-enablement']
+categories: ['dev-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "2023.12.1+402"

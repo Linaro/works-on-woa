@@ -1,6 +1,6 @@
 ---
 name: "SQL SMSS"
-categories: ['dev-tools']
+categories: ['dev-tools', 'database']
 compatibility: native
 display_result: "Compatible"
 version_from: "19.1"
