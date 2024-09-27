@@ -1,6 +1,6 @@
 ---
 name: "Wave Browser"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "92.0.4515.159"

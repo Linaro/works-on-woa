@@ -1,6 +1,6 @@
 ---
 name: "Netflix"
-categories: ['musicvideos']
+categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"
 version_from: "6.98.1805.0"

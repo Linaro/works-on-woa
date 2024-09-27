@@ -1,6 +1,6 @@
 ---
 name: "Scratch 2 Offline Editor"
-categories: ['instructional']
+categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "461"
