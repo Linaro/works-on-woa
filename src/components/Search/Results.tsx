@@ -227,14 +227,24 @@ const Results = ({
       setFilter(filter, selection, true);
     };
 
-  return (
+    console.log(search().filters)
+
+    return (
     <div class={`w-full my-6`}>
       <Switch>
         <Match when={results.loading}>
-          <div class="w-full flex flex-col items-center gap-3 p-10 ">
-            Loading results...
-          </div>
+        <Show
+            when={
+              search().query !== null ||
+              search().filters?.category?.length > 0
+            }
+          >
+            <div class="w-full flex flex-col items-center gap-3 p-10 ">
+              Loading results...
+            </div>
+          </Show>
         </Match>
+
         <Match when={results().results.length > 0}>
           <div class="flex flex-col">
             <ul>
@@ -256,13 +266,19 @@ const Results = ({
             />
           </div>
         </Match>
-        <Match when={results().results.length === 0}>
+
+        <Match when={ 
+                      results().results.length === 0 &&
+                      (search().query !== null &&
+                      search().filters !== null)
+                    }>
           <div class="w-full flex flex-col items-center gap-3 p-10">
-            No Results
+            <p class="text-center text-xl mb-2">
+              There is no information in our data about that. Why not contact the developer on their web site, or complete a feedback request <a class="underline text-blue-500" href="/contributing">here</a> for us to investigate.
+            </p>
             <button
               class="px-10 py-2 bg-white hover:bg-slate-300 border-white text-black font-bold border rounded-full"
-              onClick={clearSearch}
-            >
+              onClick={clearSearch}>
               Clear search
             </button>
           </div>
@@ -270,8 +286,8 @@ const Results = ({
 
         <Match
           when={
-            request().query === null &&
-            request().filters?.category?.length === 0
+            search().query === null &&
+            search().filters?.category?.length === 0
           }
         >
           <p class="text-center text-xl">
