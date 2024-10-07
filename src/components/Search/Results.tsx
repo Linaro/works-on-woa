@@ -180,6 +180,7 @@ const Results = ({
   clearSearch,
   setFilter,
   type,
+  searchRun,
 }: {
   page: Accessor<number>;
   setPage: Setter<number>;
@@ -188,6 +189,7 @@ const Results = ({
   clearSearch: () => void;
   setFilter: (filter: string, selection: string, value: boolean) => void;
   type: "applications" | "games";
+  searchRun: Accessor<boolean>
 }) => {
   const [paginatedResults, setPaginatedResults] = createSignal([]);
 
@@ -269,8 +271,7 @@ const Results = ({
 
         <Match when={ 
                       results().results.length === 0 &&
-                      (search().query !== null &&
-                      search().filters !== null)
+                      searchRun() === Boolean(true)
                     }>
           <div class="w-full flex flex-col items-center gap-3 p-10">
             <p class="text-center text-xl mb-2">
