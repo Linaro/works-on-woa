@@ -147,11 +147,16 @@ const PageFind = ({
       compatibility: url.searchParams.get("compatibility")?.split(","),
       auto_super_resolution: url.searchParams.get("auto_super_resolution")?.split(","),
       page: url.searchParams.get("page"),
+      searchrun: false,
     };
   });
 
   const [page, setPage] = createSignal(
     pathParams().page ? Number(pathParams().page) : 1
+  );
+
+  const [searchrun, setSearchRun] = createSignal(
+    pathParams().searchrun ? pathParams().searchrun: Boolean(false) 
   );
 
   const [search, setSearch] = createSignal<{
@@ -233,6 +238,7 @@ const PageFind = ({
       window.history.replaceState({}, "", url.toString());
       setRequest(search());
       setPage(1);
+      setSearchRun(Boolean(true));
     };
 
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
@@ -304,6 +310,7 @@ const PageFind = ({
           clearSearch={clearSearch}
           setFilter={setFilter}
           type={type}
+          searchRun={searchrun}
         />
       </Show>
     </div>
