@@ -189,7 +189,7 @@ const Results = ({
   clearSearch: () => void;
   setFilter: (filter: string, selection: string, value: boolean) => void;
   type: "applications" | "games";
-  searchRun: Accessor<boolean>
+  searchRun: Accessor<Number>
 }) => {
   const [paginatedResults, setPaginatedResults] = createSignal([]);
 
@@ -271,7 +271,7 @@ const Results = ({
 
         <Match when={ 
                       results().results.length === 0 &&
-                      searchRun() === Boolean(true)
+                      searchRun() === 1
                     }>
           <div class="w-full flex flex-col items-center gap-3 p-10">
             <p class="text-center text-xl mb-2">
