@@ -1,0 +1,145 @@
+---
+import { getEntries } from "astro:content";
+import { type CollectionEntry } from "astro:content";
+import { toTitleCase } from "../../util/formatting";
+
+type Props = { application: CollectionEntry<"applications"> };
+const {
+  application: { data, render },
+} = Astro.props;
+
+const categories = await getEntries(data.categories);
+const {
+  icon,
+  name,
+  compatibility,
+  link,
+  version_from,
+  vendor_announcement_link,
+  display_result,
+} = data;
+
+const { Content } = await render();
+---
+
+<span class="hidden" data-pagefind-filter="type:applications"></span>
+<div class="flex justify-between items-center">
+  <img
+    src={icon !== "application-icon-white.svg"
+      ? `/icons/${icon}`
+      : "/icons/application-icon-black.svg"}
+    width="75px"
+    data-pagefind-meta={`image:/icons/${icon}`}
+    alt={`${name} logo`}
+  />
+  <p
+    class:list={["font-bold text-2xl md:text-center px-4 rounded-xl"]}
+    data-pagefind-filter={`compatibility:${data.display_result}`}
+  >
+    {
+      () => {
+        if (!data.display_result) return;
+        if (
+          ["Compatible", "Compatible via Web Browser"].includes(data.display_result)
+        ) { 
+          return (
+            <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+              <span class="text-2xl md:text-5xl pr-2 md:pr-4">✓</span>{" "}
+              {data.display_result}
+            </p>
+          );
+        }
+        if (data.display_result === "Vendor Announced - Launching Soon") {
+          return (
+            <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+              {data.display_result}
+            </p>
+          );
+        }
+        return (
+          <p class="text-red-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+            {data.display_result}
+          </p>
+        );
+      }
+    }
+  </p>
+</div>
+
+<ul class="flex flex-row flex-wrap gap-x-16 gap-y-6">
+  {
+    version_from && (
+      <li>
+        <b data-pagefind-ignore>Version From: </b>
+        <span data-pagefind-meta="version_from">{version_from}</span>
+      </li>
+    )
+  }
+
+  <li>
+    <b data-pagefind-ignore>Categories: </b>
+    {
+      categories.length > 0 ? (
+        categories.map((category, index) => (
+          <span
+              data-pagefind-ignore
+              data-pagefind-filter="category" >
+              {category.data.name}
+            <span>{index >= categories.length - 1 ? "" : ", "}</span>
+          </span>
+        ))
+      ) : (
+        <span>None</span>
+      )
+    }
+  </li>
+  {
+    () => {
+      if (link)
+      {
+        if (data.display_result == "Unknown")
+        {
+          return (
+            <li class="basis-full">
+              <a href={link} target="_blank">
+                <button class="text-white no-underline break-all bg-violet-700 px-8 md:px-24 py-2 rounded-md hover:bg-violet-900">
+                  Website
+                </button>
+              </a>
+            </li>
+            );
+        } 
+
+        return (
+          <li class="basis-full">
+            <a href={link} target="_blank">
+              <button class="text-white no-underline break-all bg-violet-700 px-8 md:px-24 py-2 rounded-md hover:bg-violet-900">
+                Download
+              </button>
+            </a>
+          </li>
+        );
+      }
+      if (vendor_announcement_link)
+        return (
+          <li class="basis-full">
+            <a href={vendor_announcement_link} target="_blank">
+              <button class="text-white no-underline break-all bg-green-500 px-8 md:px-24 py-2 rounded-md hover:bg-green-700">
+                More Info
+              </button>
+            </a>
+          </li>
+        );
+    }
+  }
+  {
+    (
+      <li class="project-notes basis-full">
+        <b data-pagefind-ignore>Notes</b>
+        <div class="note-container">
+          <Content />
+        </div>
+      </li>
+    )
+  }
+</ul>

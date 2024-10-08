@@ -54,7 +54,7 @@ function extractFacts(str: string) {
 
 export const parseBiscuitMetadata = (auth: Authorizer) => {
     const facts = auth.queryWithLimits(
-        rule`u($id, $first_name, $surname) <- user($id, $email_address, $first_name, $surname)`,
+        rule`u($id, $first_name, $surname, $status) <- user($id, $email_address, $first_name, $surname, $status)`,
         limits,
     );
 

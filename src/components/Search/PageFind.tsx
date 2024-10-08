@@ -27,13 +27,13 @@ export type Results = {
     };    
     category: Record<
       CollectionEntry<
-        "games_categories"
+      "applications_categories" | "games_categories"
       >["data"]["name"],
       number
     >;
-    type: Record<"games", number>;
+    type: Record<"games" | "applications", number>;
     compatibility: Record<
-      CollectionEntry<"games">["data"]["compatibility"],
+      CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
   };
@@ -44,13 +44,13 @@ export type Results = {
     };
     category: Record<
       CollectionEntry<
-        "games_categories"
+        "applications_categories" | "games_categories"
       >["data"]["name"],
       number
     >;
-    type: Record<"games", number>;
+    type: Record<"games" | "applications", number>;
     compatibility: Record<
-      CollectionEntry<"games">["data"]["compatibility"],
+      CollectionEntry<"applications" | "games">["data"]["compatibility"],
       number
     >;
   };
@@ -66,6 +66,14 @@ const fetchResults = async ({
 
   let adjustedAutoSR: {[key: string]: string[]}= { 
     "any": filters["auto_super_resolution.compatibility"]
+  }
+  
+  if (
+    filters.type[0] === "applications" &&
+    query === null &&
+    (!filters?.category || filters?.category?.length === 0)
+  ) {
+    return await pagefind.debouncedSearch();
   }
 
   if(filters["auto_super_resolution.compatibility"] && filters["auto_super_resolution.compatibility"].includes("unknown")){
@@ -96,7 +104,13 @@ const fetchFilterOptions = async () => {
 };
 
 const getQueryParams = ({ filters, query }: SearchQuery) => {
-  const url = new URL(window.location.origin + "/" + filters.type[0] + "/");
+  const url = new URL(
+    window.location.origin +
+      "/" +
+      filters.type[0] +
+      (filters.type[0] === "applications" ? "/search" : "") +
+      "/"
+  );
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
     url.searchParams.append("category", filters.category.join(","));
@@ -117,10 +131,11 @@ const PageFind = ({
   auto_super_resolution
 }: {
   shouldRedirect: boolean;
-  type: "games";
+  type: "games" | "applications";
   auto_super_resolution: "yes, out-of-box"| "yes, opt-in" | "no" | "unknown";
   categories: (
     | CollectionEntry<"games_categories">
+    | CollectionEntry<"applications_categories">
   )[];
 }) => {
   const pathParams = createMemo(() => {
@@ -132,11 +147,16 @@ const PageFind = ({
       compatibility: url.searchParams.get("compatibility")?.split(","),
       auto_super_resolution: url.searchParams.get("auto_super_resolution")?.split(","),
       page: url.searchParams.get("page"),
+      searchrun: Number(0),
     };
   });
 
   const [page, setPage] = createSignal(
     pathParams().page ? Number(pathParams().page) : 1
+  );
+
+  const [searchrun, setSearchRun] = createSignal(
+    pathParams().searchrun ? pathParams().searchrun: Number(0) 
   );
 
   const [search, setSearch] = createSignal<{
@@ -190,6 +210,22 @@ const PageFind = ({
     setSearch(newSearch);
     setRequest(newSearch);
     setPage(1);
+    setSearchRun(Number(0));
+    const url = getQueryParams(newSearch);
+    window.history.replaceState({}, "", url.toString());
+  };
+
+  const clearSearch2 = () => {
+    const newSearch = {
+      query: null,
+      filters: {
+        type: [type],
+      },
+    };
+    setSearch(newSearch);
+    setRequest(newSearch);
+    setPage(1);
+    setSearchRun(Number(2));
     const url = getQueryParams(newSearch);
     window.history.replaceState({}, "", url.toString());
   };
@@ -218,7 +254,16 @@ const PageFind = ({
       window.history.replaceState({}, "", url.toString());
       setRequest(search());
       setPage(1);
-    };
+      if (searchrun() === 2 )
+      {
+        setSearchRun(0);
+        createEffect(() => console.log(searchrun));
+      }
+      else
+      {
+        setSearchRun(1);
+      }
+};
 
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
@@ -235,8 +280,15 @@ const PageFind = ({
           onSubmit={onSearch}
           class="bg-white text-black basis-11/12 rounded-full md:rounded-r-none flex flex-row py-2 px-1 items-center pl-6"
         >
-            <input
-              placeholder="Search for games"
+          <label class="hidden" for="project-search">
+            Search for applications
+          </label>
+          <input
+            placeholder={
+              type === "applications"
+                ? "Search for applications"
+                : "Search for games"
+            }
               name="project-search"
               value={search().query ?? ""}
               onInput={(e) =>
@@ -257,7 +309,7 @@ const PageFind = ({
           </button>
           <button
             class="py-2 px-2"
-            onClick={clearSearch}
+            onClick={clearSearch2}
             aria-label="Clear search query"
           >
             <ClearIcon />
@@ -282,6 +334,7 @@ const PageFind = ({
           clearSearch={clearSearch}
           setFilter={setFilter}
           type={type}
+          searchRun={searchrun}
         />
       </Show>
     </div>

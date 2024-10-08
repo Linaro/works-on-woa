@@ -5,8 +5,87 @@ description: How to contribute to this site
 ---
 
 # Contributing to this site
+- <a href="#applications">Applications</a>
+- <a href="#games">Games</a>
 
-## How to contribute via Microsoft Forms
+## Applications
+Contributions for apps can be made directly to <a href="#how-to-contribute-via-github-apps">the github project</a> or using a convenient <a href="#how-to-contribute-via-microsoft-forms-apps">form process</a>.
+
+### How to contribute via Microsoft Forms (apps)
+
+Fill out the below form with your App request. You can use this form for requesting a new app to be tested and added, to tell us where we have something wrong for an app, or to submit your own new app data. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions.
+
+<iframe width="800px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[Click here](https://forms.office.com/r/JZ1ywk2FaJ) to open the MS Form directly
+
+### How to contribute via GitHub (apps)
+
+You will need your own GitHub account. If you do not already have one, go to https://github.com, click on **Sign up** in the top right corner of the page and follow the instructions from there.
+
+Once you have your account, go to https://github.com/Linaro/works-on-woa/fork to *fork* (i.e. make your own copy) of the repository for this website.
+
+Once you have forked the repository, clone it to your computer with the `git clone` command. See https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository for more guidance if you need it.
+
+Once you have cloned the repository, make the necessary changes to the files. Guidance can be found below on the contents required and optional for each of the different files. If you need help, please create an issue via https://github.com/Linaro/works-on-woa/issues/new and we'll do our best to help.
+
+When you've made your changes, [commit them](https://github.com/git-guides/git-commit) to your own repository and then [push](https://github.com/git-guides/git-push) them back to GitHub.
+
+Finally, create a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to ask for your changes to be merged into the official repository. Your request will be reviewed and, if approved, merged into the site.
+
+**PLEASE NOTE!** It is **strongly** recommended that you try to build the website locally on your computer before pushing changes back to GitHub. This will ensure that the site builds correctly and you do not have any errors in your contribution. Please see the section *Developer Info* in the README file for instructions on how to do this.
+
+#### File content details
+
+For applications there is a defined *schema* to ensure consistency of data across the submissions.
+
+Each entry is stored in a file with a `.md` file extension. Application entries are stored under `src/content/applications`.
+
+If you are contributing your own report on an existing entry, it should be stored under `src/content/user_reports_applications` or `src/content/user_reports_games` as appropriate.
+
+Each file consists of:
+
+- 3 dashes `---`
+- Project-specific information as detailed below
+- 3 dashes `---`
+- Any additional notes in GitHub Markdown format
+
+##### Applications schema
+
+Information stored in an application entry must follow this schema:
+
+| Field | Type | Notes |
+|-|-|-|
+| `name` | string | The application's name. |
+| `icon` | string | Optional. The path to the icon file to use, relative to `public/icons`. 512x512 maximum. Use SVG if possible. |
+| `categories` | list | A list of one or more categories that the application belongs to. A list of categories can be found in `src/content/applications_categories`. Categories are referenced by their file name in this folder. |
+| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | Displayed Arm compatibility:<br>Compatible: the tested app works on Windows on Arm<br>Unknown: The status is unknown<br>Unsupported: this value is not currently used<br>Vendor Announced - Launching Soon: this value is currently not used |
+| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Windows on Arm compatibility:<br>Native: WoA native support available<br>Emulation: Works with x86/x64 emulation<br>No: Not yet ported<br>Unknown: Status not known |
+| `version_from` | string | The version that the software is available to use from.<br><br>For software that can be compiled from one version, but is only publicly available from the other (i.e., Python was able to be compiled way earlier than they started making WoA releases), the publicly available version is to be entered here, as that is typically what most end users would want.<br><br>The compilable from version (and any caveats associated with it) can be added freehand in the notes section. |
+| `link` | URL | A link to where the software can be downloaded, or the application's main website. |
+
+### Applications User Report schema
+
+Users can add their own findings regarding an application that has been added to this site. The file can have any **unique** filename (with a `.md` extension) and the contents must follow this schema:
+
+| Field | Type | Notes |
+|-|-|-|
+| `reporter` | string | Optional. Your name. |
+| `application` | string | The name of the application from its own filename, i.e. **without** the `.md` extension |
+| `device_configuration` | string | Optional. Any information about your configuration that may have an influence on the report. |
+| `date_tested` | date | Optional. Format is `YYYY-MM-DD` |
+| `compatibility_details` | string | Your report of how the application ran for you. |
+
+#### Categories
+
+The categories list is constructed with an open square bracket `[`, one or more categories separated by commas, and a close square bracket `]`.
+
+Categories must match the file name of an `.md` file in the appropriate categories folder as specified earlier.
+
+## Games
+Contributions can be made directly to <a href="#how-to-contribute-via-github-games">the github project</a> or using a convenient <a href="#how-to-contribute-via-microsoft-forms-games">form process</a>.
+
+### How to contribute via Microsoft Forms (games)
 
 Fill out the below form with your game test details. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions. 
 
@@ -14,7 +93,7 @@ Fill out the below form with your game test details. We recommend you contribute
 
 [Click here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u) to open the MS Form directly
 
-## How to contribute via GitHub
+### How to contribute via GitHub (games)
 
 You will need your own GitHub account. If you do not already have one, go to https://github.com, click on **Sign up** in the top right corner of the page and follow the instructions from there.
 
@@ -32,7 +111,7 @@ Finally, create a [Pull Request](https://docs.github.com/en/pull-requests/collab
 
 **PLEASE NOTE!** It is **strongly** recommended that you try to build the website locally on your computer before pushing changes back to GitHub. This will ensure that the site builds correctly and you do not have any errors in your contribution. Please see the section *Developer Info* in the README file for instructions on how to do this.
 
-## File content details
+### File content details
 
 For games, there is a defined *schema* to ensure consistency of data across the submissions.
 
@@ -47,7 +126,7 @@ Each file consists of:
 - 3 dashes `---`
 - Any additional notes in GitHub Markdown format
 
-### Games schema
+#### Games schema
 
 | Field | Type | Notes |
 |-|-|-|
@@ -75,7 +154,7 @@ The `auto_super_resolution` block is optional but, if present, the attribute `co
       compatibility: yes, out-of-box
 ```
 
-### Games User Report schema
+#### Games User Report schema
 
 Users can add their own findings regarding a game that has been added to this site. The file can have any **unique** filename (with a `.md` extension) and the contents must follow this schema:
 
@@ -96,7 +175,7 @@ Users can add their own findings regarding a game that has been added to this si
 
 Note that for user game reports, auto super resolution compatibility can only be `yes, opt-in` or `no`, or `unknown`.
 
-### Categories
+#### Categories
 
 For the game category list, this is constructed with an open square bracket `[`, one or more categories separated by commas, and a close square bracket `]`.
 

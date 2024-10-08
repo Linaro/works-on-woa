@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
 
-type Props<T extends "games"> = {
+type Props<T extends "games" | "applications"> = {
   reports: CollectionEntry<`user_reports_${T}`>[];
   type: T;
 };
@@ -94,7 +94,18 @@ console.log(reports);
                     </>
                   );
                 }
-              }}
+                if (type === "applications") {
+                  return (
+                    <>
+                      {data.device_configuration && (
+                        <li>
+                          <b>Device Configuration: </b>
+                          <span>{data.device_configuration}</span>
+                        </li>
+                      )}
+                    </>
+                  );
+              }}}
 
               <li class="basis-full">
                 <b>Details: </b>

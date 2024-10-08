@@ -1,0 +1,97 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+type Props = CollectionEntry<"applications">;
+const { id, data, slug } = Astro.props;
+const { icon, name, categories } = data;
+
+// get category data from references
+const categoryPromises = categories.map(async (category) =>
+  getEntry("applications_categories", category.slug)
+);
+const categoriesData = await Promise.all(categoryPromises);
+const url = `/applications/${slug}/`;
+---
+
+<li
+  class="flex flex-col sm:flex-row bg-white bg-opacity-10 text-white rounded-md mb-2 no-underline min-h-28"
+>
+  <article class="flex flex-row items-center">
+    <div class="m-5 w-[50px]">
+      <a href={url} class="cursor-pointer">
+        <img
+          src={`/icons/${data.icon}`}
+          class="max-h-[50px] min-w-[50px] mx-auto"
+          height="50px"
+          width="50px"
+          alt={`${data.name} logo`}
+        />
+      </a>
+    </div>
+    <div class="border-l border-gray-500 flex-grow">
+      <a href={url} class="cursor-pointer">
+        <h2 class="font-bold text-lg md:text-xl p-3">
+          {data.name}
+        </h2>
+      </a>
+
+      <div class="flex flex-col sm:flex-row gap-3 mb-3 flex-wrap">
+        <p class="flex flex-col sm:flex-row mb-3 flex-wrap">
+          {
+            () => {
+              if (!data.display_result) return;
+              if (
+                ["Compatible", "Compatible via Web Browser"].includes(data.display_result)
+              ) {
+                return (
+                  <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
+                    <span class="pr-2">✓</span>{" "}
+                    {data.display_result}
+                  </p>
+                );
+              }
+              if (data.display_result === "Vendor Announced - Launching Soon") {
+                return (
+                  <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
+                    {data.display_result}
+                  </p>
+                );
+              }
+              return (
+                <p class="text-red-500 flex flex flex-col sm:flex-row gap-1 flex-wrap">
+                  {data.display_result}
+                </p>
+              );
+            }
+          }
+        </p>
+
+        <p class="break-all text-orange-200">
+          <b>Version From:&nbsp;</b>
+          <span class="min-w-0">{data.version_from}</span>
+        </p>
+
+        <p class="px-3 flex flex-wrap">
+          <b>Categories: </b>
+          <span class="px-3 flex flex-wrap gap-1">
+            {
+              categoriesData.map((category) => (
+                <span
+                  class="after:content-[','] last:after:content-[''] inline"
+                >
+                  {category.data.name}
+                </span>
+              ))
+            }
+          </span>
+        </p>
+      </div>
+    </div>
+  </article>
+  <a
+    class="p-5 text-5xl text-blue-500 cursor-pointer align-middle hidden flex-grow-0 sm:block sm:flex-grow text-right"
+    href={url}
+  >
+    »
+  </a>
+</li>

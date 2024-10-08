@@ -1,10 +1,10 @@
 import { defineMiddleware } from "astro/middleware";
-import { getSession} from 'auth-astro/server';
-import { verifyWebsitePermission } from "../lib/auth";
- 
-export const onRequest = defineMiddleware(async(context, next)=> {
+import { getSession } from 'auth-astro/server';
+import { verifyWebsitePermission, verifyBiscuitUser, parseBiscuitMetadata } from "../lib/auth";
+
+export const onRequest = defineMiddleware(async (context, next) => {
     let session = await getSession(context.request) as any;
-    
+
     // remove authentication during prebuild so that pagefind can successfully build indexes
     if (process.env.PRE_BUILD) {
         return next()
@@ -16,7 +16,7 @@ export const onRequest = defineMiddleware(async(context, next)=> {
     }
 
     // redirect to login if no session
-    if (!session){
+    if (!session) {
         return Response.redirect(new URL(`/auth/signin?callbackUrl=${context.url.pathname}`, context.url), 302)
     }
 
@@ -28,6 +28,20 @@ export const onRequest = defineMiddleware(async(context, next)=> {
     // sign out to refresh login if expired
     if (Number(session.expires_at) <= Date.now() / 1000) {
         return Response.redirect(new URL(`/auth/signout?callbackUrl=${context.url.pathname}`, context.url), 302)
+    }
+
+    // Check that the user has verified their email address
+    const auth = verifyBiscuitUser(session.access_token, session.public_keys, import.meta.env.SPIRE_WEBSITES_ID);
+
+    const metadata = parseBiscuitMetadata(auth);
+    if (!metadata) {
+        console.log("error extracting authz metadata")
+        return Response.redirect(new URL('/auth/access-denied', context.url), 302)
+    }
+    const [_id, _first_name, _surname, status] = metadata;
+    if (status !== "active") {
+        console.log("User is not active")
+        return Response.redirect(new URL('/auth/user-inactive', context.url), 302)
     }
 
     // redirect to access denied if biscuit permission fails
@@ -46,5 +60,5 @@ export const onRequest = defineMiddleware(async(context, next)=> {
 
     // fallback to access denied
     return Response.redirect(new URL('/auth/access-denied', context.url), 302)
-    
+
 })
