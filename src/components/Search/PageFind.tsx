@@ -147,7 +147,7 @@ const PageFind = ({
       compatibility: url.searchParams.get("compatibility")?.split(","),
       auto_super_resolution: url.searchParams.get("auto_super_resolution")?.split(","),
       page: url.searchParams.get("page"),
-      searchrun: false,
+      searchrun: Number(0),
     };
   });
 
@@ -156,7 +156,7 @@ const PageFind = ({
   );
 
   const [searchrun, setSearchRun] = createSignal(
-    pathParams().searchrun ? pathParams().searchrun: Boolean(false) 
+    pathParams().searchrun ? pathParams().searchrun: Number(0) 
   );
 
   const [search, setSearch] = createSignal<{
@@ -210,6 +210,22 @@ const PageFind = ({
     setSearch(newSearch);
     setRequest(newSearch);
     setPage(1);
+    setSearchRun(Number(0));
+    const url = getQueryParams(newSearch);
+    window.history.replaceState({}, "", url.toString());
+  };
+
+  const clearSearch2 = () => {
+    const newSearch = {
+      query: null,
+      filters: {
+        type: [type],
+      },
+    };
+    setSearch(newSearch);
+    setRequest(newSearch);
+    setPage(1);
+    setSearchRun(Number(2));
     const url = getQueryParams(newSearch);
     window.history.replaceState({}, "", url.toString());
   };
@@ -238,8 +254,16 @@ const PageFind = ({
       window.history.replaceState({}, "", url.toString());
       setRequest(search());
       setPage(1);
-      setSearchRun(Boolean(true));
-    };
+      if (searchrun() === 2 )
+      {
+        setSearchRun(0);
+        createEffect(() => console.log(searchrun));
+      }
+      else
+      {
+        setSearchRun(1);
+      }
+};
 
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
@@ -285,7 +309,7 @@ const PageFind = ({
           </button>
           <button
             class="py-2 px-2"
-            onClick={clearSearch}
+            onClick={clearSearch2}
             aria-label="Clear search query"
           >
             <ClearIcon />
