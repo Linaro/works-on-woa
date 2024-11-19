@@ -24,6 +24,20 @@ function getPublicKeys() {
   });
 }
 
+async function getBiscuitFromJWT(accessToken: string) {
+  const res = await fetch(`${AUTH_API_URL}/session`, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`
+    }
+  });
+  const resJson = await res.json();
+  if (!res.ok || !resJson) {
+    console.log(resJson);
+    throw new Error("failed to fetch biscuit from session");
+  }
+  return resJson.biscuit.token;
+}
+
 async function afterToken(accessToken: string) {
   // fetch biscuit public keys
   const res = await getPublicKeys();
@@ -107,11 +121,12 @@ export default defineConfig({
       // this is only run after sign in
       if (account) {
         try {
+          let biscuit = await getBiscuitFromJWT(account.access_token!);
           const { profile, public_keys } = await afterToken(
-            account.access_token!
+            biscuit
           );
           return {
-            access_token: account.access_token,
+            access_token: biscuit,
             // refresh_token: account.refresh_token,
             expires_at: account.expires_at,
             public_keys,
