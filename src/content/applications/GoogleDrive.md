@@ -2,8 +2,7 @@
 name: "Google Drive"
 categories: ['prod']
 compatibility: native
-display_result: "Vendor Announced - Launching Soon"
-link: https://www.google.com/drive/download/
+display_result: "Compatible"
+link: https://dl.google.com/drive-file-stream/arm64beta/GoogleDriveBetaSetup.exe
+icon: GoogleDrive.svg
 ---
-Windows architecture is not supported error is observed during installation.
-The web browser interface offers some of the functionality to access cloud file storage. 
