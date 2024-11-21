@@ -1,9 +1,10 @@
 ---
-name: "Signal Application"
+name: "Signal"
 categories: ['web-social']
-compatibility: emulation
+compatibility: native
 display_result: "Compatible"
-version_from: "6.421.0"
+version_from: "7.34.0"
 link: https://signal.org/download/windows/
+icon: Signal.png
 ---
 
