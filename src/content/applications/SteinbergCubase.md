@@ -1,9 +1,10 @@
 ---
 name: "Steinberg Cubase"
 categories: ['audio']
-compatibility: emulation
+compatibility: native
 display_result: "Compatible"
-version_from: "1.35.0"
-link: https://www.steinberg.net/cubase/trail/
+version_from: "13.0.50.0"
+link: https://download.steinberg.net/press/windows-on-arm-images.zip
+icon: SteinburgCubase.png
 ---
 
