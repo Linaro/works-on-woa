@@ -1,6 +1,6 @@
 ---
 name: "New Microsoft Teams"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: native
 display_result: "Compatible"
 version_from: "24102.2225.2904.5181"

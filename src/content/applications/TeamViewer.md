@@ -1,6 +1,6 @@
 ---
 name: "Team Viewer"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "15.44.4"

@@ -1,6 +1,6 @@
 ---
 name: "Skype"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "15.112.3203.0"

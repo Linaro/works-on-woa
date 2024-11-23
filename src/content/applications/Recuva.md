@@ -1,5 +1,5 @@
 ---
-name: "Recuva"
+name: "Recuva Professional"
 categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"

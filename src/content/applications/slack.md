@@ -1,6 +1,6 @@
 ---
 name: "Slack"
-categories: ['collboration','business']
+categories: ['collaboration','business']
 compatibility: native
 display_result: "Compatible"
 featured: true
