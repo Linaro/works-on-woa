@@ -1,5 +1,5 @@
 ---
-name: "ESET Consumer"
+name: "ESET Essential / Premium"
 categories: ['anti-virus']
 compatibility: emulation
 display_result: "Compatible"

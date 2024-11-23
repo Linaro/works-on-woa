@@ -1,6 +1,6 @@
 ---
 name: "TextNow - Unlimited Texts + Calls"
-categories: ['communication']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "23.21.0.0"

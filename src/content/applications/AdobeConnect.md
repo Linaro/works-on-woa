@@ -1,6 +1,6 @@
 ---
 name: "Adobe Connect"
-categories: ['communication']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "2024.4.729.64"

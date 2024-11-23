@@ -1,6 +1,6 @@
 ---
 name: "Zoom Rooms"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "5.16.10"

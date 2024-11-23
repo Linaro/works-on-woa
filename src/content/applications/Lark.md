@@ -1,6 +1,6 @@
 ---
 name: "Lark"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "7.6.11"

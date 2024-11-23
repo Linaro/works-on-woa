@@ -1,6 +1,6 @@
 ---
 name: "LINE"
-categories: ['communication']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "8.7.0.3302"

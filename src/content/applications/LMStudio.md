@@ -1,6 +1,6 @@
 ---
 name: "LM Studio"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: native
 display_result: "Compatible"
 version_from: "0.2.31"

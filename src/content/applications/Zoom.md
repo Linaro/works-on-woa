@@ -1,6 +1,6 @@
 ---
 name: "Zoom"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: native
 display_result: "Compatible"
 featured: true
