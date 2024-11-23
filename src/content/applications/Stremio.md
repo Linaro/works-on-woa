@@ -1,6 +1,6 @@
 ---
 name: "Stremio"
-categories: ['musicvideos']
+categories:  ['music', 'entertainment']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "4.4.168"

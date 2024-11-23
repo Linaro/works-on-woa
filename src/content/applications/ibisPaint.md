@@ -1,6 +1,6 @@
 ---
 name: "ibis Paint"
-categories: ['creativity']
+categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "12.0.5.0"
