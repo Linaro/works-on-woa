@@ -1,6 +1,6 @@
 ---
 name: "ArozOS"
-categories: ['nw-cloud']
+categories: ['utils-tools', 'oss']
 compatibility: native
 display_result: "Compatible"
 version_from: "v2.020"

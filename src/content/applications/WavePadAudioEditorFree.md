@@ -1,6 +1,6 @@
 ---
 name: "WavePad Audio Editor Free"
-categories: ['creativity']
+categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "19.28"

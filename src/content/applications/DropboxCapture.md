@@ -1,6 +1,6 @@
 ---
 name: "Dropbox Capture"
-categories: ['nw-cloud']
+categories: ['utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "115.1.0.0"

@@ -1,6 +1,6 @@
 ---
 name: "GNU Wget"
-categories: ['nw-cloud']
+categories: ['utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.21.4"

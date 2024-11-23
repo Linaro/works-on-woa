@@ -1,6 +1,6 @@
 ---
 name: "Mattermost"
-categories: ['nw-cloud']
+categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "5.9.0"

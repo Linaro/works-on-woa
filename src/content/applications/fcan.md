@@ -1,6 +1,6 @@
 ---
 name: "fcan"
-categories: ['nw-cloud']
+categories: ['utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.8.4"

@@ -1,6 +1,6 @@
 ---
 name: "GUI for singbox"
-categories: ['nw-cloud']
+categories: ['utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "V1.8.6"
