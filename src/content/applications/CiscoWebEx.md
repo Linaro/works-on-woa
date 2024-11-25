@@ -1,6 +1,6 @@
 ---
 name: "Cisco WebEx"
-categories: ['collboration']
+categories: ['collaboration']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "43.8.0.26955"
