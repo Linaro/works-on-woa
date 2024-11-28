@@ -1,0 +1,143 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { LOCALES } from "../../../config/i18nConfig";
+import { updateLanguage } from "../../../util/updateLanguage";
+import { t } from "i18next";
+
+export function getStaticPaths() {
+  return LOCALES.map(locale => ({
+    params: { lang: locale },
+  }));
+}
+
+const locale = updateLanguage(Astro.url);
+const recaptcha_url = `https://www.google.com/recaptcha/api.js?hl=${locale}`;
+---
+
+<BaseLayout
+  title={"Windows on Arm - Contributing Applications form"}
+  description={`Contributing form for Applications ready for Windows on Arm`}
+  breadcrumbs={[
+    { title: t('bradcrumbs.contributing'), href: `/${locale}/contributing` }, 
+    { title: t('application_form.title'), href: `/${locale}/contributing/applications` }
+  ]}
+>
+
+<div id="success_alert" class="fixed items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl" style="display:none;">
+  <div class="p-6 border-l-4 border-green-500 -6 rounded-r-xl bg-green-50">
+    <div class="flex">
+      <div class="flex-shrink-0">
+        <svg class="w-5 h-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <div class="ml-3">
+        <div class="text-sm text-green-600">
+          <p>{t('application_form.submit_succeeded')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="error_alert" class="fixed items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl" style="display:none;">
+  <div class="p-6 border-l-4 border-red-500 -6 rounded-r-xl bg-red-50">
+    <div class="flex">
+      <div class="flex-shrink-0">
+        <svg class="w-5 h-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <div class="ml-3">
+        <div class="text-sm text-red-600">
+          <p id="error_alert_info">{t('application_form.submit_failed')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mb-4">
+  <h3 id="applicationCompatibilitySubTitle" style="display:none;" class="text-3xl font-semibold text-font-color">{t('application_form.description')}</h3>
+  <h3 id="fecthingApplicationCategoriesSubTitle" class="text-3xl font-semibold text-font-color">{t('application_form.app_category.fetching_categories')}</h3>
+</div>
+
+<div id="loader"></div>
+
+<div id="mainDiv" style="display:none;">
+    <form method="post" id="appForm" data-locale={locale}>
+        <div class="mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="name">{t('application_form.app_name')}</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" id="name" required />
+        </div>
+        <div class="mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="publisher">{t('application_form.publisher')}</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="publisher" id="publisher" />
+        </div>
+        <div class="mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3">{t('application_form.report_type.description')}</label>
+            
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="requestThisAppToBeTested" name="report" value="requestThisAppToBeTested" >
+            <label class="ms-2 text-lg" for="requestThisAppToBeTested">{t('application_form.report_type.request_test')}</label><br>
+
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="submitNewOrUpdatedAppInfo" name="report" value="submitNewOrUpdatedAppInfo" checked >
+            <label class="ms-2 text-lg" for="submitNewOrUpdatedAppInfo">{t('application_form.report_type.submit_update')}</label><br>
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="categories">{t('application_form.app_category.description')}</label>
+            <input class="mb-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="categories" id="categories" placeholder={t('application_form.app_category.instruction')} readOnly />
+            <select id="multi_categories" name="multi_categories" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" multiple="multiple">
+            </select>
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="app_url">{t('application_form.download_url')}</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="app_url" id="app_url" />
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3">{t('application_form.displayed_arm_compatibility')}</label>
+            
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="arm_compatible" name="arm_compatibility" value="compatible">
+            <label class="ms-2 text-lg" for="arm_compatible">Compatible</label><br>
+
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="arm_unknown" name="arm_compatibility" value="unknown">
+            <label class="ms-2 text-lg" for="arm_unknown">Unknown</label><br>
+            
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="arm_unsupported" name="arm_compatibility" value="unsupported">
+            <label class="ms-2 text-lg" for="arm_unsupported">Unsupported</label><br>
+
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="arm_vendor_announced" name="arm_compatibility" value="vendor_announced">
+            <label class="ms-2 text-lg" for="arm_vendor_announced">Vendor Announced - Launching Soon</label><br>
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="earliest_compt_version">{t('application_form.earliest_compatible_version')}</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="earliest_compt_version" id="earliest_compt_version" />
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3">{t('application_form.execution_compatibility')}</label>
+            
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="exec_compt_native" name="exec_compatibility" value="native">
+            <label class="ms-2 text-lg" for="exec_compt_native">Native</label><br>
+
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="exec_compt_prism" name="exec_compatibility" value="prism">
+            <label class="ms-2 text-lg" for="exec_compt_prism">Prism (emulation)</label><br>
+            
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="exec_compt_no" name="exec_compatibility" value="no">
+            <label class="ms-2 text-lg" for="exec_compt_no">No</label><br>
+
+            <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="exec_compt_unknown" name="exec_compatibility" value="unknown">
+            <label class="ms-2 text-lg" for="exec_compt_unknown">Unknown</label><br>
+        </div>
+        <div class="reportInfo mb-4">
+            <label class="block text-font-color text-xl font-bold mb-3" for="icon_url">{t('application_form.icon.description')}</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="icon_url" id="icon_url" placeholder={t('application_form.icon.instruction')} />
+        </div>
+        <div class="mb-4">
+            <div class="g-recaptcha" data-sitekey=`${import.meta.env.PUBLIC_CAPTCHA_WEB_SITE_KEY}`></div>
+            <br/>
+            <input type="submit" value={t('application_form.submit_button')} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"></input>
+        </div>
+    </form>
+</div>
+</BaseLayout>
+<script define:vars={{recaptcha_url}} src={recaptcha_url} async defer></script>
+<script src="../../../lib/applications.js"></script>  

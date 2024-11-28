@@ -1,0 +1,147 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { LOCALES } from "../../../config/i18nConfig";
+import { updateLanguage } from "../../../util/updateLanguage";
+import { t } from "i18next";
+
+export function getStaticPaths() {
+  return LOCALES.map(locale => ({
+    params: { lang: locale },
+  }));
+}
+
+const locale = updateLanguage(Astro.url);
+const recaptcha_url = `https://www.google.com/recaptcha/api.js?hl=${locale}`;
+---
+
+<BaseLayout
+  title={"Windows on Arm - Contributing Games form"}
+  description={`Contributing form for Games ready for Windows on Arm`}
+  breadcrumbs={[
+    { title: t('bradcrumbs.contributing'), href: `/${locale}/contributing`, }, 
+    { title: t('game_form.title'), href: `/${locale}/contributing/games` }
+  ]}
+>
+
+<div id="success_alert" class="fixed items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl" style="display:none;">
+  <div class="p-6 border-l-4 border-green-500 -6 rounded-r-xl bg-green-50">
+    <div class="flex">
+      <div class="flex-shrink-0">
+        <svg class="w-5 h-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <div class="ml-3">
+        <div class="text-sm text-green-600">
+          <p>{t('game_form.submit_succeeded')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="error_alert" class="fixed items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl" style="display:none;">
+  <div class="p-6 border-l-4 border-red-500 -6 rounded-r-xl bg-red-50">
+    <div class="flex">
+      <div class="flex-shrink-0">
+        <svg class="w-5 h-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <div class="ml-3">
+        <div class="text-sm text-red-600">
+          <p id="error_alert_info">{t('game_form.submit_failed')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mb-4">
+  <h3 id="gameCompatibilitySubTitle" style="display:none;" class="text-3xl font-semibold text-font-color">{t('game_form.description')}</h3>
+  <h3 id="fecthingApplicationCategoriesSubTitle" class="text-3xl font-semibold text-font-color">Fetching games categories. Please wait...</h3>
+</div>
+
+<div id="loader"></div>
+
+<div id="mainDiv" style="display:none;">
+  <form method="POST" id="gameForm" data-locale={locale}>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="name">{t('game_form.game_name')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="name" id="name" required />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="categories">{t('game_form.game_category.description')}</label>
+      <select class="block appearance-none w-full bg-white border border-gray-400 text-gray-700 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" name="categories" id="categories">
+      </select>
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="publisher">{t('game_form.publisher')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="publisher" id="publisher" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3">{t('game_form.compatibility.description')}</label>
+      
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="compatibility_perfect" name="compatibility" value="perfect" checked="checked" required>
+      <label class="ms-2 text-lg" for="compatibility_perfect">{t('game_form.compatibility.perfect')}</label><br>
+
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="compatibility_playable" name="compatibility" value="playable" required>
+      <label class="ms-2 text-lg" for="compatibility_playable">{t('game_form.compatibility.playable')}</label><br>
+
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="compatibility_runs" name="compatibility" value="runs" required>
+      <label class="ms-2 text-lg" for="compatibility_runs">{t('game_form.compatibility.runs')}</label><br>
+
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="compatibility_unplayable" name="compatibility" value="unplayable" required>
+      <label class="ms-2 text-lg" for="compatibility_unplayable">{t('game_form.compatibility.unplayable')}</label><br>
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="device_configuration">{t('game_form.device_configuration')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="device_configuration" id="device_configuration" placeholder="eg Snapdragon X Elite - 32 GB" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="date_tested">{t('game_form.date_tested')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="date" id="date_tested" name="date_tested" required />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="os_version">{t('game_form.os_version')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="os_version" id="os_version" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="driver_id">{t('game_form.driver_id')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"type="text" name="driver_id" id="driver_id" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="compatibility_details">{t('game_form.compatibility_details')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="compatibility_details" id="compatibility_details" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3">{t('game_form.auto_super_resolution_compatibility')}</label>
+      
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="asrc_yes" name="asrc" value="yes">
+      <label class="ms-2 text-lg" for="asrc_yes">Yes, opt-in</label><br>
+      
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="asrc_no" name="asrc" value="no">
+      <label class="ms-2 text-lg" for="asrc_no">No</label><br>
+      
+      <input class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" type="radio" id="asrc_unknown" name="asrc" value="unknown">
+      <label class="ms-2 text-lg" for="asrc_unknown">Unknown</label><br>
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="auto_super_res_boost">{t('game_form.auto_super_resolution_fps_bost')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="auto_super_res_boost" id="auto_super_res_boost" />
+    </div>
+    <div class="mb-4">
+      <label class="block text-font-color text-xl font-bold mb-3" for="gamertag">{t('game_form.your_name_gamertag')}</label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="gamertag" id="gamertag" />
+    </div>
+    <div class="mb-4">
+      <div class="g-recaptcha" data-sitekey=`${import.meta.env.PUBLIC_CAPTCHA_WEB_SITE_KEY}`></div>
+      <br/>
+      <input type="submit" value={t('game_form.submit_button')}  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"></input>
+    </div>
+  </form>
+</div>
+</BaseLayout>
+
+<script define:vars={{recaptcha_url}} src={recaptcha_url} async defer></script>
+<script src="../../../lib/games.js"></script>

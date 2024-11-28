@@ -1,0 +1,23 @@
+---
+import Search from "../../../components/Search/Search.astro";
+import { LOCALES } from "../../../config/i18nConfig";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { updateLanguage } from "../../../util/updateLanguage";
+import { t } from "i18next";
+
+export function getStaticPaths() {
+  return LOCALES.map(locale => ({
+    params: { lang: locale },
+  }));
+}
+
+const locale = updateLanguage(Astro.url);
+---
+
+<BaseLayout
+  title={"Windows on Arm Ready Games"}
+  description={`Find Games ready for Windows on Arm`}
+  breadcrumbs={[{ title: t('bradcrumbs.games'), href: `/${locale}/games` }]}
+>
+  <Search shouldRedirect={false} type="games" />
+</BaseLayout>

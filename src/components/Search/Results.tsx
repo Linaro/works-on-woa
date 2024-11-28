@@ -16,11 +16,14 @@ import {
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { SearchQuery } from "./PageFind";
+import i18next, { t, changeLanguage } from "i18next";
+import { updateLanguage } from "../../util/updateLanguage";
 
 const getProject = async (result: any) => {
   return await result.data();
 };
 
+const locale = updateLanguage(window.location);
 const PAGE_SIZE = 10;
 
 const AutoSRFormatMap: {[key: string]: string} = {
@@ -98,7 +101,7 @@ const Result = ({
 
               <Show when={type === "games"}>
               <p class="flex gap-2 flex-wrap">
-                <b>Categories: </b>
+                <b>{t('games.categories')}: </b>
                 <span class="flex flex-wrap gap-1">
                   <For each={project().filters.category}>
                     {(cat: string) => (
@@ -118,14 +121,14 @@ const Result = ({
 
               <Show when={type === "applications"}>
                 <p class="break-all text-orange-200">
-                  <b>Version from:&nbsp;</b>
+                  <b>{t('applications.version_from')}:&nbsp;</b>
                   <span class="min-w-0">{project()?.meta.version_from}</span>
                 </p>
               </Show>
 
               <Show when={type === "applications"}>
               <p class="flex gap-2 flex-wrap">
-                <b>Categories: </b>
+                <b>{t('applications.categories')}: </b>
                 <span class="flex flex-wrap gap-1">
                   <For each={project().filters.category}>
                     {(cat: string) => (
@@ -140,18 +143,18 @@ const Result = ({
 
               <Show when={type === "games"}>
                 <p>
-                  <b>Compatibility: </b>
+                  <b>{t('games.compatibility')}: </b>
                   <span class="min-w-0 text-orange-200">
                     {project().filters.compatibility}
                   </span>
                 </p>
                 <p>
-                  <b>Auto SR: </b>
+                  <b>{t('games.auto_sr')}: </b>
                   <span>{formartAutoSR(project()?.filters["auto_super_resolution.compatibility"]) ?? "Unknown" }</span>
                 </p>
                 <Show when={project()?.meta.date_tested != null}>
                   <p>
-                    <b>Date Tested: </b>
+                    <b>{t('games.date_tested')}: </b>
                     <span>
                       {dayjs(project()?.meta.date_tested).format("DD-MMM-YYYY")}
                     </span>
@@ -191,7 +194,7 @@ const Results = ({
   type: "applications" | "games";
   searchRun: Accessor<Number>
 }) => {
-  const [paginatedResults, setPaginatedResults] = createSignal([]);
+  const [paginatedResults, setPaginatedResults] = createSignal<any>([]);
 
   const pageCount = createMemo(() => {
     const totalResults = results()?.results.length;
@@ -228,8 +231,6 @@ const Results = ({
       clearSearch();
       setFilter(filter, selection, true);
     };
-
-    console.log(search().filters)
 
     return (
     <div class={`w-full my-6`}>
@@ -275,12 +276,12 @@ const Results = ({
                     }>
           <div class="w-full flex flex-col items-center gap-3 p-10">
             <p class="text-center text-xl mb-2">
-              There is no information in our data about that. Why not contact the developer on their web site, or complete a feedback request <a class="underline text-blue-500" href="/contributing">here</a> for us to investigate.
+              {t('search.no_information_start')} <a class="underline text-blue-500" href={`/${locale}/contributing`}>{t('search.no_information_here')}</a> {t('search.no_information_end')}
             </p>
             <button
               class="px-10 py-2 bg-white hover:bg-slate-300 border-white text-black font-bold border rounded-full"
               onClick={clearSearch}>
-              Clear search
+              {t('search.clear_search')}
             </button>
           </div>
         </Match>
@@ -292,8 +293,7 @@ const Results = ({
           }
         >
           <p class="text-center text-xl">
-            To begin searching, enter a search query and press enter, or choose
-            a category.
+            {t('applications.search_instruction')}
           </p>
         </Match>
 

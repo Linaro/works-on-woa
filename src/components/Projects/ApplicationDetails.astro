@@ -1,7 +1,8 @@
 ---
 import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
-import { toTitleCase } from "../../util/formatting";
+import { t } from "i18next";
+import { updateLanguage } from "../../util/updateLanguage";
 
 type Props = { application: CollectionEntry<"applications"> };
 const {
@@ -20,9 +21,11 @@ const {
 } = data;
 
 const { Content } = await render();
+const locale = updateLanguage(Astro.url);
 ---
 
 <span class="hidden" data-pagefind-filter="type:applications"></span>
+<span class="hidden" data-pagefind-filter={`language:${locale}`}></span>
 <div class="flex justify-between items-center">
   <img
     src={icon !== "application-icon-white.svg"
@@ -70,14 +73,14 @@ const { Content } = await render();
   {
     version_from && (
       <li>
-        <b data-pagefind-ignore>Version From: </b>
+        <b data-pagefind-ignore>{t('applications.version_from')}: </b>
         <span data-pagefind-meta="version_from">{version_from}</span>
       </li>
     )
   }
 
   <li>
-    <b data-pagefind-ignore>Categories: </b>
+    <b data-pagefind-ignore>{t('applications.categories')}: </b>
     {
       categories.length > 0 ? (
         categories.map((category, index) => (
@@ -103,7 +106,7 @@ const { Content } = await render();
             <li class="basis-full">
               <a href={link} target="_blank">
                 <button class="text-white no-underline break-all bg-violet-700 px-8 md:px-24 py-2 rounded-md hover:bg-violet-900">
-                  Website
+                  {t('applications.website')}
                 </button>
               </a>
             </li>
@@ -114,7 +117,7 @@ const { Content } = await render();
           <li class="basis-full">
             <a href={link} target="_blank">
               <button class="text-white no-underline break-all bg-violet-700 px-8 md:px-24 py-2 rounded-md hover:bg-violet-900">
-                Download
+                {t('applications.download')}
               </button>
             </a>
           </li>
@@ -125,7 +128,7 @@ const { Content } = await render();
           <li class="basis-full">
             <a href={vendor_announcement_link} target="_blank">
               <button class="text-white no-underline break-all bg-green-500 px-8 md:px-24 py-2 rounded-md hover:bg-green-700">
-                More Info
+                {t('applications.more_info')}
               </button>
             </a>
           </li>

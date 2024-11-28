@@ -1,6 +1,9 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
+import { updateLanguage } from "../../util/updateLanguage";
+import { t } from "i18next";
+
 type Props = CollectionEntry<"applications">;
 const { id, data, slug } = Astro.props;
 const { icon, name, categories } = data;
@@ -10,7 +13,8 @@ const categoryPromises = categories.map(async (category) =>
   getEntry("applications_categories", category.slug)
 );
 const categoriesData = await Promise.all(categoryPromises);
-const url = `/applications/${slug}/`;
+const locale = updateLanguage(Astro.url);
+const url = `/${locale}/applications/${slug}/`;
 ---
 
 <li
@@ -67,12 +71,12 @@ const url = `/applications/${slug}/`;
         </p>
 
         <p class="break-all text-orange-200">
-          <b>Version From:&nbsp;</b>
+          <b>{t('applications.version_from')}:&nbsp;</b>
           <span class="min-w-0">{data.version_from}</span>
         </p>
 
         <p class="px-3 flex flex-wrap">
-          <b>Categories: </b>
+          <b>{t('applications.categories')}: </b>
           <span class="px-3 flex flex-wrap gap-1">
             {
               categoriesData.map((category) => (

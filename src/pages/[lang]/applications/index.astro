@@ -1,0 +1,52 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ApplicationListing from "../../../components/Projects/ApplicationListing.astro";
+import { LOCALES } from "../../../config/i18nConfig";
+import { t } from "i18next";
+import { updateLanguage } from "../../../util/updateLanguage";
+
+export function getStaticPaths() {
+  return LOCALES.map(locale => ({
+    params: { lang: locale },
+  }));
+}
+
+const featuredApplications = await getCollection(
+  "applications",
+  ({ data }: CollectionEntry<"applications">) => {
+    return data.featured === true;
+  }
+);
+
+const locale = updateLanguage(Astro.url);
+---
+
+<BaseLayout
+  title={"Windows on Arm Ready Applications"}
+  description={`Find applications ready for Windows on Arm`}
+  breadcrumbs={[{ title: t('bradcrumbs.applications'), href: `/${locale}/applications` }]}
+>
+  <div class="flex mx-auto mx-auto mt-12 text-3xl">
+    <b>{t('applications.info')}</b>
+  </div>
+
+  <div class="flex mx-auto">
+    <a href=`/${locale}/applications/search` class="mx-auto">
+      <button
+        class="px-8 py-2 bg-white text-black rounded-full font-bold mt-16 text-xl hover:bg-zinc-500 hover:text-white">
+        {t('applications.search_button')}
+      </button>
+    </a>
+  </div>
+
+  <div class="flex flex-col">
+    <ul class="mt-8">
+      {
+        featuredApplications.map((application) => (
+          <ApplicationListing {...application} />
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

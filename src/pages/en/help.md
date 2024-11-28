@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/InfoLayout.astro
+layout: ../../layouts/InfoLayout.astro
 title: Help
 description: Help page for using the Windows on Arm Ready Software website.
 ---
@@ -19,7 +19,7 @@ For applications, the **Compatibility** field can be one of the following values
 
 The **Version From** field shows the first known publicly available version of the app that is compatible with Windows on Arm. When a **Download** button is available, clicking will navigate to either the Microsoft Store product description page, or the a web location that offers the app install. For apps that are **Unknown**, the **Website** button will be shown in place of **Download**. Clicking the **Website** button will navigate to the app developers main web page so you can check the latest status, and contact the developer directly to request Windows on Arm support.
 
-Information on how you can make your own contribution to this web site, either for an app that is not yet listed, or by providing status updates for an existing app, please read [Contributing](/contributing).
+Information on how you can make your own contribution to this web site, either for an app that is not yet listed, or by providing status updates for an existing app, please read [Contributing](/en/contributing).
 
 For games, the **Compatibility** field can be one of the following values:
 
@@ -50,4 +50,4 @@ In each game, you'll see the following fields. Below, we've defined what they me
 
 To see games that are compatible with Automatic Super Resolution, select the "yes, out-of-box," and "yes, opt-in" entries from the Auto SR drop-down menu found to the right of the search bar on the games page. 
 
-Information on how you can make your own contribution to this web site, either for a game that is not yet listed, or by adding your own report to an existing game, please read [Contributing](/contributing).
+Information on how you can make your own contribution to this web site, either for a game that is not yet listed, or by adding your own report to an existing game, please read [Contributing](/en/contributing).

@@ -1,15 +1,17 @@
 ---
+import { t } from "i18next";
+
 export type Breadcrumb = {
   title: string;
   href: string;
 };
 
 type Props = {
+  language: string;
   breadcrumbs: Breadcrumb[];
 };
-const { breadcrumbs } = Astro.props;
-
-console.log(Astro.url.pathname);
+const { breadcrumbs, language } = Astro.props;
+console.log(Astro.props);
 ---
 
 {
@@ -18,10 +20,10 @@ console.log(Astro.url.pathname);
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
           <a
-            href="/"
+            href={"/" + language}
             class="inline-flex items-center text-lg font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white"
           >
-            Home
+            {t('bradcrumbs.home')}
           </a>
         </li>
         {breadcrumbs.map((breadcrumb: Breadcrumb) => {
