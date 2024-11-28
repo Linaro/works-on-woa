@@ -1,0 +1,118 @@
+{
+  "header": {
+	"main": "Arm向けのWindows対応ソフトウェア"
+  },
+  "bradcrumbs": {
+	"home": "ホーム",
+	"contributing": "貢献",
+	"applications": "アプリケーション",
+	"search": "検索",
+	"games": "ゲーム"
+  },
+  "footer": {
+    "report_an_issue": "問題を報告する",
+    "edit_on_github": "Githubで編集",
+    "legal": "法的事項",
+    "contact": "連絡先",
+    "help": "ヘルプ",
+    "takedown": "コンテンツ削除リクエスト",
+    "copyright": "すべての製品名、ロゴ、ブランド、商標、登録商標はそれぞれの所有者に帰属します。データの正確性はLinaroによって保証されません。",
+    "games_count": "ゲーム"
+  },
+  "search": {
+    "search": "検索",
+    "clear_search": "検索をクリア",
+    "no_information_start": "その情報はデータにありません。開発者のウェブサイトで連絡してみるか、調査のために",
+    "no_information_here": "こちら",
+    "no_information_end": "からフィードバックリクエストを送信してください。"
+  },
+  "applications": {
+    "info": "以下はテスト済みのトップアプリの一部です。検索バーを使用して他のテスト済みアプリを検索してください。",
+    "search_button": "他のアプリケーションを検索",
+    "search_placeholder": "アプリケーションを検索",
+    "search_instruction": "検索を開始するには、検索クエリを入力してEnterを押すか、カテゴリを選択してください",
+    "categories": "カテゴリ",
+    "version_from": "バージョン",
+    "download": "ダウンロード",
+    "report_last_updated": "レポートの最終更新日",
+    "website": "ウェブサイト",
+    "more_info": "詳細情報"
+  },
+  "games": {
+    "search_placeholder": "ゲームを検索",
+    "user_reports": "ユーザーレポート",
+    "publisher": "発行者",
+    "categories": "カテゴリ",
+    "date_tested": "テスト日",
+    "frame_rate": "フレームレート",
+    "device_configuration": "デバイス構成",
+    "os_build_number": "OSビルド番号",
+    "driver_id": "ドライバーID",
+    "auto_super_resolution": "自動スーパー解像度",
+    "compatible": "互換性あり",
+    "enablement": "有効化",
+    "fps_boost": "FPSブースト",
+    "opt_in_steps": "オプトイン手順",
+	"compatibility": "互換性",
+    "auto_sr": "自動SR",
+    "link": "リンク",
+    "notes": "備考",
+    "details": "詳細"
+  },
+  "application_form": {
+	"title": "アプリケーションリクエストフォーム",
+	"description": "アプリケーションの互換性に関する情報を以下に記入してください。",
+	"app_name": "アプリ名",
+    "publisher": "発行元",
+    "report_type": {
+      "description": "何を報告していますか？",
+      "request_test": "このアプリのテストをリクエスト",
+      "submit_update": "新しいまたは更新されたアプリ情報を提出"
+    },
+    "app_category": {
+      "description": "アプリカテゴリー",
+      "instruction": "以下のリストから1つ以上のカテゴリーを選択してください。複数のオプションを選択するには、'Ctrl' を押しながらクリック",
+	  "fetching_categories": "アプリカテゴリーを取得中です。しばらくお待ちください..."
+    },
+    "download_url": "アプリダウンロード用URL、または開発者サイト",
+    "displayed_arm_compatibility": "表示されるARM互換性は？",
+    "earliest_compatible_version": "最初に互換性があるバージョン番号",
+	"execution_compatibility": "実行互換性",
+	"icon": {
+	  "description": "アイコンURL",
+	  "instruction": "アプリのアイコンへのリンク（最大512x512、SVGを推奨）"
+	},
+    "submit_button": "送信",
+    "submit_succeeded": "アプリケーションフォームが正常に送信されました。ご協力ありがとうございます！",
+    "submit_failed": "エラーが発生しました！"
+  },
+  "game_form": {
+	"title": "ゲームリクエストフォーム",
+	"description": "ゲームの互換性に関する以下の情報を記入してください。",
+	"game_name": "ゲーム名",
+    "game_category": {
+      "description": "ゲームカテゴリ",
+      "instruction": "下のリストから1つのカテゴリを選択してください。",
+	  "fetching_categories": "ゲームカテゴリを取得中です。しばらくお待ちください..."
+    },
+	"publisher": "出版社",
+	"compatibility": {
+	  "description": "互換性",
+	  "perfect": "Perfect - 1080p 解像度で 60 FPS 以上で動作し、ゲーム体験に影響を与えるグリッチや問題はありません",
+	  "playable": "Playable - 1080p 解像度で 30 FPS 以上で動作し、ゲーム体験に最小限のグリッチや問題があります",
+	  "runs": "Runs - 30 FPS 未満で動作し、ゲーム体験に影響を与えるバグがあります",
+	  "unplayable": "Unplayable - アンチチートやその他の失敗により動作しません"
+	},
+	"device_configuration": "デバイス構成",
+	"date_tested": "テスト日",
+	"os_version": "OS バージョン",
+	"driver_id": "ドライバー ID",
+	"compatibility_details": "互換性の詳細",
+	"auto_super_resolution_compatibility": "オートスーパー解像度互換性",
+	"auto_super_resolution_fps_bost": "オートスーパー解像度 FPS 向上",
+    "your_name_gamertag": "あなたの名前/ゲーマータグ",
+    "submit_button": "送信",
+    "submit_succeeded": "ゲームフォームが正常に送信されました。ご協力ありがとうございます！",
+    "submit_failed": "エラーが発生しました！"
+  }
+}

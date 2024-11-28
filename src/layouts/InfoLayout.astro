@@ -1,12 +1,18 @@
 ---
-import "../styles/infopage.css";
 import BaseLayout from "./BaseLayout.astro";
-const { frontmatter, file } = Astro.props;
+import "../styles/infopage.css";
+import { LOCALES } from "../config/i18nConfig";
+import { t } from "i18next";
+
+const { frontmatter } = Astro.props;
+console.log("From InfoLayout");
 console.log(Astro.props);
-let title = frontmatter.title + " | Windows on Arm Ready Software";
+let title = frontmatter.title + " | " + t('header.main');
 let breadcrumbs = [{ href: `${Astro.url.pathname}`, title: frontmatter.title }];
-if (frontmatter.title === "Homepage") {
-  title = "Windows on Arm Ready Software";
+const localeSegment = Astro.url.pathname.startsWith('/') ? Astro.url.pathname.replace(/\/$/, '').slice(1) : Astro.url.pathname;
+
+if (LOCALES.includes(localeSegment)) {
+  title = t('header.main');
   breadcrumbs = [];
 }
 ---

@@ -1,6 +1,5 @@
 import {
   Show,
-  createEffect,
   createMemo,
   createResource,
   createSignal,
@@ -11,6 +10,8 @@ import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
+import { t } from "i18next";
+import { updateLanguage } from "../../util/updateLanguage";
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
@@ -56,6 +57,8 @@ export type Results = {
   };
 };
 
+const locale = updateLanguage(window.location);
+
 const fetchResults = async ({
   query,
   filters,
@@ -63,7 +66,6 @@ const fetchResults = async ({
   query: string | null;
   filters: Filters;
 }) => {
-
   let adjustedAutoSR: {[key: string]: string[]}= { 
     "any": filters["auto_super_resolution.compatibility"]
   }
@@ -76,7 +78,7 @@ const fetchResults = async ({
     return await pagefind.debouncedSearch();
   }
 
-  if(filters["auto_super_resolution.compatibility"] && filters["auto_super_resolution.compatibility"].includes("unknown")){
+  if (filters["auto_super_resolution.compatibility"] && filters["auto_super_resolution.compatibility"].includes("unknown")){
     adjustedAutoSR = {
       "not": ["yes, out-of-box", "yes, opt-in", "no"]
     }
@@ -85,6 +87,7 @@ const fetchResults = async ({
   return await pagefind.debouncedSearch(query, {
     filters: {
       ...filters,
+      "language": { any: locale },
       "category": { any: filters.category },
       "compatibility": { any: filters.compatibility },
       "auto_super_resolution.compatibility": { 
@@ -107,10 +110,12 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
   const url = new URL(
     window.location.origin +
       "/" +
+      `${locale}/` +
       filters.type[0] +
       (filters.type[0] === "applications" ? "/search" : "") +
       "/"
   );
+
   if (query) url.searchParams.append("query", query);
   if (filters.category?.length > 0) {
     url.searchParams.append("category", filters.category.join(","));
@@ -257,7 +262,6 @@ const PageFind = ({
       if (searchrun() === 2 )
       {
         setSearchRun(0);
-        createEffect(() => console.log(searchrun));
       }
       else
       {
@@ -268,7 +272,6 @@ const PageFind = ({
   const [results] = createResource<Results, SearchQuery>(request, fetchResults);
   const [filterOptions] = createResource(request, fetchFilterOptions);
 
-  createEffect(() => console.log(results()));
   return (
     <div
       class={`w-full flex flex-col h-[${
@@ -281,13 +284,13 @@ const PageFind = ({
           class="bg-white text-black basis-11/12 rounded-full md:rounded-r-none flex flex-row py-2 px-1 items-center pl-6"
         >
           <label class="hidden" for="project-search">
-            Search for applications
+            {t('applications.search_placeholder')}
           </label>
           <input
             placeholder={
               type === "applications"
-                ? "Search for applications"
-                : "Search for games"
+                ? t('applications.search_placeholder')
+                : t('games.search_placeholder')
             }
               name="project-search"
               value={search().query ?? ""}

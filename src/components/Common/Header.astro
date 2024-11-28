@@ -1,9 +1,12 @@
 ---
 import { getImage } from "astro:assets";
 import WoaBanner from "../../assets/WoA-banner.png";
+import i18next, { t } from "i18next";
+import { LanguageSelector } from "astro-i18next/components";
 
 const optimizedBanner = await getImage({ src: WoaBanner });
 const bgUrl = `url('${optimizedBanner.src}')`;
+const homeURL = `/${i18next.language}`;
 ---
 
 <header class="w-full">
@@ -17,8 +20,19 @@ const bgUrl = `url('${optimizedBanner.src}')`;
     <h1>
       <a
         class="text-3xl sm:text-5xl text-center text-white w-full no-underline"
-        href="/">Windows on Arm Ready Software</a
+        href={homeURL}>{t('header.main')}</a
       >
     </h1>
   </div>
+  <LanguageSelector showFlag={true} class="language-selector" />
+  <style>
+    .language-selector {
+      color: black;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 10px;
+      z-index: 10;
+    }
+  </style>
 </header>

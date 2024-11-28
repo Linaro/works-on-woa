@@ -1,0 +1,118 @@
+{
+  "header": {
+	"main": "Arm용 Windows 호환 소프트웨어"
+  },
+  "bradcrumbs": {
+	"home": "홈",
+	"contributing": "기여",
+	"applications": "애플리케이션",
+	"search": "검색",
+	"games": "게임"
+  },
+  "footer": {
+    "report_an_issue": "문제 보고",
+    "edit_on_github": "Github에서 편집",
+    "legal": "법적 고지",
+    "contact": "연락처",
+    "help": "도움말",
+    "takedown": "콘텐츠 삭제 요청",
+    "copyright": "모든 제품 이름, 로고, 브랜드, 상표 및 등록 상표는 해당 소유자의 재산입니다. 데이터의 정확성은 Linaro에 의해 보장되지 않습니다.",
+	"games_count": "게임"
+  },
+  "search": {
+    "search": "검색",
+    "clear_search": "검색 지우기",
+    "no_information_start": "해당 정보는 데이터에 없습니다. 개발자의 웹사이트에서 문의하시거나 조사를 위해",
+    "no_information_here": "여기",
+    "no_information_end": "에서 피드백 요청을 완료해 주세요."
+  },
+  "applications": {
+    "info": "아래는 테스트된 상위 앱 중 일부입니다. 검색창을 사용하여 다른 테스트된 앱을 검색하세요.",
+    "search_button": "더 많은 애플리케이션 검색",
+    "search_placeholder": "애플리케이션 검색",
+    "search_instruction": "검색을 시작하려면 검색어를 입력하고 Enter를 누르거나 카테고리를 선택하세요.",
+    "categories": "카테고리",
+    "version_from": "버전",
+    "download": "다운로드",
+    "report_last_updated": "보고서 마지막 업데이트",
+    "website": "웹사이트",
+    "more_info": "추가 정보"
+  },
+  "games": {
+    "search_placeholder": "게임 검색",
+    "user_reports": "사용자 보고서",
+    "publisher": "배급사",
+    "categories": "카테고리",
+    "date_tested": "테스트 날짜",
+    "frame_rate": "프레임 속도",
+    "device_configuration": "장치 구성",
+    "os_build_number": "OS 빌드 번호",
+    "driver_id": "드라이버 ID",
+    "auto_super_resolution": "자동 슈퍼 해상도",
+    "compatible": "호환 가능",
+    "enablement": "활성화",
+    "fps_boost": "FPS 부스트",
+    "opt_in_steps": "옵트인 단계",
+	"compatibility": "호환성",
+    "auto_sr": "자동 SR",
+    "link": "링크",
+    "notes": "노트",
+    "details": "세부 정보"
+  },
+  "application_form": {
+	"title": "애플리케이션 요청 양식",
+	"description": "애플리케이션 호환성에 대한 다음 정보를 작성하십시오.",
+	"app_name": "앱 이름",
+    "publisher": "발행자",
+    "report_type": {
+      "description": "무엇을 보고하고 있습니까?",
+      "request_test": "이 앱의 테스트 요청",
+      "submit_update": "새로운 또는 업데이트된 앱 정보 제출"
+    },
+    "app_category": {
+      "description": "앱 카테고리",
+      "instruction": "아래 목록에서 하나 이상의 카테고리를 선택하십시오. 여러 옵션을 선택하려면 'Ctrl'을 누른 채로 클릭",
+	  "fetching_categories": "애플리케이션 카테고리 가져오는 중. 잠시 기다려 주세요..."
+    },
+    "download_url": "앱 다운로드 URL 또는 개발자 사이트",
+    "displayed_arm_compatibility": "표시된 ARM 호환성은?",
+    "earliest_compatible_version": "가장 오래된 호환 가능한 버전 번호",
+	"execution_compatibility": "실행 호환성",
+	"icon": {
+	  "description": "아이콘 URL",
+	  "instruction": "앱 아이콘 링크 (최대 512x512, SVG 권장)"
+	},
+    "submit_button": "제출",
+    "submit_succeeded": "애플리케이션 양식이 성공적으로 제출되었습니다. 협조해 주셔서 감사합니다!",
+    "submit_failed": "오류가 발생했습니다!"
+  },
+  "game_form": {
+	"title": "게임 요청 폼",
+	"description": "게임 호환성에 대한 다음 정보를 작성해주세요.",
+	"game_name": "게임 이름",
+    "game_category": {
+      "description": "게임 카테고리",
+      "instruction": "아래 목록에서 하나의 카테고리를 선택하세요.",
+	  "fetching_categories": "게임 카테고리 가져오는 중. 잠시만 기다려 주세요..."
+    },
+	"publisher": "출판사",
+	"compatibility": {
+	  "description": "호환성",
+	  "perfect": "Perfect - 1080p 해상도에서 60 FPS 이상으로 실행되며, 게임 경험에 영향을 미치는 글리치나 문제가 없습니다",
+	  "playable": "Playable - 1080p 해상도에서 30 FPS 이상으로 실행되며, 게임 경험에 영향을 미치는 최소한의 글리치나 문제가 있습니다",
+	  "runs": "Runs - 30 FPS 미만으로 실행되며, 게임 경험에 영향을 미칠 수 있는 버그가 있습니다",
+	  "unplayable": "Unplayable - 안티치트 또는 기타 실패로 인해 실행되지 않습니다"
+	},
+	"device_configuration": "디바이스 구성",
+	"date_tested": "테스트 날짜",
+	"os_version": "OS 버전",
+	"driver_id": "드라이버 ID",
+	"compatibility_details": "호환성 세부사항",
+	"auto_super_resolution_compatibility": "자동 슈퍼 해상도 호환성",
+	"auto_super_resolution_fps_bost": "자동 슈퍼 해상도 FPS 향상",
+    "your_name_gamertag": "이름/게이머 태그",
+    "submit_button": "제출",
+    "submit_succeeded": "게임 폼이 성공적으로 제출되었습니다. 협조해 주셔서 감사합니다!",
+    "submit_failed": "오류가 발생했습니다!"
+  }
+}

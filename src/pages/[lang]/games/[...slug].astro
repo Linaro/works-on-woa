@@ -1,18 +1,22 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import ProjectLayout from "../../layouts/ProjectLayout.astro";
+import ProjectLayout from "../../../layouts/ProjectLayout.astro";
 import { exec } from "node:child_process";
 import { promisify } from "node:util";
 import { getEntry } from "astro:content";
+import i18next from "i18next";
+import { LOCALES } from "../../../config/i18nConfig";
 
 const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
   const projects = await getCollection("games");
-  return projects.map((project) => ({
-    params: { slug: project.slug },
-    props: project,
-  }));
+  return LOCALES.flatMap(locale =>
+    projects.map(project => ({
+      params: { lang: locale, slug: project.slug },
+      props: project,
+    }))
+  );
 }
 
 const { slug } = Astro.params;

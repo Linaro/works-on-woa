@@ -1,0 +1,118 @@
+{
+  "header": {
+	"main": "Windows on Arm Ready Software"
+  },
+  "bradcrumbs": {
+	"home": "Home",
+	"contributing": "Contributing",
+	"applications": "Applications",
+	"search": "Search",
+	"games": "Games"
+  },
+  "footer": {
+    "report_an_issue": "Report an issue",
+    "edit_on_github": "Edit on Github",	
+    "legal": "Legal",
+    "contact": "Contact",
+    "help": "Help",
+    "takedown": "Content takedown request",
+    "copyright": "All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. Accuracy of the data is not guaranteed by Linaro.",
+	"games_count": "games"
+  },
+  "search": {
+	"search": "Search",
+    "clear_search": "Clear search",
+	"no_information_start": "There is no information in our data about that. Why not contact the developer on their web site, or complete a feedback request",
+	"no_information_here": "here",
+	"no_information_end": "for us to investigate."
+  },
+  "applications": {
+    "info": "Below are some of the top apps that have been tested. Use the search bar to search for other tested apps.",
+    "search_button": "Search for more applications",
+    "search_placeholder": "Search for applications",
+    "search_instruction": "To begin searching, enter a search query and press enter, or choose a category",
+	"categories": "Categories",
+	"version_from": "Version From",
+	"download": "Download",
+	"report_last_updated": "Report last updated",
+	"website": "Website",
+	"more_info": "More Info"
+  },
+  "games": {
+    "search_placeholder": "Search for games",
+	"user_reports": "User Reports",
+	"publisher": "Publisher",
+    "categories": "Categories",
+    "date_tested": "Date tested",
+	"frame_rate": "Frame Rate",
+    "device_configuration": "Device Configuration",
+    "os_build_number": "OS Build Number",
+    "driver_id": "Driver ID",
+    "auto_super_resolution": "Auto Super Resolution",
+    "compatible": "Compatible",
+    "enablement": "Enablement",
+    "fps_boost": "FPS Boost",
+    "opt_in_steps": "Opt In Steps",
+    "compatibility": "Compatibility",
+    "auto_sr": "Auto SR",
+	"link": "Link",
+	"notes": "Notes",
+	"details": "Details"
+  },
+  "application_form": {
+    "title": "Application request form",
+    "description": "Please fill out the following information about the application compatibility.",
+    "app_name": "Name of App",
+    "publisher": "Publisher",
+    "report_type": {
+      "description": "What are you reporting?",
+      "request_test": "Request for this app to be tested",
+      "submit_update": "Submit new or updated app information"
+    },
+    "app_category": {
+      "description": "App Category",
+      "instruction": "Select one or more categories from the list below. To select multiple options, hold 'Ctrl' while clicking",
+      "fetching_categories": "Fetching application categories. Please wait..."
+    },
+    "download_url": "URL for app download, or developer site",
+    "displayed_arm_compatibility": "Displayed Arm compatibility?",
+    "earliest_compatible_version": "Earliest compatible version number",
+    "execution_compatibility": "Execution compatibility",
+    "icon": {
+      "description": "Icon URL",
+      "instruction": "Link to an app icon (512x512 max size, SVG preferred)"
+    },
+    "submit_button": "Submit",
+    "submit_succeeded": "Application form successfully sent, thanks for your collaboration!",
+    "submit_failed": "An error occurred!"
+  },
+  "game_form": {
+    "title": "Game request form",
+    "description": "Please fill out the following information about the game compatibility.",
+    "game_name": "Name of Game",
+    "game_category": {
+      "description": "Game Category",
+      "instruction": "Select one category from the list below.",
+	  "fetching_categories": "Fetching game categories. Please wait..."
+   },
+   "publisher": "Publisher",
+   "compatibility": {
+     "description": "Compatibility",
+     "perfect": "Perfect - Runs at 60+ FPS at 1080p resolution with no glitches / issues that affect gaming experience",
+     "playable": "Playable - Runs at 30+ FPS at 1080p resolution with minimal glitches/ issues that affect gaming experience",
+     "runs": "Runs - Runs at less than 30 FPS and/or with bugs that may affect gaming experience",
+     "unplayable": "Unplayable - Does not run due to anti-cheat or other failures"
+   },
+   "device_configuration": "Device Configuration",
+   "date_tested": "Date tested",
+   "os_version": "Os Version",
+   "driver_id": "Driver ID",
+   "compatibility_details": "Compatibility Details",
+   "auto_super_resolution_compatibility": "Auto Super Resolution Compatibility",
+   "auto_super_resolution_fps_bost": "Auto Super Res FPS boost",
+      "your_name_gamertag": "Your name/gamertag",
+      "submit_button": "Submit",
+      "submit_succeeded": "Game form successfully sent, thanks for your collaboration!",
+      "submit_failed": "An error occurred!"
+  }
+}

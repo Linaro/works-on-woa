@@ -1,0 +1,35 @@
+---
+import BaseHead from "../../../components/Common/BaseHead.astro";
+import Header from "../../../components/Common/Header.astro";
+import Footer from "../../../components/Common/Footer.astro";
+import Search from "../../../components/Search/Search.astro";
+import { LOCALES } from "../../../config/i18nConfig";
+import i18next from "i18next";
+
+export function getStaticPaths() {
+  return LOCALES.map(locale => ({
+    params: { lang: locale },
+  }));
+}
+
+const locale = i18next.language;
+
+// Desestructura los parámetros de la URL
+const { lang } = Astro.params;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title={"SearchITO | Windows on Arm Ready Software"}
+      description={`Find software ready for Windows on Arm`}
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
+      <Search shouldRedirect={false} />
+    </main>
+    <Footer language={locale} />
+  </body>
+</html>

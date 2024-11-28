@@ -3,6 +3,8 @@ import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
 import { toTitleCase } from "../../util/formatting";
+import { t } from "i18next";
+import { updateLanguage } from "../../util/updateLanguage";
 
 type Props = { game: CollectionEntry<"games"> };
 const {
@@ -26,10 +28,12 @@ const {
 } = data;
 
 const { Content } = await render();
+const locale = updateLanguage(Astro.url);
 ---
 
 <div class="w-full">
   <span class="hidden" data-pagefind-filter="type:games"></span>
+  <span class="hidden" data-pagefind-filter={`language:${locale}`}></span>
   <div class="flex justify-between items-center">
     <p
       class:list={[
@@ -59,13 +63,13 @@ const { Content } = await render();
     {
       publisher && (
         <li>
-          <b data-pagefind-ignore>Publisher: </b>
+          <b data-pagefind-ignore>{t('games.publisher')}: </b>
           <span data-pagefind-meta="publisher">{publisher}</span>
         </li>
       )
     }
     <li>
-      <b data-pagefind-ignore>Categories: </b>
+      <b data-pagefind-ignore>{t('games.categories')}: </b>
       {
         categories.length > 0 ? (
           categories.map((category, index) => (
@@ -89,7 +93,7 @@ const { Content } = await render();
     {
       date_tested && (
         <li data-pagefind-ignore>
-          <b>Date tested: </b>
+          <b>{t('games.date_tested')}: </b>
           <span>{dayjs(date_tested).format("YYYY-MM-DD")}</span>
         </li>
       )
@@ -97,7 +101,7 @@ const { Content } = await render();
     {
       frame_rate && (
         <li data-pagefind-ignore>
-          <b>Frame Rate: </b>
+          <b>{t('games.frame_rate')}: </b>
           <span>{frame_rate}</span>
         </li>
       )
@@ -105,7 +109,7 @@ const { Content } = await render();
     {
       device_configuration && (
         <li>
-          <b data-pagefind-ignore>Device Configuration: </b>
+          <b data-pagefind-ignore>{t('games.device_configuration')}: </b>
           <span>{device_configuration}</span>
         </li>
       )
@@ -113,7 +117,7 @@ const { Content } = await render();
     {
       os_version && (
         <li>
-          <b data-pagefind-ignore>OS Build Number: </b>
+          <b data-pagefind-ignore>{t('games.os_build_number')}: </b>
           <span>{os_version}</span>
         </li>
       )
@@ -121,7 +125,7 @@ const { Content } = await render();
     {
       driver_id && (
         <li>
-          <b data-pagefind-ignore>Driver ID: </b>
+          <b data-pagefind-ignore>{t('games.driver_id')}: </b>
           <span>{driver_id}</span>
         </li>
       )
@@ -129,22 +133,22 @@ const { Content } = await render();
     {
       auto_super_resolution && (
         <li data-pagefind-ignore class="basis-full">
-          <h5 class="mb-2 font-bold">Auto Super Resolution: </h5>
+          <h5 class="mb-2 font-bold">{t('games.auto_super_resolution')}: </h5>
           <ul class="flex gap-x-8">
             <li>
-              <b>Compatible: </b>
+              <b>{t('games.compatible')}: </b>
               <span data-pagefind-filter="auto_super_resolution.compatibility">{auto_super_resolution.compatibility}</span>
             </li>
             
             {auto_super_resolution.fps_boost && (
               <li>
-                <b>FPS Boost: </b>
+                <b>{t('games.fps_boost')}: </b>
                 <span>{auto_super_resolution.fps_boost}</span>
               </li>
             )}
           </ul>
           <li>
-              <b>Opt In Steps: </b>
+              <b>{t('games.opt_in_steps')}: </b>
               <div style="display: flex; flex-direction: column;">
                 {auto_super_resolution.opt_in_steps.map((item) => (
                   <p>{item}</p>
@@ -157,7 +161,7 @@ const { Content } = await render();
     {
       link && (
         <li class="basis-full">
-          <b data-pagefind-ignore>Link: </b>
+          <b data-pagefind-ignore>{t('games.link')}: </b>
           <a href={link} target="_blank">
             {link}
           </a>
@@ -167,7 +171,7 @@ const { Content } = await render();
     {
       (
         <li class="project-notes basis-full">
-          <b data-pagefind-ignore>Notes</b>
+          <b data-pagefind-ignore>{t('games.notes')}</b>
           <div class="note-container">
             <Content />
           </div>
