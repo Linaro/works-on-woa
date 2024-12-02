@@ -9,15 +9,13 @@ description: How to contribute to this site
 - <a href="#games">Games</a>
 
 ## Applications
-Contributions for apps can be made directly to <a href="#how-to-contribute-via-github-apps">the github project</a> or using a convenient <a href="#how-to-contribute-via-microsoft-forms-apps">form process</a>.
+Contributions for apps can be made directly to <a href="#how-to-contribute-via-github-apps">the github project</a> or using a convenient <a href="#how-to-contribute-via-app-request-form">form process</a>.
 
-### How to contribute via Microsoft Forms (apps)
+### How to contribute via App request form
 
-Fill out the below form with your App request. You can use this form for requesting a new app to be tested and added, to tell us where we have something wrong for an app, or to submit your own new app data. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions.
+Click the button 'App request form' and fill out the form with your App request. You can use this for requesting a new app to be tested and added, to tell us where we have something wrong for an app, or to submit your own new app data. We recommend you contribute via this form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions.
 
-<iframe width="800px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[Click here](https://forms.office.com/r/JZ1ywk2FaJ) to open the MS Form directly
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/applications">App request form</a>
 
 ### How to contribute via GitHub (apps)
 
@@ -85,13 +83,11 @@ Categories must match the file name of an `.md` file in the appropriate categori
 ## Games
 Contributions can be made directly to <a href="#how-to-contribute-via-github-games">the github project</a> or using a convenient <a href="#how-to-contribute-via-microsoft-forms-games">form process</a>.
 
-### How to contribute via Microsoft Forms (games)
+### How to contribute via Game request form
 
-Fill out the below form with your game test details. We recommend you contribute via the Microsoft Form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions. 
+Click the button 'Game request form' and fill out the below form with your game test details. We recommend you contribute via this form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions. 
 
-<iframe width="800px" height= "480px" src= "https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[Click here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u) to open the MS Form directly
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/games">Game request form</a>
 
 ### How to contribute via GitHub (games)
 

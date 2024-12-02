@@ -9,15 +9,12 @@ description: このサイトに貢献する方法
 - <a href="#ゲーム">ゲーム</a>
 
 ## アプリケーション
-アプリの貢献は、<a href="#GitHubを使用して貢献する方法アプリ">GitHubプロジェクト</a>に直接行うか、便利な<a href="#microsoft-formsを使用して貢献する方法アプリ">フォームプロセス</a>を使用できます。
+アプリの貢献は、<a href="#GitHubを使用して貢献する方法アプリ">GitHubプロジェクト</a>に直接行うか、便利な<a href="#アプリリクエストフォームで貢献する方法">フォームプロセス</a>を使用できます。
 
-### Microsoft Formsを使用して貢献する方法（アプリ）
+### アプリリクエストフォームで貢献する方法
+「アプリリクエストフォーム」ボタンをクリックして、アプリリクエストのフォームに入力してください。このフォームを使用して、テストと追加が必要な新しいアプリのリクエストを行ったり、アプリの誤りを知らせたり、新しいアプリデータを提出することができます。技術的な経験がない場合は、Githubではなくこのフォームから貢献することをお勧めします。定義されたスキーマとカテゴリの詳細については、下にスクロールしてください。
 
-以下のフォームにアプリリクエストを記入してください。このフォームを使用して、テストして追加する新しいアプリのリクエストをすることができます。また、アプリに関して何か間違っている場合や、自分の新しいアプリデータを提出する場合にも使用できます。技術的な経験がない限り、GitHubよりもMicrosoft Formsを通じて貢献することをお勧めします。下に、定義されたスキーマとカテゴリの定義についての詳細があります。
-
-<iframe width="800px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[ここをクリック](https://forms.office.com/r/JZ1ywk2FaJ)してMSフォームを直接開く
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">アプリリクエストフォーム</a>
 
 ### GitHubを使用して貢献する方法（アプリ）
 
@@ -83,13 +80,12 @@ description: このサイトに貢献する方法
 カテゴリは、前述の適切なカテゴリフォルダ内の `.md` ファイル名と一致する必要があります。
 
 ## ゲーム
-貢献は、<a href="#github-を使用して貢献する方法-ゲーム">GitHub プロジェクト</a>に直接、または便利な<a href="#microsoft-forms-を使用して貢献する方法-ゲーム">フォームプロセス</a>を通じて行うことができます。
+貢献は、<a href="#github-を使用して貢献する方法-ゲーム">GitHub プロジェクト</a>に直接、または便利な<a href="#ゲームリクエストフォームで貢献する方法">フォームプロセス</a>を通じて行うことができます。
 
-### Microsoft Forms を使用して貢献する方法 (ゲーム)
+### ゲームリクエストフォームで貢献する方法
+「ゲームリクエストフォーム」ボタンをクリックして、以下のフォームにゲームテストの詳細を入力してください。技術的な経験がない場合は、Githubではなくこのフォームから貢献することをお勧めします。定義されたスキーマとカテゴリの詳細については、下にスクロールしてください。
 
-以下のフォームにゲームテストの詳細を入力してください。技術的な経験がある場合を除き、GitHub よりも Microsoft フォームでの貢献をお勧めします。定義されたスキーマおよびカテゴリ定義の詳細は、下にスクロールして確認してください。
-
-<iframe width="800px" height="480px" src="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">ゲームリクエストフォーム</a>
 
 ### GitHub を使用して貢献する方法 (ゲーム)
 
