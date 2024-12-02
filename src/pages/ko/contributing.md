@@ -9,15 +9,12 @@ description: 이 사이트에 기여하는 방법
 - <a href="#게임">게임</a>
 
 ## 애플리케이션
-애플리케이션 기여는 <a href="#github를-통한-기여-방법-애플리케이션">GitHub 프로젝트</a>를 통해 직접 하거나, 편리한 <a href="#microsoft-forms를-통한-기여-방법-애플리케이션">폼 작성 방식</a>으로 제출할 수 있습니다.
+애플리케이션 기여는 <a href="#github를-통한-기여-방법-애플리케이션">GitHub 프로젝트</a>를 통해 직접 하거나, 편리한 <a href="#앱-요청-양식을-통해-기여하는-방법">폼 작성 방식</a>으로 제출할 수 있습니다.
 
-### Microsoft Forms를 통한 기여 방법 (애플리케이션)
+### 앱 요청 양식을 통해 기여하는 방법
+‘앱 요청 양식’ 버튼을 클릭하고 앱 요청 양식을 작성하세요. 이 양식을 통해 테스트 및 추가할 새로운 앱을 요청하거나, 앱에 대한 오류를 알리거나, 새로운 앱 데이터를 제출할 수 있습니다. 기술 경험이 없는 경우, Github 대신 이 양식을 통해 기여하는 것을 권장합니다. 정의된 스키마와 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하세요.
 
-아래의 양식을 작성하여 애플리케이션 요청을 제출하십시오. 이 양식을 통해 새로운 애플리케이션을 테스트 및 추가 요청하거나, 기존 애플리케이션에 대한 오류를 알리거나, 새 애플리케이션 데이터를 제출할 수 있습니다. 기술 경험이 없는 경우 GitHub보다는 Microsoft Form을 통해 기여하는 것을 권장합니다. 정의된 스키마와 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하십시오.
-
-<iframe width="800px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[여기를 클릭하여](https://forms.office.com/r/JZ1ywk2FaJ) Microsoft 양식을 직접 열기
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">앱 요청 양식</a>
 
 ### GitHub를 통한 기여 방법 (애플리케이션)
 
@@ -83,15 +80,12 @@ GitHub 계정이 필요합니다. 계정이 없다면 https://github.com 으로 
 카테고리는 앞서 지정된 적절한 카테고리 폴더 내의 `.md` 파일 이름과 일치해야 합니다.
 
 ## 게임
-<a href="#github를-통한-기여-방법-게임">GitHub 프로젝트</a>에 직접 기여하거나, 편리한<a href="#microsoft-forms를-통한-기여-방법-게임">양식 프로세스</a>를 통해 기여할 수 있습니다.
+<a href="#github를-통한-기여-방법-게임">GitHub 프로젝트</a>에 직접 기여하거나, 편리한<a href="#게임-요청-양식을-통해-기여하는-방법">양식 프로세스</a>를 통해 기여할 수 있습니다.
 
-### Microsoft Forms를 통한 기여 방법 (게임)
+### 게임 요청 양식을 통해 기여하는 방법
+‘게임 요청 양식’ 버튼을 클릭하고 아래의 게임 테스트 세부 정보를 입력하세요. 기술 경험이 없는 경우, Github 대신 이 양식을 통해 기여하는 것을 권장합니다. 정의된 스키마와 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하세요.
 
-아래 양식에 게임 테스트 정보를 작성하십시오. 기술적 경험이 없는 경우 Microsoft Forms를 통한 기여를 권장합니다. 정의된 스키마 및 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하십시오.
-
-<iframe width="800px" height="480px" src="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[여기를 클릭](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u)하여 MS Forms를 직접 열기
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">게임 요청 양식</a>
 
 ### GitHub를 통한 기여 방법 (게임)
 

@@ -9,15 +9,12 @@ description: 如何为此站点做出贡献
 - <a href="#游戏">游戏</a>
 
 ## 应用程序
-应用程序的贡献可以直接在<a href="#通过-github-进行贡献应用程序">GitHub 项目</a>上完成，也可以通过便捷的<a href="#通过-microsoft-forms-进行贡献应用程序">表单流程</a>提交。
+应用程序的贡献可以直接在<a href="#通过-github-进行贡献应用程序">GitHub 项目</a>上完成，也可以通过便捷的<a href="#通过应用请求表单贡献">表单流程</a>提交。
 
-### 通过 Microsoft Forms 进行贡献（应用程序）
+### 通过应用请求表单贡献
+点击“应用请求表单”按钮，填写您的应用请求表单。您可以使用此表单请求测试并添加新应用、报告应用错误或提交新的应用数据。如果您没有技术经验，建议通过此表单而非Github进行贡献。向下滚动查看更多关于定义的架构和类别定义的详细信息。
 
-请填写以下表单并提交您的应用程序请求。您可以使用此表单请求测试并添加新的应用程序，告知我们某个应用程序的信息有误，或者提交您自己的新应用程序数据。我们建议没有技术经验的用户通过 Microsoft Form 而不是 GitHub 进行贡献。向下滚动查看有关定义的架构和类别定义的更多详细信息。
-
-<iframe width="800px" height="480px" src="https://forms.office.com/r/JZ1ywk2FaJ?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[点击此处](https://forms.office.com/r/JZ1ywk2FaJ)直接打开 Microsoft 表单
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">应用请求表单</a>
 
 ### 通过 GitHub 进行贡献（应用程序）
 
@@ -83,15 +80,12 @@ description: 如何为此站点做出贡献
 类别必须与前面指定的适当类别文件夹中的 `.md` 文件名匹配。
 
 ## 游戏
-可以直接向<a href="#通过-github-贡献游戏">GitHub 项目</a>贡献，或使用方便的<a href="#通过-microsoft-forms-贡献游戏">表单流程</a>。
+可以直接向<a href="#通过-github-贡献游戏">GitHub 项目</a>贡献，或使用方便的<a href="#通过游戏请求表单贡献">表单流程</a>。
 
-### 通过 Microsoft Forms 贡献（游戏）
+### 通过游戏请求表单贡献
+点击“游戏请求表单”按钮，填写以下表单中的游戏测试详情。如果您没有技术经验，建议通过此表单而非Github进行贡献。向下滚动查看更多关于定义的架构和类别定义的详细信息。
 
-填写以下表单，输入游戏测试的详细信息。除非您有一些技术经验，否则建议您通过 Microsoft 表单进行贡献，而不是 GitHub。向下滚动查看定义的模式和类别定义的详细信息。
-
-<iframe width="800px" height="480px" src="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[点击此处](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u)直接打开 MS 表单
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">游戏请求表单</a>
 
 ### 通过 GitHub 贡献（游戏）
 
