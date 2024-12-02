@@ -2,6 +2,7 @@ import RequestValidator from './utils/request-validator.js';
 import EmailManager from './utils/email-manager.js';
 import ConfigManager from './utils/config-manager.js';
 import PullRequestManager from './utils/pull-request-manager.js';
+import IssueManager from './utils/issue-manager.js';
 import { FileType } from "./models/file-type.js";
 
 const configManager = new ConfigManager();
@@ -49,10 +50,16 @@ export const handler = async (event) => {
 };
 
 const handleTestingRequest = async (data) => {
-    const emailManager = new EmailManager(config.sendgridApiKey, config.senderEmail, config.recipientEmail);
-    console.log(`Sending email to test the application ${data.name}...`);
-    await emailManager.sendEmail(`[Request for testing app] - ${data.name}`, emailManager.generateAppTestEmailContent(data.name, data.publisher));
-    console.log(`Email for testing application ${data.name} successfully sent`);
+    const issueManager = new IssueManager();
+    console.log(`Creating Issue for ${data.name} from ${data.publisher}.`);
+    await issueManager.createIssue(data, {
+        githubAppId: config.githubAppId,
+        githubAppInstallationId: config.githubAppInstallationId,
+        githubAppPkBase64: config.githubAppPkBase64,
+        githubOwner: config.githubOwner,
+        githubRepo: config.githubRepo
+    });
+    console.log(`Issue for ${data.name} from ${data.publisher} successfully created.`);
 };
 
 const handleSubmitOrUpdateRequest = async (data) => {

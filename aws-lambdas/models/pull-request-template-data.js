@@ -12,6 +12,11 @@ export const pullRequestTemplateData = {
     pullRequestTitleTemplate: template`[Feature] Add file for ${0} ${1}`, // ex: [Feature] Add file for Outlook Application
 };
 
+export const issueTemplateData = {
+    title: template`[Request] Test ${0} application`,
+    body: template`This issue corresponds to a request to test the **${0}** application from **${1}**.\nPlease proceed with the testing process at your earliest convenience.\n**NOTE**: this Issue has been automatically generated.`
+}
+
 // Tagged template function for creating templates with placeholders
 // Usage: const value = template`list of values: ${0}, ${1}, {2}`;
 // value("first", "second", "third"); // outputs: "list of values: first, second, third";

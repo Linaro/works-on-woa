@@ -127,5 +127,18 @@ export default class OctokitManager {
             }
         });
         return data;
-    }    
+    }
+
+    async createIssue(title, body) {
+        const { data } = await this.octokit.issues.create({
+            owner: this.owner,
+            repo: this.repo,
+            title: title,
+            body: body,
+            headers: {
+                'X-GitHub-Api-Version': '2022-11-28'
+            }
+        });
+        return data;
+    }
 }
