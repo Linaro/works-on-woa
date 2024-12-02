@@ -10,12 +10,11 @@ export default class ConfigManager {
         if (this.config) return this.config;
 
         const baseConfigKeys = ["githubAppId", "githubAppInstallationId", "githubAppPkBase64", "githubOwner", "githubRepo", "githubBaseBranch", "recaptchaV2VerifyUrl", "recaptchaV2SecretKey"];
-        const appSpecificKeys = ["sendgridApiKey", "senderEmail", "recipientEmail"];
 
         let requiredKeys;
         switch (fileType) {
             case FileType.Application:
-                requiredKeys = [...baseConfigKeys, ...appSpecificKeys];
+                requiredKeys = [...baseConfigKeys];
                 break;
             case FileType.Game:
                 requiredKeys = [...baseConfigKeys];
@@ -41,12 +40,10 @@ export default class ConfigManager {
                 missingEnvVars.push(key);
             }
         });
-
-        await this.loadSecrets(missingEnvVars);
     }
 
     async loadSecrets(missingKeys) {
-        const keysRequiringSecrets = ["sendgridApiKey", "recaptchaV2SecretKey", "githubAppPkBase64"];
+        const keysRequiringSecrets = ["githubAppPkBase64"];
         const secretsToFetch = missingKeys.filter(key => keysRequiringSecrets.includes(key));
 
         if (secretsToFetch.length === 0) return;

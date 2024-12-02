@@ -45,8 +45,34 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
+      
+      - name: Install Lambda dependencies
+        run: |
+          npm install
+        working-directory: aws-lambdas
+
+      - name: Structure Lambda AppForm
+        run: |
+          mkdir -p AppForm
+          shopt -s extglob
+          cp -r !(AppForm|GameForm) AppForm/
+        working-directory: aws-lambdas
+      
+      - name: Structure Lambda GameForm
+        run: |
+          mkdir -p GameForm
+          shopt -s extglob
+          cp -r !(AppForm|GameForm) GameForm/
+        working-directory: aws-lambdas
 
       - name: Build and deploy
+        env:
+              GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+              GITHUB_BASE_BRANCH: ${{ vars.GH_BASE_BRANCH }}
+              GITHUB_OWNER: ${{ vars.GH_OWNER }}
+              GITHUB_REPO: ${{ vars.GH_REPO }}
+              RECAPTCHA_V2_VERIFY_URL: ${{ vars.PUBLIC_CAPTCHA_WEB_SITE_KEY }}
+              RECAPTCHA_V2_SECRET_KEY: ${{ secrets.RECAPTCHA_V2_SECRET_KEY }}
         run: |
           # Set up the environment variables
           export NODE_OPTIONS=--experimental-wasm-modules

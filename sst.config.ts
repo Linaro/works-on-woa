@@ -1,5 +1,5 @@
 import type { SSTConfig } from "sst";
-import { AstroSite } from "sst/constructs";
+import { AstroSite, Api, Function } from "sst/constructs";
 
 export default {
   config(_input) {
@@ -47,11 +47,47 @@ export default {
             PUBLIC_KEY_URL: process.env.PUBLIC_KEY_URL!
           }
         });
+
         stack.addOutputs({
           url: site.url,
         });
       }
 
+      const lambdaEnvVars = {
+        GITHUB_TOKEN: process.env.GITHUB_TOKEN!,
+        GITHUB_OWNER: process.env.GITHUB_OWNER!,
+        GITHUB_REPO: process.env.GITHUB_REPO!,
+        GITHUB_BASE_BRANCH: process.env.GITHUB_BASE_BRANCH!,
+        RECAPTCHA_VERIFY_URL: process.env.RECAPTCHA_VERIFY_URL!,
+        RECAPTCHA_SECRET_KEY: process.env.RECAPTCHA_SECRET_KEY!,
+      };
+
+      const appFormFunction = new Function(stack, "ProcessAppFormSubmissions", {
+        handler: "aws-lambdas/AppForm/index.handler",
+        runtime: "nodejs18.x",
+        memorySize: 256,
+        environment: lambdaEnvVars,
+      });
+
+      const gameFormFunction = new Function(stack, "ProcessGameFormSubmissions", {
+        handler: "aws-lambdas/GameForm/index.handler",
+        runtime: "nodejs18.x",
+        memorySize: 256,
+        environment: lambdaEnvVars,
+      });
+
+      const api = new Api(stack, "Api", {
+        routes: {
+          "POST /process-app-form-submissions": appFormFunction,
+          "POST /process-game-form-submissions": gameFormFunction,
+        },
+      });
+
+      stack.addOutputs({
+        AppFormFunctionArn: appFormFunction.functionArn,
+        GameFormFunctionArn: gameFormFunction.functionArn,
+        ApiEndpoint: api.url,
+      });
     });
   },
 } satisfies SSTConfig;
