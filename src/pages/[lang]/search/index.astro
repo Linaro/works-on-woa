@@ -13,15 +13,12 @@ export function getStaticPaths() {
 }
 
 const locale = i18next.language;
-
-// Desestructura los parámetros de la URL
-const { lang } = Astro.params;
 ---
 
 <html lang="en">
   <head>
     <BaseHead
-      title={"SearchITO | Windows on Arm Ready Software"}
+      title={"Search | Windows on Arm Ready Software"}
       description={`Find software ready for Windows on Arm`}
     />
   </head>
