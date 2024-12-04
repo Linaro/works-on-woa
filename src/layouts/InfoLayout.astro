@@ -5,8 +5,6 @@ import { LOCALES } from "../config/i18nConfig";
 import { t } from "i18next";
 
 const { frontmatter } = Astro.props;
-console.log("From InfoLayout");
-console.log(Astro.props);
 let title = frontmatter.title + " | " + t('header.main');
 let breadcrumbs = [{ href: `${Astro.url.pathname}`, title: frontmatter.title }];
 const localeSegment = Astro.url.pathname.startsWith('/') ? Astro.url.pathname.replace(/\/$/, '').slice(1) : Astro.url.pathname;

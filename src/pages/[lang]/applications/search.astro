@@ -15,8 +15,8 @@ const locale = updateLanguage(Astro.url);
 ---
 
 <BaseLayout
-  title={"Windows on Arm Ready Applications"}
-  description={`Find applications ready for Windows on Arm`}
+  title={t('header.applications')}
+  description={t('header.applications_desc')}
   breadcrumbs={[
     { title: t('bradcrumbs.applications'), href: `/${locale}/applications` },
     { title: t('bradcrumbs.search'), href: `/${locale}/applications/search` }
