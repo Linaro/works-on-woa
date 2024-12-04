@@ -1,6 +1,14 @@
 {
   "header": {
-	"main": "Arm용 Windows 호환 소프트웨어"
+	  "main": "Arm용 Windows 호환 소프트웨어",
+    "applications": "Windows on Arm 지원 애플리케이션",
+    "applications_desc": "Windows on Arm에서 실행 가능한 애플리케이션 찾기",
+    "games": "Windows on Arm 지원 게임",
+    "games_desc": "Windows on Arm에서 실행 가능한 게임 찾기",
+    "contributing_app": "Windows on Arm - 애플리케이션 기여 양식",
+    "contributing_app_desc": "Windows on Arm 지원 애플리케이션 기여 양식",
+    "contributing_game": "Windows on Arm - 게임 기여 양식",
+    "contributing_game_desc": "Windows on Arm 지원 게임 기여 양식"
   },
   "bradcrumbs": {
 	"home": "홈",

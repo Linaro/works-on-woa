@@ -15,8 +15,8 @@ const locale = updateLanguage(Astro.url);
 ---
 
 <BaseLayout
-  title={"Windows on Arm Ready Games"}
-  description={`Find Games ready for Windows on Arm`}
+  title={t('header.games')}
+  description={t('header.games_desc')}
   breadcrumbs={[{ title: t('bradcrumbs.games'), href: `/${locale}/games` }]}
 >
   <Search shouldRedirect={false} type="games" />

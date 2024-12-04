@@ -1,6 +1,14 @@
 {
   "header": {
-	"main": "Arm向けのWindows対応ソフトウェア"
+	"main": "Arm向けのWindows対応ソフトウェア",
+    "applications": "Windows on Arm 対応アプリケーション",
+    "applications_desc": "Windows on Arm に対応したアプリケーションを探す",
+    "games": "Windows on Arm 対応ゲーム",
+    "games_desc": "Windows on Arm に対応したゲームを探す",
+    "contributing_app": "Windows on Arm - アプリケーション提供フォーム",
+    "contributing_app_desc": "Windows on Arm 対応アプリケーションの提供フォーム",
+    "contributing_game": "Windows on Arm - ゲーム提供フォーム",
+    "contributing_game_desc": "Windows on Arm 対応ゲームの提供フォーム"
   },
   "bradcrumbs": {
 	"home": "ホーム",

@@ -1,6 +1,14 @@
 {
   "header": {
-	"main": "Windows on Arm Ready Software"
+    "main": "Windows on Arm Ready Software",
+    "applications": "Windows on Arm Ready Applications",
+    "applications_desc": "Find applications ready for Windows on Arm",
+    "games": "Windows on Arm Ready Games",
+    "games_desc": "Find Games ready for Windows on Arm",
+    "contributing_app": "Windows on Arm - Contributing Applications form",
+    "contributing_app_desc": "Contributing form for Applications ready for Windows on Arm",
+    "contributing_game": "Windows on Arm - Contributing Games form",
+    "contributing_game_desc": "Contributing form for Games ready for Windows on Arm"
   },
   "bradcrumbs": {
 	"home": "Home",

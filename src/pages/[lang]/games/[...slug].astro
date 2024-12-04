@@ -4,7 +4,6 @@ import ProjectLayout from "../../../layouts/ProjectLayout.astro";
 import { exec } from "node:child_process";
 import { promisify } from "node:util";
 import { getEntry } from "astro:content";
-import i18next from "i18next";
 import { LOCALES } from "../../../config/i18nConfig";
 
 const execAsync = promisify(exec);

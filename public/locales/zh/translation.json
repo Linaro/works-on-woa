@@ -1,6 +1,14 @@
 {
   "header": {
-	"main": "适用于Arm的Windows就绪软件"
+    "main": "适用于Arm的Windows就绪软件",
+    "applications": "Windows on Arm 兼容应用程序",
+    "applications_desc": "查找适用于 Windows on Arm 的应用程序",
+    "games": "Windows on Arm 兼容游戏",
+    "games_desc": "查找适用于 Windows on Arm 的游戏",
+    "contributing_app": "Windows on Arm - 应用程序贡献表单",
+    "contributing_app_desc": "适用于 Windows on Arm 的应用程序贡献表单",
+    "contributing_game": "Windows on Arm - 游戏贡献表单",
+    "contributing_game_desc": "适用于 Windows on Arm 的游戏贡献表单"
   },
   "bradcrumbs": {
 	"home": "主页",
