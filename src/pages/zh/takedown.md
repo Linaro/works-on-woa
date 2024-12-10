@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/InfoLayout.astro
 title: 删除请求
-description: 关于从 Windows on Arm 兼容网站中删除条目的权利持有者信息。
+description: 关于从 Arm的Windows 兼容网站中删除条目的权利持有者信息。
 ---
 
 # 内容删除请求

@@ -29,6 +29,7 @@ const {
 
 const { Content } = await render();
 const locale = updateLanguage(Astro.url);
+const t_compatibility = t(`game_compatibility_values.${compatibility}`);
 ---
 
 <div class="w-full">
@@ -44,9 +45,9 @@ const locale = updateLanguage(Astro.url);
         compatibility === "unplayable" && "bg-red-500",
       ]}
       data-pagefind-ignore
-      data-pagefind-filter={`compatibility:${toTitleCase(compatibility)}`}
+      data-pagefind-filter={`compatibility:${toTitleCase(t_compatibility)}`}
     >
-      {compatibility.toUpperCase()}
+      {t_compatibility.toUpperCase()}
     </p>
     <img
       src={icon !== "gaming-icon-white.svg"
@@ -78,9 +79,9 @@ const locale = updateLanguage(Astro.url);
                 data-pagefind-ignore
                 data-pagefind-filter="category"
                 class="text-blue-700 underline"
-                href={`/games/?category=${encodeURIComponent(category.data.name)}`}
+                href={`/${locale}/games/?category=${encodeURIComponent(t(`game_category_values.${category.slug}`))}`}
               >
-                {category.data.name}
+                {t(`game_category_values.${category.slug}`)}
               </a>
               <span>{index >= categories.length - 1 ? "" : ", "}</span>
             </span>
@@ -137,7 +138,7 @@ const locale = updateLanguage(Astro.url);
           <ul class="flex gap-x-8">
             <li>
               <b>{t('games.compatible')}: </b>
-              <span data-pagefind-filter="auto_super_resolution.compatibility">{auto_super_resolution.compatibility}</span>
+              <span data-pagefind-filter="auto_super_resolution.compatibility">{t(`game_auto_sr_values.${auto_super_resolution.compatibility}`)}</span>
             </li>
             
             {auto_super_resolution.fps_boost && (

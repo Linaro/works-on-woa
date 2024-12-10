@@ -50,20 +50,20 @@ const url = `/${locale}/applications/${slug}/`;
                 return (
                   <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
                     <span class="pr-2">✓</span>{" "}
-                    {data.display_result}
+                    {t(`application_display_result.${data.display_result}`)}
                   </p>
                 );
               }
               if (data.display_result === "Vendor Announced - Launching Soon") {
                 return (
                   <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
-                    {data.display_result}
+                    {t(`application_display_result.${data.display_result}`)}
                   </p>
                 );
               }
               return (
                 <p class="text-red-500 flex flex flex-col sm:flex-row gap-1 flex-wrap">
-                  {data.display_result}
+                  {t(`application_display_result.${data.display_result}`)}
                 </p>
               );
             }
@@ -83,7 +83,7 @@ const url = `/${locale}/applications/${slug}/`;
                 <span
                   class="after:content-[','] last:after:content-[''] inline"
                 >
-                  {category.data.name}
+                  {t(`application_category_values.${category.slug}`)}
                 </span>
               ))
             }

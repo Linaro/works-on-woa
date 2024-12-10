@@ -39,12 +39,12 @@
     "search_button": "Search for more applications",
     "search_placeholder": "Search for applications",
     "search_instruction": "To begin searching, enter a search query and press enter, or choose a category",
-	"categories": "Categories",
-	"version_from": "Version From",
-	"download": "Download",
-	"report_last_updated": "Report last updated",
-	"website": "Website",
-	"more_info": "More Info"
+    "categories": "Categories",
+    "version_from": "Version From",
+    "download": "Download",
+    "report_last_updated": "Report last updated",
+    "website": "Website",
+    "more_info": "More Info"
   },
   "games": {
     "search_placeholder": "Search for games",
@@ -101,26 +101,117 @@
     "game_category": {
       "description": "Game Category",
       "instruction": "Select one category from the list below.",
-	  "fetching_categories": "Fetching game categories. Please wait..."
-   },
-   "publisher": "Publisher",
-   "compatibility": {
-     "description": "Compatibility",
-     "perfect": "Perfect - Runs at 60+ FPS at 1080p resolution with no glitches / issues that affect gaming experience",
-     "playable": "Playable - Runs at 30+ FPS at 1080p resolution with minimal glitches/ issues that affect gaming experience",
-     "runs": "Runs - Runs at less than 30 FPS and/or with bugs that may affect gaming experience",
-     "unplayable": "Unplayable - Does not run due to anti-cheat or other failures"
-   },
-   "device_configuration": "Device Configuration",
-   "date_tested": "Date tested",
-   "os_version": "Os Version",
-   "driver_id": "Driver ID",
-   "compatibility_details": "Compatibility Details",
-   "auto_super_resolution_compatibility": "Auto Super Resolution Compatibility",
-   "auto_super_resolution_fps_bost": "Auto Super Res FPS boost",
-      "your_name_gamertag": "Your name/gamertag",
-      "submit_button": "Submit",
-      "submit_succeeded": "Game form successfully sent, thanks for your collaboration!",
-      "submit_failed": "An error occurred!"
+	    "fetching_categories": "Fetching game categories. Please wait..."
+    },
+    "publisher": "Publisher",
+    "compatibility": {
+      "description": "Compatibility",
+      "perfect": "Perfect - Runs at 60+ FPS at 1080p resolution with no glitches / issues that affect gaming experience",
+      "playable": "Playable - Runs at 30+ FPS at 1080p resolution with minimal glitches/ issues that affect gaming experience",
+      "runs": "Runs - Runs at less than 30 FPS and/or with bugs that may affect gaming experience",
+      "unplayable": "Unplayable - Does not run due to anti-cheat or other failures"
+    },
+    "device_configuration": "Device Configuration",
+    "date_tested": "Date tested",
+    "os_version": "Os Version",
+    "driver_id": "Driver ID",
+    "compatibility_details": "Compatibility Details",
+    "auto_super_resolution_compatibility": "Auto Super Resolution Compatibility",
+    "auto_super_resolution_fps_bost": "Auto Super Res FPS boost",
+    "your_name_gamertag": "Your name/gamertag",
+    "submit_button": "Submit",
+    "submit_succeeded": "Game form successfully sent, thanks for your collaboration!",
+    "submit_failed": "An error occurred!"
+  },
+  "application_filters": {
+    "category": "Category"
+  },
+  "application_compatibility_values": {
+    "native": "Native",
+    "emulation": "Emulation",
+    "no": "No",
+    "unknown": "Unknown"
+  },
+  "application_category_values": {
+    "accessibility": "Accessibility",
+    "ai-tool": "AI Tool",
+    "ai": "AI apps",
+    "anti-virus": "Anti-Virus",
+    "audio": "Digital Audio Workstation",
+    "benchmarking": "Benchmarking",
+    "books": "Books & Reference",
+    "browsers": "Browsers",
+    "business": "Business",
+    "cad": "CAD",
+    "collaboration": "Collaboration",
+    "creative": "Creative",
+    "data-prot": "Data Protection / Insider Threat",
+    "database": "Database",
+    "dev-mgmt": "Device Management",
+    "dev-tools": "Dev Tools",
+    "ecom": "Ecommerce",
+    "education": "Education",
+    "emulators": "Emulators",
+    "endpoint-sec": "Endpoint Security",
+    "engineering": "Engineering",
+    "enterprise": "Enterprise",
+    "entertainment": "Entertainment",
+    "health": "Health & Fitness",
+    "healthcare": "Healthcare",
+    "it-sec-tools": "IT Security Tools",
+    "it-tools-vdi": "IT Tools & VDI",
+    "it": "IT Management",
+    "library": "Library",
+    "multimedia": "Multimedia Design",
+    "music": "Music",
+    "nav": "Navigation & Maps",
+    "news": "News & Weather",
+    "nw-storage": "Network & Storage",
+    "oss": "OSS",
+    "pc-mgmt": "PC Management",
+    "personal": "Personalization",
+    "personalfin": "Personal Finance",
+    "photo": "Photo & Video",
+    "printers": "Printers & Peripherals",
+    "prod": "Productivity",
+    "remote-desktop": "Remote Desktop",
+    "security": "Security",
+    "sports": "Sports",
+    "sysinfo": "System Information",
+    "travel": "Travel",
+    "utils-tools": "Utilities & Tools",
+    "video": "Video Editor",
+    "vpn": "VPN",
+    "web-social": "Social Media"
+  },
+  "application_display_result": {
+    "Compatible": "Compatible",
+    "Vendor Announced - Launching Soon": "Vendor Announced - Launching Soon",
+    "Unsupported": "Unsupported",
+    "Unknown": "Unknown"
+  },
+  "game_filters": {
+    "auto_sr": "Auto SR",
+    "category": "Category",
+    "compatibility": "Compatibility"
+  },
+  "game_compatibility_values": {
+    "perfect": "Perfect",
+    "playable": "Playable",
+    "runs": "Runs",
+    "unplayable": "Unplayable"
+  },
+  "game_category_values": {
+    "actionandadventure": "Action and Adventure",
+    "cardandboard": "Card and Board",
+    "platformer": "Platformer",
+    "roleplaying": "Role Playing",
+    "unknown": "Unknown"
+  },
+  "game_auto_sr_values": {
+    "yes, out-of-box": "Yes, out-of-box",
+    "yes, opt-in": "Yes, opt-in",
+    "no": "No",
+    "unknown": "Unknown"
   }
 }

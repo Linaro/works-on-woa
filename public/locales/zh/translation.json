@@ -1,14 +1,14 @@
 {
   "header": {
     "main": "适用于Arm的Windows就绪软件",
-    "applications": "Windows on Arm 兼容应用程序",
-    "applications_desc": "查找适用于 Windows on Arm 的应用程序",
-    "games": "Windows on Arm 兼容游戏",
-    "games_desc": "查找适用于 Windows on Arm 的游戏",
-    "contributing_app": "Windows on Arm - 应用程序贡献表单",
-    "contributing_app_desc": "适用于 Windows on Arm 的应用程序贡献表单",
-    "contributing_game": "Windows on Arm - 游戏贡献表单",
-    "contributing_game_desc": "适用于 Windows on Arm 的游戏贡献表单"
+    "applications": "Arm的Windows 兼容应用程序",
+    "applications_desc": "查找适用于 Arm的Windows 的应用程序",
+    "games": "Arm的Windows 兼容游戏",
+    "games_desc": "查找适用于 Arm的Windows 的游戏",
+    "contributing_app": "Arm的Windows - 应用程序贡献表单",
+    "contributing_app_desc": "适用于 Arm的Windows 的应用程序贡献表单",
+    "contributing_game": "Arm的Windows - 游戏贡献表单",
+    "contributing_game_desc": "适用于 Arm的Windows 的游戏贡献表单"
   },
   "bradcrumbs": {
 	"home": "主页",
@@ -122,5 +122,90 @@
     "submit_button": "提交",
     "submit_succeeded": "游戏表单成功提交，谢谢您的合作！",
     "submit_failed": "发生错误！"
+  },
+  "application_filters": {
+    "category": "类别"
+  },
+  "application_category_values": {
+    "accessibility": "辅助功能",
+    "ai-tool": "AI 工具",
+    "ai": "AI 应用",
+    "anti-virus": "杀毒软件",
+    "audio": "数字音频工作站",
+    "benchmarking": "性能测试",
+    "books": "书籍与参考",
+    "browsers": "浏览器",
+    "business": "商业",
+    "cad": "CAD",
+    "collaboration": "协作",
+    "creative": "创意",
+    "data-prot": "数据保护 / 内部威胁",
+    "database": "数据库",
+    "dev-mgmt": "设备管理",
+    "dev-tools": "开发工具",
+    "ecom": "电子商务",
+    "education": "教育",
+    "emulators": "模拟器",
+    "endpoint-sec": "端点安全",
+    "engineering": "工程",
+    "enterprise": "企业",
+    "entertainment": "娱乐",
+    "health": "健康与健身",
+    "healthcare": "医疗",
+    "it-sec-tools": "IT 安全工具",
+    "it-tools-vdi": "IT 工具与VDI",
+    "it": "IT 管理",
+    "library": "图书馆",
+    "multimedia": "多媒体设计",
+    "music": "音乐",
+    "nav": "导航与地图",
+    "news": "新闻与天气",
+    "nw-storage": "网络与存储",
+    "oss": "开源软件",
+    "pc-mgmt": "PC 管理",
+    "personal": "个性化",
+    "personalfin": "个人理财",
+    "photo": "照片与视频",
+    "printers": "打印机与外设",
+    "prod": "生产力",
+    "remote-desktop": "远程桌面",
+    "security": "安全",
+    "sports": "体育",
+    "sysinfo": "系统信息",
+    "travel": "旅行",
+    "utils-tools": "实用工具",
+    "video": "视频编辑",
+    "vpn": "VPN",
+    "web-social": "社交媒体"
+  },
+  "application_display_result": {
+    "Compatible": "兼容",
+    "Vendor Announced - Launching Soon": "厂商已宣布 - 即将发布",
+    "Unsupported": "不支持",
+    "Unknown": "未知"
+  },
+  "game_filters": {
+    "auto_sr": "自动SR",
+    "category": "类别",
+    "compatibility": "兼容性"
+  },
+  "game_compatibility_values": {
+    "perfect": "完美",
+    "playable": "可玩",
+    "runs": "运行",
+    "unplayable": "不可玩"
+  },
+  "game_category_values": {
+    "actionandadventure": "动作和冒险",
+    "cardandboard": "卡牌和棋盘",
+    "platformer": "平台类游戏",
+    "roleplaying": "角色扮演",
+    "unknown": "未知"
+  },
+  "game_auto_sr_values": {
+    "yes, out-of-box": "是，开箱即用",
+    "yes, opt-in": "是，需要在设置中启用",
+    "no": "否",
+    "unknown": "未知"
   }
 }

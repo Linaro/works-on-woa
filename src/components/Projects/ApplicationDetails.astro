@@ -48,20 +48,20 @@ const locale = updateLanguage(Astro.url);
           return (
             <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
               <span class="text-2xl md:text-5xl pr-2 md:pr-4">✓</span>{" "}
-              {data.display_result}
+              {t(`application_display_result.${data.display_result}`)}
             </p>
           );
         }
         if (data.display_result === "Vendor Announced - Launching Soon") {
           return (
             <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
-              {data.display_result}
+              {t(`application_display_result.${data.display_result}`)}
             </p>
           );
         }
         return (
           <p class="text-red-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
-            {data.display_result}
+            {t(`application_display_result.${data.display_result}`)}
           </p>
         );
       }
@@ -87,7 +87,7 @@ const locale = updateLanguage(Astro.url);
           <span
               data-pagefind-ignore
               data-pagefind-filter="category" >
-              {category.data.name}
+              {t(`application_category_values.${category.slug}`)}
             <span>{index >= categories.length - 1 ? "" : ", "}</span>
           </span>
         ))

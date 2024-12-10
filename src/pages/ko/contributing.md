@@ -56,8 +56,8 @@ GitHub 계정이 필요합니다. 계정이 없다면 https://github.com 으로 
 | `name` | string | 애플리케이션의 이름입니다. |
 | `icon` | string | 선택 사항. `public/icons` 에 상대적인 아이콘 파일 경로. 최대 512x512. 가능하면 SVG를 사용하세요. |
 | `categories` | list | 애플리케이션이 속한 하나 이상의 카테고리 목록. 카테고리 목록은 `src/content/applications_categories` 에 있습니다. 이 폴더의 파일 이름으로 카테고리를 참조합니다. |
-| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | 표시된 Arm 호환성:<br>Compatible: 테스트된 앱이 Windows on Arm에서 작동합니다<br>Unknown: 상태를 알 수 없습니다<br>Unsupported: 현재 이 값은 사용되지 않습니다<br>Vendor Announced - Launching Soon: 현재 이 값은 사용되지 않습니다 |
-| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Windows on Arm 호환성:<br>Native: WoA 네이티브 지원이 가능<br>Emulation: x86/x64 에뮬레이션으로 작동<br>No: 아직 이식되지 않음<br>Unknown: 상태를 알 수 없음 |
+| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | 표시된 Arm 호환성:<br>Compatible: 테스트된 앱이 Arm용 Windows 에서 작동합니다<br>Unknown: 상태를 알 수 없습니다<br>Unsupported: 현재 이 값은 사용되지 않습니다<br>Vendor Announced - Launching Soon: 현재 이 값은 사용되지 않습니다 |
+| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Arm용 Windows 호환성:<br>Native: WoA 네이티브 지원이 가능<br>Emulation: x86/x64 에뮬레이션으로 작동<br>No: 아직 이식되지 않음<br>Unknown: 상태를 알 수 없음 |
 | `version_from` | string | 사용할 수 있는 버전입니다.<br><br>소프트웨어가 특정 버전에서 컴파일할 수 있지만 다른 버전에서만 공개된 경우(예: Python은 상당히 일찍 컴파일할 수 있었지만 WoA 릴리스를 시작한 것은 나중이었음), 대부분의 최종 사용자가 원하는 공개 버전을 여기에 입력해야 합니다.<br><br>컴파일 가능한 버전(및 관련된 주의 사항)은 노트 섹션에 자유롭게 추가할 수 있습니다. |
 | `link` | URL | 소프트웨어 다운로드 링크 또는 애플리케이션의 메인 웹사이트. |
 

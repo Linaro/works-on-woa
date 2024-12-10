@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/InfoLayout.astro 
 title: "主页"
-description: Windows on Arm 兼容软件
+description: Arm的Windows 兼容软件
 ---
 
-欢迎来到 Works on Windows on Arm！
+欢迎来到 Works on Arm的Windows！
 
 该网站是关于运行在 Arm 架构的 Windows 设备上众多应用和游戏的兼容性信息的来源，并将随着时间不断更新。
 

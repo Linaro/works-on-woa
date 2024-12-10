@@ -1,14 +1,14 @@
 {
   "header": {
-	"main": "Arm向けのWindows対応ソフトウェア",
-    "applications": "Windows on Arm 対応アプリケーション",
-    "applications_desc": "Windows on Arm に対応したアプリケーションを探す",
-    "games": "Windows on Arm 対応ゲーム",
-    "games_desc": "Windows on Arm に対応したゲームを探す",
-    "contributing_app": "Windows on Arm - アプリケーション提供フォーム",
-    "contributing_app_desc": "Windows on Arm 対応アプリケーションの提供フォーム",
-    "contributing_game": "Windows on Arm - ゲーム提供フォーム",
-    "contributing_game_desc": "Windows on Arm 対応ゲームの提供フォーム"
+    "main": "Arm版Windows対応ソフトウェア",
+    "applications": "Arm版Windows 対応アプリケーション",
+    "applications_desc": "Arm版Windows に対応したアプリケーションを探す",
+    "games": "Arm版Windows 対応ゲーム",
+    "games_desc": "Arm版Windows に対応したゲームを探す",
+    "contributing_app": "Arm版Windows - アプリケーション提供フォーム",
+    "contributing_app_desc": "Arm版Windows 対応アプリケーションの提供フォーム",
+    "contributing_game": "Arm版Windows - ゲーム提供フォーム",
+    "contributing_game_desc": "Arm版Windows 対応ゲームの提供フォーム"
   },
   "bradcrumbs": {
 	"home": "ホーム",
@@ -95,32 +95,117 @@
     "submit_failed": "エラーが発生しました！"
   },
   "game_form": {
-	"title": "ゲームリクエストフォーム",
-	"description": "ゲームの互換性に関する以下の情報を記入してください。",
-	"game_name": "ゲーム名",
+    "title": "ゲームリクエストフォーム",
+    "description": "ゲームの互換性に関する以下の情報を記入してください。",
+    "game_name": "ゲーム名",
     "game_category": {
       "description": "ゲームカテゴリ",
       "instruction": "下のリストから1つのカテゴリを選択してください。",
-	  "fetching_categories": "ゲームカテゴリを取得中です。しばらくお待ちください..."
+      "fetching_categories": "ゲームカテゴリを取得中です。しばらくお待ちください..."
     },
-	"publisher": "出版社",
-	"compatibility": {
-	  "description": "互換性",
-	  "perfect": "Perfect - 1080p 解像度で 60 FPS 以上で動作し、ゲーム体験に影響を与えるグリッチや問題はありません",
-	  "playable": "Playable - 1080p 解像度で 30 FPS 以上で動作し、ゲーム体験に最小限のグリッチや問題があります",
-	  "runs": "Runs - 30 FPS 未満で動作し、ゲーム体験に影響を与えるバグがあります",
-	  "unplayable": "Unplayable - アンチチートやその他の失敗により動作しません"
-	},
-	"device_configuration": "デバイス構成",
-	"date_tested": "テスト日",
-	"os_version": "OS バージョン",
-	"driver_id": "ドライバー ID",
-	"compatibility_details": "互換性の詳細",
-	"auto_super_resolution_compatibility": "オートスーパー解像度互換性",
-	"auto_super_resolution_fps_bost": "オートスーパー解像度 FPS 向上",
+    "publisher": "出版社",
+    "compatibility": {
+      "description": "互換性",
+      "perfect": "Perfect - 1080p 解像度で 60 FPS 以上で動作し、ゲーム体験に影響を与えるグリッチや問題はありません",
+      "playable": "Playable - 1080p 解像度で 30 FPS 以上で動作し、ゲーム体験に最小限のグリッチや問題があります",
+      "runs": "Runs - 30 FPS 未満で動作し、ゲーム体験に影響を与えるバグがあります",
+      "unplayable": "Unplayable - アンチチートやその他の失敗により動作しません"
+    },
+    "device_configuration": "デバイス構成",
+    "date_tested": "テスト日",
+    "os_version": "OS バージョン",
+    "driver_id": "ドライバー ID",
+    "compatibility_details": "互換性の詳細",
+    "auto_super_resolution_compatibility": "オートスーパー解像度互換性",
+    "auto_super_resolution_fps_bost": "オートスーパー解像度 FPS 向上",
     "your_name_gamertag": "あなたの名前/ゲーマータグ",
     "submit_button": "送信",
     "submit_succeeded": "ゲームフォームが正常に送信されました。ご協力ありがとうございます！",
     "submit_failed": "エラーが発生しました！"
+  },
+  "application_filters": {
+    "category": "カテゴリー"
+  },
+  "application_category_values": {
+    "accessibility": "アクセシビリティ",
+    "ai-tool": "AI ツール",
+    "ai": "AI アプリ",
+    "anti-virus": "アンチウイルス",
+    "audio": "デジタルオーディオワークステーション",
+    "benchmarking": "ベンチマーク",
+    "books": "書籍と参考資料",
+    "browsers": "ブラウザ",
+    "business": "ビジネス",
+    "cad": "CAD",
+    "collaboration": "コラボレーション",
+    "creative": "クリエイティブ",
+    "data-prot": "データ保護 / 内部脅威",
+    "database": "データベース",
+    "dev-mgmt": "デバイス管理",
+    "dev-tools": "開発ツール",
+    "ecom": "電子商取引",
+    "education": "教育",
+    "emulators": "エミュレーター",
+    "endpoint-sec": "エンドポイントセキュリティ",
+    "engineering": "エンジニアリング",
+    "enterprise": "エンタープライズ",
+    "entertainment": "エンターテインメント",
+    "health": "健康とフィットネス",
+    "healthcare": "ヘルスケア",
+    "it-sec-tools": "IT セキュリティツール",
+    "it-tools-vdi": "IT ツールとVDI",
+    "it": "IT 管理",
+    "library": "ライブラリ",
+    "multimedia": "マルチメディアデザイン",
+    "music": "音楽",
+    "nav": "ナビゲーションと地図",
+    "news": "ニュースと天気",
+    "nw-storage": "ネットワークとストレージ",
+    "oss": "OSS",
+    "pc-mgmt": "PC 管理",
+    "personal": "パーソナライズ",
+    "personalfin": "個人財務",
+    "photo": "写真とビデオ",
+    "printers": "プリンターと周辺機器",
+    "prod": "生産性",
+    "remote-desktop": "リモートデスクトップ",
+    "security": "セキュリティ",
+    "sports": "スポーツ",
+    "sysinfo": "システム情報",
+    "travel": "旅行",
+    "utils-tools": "ユーティリティとツール",
+    "video": "ビデオ編集",
+    "vpn": "VPN",
+    "web-social": "ソーシャルメディア"
+  },
+  "application_display_result": {
+    "Compatible": "互換性あり",
+    "Vendor Announced - Launching Soon": "ベンダー発表 - 近日公開予定",
+    "Unsupported": "サポートされていない",
+    "Unknown": "不明"
+  },
+  "game_filters": {
+    "auto_sr": "自動SR",
+    "category": "カテゴリー",
+    "compatibility": "互換性"
+  },
+  "game_compatibility_values": {
+    "perfect": "完全に動作",
+    "playable": "プレイ可能",
+    "runs": "動作する",
+    "unplayable": "プレイ不可"
+  },
+  "game_category_values": {
+    "actionandadventure": "アクションとアドベンチャー",
+    "cardandboard": "カードとボード",
+    "platformer": "プラットフォーマー",
+    "roleplaying": "ロールプレイング",
+    "unknown": "不明"
+  },
+  "game_auto_sr_values": {
+    "yes, out-of-box": "はい、初期設定で有効",
+    "yes, opt-in": "はい、設定で有効化が必要",
+    "no": "いいえ",
+    "unknown": "不明"
   }
 }

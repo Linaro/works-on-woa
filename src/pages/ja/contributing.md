@@ -56,8 +56,8 @@ description: このサイトに貢献する方法
 | `name` | string | アプリケーションの名前です。 |
 | `icon` | string | オプション。`public/icons` 相対のアイコンファイルのパス。最大サイズは512x512。可能であればSVGを使用してください。 |
 | `categories` | list | アプリケーションが属する1つ以上のカテゴリのリスト。カテゴリのリストは `src/content/applications_categories` にあります。このフォルダ内のファイル名でカテゴリを参照します。 |
-| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | Arm互換性の表示：<br>Compatible: テストされたアプリケーションはWindows on Armで動作します<br>Unknown: ステータスは不明です<br>Unsupported: 現在、この値は使用されていません<br>Vendor Announced - Launching Soon: 現在、この値は使用されていません |
-| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Windows on Arm互換性：<br>Native: WoAネイティブサポートが利用可能<br>Emulation: x86/x64エミュレーションで動作<br>No: まだ移植されていない<br>Unknown: ステータスは不明 |
+| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | Arm互換性の表示：<br>Compatible: テストされたアプリケーションはArm版Windowsで動作します<br>Unknown: ステータスは不明です<br>Unsupported: 現在、この値は使用されていません<br>Vendor Announced - Launching Soon: 現在、この値は使用されていません |
+| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Arm版Windows互換性：<br>Native: WoAネイティブサポートが利用可能<br>Emulation: x86/x64エミュレーションで動作<br>No: まだ移植されていない<br>Unknown: ステータスは不明 |
 | `version_from` | string | 使用可能なバージョンです。<br><br>ソフトウェアがあるバージョンからコンパイル可能であるが、別のバージョンからのみ公開されている場合（例えば、Pythonはかなり早くからコンパイル可能でしたが、WoAリリースを開始したのは後からです）、ここには一般的にエンドユーザーが使用する公開バージョンを入力します。<br><br>コンパイル可能なバージョン（およびそれに関連する注意事項）は、自由形式でノートセクションに追加できます。 |
 | `link` | URL | ソフトウェアのダウンロード先リンクまたはアプリケーションのメインウェブサイト。 |
 
