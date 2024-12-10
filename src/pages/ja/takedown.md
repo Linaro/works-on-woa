@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/InfoLayout.astro
 title: タケダウン
-description: Windows on Arm ready ウェブサイトからエントリを削除することに関する権利保持者向けの情報。
+description: Arm版Windows ready ウェブサイトからエントリを削除することに関する権利保持者向けの情報。
 ---
 
 # コンテンツ削除リクエスト

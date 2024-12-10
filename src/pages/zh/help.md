@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/InfoLayout.astro
 title: 帮助
-description: 关于使用 Windows on Arm 兼容软件网站的帮助页面。
+description: 关于使用 Arm的Windows 兼容软件网站的帮助页面。
 ---
 
 # 关于本网站的帮助
 
-本网站提供有关多个应用程序和游戏的信息，以及它们在 Windows on Arm 上运行的状态。
+本网站提供有关多个应用程序和游戏的信息，以及它们在 Arm的Windows 上运行的状态。
 
 应用程序和游戏按类别分组，可以按多个类别进行分类。要查看给定类别的条目，请从条目详细信息页面上的 **Categories** 链接中选择类别，或从搜索栏右侧的类别下拉菜单中选择，然后点击放大镜以执行搜索。可以同时选择多个类别。
 
@@ -14,10 +14,10 @@ description: 关于使用 Windows on Arm 兼容软件网站的帮助页面。
 
 | Value     | Meaning                               |
 | --------- | ------------------------------------- |
-| Compatible| 在 Windows on Arm (WoA) 上运行。          |
+| Compatible| 在 Arm的Windows (WoA) 上运行。          |
 | Unknown   | 状态未知。请查看开发者网站以获取更多信息。|
 
-**Version From** 字段显示与 Windows on Arm 兼容的首个已知公开版本的应用。当 **Download** 按钮可用时，点击将导航到 Microsoft Store 产品描述页面或提供应用安装的网页位置。对于 **Unknown** 的应用，将显示 **Website** 按钮而不是 **Download**。点击 **Website** 按钮将导航到应用开发者的主网页，您可以在此检查最新状态，并直接联系开发者请求 Windows on Arm 支持。
+**Version From** 字段显示与 Arm的Windows 兼容的首个已知公开版本的应用。当 **Download** 按钮可用时，点击将导航到 Microsoft Store 产品描述页面或提供应用安装的网页位置。对于 **Unknown** 的应用，将显示 **Website** 按钮而不是 **Download**。点击 **Website** 按钮将导航到应用开发者的主网页，您可以在此检查最新状态，并直接联系开发者请求 Arm的Windows 支持。
 
 有关如何为此网站做出您自己的贡献的信息，无论是对于尚未列出的应用程序，还是提供现有应用程序的状态更新，请阅读 [贡献指南](/zh/contributing)。
 

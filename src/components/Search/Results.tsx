@@ -16,7 +16,7 @@ import {
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { SearchQuery } from "./PageFind";
-import i18next, { t, changeLanguage } from "i18next";
+import { t } from "i18next";
 import { updateLanguage } from "../../util/updateLanguage";
 
 const getProject = async (result: any) => {
@@ -25,17 +25,6 @@ const getProject = async (result: any) => {
 
 const locale = updateLanguage(window.location);
 const PAGE_SIZE = 10;
-
-const AutoSRFormatMap: {[key: string]: string} = {
-  "yes, out-of-box" : "Yes, out-of-box",
-  "yes, opt-in": "Yes, opt-in",
-  "no": "No",
-  "unknown" : "Unknown"
-}
-
-const formartAutoSR = (x: string) => {
-  return AutoSRFormatMap[x]
-}
 
 const Result = ({
   result,
@@ -75,24 +64,24 @@ const Result = ({
               <Show when={type === "applications"}>
                 <Switch fallback={
                   <p class="text-red-500 flex flex flex-col sm:flex-row gap-1 flex-wrap">
-                    {project().filters.compatibility[0]}
+                    {t(`application_display_result.${project().filters.compatibility[0]}`)}
                   </p>
                 }>
                   <Match when={project().filters.compatibility[0] === 'Compatible'}>
                     <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
                       <span class="pr-2">✓</span>{" "}
-                      {project().filters.compatibility[0]}
+                      {t(`application_display_result.${project().filters.compatibility[0]}`)}
                     </p>
                   </Match>
                   <Match when={project().filters.compatibility[0] === 'Compatible via Web Browser'}>
                     <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
                       <span class="pr-2">✓</span>{" "}
-                      {project().filters.compatibility[0]}
+                      {t(`application_display_result.${project().filters.compatibility[0]}`)}
                     </p>
                   </Match>
                   <Match when={project().filters.compatibility[0] === 'Vendor Announced - Launching Soon'}>
                     <p class="text-green-500 flex flex-col sm:flex-row gap-1 flex-wrap">
-                      {project().filters.compatibility[0]}
+                      {t(`application_display_result.${project().filters.compatibility[0]}`)}
                     </p>
                   </Match>
                 </Switch>
@@ -150,7 +139,7 @@ const Result = ({
                 </p>
                 <p>
                   <b>{t('games.auto_sr')}: </b>
-                  <span>{formartAutoSR(project()?.filters["auto_super_resolution.compatibility"]) ?? "Unknown" }</span>
+                  <span>{project()?.filters["auto_super_resolution.compatibility"] ?? t('game_auto_sr_values.unknown') }</span>
                 </p>
                 <Show when={project()?.meta.date_tested != null}>
                   <p>

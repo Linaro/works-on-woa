@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/InfoLayout.astro
 title: 도움말
-description: Windows on Arm 대응 소프트웨어 웹사이트에 대한 도움말 페이지.
+description: Arm용 Windows 대응 소프트웨어 웹사이트에 대한 도움말 페이지.
 ---
 
 # 이 사이트에 대한 도움말
 
-이 웹사이트는 여러 응용 프로그램 및 게임에 대한 정보와 Windows on Arm에서 실행되는 상태를 제공합니다.
+이 웹사이트는 여러 응용 프로그램 및 게임에 대한 정보와 Arm용 Windows에서 실행되는 상태를 제공합니다.
 
 응용 프로그램과 게임은 카테고리별로 그룹화되며, 하나 이상의 카테고리로 분류될 수 있습니다. 특정 카테고리의 항목을 보려면, 항목의 세부 정보 페이지에 있는 **Categories** 링크에서 카테고리를 선택하거나 검색창 오른쪽에 있는 카테고리 드롭다운 메뉴에서 카테고리를 선택한 후 확대경을 클릭하여 검색을 수행합니다. 여러 카테고리를 동시에 선택할 수 있습니다.
 
@@ -14,10 +14,10 @@ description: Windows on Arm 대응 소프트웨어 웹사이트에 대한 도움
 
 | Value     | Meaning                               |
 | --------- | ------------------------------------- |
-| Compatible| Windows on Arm (WoA)에서 실행됩니다.          |
+| Compatible| Arm용 Windows (WoA)에서 실행됩니다.          |
 | Unknown   | 상태가 불분명합니다. 자세한 내용은 개발자 웹사이트를 확인하세요.|
 
-**Version From** 필드는 Windows on Arm과 호환되는 최초의 공개 버전을 나타냅니다. **Download** 버튼이 사용 가능할 경우 클릭하면 Microsoft Store 제품 설명 페이지 또는 앱 설치를 제공하는 웹 위치로 이동합니다. **Unknown** 앱의 경우 **Download** 대신 **Website** 버튼이 표시됩니다. **Website** 버튼을 클릭하면 앱 개발자의 주요 웹 페이지로 이동하여 최신 상태를 확인하고 Windows on Arm 지원을 요청하기 위해 개발자에게 직접 연락할 수 있습니다.
+**Version From** 필드는 Arm용 Windows과 호환되는 최초의 공개 버전을 나타냅니다. **Download** 버튼이 사용 가능할 경우 클릭하면 Microsoft Store 제품 설명 페이지 또는 앱 설치를 제공하는 웹 위치로 이동합니다. **Unknown** 앱의 경우 **Download** 대신 **Website** 버튼이 표시됩니다. **Website** 버튼을 클릭하면 앱 개발자의 주요 웹 페이지로 이동하여 최신 상태를 확인하고 Arm용 Windows 지원을 요청하기 위해 개발자에게 직접 연락할 수 있습니다.
 
 이 웹사이트에 기여할 수 있는 방법에 대한 정보는 아직 목록에 없는 앱에 대해 기여하거나 기존 앱의 상태 업데이트를 제공하고자 할 경우, [기여 가이드](/ko/contributing)를 읽어주세요.
 

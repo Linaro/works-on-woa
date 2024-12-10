@@ -56,8 +56,8 @@ description: 如何为此站点做出贡献
 | `name` | string | 应用程序的名称。 |
 | `icon` | string | 可选。图标文件的路径，相对于 `public/icons`。最大尺寸为512x512。如有可能，请使用SVG格式。 |
 | `categories` | list | 应用程序所属的一个或多个类别列表。类别列表位于 `src/content/applications_categories`。通过此文件夹中的文件名引用类别。 |
-| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | Arm兼容性显示：<br>Compatible: 测试的应用程序可以在Windows on Arm上运行<br>Unknown: 状态未知<br>Unsupported: 当前未使用此值<br>Vendor Announced - Launching Soon: 当前未使用此值 |
-| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Windows on Arm兼容性：<br>Native: 支持WoA原生<br>Emulation: 通过x86/x64仿真运行<br>No: 尚未移植<br>Unknown: 状态未知 |
+| `display_result` | enum <ul><li>`Compatible`<li>`Unknown`<li>`Unsupported`<li>`Vendor Announced - Launching Soon`</ul> | Arm兼容性显示：<br>Compatible: 测试的应用程序可以在Arm的Windows上运行<br>Unknown: 状态未知<br>Unsupported: 当前未使用此值<br>Vendor Announced - Launching Soon: 当前未使用此值 |
+| `compatibility` | enum <ul><li>`native`<li>`emulation`<li>`no`<li>`unknown`</ul> | Arm的Windows兼容性：<br>Native: 支持WoA原生<br>Emulation: 通过x86/x64仿真运行<br>No: 尚未移植<br>Unknown: 状态未知 |
 | `version_from` | string | 软件可用的版本。<br><br>对于可以从一个版本编译的软件，但仅从另一个版本公开（例如，Python在WoA版本发布之前就可以编译），在此处输入通常用户可访问的公开版本。<br><br>可以在备注部分自由添加可编译的版本（及相关说明）。 |
 | `link` | URL | 软件下载链接或应用程序的主网站。 |
 

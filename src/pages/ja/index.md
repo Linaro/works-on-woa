@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/InfoLayout.astro 
 title: "ホームページ"
-description: Windows on Arm 対応ソフトウェア
+description: Arm版Windows 対応ソフトウェア
 ---
 
-ようこそ、Windows on Arm で動作するサイトへ！
+ようこそ、Arm版Windows動作確認サイトへ！
 
-このサイトは、Arm アーキテクチャで動作する Windows デバイス向けの多くのアプリとゲームの互換性情報の源です。今後、随時更新されます。
+このサイトは、Arm アーキテクチャで動作する Windows デバイス向けの多くのアプリとゲームの互換性情報を取りまとめています。今後、随時更新されます。
 
 互換性の定義とサイトのナビゲーション方法についての詳細は、[ヘルプページ](/ja/help)を参照してください。
 
