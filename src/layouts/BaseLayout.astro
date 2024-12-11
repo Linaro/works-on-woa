@@ -4,21 +4,23 @@ import type { Breadcrumb } from "../components/Common/Breadcrumbs.astro";
 import Breadcrumbs from "../components/Common/Breadcrumbs.astro";
 import Footer from "../components/Common/Footer.astro";
 import Header from "../components/Common/Header.astro";
+import { updateLanguage } from "../util/updateLanguage";
 
 type Props = { title: string; description: string; breadcrumbs: Breadcrumb[] };
 const props = Astro.props;
+const locale = updateLanguage(Astro.url);
 ---
 
-<html lang="en">
+<html>
   <head>
     <BaseHead title={props.title} description={props.description} />
   </head>
   <body class="min-h-screen flex flex-col">
     <Header />
     <main class="max-w-6xl mx-auto px-2 sm:px-5 w-full">
-      <Breadcrumbs breadcrumbs={props.breadcrumbs ?? []} />
+      <Breadcrumbs breadcrumbs={props.breadcrumbs ?? []} language={locale} />
       <slot />
     </main>
-    <Footer />
+    <Footer language={locale} />
   </body>
 </html>

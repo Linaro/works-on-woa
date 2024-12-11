@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
+import { t } from "i18next";
 
 type Props<T extends "games" | "applications"> = {
   reports: CollectionEntry<`user_reports_${T}`>[];
@@ -13,7 +14,7 @@ console.log(reports);
 {
   reports?.length > 0 && (
     <section class="mb-8">
-      <h2 class="px-0 text-xl">User Reports</h2>
+      <h2 class="px-0 text-xl">{t('games.user_reports')}</h2>
       <ul class="flex flex-col gap-4">
         {reports.map(({ data }: any) => (
           <li class="w-full p-5 bg-white text-black rounded-xl">
@@ -46,43 +47,43 @@ console.log(reports);
                     <>
                       {data.device_configuration && (
                         <li>
-                          <b>Device Configuration: </b>
+                          <b>{t('games.device_configuration')}: </b>
                           <span>{data.device_configuration}</span>
                         </li>
                       )}
                       {data.os_version && (
                         <li>
-                          <b>OS Build Number: </b>
+                          <b>{t('games.os_build_number')}: </b>
                           <span>{data.os_version}</span>
                         </li>
                       )}
                       {data.driver_id && (
                         <li>
-                          <b>Driver ID: </b>
+                          <b>{t('games.driver_id')}: </b>
                           <span>{data.driver_id}</span>
                         </li>
                       )}
                       {data.auto_super_resolution && (
                         <li class="basis-full">
                           <h5 class="mb-2 font-bold">
-                            Auto Super Resolution:{" "}
+                            {t('games.auto_super_resolution')}:{" "}
                           </h5>
                           <ul class="flex gap-x-8 ml-6 flex-wrap">
                             <li>
-                              <b>Compatible: </b>
+                              <b>{t('games.compatible')}: </b>
                               <span>
                                 {data.auto_super_resolution.compatibility}
                               </span>
                             </li>
                             <li>
-                              <b>Enablement: </b>
+                              <b>{t('games.enablement')}: </b>
                               <span>
                                 {data.auto_super_resolution.enablement}
                               </span>
                             </li>
                             {data.auto_super_resolution.fps_boost && (
                               <li>
-                                <b>FPS Boost: </b>
+                                <b>{t('games.fps_boost')}: </b>
                                 <span>
                                   {data.auto_super_resolution.fps_boost}
                                 </span>
@@ -108,7 +109,7 @@ console.log(reports);
               }}}
 
               <li class="basis-full">
-                <b>Details: </b>
+                <b>{t('games.details')}: </b>
                 <p>{data.compatibility_details}</p>
               </li>
             </ul>

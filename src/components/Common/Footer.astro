@@ -2,33 +2,37 @@
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
-import type { CollectionEntry } from "astro:content";
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { DEFAULT_LOCALE } from "../../config/i18nConfig";
+import { t } from "i18next";
 
+const { language } = Astro.props;
 const today = new Date();
+const locale = language ?? DEFAULT_LOCALE;
 const links = [
   {
-    text: "Report an issue",
+    text: t('footer.report_an_issue'),
     href: "https://github.com/Linaro/works-on-woa/issues/new",
   },
   {
-    text: "Edit on Github",
+    text: t('footer.edit_on_github'),
     href: "https://github.com/Linaro/works-on-woa",
   },
   {
-    text: "Legal",
+    text: t('footer.legal'),
     href: "https://www.linaro.org/legal/",
   },
   {
-    text: "Contact",
+    text: t('footer.contact'),
     href: "https://www.linaro.org/contact/",
   },
   {
-    text: "Help",
-    href: "/help/",
+    text: t('footer.help'),
+    href: getRelativeLocaleUrl(locale, "help"),
   },
   {
-    text: "Content takedown request",
-    href: "/takedown/",
+    text: t('footer.takedown'),
+    href: getRelativeLocaleUrl(locale, "takedown"),
   },
 ];
 
@@ -61,7 +65,7 @@ const path = Astro.url.pathname;
             return (
               <>
                 <span class="mx-1 h-8 hidden sm:block">|</span>
-                <span class="ml-1 h-6">{games.length} games</span>
+                <span class="ml-1 h-6">{games.length} {t('footer.games_count')}</span>
               </>
             );
         }
@@ -88,8 +92,6 @@ const path = Astro.url.pathname;
   <p class="text-xs text-center">
     Copyright &copy;
     {today.getFullYear()}
-    Linaro Limited. All product names, logos, brands, trademarks and registered trademarks
-    are property of their respective owners. Accuracy of the data is not guaranteed
-    by Linaro.
+    Linaro Limited. {t('footer.copyright')}
   </p>
 </footer>
