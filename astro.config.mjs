@@ -73,7 +73,7 @@ export default defineConfig({
     locales: LOCALES,
     routing: {
       prefixDefaultLocale: false,
-      redirectToDefaultLocale: false
+      // redirectToDefaultLocale: true
     }
   }
 });
