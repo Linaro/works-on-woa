@@ -54,7 +54,9 @@ export default {
       }
 
       const lambdaEnvVars = {
-        GITHUB_TOKEN: process.env.GITHUB_TOKEN!,
+        GITHUB_APP_ID: process.env.GITHUB_APP_ID!,
+        GITHUB_APP_INSTALLATION_ID: process.env.GITHUB_APP_INSTALLATION_ID!,
+        GITHUB_APP_PK_BASE64: process.env.GITHUB_APP_PK_BASE64!,
         GITHUB_OWNER: process.env.GITHUB_OWNER!,
         GITHUB_REPO: process.env.GITHUB_REPO!,
         GITHUB_BASE_BRANCH: process.env.GITHUB_BASE_BRANCH!,
