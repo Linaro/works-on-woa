@@ -51,6 +51,7 @@ export default defineConfig({
             applyBaseStyles: false,
           }),
           solidJs(),
+          astroI18next(),
           auth({
             injectEndpoints: true,
           }),
