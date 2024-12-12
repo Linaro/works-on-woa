@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/InfoLayout.astro
+layout: ../../layouts/InfoLayout.astro
 title: Contributing
 description: How to contribute to this site
 ---

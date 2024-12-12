@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/InfoLayout.astro
+layout: ../../layouts/InfoLayout.astro
 title: "Homepage"
 description: Windows on Arm Ready Software
 ---

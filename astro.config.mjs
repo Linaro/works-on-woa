@@ -14,8 +14,8 @@ const { IS_PUBLIC, PRE_BUILD, CUSTOM_DOMAIN } = loadEnv(
   process.cwd(),
   ""
 );
-const is_public = IS_PUBLIC === "true"
-const is_pre_build = PRE_BUILD === "true"
+const is_public = true // IS_PUBLIC === "true"
+const is_pre_build = true // PRE_BUILD === "true"
 
 // https://astro.build/config
 export default defineConfig({
@@ -72,8 +72,8 @@ export default defineConfig({
     defaultLocale: DEFAULT_LOCALE,
     locales: LOCALES,
     routing: {
-      prefixDefaultLocale: false,
-      // redirectToDefaultLocale: true
+      prefixDefaultLocale: true,
+      redirectToDefaultLocale: true
     }
   }
 });

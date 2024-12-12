@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/InfoLayout.astro
+layout: ../../layouts/InfoLayout.astro
 title: Help
 description: Help page for using the Windows on Arm Ready Software website.
 ---

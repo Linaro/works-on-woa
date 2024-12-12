@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/InfoLayout.astro
+layout: ../../layouts/InfoLayout.astro
 title: Takedown
 description: Information for rightsholders regarding taking down entries from the Windows on Arm ready website.
 ---
