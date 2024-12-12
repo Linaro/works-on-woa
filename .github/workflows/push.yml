@@ -96,12 +96,13 @@ jobs:
           sudo ./aws/install --update
           cp -R .aws ~/
           pipx run pipenv install
-          $(pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }})
-          # Build & deploy
-          if [[ "${{ github.ref_name }}" == "staging" ]]; then
-            export STAGE="dev"
-          fi
-          if [[ "${{ github.ref_name }}" == "main" ]]; then
-            export STAGE="main"
-          fi
-          yarn sst deploy --stage $STAGE
+          echo "Setting up AWS credentials"
+          pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }}
+          # # Build & deploy
+          # if [[ "${{ github.ref_name }}" == "staging" ]]; then
+          #   export STAGE="dev"
+          # fi
+          # if [[ "${{ github.ref_name }}" == "main" ]]; then
+          #   export STAGE="main"
+          # fi
+          # yarn sst deploy --stage $STAGE
