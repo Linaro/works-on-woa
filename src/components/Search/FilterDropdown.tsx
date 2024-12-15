@@ -15,18 +15,21 @@ import { APPLICATION_COMPATIBILITY, GAME_AUTO_SR, GAME_COMPATIBILITY } from "../
 import { t } from "i18next";
 import { updateLanguage } from "../../util/updateLanguage";
 
-const _ = updateLanguage(window.location);
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
-const gameFilters: { key: FilterKey; name: string }[] = [
-  { key: "auto_super_resolution.compatibility", name: t('game_filters.auto_sr') },
-  { key: "category", name: t('game_filters.category') },
-  { key: "compatibility", name: t('game_filters.compatibility') }
-];
+function getGameFilters(): { key: FilterKey; name: string }[] {
+  return [
+      { key: "auto_super_resolution.compatibility", name: t('game_filters.auto_sr') },
+      { key: "category", name: t('game_filters.category') },
+      { key: "compatibility", name: t('game_filters.compatibility') }
+  ];
+}
 
-const applicationFilters: { key: FilterKey; name: string }[] = [
-  { key: "category", name: t('application_filters.category')},
-];
+function getApplicationFilters(): { key: FilterKey; name: string }[] {
+  return [
+      { key: "category", name: t('application_filters.category') },
+  ];
+}
 
 const FilterDropdown = ({
   search,
@@ -40,7 +43,8 @@ const FilterDropdown = ({
   categories: CollectionEntry<"games_categories" | "applications_categories">[];
 
 }) => {
-  const filters = type === "applications" ? applicationFilters : gameFilters;
+  const _ = updateLanguage(window.location);
+  const filters = type === "applications" ? getApplicationFilters() : getGameFilters();
 
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
     filters.reduce(
