@@ -20,7 +20,7 @@ Works on Windows Arm에 방문하신 것을 환영합니다!
   <li>
     <a
       class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline"
-      href="/ko/applications/">에플리케이션 검색</a
+      href="/ko/applications/">애플리케이션 검색</a
     >
   </li>
   <li>
