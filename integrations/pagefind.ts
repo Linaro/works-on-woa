@@ -9,6 +9,7 @@ export default function pagefind({
   is_pre_build: boolean;
   is_public: boolean;
 }): AstroIntegration {
+  console.log("****************", is_pre_build, is_public);
   let outDir: string;
   if (is_pre_build) return { name: "pagefind", hooks: {} };
   return {

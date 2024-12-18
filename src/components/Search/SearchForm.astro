@@ -1,5 +1,5 @@
 ---
-// import { Icon } from "astro-icon";
+import { t } from "i18next";
 ---
 
 <section class="pt-10 min-h-[8rem]">
@@ -17,7 +17,7 @@
         <div class="py-2 px-5"></div>
         <input type="search" name="query" class="w-full h-full px-1" />
         <button type="submit" class="py-2 px-5 cursor-pointer font-bold"
-          >Search</button
+          >{t('search.search')}</button
         >
       </div>
     </div>

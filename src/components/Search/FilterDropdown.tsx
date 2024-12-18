@@ -3,34 +3,33 @@ import {
   type Accessor,
   For,
   type JSX,
-  type Resource,
   Show,
-  createEffect,
   createMemo,
   createSignal,
   onCleanup,
   onMount,
 } from "solid-js";
-import type { Filters, Results } from "./PageFind";
+import type { Filters } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
-
+import { APPLICATION_COMPATIBILITY, GAME_AUTO_SR, GAME_COMPATIBILITY } from "../../config/enumerations";
+import { t } from "i18next";
+import { updateLanguage } from "../../util/updateLanguage";
 
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
-type FilterConfig = {
-  key: FilterKey;
-  name: string;
-}[];
+function getGameFilters(): { key: FilterKey; name: string }[] {
+  return [
+      { key: "auto_super_resolution.compatibility", name: t('game_filters.auto_sr') },
+      { key: "category", name: t('game_filters.category') },
+      { key: "compatibility", name: t('game_filters.compatibility') }
+  ];
+}
 
-const gameFilters: { key: FilterKey; name: string }[] = [
-  { key: "auto_super_resolution.compatibility", name: "Auto SR" },
-  { key: "category", name: "Category" },
-  { key: "compatibility", name: "Compatibility" }
-];
-
-const applicationFilters: { key: FilterKey; name: string }[] = [
-  { key: "category", name: "Category"},
-];
+function getApplicationFilters(): { key: FilterKey; name: string }[] {
+  return [
+      { key: "category", name: t('application_filters.category') },
+  ];
+}
 
 const FilterDropdown = ({
   search,
@@ -44,7 +43,8 @@ const FilterDropdown = ({
   categories: CollectionEntry<"games_categories" | "applications_categories">[];
 
 }) => {
-  const filters = type === "applications" ? applicationFilters : gameFilters;
+  const _ = updateLanguage(window.location);
+  const filters = type === "applications" ? getApplicationFilters() : getGameFilters();
 
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
     filters.reduce(
@@ -96,13 +96,14 @@ const FilterDropdown = ({
       setFilter(option, name, checked);
     };
 
+  const categoryValues = type === "games" ? "game_category_values" : "application_category_values";
   const options = createMemo(() => ({
-    "auto_super_resolution.compatibility": ["yes, out-of-box", "yes, opt-in", "no", "unknown"],
-    "category": categories.map((category) => category.data.name),
+    "auto_super_resolution.compatibility": GAME_AUTO_SR.map(item => t(`game_auto_sr_values.${item}`)),
+    "category": categories.map((category) => t(`${categoryValues}.${category.slug}`)),
     "compatibility":
       type === "games"
-        ? ["Perfect", "Playable", "Runs", "Unplayable"]
-        : ["Native", "Emulation", "No", "Unknown"],
+        ? GAME_COMPATIBILITY.map(item => t(`game_compatibility_values.${item}`))
+        : APPLICATION_COMPATIBILITY.map(item => t(`application_compatibility_values.${item}`))
   }));
 
   return (

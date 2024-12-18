@@ -1,0 +1,211 @@
+{
+  "header": {
+    "main": "适用于Arm的Windows就绪软件",
+    "applications": "Arm的Windows 兼容应用程序",
+    "applications_desc": "查找适用于 Arm的Windows 的应用程序",
+    "games": "Arm的Windows 兼容游戏",
+    "games_desc": "查找适用于 Arm的Windows 的游戏",
+    "contributing_app": "Arm的Windows - 应用程序贡献表单",
+    "contributing_app_desc": "适用于 Arm的Windows 的应用程序贡献表单",
+    "contributing_game": "Arm的Windows - 游戏贡献表单",
+    "contributing_game_desc": "适用于 Arm的Windows 的游戏贡献表单"
+  },
+  "bradcrumbs": {
+	"home": "主页",
+	"contributing": "贡献",
+	"applications": "应用程序",
+	"search": "搜索",
+	"games": "游戏"
+  },
+  "footer": {
+    "report_an_issue": "报告问题",
+    "edit_on_github": "在 Github 上编辑",
+    "legal": "法律声明",
+    "contact": "联系我们",
+    "help": "帮助",
+    "takedown": "内容删除请求",
+    "copyright": "所有产品名称、徽标、品牌、商标和注册商标均为其各自所有者的财产。数据的准确性不由 Linaro 保证。",
+	"games_count": "游戏"
+  },
+  "search": {
+    "search": "搜索",
+    "clear_search": "清除搜索",
+    "no_information_start": "我们的数据中没有相关信息。为什么不联系开发者的网站，或者在",
+    "no_information_here": "这里",
+    "no_information_end": "提交反馈请求，以便我们进行调查呢？"
+  },
+  "applications": {
+    "info": "以下是一些已测试的顶级应用。使用搜索栏搜索其他已测试的应用。",
+    "search_button": "搜索更多应用程序",
+    "search_placeholder": "搜索应用程序",
+    "search_instruction": "开始搜索，请输入搜索查询并按 Enter，或选择一个类别",
+    "categories": "类别",
+    "version_from": "版本",
+    "download": "下载",
+    "report_last_updated": "报告最后更新",
+    "website": "网站",
+    "more_info": "更多信息"
+  },
+  "games": {
+    "search_placeholder": "搜索游戏",
+    "user_reports": "用户报告",
+    "publisher": "发行商",
+    "categories": "类别",
+    "date_tested": "测试日期",
+    "frame_rate": "帧率",
+    "device_configuration": "设备配置",
+    "os_build_number": "OS 构建编号",
+    "driver_id": "驱动程序 ID",
+    "auto_super_resolution": "自动超分辨率",
+    "compatible": "兼容",
+    "enablement": "启用",
+    "fps_boost": "FPS 提升",
+    "opt_in_steps": "选择加入步骤",
+	"compatibility": "兼容性",
+    "auto_sr": "自动 SR",
+    "link": "链接",
+    "notes": "备注",
+    "details": "详细信息"
+  },
+  "application_form": {
+	"title": "应用请求表单",
+	"description": "请填写以下有关应用兼容性的信息。",
+	"app_name": "应用名称",
+    "publisher": "发布者",
+    "report_type": {
+      "description": "您在报告什么？",
+      "request_test": "请求测试此应用",
+      "submit_update": "提交新的或更新的应用信息"
+    },
+    "app_category": {
+      "description": "应用类别",
+      "instruction": "从以下列表中选择一个或多个类别。要选择多个选项，请按住 'Ctrl' 然后点击",
+	  "fetching_categories": "正在获取应用类别，请稍候..."
+    },
+    "download_url": "应用下载 URL 或开发者网站",
+    "displayed_arm_compatibility": "显示的 ARM 兼容性？",
+    "earliest_compatible_version": "最早兼容的版本号",
+	"execution_compatibility": "执行兼容性",
+	"icon": {
+	  "description": "图标 URL",
+	  "instruction": "应用图标链接（最大 512x512，建议使用 SVG 格式）"
+	},
+    "submit_button": "提交",
+    "submit_succeeded": "应用表单已成功提交，谢谢您的协作！",
+    "submit_failed": "发生错误！"
+  },
+  "game_form": {
+	"title": "游戏请求表格",
+	"description": "请填写以下关于游戏兼容性的信息。",
+	"game_name": "游戏名称",
+    "game_category": {
+      "description": "游戏类别",
+      "instruction": "从下面的列表中选择一个类别。",
+	  "fetching_categories": "正在获取游戏类别，请稍候..."
+    },
+	"publisher": "发布者",
+	"compatibility": {
+	  "description": "兼容性",
+	  "perfect": "Perfect - 在 1080p 分辨率下 60 FPS 以上运行，没有任何影响游戏体验的故障或问题",
+	  "playable": "Playable - 在 1080p 分辨率下 30 FPS 以上运行，存在影响游戏体验的最小故障或问题",
+	  "runs": "Runs - 在低于 30 FPS 的情况下运行，或有可能影响游戏体验的错误",
+	  "unplayable": "Unplayable - 由于反作弊或其他失败原因无法运行"
+	},
+	"device_configuration": "设备配置",
+	"date_tested": "测试日期",
+	"os_version": "操作系统版本",
+	"driver_id": "驱动程序 ID",
+	"compatibility_details": "兼容性详细信息",
+	"auto_super_resolution_compatibility": "自动超分辨率兼容性",
+	"auto_super_resolution_fps_bost": "自动超分辨率 FPS 提升",
+    "your_name_gamertag": "您的名字/玩家标签",
+    "submit_button": "提交",
+    "submit_succeeded": "游戏表单成功提交，谢谢您的合作！",
+    "submit_failed": "发生错误！"
+  },
+  "application_filters": {
+    "category": "类别"
+  },
+  "application_category_values": {
+    "accessibility": "辅助功能",
+    "ai-tool": "AI 工具",
+    "ai": "AI 应用",
+    "anti-virus": "杀毒软件",
+    "audio": "数字音频工作站",
+    "benchmarking": "性能测试",
+    "books": "书籍与参考",
+    "browsers": "浏览器",
+    "business": "商业",
+    "cad": "CAD",
+    "collaboration": "协作",
+    "creative": "创意",
+    "data-prot": "数据保护 / 内部威胁",
+    "database": "数据库",
+    "dev-mgmt": "设备管理",
+    "dev-tools": "开发工具",
+    "ecom": "电子商务",
+    "education": "教育",
+    "emulators": "模拟器",
+    "endpoint-sec": "端点安全",
+    "engineering": "工程",
+    "enterprise": "企业",
+    "entertainment": "娱乐",
+    "health": "健康与健身",
+    "healthcare": "医疗",
+    "it-sec-tools": "IT 安全工具",
+    "it-tools-vdi": "IT 工具与VDI",
+    "it": "IT 管理",
+    "library": "图书馆",
+    "multimedia": "多媒体设计",
+    "music": "音乐",
+    "nav": "导航与地图",
+    "news": "新闻与天气",
+    "nw-storage": "网络与存储",
+    "oss": "开源软件",
+    "pc-mgmt": "PC 管理",
+    "personal": "个性化",
+    "personalfin": "个人理财",
+    "photo": "照片与视频",
+    "printers": "打印机与外设",
+    "prod": "生产力",
+    "remote-desktop": "远程桌面",
+    "security": "安全",
+    "sports": "体育",
+    "sysinfo": "系统信息",
+    "travel": "旅行",
+    "utils-tools": "实用工具",
+    "video": "视频编辑",
+    "vpn": "VPN",
+    "web-social": "社交媒体"
+  },
+  "application_display_result": {
+    "Compatible": "兼容",
+    "Vendor Announced - Launching Soon": "厂商已宣布 - 即将发布",
+    "Unsupported": "不支持",
+    "Unknown": "未知"
+  },
+  "game_filters": {
+    "auto_sr": "自动SR",
+    "category": "类别",
+    "compatibility": "兼容性"
+  },
+  "game_compatibility_values": {
+    "perfect": "完美",
+    "playable": "可玩",
+    "runs": "运行",
+    "unplayable": "不可玩"
+  },
+  "game_category_values": {
+    "actionandadventure": "动作和冒险",
+    "cardandboard": "卡牌和棋盘",
+    "platformer": "平台类游戏",
+    "roleplaying": "角色扮演",
+    "unknown": "未知"
+  },
+  "game_auto_sr_values": {
+    "yes, out-of-box": "是，开箱即用",
+    "yes, opt-in": "是，需要在设置中启用",
+    "no": "否",
+    "unknown": "未知"
+  }
+}

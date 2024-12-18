@@ -9,7 +9,7 @@ export interface Props {
   image?: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const { title, description } = Astro.props;
 import { AstroSeo } from "@astrolib/seo";
@@ -30,5 +30,5 @@ import { AstroSeo } from "@astrolib/seo";
 <AstroSeo
   title={title}
   description={description}
-  canonical={canonicalURL.toString()}
+  canonical={canonicalURL}
 />

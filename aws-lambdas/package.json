@@ -1,0 +1,18 @@
+{
+  "name": "process-app-form-submission",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.682.0",
+    "@octokit/auth-app": "^7.1.2",
+    "@octokit/rest": "^21.0.2",
+    "@sendgrid/mail": "^8.1.4"
+  }
+}

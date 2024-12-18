@@ -1,0 +1,14 @@
+---
+import { DEFAULT_LOCALE } from "../config/i18nConfig";
+---
+
+<html>
+  <head>
+    <!-- Fallback meta redirect for non-JS browsers -->
+    <meta http-equiv="refresh" content={`0; URL=/${DEFAULT_LOCALE}/`} />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting to the default locale...</p>
+  </body>
+</html>

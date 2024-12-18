@@ -1,12 +1,12 @@
 ---
 import { getEntry, type CollectionEntry } from "astro:content";
-import BaseHead from "../components/Common/BaseHead.astro";
-import Footer from "../components/Common/Footer.astro";
 import Search from "../components/Search/Search.astro";
 import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 import dayjs from "dayjs";
 import UserReports from "../components/Projects/UserReports.astro";
 import BaseLayout from "./BaseLayout.astro";
+import { t } from "i18next";
+import { updateLanguage } from "../util/updateLanguage";
 
 type Props<T extends "games" | "applications"> = {
   project: CollectionEntry<T>;
@@ -15,21 +15,18 @@ type Props<T extends "games" | "applications"> = {
   type: T;
 };
 
+const locale = updateLanguage(Astro.url);
 const { project, date, reports, type } = Astro.props;
-
-const {
-  data: { name },
-} = project;
-
-const title = type === "applications" ? "Applications" : "Games";
+const { data: { name } } = project;
+const title = type === "applications" ? t('bradcrumbs.applications') : t('bradcrumbs.games');
 ---
 
 <BaseLayout
   title={`${name} | Windows on Arm Ready ${title}`}
   description={`Windows on Arm compatibility details for ${name}`}
   breadcrumbs={[
-    { href: `/${type}/`, title: title },
-    { href: `/${type}/${project.slug}/`, title: name },
+    { href: `/${locale}/${type}/`, title: title },
+    { href: `/${locale}/${type}/${project.slug}/`, title: name },
   ]}
 >
   {type === "games" && <Search shouldRedirect={true} type={type} />}
@@ -40,7 +37,7 @@ const title = type === "applications" ? "Applications" : "Games";
     <span class="hidden" data-pagefind-sort="name">{name.toLowerCase()}</span>
     <ProjectDetails project={project} type={type} />
     <p class="w-full py-6">
-      Report last updated: {
+      {t('applications.report_last_updated')}: {
         date ? (
           dayjs(date).format("DD MMM YYYY")
         ) : (
@@ -53,9 +50,9 @@ const title = type === "applications" ? "Applications" : "Games";
   <section class="flex flex-col items-center">
     {
       type === "applications" && (
-        <a href="/applications/search/" class="mx-auto">
+        <a href={`/${locale}/applications/search/`} class="mx-auto">
           <button class="px-8 py-2 bg-white text-black rounded-full font-bold mt-16 mb-8 text-xl hover:bg-zinc-500 hover:text-white">
-            Search for more applications
+            {t('applications.search_button')}
           </button>
         </a>
       )
