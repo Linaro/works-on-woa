@@ -27,6 +27,11 @@ export default {
         customDomain: cd,
         environment: {
           IS_PUBLIC: "true",
+        },
+        cdk: {
+          distribution: {
+            defaultRootObject: "index.html",
+          }
         }
       });
       stack.addOutputs({
