@@ -51,7 +51,7 @@ form.addEventListener("submit", (e) => {
     //         showErrorAlert(errorAlertId, errorAlertInnerElementId, false, "");
     //     }, 3000);
     // } else 
-    {
+    // {
         var data = new FormData(form)
         fetch(`${import.meta.env.PUBLIC_API_HOST}${import.meta.env.PUBLIC_APPLICATION_API_ENDPOINT}`, {
             method: "POST",
@@ -93,7 +93,7 @@ form.addEventListener("submit", (e) => {
                 showErrorAlert(errorAlertId, errorAlertInnerElementId, false, '');
             }, 3000);
         })
-    };
+    // };
 });
 
 //########################################  Loader  ########################################//
