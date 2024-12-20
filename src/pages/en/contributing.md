@@ -15,7 +15,8 @@ Contributions for apps can be made directly to <a href="#how-to-contribute-via-g
 
 Click the button 'App request form' and fill out the form with your App request. You can use this for requesting a new app to be tested and added, to tell us where we have something wrong for an app, or to submit your own new app data. We recommend you contribute via this form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions.
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/applications">App request form</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/applications">App request form</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">We're still working on it!</a>
 
 ### How to contribute via GitHub (apps)
 
@@ -87,7 +88,8 @@ Contributions can be made directly to <a href="#how-to-contribute-via-github-gam
 
 Click the button 'Game request form' and fill out the below form with your game test details. We recommend you contribute via this form and not via the Github unless you have some technical experience. Scroll down to see more details on the defined schema and category definitions. 
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/games">Game request form</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/en/contributing/games">Game request form</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">We're still working on it!</a>
 
 ### How to contribute via GitHub (games)
 

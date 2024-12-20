@@ -14,7 +14,8 @@ description: 如何为此站点做出贡献
 ### 通过应用请求表单贡献
 点击“应用请求表单”按钮，填写您的应用请求表单。您可以使用此表单请求测试并添加新应用、报告应用错误或提交新的应用数据。如果您没有技术经验，建议通过此表单而非Github进行贡献。向下滚动查看更多关于定义的架构和类别定义的详细信息。
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">应用请求表单</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/zh/contributing/applications">应用请求表单</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">我们还在努力！</a>
 
 ### 通过 GitHub 进行贡献（应用程序）
 
@@ -85,7 +86,8 @@ description: 如何为此站点做出贡献
 ### 通过游戏请求表单贡献
 点击“游戏请求表单”按钮，填写以下表单中的游戏测试详情。如果您没有技术经验，建议通过此表单而非Github进行贡献。向下滚动查看更多关于定义的架构和类别定义的详细信息。
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">游戏请求表单</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/zh/contributing/games">游戏请求表单</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">我们还在努力！</a>
 
 ### 通过 GitHub 贡献（游戏）
 
