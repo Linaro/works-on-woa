@@ -73,8 +73,11 @@ jobs:
               GITHUB_BASE_BRANCH: ${{ vars.GH_BASE_BRANCH }}
               GITHUB_OWNER: ${{ vars.GH_OWNER }}
               GITHUB_REPO: ${{ vars.GH_REPO }}
-              RECAPTCHA_V2_VERIFY_URL: ${{ vars.PUBLIC_CAPTCHA_WEB_SITE_KEY }}
+              RECAPTCHA_V2_VERIFY_URL: ${{ vars.RECAPTCHA_V2_VERIFY_URL }}
               RECAPTCHA_V2_SECRET_KEY: ${{ secrets.RECAPTCHA_V2_SECRET_KEY }}
+              PUBLIC_API_HOST: ${{ vars.PUBLIC_API_HOST }}
+              PUBLIC_APPLICATION_API_ENDPOINT: ${{ vars.PUBLIC_APPLICATION_API_ENDPOINT }}
+              PUBLIC_GAME_API_ENDPOINT: ${{ vars.PUBLIC_GAME_API_ENDPOINT }}
         run: |
           # Set up the environment variables
           export NODE_OPTIONS=--experimental-wasm-modules
