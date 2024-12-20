@@ -14,7 +14,8 @@ description: このサイトに貢献する方法
 ### アプリリクエストフォームで貢献する方法
 「アプリリクエストフォーム」ボタンをクリックして、アプリリクエストのフォームに入力してください。このフォームを使用して、テストと追加が必要な新しいアプリのリクエストを行ったり、アプリの誤りを知らせたり、新しいアプリデータを提出することができます。技術的な経験がない場合は、Githubではなくこのフォームから貢献することをお勧めします。定義されたスキーマとカテゴリの詳細については、下にスクロールしてください。
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">アプリリクエストフォーム</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">アプリリクエストフォーム</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">まだ取り組んでいるところだ！</a>
 
 ### GitHubを使用して貢献する方法（アプリ）
 
@@ -85,7 +86,8 @@ description: このサイトに貢献する方法
 ### ゲームリクエストフォームで貢献する方法
 「ゲームリクエストフォーム」ボタンをクリックして、以下のフォームにゲームテストの詳細を入力してください。技術的な経験がない場合は、Githubではなくこのフォームから貢献することをお勧めします。定義されたスキーマとカテゴリの詳細については、下にスクロールしてください。
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">ゲームリクエストフォーム</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">ゲームリクエストフォーム</a> -->
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="#">まだ取り組んでいるところだ！</a>
 
 ### GitHub を使用して貢献する方法 (ゲーム)
 
