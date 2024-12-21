@@ -27,6 +27,9 @@ export default {
         customDomain: cd,
         environment: {
           IS_PUBLIC: "true",
+          PUBLIC_API_HOST: process.env.PUBLIC_API_HOST!,
+          PUBLIC_APPLICATION_API_ENDPOINT: process.env.PUBLIC_APPLICATION_API_ENDPOINT!,
+          PUBLIC_GAME_API_ENDPOINT: process.env.PUBLIC_GAME_API_ENDPOINT!,
         },
         cdk: {
           distribution: {

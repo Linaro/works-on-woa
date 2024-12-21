@@ -11,7 +11,6 @@ export function getStaticPaths() {
 }
 
 const locale = updateLanguage(Astro.url);
-const recaptcha_url = `https://www.google.com/recaptcha/api.js?hl=${locale}`;
 ---
 
 <BaseLayout
@@ -132,13 +131,9 @@ const recaptcha_url = `https://www.google.com/recaptcha/api.js?hl=${locale}`;
             <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" name="icon_url" id="icon_url" placeholder={t('application_form.icon.instruction')} />
         </div>
         <div class="mb-12">
-            <div class="g-recaptcha" data-sitekey=`${import.meta.env.PUBLIC_CAPTCHA_WEB_SITE_KEY}`></div>
-        </div>
-        <div class="mb-12">
             <input type="submit" value={t('application_form.submit_button')} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"></input>
         </div>
     </form>
 </div>
 </BaseLayout>
-<script define:vars={{recaptcha_url}} src={recaptcha_url} async defer></script>
 <script src="../../../lib/applications.js"></script>  

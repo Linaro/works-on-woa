@@ -14,9 +14,10 @@ export default class RequestValidator {
     static async validateRequest(data, fileType, recaptchaV2VerifyUrl, recaptchaV2SecretKey) {
         let error = this.validateFormData(data, fileType);
 
-        if (error === "") {
-            error = await validateReCaptchaV2(recaptchaV2VerifyUrl, recaptchaV2SecretKey, data.token ?? "");
-        }
+        // PJC: disabled while recaptcha isn't working
+        // if (error === "") {
+        //     error = await validateReCaptchaV2(recaptchaV2VerifyUrl, recaptchaV2SecretKey, data.token ?? "");
+        // }
 
         return error;
     }

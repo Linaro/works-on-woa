@@ -14,7 +14,9 @@ description: 이 사이트에 기여하는 방법
 ### 앱 요청 양식을 통해 기여하는 방법
 ‘앱 요청 양식’ 버튼을 클릭하고 앱 요청 양식을 작성하세요. 이 양식을 통해 테스트 및 추가할 새로운 앱을 요청하거나, 앱에 대한 오류를 알리거나, 새로운 앱 데이터를 제출할 수 있습니다. 기술 경험이 없는 경우, Github 대신 이 양식을 통해 기여하는 것을 권장합니다. 정의된 스키마와 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하세요.
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">앱 요청 양식</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/applications">앱 요청 양식</a> -->
+
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="https://forms.office.com/r/JZ1ywk2FaJ">앱 요청 양식</a>
 
 ### GitHub를 통한 기여 방법 (애플리케이션)
 
@@ -85,7 +87,9 @@ GitHub 계정이 필요합니다. 계정이 없다면 https://github.com 으로 
 ### 게임 요청 양식을 통해 기여하는 방법
 ‘게임 요청 양식’ 버튼을 클릭하고 아래의 게임 테스트 세부 정보를 입력하세요. 기술 경험이 없는 경우, Github 대신 이 양식을 통해 기여하는 것을 권장합니다. 정의된 스키마와 카테고리 정의에 대한 자세한 내용은 아래로 스크롤하여 확인하세요.
 
-<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">게임 요청 양식</a>
+<!-- <a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="/ja/contributing/games">게임 요청 양식</a> -->
+
+<a class="border-white border-2 px-4 py-2 rounded-xl hover:bg-white hover:text-black no-underline" href="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR54qTg-u1FRHnQ3KYgdSD51UMDM4TFYzS1RUSUlHMjVRVkVUR0w5RlhJMC4u">게임 요청 양식</a>
 
 ### GitHub를 통한 기여 방법 (게임)
 

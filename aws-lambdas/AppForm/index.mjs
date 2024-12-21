@@ -26,11 +26,11 @@ export const handler = async (event) => {
         const formData = JSON.parse(event.body);
         
         const refererError = RequestValidator.validateReferer(event.headers, process.env['ALLOWED_REFERER']);
-        if(!refererError) config = await configManager.loadConfig(FileType.Application);
-        const validationError = refererError === "" ? await RequestValidator.validateRequest(formData, FileType.Application, config.recaptchaV2VerifyUrl, config.recaptchaV2SecretKey) : 'Access forbidden';
-        if (validationError) {
-            return { statusCode: validationError === 'Access forbidden' ? 403 : 400, headers: HEADERS, body: validationError };
-        }
+        // if(!refererError) config = await configManager.loadConfig(FileType.Application);
+        // const validationError = refererError === "" ? await RequestValidator.validateRequest(formData, FileType.Application, config.recaptchaV2VerifyUrl, config.recaptchaV2SecretKey) : 'Access forbidden';
+        // if (validationError) {
+        //     return { statusCode: validationError === 'Access forbidden' ? 403 : 400, headers: HEADERS, body: validationError };
+        // }
 
         switch (formData.requestType) {
             case RequestTypes.RequestThisAppToBeTested:

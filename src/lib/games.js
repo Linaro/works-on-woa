@@ -14,20 +14,21 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     pageLoading(true);
 
-    var captchaVerificationToken = grecaptcha.getResponse();
-    if (captchaVerificationToken.length == 0) {
-        showSuccessAlert(successAlertId, false);
-        showErrorAlert(errorAlertId, errorAlertInnerElementId, true, ErrorMessages.MISSING_CAPTCHA_ERROR);
-        setTimeout(() => {
-            showErrorAlert(errorAlertId, errorAlertInnerElementId, false, '');
-        }, 3000);
-    } else {
+    // var captchaVerificationToken = grecaptcha.getResponse();
+    // if (captchaVerificationToken.length == 0) {
+    //     showSuccessAlert(successAlertId, false);
+    //     showErrorAlert(errorAlertId, errorAlertInnerElementId, true, ErrorMessages.MISSING_CAPTCHA_ERROR);
+    //     setTimeout(() => {
+    //         showErrorAlert(errorAlertId, errorAlertInnerElementId, false, '');
+    //     }, 3000);
+    // } else {
         var data = new FormData(form);
         fetch(`${import.meta.env.PUBLIC_API_HOST}${import.meta.env.PUBLIC_GAME_API_ENDPOINT}`, {
             method: "POST",
             body: JSON.stringify({
                 "name": data.get("name"),
-                "token": captchaVerificationToken,  
+                // "token": captchaVerificationToken,
+                "token": "",
                 "publisher": data.get("publisher"),
                 "categories": data.get("categories") ?? "",
                 "compatibility": data.get("compatibility") ?? "",
@@ -65,7 +66,7 @@ form.addEventListener("submit", (e) => {
                 showErrorAlert(errorAlertId, errorAlertInnerElementId, false, '');
             }, 3000);
         })
-    }
+    // }
 });
 
 //########################################  Loader  ########################################//
