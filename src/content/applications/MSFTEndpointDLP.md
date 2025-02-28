@@ -1,5 +1,5 @@
 ---
-name: "MSFT Endpoint DLP"
+name: "Microsoft Endpoint DLP"
 categories: ['data-prot']
 compatibility: native
 display_result: "Compatible"

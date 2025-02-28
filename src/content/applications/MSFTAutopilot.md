@@ -1,5 +1,5 @@
 ---
-name: "MSFT Autopilot"
+name: "Microsoft Autopilot"
 categories: ['it']
 compatibility: native
 display_result: "Compatible"
