@@ -1,0 +1,13 @@
+---
+name: "Spyro™ Reignited Trilogy"
+categories: actionandadventure
+publisher: Activision
+compatibility: perfect
+device_configuration: Snapdragon X Elite - 16GB
+date_tested: 2025-02-15
+os_version: "Windows 11 (26100.3194)"
+compatibility_details: ""
+auto_super_resolution:
+    compatibility: unknown
+    fps boost: 
+---
