@@ -12,7 +12,7 @@ import {
 import type { Filters } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 import { APPLICATION_COMPATIBILITY, GAME_AUTO_SR, GAME_COMPATIBILITY } from "../../config/enumerations";
-import { t } from "i18next";
+import i18next, { t } from "i18next";
 import { updateLanguage } from "../../util/updateLanguage";
 
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
@@ -44,10 +44,10 @@ const FilterDropdown = ({
 
 }) => {
   const _ = updateLanguage(window.location);
-  const filters = type === "applications" ? getApplicationFilters() : getGameFilters();
+  const [filters, setFilters] = createSignal<{ key: FilterKey; name: string }[]>([]);
 
   const [showFilters, setShowFilters] = createSignal<Record<string, boolean>>(
-    filters.reduce(
+    filters().reduce(
       (p, f) => ({
         ...p,
         [f.key]: false,
@@ -70,7 +70,7 @@ const FilterDropdown = ({
   const handleClick = (event: MouseEvent) => {
     if (!ref.contains(event.target as Node)) {
       setShowFilters(
-        filters.reduce(
+        filters().reduce(
           (p, f) => ({
             ...p,
             [f.key]: false,
@@ -81,8 +81,14 @@ const FilterDropdown = ({
     }
   };
 
-  onMount(() => {
+  onMount(async () => {
     document.addEventListener("click", handleClick);
+    let filtersValues = type === "applications" ? getApplicationFilters() : getGameFilters();
+    if (filtersValues.some(p => p.name.includes("game_filters") || p.name.includes("application_filters"))) {
+      await i18next.reloadResources();
+      filtersValues = type === "applications" ? getApplicationFilters() : getGameFilters();
+    }
+    setFilters(filtersValues);
   });
 
   onCleanup(() => {
@@ -108,7 +114,7 @@ const FilterDropdown = ({
 
   return (
     <div class=" flex " ref={ref!}>
-      <For each={filters}>
+      <For each={filters()}>
         {(filter) => (
           <div class="relative w-36 h-full flex-shrink-0 z-10 inline-flex text-sm font-medium text-center last:rounded-r-full first:rounded-l-full first:md:rounded-l-none  border-l  focus:ring-4 focus:outline-none  bg-neutral-700 hover:bg-neutral-600 focus:ring-neutral-700  text-white border-neutral-600">
             <button
