@@ -292,7 +292,6 @@ const PageFind = ({
                 ? t('applications.search_placeholder')
                 : t('games.search_placeholder')
             }
-              autofocus
               name="project-search"
               value={search().query ?? ""}
               onInput={(e) =>
