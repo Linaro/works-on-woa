@@ -302,6 +302,7 @@ const PageFind = ({
                 })
               }
               class="w-full h-full px-3"
+              autocomplete="off"
             />
 
           <button
