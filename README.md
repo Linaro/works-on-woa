@@ -17,7 +17,7 @@ A repository maintainer can then merge all changes from staging to main in order
 
 ## Contributing
 
-Details of the schemas used in the application, game and user report files can be found by reading https://www.worksonwoa.com/contributing
+Details of the schemas used in the application, game and user report files can be found by reading https://www.worksonwoa.com/en/contributing
 
 ## Questions?
 
