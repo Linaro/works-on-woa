@@ -34,7 +34,7 @@
     "astro-sst": "^2.40.3",
     "auth-astro": "^4.1.1",
     "dayjs": "^1.11.10",
-    "i18next": "^23.16.4",
+    "i18next": "^22.4.10",
     "js-yaml": "^4.1.0",
     "sass": "^1.63.6",
     "set-cookie-parser": "^2.6.0",
