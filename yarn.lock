@@ -1921,7 +1921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.26.10":
+"@babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.26.10":
   version: 7.27.0
   resolution: "@babel/runtime@npm:7.27.0"
   dependencies:
@@ -7507,6 +7507,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"i18next-browser-languagedetector@npm:^8.0.5":
+  version: 8.0.5
+  resolution: "i18next-browser-languagedetector@npm:8.0.5"
+  dependencies:
+    "@babel/runtime": "npm:^7.23.2"
+  checksum: 10c0/a57e4a152c63d76e28ca58a59ab57cab5b813cf03503ef89e6ac7c1bccb4ac45272785dd9b3c3dab609b1ae3b38c44e3782132d83c0e1e80e5e366ec41a8d5ad
+  languageName: node
+  linkType: hard
+
 "i18next-fs-backend@npm:^2.6.0":
   version: 2.6.0
   resolution: "i18next-fs-backend@npm:2.6.0"
@@ -13010,6 +13019,7 @@ __metadata:
     constructs: "npm:10.3.0"
     dayjs: "npm:^1.11.10"
     i18next: "npm:25.0.1"
+    i18next-browser-languagedetector: "npm:^8.0.5"
     i18next-fs-backend: "npm:^2.6.0"
     i18next-http-backend: "npm:^3.0.2"
     iso-639-1: "npm:^3.1.5"

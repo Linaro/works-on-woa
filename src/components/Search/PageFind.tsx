@@ -10,8 +10,8 @@ import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
-import { initClientI18next } from "../../util/i18next";
-const t = await initClientI18next();
+import { getCurrentLocale, initClientI18next } from "../../util/i18next";
+
 import { updateLanguage } from "../../util/updateLanguage";
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
@@ -58,7 +58,8 @@ export type Results = {
   };
 };
 
-const locale = updateLanguage(window.location);
+const locale = getCurrentLocale();
+const t = await initClientI18next();
 
 const fetchResults = async ({
   query,
