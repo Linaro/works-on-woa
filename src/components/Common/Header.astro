@@ -1,14 +1,16 @@
 ---
 import { getImage } from "astro:assets";
-import WoaBanner from "../../assets/WoA-banner.png";
-import i18next from "i18next";
+import WoaBanner from "../../assets/WoA-banner.jpg";
 import LanguageSelector from "../../components/Common/LanguageSelector.astro";
 import { getFixedT } from "../../util/i18next";
-const t = await getFixedT(Astro.currentLocale);
+import { DEFAULT_LOCALE } from "../../config/i18nConfig";
+
+const lang = Astro.currentLocale || DEFAULT_LOCALE;
+const t = await getFixedT(lang);
 
 const optimizedBanner = await getImage({ src: WoaBanner });
 const bgUrl = `url('${optimizedBanner.src}')`;
-const homeURL = `/${Astro.currentLocale}`;
+const homeURL = `/${lang}`;
 ---
 
 <header class="w-full">
@@ -26,15 +28,17 @@ const homeURL = `/${Astro.currentLocale}`;
       >
     </h1>
   </div>
-  <LanguageSelector class="language-selector" />
+  <LanguageSelector class="language-selector bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
   <style>
     .language-selector {
-      color: black;
       position: absolute;
       top: 0;
       right: 0;
       margin: 10px;
-      z-index: 10;
+      z-index: 2;
+
+      max-width: 150px;
+    max-width: fit-content;
     }
   </style>
 </header>
