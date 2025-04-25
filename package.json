@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "sst bind astro dev",
     "preview": "astro preview",
-    "start": "NODE_OPTIONS=--experimental-wasm-modules IS_PUBLIC=true astro dev",
+    "start": "astro dev",
     "start:public": "IS_PUBLIC=true astro dev",
     "start:build": "IS_PUBLIC=true astro build --ignore-scripts && IS_PUBLIC=true astro dev",
     "prebuild": "PRE_BUILD=true astro build --outDir ./dist_prebuild/",
