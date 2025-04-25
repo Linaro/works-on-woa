@@ -12,7 +12,7 @@ import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
 import { getCurrentLocale, initClientI18next } from "../../util/i18next";
 
-import { updateLanguage } from "../../util/updateLanguage";
+
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
@@ -59,7 +59,7 @@ export type Results = {
 };
 
 const locale = getCurrentLocale();
-const t = await initClientI18next();
+const t = await initClientI18next(locale);
 
 const fetchResults = async ({
   query,

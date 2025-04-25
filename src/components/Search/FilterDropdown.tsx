@@ -12,11 +12,11 @@ import {
 import type { Filters } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 import { APPLICATION_COMPATIBILITY, GAME_AUTO_SR, GAME_COMPATIBILITY } from "../../config/enumerations";
-import { updateLanguage } from "../../util/updateLanguage";
+
 
 import { initClientI18next, getCurrentLocale } from "../../util/i18next";
 const locale = getCurrentLocale();
-const t = await initClientI18next();
+const t = await initClientI18next(locale);
 
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 

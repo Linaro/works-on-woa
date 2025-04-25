@@ -2,8 +2,8 @@
 import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 
-import { getFixedT } from "../../util/i18next";
-import { updateLanguage } from "../../util/updateLanguage";
+import { getCurrentLocale, getFixedT } from "../../util/i18next";
+
 
 type Props = { application: CollectionEntry<"applications"> };
 const {
@@ -22,7 +22,7 @@ const {
 } = data;
 
 const { Content } = await render();
-const locale = Astro.currentLocale;
+const locale = getCurrentLocale(Astro);
 const t = await getFixedT(locale);
 ---
 

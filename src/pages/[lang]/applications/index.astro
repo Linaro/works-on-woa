@@ -3,8 +3,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import ApplicationListing from "../../../components/Projects/ApplicationListing.astro";
 import { LOCALES } from "../../../config/i18nConfig";
-import { getFixedT } from "../../../util/i18next";
-import { updateLanguage } from "../../../util/updateLanguage";
+import { getCurrentLocale, getFixedT } from "../../../util/i18next";
 
 export function getStaticPaths() {
   return LOCALES.map(locale => ({
@@ -19,7 +18,7 @@ const featuredApplications = await getCollection(
   }
 )
 
-const locale = Astro.currentLocale;
+const locale = getCurrentLocale(Astro);
 const t = await getFixedT(locale);
 ---
 
