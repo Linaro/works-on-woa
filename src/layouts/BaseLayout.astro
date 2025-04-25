@@ -4,11 +4,11 @@ import type { Breadcrumb } from "../components/Common/Breadcrumbs.astro";
 import Breadcrumbs from "../components/Common/Breadcrumbs.astro";
 import Footer from "../components/Common/Footer.astro";
 import Header from "../components/Common/Header.astro";
-import { DEFAULT_LOCALE } from "../config/i18nConfig";
+import { getCurrentLocale } from "../util/i18next";
 
 type Props = { title: string; description: string; breadcrumbs: Breadcrumb[] };
 const props = Astro.props;
-const locale = Astro.currentLocale || DEFAULT_LOCALE;
+const locale = getCurrentLocale(Astro);
 ---
 
 <html>
