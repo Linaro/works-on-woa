@@ -16,7 +16,8 @@ import {
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { SearchQuery } from "./PageFind";
-import { t } from "i18next";
+import { initClientI18next } from "../../util/i18next";
+
 import { updateLanguage } from "../../util/updateLanguage";
 
 const getProject = async (result: any) => {
@@ -25,6 +26,7 @@ const getProject = async (result: any) => {
 
 const locale = updateLanguage(window.location);
 const PAGE_SIZE = 10;
+const t = await initClientI18next();
 
 const Result = ({
   result,

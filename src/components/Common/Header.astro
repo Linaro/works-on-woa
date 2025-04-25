@@ -1,8 +1,10 @@
 ---
 import { getImage } from "astro:assets";
 import WoaBanner from "../../assets/WoA-banner.png";
-import i18next, { t } from "i18next";
+import i18next, { TFunction } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
+import { getFixedT } from "../../util/i18next";
+const t = await getFixedT(i18next.language) as TFunction;
 
 const optimizedBanner = await getImage({ src: WoaBanner });
 const bgUrl = `url('${optimizedBanner.src}')`;

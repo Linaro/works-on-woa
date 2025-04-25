@@ -2,7 +2,10 @@
 import BaseLayout from "./BaseLayout.astro";
 import "../styles/infopage.css";
 import { LOCALES } from "../config/i18nConfig";
-import { t } from "i18next";
+import { TFunction } from "i18next";
+import { getFixedT } from "../util/i18next";
+
+const t = await getFixedT(Astro.currentLocale) as TFunction;
 
 const { frontmatter } = Astro.props;
 let title = frontmatter.title + " | " + t('header.main');

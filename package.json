@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "sst bind astro dev",
     "preview": "astro preview",
-    "start": "astro dev",
+    "start": "NODE_OPTIONS=--experimental-wasm-modules IS_PUBLIC=true astro dev",
     "start:public": "IS_PUBLIC=true astro dev",
     "start:build": "IS_PUBLIC=true astro build --ignore-scripts && IS_PUBLIC=true astro dev",
     "prebuild": "PRE_BUILD=true astro build --outDir ./dist_prebuild/",
@@ -28,13 +28,13 @@
     "@auth/core": "^0.18.6",
     "@biscuit-auth/biscuit-wasm": "^0.4.0",
     "@solid-primitives/pagination": "^0.2.8",
-    "astro": "4.4.5",
+    "astro": "4.4.15",
     "astro-i18next": "^1.0.0-beta.21",
     "astro-pagefind": "^1.4.0",
     "astro-sst": "^2.40.3",
     "auth-astro": "^4.1.1",
     "dayjs": "^1.11.10",
-    "i18next": "^22.4.10",
+    "i18next": "25.0.1",
     "js-yaml": "^4.1.0",
     "sass": "^1.63.6",
     "set-cookie-parser": "^2.6.0",
@@ -52,5 +52,6 @@
     "sst": "^2.40.3",
     "vite": "^4.4.11",
     "write-yaml-file": "^5.0.0"
-  }
+  },
+  "packageManager": "yarn@4.9.1"
 }

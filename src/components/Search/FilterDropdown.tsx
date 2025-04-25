@@ -12,8 +12,10 @@ import {
 import type { Filters } from "./PageFind";
 import type { CollectionEntry } from "astro:content";
 import { APPLICATION_COMPATIBILITY, GAME_AUTO_SR, GAME_COMPATIBILITY } from "../../config/enumerations";
-import i18next, { t } from "i18next";
 import { updateLanguage } from "../../util/updateLanguage";
+
+import { initClientI18next } from "../../util/i18next";
+const t = await initClientI18next();
 
 type FilterKey = "auto_super_resolution.compatibility" | "category" | "compatibility";
 
@@ -85,7 +87,7 @@ const FilterDropdown = ({
     document.addEventListener("click", handleClick);
     let filtersValues = type === "applications" ? getApplicationFilters() : getGameFilters();
     if (filtersValues.some(p => p.name.includes("game_filters") || p.name.includes("application_filters"))) {
-      await i18next.reloadResources();
+      // await i18next.reloadResources();
       filtersValues = type === "applications" ? getApplicationFilters() : getGameFilters();
     }
     setFilters(filtersValues);

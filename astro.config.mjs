@@ -33,7 +33,6 @@ export default defineConfig({
             applyBaseStyles: false,
           }),
           solidJs(),
-          astroI18next(),
         ],
       }
     : {
@@ -51,7 +50,6 @@ export default defineConfig({
             applyBaseStyles: false,
           }),
           solidJs(),
-          astroI18next(),
           auth({
             injectEndpoints: true,
           }),
@@ -66,7 +64,15 @@ export default defineConfig({
     },
   },
   vite: {
-    optimizeDeps: { exclude: ['auth:config'] },
+    build: {
+      target: 'es2022',
+    },
+    optimizeDeps: { 
+      exclude: ['auth:config'],
+      esbuildOptions: {
+        target: 'es2022'
+      }
+     },
   },
   i18n: {
     defaultLocale: DEFAULT_LOCALE,
