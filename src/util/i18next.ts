@@ -12,7 +12,7 @@ export function getCurrentLocale(Astro?: AstroGlobal): string {
   if (typeof lang === 'object') {
     return lang[0];
   }
-  console.log('Detected language:', lang);
+
   return lang;
 }
 
