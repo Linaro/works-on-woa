@@ -2,7 +2,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { LOCALES } from "../../../config/i18nConfig";
 import { updateLanguage } from "../../../util/updateLanguage";
-import { TFunction } from "i18next";
+
 import { getFixedT } from "../../../util/i18next";
 
 export function getStaticPaths() {
@@ -11,8 +11,8 @@ export function getStaticPaths() {
   }));
 }
 
-const locale = updateLanguage(Astro.url);
-const t = await getFixedT(locale) as TFunction;
+const locale = Astro.currentLocale;
+const t = await getFixedT(locale);
 ---
 
 <BaseLayout

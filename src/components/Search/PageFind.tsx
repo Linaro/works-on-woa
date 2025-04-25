@@ -133,8 +133,7 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
 const PageFind = ({
   shouldRedirect,
   categories,
-  type,
-  auto_super_resolution
+  type
 }: {
   shouldRedirect: boolean;
   type: "games" | "applications";

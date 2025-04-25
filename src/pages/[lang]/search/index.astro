@@ -4,7 +4,6 @@ import Header from "../../../components/Common/Header.astro";
 import Footer from "../../../components/Common/Footer.astro";
 import Search from "../../../components/Search/Search.astro";
 import { LOCALES } from "../../../config/i18nConfig";
-import i18next from "i18next";
 
 export function getStaticPaths() {
   return LOCALES.map(locale => ({
@@ -12,7 +11,7 @@ export function getStaticPaths() {
   }));
 }
 
-const locale = i18next.language;
+const locale = Astro.currentLocale;
 ---
 
 <html lang="en">

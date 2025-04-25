@@ -1,8 +1,9 @@
 ---
-import { TFunction } from "i18next";
+
+import { DEFAULT_LOCALE } from "../../config/i18nConfig";
 import { getFixedT } from "../../util/i18next";
 
-const t = await getFixedT(Astro.currentLocale) as TFunction;
+const t = await getFixedT(Astro.currentLocale || DEFAULT_LOCALE);
 ---
 
 <section class="pt-10 min-h-[8rem]">

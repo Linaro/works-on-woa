@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import astroI18next from "astro-i18next";
 import aws from "astro-sst";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";

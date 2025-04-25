@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 import { updateLanguage } from "../../util/updateLanguage";
-import { TFunction } from "i18next";
+
 import { getFixedT } from "../../util/i18next";
 
 type Props = CollectionEntry<"applications">;
@@ -14,9 +14,9 @@ const categoryPromises = categories.map(async (category) =>
   getEntry("applications_categories", category.slug)
 );
 const categoriesData = await Promise.all(categoryPromises);
-const locale = updateLanguage(Astro.url);
+const locale = Astro.currentLocale;
 const url = `/${locale}/applications/${slug}/`;
-const t = await getFixedT(locale) as TFunction;
+const t = await getFixedT(locale);
 ---
 
 <li

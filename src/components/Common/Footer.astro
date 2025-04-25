@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { DEFAULT_LOCALE } from "../../config/i18nConfig";
-import { TFunction } from "i18next";
+
 import { getFixedT } from "../../util/i18next";
 
 
@@ -12,7 +12,7 @@ const { language } = Astro.props;
 const today = new Date();
 const locale = language ?? DEFAULT_LOCALE;
 
-const t = await getFixedT(language) as TFunction;
+const t = await getFixedT(language);
 const links = [
   {
     text: t('footer.report_an_issue'),
@@ -41,7 +41,6 @@ const links = [
 ];
 
 const games = await getCollection("games");
-games.length = 5;
 
 const path = Astro.url.pathname;
 ---

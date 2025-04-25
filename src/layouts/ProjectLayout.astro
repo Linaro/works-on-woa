@@ -5,7 +5,7 @@ import ProjectDetails from "../components/Projects/ProjectDetails.astro";
 import dayjs from "dayjs";
 import UserReports from "../components/Projects/UserReports.astro";
 import BaseLayout from "./BaseLayout.astro";
-import { TFunction } from "i18next";
+
 import { getFixedT } from "../util/i18next";
 import { updateLanguage } from "../util/updateLanguage";
 
@@ -16,8 +16,8 @@ type Props<T extends "games" | "applications"> = {
   type: T;
 };
 
-const locale = updateLanguage(Astro.url);
-const t = await getFixedT(locale) as TFunction;
+const locale = Astro.currentLocale;
+const t = await getFixedT(locale);
 
 const { project, date, reports, type } = Astro.props;
 const { data: { name } } = project;

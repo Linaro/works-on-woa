@@ -10,7 +10,6 @@ const execAsync = promisify(exec);
 
 export async function getStaticPaths() {
   const projects = await getCollection("games");
-  projects.length = 5;
   return LOCALES.flatMap(locale =>
     projects.map(project => ({
       params: { lang: locale, slug: project.slug },

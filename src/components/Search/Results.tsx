@@ -102,7 +102,7 @@ const Result = ({
                         data-filter-selection={cat}
                         onClick={onClickFilterLink}
                       >
-                        {cat}
+                        {t(cat)}
                       </button>
                     )}
                   </For>
@@ -124,7 +124,7 @@ const Result = ({
                   <For each={project().filters.category}>
                     {(cat: string) => (
                         <span class="inline">
-                          {cat}
+                          {t(cat)}
                         </span>
                     )}
                   </For>
@@ -136,12 +136,12 @@ const Result = ({
                 <p>
                   <b>{t('games.compatibility')}: </b>
                   <span class="min-w-0 text-orange-200">
-                    {project().filters.compatibility}
+                    {project().filters.compatibility?.length ? t(project().filters.compatibility[0].toLowerCase()) : t('game_auto_sr_values.unknown')}
                   </span>
                 </p>
                 <p>
                   <b>{t('games.auto_sr')}: </b>
-                  <span>{project()?.filters["auto_super_resolution.compatibility"] ?? t('game_auto_sr_values.unknown') }</span>
+                  <span>{project()?.filters["auto_super_resolution.compatibility"] ? t(project()?.filters["auto_super_resolution.compatibility"][0].toLowerCase()) : t('game_auto_sr_values.unknown') }</span>
                 </p>
                 <Show when={project()?.meta.date_tested != null}>
                   <p>

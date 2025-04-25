@@ -1,14 +1,14 @@
 ---
 import { getImage } from "astro:assets";
 import WoaBanner from "../../assets/WoA-banner.png";
-import i18next, { TFunction } from "i18next";
-import { LanguageSelector } from "astro-i18next/components";
+import i18next from "i18next";
+import LanguageSelector from "../../components/Common/LanguageSelector.astro";
 import { getFixedT } from "../../util/i18next";
-const t = await getFixedT(i18next.language) as TFunction;
+const t = await getFixedT(Astro.currentLocale);
 
 const optimizedBanner = await getImage({ src: WoaBanner });
 const bgUrl = `url('${optimizedBanner.src}')`;
-const homeURL = `/${i18next.language}`;
+const homeURL = `/${Astro.currentLocale}`;
 ---
 
 <header class="w-full">
@@ -26,7 +26,7 @@ const homeURL = `/${i18next.language}`;
       >
     </h1>
   </div>
-  <LanguageSelector showFlag={true} class="language-selector" />
+  <LanguageSelector class="language-selector" />
   <style>
     .language-selector {
       color: black;

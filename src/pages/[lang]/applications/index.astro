@@ -3,7 +3,6 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import ApplicationListing from "../../../components/Projects/ApplicationListing.astro";
 import { LOCALES } from "../../../config/i18nConfig";
-import { TFunction } from "i18next";
 import { getFixedT } from "../../../util/i18next";
 import { updateLanguage } from "../../../util/updateLanguage";
 
@@ -19,10 +18,9 @@ const featuredApplications = await getCollection(
     return data.featured === true;
   }
 )
-featuredApplications.length = 5;
 
-const locale = updateLanguage(Astro.url);
-const t = await getFixedT(locale) as TFunction;
+const locale = Astro.currentLocale;
+const t = await getFixedT(locale);
 ---
 
 <BaseLayout
