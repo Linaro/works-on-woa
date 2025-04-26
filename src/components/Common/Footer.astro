@@ -3,12 +3,14 @@ import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
 import { getRelativeLocaleUrl } from 'astro:i18n';
-import { DEFAULT_LOCALE } from "../../config/i18nConfig";
-import { t } from "i18next";
+import { getCurrentLocale, getFixedT } from "../../util/i18next";
+
 
 const { language } = Astro.props;
 const today = new Date();
-const locale = language ?? DEFAULT_LOCALE;
+const locale = language ?? getCurrentLocale(Astro);
+
+const t = await getFixedT(locale);
 const links = [
   {
     text: t('footer.report_an_issue'),

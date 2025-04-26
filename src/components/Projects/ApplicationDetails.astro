@@ -1,8 +1,9 @@
 ---
 import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
-import { t } from "i18next";
-import { updateLanguage } from "../../util/updateLanguage";
+
+import { getCurrentLocale, getFixedT } from "../../util/i18next";
+
 
 type Props = { application: CollectionEntry<"applications"> };
 const {
@@ -21,7 +22,8 @@ const {
 } = data;
 
 const { Content } = await render();
-const locale = updateLanguage(Astro.url);
+const locale = getCurrentLocale(Astro);
+const t = await getFixedT(locale);
 ---
 
 <span class="hidden" data-pagefind-filter="type:applications"></span>

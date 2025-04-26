@@ -1,5 +1,5 @@
 ---
-import { t } from "i18next";
+import { getFixedT } from "../../util/i18next";
 
 export type Breadcrumb = {
   title: string;
@@ -11,6 +11,8 @@ type Props = {
   breadcrumbs: Breadcrumb[];
 };
 const { breadcrumbs, language } = Astro.props;
+const t = await getFixedT(language);
+
 ---
 
 {

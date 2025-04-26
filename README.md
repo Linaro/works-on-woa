@@ -28,3 +28,5 @@ If you have any questions about updating or building this website, please contac
 Running the site locally will require `Node.js` and the `yarn` package manager.
 
 Install dependencies with `yarn install` then, to run the site locally, run `yarn start:build`. Press CTRL+C to stop the local web server when you have finished.
+Start script may require additional flags: `NODE_OPTIONS=--experimental-wasm-modules IS_PUBLIC=true`
+
