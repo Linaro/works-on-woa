@@ -1,0 +1,60 @@
+---
+import i18next from "i18next";
+import localeEmoji from "locale-emoji";
+import ISO6991 from "iso-639-1";
+import { LOCALES, DEFAULT_LOCALE } from "../../config/i18nConfig"; 
+
+interface languageMapping {
+  [localeCode: string]: string;
+}
+
+export interface Props extends astroHTML.JSX.SelectHTMLAttributes {
+  showFlag?: boolean;
+  languageMapping?: languageMapping;
+}
+
+const supportedLanguages = i18next.languages || LOCALES;
+const currentLanguage = Astro.currentLocale || DEFAULT_LOCALE; // Use default if undefined
+
+const { pathname } = Astro.url;
+
+// Determine the base path (path without the language prefix)
+const pathSegments = pathname.split('/').filter(Boolean);
+let basePathWithoutLocale = '/'; // Default to root
+if (pathSegments.length > 0) {
+  if (LOCALES.includes(pathSegments[0])) {
+    // Path starts with a locale, remove it
+    basePathWithoutLocale += pathSegments.slice(1).join('/');
+  } else {
+    // Path does not start with a locale
+    basePathWithoutLocale += pathSegments.join('/');
+  }
+}
+// Ensure it doesn't end with a slash unless it's just "/"
+if (basePathWithoutLocale.length > 1 && basePathWithoutLocale.endsWith('/')) {
+    basePathWithoutLocale = basePathWithoutLocale.slice(0, -1);
+}
+
+
+const { showFlag = false, languageMapping, ...attributes } = Astro.props;
+---
+
+<select onchange="location = this.value;" {...attributes}>
+  {
+    supportedLanguages.map((supportedLanguage: string) => {
+      let targetPath: string;
+
+      targetPath = `/${supportedLanguage}${basePathWithoutLocale === '/' ? '' : basePathWithoutLocale}`;
+      if (targetPath === '') targetPath = '/';
+
+      const lang = languageMapping?.[supportedLanguage] || supportedLanguage;
+      const displayName = localeEmoji(lang) + " " + ISO6991.getNativeName(supportedLanguage);
+
+      return (
+        <option value={targetPath} selected={supportedLanguage === currentLanguage}>
+          {displayName}
+        </option>
+      );
+    })
+  }
+</select>

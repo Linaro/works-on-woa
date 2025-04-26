@@ -16,14 +16,16 @@ import {
 import Pagination from "./Pagination";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { SearchQuery } from "./PageFind";
-import { t } from "i18next";
-import { updateLanguage } from "../../util/updateLanguage";
+import { getCurrentLocale, initClientI18next } from "../../util/i18next";
+
+
 
 const getProject = async (result: any) => {
   return await result.data();
 };
 
-const locale = updateLanguage(window.location);
+const locale = getCurrentLocale();
+const t = await initClientI18next(locale);
 const PAGE_SIZE = 10;
 
 const Result = ({
@@ -134,7 +136,7 @@ const Result = ({
                 <p>
                   <b>{t('games.compatibility')}: </b>
                   <span class="min-w-0 text-orange-200">
-                    {project().filters.compatibility}
+                  {project().filters.compatibility}
                   </span>
                 </p>
                 <p>

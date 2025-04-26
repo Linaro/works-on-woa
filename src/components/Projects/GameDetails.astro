@@ -3,8 +3,8 @@ import { getEntries } from "astro:content";
 import { type CollectionEntry } from "astro:content";
 import dayjs from "dayjs";
 import { toTitleCase } from "../../util/formatting";
-import { t } from "i18next";
-import { updateLanguage } from "../../util/updateLanguage";
+
+import { getCurrentLocale, getFixedT } from "../../util/i18next";
 
 type Props = { game: CollectionEntry<"games"> };
 const {
@@ -28,7 +28,8 @@ const {
 } = data;
 
 const { Content } = await render();
-const locale = updateLanguage(Astro.url);
+const locale = getCurrentLocale(Astro);
+const t = await getFixedT(locale);
 const t_compatibility = t(`game_compatibility_values.${compatibility}`);
 ---
 

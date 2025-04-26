@@ -10,8 +10,9 @@ import SearchIcon from "./SearchIcon";
 import ClearIcon from "./ClearIcon";
 import type { JSX } from "solid-js/h/jsx-runtime";
 import type { CollectionEntry, CollectionKey } from "astro:content";
-import { t } from "i18next";
-import { updateLanguage } from "../../util/updateLanguage";
+import { getCurrentLocale, initClientI18next } from "../../util/i18next";
+
+
 const bundlePath = `${import.meta.env.BASE_URL}pagefind/`;
 const pagefind = await import(/* @vite-ignore */ `${bundlePath}pagefind.js`);
 
@@ -57,7 +58,8 @@ export type Results = {
   };
 };
 
-const locale = updateLanguage(window.location);
+const locale = getCurrentLocale();
+const t = await initClientI18next(locale);
 
 const fetchResults = async ({
   query,
@@ -132,8 +134,7 @@ const getQueryParams = ({ filters, query }: SearchQuery) => {
 const PageFind = ({
   shouldRedirect,
   categories,
-  type,
-  auto_super_resolution
+  type
 }: {
   shouldRedirect: boolean;
   type: "games" | "applications";

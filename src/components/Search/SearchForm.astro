@@ -1,5 +1,7 @@
 ---
-import { t } from "i18next";
+import { getCurrentLocale, getFixedT } from "../../util/i18next";
+
+const t = await getFixedT(getCurrentLocale(Astro));
 ---
 
 <section class="pt-10 min-h-[8rem]">
