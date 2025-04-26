@@ -56,5 +56,5 @@
     "vite": "^4.4.11",
     "write-yaml-file": "^5.0.0"
   },
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@1.22.22"
 }
