@@ -80,14 +80,14 @@ export default {
 
       const appFormFunction = new Function(stack, "ProcessAppFormSubmissions", {
         handler: "aws-lambdas/AppForm/index.handler",
-        runtime: "nodejs18.x",
+        runtime: "nodejs20.x",
         memorySize: 256,
         environment: lambdaEnvVars,
       });
 
       const gameFormFunction = new Function(stack, "ProcessGameFormSubmissions", {
         handler: "aws-lambdas/GameForm/index.handler",
-        runtime: "nodejs18.x",
+        runtime: "nodejs20.x",
         memorySize: 256,
         environment: lambdaEnvVars,
       });
