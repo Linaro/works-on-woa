@@ -1,9 +1,10 @@
 ---
 name: "CorelDraw"
 categories: ['creative']
-compatibility: emulation
+compatibility: native
 display_result: "Compatible"
-version_from: "23.0.0.363"
-link: https://www.coreldraw.com/en/product/coreldraw/standard/
+version_from: "26.0.102"
+link: https://apps.microsoft.com/detail/9PBL2KQXQ47K
+icon: coreldraw.png
 ---
 
