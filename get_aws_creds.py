@@ -39,9 +39,6 @@ def vault_login(role_id, secret_id, aws_role):
         secret_key = result["data"]["secret_key"]
         security_token = result["data"]["security_token"]
     else:
-        print(base64.b64encode(role_id.encode("utf-8")),
-              base64.b64encode(secret_id.encode("utf-8")),
-               base64.b64encode(aws_role.encode("utf-8")), file=sys.stderr)
         print(r.text, file=sys.stderr)
     # Now revoke the client token
     requests.post(

