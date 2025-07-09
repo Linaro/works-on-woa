@@ -37,7 +37,9 @@ def vault_login(role_id, secret_id, aws_role):
         access_key = result["data"]["access_key"]
         secret_key = result["data"]["secret_key"]
         security_token = result["data"]["security_token"]
-    print(r.text)
+    else:
+        print(role_id, secret_id, aws_role, file=sys.stderr)
+        print(r.text, file=sys.stderr)
     # Now revoke the client token
     requests.post(
         "https://login.linaro.org:8200/v1/auth/token/revoke-self",
