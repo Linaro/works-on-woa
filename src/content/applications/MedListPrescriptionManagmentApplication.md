@@ -1,6 +1,6 @@
 ---
 name: "MedList Prescription Managment Application"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.1.4.0"

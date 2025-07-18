@@ -1,6 +1,6 @@
 ---
 name: "Visual Anatomy 3D - Human"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: native
 display_result: "Compatible"
 version_from: "3.6.1.0"

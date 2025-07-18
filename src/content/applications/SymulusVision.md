@@ -1,6 +1,6 @@
 ---
 name: "Symulus Vision"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.0.21.0"

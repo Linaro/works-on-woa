@@ -1,6 +1,6 @@
 ---
 name: "Drug Data"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "2.5.0.0"
