@@ -1,6 +1,6 @@
 ---
 name: "Dodo Dentist Dental clinic calendar"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.0.0.0"
