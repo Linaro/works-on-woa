@@ -1,5 +1,5 @@
 ---
-name: "NaturalReader AI Text to Speech"
+name: "NaturalReader 16"
 categories: ['accessibility']
 compatibility: native
 display_result: "Compatible"
