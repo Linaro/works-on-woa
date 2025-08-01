@@ -1,5 +1,5 @@
 ---
-name: "WeDo 2.0 LEGOÂ® Education"
+name: "WeDo 2.0 LEGO Education"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
