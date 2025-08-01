@@ -1,6 +1,6 @@
 ---
 name: "Fluent Screen Recorder"
-categories: ['oss', 'dev-tools']
+categories: ['multimedia']
 compatibility: native
 display_result: "Compatible"
 version_from: "3.0.0"

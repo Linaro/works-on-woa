@@ -1,5 +1,5 @@
 ---
-name: "GX.AI-AI chatbot Groket"
+name: "GX.AI - AI Chatbot Groket"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
