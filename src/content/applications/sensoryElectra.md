@@ -1,6 +1,6 @@
 ---
 name: "sensory Electra"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.1.2.0"

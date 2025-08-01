@@ -1,6 +1,6 @@
 ---
 name: "Sensory Aqua"
-categories: ['medical']
+categories: ['healthcare']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.0.1.0"
