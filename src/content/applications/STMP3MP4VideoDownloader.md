@@ -1,5 +1,5 @@
 ---
-name: "ST MP3& MP4 vIdeo Downloader"
+name: "ST MP3 & MP4 Video Downloader"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

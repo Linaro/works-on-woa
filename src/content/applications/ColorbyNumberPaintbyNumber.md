@@ -1,5 +1,5 @@
 ---
-name: "Color by Number-Paint by Number"
+name: "Color by Number - Paint by Number"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

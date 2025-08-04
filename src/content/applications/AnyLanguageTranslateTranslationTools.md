@@ -1,5 +1,5 @@
 ---
-name: "Any Language Translate -Translation Tools"
+name: "Any Language Translate - Translation Tools"
 categories: ['oss', 'dev-tools']
 compatibility: native
 display_result: "Compatible"
