@@ -48,7 +48,7 @@ export default function pagefind({
           return;
         }
 
-        const cmd = `npx pagefind --site "${outDir}"`;
+        const cmd = `npx pagefind --force-language en --site "${outDir}"`;
         execSync(cmd, {
           stdio: [process.stdin, process.stdout, process.stderr],
         });
