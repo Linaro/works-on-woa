@@ -126,6 +126,12 @@
   "application_filters": {
     "category": "类别"
   },
+  "application_compatibility_values": {
+    "native": "本地的",
+    "emulation": "仿真",
+    "no": "否",
+    "unknown": "未知"
+  },
   "application_category_values": {
     "accessibility": "辅助功能",
     "ai-tool": "AI 工具",

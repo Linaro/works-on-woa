@@ -47,6 +47,15 @@ const t = await getFixedT(locale);
         if (
           ["Compatible", "Compatible via Web Browser"].includes(data.display_result)
         ) { 
+          if (data.compatibility == "native") {
+              return (
+                <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+                  <span class="text-2xl md:text-5xl pr-2 md:pr-4">✓</span>{" "}
+                  {t(`application_display_result.${data.display_result}`)}
+                  {t(`application_compatibility_values.${data.compatibility}`)}
+                </p>
+              );
+          }
           return (
             <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
               <span class="text-2xl md:text-5xl pr-2 md:pr-4">✓</span>{" "}
@@ -55,11 +64,27 @@ const t = await getFixedT(locale);
           );
         }
         if (data.display_result === "Vendor Announced - Launching Soon") {
+          if (data.compatibility == "native") {
+              return (
+                <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+                  {t(`application_display_result.${data.display_result}`)}
+                  {t(`application_compatibility_values.${data.compatibility}`)}
+                </p>
+              );
+          }
           return (
             <p class="text-green-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
               {t(`application_display_result.${data.display_result}`)}
             </p>
           );
+        }
+        if (data.compatibility == "native") {
+            return (
+              <p class="text-red-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
+                {t(`application_display_result.${data.display_result}`)}
+                {t(`application_compatibility_values.${data.compatibility}`)}
+              </p>
+            );
         }
         return (
           <p class="text-red-500 flex items-center text-xl md:text-3xl justify-end w-full pr-8">
