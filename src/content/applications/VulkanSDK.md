@@ -1,5 +1,5 @@
 ---
-name: "Vulcan SDK"
+name: "Vulkan SDK"
 categories: ['library','dev-tools']
 compatibility: native
 display_result: "Compatible"
