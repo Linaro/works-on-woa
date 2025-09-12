@@ -1,5 +1,5 @@
 ---
-name: "Relax Meditation  Music"
+name: "Relax Meditation Music"
 categories: ['health']
 compatibility: emulation
 display_result: "Compatible"

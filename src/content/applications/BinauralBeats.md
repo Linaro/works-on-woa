@@ -1,5 +1,5 @@
 ---
-name: "Binaural  Beats"
+name: "Binaural Beats"
 categories: ['health']
 compatibility: emulation
 display_result: "Compatible"

@@ -4,5 +4,5 @@ categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "8.47.8470.0"
-link: https://apps.microsoft.com/detail/9WZDNCRFJB0H
+link: https://apps.microsoft.com/detail/9WZDNCRFJCN3
 ---
