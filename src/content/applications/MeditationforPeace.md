@@ -1,5 +1,5 @@
 ---
-name: "Meditation for  Peace"
+name: "Meditation For Peace"
 categories: ['books']
 compatibility: emulation
 display_result: "Compatible"
