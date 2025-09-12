@@ -1,5 +1,5 @@
 ---
-name: "Bjorn's  Form studio"
+name: "Bjorn's Form Studio"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

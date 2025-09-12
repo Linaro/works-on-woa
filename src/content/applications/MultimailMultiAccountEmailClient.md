@@ -1,8 +1,8 @@
 ---
-name: "Multimail-Multi-Account Email Client"
+name: "Multimail - Multi-Account Email Client"
 categories: ['prod']
-compatibility: emulation
+compatibility: native
 display_result: "Compatible"
-version_from: "3.1.0.0"
-link: https://apps.microsoft.com/detail/9N2X3BPM4X3S
+version_from: "3.5.1.0"
+link: https://apps.microsoft.com/detail/9PBWJ8LF01B7
 ---
