@@ -1,5 +1,5 @@
 ---
-name: "IO Player - Media Player, DVD Player"
+name: "IO Player-Media Player, DVD player"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

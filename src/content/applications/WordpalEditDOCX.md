@@ -1,5 +1,5 @@
 ---
-name: "WordPal - Edit DOCX"
+name: "Wordpal-Edit DOCX"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"
