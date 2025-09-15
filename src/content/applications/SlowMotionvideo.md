@@ -1,5 +1,5 @@
 ---
-name: "Slow  Motion video"
+name: "Slow Motion video"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

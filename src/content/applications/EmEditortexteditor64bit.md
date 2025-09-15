@@ -1,5 +1,5 @@
 ---
-name: "EmEditor text editor(64-bit)"
+name: "EmEditor text editor (64-bit)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
