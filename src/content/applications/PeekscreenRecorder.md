@@ -1,5 +1,5 @@
 ---
-name: "Peek  screen Recorder"
+name: "Peek Screen Recorder"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

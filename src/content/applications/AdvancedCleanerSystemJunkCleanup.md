@@ -1,5 +1,5 @@
 ---
-name: "Advanced Cleaner -  System Junk Cleanup"
+name: "Advanced Cleaner - System Junk Cleanup"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"
