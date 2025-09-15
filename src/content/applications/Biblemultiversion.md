@@ -1,5 +1,5 @@
 ---
-name: "Bible - Multi Version"
+name: "Bible -Multi Version"
 categories: ['books']
 compatibility: native
 display_result: "Compatible"
