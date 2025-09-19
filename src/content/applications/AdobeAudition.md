@@ -1,10 +1,12 @@
 ---
 name: "Adobe Audition"
 categories: ['creative']
-compatibility: no
-display_result: "Unsupported"
-link: https://www.adobe.com/products/audition.html
+compatibility: emulation
+display_result: "Compatible"
+version_from: 25.3
+link: https://community.adobe.com/t5/audition-beta-discussions/now-in-beta-windows-on-arm-native-in-audition-beta/td-p/15434721
 icon: AdobeAudition.svg
 ---
 
-App is not available in creative cloud desktop app.
+Emulation support is in public Beta. Link to announcement provided.
+NOTE: Specific GPU driver is required
