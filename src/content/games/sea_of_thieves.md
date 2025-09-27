@@ -1,10 +1,11 @@
 ---
 name: "Sea of Thieves"
-categories: [unknown]
-publisher: Microsoft Studios
-compatibility: perfect
-device_configuration: Surface Laptop (7th Edition)
-date_tested: 2024-03-25
-os_version: "26085.1"
-driver_id: 31.0.38.4
+categories: [actionandadventure]
+publisher: "Microsoft Studios"
+compatibility: unplayable
+compatibility_details: "Execution blocked by publisher"
+device_configuration: "Surface Laptop (7th Edition)"
+date_tested: 2025-07-19
+os_version: "26100.4652"
+driver_id: "31.0.105.0"
 ---
