@@ -1,5 +1,5 @@
 ---
-name: 口袋写作 (Pocket Writing)"
+name: "口袋写作 (Pocket Writing)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

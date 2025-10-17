@@ -1,5 +1,5 @@
 ---
-name: 小智搜搜 (xz search)"
+name: "小智搜搜 (xz search)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

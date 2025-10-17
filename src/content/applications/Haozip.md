@@ -1,5 +1,5 @@
 ---
-name: 好压 (Haozip)"
+name: "好压 (Haozip)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

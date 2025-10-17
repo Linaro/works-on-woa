@@ -1,5 +1,5 @@
 ---
-name: 百度翻译 (Baidu Translate)"
+name: "百度翻译 (Baidu Translate)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

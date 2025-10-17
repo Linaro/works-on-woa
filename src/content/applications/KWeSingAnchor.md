@@ -1,5 +1,5 @@
 ---
-name: 全民K歌主播版 (WeSing Anchor)"
+name: "全民K歌主播版 (WeSing Anchor)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

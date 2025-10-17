@@ -1,5 +1,5 @@
 ---
-name: 金山毒霸 (Kingsoft Antivirus)"
+name: "金山毒霸 (Kingsoft Antivirus)"
 categories: ['anti-virus']
 compatibility: emulation
 display_result: "Compatible"
