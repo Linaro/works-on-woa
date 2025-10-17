@@ -1,5 +1,5 @@
 ---
-name: CAD迷你画图 (CAD Mini Drawing)"
+name: "CAD迷你画图 (CAD Mini Drawing)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 央视影音 (CBOX)"
+name: "央视影音 (CBOX)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

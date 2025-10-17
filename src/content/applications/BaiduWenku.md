@@ -1,5 +1,5 @@
 ---
-name: 百度文库 (Baidu Wenku)"
+name: "百度文库 (Baidu Wenku)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

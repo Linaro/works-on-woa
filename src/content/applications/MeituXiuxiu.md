@@ -1,5 +1,5 @@
 ---
-name: 美图秀秀 (Meitu Xiuxiu)"
+name: "美图秀秀 (Meitu Xiuxiu)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

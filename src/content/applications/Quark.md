@@ -1,5 +1,5 @@
 ---
-name: 夸克 (Quark)"
+name: "夸克 (Quark)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

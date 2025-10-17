@@ -1,5 +1,5 @@
 ---
-name: 驾考宝典 (Driving Test Master)"
+name: "驾考宝典 (Driving Test Master)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

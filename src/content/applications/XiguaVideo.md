@@ -1,5 +1,5 @@
 ---
-name: 西瓜视频 (Xigua Video)"
+name: "西瓜视频 (Xigua Video)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"
