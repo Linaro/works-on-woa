@@ -1,5 +1,5 @@
 ---
-name: 虎牙直播 (Huya Client)"
+name: "虎牙直播 (Huya Client)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

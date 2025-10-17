@@ -1,5 +1,5 @@
 ---
-name: TreeMind树图 (TreeMind)"
+name: "TreeMind树图 (TreeMind)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 腾讯电脑管家 (Tencent PC Manager)"
+name: "腾讯电脑管家 (Tencent PC Manager)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 阿噗阿噗动态壁纸 (Upup Deskpaper)"
+name: "阿噗阿噗动态壁纸 (Upup Deskpaper)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

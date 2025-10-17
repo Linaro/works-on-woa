@@ -1,5 +1,5 @@
 ---
-name: WPS Office"
+name: "WPS Office"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

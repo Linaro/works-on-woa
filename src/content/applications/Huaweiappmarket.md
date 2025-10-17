@@ -1,5 +1,5 @@
 ---
-name: 华为应用市场 (Huawei app market)"
+name: "华为应用市场 (Huawei app market)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"
