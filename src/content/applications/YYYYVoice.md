@@ -1,5 +1,5 @@
 ---
-name: YY语音 (YY Voice)"
+name: "YY语音 (YY Voice)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

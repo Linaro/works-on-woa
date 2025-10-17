@@ -1,5 +1,5 @@
 ---
-name: 360极速浏览器 (360 Extreme Browser)"
+name: "360极速浏览器 (360 Extreme Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

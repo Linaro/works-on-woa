@@ -1,5 +1,5 @@
 ---
-name: 雨课堂 (YuKeTang)"
+name: "雨课堂 (YuKeTang)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
