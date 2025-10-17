@@ -1,5 +1,5 @@
 ---
-name: 鹅直播 (E Zhibo)"
+name: "鹅直播 (E Zhibo)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

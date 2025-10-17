@@ -1,5 +1,5 @@
 ---
-name: 知云文献翻译 (Zhiyun Literature Translation)"
+name: "知云文献翻译 (Zhiyun Literature Translation)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

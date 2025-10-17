@@ -1,5 +1,5 @@
 ---
-name: 石墨文档 (Shimo Docs)"
+name: "石墨文档 (Shimo Docs)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

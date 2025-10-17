@@ -1,5 +1,5 @@
 ---
-name: 搜狐影音 (SouHu Player)"
+name: "搜狐影音 (SouHu Player)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

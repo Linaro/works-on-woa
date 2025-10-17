@@ -1,5 +1,5 @@
 ---
-name: 快剪辑 (Kuaijianji MM Editor)"
+name: "快剪辑 (Kuaijianji MM Editor)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: EV录屏 (EV Screen Recorder)"
+name: "EV录屏 (EV Screen Recorder)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

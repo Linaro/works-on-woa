@@ -1,5 +1,5 @@
 ---
-name: AiPPT"
+name: "AiPPT"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

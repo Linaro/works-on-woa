@@ -1,5 +1,5 @@
 ---
-name: 网易有道翻译(arm64) (Netease Youdao Translator(arm64))"
+name: "网易有道翻译(arm64) (Netease Youdao Translator(arm64))"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

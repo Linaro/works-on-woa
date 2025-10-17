@@ -1,5 +1,5 @@
 ---
-name: 暴风影音 (Storm Player)"
+name: "暴风影音 (Storm Player)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

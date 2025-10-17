@@ -1,5 +1,5 @@
 ---
-name: 中望CAD (ZWSoft CAD)"
+name: "中望CAD (ZWSoft CAD)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"
