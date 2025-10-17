@@ -1,5 +1,5 @@
 ---
-name: "Picsart Photo Editor"
+name: "Picsart AI Photo Editor"
 categories: ['creative','photo']
 compatibility: native
 display_result: "Compatible"
