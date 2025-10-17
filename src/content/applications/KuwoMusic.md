@@ -1,5 +1,5 @@
 ---
-name: 酷我音乐 (Kuwo Music)"
+name: "酷我音乐 (Kuwo Music)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

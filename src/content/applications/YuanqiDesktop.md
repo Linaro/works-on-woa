@@ -1,5 +1,5 @@
 ---
-name: 元气桌面 (Yuanqi Desktop)"
+name: "元气桌面 (Yuanqi Desktop)"
 categories: ['it-tools-vdi']
 compatibility: native
 display_result: "Compatible"

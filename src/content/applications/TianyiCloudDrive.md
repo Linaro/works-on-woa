@@ -1,5 +1,5 @@
 ---
-name: 天翼云盘 (Tianyi Cloud Drive)"
+name: "天翼云盘 (Tianyi Cloud Drive)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

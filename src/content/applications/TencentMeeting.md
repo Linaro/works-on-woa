@@ -1,5 +1,5 @@
 ---
-name: 腾讯会议 (Tencent Meeting)"
+name: "腾讯会议 (Tencent Meeting)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

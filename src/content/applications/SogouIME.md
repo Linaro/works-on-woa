@@ -1,5 +1,5 @@
 ---
-name: 搜狗输入法 (Sogou IME)"
+name: "搜狗输入法 (Sogou IME)"
 categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"

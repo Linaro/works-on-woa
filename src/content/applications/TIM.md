@@ -1,5 +1,5 @@
 ---
-name: TIM"
+name: "TIM"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

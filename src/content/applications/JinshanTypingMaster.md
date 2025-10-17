@@ -1,5 +1,5 @@
 ---
-name: 金山打字通 (Jinshan Typing Master)"
+name: "金山打字通 (Jinshan Typing Master)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

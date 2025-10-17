@@ -1,5 +1,5 @@
 ---
-name: 2345看图王 (2345 Pic Viewer)"
+name: "2345看图王 (2345 Pic Viewer)"
 categories: ['it-tools-vdi']
 compatibility: native
 display_result: "Compatible"

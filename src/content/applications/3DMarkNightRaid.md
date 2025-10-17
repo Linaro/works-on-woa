@@ -1,5 +1,5 @@
 ---
-name: 3DMark Night Raid"
+name: "3DMark Night Raid"
 categories: ['benchmarking']
 compatibility: emulation
 display_result: "Compatible"

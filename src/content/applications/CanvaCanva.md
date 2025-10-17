@@ -1,5 +1,5 @@
 ---
-name: Canva可画 (Canva)"
+name: "Canva可画 (Canva)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"
