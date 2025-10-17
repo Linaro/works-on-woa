@@ -1,5 +1,5 @@
 ---
-name: BOSS直聘 (BOSS Zhipin)"
+name: "BOSS直聘 (BOSS Zhipin)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

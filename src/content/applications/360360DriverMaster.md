@@ -1,5 +1,5 @@
 ---
-name: 360驱动大师 (360 Driver Master)"
+name: "360驱动大师 (360 Driver Master)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

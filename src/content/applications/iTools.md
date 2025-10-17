@@ -1,5 +1,5 @@
 ---
-name: 爱思助手 (iTools)"
+name: "爱思助手 (iTools)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

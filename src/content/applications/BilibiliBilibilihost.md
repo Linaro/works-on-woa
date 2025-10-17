@@ -1,5 +1,5 @@
 ---
-name: Bilibili直播姬 (Bilibili-host)"
+name: "Bilibili直播姬 (Bilibili-host)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"
