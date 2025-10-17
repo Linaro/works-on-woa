@@ -1,5 +1,5 @@
 ---
-name: 乐播投屏 (Lebo)"
+name: "乐播投屏 (Lebo)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

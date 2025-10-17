@@ -1,5 +1,5 @@
 ---
-name: 必剪 (BCut)"
+name: "必剪 (BCut)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

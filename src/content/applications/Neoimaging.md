@@ -1,5 +1,5 @@
 ---
-name: 光影魔术手 (Neoimaging)"
+name: "光影魔术手 (Neoimaging)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"

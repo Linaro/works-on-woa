@@ -1,5 +1,5 @@
 ---
-name: EasyConnect"
+name: "EasyConnect"
 categories: ['vpn']
 compatibility: emulation
 display_result: "Compatible"
