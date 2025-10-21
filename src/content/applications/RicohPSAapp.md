@@ -1,6 +1,6 @@
 ---
 name: "Ricoh PSA app"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.1.1.0"

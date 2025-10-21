@@ -1,6 +1,6 @@
 ---
 name: "PaperCut MF"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "24.0.3"

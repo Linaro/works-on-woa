@@ -1,6 +1,6 @@
 ---
 name: "uniFLOW Online"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "2025.2"

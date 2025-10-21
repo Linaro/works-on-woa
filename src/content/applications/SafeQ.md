@@ -1,6 +1,6 @@
 ---
 name: "SafeQ"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.24.0"

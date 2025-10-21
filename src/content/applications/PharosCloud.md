@@ -1,6 +1,6 @@
 ---
 name: "Pharos Cloud"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "4.3"

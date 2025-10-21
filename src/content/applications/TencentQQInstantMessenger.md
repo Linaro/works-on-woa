@@ -1,6 +1,6 @@
 ---
 name: "Tencent QQ Instant Messenger"
-categories: ['communication']
+categories: ['collaboration']
 compatibility: native
 display_result: "Compatible"
 version_from: "9.7.7"

@@ -1,6 +1,6 @@
 ---
 name: "Egnyte Cloud File Server ARM"
-categories: 'Cloud storage'
+categories: ['prod', 'nw-storage']
 compatibility: native
 display_result: "Compatible"
 version_from: "3.17.0"

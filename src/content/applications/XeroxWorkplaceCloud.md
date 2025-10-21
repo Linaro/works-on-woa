@@ -1,6 +1,6 @@
 ---
 name: "Xerox Workplace Cloud"
-categories: 'Printer Driver'
+categories: ['printers']
 compatibility: native
 display_result: "Compatible"
 version_from: "5.7.1"
