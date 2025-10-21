@@ -1,6 +1,6 @@
 ---
 name: "uberAgent DEX and Endpoint analytics"
-categories: ''
+categories: ['it']
 compatibility: native
 display_result: "Compatible"
 version_from: "7.1"
