@@ -1,5 +1,5 @@
 ---
-name: QQ影音 (QQ Player)"
+name: "QQ影音 (QQ Player)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

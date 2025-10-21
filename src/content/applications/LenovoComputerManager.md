@@ -1,5 +1,5 @@
 ---
-name: 联想电脑管家 (Lenovo Computer Manager)"
+name: "联想电脑管家 (Lenovo Computer Manager)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

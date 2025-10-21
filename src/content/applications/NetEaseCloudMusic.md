@@ -1,5 +1,5 @@
 ---
-name: 网易云音乐 (NetEase Cloud Music)"
+name: "网易云音乐 (NetEase Cloud Music)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

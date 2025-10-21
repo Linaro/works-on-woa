@@ -1,5 +1,5 @@
 ---
-name: 芒果TV (Mango TV)"
+name: "芒果TV (Mango TV)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 猿辅导 (Yuanfudao)"
+name: "猿辅导 (Yuanfudao)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

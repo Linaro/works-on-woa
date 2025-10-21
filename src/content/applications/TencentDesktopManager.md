@@ -1,5 +1,5 @@
 ---
-name: 腾讯桌面整理 (Tencent Desktop Manager)"
+name: "腾讯桌面整理 (Tencent Desktop Manager)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 亿图图示 (Edraw Max)"
+name: "亿图图示 (Edraw Max)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"
