@@ -126,6 +126,12 @@
   "application_filters": {
     "category": "类别"
   },
+  "application_compatibility_values": {
+    "native": "ネイティブ",
+    "emulation": "エミュレーション",
+    "no": "いいえ",
+    "unknown": "不明"
+  },
   "application_category_values": {
     "accessibility": "辅助功能",
     "ai-tool": "AI 工具",
