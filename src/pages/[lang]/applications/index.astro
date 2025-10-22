@@ -18,19 +18,6 @@ const featuredApplications = await getCollection(
   }
 )
 
-const nativeApps = await getCollection(
-  "applications",
-  ({ data }: CollectionEntry<"applications">) => {
-    return data.compatibility === 'native';
-  }
-)
-
-const compatApps = await getCollection(
-  "applications",
-  ({ data }: CollectionEntry<"applications">) => {
-    return data.display_result === 'Compatible';
-  }
-)
 const locale = getCurrentLocale(Astro);
 const t = await getFixedT(locale);
 ---
@@ -40,13 +27,7 @@ const t = await getFixedT(locale);
   description={t('header.applications_desc')}
   breadcrumbs={[{ title: t('bradcrumbs.applications'), href: `/${locale}/applications` }]}
 >
-  <div class="flex mx-auto mx-auto mt-12 text-1x1">
-    <b>{t('application_display_result.Compatible')}: {compatApps.length}</b>
-  </div>
-  <div class="flex mx-auto mx-auto mt-1 text-1x1">
-    <b>{t('application_compatibility_values.native')}: {nativeApps.length}</b>
-  </div>
-  <div class="flex mx-auto mx-auto mt-1 text-3xl">
+  <div class="flex mx-auto mx-auto mt-12 text-3xl">
     <b>{t('applications.info')}</b>
   </div>
 
