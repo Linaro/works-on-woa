@@ -126,7 +126,13 @@
   "application_filters": {
     "category": "카테고리"
   },
-  "application_category_values": {
+  "application_compatibility_values": {
+    "native": "원주율",
+    "emulation": "에뮬레이션",
+    "no": "아니요",
+    "unknown": "알 수 없음"
+  },
+    "application_category_values": {
     "accessibility": "접근성",
     "ai-tool": "AI 도구",
     "ai": "AI 앱",
