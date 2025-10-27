@@ -1,5 +1,5 @@
 ---
-name: 橙瓜码字 (Chenggua)"
+name: "橙瓜码字 (Chenggua)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

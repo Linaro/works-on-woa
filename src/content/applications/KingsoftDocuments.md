@@ -1,5 +1,5 @@
 ---
-name: 金山文档 (Kingsoft Documents)"
+name: "金山文档 (Kingsoft Documents)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

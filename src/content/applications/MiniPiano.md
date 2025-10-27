@@ -1,5 +1,5 @@
 ---
-name: "Mini Piano"
+name: "Mini Piano ®"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

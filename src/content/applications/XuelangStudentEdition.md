@@ -1,5 +1,5 @@
 ---
-name: 学浪学生版 (Xuelang Student Edition)"
+name: "学浪学生版 (Xuelang Student Edition)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

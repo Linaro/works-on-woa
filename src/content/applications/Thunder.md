@@ -1,5 +1,5 @@
 ---
-name: 迅雷 (Thunder)"
+name: "迅雷 (Thunder)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

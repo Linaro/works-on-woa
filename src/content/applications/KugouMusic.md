@@ -1,5 +1,5 @@
 ---
-name: 酷狗音乐 (Kugou Music)"
+name: "酷狗音乐 (Kugou Music)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 101教育PPT (101 Education PPT)"
+name: "101教育PPT (101 Education PPT)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

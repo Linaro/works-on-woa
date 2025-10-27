@@ -1,5 +1,5 @@
 ---
-name: "Qawl: Quran Reader"
+name: "Qawl: Quran Reader (القران)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
