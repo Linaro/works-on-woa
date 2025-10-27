@@ -1,5 +1,5 @@
 ---
-name: "SPIKE LEGO Education"
+name: "SPIKE™ LEGO® Education"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

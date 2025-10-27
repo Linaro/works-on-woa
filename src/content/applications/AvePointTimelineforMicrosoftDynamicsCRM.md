@@ -1,5 +1,5 @@
 ---
-name: "AvePoint Timeline for Microsoft Dynamics CRM"
+name: "AvePoint Timeline for Microsoft® Dynamics CRM"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

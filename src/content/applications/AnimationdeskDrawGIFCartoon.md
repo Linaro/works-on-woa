@@ -1,5 +1,5 @@
 ---
-name: "Animation desk- Draw GIF & Cartoon"
+name: "Animation Desk – Draw GIF & Cartoon"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"
