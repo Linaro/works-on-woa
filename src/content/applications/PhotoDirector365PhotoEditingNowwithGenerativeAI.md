@@ -1,5 +1,5 @@
 ---
-name: "PhotoDirector 365-Photo Editing Now with Generative AI"
+name: "PhotoDirector 365 – Photo Editing Now With Generative AI"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

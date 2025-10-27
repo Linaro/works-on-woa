@@ -1,5 +1,5 @@
 ---
-name: "BlockCode"
+name: "BlockCode 少儿编程"
 categories: ['education']
 compatibility: native
 display_result: "Compatible"
