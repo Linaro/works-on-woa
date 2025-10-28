@@ -1,5 +1,5 @@
 ---
-name: "Music -Ten pianos"
+name: "MuSIC-TeN Pianos"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

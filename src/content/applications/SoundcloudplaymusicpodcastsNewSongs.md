@@ -1,5 +1,5 @@
 ---
-name: "Soundcloud - play music,podcasts & New Songs"
+name: "SoundCloud - Play Music, Podcasts & New Songs"
 categories: ['music']
 compatibility: native
 display_result: "Compatible"

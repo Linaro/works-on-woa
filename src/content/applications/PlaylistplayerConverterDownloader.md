@@ -1,5 +1,5 @@
 ---
-name: "Play-list-player& Converter &Downloader"
+name: "Play-list - Player & Converter & Downloader"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

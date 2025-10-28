@@ -1,5 +1,5 @@
 ---
-name: "video speed Changer- slow-Mo,Fast-Mo"
+name: "Video Speed Changer - Slow-Mo, Fast-Mo"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

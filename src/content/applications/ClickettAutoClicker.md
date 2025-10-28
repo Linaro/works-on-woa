@@ -1,5 +1,5 @@
 ---
-name: "Clickett-Auto Clicker"
+name: "Clickett - Auto Clicker"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

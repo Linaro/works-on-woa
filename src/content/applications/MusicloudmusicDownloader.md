@@ -1,5 +1,5 @@
 ---
-name: "Musicloud-music Downloader"
+name: "Musicloud - Music Downloader"
 categories: ['music']
 compatibility: native
 display_result: "Compatible"

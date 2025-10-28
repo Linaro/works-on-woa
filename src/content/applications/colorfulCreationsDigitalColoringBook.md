@@ -1,5 +1,5 @@
 ---
-name: "colorful Creations : Digital Coloring Book"
+name: "Colorful Creations: Digital Coloring Book"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

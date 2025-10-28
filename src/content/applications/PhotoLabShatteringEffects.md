@@ -1,5 +1,5 @@
 ---
-name: "Photo Lab-Shattering Effects"
+name: "Photo Lab - Shattering Effects"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

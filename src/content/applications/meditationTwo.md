@@ -1,5 +1,5 @@
 ---
-name: "meditation Two"
+name: "meditationTwo"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

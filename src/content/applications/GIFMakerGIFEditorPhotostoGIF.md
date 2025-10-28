@@ -1,5 +1,5 @@
 ---
-name: "GIF Maker-GIF Editor,Photos toGIF"
+name: "GIF Maker - GIF Editor, Photos to GIF"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

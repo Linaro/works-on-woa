@@ -1,5 +1,5 @@
 ---
-name: "GeekPDF-Convert PDF to Doc"
+name: "GeekPDF - Convert PDF To Doc"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

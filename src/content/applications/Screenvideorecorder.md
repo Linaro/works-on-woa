@@ -1,5 +1,5 @@
 ---
-name: "Screen& video recorder"
+name: "Screen & Video Recorder"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

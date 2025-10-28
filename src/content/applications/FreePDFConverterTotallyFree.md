@@ -1,5 +1,5 @@
 ---
-name: "Free PDF Converter-Totally Free"
+name: "Free PDF Converter - Totally Free"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

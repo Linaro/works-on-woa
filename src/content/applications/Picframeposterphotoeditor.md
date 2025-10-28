@@ -1,5 +1,5 @@
 ---
-name: "Pic frame-poster&photo editor"
+name: "Pic Frame - poster & photo editor"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

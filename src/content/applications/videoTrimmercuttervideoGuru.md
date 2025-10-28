@@ -1,5 +1,5 @@
 ---
-name: "video Trimmer cutter- video Guru"
+name: "Video Trimmer Cutter - Video Guru"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

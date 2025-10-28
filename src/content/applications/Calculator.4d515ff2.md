@@ -1,5 +1,5 @@
 ---
-name: "Calculator+"
+name: "Calculator +"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"
