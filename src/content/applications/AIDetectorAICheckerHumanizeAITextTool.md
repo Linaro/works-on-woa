@@ -1,5 +1,5 @@
 ---
-name: "AI Detector"
+name: "AI Detector: AI Checker & Humanize AI Text Tool"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
