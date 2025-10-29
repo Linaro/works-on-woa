@@ -1,5 +1,5 @@
 ---
-name: "Video&Audio Converter"
+name: "Video & Audio Converter"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

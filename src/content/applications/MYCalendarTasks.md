@@ -1,5 +1,5 @@
 ---
-name: "MY Calendar Tasks"
+name: "MyCalendar Tasks"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

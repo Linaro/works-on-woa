@@ -1,5 +1,5 @@
 ---
-name: "Text on photos-Text on videos"
+name: "Text on Photos - Text on Videos"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

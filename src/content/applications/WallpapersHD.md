@@ -1,5 +1,5 @@
 ---
-name: "Wallpapers(HD)"
+name: "Wallpapers (HD)"
 categories: ['personal']
 compatibility: emulation
 display_result: "Compatible"

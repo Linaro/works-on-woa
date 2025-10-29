@@ -1,5 +1,5 @@
 ---
-name: "Aukzip-RAR zip"
+name: "AukZip - RAR Zip"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

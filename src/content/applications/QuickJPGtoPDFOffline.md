@@ -1,5 +1,5 @@
 ---
-name: "Quick JPG to PDF(Offline)"
+name: "Quick JPG to PDF (Offline)"
 categories: ['business']
 compatibility: native
 display_result: "Compatible"

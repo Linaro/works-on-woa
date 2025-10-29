@@ -1,5 +1,5 @@
 ---
-name: "ModernFlyouts(preview)"
+name: "ModernFlyouts (Preview)"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

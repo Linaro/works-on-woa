@@ -1,5 +1,5 @@
 ---
-name: "NVC-Free any video converter"
+name: "NVC - Free Any Video Converter"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"

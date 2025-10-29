@@ -1,5 +1,5 @@
 ---
-name: "Aesthetic Themes"
+name: "Aesthetic Themes - Windows Desktop Customization"
 categories: ['personal']
 compatibility: emulation
 display_result: "Compatible"

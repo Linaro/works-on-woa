@@ -1,5 +1,5 @@
 ---
-name: "AAX converter pro"
+name: "AAX Converter Pro - Audible Converter, AAX to MP3"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "Text on Photos-word Quotes-TextArt"
+name: "Text on Photos - Word Quotes - TextArt"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

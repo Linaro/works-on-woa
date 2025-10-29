@@ -1,5 +1,5 @@
 ---
-name: "photo editor-pinnacle"
+name: "Photo Editor - Pinnacle"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

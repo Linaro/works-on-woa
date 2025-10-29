@@ -1,8 +1,8 @@
 ---
-name: "PDF Reader PDF Editor and PDF Converter"
+name: "Adore PDF Reader"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
-version_from: "1.1.15.0"
+version_from: "1.2.7.0"
 link: https://apps.microsoft.com/detail/9PKC983H4NCV
 ---
