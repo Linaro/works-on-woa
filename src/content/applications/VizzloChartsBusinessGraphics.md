@@ -1,5 +1,5 @@
 ---
-name: "Vizzlo-Charts & Business Graphics"
+name: "Vizzlo – Charts & Business Graphics"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

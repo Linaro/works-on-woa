@@ -1,5 +1,5 @@
 ---
-name: "video player-movie player"
+name: "Video Player - Movie Player"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

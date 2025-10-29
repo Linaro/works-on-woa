@@ -1,5 +1,5 @@
 ---
-name: "DVD Player-TrueDVD Streamer"
+name: "DVD player - TrueDVD Streamer"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

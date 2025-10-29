@@ -1,5 +1,5 @@
 ---
-name: "Logo Maker-AI Logo generator"
+name: "Logo Maker - AI Logo Generator"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

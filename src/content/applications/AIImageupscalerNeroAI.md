@@ -1,5 +1,5 @@
 ---
-name: "AI Image upscaler-NeroAI"
+name: "AI Image Upscaler - NeroAI"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

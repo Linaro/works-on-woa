@@ -1,5 +1,5 @@
 ---
-name: "PDF Converter Pro-Free"
+name: "PDF Converter Pro - Free"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

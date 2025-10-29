@@ -1,5 +1,5 @@
 ---
-name: "Ultracast Player - HD Video & Audio Player"
+name: "UltraCast Player – HD Video & Audio Player"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

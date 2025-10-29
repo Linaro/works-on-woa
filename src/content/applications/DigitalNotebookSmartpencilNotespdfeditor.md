@@ -1,5 +1,5 @@
 ---
-name: "Digital Notebook- Smart pencil Notes & pdf editor"
+name: "Digital Notebook — Smart Pencil Notes & PDF editor"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

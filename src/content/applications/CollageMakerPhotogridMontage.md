@@ -1,5 +1,5 @@
 ---
-name: "Collage Maker-Photo grid & Montage"
+name: "Collage Maker - Photo Grid & Montage"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

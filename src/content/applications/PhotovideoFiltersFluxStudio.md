@@ -1,5 +1,5 @@
 ---
-name: "Photo&video Filters-Flux Studio"
+name: "Photo & Video Filters - Flux Studio"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"
