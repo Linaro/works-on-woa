@@ -1,5 +1,5 @@
 ---
-name: "Disk Space Saver ."
+name: "Disk Space Saver ∙"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

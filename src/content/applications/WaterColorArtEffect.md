@@ -1,5 +1,5 @@
 ---
-name: "Water Color &Art Effect"
+name: "Water Color & Art Effect"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

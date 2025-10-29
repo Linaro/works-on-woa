@@ -1,5 +1,5 @@
 ---
-name: "Universal Music downloader"
+name: "Universal MusicDownloader"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

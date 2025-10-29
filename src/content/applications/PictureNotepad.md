@@ -1,5 +1,5 @@
 ---
-name: "Picture- Notepad"
+name: "Picture-Notepad"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"

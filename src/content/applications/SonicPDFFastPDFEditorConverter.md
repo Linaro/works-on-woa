@@ -1,5 +1,5 @@
 ---
-name: "Sonic PDF -Fast PDF Editor&Converter"
+name: "Sonic PDF - Fast PDF Editor & Converter"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "Background Remover +"
+name: "Background Remover+"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"

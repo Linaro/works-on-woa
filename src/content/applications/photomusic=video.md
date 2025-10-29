@@ -1,5 +1,5 @@
 ---
-name: "photo +music=video"
+name: "Photo + Music = Video"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

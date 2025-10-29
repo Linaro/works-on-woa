@@ -1,5 +1,5 @@
 ---
-name: "TAGE-Photo Tag"
+name: "TAGE - Photo Tag"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

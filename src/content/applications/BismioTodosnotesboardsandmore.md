@@ -1,5 +1,5 @@
 ---
-name: "Bismio-Todos, notes, boards and more"
+name: "Bismio – Todos, notes, boards and more"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

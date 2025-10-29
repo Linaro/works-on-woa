@@ -1,5 +1,5 @@
 ---
-name: "CAD+"
+name: "CAD·"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

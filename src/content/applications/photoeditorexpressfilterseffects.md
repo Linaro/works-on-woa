@@ -1,5 +1,5 @@
 ---
-name: "photo editor express-filters &effects"
+name: "Photo Editor Express - Filters & Effects"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"
