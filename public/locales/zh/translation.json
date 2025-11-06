@@ -25,7 +25,8 @@
     "help": "帮助",
     "takedown": "内容删除请求",
     "copyright": "所有产品名称、徽标、品牌、商标和注册商标均为其各自所有者的财产。数据的准确性不由 Linaro 保证。",
-	"games_count": "游戏"
+    "last_updated": "最后更新",
+  	"games_count": "游戏"
   },
   "search": {
     "search": "搜索",
