@@ -1,10 +1,28 @@
 ---
-import { getCollection } from "astro:content";
+
+import { getCollection, type CollectionEntry } from "astro:content";
+import { exec } from "node:child_process";
+import { promisify } from "node:util";
+
 import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getCurrentLocale, getFixedT } from "../../util/i18next";
 
+
+// Get the latest git commit date across all application files
+const execAsync = promisify(exec);
+let latestUpdate = null;
+try {
+  const { stdout } = await execAsync(
+    `git log -1 --pretty="format:%ci" -- src/content/applications/`
+  );
+  if (stdout) {
+    latestUpdate = new Date(stdout.trim());
+  }
+} catch (e) {
+  latestUpdate = null;
+}
 
 const { language } = Astro.props;
 const today = new Date();
@@ -90,6 +108,12 @@ const path = Astro.url.pathname;
       ))
     }
   </ul>
+
+
+  <p class="text-xs text-center">
+    {t('footer.last_updated')}
+    {latestUpdate ? `: ${latestUpdate.toLocaleDateString(locale, { year: 'numeric', month: 'short', day: 'numeric' })}` : ''}
+  </p>
 
   <p class="text-xs text-center">
     Copyright &copy;
