@@ -1,8 +1,8 @@
 ---
 
 import { getCollection, type CollectionEntry } from "astro:content";
-import { exec } from "node:child_process";
-import { promisify } from "node:util";
+
+import { getLastUpdated } from "../../util/lastUpdatedCache.js";
 
 import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
@@ -10,19 +10,9 @@ import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getCurrentLocale, getFixedT } from "../../util/i18next";
 
 
-// Get the latest git commit date across all application files
-const execAsync = promisify(exec);
-let latestUpdate = null;
-try {
-  const { stdout } = await execAsync(
-    `git log -1 --pretty="format:%ci" -- src/content/applications/`
-  );
-  if (stdout) {
-    latestUpdate = new Date(stdout.trim());
-  }
-} catch (e) {
-  latestUpdate = null;
-}
+
+// Use cached latest update date
+const latestUpdate = getLastUpdated();
 
 const { language } = Astro.props;
 const today = new Date();
