@@ -25,7 +25,8 @@
     "help": "도움말",
     "takedown": "콘텐츠 삭제 요청",
     "copyright": "모든 제품 이름, 로고, 브랜드, 상표 및 등록 상표는 해당 소유자의 재산입니다. 데이터의 정확성은 Linaro에 의해 보장되지 않습니다.",
-	"games_count": "게임"
+    "last_updated": "최종 업데이트",
+    "games_count": "게임"
   },
   "search": {
     "search": "검색",
