@@ -1,6 +1,6 @@
 ---
 name: "Cyberlink Power Director 365 - Video Editor, Movie Maker"
-categories: ['photo']
+categories: ['photo', 'creative']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "22.6"
