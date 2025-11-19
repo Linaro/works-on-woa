@@ -1,9 +1,9 @@
 ---
-name: "GDB"
+name: "GNU GDB"
 categories: ['dev-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "7.6.1"
-link: https://sourceforge.net/projects/mingw/
+link: https://sourceware.org/gdb/download/
 ---
 
