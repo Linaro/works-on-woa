@@ -1,6 +1,6 @@
 ---
 name: "星愿浏览器 (Twink star browser)"
-categories: ['web-social']
+categories: ['browsers']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "10.4.1000.250"
