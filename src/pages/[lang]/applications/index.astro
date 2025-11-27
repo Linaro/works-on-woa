@@ -40,11 +40,13 @@ const t = await getFixedT(locale);
   description={t('header.applications_desc')}
   breadcrumbs={[{ title: t('bradcrumbs.applications'), href: `/${locale}/applications` }]}
 >
-  <div class="flex mx-auto mx-auto mt-12 text-1x1">
-    <b>{t('application_display_result.Compatible')}: {compatApps.length}</b>
-  </div>
-  <div class="flex mx-auto mx-auto mt-1 text-1x1">
-    <b>{t('application_compatibility_values.native')}: {nativeApps.length}</b>
+  <div class="flex justify-center mx-auto mt-12">
+    <div class="px-6 py-3 text-white text-xl font-bold rounded-l-md text-center" style="background-color: #196B24; width: 332px;">
+      {t('application_home_page.Compatible')} {compatApps.length.toLocaleString(locale)}
+    </div>
+    <div class="px-6 py-3 text-white text-xl font-bold rounded-r-md text-center" style="background-color: #4EA72E; width: 332px;">
+      {t('application_home_page.Native')} {nativeApps.length.toLocaleString(locale)}
+    </div>
   </div>
   <div class="flex mx-auto mx-auto mt-1 text-3xl">
     <b>{t('applications.info')}</b>
