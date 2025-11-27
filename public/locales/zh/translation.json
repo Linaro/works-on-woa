@@ -36,7 +36,8 @@
     "no_information_end": "提交反馈请求，以便我们进行调查呢？"
   },
   "applications": {
-    "info": "以下是一些已测试的顶级应用。使用搜索栏搜索其他已测试的应用。",
+    "info": "",
+    "info2": "以下是一些已测试的顶级应用。使用搜索栏搜索其他已测试的应用。",
     "search_button": "搜索更多应用程序",
     "search_placeholder": "搜索应用程序",
     "search_instruction": "开始搜索，请输入搜索查询并按 Enter，或选择一个类别",
@@ -193,6 +194,10 @@
     "Vendor Announced - Launching Soon": "厂商已宣布 - 即将发布",
     "Unsupported": "不支持",
     "Unknown": "未知"
+  },
+  "application_home_page": {
+    "Compatible": "支持应用 ",
+    "Native": "Arm 原生 "
   },
   "game_filters": {
     "auto_sr": "自动SR",

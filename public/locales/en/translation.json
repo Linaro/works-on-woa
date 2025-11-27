@@ -36,7 +36,8 @@
 	"no_information_end": "for us to investigate."
   },
   "applications": {
-    "info": "Below are some of the top apps that have been tested. Use the search bar to search for other tested apps.",
+    "info": "",
+    "info2": "Below are some of the top apps that have been tested. Use the search bar to search for other tested apps.",
     "search_button": "Search for more applications",
     "search_placeholder": "Search for applications",
     "search_instruction": "To begin searching, enter a search query and press enter, or choose a category",
@@ -193,6 +194,10 @@
     "Vendor Announced - Launching Soon": "Vendor Announced - Launching Soon",
     "Unsupported": "Unsupported",
     "Unknown": "Unknown"
+  },
+  "application_home_page": {
+    "Compatible": "Compatible apps ",
+    "Native": "Arm native "
   },
   "game_filters": {
     "auto_sr": "Auto SR",

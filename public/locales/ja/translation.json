@@ -36,7 +36,8 @@
     "no_information_end": "からフィードバックリクエストを送信してください。"
   },
   "applications": {
-    "info": "以下はテスト済みのトップアプリの一部です。検索バーを使用して他のテスト済みアプリを検索してください。",
+    "info": "",
+    "info2": "以下はテスト済みのトップアプリの一部です。検索バーを使用して他のテスト済みアプリを検索してください。",
     "search_button": "他のアプリケーションを検索",
     "search_placeholder": "アプリケーションを検索",
     "search_instruction": "検索を開始するには、検索クエリを入力してEnterを押すか、カテゴリを選択してください",
@@ -193,6 +194,10 @@
     "Vendor Announced - Launching Soon": "ベンダー発表 - 近日公開予定",
     "Unsupported": "サポートされていない",
     "Unknown": "不明"
+  },
+  "application_home_page": {
+    "Compatible": "対応アプリ",
+    "Native": "Arm ネイティブ"
   },
   "game_filters": {
     "auto_sr": "自動SR",
