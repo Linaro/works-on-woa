@@ -18,6 +18,20 @@ const featuredApplications = await getCollection(
   }
 )
 
+const nativeApps = await getCollection(
+  "applications",
+  ({ data }: CollectionEntry<"applications">) => {
+    return data.compatibility === 'native';
+  }
+)
+
+const compatApps = await getCollection(
+  "applications",
+  ({ data }: CollectionEntry<"applications">) => {
+    return data.display_result === 'Compatible';
+  }
+)
+
 const locale = getCurrentLocale(Astro);
 const t = await getFixedT(locale);
 ---
