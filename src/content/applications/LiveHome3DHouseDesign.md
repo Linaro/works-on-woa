@@ -1,5 +1,5 @@
 ---
-name: "Live Home 3D -House Design"
+name: "Live Home 3D - House Design"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

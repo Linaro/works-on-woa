@@ -1,5 +1,5 @@
 ---
-name: "Xtreme Video player-Media player"
+name: "Xtreme Video Player - Media Player"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

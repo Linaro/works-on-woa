@@ -1,5 +1,5 @@
 ---
-name: "VB Audio Router-Preview"
+name: "VB Audio Router - Preview"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

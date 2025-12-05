@@ -1,5 +1,5 @@
 ---
-name: 希沃白板 (Seewo Whiteboard)"
+name: "希沃白板 (Seewo Whiteboard)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

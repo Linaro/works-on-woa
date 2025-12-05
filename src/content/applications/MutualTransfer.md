@@ -1,5 +1,5 @@
 ---
-name: 互传 (Mutual Transfer)"
+name: "互传 (Mutual Transfer)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

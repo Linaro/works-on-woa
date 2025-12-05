@@ -1,5 +1,5 @@
 ---
-name: 优酷 (Youku)"
+name: "优酷 (Youku)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

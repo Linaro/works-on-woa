@@ -1,5 +1,5 @@
 ---
-name: 恒星播放器 (Stellar Player)"
+name: "恒星播放器 (Stellar Player)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

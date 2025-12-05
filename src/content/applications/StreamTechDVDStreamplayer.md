@@ -1,5 +1,5 @@
 ---
-name: "StreamTech DVD-Stream player"
+name: "StreamTech DVD - Stream Player"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

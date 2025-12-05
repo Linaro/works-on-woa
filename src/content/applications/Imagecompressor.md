@@ -1,5 +1,5 @@
 ---
-name: "Image compressor +"
+name: "Image Compressor+"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"

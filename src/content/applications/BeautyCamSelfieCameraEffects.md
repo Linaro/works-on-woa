@@ -1,5 +1,5 @@
 ---
-name: "Beauty Cam-Selfie Camera Effects"
+name: "Beauty Cam- Selfie camera Effects"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

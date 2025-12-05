@@ -1,5 +1,5 @@
 ---
-name: "Passwords & Codes - Safe"
+name: "Passwords & Codes－Safe"
 categories: ['security']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "edjing PRO- Music DJ Mixer"
+name: "edjing PRO - Music DJ mixer"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

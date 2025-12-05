@@ -1,5 +1,5 @@
 ---
-name: "Cartoon Photo Filters-CoolArt"
+name: "Cartoon Photo Filters－CoolArt"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

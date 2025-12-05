@@ -1,5 +1,5 @@
 ---
-name: "video cutter- split, Trim and Merge videos"
+name: "Video Cutter - Split, Trim and Merge Videos"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

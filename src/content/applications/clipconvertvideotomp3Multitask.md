@@ -1,5 +1,5 @@
 ---
-name: "clipconvert: video to mp3 -Multitask"
+name: "ClipConvert: Video to MP3 - Multitask"
 categories: ['oss', 'dev-tools']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "PDF Convert Doc-PDF to doc or text"
+name: "PDF convert Doc - PDF to doc or text"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

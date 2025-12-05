@@ -1,5 +1,5 @@
 ---
-name: "Asteroids"
+name: "Asteroids™"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

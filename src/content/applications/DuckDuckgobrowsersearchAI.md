@@ -1,5 +1,5 @@
 ---
-name: "DuckDuckgo browser, search. AI"
+name: "DuckDuckGo Browser, Search, AI"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: WeLink"
+name: "WeLink"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

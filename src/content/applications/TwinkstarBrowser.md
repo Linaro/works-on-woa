@@ -1,6 +1,6 @@
 ---
 name: "Twinkstar Browser"
-categories: ['oss', 'dev-tools']
+categories: ['browsers']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "9.2.2000.2408"

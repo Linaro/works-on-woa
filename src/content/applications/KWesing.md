@@ -1,5 +1,5 @@
 ---
-name: 全民K歌 (Wesing)"
+name: "全民K歌 (Wesing)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

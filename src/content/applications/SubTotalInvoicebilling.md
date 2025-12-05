@@ -1,5 +1,5 @@
 ---
-name: "SubTotal :Invoice & billing"
+name: "SubTotal: Invoice & Billing"
 categories: ['business']
 compatibility: native
 display_result: "Compatible"

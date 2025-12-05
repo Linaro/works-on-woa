@@ -1,5 +1,5 @@
 ---
-name: "Sticker notes ++"
+name: "Sticker Notes++"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

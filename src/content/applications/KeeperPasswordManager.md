@@ -1,5 +1,5 @@
 ---
-name: "Keeper Password Manager"
+name: "Keeper® Password Manager"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

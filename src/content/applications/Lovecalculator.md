@@ -1,5 +1,5 @@
 ---
-name: "Love calculator+"
+name: "Love Calculator +"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

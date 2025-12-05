@@ -3,6 +3,6 @@ name: "UpNote"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"
-version_from: "1.0.8.0"
-link: https://apps.microsoft.com/detail/9NHMQDW7T3BZ
+version_from: "9.13.4.0"
+link: https://apps.microsoft.com/detail/9MV7690M8F5N
 ---

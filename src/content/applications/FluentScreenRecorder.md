@@ -1,5 +1,5 @@
 ---
-name: "Fluent Screen Recorder"
+name: "FluentScreenRecorder"
 categories: ['multimedia']
 compatibility: native
 display_result: "Compatible"

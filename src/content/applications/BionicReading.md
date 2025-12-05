@@ -1,5 +1,5 @@
 ---
-name: "Bionic Reading"
+name: "Bionic Reading®"
 categories: ['books']
 compatibility: emulation
 display_result: "Compatible"
