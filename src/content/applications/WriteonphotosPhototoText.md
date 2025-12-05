@@ -1,5 +1,5 @@
 ---
-name: "Write on photos-Photo to Text"
+name: "Write on Photos - Photo to Text"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,6 +1,6 @@
 ---
 name: "Windows Clock"
-categories: ['oss', 'dev-tools']
+categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "11.2411.2.0"

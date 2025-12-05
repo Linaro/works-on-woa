@@ -1,5 +1,5 @@
 ---
-name: "Sound-mp3-music player"
+name: "Sound - Mp3 - Music player"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "Love Calculator pro."
+name: "love Calculator pro."
 categories: ['books']
 compatibility: emulation
 display_result: "Compatible"

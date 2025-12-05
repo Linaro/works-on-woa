@@ -1,5 +1,5 @@
 ---
-name: "Typophoto-Text on Photo editor"
+name: "Typophoto - Text on Photo Editor"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

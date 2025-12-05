@@ -1,0 +1,8 @@
+---
+name: "Type to Voice Chat"
+categories: ['utils-tools']
+compatibility: native
+display_result: "Compatible"
+version_from: "1.1.11.0"
+link: https://apps.microsoft.com/detail/9NBLGGH40GQW
+---

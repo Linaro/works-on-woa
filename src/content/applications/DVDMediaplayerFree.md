@@ -1,5 +1,5 @@
 ---
-name: "DVD Media player-Free"
+name: "DVD Media Player - Free"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

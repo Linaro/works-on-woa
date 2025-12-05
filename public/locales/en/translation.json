@@ -25,6 +25,7 @@
     "help": "Help",
     "takedown": "Content takedown request",
     "copyright": "All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. Accuracy of the data is not guaranteed by Linaro.",
+    "last_updated": "Last updated",
 	"games_count": "games"
   },
   "search": {
@@ -35,7 +36,8 @@
 	"no_information_end": "for us to investigate."
   },
   "applications": {
-    "info": "Below are some of the top apps that have been tested. Use the search bar to search for other tested apps.",
+    "info": "",
+    "info2": "Below are some of the top apps that have been tested. Use the search bar to search for other tested apps.",
     "search_button": "Search for more applications",
     "search_placeholder": "Search for applications",
     "search_instruction": "To begin searching, enter a search query and press enter, or choose a category",
@@ -156,12 +158,15 @@
     "engineering": "Engineering",
     "enterprise": "Enterprise",
     "entertainment": "Entertainment",
+    "food-dining": "Food & Dining",
     "health": "Health & Fitness",
     "healthcare": "Healthcare",
     "it-sec-tools": "IT Security Tools",
     "it-tools-vdi": "IT Tools & VDI",
     "it": "IT Management",
+    "kids-family": "Kids & Family",
     "library": "Library",
+    "lifestyle": "Lifestyle",
     "multimedia": "Multimedia Design",
     "music": "Music",
     "nav": "Navigation & Maps",
@@ -189,6 +194,10 @@
     "Vendor Announced - Launching Soon": "Vendor Announced - Launching Soon",
     "Unsupported": "Unsupported",
     "Unknown": "Unknown"
+  },
+  "application_home_page": {
+    "Compatible": "Compatible apps ",
+    "Native": "Arm native "
   },
   "game_filters": {
     "auto_sr": "Auto SR",

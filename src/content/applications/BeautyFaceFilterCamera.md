@@ -1,5 +1,5 @@
 ---
-name: "Beauty Face& filter Camera"
+name: "Beauty Face & Filter Camera"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

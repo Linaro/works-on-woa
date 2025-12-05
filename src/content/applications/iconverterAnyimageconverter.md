@@ -1,5 +1,5 @@
 ---
-name: "iconverter- Any image converter"
+name: "iConverter - Any Image Converter"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"

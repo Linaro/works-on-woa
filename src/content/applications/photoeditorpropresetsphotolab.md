@@ -1,5 +1,5 @@
 ---
-name: "photo editor pro-presets & photo lab"
+name: "Photo Editor Pro - Presets & Photo Lab"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

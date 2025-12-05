@@ -1,5 +1,5 @@
 ---
-name: "PC-Video Editor&Movie Maker"
+name: "PC - Video Editor & Movie Maker"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

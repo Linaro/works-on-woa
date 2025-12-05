@@ -25,7 +25,8 @@
     "help": "帮助",
     "takedown": "内容删除请求",
     "copyright": "所有产品名称、徽标、品牌、商标和注册商标均为其各自所有者的财产。数据的准确性不由 Linaro 保证。",
-	"games_count": "游戏"
+    "last_updated": "最后更新",
+  	"games_count": "游戏"
   },
   "search": {
     "search": "搜索",
@@ -35,7 +36,8 @@
     "no_information_end": "提交反馈请求，以便我们进行调查呢？"
   },
   "applications": {
-    "info": "以下是一些已测试的顶级应用。使用搜索栏搜索其他已测试的应用。",
+    "info": "",
+    "info2": "以下是一些已测试的顶级应用。使用搜索栏搜索其他已测试的应用。",
     "search_button": "搜索更多应用程序",
     "search_placeholder": "搜索应用程序",
     "search_instruction": "开始搜索，请输入搜索查询并按 Enter，或选择一个类别",
@@ -126,6 +128,12 @@
   "application_filters": {
     "category": "类别"
   },
+  "application_compatibility_values": {
+    "native": "ネイティブ",
+    "emulation": "エミュレーション",
+    "no": "いいえ",
+    "unknown": "不明"
+  },
   "application_category_values": {
     "accessibility": "辅助功能",
     "ai-tool": "AI 工具",
@@ -150,12 +158,15 @@
     "engineering": "工程",
     "enterprise": "企业",
     "entertainment": "娱乐",
+    "food-dining": "美食与餐饮",
     "health": "健康与健身",
     "healthcare": "医疗",
     "it-sec-tools": "IT 安全工具",
     "it-tools-vdi": "IT 工具与VDI",
     "it": "IT 管理",
+    "kids-family": "亲子与家庭",
     "library": "图书馆",
+    "lifestyle": "生活方式",
     "multimedia": "多媒体设计",
     "music": "音乐",
     "nav": "导航与地图",
@@ -183,6 +194,10 @@
     "Vendor Announced - Launching Soon": "厂商已宣布 - 即将发布",
     "Unsupported": "不支持",
     "Unknown": "未知"
+  },
+  "application_home_page": {
+    "Compatible": "支持应用 ",
+    "Native": "Arm 原生 "
   },
   "game_filters": {
     "auto_sr": "自动SR",

@@ -25,7 +25,8 @@
     "help": "도움말",
     "takedown": "콘텐츠 삭제 요청",
     "copyright": "모든 제품 이름, 로고, 브랜드, 상표 및 등록 상표는 해당 소유자의 재산입니다. 데이터의 정확성은 Linaro에 의해 보장되지 않습니다.",
-	"games_count": "게임"
+    "last_updated": "최종 업데이트",
+    "games_count": "게임"
   },
   "search": {
     "search": "검색",
@@ -35,7 +36,8 @@
     "no_information_end": "에서 피드백 요청을 완료해 주세요."
   },
   "applications": {
-    "info": "아래는 테스트된 주요 앱 중 일부입니다. 검색창을 사용하여 테스트된 다른 앱을 검색합니다.",
+    "info": "",
+    "info2": "아래는 테스트된 주요 앱 중 일부입니다. 검색창을 사용하여 테스트된 다른 앱을 검색합니다.",
     "search_button": "더 많은 애플리케이션 검색",
     "search_placeholder": "애플리케이션 검색",
     "search_instruction": "검색 창에 검색어를 입력한 후 Enter를 누르거나, 카테고리를 선택하여 검색하세요.",
@@ -126,7 +128,13 @@
   "application_filters": {
     "category": "카테고리"
   },
-  "application_category_values": {
+  "application_compatibility_values": {
+    "native": "원주율",
+    "emulation": "에뮬레이션",
+    "no": "아니요",
+    "unknown": "알 수 없음"
+  },
+    "application_category_values": {
     "accessibility": "접근성",
     "ai-tool": "AI 도구",
     "ai": "AI 앱",
@@ -150,12 +158,15 @@
     "engineering": "엔지니어링",
     "enterprise": "엔터프라이즈",
     "entertainment": "엔터테인먼트",
+    "food-dining": "맛집 & 음식",
     "health": "건강 및 피트니스",
     "healthcare": "헬스케어",
     "it-sec-tools": "IT 보안 도구",
     "it-tools-vdi": "IT 도구 및 VDI",
     "it": "IT 관리",
+    "kids-family": "키즈 & 가족",
     "library": "라이브러리",
+    "lifestyle": "라이프스타일",
     "multimedia": "멀티미디어 디자인",
     "music": "음악",
     "nav": "내비게이션 및 지도",
@@ -183,6 +194,10 @@
     "Vendor Announced - Launching Soon": "공급업체 발표 - 곧 출시",
     "Unsupported": "지원되지 않음",
     "Unknown": "알 수 없음"
+  },
+  "application_home_page": {
+    "Compatible": "지원 앱 ",
+    "Native": "Arm 네이티브 "
   },
   "game_filters": {
     "auto_sr": "자동 SR",

@@ -1,5 +1,5 @@
 ---
-name: "Cartoon Sketch &Sketch camera"
+name: "Cartoon Sketch & Sketch Camera"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

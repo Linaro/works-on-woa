@@ -25,6 +25,7 @@
     "help": "ヘルプ",
     "takedown": "コンテンツ削除リクエスト",
     "copyright": "すべての製品名、ロゴ、ブランド、商標、登録商標はそれぞれの所有者に帰属します。データの正確性はLinaroによって保証されません。",
+    "last_updated": "最終更新",
     "games_count": "ゲーム"
   },
   "search": {
@@ -35,7 +36,8 @@
     "no_information_end": "からフィードバックリクエストを送信してください。"
   },
   "applications": {
-    "info": "以下はテスト済みのトップアプリの一部です。検索バーを使用して他のテスト済みアプリを検索してください。",
+    "info": "",
+    "info2": "以下はテスト済みのトップアプリの一部です。検索バーを使用して他のテスト済みアプリを検索してください。",
     "search_button": "他のアプリケーションを検索",
     "search_placeholder": "アプリケーションを検索",
     "search_instruction": "検索を開始するには、検索クエリを入力してEnterを押すか、カテゴリを選択してください",
@@ -126,6 +128,12 @@
   "application_filters": {
     "category": "カテゴリー"
   },
+  "application_compatibility_values": {
+    "native": "ネイティブ",
+    "emulation": "エミュレーション",
+    "no": "いいえ",
+    "unknown": "不明"
+  },
   "application_category_values": {
     "accessibility": "アクセシビリティ",
     "ai-tool": "AI ツール",
@@ -150,12 +158,15 @@
     "engineering": "エンジニアリング",
     "enterprise": "エンタープライズ",
     "entertainment": "エンターテインメント",
+    "food-dining": "グルメ・レストラン",
     "health": "健康とフィットネス",
     "healthcare": "ヘルスケア",
     "it-sec-tools": "IT セキュリティツール",
     "it-tools-vdi": "IT ツールとVDI",
     "it": "IT 管理",
+    "kids-family": "子ども・ファミリー",
     "library": "ライブラリ",
+    "lifestyle": "暮らし",
     "multimedia": "マルチメディアデザイン",
     "music": "音楽",
     "nav": "ナビゲーションと地図",
@@ -183,6 +194,10 @@
     "Vendor Announced - Launching Soon": "ベンダー発表 - 近日公開予定",
     "Unsupported": "サポートされていない",
     "Unknown": "不明"
+  },
+  "application_home_page": {
+    "Compatible": "対応アプリ",
+    "Native": "Arm ネイティブ"
   },
   "game_filters": {
     "auto_sr": "自動SR",
