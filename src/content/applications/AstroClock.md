@@ -1,8 +1,9 @@
----
+﻿---
 name: "AstroClock"
 categories: ['education']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.1.8.0"
 link: https://apps.microsoft.com/detail/9PGVJ6WJCXK9
+icon: AstroClock.png
 ---
