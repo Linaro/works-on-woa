@@ -1,10 +1,14 @@
 ---
+reporter: arbnknight
 name: "Magic: The Gathering Arena"
-categories: [unknown]
+categories: [cardandboard.md]
 publisher: Wizards of the Coast
-compatibility: perfect
+compatibility: playable
+compatibility_details: text on cards very pixelated, impossible to read unless you zoom into a card
+auto_super_resolution:
+      compatibility: yes, opt-in
 device_configuration: Surface Laptop (7th Edition)
-date_tested: 2024-03-25
-os_version: "26085.1"
-driver_id: 31.0.38.4
+date_tested: 2025-07-23
+os_version: "26100.4652"
+driver_id: 31.0.105.0
 ---
