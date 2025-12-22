@@ -1,5 +1,5 @@
-﻿---
-name: "SloMo Video Editor Slow Motion-Fast Motion"
+---
+name: "SloMo Video Editor Slow Motion - Fast Motion"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

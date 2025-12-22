@@ -1,5 +1,5 @@
 ---
-name: "X-VPN Best VPN proxy master"
+name: "X-VPN - Best VPN Proxy master"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

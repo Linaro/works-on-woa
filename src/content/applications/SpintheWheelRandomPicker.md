@@ -1,5 +1,5 @@
 ---
-name: "Spin the Wheel- Random Picker"
+name: "Spin The Wheel - Random Picker"
 categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
-﻿---
-name: "Sketch photo &video effects"
+---
+name: "Sketch photo & video effects"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

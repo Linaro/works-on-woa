@@ -1,5 +1,5 @@
-﻿---
-name: "Movie Producerand video Editor"
+---
+name: "Movie Producer and Video Editor"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

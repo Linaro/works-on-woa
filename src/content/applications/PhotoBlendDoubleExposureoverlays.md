@@ -1,5 +1,5 @@
-﻿---
-name: "Photo Blend-Double Exposure overlays"
+---
+name: "Photo Blend - Double Exposure Overlays"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

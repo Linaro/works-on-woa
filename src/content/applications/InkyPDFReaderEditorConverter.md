@@ -1,5 +1,5 @@
-﻿---
-name: "Inky-PDF Reader& Editor& Converter"
+---
+name: "Inky - PDF Reader & Editor & Converter"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

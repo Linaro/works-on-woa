@@ -1,5 +1,5 @@
-﻿---
-name: "Video Collage-Photo Grid Maker"
+---
+name: "Video Collage - Photo Grid Maker"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

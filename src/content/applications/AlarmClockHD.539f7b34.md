@@ -1,5 +1,5 @@
-﻿---
-name: "Alaram clock HD+"
+---
+name: "Alarm Clock HD +"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

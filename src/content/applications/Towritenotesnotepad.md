@@ -1,5 +1,5 @@
-﻿---
-name: "To write (notes,notepad)"
+---
+name: "To write (notes, notepad)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

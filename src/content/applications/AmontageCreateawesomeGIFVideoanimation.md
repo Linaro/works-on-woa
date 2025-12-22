@@ -1,5 +1,5 @@
-﻿---
-name: "Amontage |Create awesome GIF & Video animation"
+---
+name: "AMontage | Create awesome GIF & Video animation"
 categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "3d live wallpaper+"
+name: "3D Live wallpaper +"
 categories: ['personal']
 compatibility: emulation
 display_result: "Compatible"

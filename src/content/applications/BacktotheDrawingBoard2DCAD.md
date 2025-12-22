@@ -1,5 +1,5 @@
-﻿---
-name: "Back to the Drawing Board-2D CAD"
+---
+name: "Back to the Drawing Board - 2D CAD"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
