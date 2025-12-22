@@ -1,5 +1,5 @@
-﻿---
-name: "Quick Calming Meditations Pack3"
+---
+name: "Quick Calming Meditations pack 3"
 categories: ['health']
 compatibility: native
 display_result: "Compatible"

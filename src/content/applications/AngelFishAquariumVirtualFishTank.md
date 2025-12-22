@@ -1,5 +1,5 @@
-﻿---
-name: "AngelFish Aquarium-Virtual Fish Tank"
+---
+name: "AngelFish Aquarium - Virtual Fish Tank"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

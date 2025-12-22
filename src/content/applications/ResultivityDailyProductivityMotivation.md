@@ -1,5 +1,5 @@
-﻿---
-name: "Resultivity-Daily Productivity Motivation"
+---
+name: "Resultivity - Daily Productivity Motivation"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
-﻿---
-name: "Word Swag- Cool Fonts"
+---
+name: "Word Swag-Cool Fonts"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

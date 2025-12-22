@@ -1,5 +1,5 @@
-﻿---
-name: "Health - Science"
+---
+name: "Health-Science"
 categories: ['health']
 compatibility: emulation
 display_result: "Compatible"

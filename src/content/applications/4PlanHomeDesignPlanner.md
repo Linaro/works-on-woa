@@ -1,5 +1,5 @@
 ﻿---
-name: "4Plan-Home Design Planner"
+name: "4Plan - Home Design Planner"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

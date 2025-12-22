@@ -1,5 +1,5 @@
-﻿---
-name: "Playerjet- Video Player"
+---
+name: "PlayerJet - Video Player"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

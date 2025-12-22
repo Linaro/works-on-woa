@@ -1,5 +1,5 @@
-﻿---
-name: "Pixlr X-Quick and easy Graphic Design"
+---
+name: "Pixlr X - Quick and Easy Graphic Design"
 categories: ['creative']
 compatibility: native
 display_result: "Compatible"

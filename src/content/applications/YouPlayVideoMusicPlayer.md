@@ -1,5 +1,5 @@
-﻿---
-name: "YouPlay-Video & Music Player"
+---
+name: "YouPlay - Video & Music Player"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

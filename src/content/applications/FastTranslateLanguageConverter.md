@@ -1,5 +1,5 @@
-﻿---
-name: "Fast Translate -Language Converter"
+---
+name: "Fast Translate - Language Converter"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

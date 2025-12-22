@@ -1,5 +1,5 @@
-﻿---
-name: "Media Locker: Hide Pictures & Videos"
+---
+name: "Media Locker:Hide Pictures & Videos"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
