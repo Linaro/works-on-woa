@@ -1,4 +1,4 @@
----
+﻿---
 name: "Blue Mail - Email & Calendar"
 categories: ['prod']
 compatibility: emulation

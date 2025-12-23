@@ -1,4 +1,4 @@
----
+﻿---
 name: "PDF Combiner v2 - Secure PDF merging application"
 categories: ['business']
 compatibility: emulation

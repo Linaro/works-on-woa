@@ -1,4 +1,4 @@
----
+﻿---
 name: "Movie Producer and Video Editor"
 categories: ['photo']
 compatibility: emulation

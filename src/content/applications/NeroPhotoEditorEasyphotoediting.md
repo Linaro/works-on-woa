@@ -1,4 +1,4 @@
----
+﻿---
 name: "Nero Photo Editor - Easy photo editing"
 categories: ['photo']
 compatibility: emulation

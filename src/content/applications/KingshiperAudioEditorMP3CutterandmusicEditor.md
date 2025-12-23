@@ -1,4 +1,4 @@
----
+﻿---
 name: "Kingshiper Audio Editor - MP3 Cutter and Music Editor"
 categories: ['music']
 compatibility: emulation

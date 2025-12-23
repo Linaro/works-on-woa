@@ -1,4 +1,4 @@
----
+﻿---
 name: "PanaForma - Easy PDF Data Extraction"
 categories: ['prod']
 compatibility: emulation

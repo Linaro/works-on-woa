@@ -1,4 +1,4 @@
----
+﻿---
 name: "Sketch photo & video effects"
 categories: ['photo']
 compatibility: emulation

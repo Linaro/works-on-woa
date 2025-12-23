@@ -1,4 +1,4 @@
----
+﻿---
 name: "Fashionista Sketchbook - Clothes illustrations"
 categories: ['creative']
 compatibility: emulation

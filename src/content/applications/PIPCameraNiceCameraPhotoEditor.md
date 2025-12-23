@@ -1,4 +1,4 @@
----
+﻿---
 name: "PIP Camera -Nice Camera & Photo Editor"
 categories: ['photo']
 compatibility: emulation

@@ -1,4 +1,4 @@
----
+﻿---
 name: "Note - Notepad"
 categories: ['utils-tools']
 compatibility: emulation

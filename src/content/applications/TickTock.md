@@ -1,4 +1,4 @@
----
+﻿---
 name: "Tick-Tock"
 categories: ['utils-tools']
 compatibility: emulation

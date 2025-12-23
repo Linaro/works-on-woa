@@ -1,4 +1,4 @@
----
+﻿---
 name: "YTube - 4K Video Downloader"
 categories: ['prod']
 compatibility: emulation

@@ -1,4 +1,4 @@
----
+﻿---
 name: "Alarm Clock HD +"
 categories: ['prod']
 compatibility: emulation

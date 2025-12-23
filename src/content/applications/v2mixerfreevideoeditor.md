@@ -1,4 +1,4 @@
----
+﻿---
 name: "v2mixer - free video editor"
 categories: ['creative']
 compatibility: emulation

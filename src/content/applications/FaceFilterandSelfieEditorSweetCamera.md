@@ -1,4 +1,4 @@
----
+﻿---
 name: "Face Filter and Selfie Editor - Sweet Camera"
 categories: ['photo']
 compatibility: emulation

@@ -1,4 +1,4 @@
----
+﻿---
 name: "QuickNote Whiteboard - PDF Annotate"
 categories: ['prod']
 compatibility: native

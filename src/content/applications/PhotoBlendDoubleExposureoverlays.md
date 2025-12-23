@@ -1,4 +1,4 @@
----
+﻿---
 name: "Photo Blend - Double Exposure Overlays"
 categories: ['entertainment']
 compatibility: emulation

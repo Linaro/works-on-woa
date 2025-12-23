@@ -1,4 +1,4 @@
----
+﻿---
 name: "Fast Translate - Language Converter"
 categories: ['business']
 compatibility: emulation

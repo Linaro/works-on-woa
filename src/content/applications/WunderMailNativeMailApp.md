@@ -1,4 +1,4 @@
----
+﻿---
 name: "WunderMail - Native Mail App"
 categories: ['prod']
 compatibility: emulation

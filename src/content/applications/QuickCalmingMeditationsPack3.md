@@ -1,4 +1,4 @@
----
+﻿---
 name: "Quick Calming Meditations pack 3"
 categories: ['health']
 compatibility: native

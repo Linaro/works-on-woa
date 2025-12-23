@@ -1,4 +1,4 @@
----
+﻿---
 name: "Invitation Maker, Card Design - Video Invitation"
 categories: ['photo']
 compatibility: emulation

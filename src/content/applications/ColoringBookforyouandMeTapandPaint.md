@@ -1,4 +1,4 @@
----
+﻿---
 name: "Coloring Book for You and Me - Tap and Paint"
 categories: ['photo']
 compatibility: emulation

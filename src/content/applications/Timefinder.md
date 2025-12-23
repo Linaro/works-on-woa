@@ -1,4 +1,4 @@
----
+﻿---
 name: "TimeFinder"
 categories: ['prod']
 compatibility: emulation

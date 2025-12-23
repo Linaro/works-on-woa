@@ -1,4 +1,4 @@
----
+﻿---
 name: "Sketchbook Painter: Drawing Lessons"
 categories: ['prod']
 compatibility: emulation

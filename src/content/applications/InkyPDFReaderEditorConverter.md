@@ -1,4 +1,4 @@
----
+﻿---
 name: "Inky - PDF Reader & Editor & Converter"
 categories: ['prod']
 compatibility: native

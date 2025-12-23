@@ -1,4 +1,4 @@
----
+﻿---
 name: "Telleport - Best Free VPN"
 categories: ['security']
 compatibility: emulation

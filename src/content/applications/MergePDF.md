@@ -1,4 +1,4 @@
----
+﻿---
 name: "Merge PDF+"
 categories: ['utils-tools']
 compatibility: emulation

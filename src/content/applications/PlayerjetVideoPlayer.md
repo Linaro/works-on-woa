@@ -1,4 +1,4 @@
----
+﻿---
 name: "PlayerJet - Video Player"
 categories: ['entertainment']
 compatibility: emulation

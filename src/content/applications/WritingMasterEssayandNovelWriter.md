@@ -1,4 +1,4 @@
----
+﻿---
 name: "Writing Master - Essay and Novel Writer"
 categories: ['prod']
 compatibility: emulation

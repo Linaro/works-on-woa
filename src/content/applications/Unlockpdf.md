@@ -1,4 +1,4 @@
----
+﻿---
 name: "UnlockPdf"
 categories: ['utils-tools']
 compatibility: emulation

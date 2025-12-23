@@ -1,4 +1,4 @@
----
+﻿---
 name: "AngelFish Aquarium - Virtual Fish Tank"
 categories: ['entertainment']
 compatibility: emulation

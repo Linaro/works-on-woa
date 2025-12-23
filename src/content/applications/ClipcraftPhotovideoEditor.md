@@ -1,4 +1,4 @@
----
+﻿---
 name: "ClipCraft - Photo & Video Editor"
 categories: ['photo']
 compatibility: emulation

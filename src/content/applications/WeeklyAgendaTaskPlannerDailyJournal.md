@@ -1,4 +1,4 @@
----
+﻿---
 name: "Weekly Agenda - Task Planner & Daily Journal"
 categories: ['prod']
 compatibility: emulation

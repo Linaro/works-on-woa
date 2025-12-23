@@ -1,4 +1,4 @@
----
+﻿---
 name: "Writing Assistant - Professional Text Editor"
 categories: ['prod']
 compatibility: emulation

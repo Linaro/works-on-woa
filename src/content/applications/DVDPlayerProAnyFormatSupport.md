@@ -1,4 +1,4 @@
----
+﻿---
 name: "DVD Player Pro - Any Format Support"
 categories: ['entertainment']
 compatibility: emulation

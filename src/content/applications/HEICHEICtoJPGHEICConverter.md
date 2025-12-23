@@ -1,4 +1,4 @@
----
+﻿---
 name: "HEIC. HEIC to JPG, HEIC Converter"
 categories: ['photo']
 compatibility: emulation

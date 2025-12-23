@@ -1,4 +1,4 @@
----
+﻿---
 name: "Fill, Sign & Edit PDF: e Signature"
 categories: ['prod']
 compatibility: native

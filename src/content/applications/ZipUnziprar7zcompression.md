@@ -1,4 +1,4 @@
----
+﻿---
 name: "Zip Unzip - rar,&7z compression"
 categories: ['utils-tools']
 compatibility: emulation

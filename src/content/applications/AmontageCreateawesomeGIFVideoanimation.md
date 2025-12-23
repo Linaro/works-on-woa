@@ -1,4 +1,4 @@
----
+﻿---
 name: "AMontage | Create awesome GIF & Video animation"
 categories: ['entertainment']
 compatibility: native

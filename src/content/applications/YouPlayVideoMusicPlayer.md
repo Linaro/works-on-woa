@@ -1,4 +1,4 @@
----
+﻿---
 name: "YouPlay - Video & Music Player"
 categories: ['entertainment']
 compatibility: emulation

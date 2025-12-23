@@ -1,4 +1,4 @@
----
+﻿---
 name: "Touch Pic Retoucher - AI Photo Editor & Image Upscaler"
 categories: ['photo']
 compatibility: emulation

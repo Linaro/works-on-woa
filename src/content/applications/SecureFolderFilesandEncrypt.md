@@ -1,4 +1,4 @@
----
+﻿---
 name: "Secure Folder, Files and Encrypt"
 categories: ['security']
 compatibility: emulation

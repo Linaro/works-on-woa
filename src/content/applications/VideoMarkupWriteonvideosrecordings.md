@@ -1,4 +1,4 @@
----
+﻿---
 name: "VideoMarkup - Write on videos & recordings"
 categories: ['multimedia']
 compatibility: native

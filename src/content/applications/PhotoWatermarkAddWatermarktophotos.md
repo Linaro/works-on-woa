@@ -1,4 +1,4 @@
----
+﻿---
 name: "Photo Watermark - Add Watermark to Photos"
 categories: ['photo']
 compatibility: emulation

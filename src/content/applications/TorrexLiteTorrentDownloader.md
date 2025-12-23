@@ -1,4 +1,4 @@
----
+﻿---
 name: "Torrex Lite - Torrent Downloader"
 categories: ['utils-tools']
 compatibility: native

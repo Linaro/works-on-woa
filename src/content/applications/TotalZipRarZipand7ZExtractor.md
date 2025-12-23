@@ -1,4 +1,4 @@
----
+﻿---
 name: "Total Zip: Rar, Zip and 7Z Extractor"
 categories: ['utils-tools']
 compatibility: emulation

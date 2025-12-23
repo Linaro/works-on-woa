@@ -1,4 +1,4 @@
----
+﻿---
 name: "My Sketchbook - Draw & Paint Game"
 categories: ['creative']
 compatibility: emulation

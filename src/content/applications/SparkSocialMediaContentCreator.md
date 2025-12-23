@@ -1,4 +1,4 @@
----
+﻿---
 name: "Spark - Social Media Content Creator"
 categories: ['photo']
 compatibility: emulation

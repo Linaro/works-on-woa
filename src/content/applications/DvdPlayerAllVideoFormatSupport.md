@@ -1,4 +1,4 @@
----
+﻿---
 name: "DVD Player - All Video Format Support"
 categories: ['entertainment']
 compatibility: emulation

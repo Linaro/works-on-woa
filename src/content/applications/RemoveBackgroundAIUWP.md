@@ -1,4 +1,4 @@
----
+﻿---
 name: "Remove Background-AI (UWP)"
 categories: ['multimedia']
 compatibility: emulation

@@ -1,4 +1,4 @@
----
+﻿---
 name: "Textro: Animated Text Video"
 categories: ['photo']
 compatibility: emulation

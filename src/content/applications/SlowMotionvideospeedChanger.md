@@ -1,4 +1,4 @@
----
+﻿---
 name: "Slow Motion - Video Speed Changer"
 categories: ['photo']
 compatibility: emulation

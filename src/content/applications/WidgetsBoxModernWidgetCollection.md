@@ -1,4 +1,4 @@
----
+﻿---
 name: "Widgets Box - Modern Widget Collection"
 categories: ['personal']
 compatibility: emulation

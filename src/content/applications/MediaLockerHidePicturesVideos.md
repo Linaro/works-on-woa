@@ -1,4 +1,4 @@
----
+﻿---
 name: "Media Locker:Hide Pictures & Videos"
 categories: ['prod']
 compatibility: emulation

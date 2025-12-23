@@ -1,4 +1,4 @@
----
+﻿---
 name: "Resultivity - Daily Productivity Motivation"
 categories: ['prod']
 compatibility: emulation

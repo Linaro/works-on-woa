@@ -1,4 +1,4 @@
----
+﻿---
 name: "Anime wallpaper +"
 categories: ['personal']
 compatibility: emulation

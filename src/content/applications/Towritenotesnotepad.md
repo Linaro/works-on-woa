@@ -1,4 +1,4 @@
----
+﻿---
 name: "To write (notes, notepad)"
 categories: ['prod']
 compatibility: emulation

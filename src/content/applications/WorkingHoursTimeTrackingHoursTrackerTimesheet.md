@@ -1,4 +1,4 @@
----
+﻿---
 name: "WorkingHours: Time Tracking, Hours Tracker, Timesheet"
 categories: ['prod']
 compatibility: native
