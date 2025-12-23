@@ -1,5 +1,5 @@
 ﻿---
-name: "Nero Photo Editor-Easy photo editing"
+name: "Nero Photo Editor - Easy photo editing"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "PanaForma-Easy PDF Data Extraction"
+name: "PanaForma - Easy PDF Data Extraction"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

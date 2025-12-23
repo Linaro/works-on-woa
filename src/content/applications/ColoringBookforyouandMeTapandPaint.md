@@ -1,5 +1,5 @@
 ﻿---
-name: "Coloring Book for you and Me-Tap and Paint"
+name: "Coloring Book for You and Me - Tap and Paint"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

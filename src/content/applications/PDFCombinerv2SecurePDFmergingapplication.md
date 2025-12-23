@@ -1,5 +1,5 @@
 ﻿---
-name: "PDF Combiner v2-Secure PDF merging application"
+name: "PDF Combiner v2 - Secure PDF merging application"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

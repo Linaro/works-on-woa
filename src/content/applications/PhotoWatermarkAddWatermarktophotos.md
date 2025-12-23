@@ -1,5 +1,5 @@
 ﻿---
-name: "Photo Watermark -Add Watermark to photos"
+name: "Photo Watermark - Add Watermark to Photos"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

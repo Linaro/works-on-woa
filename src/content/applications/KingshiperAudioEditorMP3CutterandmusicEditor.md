@@ -1,5 +1,5 @@
 ﻿---
-name: "Kingshiper Audio Editor-MP3 Cutter and music Editor"
+name: "Kingshiper Audio Editor - MP3 Cutter and Music Editor"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

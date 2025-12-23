@@ -1,5 +1,5 @@
 ﻿---
-name: "v2mixer-free video editor"
+name: "v2mixer - free video editor"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

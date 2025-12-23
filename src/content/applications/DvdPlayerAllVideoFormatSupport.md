@@ -1,5 +1,5 @@
 ﻿---
-name: "Dvd Player-All Video Format Support"
+name: "DVD Player - All Video Format Support"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

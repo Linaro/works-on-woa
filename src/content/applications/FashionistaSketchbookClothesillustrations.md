@@ -1,5 +1,5 @@
 ﻿---
-name: "Fashionista Sketchbook-Clothes illustrations"
+name: "Fashionista Sketchbook - Clothes illustrations"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

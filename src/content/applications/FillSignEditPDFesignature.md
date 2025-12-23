@@ -1,5 +1,5 @@
 ﻿---
-name: "Fill,Sign & Edit PDF: e signature"
+name: "Fill, Sign & Edit PDF: e Signature"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

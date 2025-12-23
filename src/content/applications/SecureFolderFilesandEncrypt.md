@@ -1,5 +1,5 @@
 ﻿---
-name: "Secure Folder,Files and Encrypt"
+name: "Secure Folder, Files and Encrypt"
 categories: ['security']
 compatibility: emulation
 display_result: "Compatible"

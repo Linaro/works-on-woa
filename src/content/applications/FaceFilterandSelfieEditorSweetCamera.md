@@ -1,5 +1,5 @@
 ﻿---
-name: "Face Filter and Selfie Editor-Sweet Camera"
+name: "Face Filter and Selfie Editor - Sweet Camera"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

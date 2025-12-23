@@ -1,5 +1,5 @@
 ﻿---
-name: "LED' S App"
+name: "LED's App!"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

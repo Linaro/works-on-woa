@@ -1,5 +1,5 @@
 ﻿---
-name: "HEIC.HEIC to JPG,HEIC Converter"
+name: "HEIC. HEIC to JPG, HEIC Converter"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

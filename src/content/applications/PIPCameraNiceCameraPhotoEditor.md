@@ -1,5 +1,5 @@
 ﻿---
-name: "PIP Camera-Nice Camera & Photo Editor"
+name: "PIP Camera -Nice Camera & Photo Editor"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

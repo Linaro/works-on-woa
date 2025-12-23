@@ -1,5 +1,5 @@
 ﻿---
-name: "Time finder"
+name: "TimeFinder"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

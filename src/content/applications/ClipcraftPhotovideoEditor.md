@@ -1,5 +1,5 @@
 ﻿---
-name: "Clipcraft- Photo & video Editor"
+name: "ClipCraft - Photo & Video Editor"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

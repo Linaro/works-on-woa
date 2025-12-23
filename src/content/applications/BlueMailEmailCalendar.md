@@ -1,5 +1,5 @@
 ﻿---
-name: "Blue Mail-Email & Calendar"
+name: "Blue Mail - Email & Calendar"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,6 +1,6 @@
 ﻿---
-name: "Unlock pdf"
-categories: ['oss', 'dev-tools']
+name: "UnlockPdf"
+categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "v1.1.3"

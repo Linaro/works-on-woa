@@ -1,5 +1,5 @@
 ﻿---
-name: "Remove Background - AI (UWP)"
+name: "Remove Background-AI (UWP)"
 categories: ['multimedia']
 compatibility: emulation
 display_result: "Compatible"

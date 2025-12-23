@@ -1,5 +1,5 @@
 ﻿---
-name: "DVD Player Pro-Any Format Support"
+name: "DVD Player Pro - Any Format Support"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "Anime Wallpaper+"
+name: "Anime wallpaper +"
 categories: ['personal']
 compatibility: emulation
 display_result: "Compatible"

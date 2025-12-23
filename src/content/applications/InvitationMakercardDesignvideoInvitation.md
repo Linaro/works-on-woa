@@ -1,5 +1,5 @@
 ﻿---
-name: "Invitation Maker, card Design -video Invitation"
+name: "Invitation Maker, Card Design - Video Invitation"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "QuickNote Whiteboard-PDF Annotate"
+name: "QuickNote Whiteboard - PDF Annotate"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

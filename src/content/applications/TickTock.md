@@ -1,6 +1,6 @@
 ﻿---
-name: "Tick - Tock"
-categories: ['oss', 'dev-tools']
+name: "Tick-Tock"
+categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.1.0.3"

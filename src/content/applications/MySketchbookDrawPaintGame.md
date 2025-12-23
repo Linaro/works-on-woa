@@ -1,5 +1,5 @@
 ﻿---
-name: "My Sketchbook-Draw & Paint Game"
+name: "My Sketchbook - Draw & Paint Game"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

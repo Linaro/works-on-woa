@@ -1,5 +1,5 @@
 ﻿---
-name: "Telleport-Best Free VPN"
+name: "Telleport - Best Free VPN"
 categories: ['security']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "NIV Bible(New International Version)"
+name: "NIV Bible (New International Version)"
 categories: ['books']
 compatibility: emulation
 display_result: "Compatible"

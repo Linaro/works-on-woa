@@ -1,5 +1,5 @@
 ﻿---
-name: "Notebook-Notes & Todo"
+name: "Notebook - Notes & To-Do"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
