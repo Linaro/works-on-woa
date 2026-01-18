@@ -1,8 +1,8 @@
 ---
 name: "Celeste"
-categories: [unknown]
-compatibility: unplayable
-device_configuration: Surface Laptop (7th Edition)
-date_tested: 2023-11-01
-os_version: "0.0"
+categories: [platformer]
+compatibility: perfect
+device_configuration: Radxa Dragon Q6A (QCS6490 SoC | Adreno 643 GPU)
+date_tested: 2026-01-18
+os_version: "26200.7623"
 ---
