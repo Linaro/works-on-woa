@@ -4,6 +4,7 @@ categories: [unknown]
 publisher: Focus Entertainment
 compatibility: playable
 device_configuration: Dell XPS13 Snapdragon X Elite
-os_version: 26100.4652
-date_tested: 2025/05/09
+os_version: "26100.4652"
+date_tested: 2025-05-09
+driver_id: 31.0.105.0
 ---
