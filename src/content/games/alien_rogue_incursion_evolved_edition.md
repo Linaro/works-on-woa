@@ -1,6 +1,6 @@
 ---
 name: "Alien Rogue Incursion: Evolved Edition"
-categories: [unkown]
+categories: [unknown]
 publisher: Survios
 compatibility: playable
 device_configuration: Dell XPS13 Snapdragon X Elite
