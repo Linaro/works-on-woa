@@ -1,0 +1,9 @@
+﻿---
+name: "DJ2 Task List"
+categories: ['prod']
+compatibility: emulation
+display_result: "Compatible"
+version_from: "1.1.0.0"
+link: https://apps.microsoft.com/detail/9NRGWJMP4G3G
+icon: DJ2TaskList.png
+---

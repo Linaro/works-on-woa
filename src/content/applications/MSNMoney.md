@@ -1,8 +1,9 @@
----
+﻿---
 name: "MSN Money"
-categories: ['personalfin']
+categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"
-version_from: "4.53.63386.0"
-link: https://apps.microsoft.com/detail/9WZDNCRFHV4V
+version_from: "4.53.51973.0"
+link: https://apps.microsoft.com/detail/9wzdncrfhv4v
+icon: MSNMoney.png
 ---

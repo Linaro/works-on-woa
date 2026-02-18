@@ -1,0 +1,9 @@
+﻿---
+name: "(Pass)Word Generator"
+categories: ['security']
+compatibility: emulation
+display_result: "Compatible"
+version_from: "1.2.31.0"
+link: https://apps.microsoft.com/detail/9NBLGGH4WTCZ
+icon: PassWordGenerator.png
+---

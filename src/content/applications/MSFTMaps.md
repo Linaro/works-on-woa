@@ -1,6 +1,6 @@
 ---
 name: "Microsoft Maps"
-categories: ['utils-tools']
+categories: ['nav']
 compatibility: native
 display_result: "Compatible"
 version_from: "11.2308.3.0"

@@ -1,0 +1,9 @@
+﻿---
+name: "Christian Orthodox Calendar"
+categories: ['books']
+compatibility: emulation
+display_result: "Compatible"
+version_from: "1.1.14.0"
+link: https://apps.microsoft.com/detail/9N41TPNFWBQD
+icon: ChristianOrthodoxCalendar.png
+---
