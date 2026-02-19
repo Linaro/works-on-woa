@@ -1,8 +1,8 @@
 ---
 name: "Jupyter Notebook"
 categories: ['dev-tools']
-compatibility: native
+compatibility: emulation
 display_result: "Compatible"
 version_from: "7.4.3"
-link: https://jupyter.org/install
+link: https://jupyter-notebook.readthedocs.io
 ---
