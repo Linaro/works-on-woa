@@ -1,5 +1,5 @@
 ﻿---
-name: "Spark-Social Media Content Creator"
+name: "Spark - Social Media Content Creator"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: "HEIC to JPEG -Lite Edition"
+name: "HEIC to JPEG - Lite Edition"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"

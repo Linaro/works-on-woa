@@ -1,5 +1,5 @@
 ﻿---
-name: "Photo Wall-Photo Mixer: pic stitch & frames"
+name: "Photo Wall - Photo Mixer: pic stitch & frames"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,8 +1,9 @@
----
+﻿---
 name: "Color Picker - Pick Any Pixel"
 categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.0.2.0"
 link: https://apps.microsoft.com/detail/9N6H9RPH4BS4
+icon: ColorPickerPickAnyPixel.png
 ---

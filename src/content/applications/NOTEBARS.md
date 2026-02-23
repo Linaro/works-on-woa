@@ -1,8 +1,9 @@
----
+﻿---
 name: "NOTEBARS"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "4.1.0.0"
 link: https://apps.microsoft.com/detail/9NQZ7L1SGR0R
+icon: NOTEBARS.png
 ---
