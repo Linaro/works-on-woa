@@ -1,5 +1,5 @@
 ---
-name: 东方财富证券交易 (Eastmoney)"
+name: "东方财富证券交易 (Eastmoney)"
 categories: ['personalfin']
 compatibility: emulation
 display_result: "Compatible"

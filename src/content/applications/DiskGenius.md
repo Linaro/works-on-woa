@@ -1,5 +1,5 @@
 ---
-name: DiskGenius"
+name: "DiskGenius"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

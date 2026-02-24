@@ -1,5 +1,5 @@
 ---
-name: 微信输入法 (Wechat IME)"
+name: "微信输入法 (Wechat IME)"
 categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"

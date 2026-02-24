@@ -1,5 +1,5 @@
 ---
-name: 2345安全卫士 (2345 Security Guards)"
+name: "2345安全卫士 (2345 Security Guards)"
 categories: ['anti-virus']
 compatibility: emulation
 display_result: "Compatible"

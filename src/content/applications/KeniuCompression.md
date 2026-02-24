@@ -1,5 +1,5 @@
 ---
-name: 可牛压缩 (Keniu Compression)"
+name: "可牛压缩 (Keniu Compression)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

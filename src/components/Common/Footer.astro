@@ -1,10 +1,18 @@
 ---
-import { getCollection } from "astro:content";
+
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import { getLastUpdated } from "../../util/lastUpdatedCache.js";
+
 import { Image } from "astro:assets";
 import LinaroLogo from "../../assets/powered-by-linaro.svg";
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getCurrentLocale, getFixedT } from "../../util/i18next";
 
+
+
+// Use cached latest update date
+const latestUpdate = getLastUpdated();
 
 const { language } = Astro.props;
 const today = new Date();
@@ -90,6 +98,12 @@ const path = Astro.url.pathname;
       ))
     }
   </ul>
+
+
+  <p class="text-xs text-center">
+    {t('footer.last_updated')}
+    {latestUpdate ? `: ${latestUpdate.toLocaleDateString(locale, { year: 'numeric', month: 'short', day: 'numeric' })}` : ''}
+  </p>
 
   <p class="text-xs text-center">
     Copyright &copy;

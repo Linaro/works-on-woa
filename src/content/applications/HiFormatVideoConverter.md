@@ -1,5 +1,5 @@
 ---
-name: 嗨格式视频转换器 (HiFormat Video Converter)"
+name: "嗨格式视频转换器 (HiFormat Video Converter)"
 categories: ['creative']
 compatibility: native
 display_result: "Compatible"

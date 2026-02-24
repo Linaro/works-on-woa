@@ -1,5 +1,5 @@
 ---
-name: 喜马拉雅 (Himalaya)"
+name: "喜马拉雅 (Himalaya)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

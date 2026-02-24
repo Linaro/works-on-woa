@@ -1,5 +1,5 @@
 ---
-name: 学而思培优 (Speiyou)"
+name: "学而思培优 (Speiyou)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

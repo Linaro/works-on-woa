@@ -1,5 +1,5 @@
 ---
-name: 金山PDF (Kingsoft PDF)"
+name: "金山PDF (Kingsoft PDF)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

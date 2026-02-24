@@ -1,5 +1,5 @@
 ---
-name: 小智双核浏览器 (Xiao Zhi Dual-Core Browser)"
+name: "小智双核浏览器 (Xiao Zhi Dual-Core Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

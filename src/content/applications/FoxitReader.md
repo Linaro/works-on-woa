@@ -1,5 +1,5 @@
 ---
-name: 福昕阅读器 (Foxit Reader)"
+name: "福昕阅读器 (Foxit Reader)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

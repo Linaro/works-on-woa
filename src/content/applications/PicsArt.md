@@ -1,10 +1,8 @@
 ---
-name: "Picsart Photo Editor"
-categories: ['creative','photo']
+name: "PicsArt"
+categories: ['creative']
 compatibility: native
 display_result: "Compatible"
 version_from: "10.19.2.0"
-link: https://apps.microsoft.com/detail/9wzdncrfj10m
-icon: Picsart.png
+link: https://picsart.com/gold
 ---
-

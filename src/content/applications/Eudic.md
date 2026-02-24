@@ -1,5 +1,5 @@
 ---
-name: 欧路词典 (Eudic)"
+name: "欧路词典 (Eudic)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

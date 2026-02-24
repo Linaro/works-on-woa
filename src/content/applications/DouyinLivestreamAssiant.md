@@ -1,5 +1,5 @@
 ---
-name: 直播伴侣 (Douyin Livestream Assiant)"
+name: "直播伴侣 (Douyin Livestream Assiant)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

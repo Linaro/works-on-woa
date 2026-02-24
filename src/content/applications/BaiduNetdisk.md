@@ -1,5 +1,5 @@
 ---
-name: 百度网盘 (Baidu Netdisk)"
+name: "百度网盘 (Baidu Netdisk)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

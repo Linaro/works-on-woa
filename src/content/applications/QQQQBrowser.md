@@ -1,5 +1,5 @@
 ---
-name: QQ浏览器 (QQ Browser)"
+name: "QQ浏览器 (QQ Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: Navicat Premium"
+name: "Navicat Premium"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

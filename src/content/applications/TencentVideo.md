@@ -1,5 +1,5 @@
 ---
-name: 腾讯视频 (Tencent Video)"
+name: "腾讯视频 (Tencent Video)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

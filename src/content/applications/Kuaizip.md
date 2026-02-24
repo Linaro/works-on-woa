@@ -1,5 +1,5 @@
 ---
-name: 快压 (Kuaizip)"
+name: "快压 (Kuaizip)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

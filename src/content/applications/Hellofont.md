@@ -1,5 +1,5 @@
 ---
-name: 字由字体 (Hellofont)"
+name: "字由字体 (Hellofont)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

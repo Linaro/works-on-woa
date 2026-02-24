@@ -1,5 +1,5 @@
 ---
-name: 哔哩哔哩 (Bilibili)"
+name: "哔哩哔哩 (Bilibili)"
 categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"

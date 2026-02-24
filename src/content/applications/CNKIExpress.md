@@ -1,5 +1,5 @@
 ---
-name: 全球学术快报 (CNKI Express)"
+name: "全球学术快报 (CNKI Express)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

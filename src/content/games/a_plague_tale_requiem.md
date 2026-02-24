@@ -2,8 +2,9 @@
 name: "A Plague Tale: Requiem"
 categories: [unknown]
 publisher: Focus Entertainment
-compatibility: unplayable
-device_configuration: Snapdragon X Elite - 32 GB
-date_tested: 2023-11-01
-os_version: "0.0"
+compatibility: playable
+device_configuration: HP Omnibook Snapdragon X Elite
+date_tested: 2025-07-10
+os_version: "26100.6584"
+driver_id: 31.0.121.0
 ---

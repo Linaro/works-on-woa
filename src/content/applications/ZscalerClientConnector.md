@@ -4,7 +4,7 @@ categories: ['vpn']
 compatibility: native
 display_result: "Compatible"
 version_from: "4.0"
-link: https://help.zscaler.com/client-connector/understanding-zscaler-client-connector-app-downloads
+link: https://www.zscaler.com/products-and-solutions/zscaler-client-connector
 icon: ZscalerClientConnector.svg
 ---
 

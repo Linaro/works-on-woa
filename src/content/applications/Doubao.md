@@ -1,5 +1,5 @@
 ---
-name: 豆包 (Doubao)"
+name: "豆包 (Doubao)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

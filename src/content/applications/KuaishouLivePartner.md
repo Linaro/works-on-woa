@@ -1,5 +1,5 @@
 ---
-name: 快手直播伴侣 (Kuaishou Live Partner)"
+name: "快手直播伴侣 (Kuaishou Live Partner)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

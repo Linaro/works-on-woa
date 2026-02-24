@@ -1,5 +1,5 @@
 ---
-name: 企业微信 (WeCom)"
+name: "企业微信 (WeCom)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 极光PDF (Aurora PDF)"
+name: "极光PDF (Aurora PDF)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

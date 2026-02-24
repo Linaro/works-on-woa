@@ -1,5 +1,5 @@
 ---
-name: 夸克网盘 (Quark Netdisk)"
+name: "夸克网盘 (Quark Netdisk)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

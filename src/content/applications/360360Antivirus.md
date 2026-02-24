@@ -1,5 +1,5 @@
 ---
-name: 360杀毒 (360 Antivirus)"
+name: "360杀毒 (360 Antivirus)"
 categories: ['anti-virus']
 compatibility: emulation
 display_result: "Compatible"

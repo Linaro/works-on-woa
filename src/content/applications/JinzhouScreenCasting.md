@@ -1,5 +1,5 @@
 ---
-name: 金舟投屏 (Jinzhou Screen Casting)"
+name: "金舟投屏 (Jinzhou Screen Casting)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

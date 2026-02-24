@@ -1,5 +1,5 @@
 ---
-name: 华为浏览器 (Huawei Browser)"
+name: "华为浏览器 (Huawei Browser)"
 categories: ['web-social']
 compatibility: native
 display_result: "Compatible"

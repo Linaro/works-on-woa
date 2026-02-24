@@ -1,5 +1,5 @@
 ---
-name: ClassIN在线教室 (ClassIN Online Classroom)"
+name: "ClassIN在线教室 (ClassIN Online Classroom)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

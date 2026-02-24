@@ -1,5 +1,5 @@
 ---
-name: 汽水音乐 (Qishui Music)"
+name: "汽水音乐 (Qishui Music)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

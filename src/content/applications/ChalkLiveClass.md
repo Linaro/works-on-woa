@@ -1,5 +1,5 @@
 ---
-name: 粉笔直播课 (Chalk Live Class)"
+name: "粉笔直播课 (Chalk Live Class)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

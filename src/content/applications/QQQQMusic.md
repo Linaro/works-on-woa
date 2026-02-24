@@ -1,5 +1,5 @@
 ---
-name: QQ音乐 (QQ Music)"
+name: "QQ音乐 (QQ Music)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

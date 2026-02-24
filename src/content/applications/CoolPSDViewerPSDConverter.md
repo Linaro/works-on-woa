@@ -1,5 +1,5 @@
 ---
-name: "Cool PSD Viewer-PSD Converter"
+name: "Cool PSD Viewer - PSD Converter"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

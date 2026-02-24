@@ -1,5 +1,5 @@
 ---
-name: KOOK"
+name: "KOOK"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

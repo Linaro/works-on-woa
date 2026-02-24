@@ -1,5 +1,5 @@
 ---
-name: 紫鸟浏览器 (Super Browser)"
+name: "紫鸟浏览器 (Super Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

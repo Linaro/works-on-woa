@@ -1,5 +1,5 @@
 ---
-name: 知网研学 (CNKI Scholar)"
+name: "知网研学 (CNKI Scholar)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

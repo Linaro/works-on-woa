@@ -1,5 +1,5 @@
 ---
-name: 博思AiPPT (PPTGO)"
+name: "博思AiPPT (PPTGO)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 猿编程 (YBC Code)"
+name: "猿编程 (YBC Code)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

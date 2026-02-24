@@ -1,5 +1,5 @@
 ---
-name: QQ NT"
+name: "QQ NT"
 categories: ['web-social']
 compatibility: native
 display_result: "Compatible"

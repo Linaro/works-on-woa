@@ -1,5 +1,5 @@
 ---
-name: 飞书 (Feishu)"
+name: "飞书 (Feishu)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

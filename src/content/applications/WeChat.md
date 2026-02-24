@@ -1,5 +1,5 @@
 ---
-name: 微信 (WeChat)"
+name: "微信 (WeChat)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

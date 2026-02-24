@@ -1,5 +1,5 @@
 ---
-name: 猎豹浏览器 (Cheetah Secure Browser)"
+name: "猎豹浏览器 (Cheetah Secure Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

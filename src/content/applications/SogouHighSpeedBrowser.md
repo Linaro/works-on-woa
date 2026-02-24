@@ -1,5 +1,5 @@
 ---
-name: 搜狗高速浏览器 (Sogou High-Speed Browser)"
+name: "搜狗高速浏览器 (Sogou High-Speed Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

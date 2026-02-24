@@ -1,8 +1,9 @@
----
-name: "Love calculator Pro"
+﻿---
+name: "love Calculator pro."
 categories: ['books']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.1.0.0"
 link: https://apps.microsoft.com/detail/9N8XH81BHNFQ
+icon: Lovecalculatorpro.png
 ---

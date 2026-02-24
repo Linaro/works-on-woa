@@ -1,5 +1,5 @@
 ---
-name: "PhotoMind-Free photo editor & photo paint"
+name: "PhotoMind - FREE Photo Editor & Photo Paint"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

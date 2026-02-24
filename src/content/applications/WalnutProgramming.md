@@ -1,5 +1,5 @@
 ---
-name: 核桃编程 (Walnut Programming)"
+name: "核桃编程 (Walnut Programming)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

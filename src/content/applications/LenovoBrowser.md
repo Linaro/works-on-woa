@@ -1,5 +1,5 @@
 ---
-name: 联想浏览器 (Lenovo Browser)"
+name: "联想浏览器 (Lenovo Browser)"
 categories: ['web-social']
 compatibility: native
 display_result: "Compatible"

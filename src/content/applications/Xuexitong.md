@@ -1,5 +1,5 @@
 ---
-name: 学习通 (Xuexitong)"
+name: "学习通 (Xuexitong)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

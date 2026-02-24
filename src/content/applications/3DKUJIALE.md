@@ -1,5 +1,5 @@
 ---
-name: 酷家乐3D设计 (KUJIALE)"
+name: "酷家乐3D设计 (KUJIALE)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"

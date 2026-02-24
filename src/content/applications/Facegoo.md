@@ -1,5 +1,5 @@
 ---
-name: "Face goo"
+name: "FaceGoo"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

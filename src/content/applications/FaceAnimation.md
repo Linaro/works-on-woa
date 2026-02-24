@@ -1,8 +1,9 @@
----
+﻿---
 name: "Face Animation+"
 categories: ['photo']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.0.1.0"
 link: https://apps.microsoft.com/detail/9PK8K8ZBCTSX
+icon: FaceAnimation.png
 ---

@@ -1,5 +1,5 @@
 ---
-name: 腾讯文档 (Tencent Documents)"
+name: "腾讯文档 (Tencent Documents)"
 categories: ['prod']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 字体管家iFonts (iFonts)"
+name: "字体管家iFonts (iFonts)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

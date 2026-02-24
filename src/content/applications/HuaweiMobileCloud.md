@@ -1,5 +1,5 @@
 ---
-name: 华为云空间 (Huawei Mobile Cloud)"
+name: "华为云空间 (Huawei Mobile Cloud)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

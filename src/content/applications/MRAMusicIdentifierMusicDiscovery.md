@@ -1,0 +1,9 @@
+﻿---
+name: "MRA - Music Identifier - Music Discovery"
+categories: ['music']
+compatibility: emulation
+display_result: "Compatible"
+version_from: "1.0.31"
+link: https://apps.microsoft.com/detail/XP8BSVRXS65HH1
+icon: MRAMusicIdentifierMusicDiscovery.png
+---

@@ -1,5 +1,5 @@
 ---
-name: 阿里云盘 (aDrive)"
+name: "阿里云盘 (aDrive)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

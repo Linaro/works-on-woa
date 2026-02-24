@@ -1,5 +1,5 @@
 ---
-name: 360安全浏览器 (360 Safe Browser)"
+name: "360安全浏览器 (360 Safe Browser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

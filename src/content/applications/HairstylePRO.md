@@ -1,0 +1,9 @@
+﻿---
+name: "Hairstyle PRO"
+categories: ['lifestyle']
+compatibility: emulation
+display_result: "Compatible"
+version_from: "1.0.1"
+link: https://apps.microsoft.com/detail/9WZDNCRFJCTH
+icon: HairstylePRO.png
+---

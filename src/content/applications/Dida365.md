@@ -1,5 +1,5 @@
 ---
-name: 滴答清单 (Dida 365)"
+name: "滴答清单 (Dida 365)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

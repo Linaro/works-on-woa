@@ -1,5 +1,5 @@
 ---
-name: 爱奇艺万能联播 (iQIYI Universal Player)"
+name: "爱奇艺万能联播 (iQIYI Universal Player)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

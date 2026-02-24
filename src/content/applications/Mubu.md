@@ -1,5 +1,5 @@
 ---
-name: 幕布 (Mubu)"
+name: "幕布 (Mubu)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 火绒安全 (Huorong Security)"
+name: "火绒安全 (Huorong Security)"
 categories: ['anti-virus']
 compatibility: native
 display_result: "Compatible"

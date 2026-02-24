@@ -1,8 +1,9 @@
----
+﻿---
 name: "Pdf to JPG - Converter PRO"
 categories: ['oss', 'dev-tools']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "1.0.1.0"
 link: https://apps.microsoft.com/detail/9NSZ5B5VZ0N5
+icon: PdftoJPGConverterPRO.png
 ---

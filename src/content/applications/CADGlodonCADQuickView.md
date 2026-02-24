@@ -1,5 +1,5 @@
 ---
-name: CAD快速看图 (Glodon CAD Quick View)"
+name: "CAD快速看图 (Glodon CAD Quick View)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"

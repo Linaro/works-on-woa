@@ -1,5 +1,5 @@
 ---
-name: 坚果云 (Nutstore)"
+name: "坚果云 (Nutstore)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

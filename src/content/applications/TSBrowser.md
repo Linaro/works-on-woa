@@ -1,5 +1,5 @@
 ---
-name: 极速浏览器 (TSBrowser)"
+name: "极速浏览器 (TSBrowser)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

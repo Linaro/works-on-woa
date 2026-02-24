@@ -1,6 +1,6 @@
 ---
 name: "DameWare"
-categories: ['it']
+categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "12.3.0.2"

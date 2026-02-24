@@ -1,5 +1,5 @@
 ---
-name: BitDock"
+name: "BitDock"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

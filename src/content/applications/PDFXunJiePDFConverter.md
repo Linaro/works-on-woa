@@ -1,5 +1,5 @@
 ---
-name: 迅捷PDF转换器 (XunJie PDF Converter)"
+name: "迅捷PDF转换器 (XunJie PDF Converter)"
 categories: ['creative']
 compatibility: native
 display_result: "Compatible"

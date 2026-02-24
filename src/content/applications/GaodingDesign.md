@@ -1,5 +1,5 @@
 ---
-name: 稿定设计 (Gaoding Design)"
+name: "稿定设计 (Gaoding Design)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

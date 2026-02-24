@@ -1,5 +1,5 @@
 ---
-name: 腾讯微云 (Tencent Cloud Drive)"
+name: "腾讯微云 (Tencent Cloud Drive)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

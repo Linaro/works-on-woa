@@ -1,5 +1,5 @@
 ---
-name: 腾讯火狐 (Tencent Foxmail)"
+name: "腾讯火狐 (Tencent Foxmail)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

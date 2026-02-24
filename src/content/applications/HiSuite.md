@@ -1,5 +1,5 @@
 ---
-name: 华为手机助手 (HiSuite)"
+name: "华为手机助手 (HiSuite)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

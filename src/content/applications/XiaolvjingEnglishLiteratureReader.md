@@ -1,5 +1,5 @@
 ---
-name: 小绿鲸英文文献阅读器 (Xiaolvjing English Literature Reader)"
+name: "小绿鲸英文文献阅读器 (Xiaolvjing English Literature Reader)"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

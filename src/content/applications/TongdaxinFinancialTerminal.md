@@ -1,5 +1,5 @@
 ---
-name: 通达信金融终端 (Tongdaxin Financial Terminal)"
+name: "通达信金融终端 (Tongdaxin Financial Terminal)"
 categories: ['personalfin']
 compatibility: emulation
 display_result: "Compatible"

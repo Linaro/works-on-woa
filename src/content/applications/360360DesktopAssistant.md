@@ -1,5 +1,5 @@
 ---
-name: 360桌面助手 (360 Desktop Assistant)"
+name: "360桌面助手 (360 Desktop Assistant)"
 categories: ['it-tools-vdi']
 compatibility: emulation
 display_result: "Compatible"

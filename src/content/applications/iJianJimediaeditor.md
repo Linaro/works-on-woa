@@ -1,5 +1,5 @@
 ---
-name: 爱剪辑 (iJianJi media editor)"
+name: "爱剪辑 (iJianJi media editor)"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

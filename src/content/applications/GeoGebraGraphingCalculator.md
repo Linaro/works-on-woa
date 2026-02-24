@@ -4,6 +4,5 @@ categories: ['education']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "6.0.840"
-link: https://apps.microsoft.com/detail/9pnpzkcmvhlf
+link: https://geogebra.github.io/docs/reference/en/GeoGebra_Installation/
 ---
-

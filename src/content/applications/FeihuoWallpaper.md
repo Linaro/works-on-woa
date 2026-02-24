@@ -1,5 +1,5 @@
 ---
-name: 飞火动态壁纸 (Feihuo Wallpaper)"
+name: "飞火动态壁纸 (Feihuo Wallpaper)"
 categories: ['it-tools-vdi']
 compatibility: native
 display_result: "Compatible"

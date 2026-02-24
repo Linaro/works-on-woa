@@ -1,5 +1,5 @@
 ---
-name: 360安全卫士 (360 Security Guards)"
+name: "360安全卫士 (360 Security Guards)"
 categories: ['anti-virus']
 compatibility: emulation
 display_result: "Compatible"

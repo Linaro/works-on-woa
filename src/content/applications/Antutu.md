@@ -1,5 +1,5 @@
 ---
-name: 安兔兔 (Antutu)"
+name: "安兔兔 (Antutu)"
 categories: ['it-tools-vdi']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ---
-name: 爱奇艺 (iQIYI)"
+name: "爱奇艺 (iQIYI)"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

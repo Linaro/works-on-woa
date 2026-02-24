@@ -1,5 +1,5 @@
 ---
-name: 浩辰CAD看图王 (GstarCAD Viewer)"
+name: "浩辰CAD看图王 (GstarCAD Viewer)"
 categories: ['engineering']
 compatibility: emulation
 display_result: "Compatible"

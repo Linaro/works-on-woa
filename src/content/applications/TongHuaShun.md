@@ -1,5 +1,5 @@
 ---
-name: 同花顺远航版股票软件 (Tong Hua Shun)"
+name: "同花顺远航版股票软件 (Tong Hua Shun)"
 categories: ['personalfin']
 compatibility: native
 display_result: "Compatible"

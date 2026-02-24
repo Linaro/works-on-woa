@@ -1,5 +1,5 @@
 ---
-name: 智慧中小学 (basic smartedu)"
+name: "智慧中小学 (basic smartedu)"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

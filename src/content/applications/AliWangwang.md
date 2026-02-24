@@ -1,5 +1,5 @@
 ---
-name: 阿里旺旺 (Ali Wangwang)"
+name: "阿里旺旺 (Ali Wangwang)"
 categories: ['web-social']
 compatibility: emulation
 display_result: "Compatible"

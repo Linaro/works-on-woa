@@ -1,5 +1,5 @@
 ---
-name: 抖音 (Douyin)"
+name: "抖音 (Douyin)"
 categories: ['entertainment']
 compatibility: native
 display_result: "Compatible"
