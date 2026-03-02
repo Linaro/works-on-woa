@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Search, Upload, LayoutGrid } from "lucide-react";
@@ -23,6 +23,11 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
   const [isFocused, setIsFocused] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const blurTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  // Sync query when defaultValue changes (e.g. URL search param update)
+  useEffect(() => {
+    setQuery(defaultValue ?? "");
+  }, [defaultValue]);
 
   const handleSubmit = useCallback(
     (e: React.FormEvent) => {
@@ -64,7 +69,6 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
 
   const handleDropdownSelect = useCallback(() => {
     setShowDropdown(false);
-    setQuery("");
   }, []);
 
   return (
