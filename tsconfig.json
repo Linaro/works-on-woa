@@ -1,8 +1,7 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "compilerOptions": {
-    "strictNullChecks": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js"
-  }
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }

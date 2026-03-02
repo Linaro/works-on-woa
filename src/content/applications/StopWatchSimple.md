@@ -1,9 +1,0 @@
-﻿---
-name: "StopWatch : Simple"
-categories: ['utils-tools']
-compatibility: emulation
-display_result: "Compatible"
-version_from: "1.0.0.0"
-link: https://apps.microsoft.com/detail/9N0K25NCNF53
-icon: StopWatchSimple.png
----

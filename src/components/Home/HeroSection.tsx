@@ -1,0 +1,65 @@
+import { useTranslation } from "react-i18next";
+import { Container } from "@/components/Common/Container";
+import { SearchBar } from "@/components/Common/SearchBar";
+import { GradientText } from "@/components/Common/GradientText";
+import { ScrollReveal } from "@/components/Common/ScrollReveal";
+
+export function HeroSection() {
+  const { t } = useTranslation();
+
+  return (
+    <section className="relative overflow-hidden bg-[var(--color-bg-primary)]">
+      {/* Background glow */}
+      <div
+        className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2"
+        style={{
+          width: "600px",
+          height: "600px",
+          background:
+            "radial-gradient(circle, rgba(0,120,212,0.08) 0%, transparent 70%)",
+          animation: "pulse 4s ease-in-out infinite",
+        }}
+      />
+
+      <Container className="relative flex flex-col items-center pb-12 pt-24 text-center md:pt-32">
+        <ScrollReveal>
+          <GradientText
+            as="h1"
+            className="text-5xl font-bold leading-[1.05] md:text-[90px]"
+          >
+            {t("hero.title")}
+          </GradientText>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.1}>
+          <p className="mt-4 max-w-xl text-lg text-[var(--color-text-secondary)] md:text-2xl md:font-normal">
+            {t("hero.subtitle")}
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.2}>
+          <div className="mt-3 flex items-center gap-2.5 text-[15px] text-[var(--color-text-tertiary)]">
+            <span>{t("hero.supportedBy")}</span>
+            <img
+              src="/microsoft-logo.png"
+              alt="Microsoft"
+              className="h-5 w-auto"
+            />
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.3} className="mt-10 w-full max-w-[640px]">
+          <SearchBar />
+        </ScrollReveal>
+      </Container>
+
+      {/* Pulse animation */}
+      <style>{`
+        @keyframes pulse {
+          0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+          50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+        }
+      `}</style>
+    </section>
+  );
+}

@@ -1,0 +1,205 @@
+{
+  "nav": {
+    "apps": "アプリ",
+    "games": "ゲーム",
+    "faq": "よくある質問",
+    "learn": "学ぶ",
+    "gettingStarted": "はじめに",
+    "prism": "Prism",
+    "windowsOnArm": "Windows on ARM",
+    "publishers": "パブリッシャー"
+  },
+  "hero": {
+    "title": "WindowsはARMで動作します",
+    "subtitle": "最も強力で効率的なPCへ、安心して移行しましょう。",
+    "supportedBy": "提供：",
+    "searchPlaceholder": "アプリ、ゲーム、またはファイルを検索"
+  },
+  "popularApps": {
+    "title": "人気のアプリケーション",
+    "subtitle": "WindowsはARM上で5,000以上の人気アプリをサポートしています",
+    "seeAll": "すべてのWindowsアプリを見る",
+    "columns": {
+      "name": "名前",
+      "compatibility": "互換性",
+      "type": "タイプ",
+      "developer": "開発者",
+      "category": "カテゴリ",
+      "validation": "検証",
+      "updated": "更新日"
+    }
+  },
+  "microsoftApps": {
+    "title": "MicrosoftアプリはARMで動作します",
+    "subtitle": "超高速のファーストパーティアプリケーション。100%検証済み。",
+    "categories": {
+      "productivity": "生産性",
+      "communication": "コミュニケーション",
+      "creativity": "クリエイティビティ",
+      "exploration": "エクスプロレーション",
+      "itManagement": "IT管理"
+    }
+  },
+  "resources": {
+    "title": "リソース",
+    "subtitle": "Windows on ARMでの構築、展開、成功に必要なすべて。",
+    "gettingStarted": {
+      "category": "ガイド",
+      "title": "Windows on ARMを始める",
+      "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。",
+      "link": "詳細を見る"
+    },
+    "prism": {
+      "category": "テクノロジー",
+      "title": "Prismによるx86/x64エミュレーション",
+      "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。",
+      "link": "詳細を見る"
+    },
+    "windowsOnArm": {
+      "category": "プラットフォーム",
+      "title": "Windows 11 — ARM向けに設計",
+      "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。",
+      "link": "詳細を見る"
+    }
+  },
+  "faq": {
+    "title": "ご質問は？",
+    "subtitle": "アプリの互換性とWindows on ARMに関するよくある質問への回答をご覧ください。",
+    "contactSales": "営業に問い合わせる",
+    "items": [
+      {
+        "question": "アプリがWindows on ARMと互換性があるかどうかを確認するにはどうすればよいですか？",
+        "answer": "ホームページの検索バーを使用するか、アプリセクションを参照して互換性を確認してください。各アプリには互換性ステータスがタグ付けされています。"
+      },
+      {
+        "question": "Prismとは何ですか？x86エミュレーションはどのように動作しますか？",
+        "answer": "Prismは、x86およびx64アプリケーションをARMプロセッサ上で実行できるようにするMicrosoftの組み込み変換技術です。"
+      },
+      {
+        "question": "「ネイティブ」と「エミュレーション」の違いは何ですか？",
+        "answer": "ネイティブアプリはARMプロセッサ向けに特別に構築されており、フルパフォーマンスで動作します。エミュレーションアプリはPrism変換を通じて動作します。"
+      },
+      {
+        "question": "アプリの互換性の問題を報告するにはどうすればよいですか？",
+        "answer": "GitHubリポジトリを通じて互換性の問題を報告できます。フッターの「問題を報告する」をクリックしてください。"
+      },
+      {
+        "question": "どのMicrosoftアプリがARM上で完全にネイティブですか？",
+        "answer": "Word、Excel、PowerPoint、Outlook、Teams、Edge、Visual Studio Codeなど、ほとんどのMicrosoft 365アプリはARM上で完全にネイティブです。"
+      },
+      {
+        "question": "Windows on ARMでx64アプリケーションを実行できますか？",
+        "answer": "はい！Windows on ARMはPrismを通じてx64アプリケーションのエミュレーションをサポートしています。"
+      }
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "title": "最新情報を受け取る",
+      "subtitle": "Windows on ARMアプリの互換性に関する最新情報をお届けします。",
+      "placeholder": "メールアドレスを入力",
+      "subscribe": "購読"
+    },
+    "columns": {
+      "product": {
+        "title": "製品",
+        "apps": "アプリ",
+        "games": "ゲーム",
+        "publishers": "パブリッシャー"
+      },
+      "learn": {
+        "title": "学ぶ",
+        "gettingStarted": "はじめに",
+        "prism": "Prism",
+        "windowsOnArm": "Windows on ARM",
+        "faq": "よくある質問"
+      },
+      "community": {
+        "title": "コミュニティ",
+        "github": "GitHub",
+        "reportIssue": "問題を報告する",
+        "contribute": "貢献する"
+      },
+      "microsoft": {
+        "title": "Microsoft",
+        "website": "Microsoft.com",
+        "privacy": "プライバシー",
+        "terms": "利用規約"
+      }
+    },
+    "copyright": "© 2026 Microsoft. All rights reserved.",
+    "legal": {
+      "privacy": "プライバシー",
+      "terms": "利用規約",
+      "cookies": "Cookie"
+    }
+  },
+  "common": {
+    "native": "ネイティブ",
+    "emulation": "エミュレーション",
+    "unknown": "不明",
+    "yes": "はい",
+    "no": "いいえ",
+    "na": "—",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "noResults": "結果が見つかりません",
+    "backToHome": "ホームに戻る"
+  },
+  "filters": {
+    "category": "カテゴリ",
+    "developer": "開発者",
+    "compatibility": "互換性",
+    "type": "タイプ",
+    "clearAll": "すべてクリア"
+  },
+  "appDetail": {
+    "compatibility": "互換性",
+    "emulationType": "エミュレーションタイプ",
+    "publisher": "パブリッシャー",
+    "category": "カテゴリ",
+    "version": "バージョン",
+    "lastUpdated": "最終更新日",
+    "validation": "検証",
+    "visitWebsite": "ウェブサイトを訪問",
+    "getThisApp": "このアプリを入手",
+    "backToApps": "アプリに戻る",
+    "backToGames": "ゲームに戻る"
+  },
+  "learn": {
+    "title": "学ぶ",
+    "subtitle": "Windows on ARM技術、開発のベストプラクティス、プラットフォーム機能について深く学びましょう。"
+  },
+  "gettingStarted": {
+    "title": "Windows on ARMを始める",
+    "subtitle": "ARM向けの開発を始めるために必要なすべて。"
+  },
+  "prismPage": {
+    "title": "Prism変換技術",
+    "subtitle": "Windows on ARMでのx86/x64エミュレーションの仕組み。"
+  },
+  "windowsOnArmPage": {
+    "title": "Windows 11 on ARM",
+    "subtitle": "ARM搭載デバイスでの完全なWindows体験。"
+  },
+  "validation": {
+    "microsoft": "Microsoft検証済み",
+    "qualcomm": "Qualcomm検証済み",
+    "developer": "開発者検証済み",
+    "community": "コミュニティ検証済み",
+    "unverified": "未検証"
+  },
+  "publishers": {
+    "title": "パブリッシャー",
+    "subtitle": "Windows on ARMのアプリとゲームの全パブリッシャーを閲覧。",
+    "columns": {
+      "name": "パブリッシャー",
+      "apps": "アプリ",
+      "games": "ゲーム",
+      "total": "合計"
+    },
+    "notFound": "お探しのパブリッシャーが見つかりませんでした。",
+    "backToPublishers": "パブリッシャーに戻る"
+  }
+}

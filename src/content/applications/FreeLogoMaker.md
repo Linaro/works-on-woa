@@ -1,9 +1,0 @@
-﻿---
-name: "Free Logo Maker"
-categories: ['prod']
-compatibility: emulation
-display_result: "Compatible"
-version_from: "1.1.0.0"
-link: https://apps.microsoft.com/detail/9NP4TG3WJ62F
-icon: FreeLogoMaker.png
----

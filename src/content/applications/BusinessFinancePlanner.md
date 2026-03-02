@@ -1,9 +1,0 @@
-﻿---
-name: "Business Finance Planner"
-categories: ['business']
-compatibility: native
-display_result: "Compatible"
-version_from: "1.0.4.0"
-link: https://apps.microsoft.com/detail/9PJS5SM6KXR0
-icon: BusinessFinancePlanner.png
----

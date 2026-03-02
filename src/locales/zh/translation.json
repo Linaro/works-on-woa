@@ -1,0 +1,205 @@
+{
+  "nav": {
+    "apps": "应用",
+    "games": "游戏",
+    "faq": "常见问题",
+    "learn": "学习",
+    "gettingStarted": "入门",
+    "prism": "Prism",
+    "windowsOnArm": "Windows on ARM",
+    "publishers": "发行商"
+  },
+  "hero": {
+    "title": "Windows 在 ARM 上运行",
+    "subtitle": "自信地过渡到最强大、最高效的电脑。",
+    "supportedBy": "支持方：",
+    "searchPlaceholder": "搜索应用、游戏或从设备上传"
+  },
+  "popularApps": {
+    "title": "热门应用程序",
+    "subtitle": "Windows 在 ARM 上支持超过 5,000 个热门应用",
+    "seeAll": "查看所有 Windows 应用",
+    "columns": {
+      "name": "名称",
+      "compatibility": "兼容性",
+      "type": "类型",
+      "developer": "开发者",
+      "category": "类别",
+      "validation": "验证",
+      "updated": "更新日期"
+    }
+  },
+  "microsoftApps": {
+    "title": "Microsoft 应用在 ARM 上运行",
+    "subtitle": "超快速的第一方应用程序。100% 经过验证。",
+    "categories": {
+      "productivity": "生产力",
+      "communication": "通讯",
+      "creativity": "创意",
+      "exploration": "探索",
+      "itManagement": "IT 管理"
+    }
+  },
+  "resources": {
+    "title": "资源",
+    "subtitle": "在 Windows on ARM 上构建、部署和成功所需的一切。",
+    "gettingStarted": {
+      "category": "指南",
+      "title": "开始使用 Windows on ARM",
+      "description": "了解如何设置开发环境、构建第一个 ARM 原生应用并优化性能。",
+      "link": "了解更多"
+    },
+    "prism": {
+      "category": "技术",
+      "title": "Prism 内置 x86/x64 模拟",
+      "description": "了解 Prism 转换技术如何使数千个现有应用在 ARM 处理器上无缝运行。",
+      "link": "了解更多"
+    },
+    "windowsOnArm": {
+      "category": "平台",
+      "title": "Windows 11 — 专为 ARM 设计",
+      "description": "探索从 Copilot+ PC 到开发者工具，ARM 驱动设备上的完整 Windows 11 体验。",
+      "link": "了解更多"
+    }
+  },
+  "faq": {
+    "title": "有问题？",
+    "subtitle": "查找关于应用兼容性和 Windows on ARM 的常见问题解答。",
+    "contactSales": "联系销售",
+    "items": [
+      {
+        "question": "如何知道应用是否与 Windows on ARM 兼容？",
+        "answer": "使用主页上的搜索栏或浏览应用部分来检查兼容性。"
+      },
+      {
+        "question": "什么是 Prism？x86 模拟是如何工作的？",
+        "answer": "Prism 是 Microsoft 的内置转换技术，允许 x86 和 x64 应用程序在 ARM 处理器上运行。"
+      },
+      {
+        "question": "'原生'和'模拟'有什么区别？",
+        "answer": "原生应用专为 ARM 处理器构建，以最佳性能运行。模拟应用通过 Prism 转换运行。"
+      },
+      {
+        "question": "如何报告应用兼容性问题？",
+        "answer": "您可以通过我们的 GitHub 存储库报告兼容性问题。"
+      },
+      {
+        "question": "哪些 Microsoft 应用在 ARM 上完全原生？",
+        "answer": "包括 Word、Excel、PowerPoint、Outlook、Teams、Edge、Visual Studio Code 等大多数 Microsoft 365 应用在 ARM 上完全原生。"
+      },
+      {
+        "question": "能否在 Windows on ARM 上运行 x64 应用程序？",
+        "answer": "可以！Windows on ARM 通过 Prism 支持 x64 应用程序模拟。"
+      }
+    ]
+  },
+  "footer": {
+    "newsletter": {
+      "title": "保持更新",
+      "subtitle": "获取 Windows on ARM 应用兼容性的最新信息。",
+      "placeholder": "输入您的电子邮件",
+      "subscribe": "订阅"
+    },
+    "columns": {
+      "product": {
+        "title": "产品",
+        "apps": "应用",
+        "games": "游戏",
+        "publishers": "发布商"
+      },
+      "learn": {
+        "title": "学习",
+        "gettingStarted": "入门",
+        "prism": "Prism",
+        "windowsOnArm": "Windows on ARM",
+        "faq": "常见问题"
+      },
+      "community": {
+        "title": "社区",
+        "github": "GitHub",
+        "reportIssue": "报告问题",
+        "contribute": "贡献"
+      },
+      "microsoft": {
+        "title": "Microsoft",
+        "website": "Microsoft.com",
+        "privacy": "隐私",
+        "terms": "使用条款"
+      }
+    },
+    "copyright": "© 2026 Microsoft. 保留所有权利。",
+    "legal": {
+      "privacy": "隐私",
+      "terms": "条款",
+      "cookies": "Cookie"
+    }
+  },
+  "common": {
+    "native": "原生",
+    "emulation": "模拟",
+    "unknown": "未知",
+    "yes": "是",
+    "no": "否",
+    "na": "—",
+    "loading": "加载中...",
+    "error": "出了点问题",
+    "retry": "重试",
+    "noResults": "未找到结果",
+    "backToHome": "返回首页"
+  },
+  "filters": {
+    "category": "类别",
+    "developer": "开发者",
+    "compatibility": "兼容性",
+    "type": "类型",
+    "clearAll": "清除全部"
+  },
+  "appDetail": {
+    "compatibility": "兼容性",
+    "emulationType": "模拟类型",
+    "publisher": "发行商",
+    "category": "类别",
+    "version": "版本",
+    "lastUpdated": "最后更新",
+    "validation": "验证",
+    "visitWebsite": "访问网站",
+    "getThisApp": "获取此应用",
+    "backToApps": "返回应用",
+    "backToGames": "返回游戏"
+  },
+  "learn": {
+    "title": "学习",
+    "subtitle": "深入了解 Windows on ARM 技术、开发最佳实践和平台功能。"
+  },
+  "gettingStarted": {
+    "title": "Windows on ARM 入门",
+    "subtitle": "开始为 ARM 构建所需的一切。"
+  },
+  "prismPage": {
+    "title": "Prism 转换技术",
+    "subtitle": "x86/x64 模拟在 Windows on ARM 上的工作原理。"
+  },
+  "windowsOnArmPage": {
+    "title": "Windows 11 on ARM",
+    "subtitle": "ARM 驱动设备上的完整 Windows 体验。"
+  },
+  "validation": {
+    "microsoft": "Microsoft 已验证",
+    "qualcomm": "Qualcomm 已验证",
+    "developer": "开发者已验证",
+    "community": "社区已验证",
+    "unverified": "未验证"
+  },
+  "publishers": {
+    "title": "发行商",
+    "subtitle": "浏览 Windows on ARM 上所有应用和游戏的发行商。",
+    "columns": {
+      "name": "发行商",
+      "apps": "应用",
+      "games": "游戏",
+      "total": "总计"
+    },
+    "notFound": "找不到您要查找的发行商。",
+    "backToPublishers": "返回发行商"
+  }
+}

@@ -1,9 +1,0 @@
-﻿---
-name: "CAS Preview"
-categories: ['personal']
-compatibility: emulation
-display_result: "Compatible"
-version_from: "6.0.7.0"
-link: https://apps.microsoft.com/detail/9NBLGGH434KN
-icon: CASPreview.png
----

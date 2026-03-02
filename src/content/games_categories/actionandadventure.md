@@ -1,3 +1,0 @@
----
-name: Action and Adventure
----
