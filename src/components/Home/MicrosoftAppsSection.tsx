@@ -7,6 +7,7 @@ import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
 import { CompatibilityBadge } from "@/components/Common/Badge";
 import { CardSkeleton } from "@/components/Common/Skeleton";
+import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { useMicrosoftApps } from "@/data/hooks/useMicrosoftApps";
 
 const CATEGORIES = [
@@ -109,9 +110,7 @@ export function MicrosoftAppsSection() {
                       onClick={() => navigate(`/apps/${app.slug}`)}
                       className="cursor-pointer group flex flex-col items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5 text-center transition-colors hover:border-[rgba(0,120,212,0.3)]"
                     >
-                      <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[rgba(255,255,255,0.06)] text-2xl font-bold text-[var(--color-accent)]">
-                        {app.name.charAt(0)}
-                      </div>
+                      <ProjectIcon icon={app.icon} name={app.name} size="lg" />
                       <div>
                         <p className="font-medium text-[var(--color-text-primary)] text-sm">
                           {app.name}

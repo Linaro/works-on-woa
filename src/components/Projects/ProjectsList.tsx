@@ -7,6 +7,7 @@ import { FilterBar } from "@/components/Common/FilterBar";
 import { TableSkeleton } from "@/components/Common/Skeleton";
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
+import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { useProjects } from "@/data/hooks/useProjects";
 import { useCategories } from "@/data/hooks/useCategories";
 import { formatDate } from "@/utils/formatting";
@@ -149,7 +150,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-[var(--color-border)] text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
-                    <th className="px-4 py-3 w-12"></th>
+                    <th className="px-3 py-3 w-16"></th>
                     <th className="px-4 py-3">{t("popularApps.columns.name")}</th>
                     <th className="px-4 py-3">{t("popularApps.columns.compatibility")}</th>
                     <th className="px-4 py-3">{t("popularApps.columns.type")}</th>
@@ -168,10 +169,8 @@ export function ProjectsList({ type }: ProjectsListProps) {
                         i % 2 === 1 ? "bg-[rgba(255,255,255,0.02)]" : ""
                       }`}
                     >
-                      <td className="px-4 py-3">
-                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[rgba(255,255,255,0.06)] text-xs text-[var(--color-text-tertiary)]">
-                          {project.name.charAt(0)}
-                        </div>
+                      <td className="px-3 py-2">
+                        <ProjectIcon icon={project.icon} name={project.name} size="sm" />
                       </td>
                       <td className="px-4 py-3 font-medium text-[var(--color-text-primary)]">
                         {project.name}
@@ -208,9 +207,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
                   onClick={() => navigate(`${basePath}/${project.slug}`)}
                   className="flex cursor-pointer items-center gap-3 rounded-[12px] border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-4 transition-colors hover:bg-[var(--color-bg-surface-hover)]"
                 >
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[rgba(255,255,255,0.06)] text-sm text-[var(--color-text-tertiary)]">
-                    {project.name.charAt(0)}
-                  </div>
+                  <ProjectIcon icon={project.icon} name={project.name} size="md" />
                   <div className="flex-1 min-w-0">
                     <p className="truncate font-medium text-[var(--color-text-primary)]">
                       {project.name}

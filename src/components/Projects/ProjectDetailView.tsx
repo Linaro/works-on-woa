@@ -6,6 +6,7 @@ import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
+import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
 import { formatDate, capitalize } from "@/utils/formatting";
@@ -100,9 +101,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
 
         {/* Header */}
         <div className="flex items-start gap-5">
-          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[rgba(255,255,255,0.06)] text-2xl font-bold text-[var(--color-accent)]">
-            {project.name.charAt(0)}
-          </div>
+          <ProjectIcon icon={project.icon} name={project.name} size="xl" />
           <div className="min-w-0">
             <h1 className="text-3xl font-bold text-[var(--color-text-primary)] md:text-4xl">
               {project.name}

@@ -69,7 +69,7 @@ export function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Main navigation">
+        <nav className="hidden items-center gap-7 lg:flex" aria-label="Main navigation">
           <Link to="/apps" className={navLinkClass("/apps")}>
             {t("nav.apps")}
           </Link>
