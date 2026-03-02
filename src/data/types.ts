@@ -22,6 +22,7 @@ export interface Project {
   link?: string;
   validation: Validation;
   lastUpdated: string;
+  notes?: string;
   isMicrosoftApp?: boolean;
   microsoftCategory?: string;
 }

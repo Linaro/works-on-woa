@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";

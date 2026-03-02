@@ -2,10 +2,10 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { cn } from "@/utils/cn";
 import { LanguageSelector } from "@/components/Common/LanguageSelector";
-import { MobileMenu } from "./MobileMenu";
+import { MobileMenu } from "./MobileMenu"
 
 export function Header() {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [learnOpen, setLearnOpen] = useState(false);
   const learnRef = useRef<HTMLDivElement>(null);
-  const learnTimeout = useRef<ReturnType<typeof setTimeout>>();
+  const learnTimeout = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const openLearn = useCallback(() => {
     clearTimeout(learnTimeout.current);

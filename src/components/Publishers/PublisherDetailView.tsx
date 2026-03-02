@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
@@ -10,7 +9,7 @@ import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton, TableSkeleton } from "@/components/Common/Skeleton";
 import { usePublisherBySlug, useProjectsByPublisher } from "@/data/hooks/usePublishers";
-import { formatDate, capitalize } from "@/utils/formatting";
+import { formatDate } from "@/utils/formatting";
 
 interface PublisherDetailViewProps {
   slug: string;

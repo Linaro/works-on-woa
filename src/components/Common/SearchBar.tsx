@@ -7,13 +7,14 @@ import { cn } from "@/utils/cn";
 interface SearchBarProps {
   className?: string;
   compact?: boolean;
+  defaultValue?: string;
   onSearch?: (query: string) => void;
 }
 
-export function SearchBar({ className, compact, onSearch }: SearchBarProps) {
+export function SearchBar({ className, compact, defaultValue, onSearch }: SearchBarProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(defaultValue ?? "");
   const [isFocused, setIsFocused] = useState(false);
 
   const handleSubmit = useCallback(
