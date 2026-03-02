@@ -13,7 +13,10 @@
     "title": "Windows 在 ARM 上运行",
     "subtitle": "自信地过渡到最强大、最高效的电脑。",
     "supportedBy": "支持方：",
-    "searchPlaceholder": "搜索应用、游戏或从设备上传"
+    "searchPlaceholder": "搜索应用、游戏或从设备上传",
+    "searchApps": "搜索应用或上传应用进行分析",
+    "searchGames": "搜索游戏或上传游戏进行分析",
+    "searchPublishers": "搜索发行商或上传应用进行分析"
   },
   "popularApps": {
     "title": "热门应用程序",
@@ -152,6 +155,12 @@
     "developer": "开发者",
     "compatibility": "兼容性",
     "type": "类型",
+    "publisher": "发行商",
+    "lastUpdated": "最后更新",
+    "last7Days": "最近7天",
+    "last30Days": "最近30天",
+    "last90Days": "最近90天",
+    "lastYear": "最近1年",
     "clearAll": "清除全部"
   },
   "appDetail": {
@@ -201,5 +210,10 @@
     },
     "notFound": "找不到您要查找的发行商。",
     "backToPublishers": "返回发行商"
+  },
+  "search": {
+    "noResults": "未找到结果",
+    "showMore": "显示更多 {{count}} 个",
+    "publisherCount": "{{apps}} 个应用，{{games}} 个游戏"
   }
 }

@@ -8,7 +8,7 @@ export function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative overflow-hidden bg-[var(--color-bg-primary)]">
+    <section className="relative overflow-visible bg-[var(--color-bg-primary)]">
       {/* Background glow */}
       <div
         className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2"
@@ -48,8 +48,8 @@ export function HeroSection() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.3} className="mt-10 w-full max-w-[640px]">
-          <SearchBar />
+        <ScrollReveal delay={0.3} className="relative z-20 mt-10 w-full max-w-[640px]">
+          <SearchBar placeholder={t("hero.searchPlaceholder")} />
         </ScrollReveal>
       </Container>
 

@@ -13,7 +13,10 @@
     "title": "Windows는 ARM에서 실행됩니다",
     "subtitle": "가장 강력하고 효율적인 PC로 자신감을 가지고 전환하세요.",
     "supportedBy": "지원:",
-    "searchPlaceholder": "앱, 게임 또는 파일 검색"
+    "searchPlaceholder": "앱, 게임 또는 파일 검색",
+    "searchApps": "앱 검색 또는 분석할 앱 업로드",
+    "searchGames": "게임 검색 또는 분석할 게임 업로드",
+    "searchPublishers": "퍼블리셔 검색 또는 앱 업로드"
   },
   "popularApps": {
     "title": "인기 애플리케이션",
@@ -152,6 +155,12 @@
     "developer": "개발자",
     "compatibility": "호환성",
     "type": "유형",
+    "publisher": "퍼블리셔",
+    "lastUpdated": "마지막 업데이트",
+    "last7Days": "최근 7일",
+    "last30Days": "최근 30일",
+    "last90Days": "최근 90일",
+    "lastYear": "최근 1년",
     "clearAll": "모두 지우기"
   },
   "appDetail": {
@@ -201,5 +210,10 @@
     },
     "notFound": "찾으시는 퍼블리셔를 찾을 수 없습니다.",
     "backToPublishers": "퍼블리셔로 돌아가기"
+  },
+  "search": {
+    "noResults": "결과를 찾을 수 없습니다",
+    "showMore": "{{count}}개 더 보기",
+    "publisherCount": "앱 {{apps}}개, 게임 {{games}}개"
   }
 }

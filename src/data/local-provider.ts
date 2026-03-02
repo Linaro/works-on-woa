@@ -39,13 +39,37 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
     }
   }
   if (filters.publisher) {
-    result = result.filter(
-      (p) =>
-        p.publisher.toLowerCase().includes(filters.publisher!.toLowerCase())
-    );
+    const pubs = Array.isArray(filters.publisher) ? filters.publisher : [filters.publisher];
+    if (pubs.length > 0) {
+      const lower = pubs.map((p) => p.toLowerCase());
+      result = result.filter((p) =>
+        lower.some((pub) => p.publisher.toLowerCase() === pub)
+      );
+    }
   }
   if (filters.isMicrosoftApp !== undefined) {
     result = result.filter((p) => p.isMicrosoftApp === filters.isMicrosoftApp);
+  }
+  if (filters.lastUpdated) {
+    const ranges = Array.isArray(filters.lastUpdated) ? filters.lastUpdated : [filters.lastUpdated];
+    if (ranges.length > 0) {
+      const now = new Date();
+      const cutoffs = ranges.map((r) => {
+        const d = new Date(now);
+        switch (r) {
+          case "7d": d.setDate(d.getDate() - 7); break;
+          case "30d": d.setDate(d.getDate() - 30); break;
+          case "90d": d.setDate(d.getDate() - 90); break;
+          case "1y": d.setFullYear(d.getFullYear() - 1); break;
+          default: return null;
+        }
+        return d;
+      }).filter(Boolean) as Date[];
+      if (cutoffs.length > 0) {
+        const earliest = new Date(Math.min(...cutoffs.map((c) => c.getTime())));
+        result = result.filter((p) => new Date(p.lastUpdated) >= earliest);
+      }
+    }
   }
   if (filters.microsoftCategory) {
     result = result.filter(
@@ -135,14 +159,15 @@ export class LocalDataProvider implements DataProvider {
     return projects.filter((p) => p.isMicrosoftApp === true);
   }
 
-  async searchProjects(query: string, limit = 20): Promise<Project[]> {
+  async searchProjects(query: string, limit = 20, type?: ProjectType): Promise<Project[]> {
     const q = query.toLowerCase();
     return projects
       .filter(
         (p) =>
-          p.name.toLowerCase().includes(q) ||
+          (!type || p.type === type) &&
+          (p.name.toLowerCase().includes(q) ||
           p.publisher.toLowerCase().includes(q) ||
-          p.categories.some((c) => c.toLowerCase().includes(q))
+          p.categories.some((c) => c.toLowerCase().includes(q)))
       )
       .slice(0, limit);
   }

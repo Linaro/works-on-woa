@@ -32,7 +32,8 @@ export interface ProjectFilters {
   category?: string | string[];
   compatibility?: Compatibility | Compatibility[];
   emulationType?: EmulationType | EmulationType[];
-  publisher?: string;
+  publisher?: string | string[];
+  lastUpdated?: string | string[];
   search?: string;
   isMicrosoftApp?: boolean;
   microsoftCategory?: string;

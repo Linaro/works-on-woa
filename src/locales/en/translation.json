@@ -13,7 +13,10 @@
     "title": "Windows runs on ARM",
     "subtitle": "Transition to the most powerful, efficient PCs with confidence.",
     "supportedBy": "Supported by",
-    "searchPlaceholder": "Search for an app, game, or upload from your device"
+    "searchPlaceholder": "Search for an app, game, or upload apps from your device",
+    "searchApps": "Search for an app or upload apps to analyze",
+    "searchGames": "Search for a game or upload games to analyze",
+    "searchPublishers": "Search for a publisher or upload apps to analyze"
   },
   "popularApps": {
     "title": "Popular Applications",
@@ -175,6 +178,12 @@
     "developer": "Developer",
     "compatibility": "Compatibility",
     "type": "Type",
+    "publisher": "Publisher",
+    "lastUpdated": "Last Updated",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "last90Days": "Last 90 days",
+    "lastYear": "Last year",
     "clearAll": "Clear All"
   },
   "appDetail": {
@@ -227,5 +236,10 @@
     },
     "notFound": "The publisher you're looking for could not be found.",
     "backToPublishers": "Back to Publishers"
+  },
+  "search": {
+    "noResults": "No results found",
+    "showMore": "Show {{count}} more",
+    "publisherCount": "{{apps}} apps, {{games}} games"
   }
 }

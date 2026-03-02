@@ -38,7 +38,7 @@ export class ApiDataProvider implements DataProvider {
     throw new Error("Not implemented — use local provider");
   }
 
-  async searchProjects(_query: string, _limit?: number): Promise<Project[]> {
+  async searchProjects(_query: string, _limit?: number, _type?: ProjectType): Promise<Project[]> {
     throw new Error("Not implemented — use local provider");
   }
 }

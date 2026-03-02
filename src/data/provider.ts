@@ -17,7 +17,7 @@ export interface DataProvider {
   getCategories(type?: ProjectType): Promise<Category[]>;
   getPopularProjects(limit?: number): Promise<Project[]>;
   getMicrosoftApps(): Promise<Project[]>;
-  searchProjects(query: string, limit?: number): Promise<Project[]>;
+  searchProjects(query: string, limit?: number, type?: ProjectType): Promise<Project[]>;
   getPublishers(
     search?: string,
     page?: number,

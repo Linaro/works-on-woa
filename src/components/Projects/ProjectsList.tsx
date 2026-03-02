@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
@@ -10,6 +10,7 @@ import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { useProjects } from "@/data/hooks/useProjects";
 import { useCategories } from "@/data/hooks/useCategories";
+import { usePublishers } from "@/data/hooks/usePublishers";
 import { formatDate } from "@/utils/formatting";
 import type { ProjectFilters, ProjectType } from "@/data/types";
 
@@ -32,7 +33,19 @@ export function ProjectsList({ type }: ProjectsListProps) {
   });
 
   const { data: categoriesData } = useCategories(type);
+  const { data: publishersData } = usePublishers(undefined, 1, 1000);
   const { data, isLoading } = useProjects(filters, page, PAGE_SIZE);
+
+  // Sync filters when URL search params change (e.g. from dropdown "Show more")
+  useEffect(() => {
+    const urlSearch = searchParams.get("search") ?? "";
+    setFilters((prev) => {
+      if ((prev.search ?? "") !== urlSearch) {
+        return { ...prev, search: urlSearch || undefined };
+      }
+      return prev;
+    });
+  }, [searchParams]);
 
   const handleSearch = useCallback(
     (q: string) => {
@@ -72,6 +85,10 @@ export function ProjectsList({ type }: ProjectsListProps) {
     }
   };
 
+  const typePublishers = (publishersData?.items ?? [])
+    .filter((p) => type === "application" ? p.appCount > 0 : p.gameCount > 0)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
   const filterConfig = [
     {
       label: t("filters.category"),
@@ -98,6 +115,24 @@ export function ProjectsList({ type }: ProjectsListProps) {
         { label: t("common.emulation"), value: "emulation" },
       ],
     },
+    {
+      label: t("filters.publisher"),
+      key: "publisher",
+      options: typePublishers.map((p) => ({
+        label: p.name,
+        value: p.name,
+      })),
+    },
+    {
+      label: t("filters.lastUpdated"),
+      key: "lastUpdated",
+      options: [
+        { label: t("filters.last7Days"), value: "7d" },
+        { label: t("filters.last30Days"), value: "30d" },
+        { label: t("filters.last90Days"), value: "90d" },
+        { label: t("filters.lastYear"), value: "1y" },
+      ],
+    },
   ];
 
   const totalPages = data ? Math.ceil(data.total / PAGE_SIZE) : 0;
@@ -110,6 +145,8 @@ export function ProjectsList({ type }: ProjectsListProps) {
         <SearchBar
           defaultValue={initialSearch}
           onSearch={handleSearch}
+          placeholder={t(type === "application" ? "hero.searchApps" : "hero.searchGames")}
+          scope={type}
           compact
         />
       </div>
@@ -122,6 +159,8 @@ export function ProjectsList({ type }: ProjectsListProps) {
             category: Array.isArray(filters.category) ? filters.category : filters.category ? [filters.category] : [],
             compatibility: Array.isArray(filters.compatibility) ? filters.compatibility : filters.compatibility ? [filters.compatibility] : [],
             emulationType: Array.isArray(filters.emulationType) ? filters.emulationType : filters.emulationType ? [filters.emulationType] : [],
+            publisher: Array.isArray(filters.publisher) ? filters.publisher : filters.publisher ? [filters.publisher] : [],
+            lastUpdated: Array.isArray(filters.lastUpdated) ? filters.lastUpdated : filters.lastUpdated ? [filters.lastUpdated] : [],
           }}
           onFilterChange={handleFilterChange}
           onClearAll={handleClearAll}

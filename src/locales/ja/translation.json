@@ -13,7 +13,10 @@
     "title": "WindowsはARMで動作します",
     "subtitle": "最も強力で効率的なPCへ、安心して移行しましょう。",
     "supportedBy": "提供：",
-    "searchPlaceholder": "アプリ、ゲーム、またはファイルを検索"
+    "searchPlaceholder": "アプリ、ゲーム、またはファイルを検索",
+    "searchApps": "アプリを検索、または分析用にアップロード",
+    "searchGames": "ゲームを検索、または分析用にアップロード",
+    "searchPublishers": "パブリッシャーを検索、またはアプリをアップロード"
   },
   "popularApps": {
     "title": "人気のアプリケーション",
@@ -152,6 +155,12 @@
     "developer": "開発者",
     "compatibility": "互換性",
     "type": "タイプ",
+    "publisher": "パブリッシャー",
+    "lastUpdated": "最終更新",
+    "last7Days": "過去7日間",
+    "last30Days": "過去30日間",
+    "last90Days": "過去90日間",
+    "lastYear": "過去1年",
     "clearAll": "すべてクリア"
   },
   "appDetail": {
@@ -201,5 +210,10 @@
     },
     "notFound": "お探しのパブリッシャーが見つかりませんでした。",
     "backToPublishers": "パブリッシャーに戻る"
+  },
+  "search": {
+    "noResults": "結果が見つかりません",
+    "showMore": "さらに{{count}}件表示",
+    "publisherCount": "アプリ{{apps}}件、ゲーム{{games}}件"
   }
 }

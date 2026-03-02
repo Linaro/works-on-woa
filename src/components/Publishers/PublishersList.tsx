@@ -1,5 +1,5 @@
-import { useState, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useCallback, useEffect } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
@@ -12,15 +12,28 @@ const PAGE_SIZE = 24;
 export function PublishersList() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialSearch = searchParams.get("search") ?? "";
   const [page, setPage] = useState(1);
-  const [search, setSearch] = useState<string | undefined>();
+  const [search, setSearch] = useState<string | undefined>(initialSearch || undefined);
 
   const { data, isLoading } = usePublishers(search, page, PAGE_SIZE);
+
+  // Sync when URL search params change (e.g. from dropdown "Show more")
+  useEffect(() => {
+    const urlSearch = searchParams.get("search") ?? "";
+    setSearch(urlSearch || undefined);
+  }, [searchParams]);
 
   const handleSearch = useCallback((q: string) => {
     setSearch(q || undefined);
     setPage(1);
-  }, []);
+    if (q) {
+      setSearchParams({ search: q });
+    } else {
+      setSearchParams({});
+    }
+  }, [setSearchParams]);
 
   const totalPages = data ? Math.ceil(data.total / PAGE_SIZE) : 0;
 
@@ -28,7 +41,7 @@ export function PublishersList() {
     <Container className="pt-4 pb-10 md:pt-6 md:pb-16">
       {/* Search */}
       <div className="mx-auto max-w-2xl">
-        <SearchBar onSearch={handleSearch} compact />
+        <SearchBar onSearch={handleSearch} defaultValue={initialSearch} placeholder={t("hero.searchPublishers")} scope="publisher" compact />
       </div>
 
       {/* Results info */}
