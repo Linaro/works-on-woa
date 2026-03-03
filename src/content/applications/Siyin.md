@@ -1,8 +1,8 @@
 ---
-name: "Safe2Print"
+name: "Siyin"
 categories: ['printers']
 compatibility: native
 display_result: "Compatible"
-version_from: "311.22"
-link: https://www.mpitech.com
+version_from: "3.0.0.0"
+link: https://www.brocadesoft.com
 ---

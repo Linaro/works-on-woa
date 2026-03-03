@@ -1,8 +1,8 @@
 ---
-name: "Safe2Print"
+name: "Zhixiang"
 categories: ['printers']
 compatibility: native
 display_result: "Compatible"
-version_from: "311.22"
-link: https://www.mpitech.com
+version_from: "2.2.8"
+link: https://www.lenovoimage.com
 ---

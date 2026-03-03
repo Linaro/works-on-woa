@@ -1,8 +1,8 @@
 ---
-name: "Safe2Print"
+name: "ezeep Blue Print"
 categories: ['printers']
 compatibility: native
 display_result: "Compatible"
-version_from: "311.22"
-link: https://www.mpitech.com
+version_from: "2.3.3"
+link: https://www.ezeep.com
 ---
