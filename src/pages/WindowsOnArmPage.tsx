@@ -1,22 +1,92 @@
-import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
-import { GradientText } from "@/components/Common/GradientText";
 
 export default function WindowsOnArmPage() {
-  const { t } = useTranslation();
+  const [showScrollIndicator, setShowScrollIndicator] = useState(true);
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY <= 10) {
+        setShowScrollIndicator(true);
+      } else if (currentScrollY > lastScrollY) {
+        setShowScrollIndicator(false);
+      } else if (currentScrollY < lastScrollY) {
+        setShowScrollIndicator(true);
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <main id="main-content" className="pt-28">
+    <main id="main-content">
+      <section className="relative min-h-[100vh] overflow-visible bg-[var(--color-bg-primary)]">
+        <Container className="relative flex min-h-[100vh] flex-col items-center justify-center text-center">
+          <ScrollReveal className="w-full max-w-4xl">
+            <div className="mx-auto mb-6 w-full rounded-3xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.2)]">
+              <div
+                className="h-48 w-full rounded-2xl md:h-64"
+                style={{
+                  background:
+                    "linear-gradient(135deg, rgba(0,120,212,0.24) 0%, rgba(80,230,255,0.14) 45%, rgba(255,255,255,0.04) 100%)",
+                }}
+              />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.1}>
+            <img
+              src="/windows-11-logo-temp.png"
+              alt="Windows 11"
+              className="mx-auto mb-4 h-7 w-auto md:h-9"
+            />
+            <h1 className="text-4xl font-bold leading-tight text-[var(--color-text-primary)] md:text-6xl">
+              Turbocharged by ARM.
+            </h1>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.2}>
+            <p className="mx-auto mt-4 max-w-3xl text-lg text-[var(--color-text-secondary)] md:text-2xl md:font-normal">
+              ARM devices deliver exceptional performance and efficiency, custom
+              technologies, and are AI ready.
+            </p>
+          </ScrollReveal>
+        </Container>
+
+        <div
+          className={`absolute bottom-0 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 transition-all duration-300 ${
+            showScrollIndicator
+              ? "translate-y-0 opacity-100"
+              : "pointer-events-none translate-y-2 opacity-0"
+          }`}
+        >
+          <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">
+            Scroll
+          </span>
+          <div
+            className="h-16"
+            style={{
+              width: "2px",
+              background:
+                "linear-gradient(to bottom, var(--color-text-tertiary), transparent)",
+              clipPath: "polygon(0 0, 100% 0, 60% 100%, 40% 100%)",
+            }}
+          />
+        </div>
+      </section>
+
       <Container className="pb-20">
-        <ScrollReveal className="text-center">
-          <GradientText as="h1" className="text-4xl font-bold md:text-5xl">
-            {t("windowsOnArmPage.title")}
-          </GradientText>
-          <p className="mt-3 text-lg text-[var(--color-text-secondary)]">
-            {t("windowsOnArmPage.subtitle")}
-          </p>
-        </ScrollReveal>
 
         <ScrollReveal delay={0.1} className="mx-auto mt-12 max-w-3xl">
           <div className="space-y-8">

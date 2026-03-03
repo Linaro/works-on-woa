@@ -8,7 +8,7 @@ export function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative overflow-visible bg-[var(--color-bg-primary)]">
+    <section className="relative min-h-[80vh] overflow-visible bg-[var(--color-bg-primary)]">
       {/* Background glow */}
       <div
         className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2"
@@ -21,20 +21,24 @@ export function HeroSection() {
         }}
       />
 
-      <Container className="relative flex flex-col items-center pb-12 pt-24 text-center md:pt-32">
+      <Container className="relative flex min-h-[80vh] flex-col items-center justify-center pb-12 text-center">
         <ScrollReveal>
           <GradientText
             as="h1"
-            className="text-5xl font-bold leading-[1.05] md:text-[90px]"
+            className="text-5xl font-bold leading-[1.05] md:text-[72px]"
           >
             {t("hero.title")}
           </GradientText>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.1}>
+                <ScrollReveal delay={0.1}>
           <p className="mt-4 max-w-xl text-lg text-[var(--color-text-secondary)] md:text-2xl md:font-normal">
             {t("hero.subtitle")}
           </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.3} className="relative z-20 mt-10 w-full max-w-[720px]">
+          <SearchBar placeholder={t("hero.searchPlaceholder")} />
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
@@ -48,10 +52,20 @@ export function HeroSection() {
           </div>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.3} className="relative z-20 mt-10 w-full max-w-[640px]">
-          <SearchBar placeholder={t("hero.searchPlaceholder")} />
-        </ScrollReveal>
       </Container>
+
+      {/* Scroll indicator line */}
+      <div className="absolute bottom-0 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2">
+        <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">Scroll</span>
+        <div
+          className="h-16"
+          style={{
+            width: "2px",
+            background: "linear-gradient(to bottom, var(--color-text-tertiary), transparent)",
+            clipPath: "polygon(0 0, 100% 0, 60% 100%, 40% 100%)",
+          }}
+        />
+      </div>
 
       {/* Pulse animation */}
       <style>{`
