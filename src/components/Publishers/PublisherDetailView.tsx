@@ -1,17 +1,26 @@
-import { useState } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
 import { Button } from "@/components/Common/Button";
+import { FilterBar } from "@/components/Common/FilterBar";
 import { ProjectTable } from "@/components/Common/ProjectTable";
 import { Pagination } from "@/components/Common/Pagination";
 import { Skeleton, TableSkeleton } from "@/components/Common/Skeleton";
-import { usePublisherBySlug, useProjectsByPublisher } from "@/data/hooks/usePublishers";
+import { usePublisherBySlug } from "@/data/hooks/usePublishers";
+import { useProjects } from "@/data/hooks/useProjects";
+import { useCategories } from "@/data/hooks/useCategories";
 import { getProvider } from "@/data/provider";
 import { addBulkReportSlugs, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
+import {
+  filtersFromSearchParams,
+  filtersToSearchParams,
+  activeFiltersFromProjectFilters,
+} from "@/utils/filter-params";
+import type { ProjectFilters } from "@/data/types";
 
 interface PublisherDetailViewProps {
   slug: string;
@@ -22,6 +31,7 @@ const PAGE_SIZE = 24;
 export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [page, setPage] = useState(1);
   const [isAddingAllApps, setIsAddingAllApps] = useState(false);
   const [reportHover, setReportHover] = useState(false);
@@ -29,13 +39,59 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const bulkReport = useBulkReport();
 
   const { data: publisher, isLoading: pubLoading, error } = usePublisherBySlug(slug);
-  const { data: projectsData, isLoading: projLoading } = useProjectsByPublisher(
-    publisher?.name ?? "",
+
+  // Filters — publisher is always locked to this publisher
+  const [filters, setFilters] = useState<ProjectFilters>(() => ({
+    publisher: [],
+    ...filtersFromSearchParams(searchParams),
+  }));
+
+  // Categories for filter options (all types since publisher may have both)
+  const { data: categoriesData } = useCategories();
+
+  // Use the standard useProjects hook with publisher pre-set
+  const publisherName = publisher?.name ?? "";
+  const { data: projectsData, isLoading: projLoading } = useProjects(
+    publisherName ? { ...filters, publisher: publisherName } : undefined,
     page,
     PAGE_SIZE
   );
 
   const isLoading = pubLoading;
+
+  // Sync URL → filters
+  useEffect(() => {
+    const urlFilters = filtersFromSearchParams(searchParams);
+    setFilters((prev) => ({ ...prev, ...urlFilters }));
+  }, [searchParams]);
+
+  // Sync filters → URL
+  const syncFiltersToUrl = useCallback(
+    (nextFilters: ProjectFilters) => {
+      // Exclude publisher from URL since it's implicit from the route
+      const { publisher: _pub, ...urlFilters } = nextFilters;
+      const params = filtersToSearchParams(urlFilters as ProjectFilters);
+      setSearchParams(params, { replace: true });
+    },
+    [setSearchParams]
+  );
+
+  const handleFilterChange = useCallback(
+    (key: string, values: string[]) => {
+      const next = { ...filters, [key]: values.length > 0 ? values : undefined };
+      setFilters(next);
+      setPage(1);
+      syncFiltersToUrl(next);
+    },
+    [filters, syncFiltersToUrl]
+  );
+
+  const handleClearAll = useCallback(() => {
+    const next: ProjectFilters = {};
+    setFilters(next);
+    setPage(1);
+    setSearchParams({});
+  }, [setSearchParams]);
 
   if (isLoading) {
     return (
@@ -171,6 +227,52 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
               )}
             </Button>
           </div>
+        </div>
+
+        {/* Filters */}
+        <div className="mb-6">
+          <FilterBar
+            filters={[
+              {
+                label: t("filters.category"),
+                key: "category",
+                options: (categoriesData ?? []).map((c) => ({
+                  label: c.name,
+                  value: c.slug,
+                })),
+              },
+              {
+                label: t("filters.compatibility"),
+                key: "compatibility",
+                options: [
+                  { label: t("common.yes"), value: "yes" },
+                  { label: t("common.no"), value: "no" },
+                  { label: t("common.unknown"), value: "unknown" },
+                ],
+              },
+              {
+                label: t("filters.type"),
+                key: "emulationType",
+                options: [
+                  { label: t("common.native"), value: "native" },
+                  { label: t("common.emulation"), value: "emulation" },
+                ],
+              },
+              {
+                label: t("filters.lastUpdated"),
+                key: "lastUpdated",
+                options: [
+                  { label: t("filters.last7Days"), value: "7d" },
+                  { label: t("filters.last30Days"), value: "30d" },
+                  { label: t("filters.last90Days"), value: "90d" },
+                  { label: t("filters.lastYear"), value: "1y" },
+                ],
+              },
+            ]}
+            activeFilters={activeFiltersFromProjectFilters(filters)}
+            onFilterChange={handleFilterChange}
+            onClearAll={handleClearAll}
+          />
         </div>
 
         {/* Projects Table */}

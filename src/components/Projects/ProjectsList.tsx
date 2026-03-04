@@ -11,6 +11,11 @@ import { Pagination } from "@/components/Common/Pagination";
 import { useProjects } from "@/data/hooks/useProjects";
 import { useCategories } from "@/data/hooks/useCategories";
 import { usePublishers } from "@/data/hooks/usePublishers";
+import {
+  filtersFromSearchParams,
+  filtersToSearchParams,
+  activeFiltersFromProjectFilters,
+} from "@/utils/filter-params";
 import type { ProjectFilters, ProjectType } from "@/data/types";
 
 interface ProjectsListProps {
@@ -23,51 +28,59 @@ export function ProjectsList({ type }: ProjectsListProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const initialSearch = searchParams.get("search") ?? "";
 
+  // Initialize filters from URL
   const [page, setPage] = useState(1);
-  const [filters, setFilters] = useState<ProjectFilters>({
+  const [filters, setFilters] = useState<ProjectFilters>(() => ({
     type,
-    search: initialSearch || undefined,
-  });
+    ...filtersFromSearchParams(searchParams),
+  }));
 
   const { data: categoriesData } = useCategories(type);
   const { data: publishersData } = usePublishers(undefined, 1, 1000);
   const { data, isLoading } = useProjects(filters, page, PAGE_SIZE);
 
+  // Sync URL → filters when search params change externally
   useEffect(() => {
-    const urlSearch = searchParams.get("search") ?? "";
-    setFilters((prev) => {
-      if ((prev.search ?? "") !== urlSearch) {
-        return { ...prev, search: urlSearch || undefined };
-      }
-      return prev;
-    });
-  }, [searchParams]);
+    const urlFilters = filtersFromSearchParams(searchParams);
+    setFilters((prev) => ({ ...prev, type, ...urlFilters }));
+  }, [searchParams, type]);
 
-  const handleSearch = useCallback(
-    (q: string) => {
-      setFilters((prev) => ({ ...prev, search: q || undefined }));
-      setPage(1);
-      if (q) {
-        setSearchParams({ search: q });
-      } else {
-        setSearchParams({});
-      }
+  // Sync filters → URL whenever filters change
+  const syncFiltersToUrl = useCallback(
+    (nextFilters: ProjectFilters) => {
+      const params = filtersToSearchParams(nextFilters);
+      setSearchParams(params, { replace: true });
     },
     [setSearchParams]
   );
 
-  const handleFilterChange = useCallback((key: string, values: string[]) => {
-    setFilters((prev) => ({
-      ...prev,
-      [key]: values.length > 0 ? values : undefined,
-    }));
-    setPage(1);
-  }, []);
+  const handleSearch = useCallback(
+    (q: string) => {
+      const next = { ...filters, search: q || undefined };
+      setFilters(next);
+      setPage(1);
+      syncFiltersToUrl(next);
+    },
+    [filters, syncFiltersToUrl]
+  );
+
+  const handleFilterChange = useCallback(
+    (key: string, values: string[]) => {
+      const next = {
+        ...filters,
+        [key]: values.length > 0 ? values : undefined,
+      };
+      setFilters(next);
+      setPage(1);
+      syncFiltersToUrl(next);
+    },
+    [filters, syncFiltersToUrl]
+  );
 
   const handleClearAll = useCallback(() => {
-    setFilters({ type });
+    const next: ProjectFilters = { type };
+    setFilters(next);
     setPage(1);
     setSearchParams({});
   }, [type, setSearchParams]);
@@ -129,7 +142,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
     <Container className="pt-4 pb-10 md:pt-6 md:pb-16">
       <div className="mx-auto max-w-2xl">
         <SearchBar
-          defaultValue={initialSearch}
+          defaultValue={filters.search ?? ""}
           onSearch={handleSearch}
           placeholder={t(type === "application" ? "hero.searchApps" : "hero.searchGames")}
           scope={type}
@@ -140,13 +153,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
       <div className="mt-6">
         <FilterBar
           filters={filterConfig}
-          activeFilters={{
-            category: Array.isArray(filters.category) ? filters.category : filters.category ? [filters.category] : [],
-            compatibility: Array.isArray(filters.compatibility) ? filters.compatibility : filters.compatibility ? [filters.compatibility] : [],
-            emulationType: Array.isArray(filters.emulationType) ? filters.emulationType : filters.emulationType ? [filters.emulationType] : [],
-            publisher: Array.isArray(filters.publisher) ? filters.publisher : filters.publisher ? [filters.publisher] : [],
-            lastUpdated: Array.isArray(filters.lastUpdated) ? filters.lastUpdated : filters.lastUpdated ? [filters.lastUpdated] : [],
-          }}
+          activeFilters={activeFiltersFromProjectFilters(filters)}
           onFilterChange={handleFilterChange}
           onClearAll={handleClearAll}
           className="justify-center"
