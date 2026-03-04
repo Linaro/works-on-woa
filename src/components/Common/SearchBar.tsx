@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Search, Upload, LayoutGrid } from "lucide-react";
 import { cn } from "@/utils/cn";
 import { SearchDropdown } from "@/components/Common/SearchDropdown";
-import type { ProjectType } from "@/data/types";
+import type { Project, ProjectType } from "@/data/types";
 
 interface SearchBarProps {
   className?: string;
@@ -14,9 +14,10 @@ interface SearchBarProps {
   /** "application" | "game" scopes to that type; "publisher" for publishers; undefined = all */
   scope?: ProjectType | "publisher";
   onSearch?: (query: string) => void;
+  onProjectSelect?: (project: Project) => void;
 }
 
-export function SearchBar({ className, compact, defaultValue, placeholder, scope, onSearch }: SearchBarProps) {
+export function SearchBar({ className, compact, defaultValue, placeholder, scope, onSearch, onProjectSelect }: SearchBarProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [query, setQuery] = useState(defaultValue ?? "");
@@ -85,7 +86,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
         aria-haspopup="listbox"
         autoComplete="off"
         className={cn(
-          "w-full rounded-[20px] border bg-[rgba(255,255,255,0.06)] text-[var(--color-text-primary)] placeholder:text-[var(--color-text-tertiary)] transition-all duration-200 focus:outline-none",
+          "w-full rounded-[20px] border bg-[rgba(255,255,255,0.10)] text-[var(--color-text-primary)] placeholder:text-[var(--color-text-tertiary)] transition-all duration-200 focus:outline-none",
           compact
             ? "h-11 pl-4 pr-12 text-sm"
             : "h-14 pl-6 pr-28 text-base",
@@ -132,6 +133,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
         scope={scope}
         visible={showDropdown}
         onSelect={handleDropdownSelect}
+        onProjectSelect={onProjectSelect}
       />
     </form>
   );

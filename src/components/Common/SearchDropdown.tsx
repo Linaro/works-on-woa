@@ -12,12 +12,13 @@ interface SearchDropdownProps {
   scope?: ProjectType | "publisher";
   visible: boolean;
   onSelect: () => void;
+  onProjectSelect?: (project: Project) => void;
 }
 
 const PREVIEW_LIMIT = 4;
 const FETCH_LIMIT = 100;
 
-export function SearchDropdown({ query, scope, visible, onSelect }: SearchDropdownProps) {
+export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelect }: SearchDropdownProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
@@ -77,6 +78,7 @@ export function SearchDropdown({ query, scope, visible, onSelect }: SearchDropdo
             project={project}
             navigate={navigate}
             onSelect={onSelect}
+            onProjectSelect={onProjectSelect}
           />
         ))}
       </ul>
@@ -111,10 +113,12 @@ function ProjectRow({
   project,
   navigate,
   onSelect,
+  onProjectSelect,
 }: {
   project: Project;
   navigate: ReturnType<typeof useNavigate>;
   onSelect: () => void;
+  onProjectSelect?: (project: Project) => void;
 }) {
   const basePath = project.type === "application" ? "/apps" : "/games";
 
@@ -123,7 +127,11 @@ function ProjectRow({
       role="option"
       className="flex cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors hover:bg-[rgba(255,255,255,0.06)]"
       onClick={() => {
-        navigate(`${basePath}/${project.slug}`);
+        if (onProjectSelect) {
+          onProjectSelect(project);
+        } else {
+          navigate(`${basePath}/${project.slug}`);
+        }
         onSelect();
       }}
     >

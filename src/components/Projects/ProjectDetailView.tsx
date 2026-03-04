@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
@@ -9,6 +11,7 @@ import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
 import { formatDate, capitalize } from "@/utils/formatting";
+import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
 import type { ProjectType } from "@/data/types";
 
 interface ProjectDetailViewProps {
@@ -20,6 +23,15 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { data: project, isLoading, error } = useProject(slug);
+  const bulkReport = useBulkReport();
+  const [reportHover, setReportHover] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = async () => {
+    await navigator.clipboard.writeText(window.location.href);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   if (isLoading) {
     return (
@@ -110,16 +122,51 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 {project.publisher}
               </p>
             )}
-            {project.link && (
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-[var(--color-accent-primary)] px-3.5 py-1.5 text-xs font-medium text-white transition-opacity hover:opacity-90"
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              {project.link && (
+                <Button
+                  variant="primary"
+                  size="sm"
+                  onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}
+                >
+                  {t("appDetail.getThisApp")}
+                </Button>
+              )}
+              <Button
+                variant="secondary"
+                size="sm"
+                onClick={handleShare}
               >
-                {t("appDetail.getThisApp")}
-              </a>
-            )}
+                {copied ? (
+                  <><Check className="mr-1 h-4 w-4" /> Copied!</>
+                ) : (
+                  <><Copy className="mr-1 h-4 w-4" /> Share</>
+                )}
+              </Button>
+              <Button
+                variant="secondary"
+                size="sm"
+                onMouseEnter={() => setReportHover(true)}
+                onMouseLeave={() => setReportHover(false)}
+                onClick={() => {
+                  if (bulkReport.hasSlug(project.slug)) {
+                    removeBulkReportSlug(project.slug);
+                  } else {
+                    addBulkReportSlug(project.slug);
+                  }
+                }}
+              >
+                {bulkReport.hasSlug(project.slug) ? (
+                  reportHover ? (
+                    <><X className="mr-1 h-4 w-4" /> {t("bulkReport.removeFromReport")}</>
+                  ) : (
+                    <><Check className="mr-1 h-4 w-4" /> {t("bulkReport.inReport")}</>
+                  )
+                ) : (
+                  <><Plus className="mr-1 h-4 w-4" /> {t("bulkReport.addToReport")}</>
+                )}
+              </Button>
+            </div>
           </div>
         </div>
 

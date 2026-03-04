@@ -33,12 +33,21 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             className="fixed left-6 right-6 top-[5.5rem] bottom-6 z-50 mx-auto max-w-[1200px] rounded-[12px] border border-[var(--color-border)] bg-[var(--color-bg-primary)] p-6"
           >
             <nav className="flex flex-col gap-1" aria-label="Mobile navigation">
+              <p className="px-4 py-1.5 text-xs uppercase tracking-wider text-[var(--color-text-tertiary)]">
+                {t("nav.appCompat")}
+              </p>
               <MobileLink to="/apps" onClick={onClose}>
                 {t("nav.apps")}
               </MobileLink>
               <MobileLink to="/games" onClick={onClose}>
                 {t("nav.games")}
               </MobileLink>
+              <MobileLink to="/bulk-report" onClick={onClose}>
+                {t("nav.bulkReport")}
+              </MobileLink>
+
+              <div className="my-2 h-px bg-[var(--color-border)]" />
+
               <MobileLink to="/publishers" onClick={onClose}>
                 {t("nav.publishers")}
               </MobileLink>

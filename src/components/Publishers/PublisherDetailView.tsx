@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
@@ -9,7 +10,41 @@ import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton, TableSkeleton } from "@/components/Common/Skeleton";
 import { usePublisherBySlug, useProjectsByPublisher } from "@/data/hooks/usePublishers";
+import { getProvider } from "@/data/provider";
 import { formatDate } from "@/utils/formatting";
+import { addBulkReportSlugs, addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
+
+function RowReportAction({ slug }: { slug: string }) {
+  const [hover, setHover] = useState(false);
+  const bulkReport = useBulkReport();
+  const inReport = bulkReport.hasSlug(slug);
+
+  return (
+    <button
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (inReport) {
+          removeBulkReportSlug(slug);
+        } else {
+          addBulkReportSlug(slug);
+        }
+      }}
+      className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.06)] hover:text-[var(--color-text-primary)]"
+    >
+      {inReport ? (
+        hover ? (
+          <><X className="h-4 w-4" /></>
+        ) : (
+          <><Check className="h-4 w-4" /></>
+        )
+      ) : (
+        <Plus className="h-4 w-4" />
+      )}
+    </button>
+  );
+}
 
 interface PublisherDetailViewProps {
   slug: string;
@@ -21,6 +56,10 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [page, setPage] = useState(1);
+  const [isAddingAllApps, setIsAddingAllApps] = useState(false);
+  const [reportHover, setReportHover] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const bulkReport = useBulkReport();
 
   const { data: publisher, isLoading: pubLoading, error } = usePublisherBySlug(slug);
   const { data: projectsData, isLoading: projLoading } = useProjectsByPublisher(
@@ -76,6 +115,44 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
     }
   };
 
+  const handleAddAllApps = async () => {
+    if (!publisher?.name) return;
+    setIsAddingAllApps(true);
+    try {
+      const result = await getProvider().getProjectsByPublisher(
+        publisher.name,
+        1,
+        100000
+      );
+      const allSlugs = result.items.map((item) => item.slug);
+      addBulkReportSlugs(allSlugs);
+    } finally {
+      setIsAddingAllApps(false);
+    }
+  };
+
+  const handleRemoveAllApps = async () => {
+    if (!publisher?.name) return;
+    setIsAddingAllApps(true);
+    try {
+      const result = await getProvider().getProjectsByPublisher(
+        publisher.name,
+        1,
+        100000
+      );
+      for (const item of result.items) {
+        removeBulkReportSlug(item.slug);
+      }
+    } finally {
+      setIsAddingAllApps(false);
+    }
+  };
+
+  const allPublisherSlugsInReport =
+    projectsData && projectsData.items.length > 0
+      ? projectsData.items.every((item) => bulkReport.hasSlug(item.slug))
+      : false;
+
   return (
     <Container className="py-10 md:py-16">
       <motion.div
@@ -97,6 +174,47 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
             {publisher.appCount} {publisher.appCount === 1 ? "app" : "apps"} · {publisher.gameCount}{" "}
             {publisher.gameCount === 1 ? "game" : "games"}
           </p>
+          <div className="mt-3 flex flex-wrap items-center gap-3">
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={async () => {
+                await navigator.clipboard.writeText(window.location.href);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2000);
+              }}
+            >
+              {copied ? (
+                <><Check className="mr-1 h-4 w-4" /> Copied!</>
+              ) : (
+                <><Copy className="mr-1 h-4 w-4" /> Share</>
+              )}
+            </Button>
+            <Button
+              variant="secondary"
+              size="sm"
+              onMouseEnter={() => setReportHover(true)}
+              onMouseLeave={() => setReportHover(false)}
+              disabled={isAddingAllApps || (publisher.appCount === 0 && publisher.gameCount === 0)}
+              onClick={() => {
+                if (allPublisherSlugsInReport) {
+                  handleRemoveAllApps();
+                } else {
+                  handleAddAllApps();
+                }
+              }}
+            >
+              {allPublisherSlugsInReport ? (
+                reportHover ? (
+                  <><X className="mr-1 h-4 w-4" /> {t("bulkReport.removeFromReport")}</>
+                ) : (
+                  <><Check className="mr-1 h-4 w-4" /> {t("bulkReport.inReport")}</>
+                )
+              ) : (
+                <><Plus className="mr-1 h-4 w-4" /> {t("bulkReport.addAllPublisherApps")}</>
+              )}
+            </Button>
+          </div>
         </div>
 
         {/* Projects Table */}
@@ -117,6 +235,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
                       <th className="px-4 py-3">{t("popularApps.columns.category")}</th>
                       <th className="px-4 py-3">{t("popularApps.columns.validation")}</th>
                       <th className="px-4 py-3">{t("popularApps.columns.updated")}</th>
+                      <th className="px-4 py-3"></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -152,6 +271,9 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
                           <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">
                             {formatDate(project.lastUpdated)}
                           </td>
+                          <td className="px-4 py-3">
+                            <RowReportAction slug={project.slug} />
+                          </td>
                         </tr>
                       );
                     })}
@@ -179,6 +301,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
                           {emulationLabel(project.emulationType)}
                         </p>
                       </div>
+                      <RowReportAction slug={project.slug} />
                       <CompatibilityBadge compatibility={project.compatibility} />
                     </div>
                   );

@@ -11,9 +11,21 @@ export function Header() {
   const { t } = useTranslation();
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [appCompatOpen, setAppCompatOpen] = useState(false);
   const [learnOpen, setLearnOpen] = useState(false);
+  const appCompatRef = useRef<HTMLDivElement>(null);
   const learnRef = useRef<HTMLDivElement>(null);
+  const appCompatTimeout = useRef<ReturnType<typeof setTimeout>>(undefined);
   const learnTimeout = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+  const openAppCompat = useCallback(() => {
+    clearTimeout(appCompatTimeout.current);
+    setAppCompatOpen(true);
+  }, []);
+
+  const closeAppCompat = useCallback(() => {
+    appCompatTimeout.current = setTimeout(() => setAppCompatOpen(false), 150);
+  }, []);
 
   const openLearn = useCallback(() => {
     clearTimeout(learnTimeout.current);
@@ -26,11 +38,15 @@ export function Header() {
 
   useEffect(() => {
     setMobileOpen(false);
+    setAppCompatOpen(false);
     setLearnOpen(false);
   }, [location.pathname]);
 
   useEffect(() => {
-    return () => clearTimeout(learnTimeout.current);
+    return () => {
+      clearTimeout(appCompatTimeout.current);
+      clearTimeout(learnTimeout.current);
+    };
   }, []);
 
   const navLinkClass = (path: string) =>
@@ -70,12 +86,59 @@ export function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Main navigation">
-          <Link to="/apps" className={navLinkClass("/apps")}>
-            {t("nav.apps")}
-          </Link>
-          <Link to="/games" className={navLinkClass("/games")}>
-            {t("nav.games")}
-          </Link>
+          <div
+            ref={appCompatRef}
+            className="relative"
+            onMouseEnter={openAppCompat}
+            onMouseLeave={closeAppCompat}
+          >
+            <button
+              aria-expanded={appCompatOpen}
+              className={cn(
+                "relative flex cursor-pointer items-center gap-1 text-[15px] font-medium transition-colors duration-200",
+                location.pathname.startsWith("/apps") ||
+                  location.pathname.startsWith("/games") ||
+                  location.pathname.startsWith("/bulk-report")
+                  ? "text-[var(--color-text-primary)]"
+                  : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]"
+              )}
+            >
+              {t("nav.appCompat")}
+              <ChevronDown className="h-3.5 w-3.5" />
+            </button>
+
+            <AnimatePresence>
+              {appCompatOpen && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="absolute left-0 top-full z-50 mt-3 w-max rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-tertiary)] py-1 shadow-lg"
+                >
+                  <Link
+                    to="/apps"
+                    className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+                  >
+                    {t("nav.apps")}
+                  </Link>
+                  <Link
+                    to="/games"
+                    className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+                  >
+                    {t("nav.games")}
+                  </Link>
+                  <Link
+                    to="/bulk-report"
+                    className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+                  >
+                    {t("nav.bulkReport")}
+                  </Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
           <Link to="/publishers" className={navLinkClass("/publishers")}>
             {t("nav.publishers")}
           </Link>

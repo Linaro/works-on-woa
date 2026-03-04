@@ -1,5 +1,6 @@
 {
   "nav": {
+    "appCompat": "应用兼容性",
     "apps": "应用",
     "games": "游戏",
     "faq": "常见问题",
@@ -7,7 +8,8 @@
     "gettingStarted": "入门",
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
-    "publishers": "发行商"
+    "publishers": "发行商",
+    "bulkReport": "批量报告"
   },
   "hero": {
     "title": "Windows 在 ARM 上运行",
@@ -215,5 +217,14 @@
     "noResults": "未找到结果",
     "showMore": "显示更多 {{count}} 个",
     "publisherCount": "{{apps}} 个应用，{{games}} 个游戏"
+  },
+  "bulkReport": {
+    "addToReport": "添加到报告",
+    "inReport": "已在报告中",
+    "removeFromReport": "从报告中移除",
+    "add": "添加",
+    "actions": "操作",
+    "addAllPublisherApps": "添加所有应用",
+    "remove": "移除"
   }
 }

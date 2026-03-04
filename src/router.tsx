@@ -12,6 +12,7 @@ const LearnPage = lazy(() => import("@/pages/LearnPage"));
 const GettingStartedPage = lazy(() => import("@/pages/GettingStartedPage"));
 const PrismPage = lazy(() => import("@/pages/PrismPage"));
 const WindowsOnArmPage = lazy(() => import("@/pages/WindowsOnArmPage"));
+const BulkReportPage = lazy(() => import("@/pages/BulkReportPage"));
 const PublishersPage = lazy(() => import("@/pages/PublishersPage"));
 const PublisherDetailPage = lazy(() => import("@/pages/PublisherDetailPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
@@ -32,6 +33,7 @@ export const router = createBrowserRouter([
       { path: "learn/getting-started", element: <GettingStartedPage /> },
       { path: "learn/prism", element: <PrismPage /> },
       { path: "learn/windows-on-arm", element: <WindowsOnArmPage /> },
+      { path: "bulk-report", element: <BulkReportPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },

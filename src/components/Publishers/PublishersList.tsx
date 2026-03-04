@@ -41,7 +41,7 @@ export function PublishersList() {
     <Container className="pt-4 pb-10 md:pt-6 md:pb-16">
       {/* Search */}
       <div className="mx-auto max-w-2xl">
-        <SearchBar onSearch={handleSearch} defaultValue={initialSearch} placeholder={t("hero.searchPublishers")} scope="publisher" compact />
+        <SearchBar onSearch={handleSearch} defaultValue={initialSearch} placeholder="Search for a publisher" scope="publisher" compact />
       </div>
 
       {/* Results info */}

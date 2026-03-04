@@ -15,6 +15,7 @@ function ScrollToTop() {
 export function RootLayout() {
   const location = useLocation();
   const isWindowsOnArmPage = location.pathname === "/learn/windows-on-arm";
+  const isHomePage = location.pathname === "/";
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -31,7 +32,7 @@ export function RootLayout() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className={`flex-1 ${isWindowsOnArmPage ? "pt-0" : "pt-24"}`}
+          className={`flex-1 ${isWindowsOnArmPage || isHomePage ? "pt-0" : "pt-24"}`}
         >
           <Outlet />
         </motion.main>

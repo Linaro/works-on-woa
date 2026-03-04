@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Check, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
 import { FilterBar } from "@/components/Common/FilterBar";
@@ -12,7 +13,40 @@ import { useProjects } from "@/data/hooks/useProjects";
 import { useCategories } from "@/data/hooks/useCategories";
 import { usePublishers } from "@/data/hooks/usePublishers";
 import { formatDate } from "@/utils/formatting";
+import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
 import type { ProjectFilters, ProjectType } from "@/data/types";
+
+function RowReportAction({ slug }: { slug: string }) {
+  const [hover, setHover] = useState(false);
+  const bulkReport = useBulkReport();
+  const inReport = bulkReport.hasSlug(slug);
+
+  return (
+    <button
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (inReport) {
+          removeBulkReportSlug(slug);
+        } else {
+          addBulkReportSlug(slug);
+        }
+      }}
+      className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.06)] hover:text-[var(--color-text-primary)]"
+    >
+      {inReport ? (
+        hover ? (
+          <><X className="h-4 w-4" /></>
+        ) : (
+          <><Check className="h-4 w-4" /></>
+        )
+      ) : (
+        <Plus className="h-4 w-4" />
+      )}
+    </button>
+  );
+}
 
 interface ProjectsListProps {
   type: ProjectType;
@@ -197,6 +231,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
                     <th className="px-4 py-3">{t("popularApps.columns.category")}</th>
                     <th className="px-4 py-3">{t("popularApps.columns.validation")}</th>
                     <th className="px-4 py-3">{t("popularApps.columns.updated")}</th>
+                    <th className="px-4 py-3"></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -232,6 +267,9 @@ export function ProjectsList({ type }: ProjectsListProps) {
                       <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">
                         {formatDate(project.lastUpdated)}
                       </td>
+                      <td className="px-4 py-3">
+                        <RowReportAction slug={project.slug} />
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -255,6 +293,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
                       {emulationLabel(project.emulationType)}
                     </p>
                   </div>
+                  <RowReportAction slug={project.slug} />
                   <CompatibilityBadge compatibility={project.compatibility} />
                 </div>
               ))}

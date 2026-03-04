@@ -1,5 +1,6 @@
 {
   "nav": {
+    "appCompat": "App Compat",
     "apps": "Apps",
     "games": "Games",
     "faq": "FAQ",
@@ -7,7 +8,8 @@
     "gettingStarted": "Getting Started",
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
-    "publishers": "Publishers"
+    "publishers": "Publishers",
+    "bulkReport": "Bulk Report"
   },
   "hero": {
     "title": "Windows runs on ARM",
@@ -196,7 +198,7 @@
     "lastUpdated": "Last Updated",
     "validation": "Validation",
     "visitWebsite": "Visit Website",
-    "getThisApp": "Get this app",
+    "getThisApp": "Get app",
     "notes": "Notes",
     "notFound": "The project you're looking for could not be found.",
     "backToApps": "Back to Apps",
@@ -241,5 +243,14 @@
     "noResults": "No results found",
     "showMore": "Show {{count}} more",
     "publisherCount": "{{apps}} apps, {{games}} games"
+  },
+  "bulkReport": {
+    "addToReport": "Add to Report",
+    "inReport": "In Report",
+    "removeFromReport": "Remove",
+    "add": "Add",
+    "actions": "Actions",
+    "addAllPublisherApps": "Add all apps",
+    "remove": "Remove"
   }
 }

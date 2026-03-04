@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
@@ -6,9 +7,34 @@ import { ScrollReveal } from "@/components/Common/ScrollReveal";
 
 export function HeroSection() {
   const { t } = useTranslation();
+  const [showScrollIndicator, setShowScrollIndicator] = useState(true);
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY <= 10) {
+        setShowScrollIndicator(true);
+      } else if (currentScrollY > lastScrollY) {
+        setShowScrollIndicator(false);
+      } else if (currentScrollY < lastScrollY) {
+        setShowScrollIndicator(true);
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <section className="relative min-h-[80vh] overflow-visible bg-[var(--color-bg-primary)]">
+    <section className="relative min-h-[100vh] overflow-visible bg-[var(--color-bg-primary)]">
       {/* Background glow */}
       <div
         className="pointer-events-none absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2"
@@ -21,7 +47,7 @@ export function HeroSection() {
         }}
       />
 
-      <Container className="relative flex min-h-[80vh] flex-col items-center justify-center pb-12 text-center">
+      <Container className="relative flex min-h-[100vh] flex-col items-center justify-center text-center">
         <ScrollReveal>
           <GradientText
             as="h1"
@@ -42,7 +68,7 @@ export function HeroSection() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <div className="mt-3 flex items-center gap-2.5 text-[15px] text-[var(--color-text-tertiary)]">
+          <div className="mt-5 flex items-center gap-2.5 text-[15px] text-[var(--color-text-tertiary)]">
             <span>{t("hero.supportedBy")}</span>
             <img
               src="/microsoft-logo.png"
@@ -55,7 +81,13 @@ export function HeroSection() {
       </Container>
 
       {/* Scroll indicator line */}
-      <div className="absolute bottom-0 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2">
+      <div
+        className={`absolute bottom-0 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 transition-all duration-300 ${
+          showScrollIndicator
+            ? "translate-y-0 opacity-100"
+            : "pointer-events-none translate-y-2 opacity-0"
+        }`}
+      >
         <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">Scroll</span>
         <div
           className="h-16"

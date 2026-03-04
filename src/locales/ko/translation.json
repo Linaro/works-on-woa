@@ -1,5 +1,6 @@
 {
   "nav": {
+    "appCompat": "앱 호환성",
     "apps": "앱",
     "games": "게임",
     "faq": "자주 묻는 질문",
@@ -7,7 +8,8 @@
     "gettingStarted": "시작하기",
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
-    "publishers": "퍼블리셔"
+    "publishers": "퍼블리셔",
+    "bulkReport": "대량 보고서"
   },
   "hero": {
     "title": "Windows는 ARM에서 실행됩니다",
@@ -215,5 +217,14 @@
     "noResults": "결과를 찾을 수 없습니다",
     "showMore": "{{count}}개 더 보기",
     "publisherCount": "앱 {{apps}}개, 게임 {{games}}개"
+  },
+  "bulkReport": {
+    "addToReport": "보고서에 추가",
+    "inReport": "보고서에 추가됨",
+    "removeFromReport": "보고서에서 제거",
+    "add": "추가",
+    "actions": "작업",
+    "addAllPublisherApps": "모든 앱 추가",
+    "remove": "제거"
   }
 }
