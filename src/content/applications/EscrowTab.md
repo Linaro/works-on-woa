@@ -1,4 +1,4 @@
-﻿---
+---
 name: "EscrowTab"
 categories: ['business']
 compatibility: native

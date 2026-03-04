@@ -1,8 +1,8 @@
 ---
-name: "Safe2Print"
+name: "ScanSnap iX2500 / iX"
 categories: ['printers']
 compatibility: native
 display_result: "Compatible"
-version_from: "311.22"
-link: https://www.mpitech.com
+version_from: "2.1"
+link: https://www.pfu.ricoh.com
 ---
