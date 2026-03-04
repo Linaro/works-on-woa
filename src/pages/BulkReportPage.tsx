@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { ArrowUpDown, Check, Copy, Trash2, X } from "lucide-react";
+import { Check, Copy, Trash2 } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { Button } from "@/components/Common/Button";
 import { SearchBar } from "@/components/Common/SearchBar";
-import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
-import { ProjectIcon } from "@/components/Common/ProjectIcon";
+import { ProjectTable, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { getProvider } from "@/data/provider";
 import type { Project } from "@/data/types";
-import { formatDate } from "@/utils/formatting";
 import {
   DEFAULT_BULK_REPORT_TITLE,
   decodeBulkReportState,
@@ -17,152 +15,6 @@ import {
 } from "@/lib/bulk-report";
 
 type ReportView = "table" | "category" | "publisher";
-type SortField = "name" | "compatibility" | "type" | "publisher" | "category" | "validation" | "lastUpdated";
-type SortDirection = "asc" | "desc";
-
-const SORTABLE_COLUMNS: Array<{ key: SortField; label: string }> = [
-  { key: "name", label: "Name" },
-  { key: "compatibility", label: "Compatible" },
-  { key: "type", label: "Type" },
-  { key: "publisher", label: "Developer" },
-  { key: "category", label: "Category" },
-  { key: "validation", label: "Validation" },
-  { key: "lastUpdated", label: "Updated" },
-];
-
-function sortProjects(items: Project[], field: SortField, direction: SortDirection): Project[] {
-  const sorted = [...items].sort((a, b) => {
-    const getValue = (project: Project) => {
-      switch (field) {
-        case "name":
-          return project.name.toLowerCase();
-        case "compatibility":
-          return project.compatibility;
-        case "type":
-          return project.emulationType;
-        case "publisher":
-          return (project.publisher || "").toLowerCase();
-        case "category":
-          return (project.categories[0] || "").toLowerCase();
-        case "validation":
-          return project.validation;
-        case "lastUpdated":
-          return project.lastUpdated;
-      }
-    };
-
-    const av = getValue(a);
-    const bv = getValue(b);
-
-    if (field === "lastUpdated") {
-      return new Date(av).getTime() - new Date(bv).getTime();
-    }
-
-    if (av < bv) return -1;
-    if (av > bv) return 1;
-    return 0;
-  });
-
-  return direction === "asc" ? sorted : sorted.reverse();
-}
-
-function renderSectionTable(
-  title: string,
-  items: Project[],
-  onRemove: (slug: string) => void,
-  onRowClick: (project: Project) => void,
-  sortField: SortField,
-  sortDirection: SortDirection,
-  onSort: (field: SortField) => void
-) {
-  const sorted = sortProjects(items, sortField, sortDirection);
-
-  return (
-    <div className="mt-8">
-      <h2 className="mb-3 text-xl font-semibold text-[var(--color-text-primary)]">{title}</h2>
-      <div className="overflow-hidden rounded-[12px] border border-[rgba(255,255,255,0.06)] bg-[var(--color-bg-surface)]">
-        <table className="w-full table-fixed text-left">
-          <colgroup>
-            <col className="w-[44px]" />
-            <col className="w-[22%]" />
-            <col className="w-[11%]" />
-            <col className="w-[10%]" />
-            <col className="w-[13%]" />
-            <col className="w-[11%]" />
-            <col className="w-[11%]" />
-            <col className="w-[10%]" />
-            <col className="w-[48px]" />
-          </colgroup>
-          <thead>
-            <tr className="border-b border-[var(--color-border)] text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
-              <th className="px-3 py-3 w-16"></th>
-              {SORTABLE_COLUMNS.map((column) => (
-                <th
-                  key={column.key}
-                  className={`py-3 ${
-                    column.key === "compatibility"
-                      ? "pl-4 pr-6"
-                      : column.key === "type"
-                        ? "pl-6 pr-4"
-                        : "px-4"
-                  }`}
-                >
-                  <button
-                    onClick={() => onSort(column.key)}
-                    className="inline-flex cursor-pointer items-center gap-1 text-[13px] uppercase tracking-wider"
-                  >
-                    {column.label}
-                    <ArrowUpDown className="h-3.5 w-3.5" />
-                  </button>
-                </th>
-              ))}
-              <th className="px-4 py-3"></th>
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map((project, i) => (
-              <tr
-                key={project.slug}
-                onClick={() => onRowClick(project)}
-                className={`cursor-pointer border-b border-[var(--color-border)] transition-colors hover:bg-[var(--color-bg-surface-hover)] ${i % 2 === 1 ? "bg-[rgba(255,255,255,0.02)]" : ""}`}
-              >
-                <td className="px-3 py-2">
-                  <ProjectIcon icon={project.icon} name={project.name} size="sm" />
-                </td>
-                <td className="px-4 py-3 font-medium text-[var(--color-text-primary)]">{project.name}</td>
-                <td className="pl-4 pr-6 py-3">
-                  <CompatibilityBadge compatibility={project.compatibility} />
-                </td>
-                <td className="pl-6 pr-4 py-3 text-sm text-[var(--color-text-secondary)]">{project.emulationType}</td>
-                <td className="px-4 py-3 text-sm text-[var(--color-text-secondary)]">{project.publisher || "—"}</td>
-                <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">{project.categories[0] || "—"}</td>
-                <td className="px-4 py-3">
-                  <ValidationBadge validation={project.validation} />
-                </td>
-                <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">
-                  {formatDate(project.lastUpdated)}
-                </td>
-                <td className="px-4 py-3">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    aria-label="Remove from report"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onRemove(project.slug);
-                    }}
-                  >
-                    <X className="h-4 w-4" />
-                  </Button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
-}
 
 export default function BulkReportPage() {
   const navigate = useNavigate();
@@ -339,42 +191,57 @@ export default function BulkReportPage() {
             </p>
           </div>
         ) : view === "table" ? (
-          renderSectionTable(
-            "All Items",
-            reportItems,
-            bulkReport.removeSlug,
-            handleRowClick,
-            sortField,
-            sortDirection,
-            toggleSort
-          )
+          <div className="mt-8">
+            <ProjectTable
+              items={reportItems}
+              columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
+              onRowClick={handleRowClick}
+              sortable
+              sortField={sortField}
+              sortDirection={sortDirection}
+              onSort={toggleSort}
+              actionMode="remove-only"
+              onRemove={bulkReport.removeSlug}
+              title="All Items"
+            />
+          </div>
         ) : view === "category" ? (
           <>
-            {groupedByCategory.map(([category, items]) =>
-              renderSectionTable(
-                category,
-                items,
-                bulkReport.removeSlug,
-                handleRowClick,
-                sortField,
-                sortDirection,
-                toggleSort
-              )
-            )}
+            {groupedByCategory.map(([category, items]) => (
+              <div key={category} className="mt-8">
+                <ProjectTable
+                  items={items}
+                  columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
+                  onRowClick={handleRowClick}
+                  sortable
+                  sortField={sortField}
+                  sortDirection={sortDirection}
+                  onSort={toggleSort}
+                  actionMode="remove-only"
+                  onRemove={bulkReport.removeSlug}
+                  title={category}
+                />
+              </div>
+            ))}
           </>
         ) : (
           <>
-            {groupedByPublisher.map(([publisher, items]) =>
-              renderSectionTable(
-                publisher,
-                items,
-                bulkReport.removeSlug,
-                handleRowClick,
-                sortField,
-                sortDirection,
-                toggleSort
-              )
-            )}
+            {groupedByPublisher.map(([publisher, items]) => (
+              <div key={publisher} className="mt-8">
+                <ProjectTable
+                  items={items}
+                  columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
+                  onRowClick={handleRowClick}
+                  sortable
+                  sortField={sortField}
+                  sortDirection={sortDirection}
+                  onSort={toggleSort}
+                  actionMode="remove-only"
+                  onRemove={bulkReport.removeSlug}
+                  title={publisher}
+                />
+              </div>
+            ))}
           </>
         )}
       </Container>

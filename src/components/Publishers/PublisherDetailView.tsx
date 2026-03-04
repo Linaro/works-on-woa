@@ -5,46 +5,13 @@ import { motion } from "framer-motion";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
-import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
-import { ProjectIcon } from "@/components/Common/ProjectIcon";
+import { ProjectTable } from "@/components/Common/ProjectTable";
+import { Pagination } from "@/components/Common/Pagination";
 import { Skeleton, TableSkeleton } from "@/components/Common/Skeleton";
 import { usePublisherBySlug, useProjectsByPublisher } from "@/data/hooks/usePublishers";
 import { getProvider } from "@/data/provider";
-import { formatDate } from "@/utils/formatting";
-import { addBulkReportSlugs, addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
-
-function RowReportAction({ slug }: { slug: string }) {
-  const [hover, setHover] = useState(false);
-  const bulkReport = useBulkReport();
-  const inReport = bulkReport.hasSlug(slug);
-
-  return (
-    <button
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      onClick={(e) => {
-        e.stopPropagation();
-        if (inReport) {
-          removeBulkReportSlug(slug);
-        } else {
-          addBulkReportSlug(slug);
-        }
-      }}
-      className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.06)] hover:text-[var(--color-text-primary)]"
-    >
-      {inReport ? (
-        hover ? (
-          <><X className="h-4 w-4" /></>
-        ) : (
-          <><Check className="h-4 w-4" /></>
-        )
-      ) : (
-        <Plus className="h-4 w-4" />
-      )}
-    </button>
-  );
-}
+import { addBulkReportSlugs, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
 
 interface PublisherDetailViewProps {
   slug: string;
@@ -103,17 +70,6 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const totalPages = projectsData
     ? Math.ceil(projectsData.total / PAGE_SIZE)
     : 0;
-
-  const emulationLabel = (emType: string) => {
-    switch (emType) {
-      case "native":
-        return t("common.native");
-      case "emulation":
-        return t("common.emulation");
-      default:
-        return t("common.unknown");
-    }
-  };
 
   const handleAddAllApps = async () => {
     if (!publisher?.name) return;
@@ -222,92 +178,12 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
           {projLoading ? (
             <TableSkeleton rows={PAGE_SIZE} />
           ) : projectsData && projectsData.items.length > 0 ? (
-            <>
-              {/* Desktop Table */}
-              <div className="hidden overflow-hidden rounded-[12px] border border-[rgba(255,255,255,0.06)] bg-[var(--color-bg-surface)] md:block">
-                <table className="w-full text-left">
-                  <thead>
-                    <tr className="border-b border-[var(--color-border)] text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
-                      <th className="px-3 py-3 w-16"></th>
-                      <th className="px-4 py-3">{t("popularApps.columns.name")}</th>
-                      <th className="px-4 py-3">{t("popularApps.columns.compatibility")}</th>
-                      <th className="px-4 py-3">{t("popularApps.columns.type")}</th>
-                      <th className="px-4 py-3">{t("popularApps.columns.category")}</th>
-                      <th className="px-4 py-3">{t("popularApps.columns.validation")}</th>
-                      <th className="px-4 py-3">{t("popularApps.columns.updated")}</th>
-                      <th className="px-4 py-3"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {projectsData.items.map((project, i) => {
-                      const basePath =
-                        project.type === "application" ? "/apps" : "/games";
-                      return (
-                        <tr
-                          key={project.slug}
-                          onClick={() => navigate(`${basePath}/${project.slug}`)}
-                          className={`cursor-pointer border-b border-[var(--color-border)] transition-colors hover:bg-[var(--color-bg-surface-hover)] ${
-                            i % 2 === 1 ? "bg-[rgba(255,255,255,0.02)]" : ""
-                          }`}
-                        >
-                          <td className="px-3 py-2">
-                            <ProjectIcon icon={project.icon} name={project.name} size="sm" />
-                          </td>
-                          <td className="px-4 py-3 font-medium text-[var(--color-text-primary)]">
-                            {project.name}
-                          </td>
-                          <td className="px-4 py-3">
-                            <CompatibilityBadge compatibility={project.compatibility} />
-                          </td>
-                          <td className="px-4 py-3 text-sm text-[var(--color-text-secondary)]">
-                            {emulationLabel(project.emulationType)}
-                          </td>
-                          <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">
-                            {project.categories[0] || "—"}
-                          </td>
-                          <td className="px-4 py-3">
-                            <ValidationBadge validation={project.validation} />
-                          </td>
-                          <td className="px-4 py-3 text-sm text-[var(--color-text-tertiary)]">
-                            {formatDate(project.lastUpdated)}
-                          </td>
-                          <td className="px-4 py-3">
-                            <RowReportAction slug={project.slug} />
-                          </td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-
-              {/* Mobile Card List */}
-              <div className="flex flex-col gap-3 md:hidden">
-                {projectsData.items.map((project) => {
-                  const basePath =
-                    project.type === "application" ? "/apps" : "/games";
-                  return (
-                    <div
-                      key={project.slug}
-                      onClick={() => navigate(`${basePath}/${project.slug}`)}
-                      className="flex cursor-pointer items-center gap-3 rounded-[12px] border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-4 transition-colors hover:bg-[var(--color-bg-surface-hover)]"
-                    >
-                      <ProjectIcon icon={project.icon} name={project.name} size="md" />
-                      <div className="flex-1 min-w-0">
-                        <p className="truncate font-medium text-[var(--color-text-primary)]">
-                          {project.name}
-                        </p>
-                        <p className="text-sm text-[var(--color-text-tertiary)]">
-                          {emulationLabel(project.emulationType)}
-                        </p>
-                      </div>
-                      <RowReportAction slug={project.slug} />
-                      <CompatibilityBadge compatibility={project.compatibility} />
-                    </div>
-                  );
-                })}
-              </div>
-            </>
+            <ProjectTable
+              items={projectsData.items}
+              columns={["icon", "name", "compatibility", "type", "category", "validation", "updated"]}
+              actionMode="add-remove"
+              sortable
+            />
           ) : (
             <div className="py-20 text-center">
               <p className="text-lg text-[var(--color-text-secondary)]">
@@ -317,56 +193,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
           )}
         </div>
 
-        {/* Pagination */}
-        {totalPages > 1 && (
-          <div className="mt-10 flex items-center justify-center gap-2">
-            <Button
-              variant="ghost"
-              size="sm"
-              disabled={page <= 1}
-              onClick={() => setPage((p) => Math.max(1, p - 1))}
-            >
-              <span>←</span> <span className="hidden md:inline">{t("common.previous")}</span>
-            </Button>
-
-            <div className="flex items-center gap-1">
-              {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-                let pageNum: number;
-                if (totalPages <= 7) {
-                  pageNum = i + 1;
-                } else if (page <= 4) {
-                  pageNum = i + 1;
-                } else if (page >= totalPages - 3) {
-                  pageNum = totalPages - 6 + i;
-                } else {
-                  pageNum = page - 3 + i;
-                }
-                return (
-                  <button
-                    key={pageNum}
-                    onClick={() => setPage(pageNum)}
-                    className={`cursor-pointer flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-colors ${
-                      pageNum === page
-                        ? "bg-[var(--color-accent-primary)] text-white"
-                        : "text-[var(--color-text-tertiary)] hover:bg-[rgba(255,255,255,0.06)]"
-                    }`}
-                  >
-                    {pageNum}
-                  </button>
-                );
-              })}
-            </div>
-
-            <Button
-              variant="ghost"
-              size="sm"
-              disabled={page >= totalPages}
-              onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-            >
-              <span className="hidden md:inline">{t("common.next")}</span> <span>→</span>
-            </Button>
-          </div>
-        )}
+        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
       </motion.div>
     </Container>
   );
