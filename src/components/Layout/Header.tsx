@@ -98,7 +98,7 @@ export function Header() {
                 "relative flex cursor-pointer items-center gap-1 text-[15px] font-medium transition-colors duration-200",
                 location.pathname.startsWith("/apps") ||
                   location.pathname.startsWith("/games") ||
-                  location.pathname.startsWith("/bulk-report")
+                  location.pathname.startsWith("/custom-report")
                   ? "text-[var(--color-text-primary)]"
                   : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]"
               )}
@@ -129,10 +129,10 @@ export function Header() {
                     {t("nav.games")}
                   </Link>
                   <Link
-                    to="/bulk-report"
+                    to="/custom-report"
                     className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                   >
-                    {t("nav.bulkReport")}
+                    {t("nav.customReport")}
                   </Link>
                 </motion.div>
               )}

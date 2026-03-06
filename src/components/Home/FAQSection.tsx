@@ -15,15 +15,6 @@ export function FAQSection() {
 
   return (
     <section className="relative">
-      {/* Gradient divider */}
-      <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-px"
-        style={{
-          background:
-            "linear-gradient(90deg, transparent, rgba(0,120,212,0.4), transparent)",
-        }}
-      />
-
       <Container className="py-20 md:py-section-desktop">
         {/* Title & CTA */}
         <ScrollReveal className="text-center">

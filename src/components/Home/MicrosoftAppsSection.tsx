@@ -33,15 +33,6 @@ export function MicrosoftAppsSection() {
 
   return (
     <section className="relative overflow-hidden">
-      {/* Gradient divider */}
-      <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-px"
-        style={{
-          background:
-            "linear-gradient(90deg, transparent, rgba(0,120,212,0.4), transparent)",
-        }}
-      />
-
       <Container className="py-20 md:py-section-desktop">
         <ScrollReveal className="mb-10 text-center">
           <GradientText as="h2" className="text-3xl font-semibold md:text-5xl">
@@ -96,7 +87,7 @@ export function MicrosoftAppsSection() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.25 }}
-                className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5"
+                className="flex flex-wrap justify-center gap-4"
               >
                 {filteredApps.length === 0 ? (
                   <p className="col-span-full py-12 text-center text-[var(--color-text-tertiary)]">
@@ -108,7 +99,7 @@ export function MicrosoftAppsSection() {
                       key={app.slug}
                       whileHover={{ y: -4, scale: 1.02 }}
                       onClick={() => navigate(`/apps/${app.slug}`)}
-                      className="cursor-pointer group flex flex-col items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5 text-center transition-colors hover:border-[rgba(0,120,212,0.3)]"
+                      className="cursor-pointer group flex w-[180px] flex-col items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5 text-center transition-colors hover:border-[rgba(0,120,212,0.3)]"
                     >
                       <ProjectIcon icon={app.icon} name={app.name} size="lg" />
                       <div>

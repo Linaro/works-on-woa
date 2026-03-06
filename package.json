@@ -21,6 +21,8 @@
     "fuse.js": "^7.0.0",
     "i18next": "^24.0.0",
     "i18next-browser-languagedetector": "^8.0.0",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
     "lucide-react": "^0.400.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -9,7 +9,7 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
     "publishers": "パブリッシャー",
-    "bulkReport": "一括レポート"
+    "customReport": "カスタムレポート"
   },
   "hero": {
     "title": "WindowsはARMで動作します",
@@ -218,7 +218,20 @@
     "showMore": "さらに{{count}}件表示",
     "publisherCount": "アプリ{{apps}}件、ゲーム{{games}}件"
   },
-  "bulkReport": {
+  "customReport": {
+    "subtitle": "アプリやゲームのリストを自分で作成し、互換性を確認、同僚と共有、デバイス移行に備えましょう。",
+    "searchPlaceholder": "アプリやゲームを検索",
+    "share": "共有",
+    "copied": "コピーしました！",
+    "clearReport": "レポートをクリア",
+    "downloadPdf": "PDFをダウンロード",
+    "viewAll": "すべてのアイテム",
+    "viewByCategory": "カテゴリ別",
+    "viewByPublisher": "パブリッシャー別",
+    "emptyTitle": "レポートにアイテムがありません",
+    "emptyDescription": "レポートページ、アプリ/ゲームテーブル、詳細ページ、またはパブリッシャーページからアプリやゲームを追加してください。",
+    "uncategorized": "未分類",
+    "unknownPublisher": "不明なパブリッシャー",
     "addToReport": "レポートに追加",
     "inReport": "レポートに追加済み",
     "removeFromReport": "レポートから削除",

@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <main id="main-content">
       <HeroSection />
-      <PopularAppsTable />
       <MicrosoftAppsSection />
+      <PopularAppsTable />
       <ResourcesSection />
       <FAQSection />
     </main>

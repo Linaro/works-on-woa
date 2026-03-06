@@ -15557,8 +15557,7 @@
     "link": "https://www.microsoft.com/store/productId/9WZDNCRFHWXL",
     "validation": "microsoft",
     "lastUpdated": "2026-03-02",
-    "isMicrosoftApp": true,
-    "microsoftCategory": "productivity"
+    "isMicrosoftApp": true
   },
   {
     "slug": "calculusco",
@@ -61228,7 +61227,9 @@
     "versionFrom": "2.9.1.0",
     "link": "https://apps.microsoft.com/detail/9p1j8s7ccwwt",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "creativity"
   },
   {
     "slug": "msftcredentialguard",
@@ -61276,7 +61277,9 @@
     "versionFrom": "nan",
     "link": "https://apps.microsoft.com/detail/9p6pmztm93lr",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "microsoftdesigner",
@@ -61292,7 +61295,9 @@
     "versionFrom": "3.0.1.0",
     "link": "https://apps.microsoft.com/detail/9pjgrcldlx5v",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "creativity"
   },
   {
     "slug": "msftdeviceguard",
@@ -61341,7 +61346,9 @@
     "versionFrom": "126.0.2592.113",
     "link": "https://apps.microsoft.com/detail/xpfftq037jwmhs",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "exploration"
   },
   {
     "slug": "microsofteducationdelivery",
@@ -61372,7 +61379,9 @@
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/purview/endpoint-dlp-getting-started",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "msftexcel",
@@ -61388,7 +61397,9 @@
     "versionFrom": "2308",
     "link": "https://www.microsoft.com/en-us/microsoft-365/excel",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "productivity"
   },
   {
     "slug": "microsoft-flight-simulator",
@@ -61450,7 +61461,9 @@
     "versionFrom": "11.2.179.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3pz",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "microsoft-jigsaw",
@@ -61496,7 +61509,9 @@
     "versionFrom": "1.0.1.0",
     "link": "https://apps.microsoft.com/detail/9p1hq5tqzmgd",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "productivity"
   },
   {
     "slug": "microsoft-mahjong",
@@ -61668,7 +61683,9 @@
     "versionFrom": "2308",
     "link": "https://apps.microsoft.com/detail/9nrx63209r7b",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "communication"
   },
   {
     "slug": "msftpaint",
@@ -61791,13 +61808,15 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
     "link": "https://m365.cloud.microsoft/apps",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "productivity"
   },
   {
     "slug": "msftpowertoys",
@@ -62020,7 +62039,9 @@
     "versionFrom": "0.1",
     "link": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "communication"
   },
   {
     "slug": "msfttodo",
@@ -62128,7 +62149,9 @@
     "versionFrom": "23.10927.120",
     "link": "https://apps.microsoft.com/detail/9mspc6mp8fm4",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "creativity"
   },
   {
     "slug": "msftwindowsapp",
@@ -62144,7 +62167,9 @@
     "versionFrom": "2.0.285.0",
     "link": "https://apps.microsoft.com/detail/9n1f85v9t8bn",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "msftwindowspchealthcheck",
@@ -62177,7 +62202,10 @@
     "versionFrom": "2308",
     "link": "https://m365.cloud.microsoft/apps",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "productivity"
+    
   },
   {
     "slug": "microworks",
@@ -67791,7 +67819,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "24102.2225.2904.5181",

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { Check, Copy, Trash2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { Check, Copy, Download, Trash2 } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { Button } from "@/components/Common/Button";
 import { SearchBar } from "@/components/Common/SearchBar";
@@ -13,10 +14,12 @@ import {
   encodeBulkReportState,
   useBulkReport,
 } from "@/lib/bulk-report";
+import { generateReportPdf } from "@/lib/pdf-report";
 
 type ReportView = "table" | "category" | "publisher";
 
 export default function BulkReportPage() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const bulkReport = useBulkReport();
@@ -68,7 +71,7 @@ export default function BulkReportPage() {
   const groupedByCategory = useMemo(() => {
     const map = new Map<string, Project[]>();
     for (const item of reportItems) {
-      const category = item.categories[0] || "Uncategorized";
+      const category = item.categories[0] || t("customReport.uncategorized");
       const existing = map.get(category) ?? [];
       existing.push(item);
       map.set(category, existing);
@@ -79,7 +82,7 @@ export default function BulkReportPage() {
   const groupedByPublisher = useMemo(() => {
     const map = new Map<string, Project[]>();
     for (const item of reportItems) {
-      const publisher = item.publisher || "Unknown Publisher";
+      const publisher = item.publisher || t("customReport.unknownPublisher");
       const existing = map.get(publisher) ?? [];
       existing.push(item);
       map.set(publisher, existing);
@@ -106,7 +109,7 @@ export default function BulkReportPage() {
     next.set("data", encoded);
     setSearchParams(next, { replace: true });
 
-    const shareUrl = `${window.location.origin}/bulk-report?data=${encodeURIComponent(encoded)}`;
+    const shareUrl = `${window.location.origin}/custom-report?data=${encodeURIComponent(encoded)}`;
     await navigator.clipboard.writeText(shareUrl);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -128,20 +131,38 @@ export default function BulkReportPage() {
             placeholder={DEFAULT_BULK_REPORT_TITLE}
           />
 
-          <p className="mt-2 text-sm text-[var(--color-text-tertiary)]">
-          Add apps/games from this page, list pages, detail pages, or publisher pages.
+          <p className="mt-2 text-center text-sm text-[var(--color-text-tertiary)]">
+          {t("customReport.subtitle")}
         </p>
 
           <div className="mt-3 flex flex-row items-center gap-2">
             <Button variant="secondary" size="sm" onClick={handleShare}>
               {copied ? (
-                <><Check className="mr-1 h-4 w-4" /> Copied!</>
+                <><Check className="mr-1 h-4 w-4" /> {t("customReport.copied")}</>
               ) : (
-                <><Copy className="mr-1 h-4 w-4" /> Share</>
+                <><Copy className="mr-1 h-4 w-4" /> {t("customReport.share")}</>
               )}
             </Button>
+            <Button
+              variant="secondary"
+              size="sm"
+              disabled={reportItems.length === 0}
+              onClick={() =>
+                generateReportPdf({
+                  title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
+                  items: reportItems,
+                  view,
+                  groupedByCategory,
+                  groupedByPublisher,
+                  sortField,
+                  sortDirection,
+                })
+              }
+            >
+              <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadPdf")}
+            </Button>
             <Button variant="ghost" size="sm" onClick={bulkReport.clear}>
-              <Trash2 className="mr-1 h-4 w-4" /> Clear Report
+              <Trash2 className="mr-1 h-4 w-4" /> {t("customReport.clearReport")}
             </Button>
           </div>
         </div>
@@ -153,7 +174,7 @@ export default function BulkReportPage() {
             compact
             scope={undefined}
             defaultValue={search}
-            placeholder="Search apps and games"
+            placeholder={t("customReport.searchPlaceholder")}
             onSearch={(q) => setSearch(q)}
             onProjectSelect={(project) => bulkReport.addSlug(project.slug)}
           />
@@ -165,29 +186,29 @@ export default function BulkReportPage() {
             size="sm"
             onClick={() => setView("table")}
           >
-            All Items
+            {t("customReport.viewAll")}
           </Button>
           <Button
             variant={view === "category" ? "primary" : "ghost"}
             size="sm"
             onClick={() => setView("category")}
           >
-            By Category
+            {t("customReport.viewByCategory")}
           </Button>
           <Button
             variant={view === "publisher" ? "primary" : "ghost"}
             size="sm"
             onClick={() => setView("publisher")}
           >
-            By Publisher
+            {t("customReport.viewByPublisher")}
           </Button>
         </div>
 
         {reportItems.length === 0 ? (
           <div className="mt-12 rounded-2xl border border-dashed border-[var(--color-border)] p-12 text-center">
-            <h2 className="text-xl font-semibold text-[var(--color-text-primary)]">No items in your report yet</h2>
+            <h2 className="text-xl font-semibold text-[var(--color-text-primary)]">{t("customReport.emptyTitle")}</h2>
             <p className="mt-2 text-[var(--color-text-secondary)]">
-              Add apps or games from the report page, from app/game tables, detail pages, or publisher pages.
+              {t("customReport.emptyDescription")}
             </p>
           </div>
         ) : view === "table" ? (
@@ -202,7 +223,7 @@ export default function BulkReportPage() {
               onSort={toggleSort}
               actionMode="remove-only"
               onRemove={bulkReport.removeSlug}
-              title="All Items"
+              title={t("customReport.viewAll")}
             />
           </div>
         ) : view === "category" ? (

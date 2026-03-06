@@ -42,8 +42,8 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <MobileLink to="/games" onClick={onClose}>
                 {t("nav.games")}
               </MobileLink>
-              <MobileLink to="/bulk-report" onClick={onClose}>
-                {t("nav.bulkReport")}
+              <MobileLink to="/custom-report" onClick={onClose}>
+                {t("nav.customReport")}
               </MobileLink>
 
               <div className="my-2 h-px bg-[var(--color-border)]" />

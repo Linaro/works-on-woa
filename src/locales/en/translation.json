@@ -9,7 +9,7 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
     "publishers": "Publishers",
-    "bulkReport": "Bulk Report"
+    "customReport": "Custom Report"
   },
   "hero": {
     "title": "Windows runs on ARM",
@@ -244,7 +244,20 @@
     "showMore": "Show {{count}} more",
     "publisherCount": "{{apps}} apps, {{games}} games"
   },
-  "bulkReport": {
+  "customReport": {
+    "subtitle": "Curate your own list of apps and games to check compatibility, share with colleagues, and prepare for a device transition.",
+    "searchPlaceholder": "Search apps and games",
+    "share": "Share",
+    "copied": "Copied!",
+    "clearReport": "Clear Report",
+    "downloadPdf": "Download PDF",
+    "viewAll": "All Items",
+    "viewByCategory": "By Category",
+    "viewByPublisher": "By Publisher",
+    "emptyTitle": "No items in your report yet",
+    "emptyDescription": "Add apps or games from the report page, from app/game tables, detail pages, or publisher pages.",
+    "uncategorized": "Uncategorized",
+    "unknownPublisher": "Unknown Publisher",
     "addToReport": "Add to Report",
     "inReport": "In Report",
     "removeFromReport": "Remove",

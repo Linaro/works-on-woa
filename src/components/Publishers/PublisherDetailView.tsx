@@ -218,12 +218,12 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
             >
               {allPublisherSlugsInReport ? (
                 reportHover ? (
-                  <><X className="mr-1 h-4 w-4" /> {t("bulkReport.removeFromReport")}</>
+                  <><X className="mr-1 h-4 w-4" /> {t("customReport.removeFromReport")}</>
                 ) : (
-                  <><Check className="mr-1 h-4 w-4" /> {t("bulkReport.inReport")}</>
+                  <><Check className="mr-1 h-4 w-4" /> {t("customReport.inReport")}</>
                 )
               ) : (
-                <><Plus className="mr-1 h-4 w-4" /> {t("bulkReport.addAllPublisherApps")}</>
+                <><Plus className="mr-1 h-4 w-4" /> {t("customReport.addAllPublisherApps")}</>
               )}
             </Button>
           </div>

@@ -9,7 +9,7 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
     "publishers": "发行商",
-    "bulkReport": "批量报告"
+    "customReport": "自定义报告"
   },
   "hero": {
     "title": "Windows 在 ARM 上运行",
@@ -218,7 +218,20 @@
     "showMore": "显示更多 {{count}} 个",
     "publisherCount": "{{apps}} 个应用，{{games}} 个游戏"
   },
-  "bulkReport": {
+  "customReport": {
+    "subtitle": "创建您自己的应用和游戏列表，检查兼容性、与同事分享、并为设备过渡做好准备。",
+    "searchPlaceholder": "搜索应用和游戏",
+    "share": "分享",
+    "copied": "已复制！",
+    "clearReport": "清除报告",
+    "downloadPdf": "下载PDF",
+    "viewAll": "所有项目",
+    "viewByCategory": "按类别",
+    "viewByPublisher": "按发行商",
+    "emptyTitle": "报告中还没有项目",
+    "emptyDescription": "从报告页面、应用/游戏表格、详情页面或发行商页面添加应用或游戏。",
+    "uncategorized": "未分类",
+    "unknownPublisher": "未知发行商",
     "addToReport": "添加到报告",
     "inReport": "已在报告中",
     "removeFromReport": "从报告中移除",
