@@ -15,9 +15,9 @@
     "title": "Windows runs on ARM",
     "subtitle": "Transition to the most powerful, efficient PCs with confidence.",
     "supportedBy": "Supported by",
-    "searchPlaceholder": "Search for an app, game, or upload apps from your device",
-    "searchApps": "Search for an app or upload apps to analyze",
-    "searchGames": "Search for a game or upload games to analyze",
+    "searchPlaceholder": "Search apps and games",
+    "searchApps": "Search for an app",
+    "searchGames": "Search for a game",
     "searchPublishers": "Search for a publisher or upload apps to analyze"
   },
   "popularApps": {
