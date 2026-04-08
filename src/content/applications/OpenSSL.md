@@ -1,6 +1,6 @@
 ---
 name: "OpenSSL"
-categories: ['dev-enablement']
+categories: ['oss', 'dev-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "3.6.0"
