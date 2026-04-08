@@ -9,6 +9,7 @@ import type {
 } from "./types";
 
 import projectsData from "./content/projects.json";
+import popularAppsByLocale from "./content/popular-apps-by-locale.json";
 
 const projects: Project[] = projectsData as Project[];
 
@@ -149,10 +150,23 @@ export class LocalDataProvider implements DataProvider {
       .sort((a, b) => b.count - a.count);
   }
 
-  async getPopularProjects(limit = 10): Promise<Project[]> {
-    return projects
-      .filter((p) => p.type === "application" && p.compatibility === "yes")
-      .slice(0, limit);
+  async getPopularProjects(locale = "en", limit = 10): Promise<Project[]> {
+    const localeSlugs = (popularAppsByLocale as Record<string, string[]>)[locale];
+    const slugs = localeSlugs?.length ? localeSlugs : popularAppsByLocale.en;
+
+    const slugSet = new Set(slugs.slice(0, limit));
+    const projectMap = new Map<string, Project>();
+    for (const p of projects) {
+      if (slugSet.has(p.slug)) {
+        projectMap.set(p.slug, p);
+      }
+    }
+
+    // Return in the order defined by the slug list
+    return slugs
+      .slice(0, limit)
+      .map((slug) => projectMap.get(slug))
+      .filter((p): p is Project => p != null);
   }
 
   async getMicrosoftApps(): Promise<Project[]> {

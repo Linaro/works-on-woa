@@ -5,14 +5,12 @@ import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { Button } from "@/components/Common/Button";
 import { TableSkeleton } from "@/components/Common/Skeleton";
 import { ProjectTable } from "@/components/Common/ProjectTable";
-import { useProjects } from "@/data/hooks/useProjects";
-import type { ProjectFilters } from "@/data/types";
+import { usePopularProjects } from "@/data/hooks/usePopularProjects";
 
 export function PopularAppsTable() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const filters: ProjectFilters = { type: "application" };
-  const { data, isLoading } = useProjects(filters, 1, 10);
+  const { data, isLoading } = usePopularProjects(i18n.language, 10);
 
   return (
     <section className="relative bg-[var(--color-bg-primary)] noise-bg">
@@ -32,9 +30,9 @@ export function PopularAppsTable() {
         <ScrollReveal delay={0.1} className="mt-8">
           {isLoading ? (
             <TableSkeleton rows={10} />
-          ) : data?.items ? (
+          ) : data ? (
             <ProjectTable
-              items={data.items}
+              items={data}
               columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
               iconSize="xs"
               actionMode="none"
