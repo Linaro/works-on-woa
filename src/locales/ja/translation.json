@@ -37,11 +37,13 @@
   "microsoftApps": {
     "title": "MicrosoftアプリはARMで動作します",
     "subtitle": "超高速のファーストパーティアプリケーション。100%検証済み。",
+    "seeAll": "すべてのMicrosoftアプリを見る",
     "categories": {
       "productivity": "生産性",
       "communication": "コミュニケーション",
       "creativity": "クリエイティビティ",
-      "exploration": "エクスプロレーション",
+      "dev-tools": "開発ツール",
+      "security": "セキュリティ",
       "itManagement": "IT管理"
     }
   },

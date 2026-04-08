@@ -8,13 +8,15 @@ import { GradientText } from "@/components/Common/GradientText";
 import { CompatibilityBadge } from "@/components/Common/Badge";
 import { CardSkeleton } from "@/components/Common/Skeleton";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
+import { Button } from "@/components/Common/Button";
 import { useMicrosoftApps } from "@/data/hooks/useMicrosoftApps";
 
 const CATEGORIES = [
   "productivity",
   "communication",
   "creativity",
-  "exploration",
+  "dev-tools",
+  "security",
   "it-management",
 ] as const;
 
@@ -116,6 +118,12 @@ export function MicrosoftAppsSection() {
               </motion.div>
             </AnimatePresence>
           )}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <Button variant="secondary" onClick={() => navigate("/publishers/microsoft")}>
+            {t("microsoftApps.seeAll")}
+          </Button>
         </div>
       </Container>
     </section>

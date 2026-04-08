@@ -7,13 +7,13 @@
     "learn": "Learn",
     "gettingStarted": "Getting Started",
     "prism": "Prism",
-    "windowsOnArm": "Windows on ARM",
+    "windowsOnArm": "Windows on Arm",
     "publishers": "Publishers",
     "customReport": "Custom Report"
   },
   "hero": {
-    "title": "Windows runs on ARM",
-    "subtitle": "Transition to the most powerful, efficient PCs with confidence.",
+    "title": "Windows runs on Arm",
+    "subtitle": "Explore apps built for all-day performance and battery life.",
     "supportedBy": "Supported by",
     "searchPlaceholder": "Search apps and games",
     "searchApps": "Search for an app",
@@ -22,7 +22,7 @@
   },
   "popularApps": {
     "title": "Popular Applications",
-    "subtitle": "Windows supports over 5,000 of the most popular apps on ARM",
+    "subtitle": "Windows supports over 5,000 popular apps on Arm",
     "seeAll": "See All Windows Apps",
     "columns": {
       "name": "Name",
@@ -35,88 +35,90 @@
     }
   },
   "microsoftApps": {
-    "title": "Microsoft Apps run on ARM",
-    "subtitle": "Lightning fast 1st party applications. 100% verified.",
+    "title": "Microsoft Apps run on Arm",
+    "subtitle": "1st party applications. 100% verified.",
+    "seeAll": "See All Microsoft Apps",
     "categories": {
       "productivity": "Productivity",
       "communication": "Communication",
       "creativity": "Creativity",
-      "exploration": "Exploration",
+      "dev-tools": "Dev Tools",
+      "security": "Security",
       "it-management": "IT Management"
     }
   },
   "resources": {
     "title": "Resources",
-    "subtitle": "Everything you need to build, deploy, and succeed on Windows on ARM.",
+    "subtitle": "Everything you need to build, deploy, and succeed on Windows on Arm.",
     "items": {
       "gettingStarted": {
-        "title": "Get started with Windows on ARM",
-        "description": "Learn how to set up your development environment, build your first ARM-native app, and optimize for performance."
+        "title": "Get started with Windows on Arm",
+        "description": "Learn how to set up your development environment, build your first Arm-native app, and optimize for performance."
       },
       "prism": {
         "title": "Built-in x86/x64 emulation with Prism",
-        "description": "Understand how Prism translation technology enables thousands of existing apps to run seamlessly on ARM processors."
+        "description": "Understand how Prism translation technology enables thousands of existing apps to run seamlessly on Arm processors."
       },
       "windowsOnArm": {
-        "title": "Windows 11 — designed for ARM",
-        "description": "Discover the full Windows 11 experience on ARM-powered devices, from Copilot+ PCs to developer tools."
+        "title": "Windows 11 — designed for Arm",
+        "description": "Discover the full Windows 11 experience on Arm-powered devices, from Copilot+ PCs to developer tools."
       }
     },
     "gettingStarted": {
       "category": "Guide",
-      "title": "Get started with Windows on ARM",
-      "description": "Learn how to set up your development environment, build your first ARM-native app, and optimize for performance.",
+      "title": "Get started with Windows on Arm",
+      "description": "Learn how to set up your development environment, build your first Arm-native app, and optimize for performance.",
       "link": "Learn More"
     },
     "prism": {
       "category": "Technology",
       "title": "Built-in x86/x64 emulation with Prism",
-      "description": "Understand how Prism translation technology enables thousands of existing apps to run seamlessly on ARM processors.",
+      "description": "Understand how Prism translation technology enables thousands of existing apps to run seamlessly on Arm processors.",
       "link": "Learn More"
     },
     "windowsOnArm": {
       "category": "Platform",
-      "title": "Windows 11 — designed for ARM",
+      "title": "Windows 11 — designed for Arm",
       "description": "Discover the full Windows 11 experience on ARM-powered devices, from Copilot+ PCs to developer tools.",
       "link": "Learn More"
     }
   },
   "faq": {
     "title": "Questions?",
-    "subtitle": "Find answers to common questions about app compatibility and Windows on ARM.",
+    "subtitle": "Find answers to common questions about app compatibility and Windows on Arm.",
     "askQuestion": "Ask a Question",
     "contactSales": "Contact Sales",
     "items": [
       {
-        "question": "How do I know if an app is compatible with Windows on ARM?",
+        "question": "How do I know if an app is compatible with Windows on Arm?",
         "answer": "Use the search bar on our homepage or browse the Apps section to check compatibility. Each app is tagged with its compatibility status — 'Yes' means it works, 'No' means it doesn't, and 'Unknown' means it hasn't been tested yet."
       },
       {
         "question": "What is Prism and how does x86 emulation work?",
-        "answer": "Prism is Microsoft's built-in translation technology that allows x86 and x64 applications to run on ARM processors. It translates instructions in real-time, enabling most existing Windows apps to work without modification."
+        "answer": "Prism is Microsoft's built-in translation technology that allows x86 and x64 applications to run on Arm processors. It translates instructions in real-time, enabling most existing Windows apps to work without modification."
       },
       {
         "question": "What's the difference between 'Native' and 'Emulated'?",
-        "answer": "Native apps are built specifically for ARM processors and run at full performance. Emulated apps run through Prism translation, which may have a small performance overhead but ensures compatibility with the vast majority of existing Windows software."
+        "answer": "Native apps are built specifically for Arm processors and run at full performance. Emulated apps run through Prism translation, which may have a small performance overhead but ensures compatibility with the vast majority of existing Windows software."
       },
       {
         "question": "How do I report an app compatibility issue?",
         "answer": "You can report compatibility issues through our GitHub repository. Click 'Report an Issue' in the footer, and follow the template to provide details about the app and the issue you encountered."
       },
       {
-        "question": "Which Microsoft apps are fully native on ARM?",
-        "answer": "Most Microsoft 365 apps including Word, Excel, PowerPoint, Outlook, Teams, Edge, Visual Studio Code, and many more are fully native on ARM. Check the Microsoft Apps section on our homepage for the complete list."
+        "question": "Which Microsoft apps are fully native on Arm?",
+        "answer": "Most Microsoft 365 apps including Word, Excel, PowerPoint, Outlook, Teams, Edge, Visual Studio Code, and many more are fully native on Arm. Check the Microsoft Apps section on our homepage for the complete list."
       },
       {
-        "question": "Can I run x64 applications on Windows on ARM?",
-        "answer": "Yes! Windows on ARM supports x64 application emulation through Prism. Most x64 apps will run seamlessly, though native ARM apps will provide the best performance and battery life."
+        "question": "Can I run x64 applications on Windows on Arm?",
+        "answer": "Yes! Windows on Arm supports x64 application emulation through Prism. Most x64 apps will run seamlessly, though native Arm apps will provide the best performance and battery life."
       }
     ]
   },
   "footer": {
     "newsletter": {
       "title": "Stay updated",
-      "subtitle": "Get the latest on Windows on ARM app compatibility.",
+      "subtitle": "Get the latest on Windows on Arm app compatibility.",
       "placeholder": "Enter your email",
       "subscribe": "Subscribe"
     },
@@ -131,7 +133,7 @@
         "title": "Learn",
         "gettingStarted": "Getting Started",
         "prism": "Prism",
-        "windowsOnArm": "Windows on ARM",
+        "windowsOnArm": "Windows on Arm",
         "faq": "FAQ"
       },
       "community": {
@@ -206,19 +208,19 @@
   },
   "learn": {
     "title": "Learn",
-    "subtitle": "Deep dive into Windows on ARM technology, development best practices, and platform capabilities."
+    "subtitle": "Deep dive into Windows on Arm technology, development best practices, and platform capabilities."
   },
   "gettingStarted": {
-    "title": "Getting Started with Windows on ARM",
-    "subtitle": "Everything you need to start building for ARM."
+    "title": "Getting Started with Windows on Arm",
+    "subtitle": "Everything you need to start building for Arm."
   },
   "prismPage": {
     "title": "Prism Translation Technology",
-    "subtitle": "How x86/x64 emulation works on Windows on ARM."
+    "subtitle": "How x86/x64 emulation works on Windows on Arm."
   },
   "windowsOnArmPage": {
-    "title": "Windows 11 on ARM",
-    "subtitle": "The complete Windows experience on ARM-powered devices."
+    "title": "Windows 11 on Arm",
+    "subtitle": "The complete Windows experience on Arm-powered devices."
   },
   "validation": {
     "microsoft": "Verified by Microsoft",
@@ -229,7 +231,7 @@
   },
   "publishers": {
     "title": "Publishers",
-    "subtitle": "Browse all publishers with apps and games on Windows on ARM.",
+    "subtitle": "Browse all publishers with apps and games on Windows on Arm.",
     "columns": {
       "name": "Publisher",
       "apps": "Apps",

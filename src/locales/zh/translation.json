@@ -37,11 +37,13 @@
   "microsoftApps": {
     "title": "Microsoft 应用在 ARM 上运行",
     "subtitle": "超快速的第一方应用程序。100% 经过验证。",
+    "seeAll": "查看所有 Microsoft 应用",
     "categories": {
       "productivity": "生产力",
       "communication": "通讯",
       "creativity": "创意",
-      "exploration": "探索",
+      "dev-tools": "开发工具",
+      "security": "安全",
       "itManagement": "IT 管理"
     }
   },

@@ -37,11 +37,13 @@
   "microsoftApps": {
     "title": "Microsoft 앱은 ARM에서 실행됩니다",
     "subtitle": "초고속 자사 애플리케이션. 100% 검증됨.",
+    "seeAll": "모든 Microsoft 앱 보기",
     "categories": {
       "productivity": "생산성",
       "communication": "커뮤니케이션",
       "creativity": "창의성",
-      "exploration": "탐색",
+      "dev-tools": "개발 도구",
+      "security": "보안",
       "itManagement": "IT 관리"
     }
   },

@@ -9401,13 +9401,14 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.54.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRDGF1J",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "avgantivirusfree",
@@ -17351,13 +17352,14 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.0.15.0",
     "link": "https://apps.microsoft.com/detail/9PP0F5GGRDX5",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "chasysdrawies",
@@ -60950,13 +60952,14 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": " 8.0.303",
     "link": "https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?view=net-maui-8.0&tabs=vswin",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msft365",
@@ -60966,13 +60969,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "18.0.0.0",
     "link": "https://www.microsoft.com/store/productId/9WZDNCRD29V9",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft365store",
@@ -60982,13 +60986,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "18.2308.1034.0",
     "link": "https://www.microsoft.com/en-in/microsoft-365",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft365copilot",
@@ -60998,13 +61003,15 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "18.2502.1111.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRD29V9",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "productivity"
   },
   {
     "slug": "msft3dbuilder",
@@ -61014,13 +61021,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "20.0.4.0",
     "link": "https://apps.microsoft.com/store/detail/3d-builder/9WZDNCRFJ3T6",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msft3dviewer",
@@ -61030,13 +61038,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "7.307.2704.0",
     "link": "https://apps.microsoft.com/store/detail/3d-viewer/9NBLGGH42THS",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftaccess",
@@ -61046,13 +61055,14 @@
     "categories": [
       "database"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2308",
     "link": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftalarmsclock",
@@ -61062,13 +61072,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2306.23.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3pr",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftapplicationguard",
@@ -61078,12 +61089,14 @@
     "categories": [
       "it-sec-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/microsoft-defender-application-guard/install-md-app-guard",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "security"
   },
   {
     "slug": "msftautopilot",
@@ -61093,12 +61106,14 @@
     "categories": [
       "it"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/autopilot/overview",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "msftazurestorageexplorer",
@@ -61110,13 +61125,14 @@
       "dev-tools",
       "nw-storage"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.39.1",
     "link": "https://go.microsoft.com/fwlink/?linkid=2280706",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftazurevirtualdesktop",
@@ -61127,13 +61143,14 @@
       "enterprise",
       "remote-desktop"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.2.4157.0",
     "link": "https://apps.microsoft.com/detail/9nzsg2h7ms6b",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftbingdictionarychineseenglish",
@@ -61143,13 +61160,14 @@
     "categories": [
       "education"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.8.2.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGH63SW0",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft-bingo",
@@ -61159,11 +61177,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftbitlocker",
@@ -61173,13 +61192,15 @@
     "categories": [
       "security"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
     "link": "https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "security"
   },
   {
     "slug": "msftcalculator",
@@ -61189,13 +61210,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2307.4.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhvn5",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftcamera",
@@ -61205,13 +61227,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2023.2305.4.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfjbbg",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftclipchamp",
@@ -61221,12 +61244,12 @@
     "categories": [
       "video"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.9.1.0",
     "link": "https://apps.microsoft.com/detail/9p1j8s7ccwwt",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "creativity"
@@ -61239,13 +61262,14 @@
     "categories": [
       "security"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
     "link": "https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftdatagathering",
@@ -61255,13 +61279,14 @@
     "categories": [
       "education"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "10.0.1.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRDTKMB",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftdefender",
@@ -61271,15 +61296,15 @@
     "categories": [
       "anti-virus"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
     "link": "https://apps.microsoft.com/detail/9p6pmztm93lr",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
-    "microsoftCategory": "it-management"
+    "microsoftCategory": "security"
   },
   {
     "slug": "microsoftdesigner",
@@ -61289,12 +61314,12 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "3.0.1.0",
     "link": "https://apps.microsoft.com/detail/9pjgrcldlx5v",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "creativity"
@@ -61308,13 +61333,15 @@
       "security",
       "sysinfo"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
     "link": "https://www.tenforums.com/tutorials/68913-enable-disable-device-guard-windows-10-a.html",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "security"
   },
   {
     "slug": "microsoftdynamicsbusinessanalyzer",
@@ -61324,13 +61351,14 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.28.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRFJBPG",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftedge",
@@ -61340,15 +61368,15 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "126.0.2592.113",
     "link": "https://apps.microsoft.com/detail/xpfftq037jwmhs",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
-    "microsoftCategory": "exploration"
+    "microsoftCategory": "communication"
   },
   {
     "slug": "microsofteducationdelivery",
@@ -61358,13 +61386,14 @@
     "categories": [
       "education"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "10.0.2.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGH5KL88",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftendpointdlp",
@@ -61374,11 +61403,11 @@
     "categories": [
       "data-prot"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/purview/endpoint-dlp-getting-started",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "it-management"
@@ -61391,12 +61420,12 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
     "link": "https://www.microsoft.com/en-us/microsoft-365/excel",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "productivity"
@@ -61409,11 +61438,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Xbox Game Studios",
+    "publisher": "Microsoft",
     "compatibility": "no",
     "emulationType": "na",
-    "validation": "developer",
-    "lastUpdated": "2024-03-25"
+    "validation": "microsoft",
+    "lastUpdated": "2024-03-25",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftforms",
@@ -61423,13 +61453,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.1.0",
     "link": "https://apps.microsoft.com/detail/9nhkf5nvcg00",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftgdk",
@@ -61439,13 +61470,14 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "October 2025",
     "link": "https://learn.microsoft.com/en-us/gaming/gdk/docs/gdk-dev/development-downloads/development-downloads-gdk",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftintune",
@@ -61455,12 +61487,12 @@
     "categories": [
       "dev-mgmt"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2.179.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3pz",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "it-management"
@@ -61473,11 +61505,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftjournal",
@@ -61487,13 +61520,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.25150.49.0",
     "link": "https://apps.microsoft.com/detail/9N318R854RHH",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftloop",
@@ -61503,12 +61537,12 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.1.0",
     "link": "https://apps.microsoft.com/detail/9p1hq5tqzmgd",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "productivity"
@@ -61521,11 +61555,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftmailcalendar",
@@ -61535,13 +61570,15 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16005.14326.21514.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhvqm",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "communication"
   },
   {
     "slug": "msftmaps",
@@ -61551,13 +61588,14 @@
     "categories": [
       "nav"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2308.3.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrdtbvb",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft-minesweeper",
@@ -61567,11 +61605,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftmoney",
@@ -61581,13 +61620,14 @@
     "categories": [
       "personalfin"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.53.51973.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhv4v",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftmoviestv",
@@ -61597,13 +61637,14 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "10.23050.1000.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3p2",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftnews",
@@ -61613,13 +61654,14 @@
     "categories": [
       "news"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.55.62231.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhvfw",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftnotepad",
@@ -61629,13 +61671,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2406.9.0",
     "link": "https://apps.microsoft.com/detail/9msmlrh6lzf3",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftonenote",
@@ -61645,13 +61688,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16.0.17231.20236",
     "link": "https://apps.microsoft.com/detail/xpffzhvgqwwlhb",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftonedrive",
@@ -61661,13 +61705,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "23.153.0724.0001",
     "link": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftoutlook",
@@ -61677,12 +61722,12 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
     "link": "https://apps.microsoft.com/detail/9nrx63209r7b",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "communication"
@@ -61695,13 +61740,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2308.18.0",
     "link": "https://apps.microsoft.com/detail/9pcfs5b6t72h",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftpaint3d",
@@ -61711,13 +61757,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "6.2305.16087.0",
     "link": "https://apps.microsoft.com/detail/9nblggh5fv99",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftpcmanager",
@@ -61728,13 +61775,14 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "3.9.5.0",
     "link": "https://apps.microsoft.com/detail/9pm860492szd",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftphonelink",
@@ -61744,13 +61792,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.23092.142.0",
     "link": "https://apps.microsoft.com/detail/9nmpj99vjbwv",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftphotos",
@@ -61760,13 +61809,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2023.11090.20015.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfjbh4",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftphotoslegacy",
@@ -61776,13 +61826,14 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2024.11040.10002.0",
     "link": "https://www.microsoft.com/store/productId/9NV2L4XVMCXM",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftpowerbidesktop",
@@ -61792,13 +61843,14 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.122.746.0",
     "link": "https://www.microsoft.com/store/productId/9NTXR16HNW1T",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftpowerpoint",
@@ -61813,7 +61865,7 @@
     "emulationType": "native",
     "versionFrom": "2308",
     "link": "https://m365.cloud.microsoft/apps",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "productivity"
@@ -61826,13 +61878,15 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "v0.68.1",
     "link": "https://github.com/microsoft/PowerToys/releases/tag/v0.68.1",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "dev-tools"
   },
   {
     "slug": "msftproject",
@@ -61842,13 +61896,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2016",
     "link": "https://www.microsoft.com/en-us/microsoft-365/project/project-management-software",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftpublisher",
@@ -61858,13 +61913,14 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2308",
     "link": "https://www.microsoft.com/en-us/microsoft-365/p/publisher/CFQ7TTC0HLKN",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftremotedesktop",
@@ -61874,13 +61930,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "10.2.3012.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3ps",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftsensorexplorer",
@@ -61890,13 +61947,14 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.7.0.0",
     "link": "https://apps.microsoft.com/detail/9PGL3XPQ1TPX",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftsketchpal",
@@ -61907,13 +61965,14 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.2.11.0",
     "link": "https://apps.microsoft.com/detail/9mvt92nrf5mx",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftsnippingtool",
@@ -61923,13 +61982,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2209.4.0",
     "link": "https://apps.microsoft.com/store/detail/snipping-tool/9MZ95KL8MR0L",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft-solitaire-collection",
@@ -61939,11 +61999,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftsoundrecorder",
@@ -61953,13 +62014,14 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2304.25.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhwkn",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftstickynotes",
@@ -61969,13 +62031,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.6.0.0",
     "link": "https://apps.microsoft.com/detail/9nblggh4qghw",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftsway",
@@ -61985,13 +62048,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "18.2003.51105.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrd2g0j",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftsysmon",
@@ -62001,13 +62065,14 @@
     "categories": [
       "it"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "15.0",
     "link": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftsccm",
@@ -62017,13 +62082,14 @@
     "categories": [
       "dev-mgmt"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.0.7.0",
     "link": "https://learn.microsoft.com/en-us/mem/configmgr/core/understand/introduction",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftteams",
@@ -62033,12 +62099,12 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "0.1",
     "link": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "communication"
@@ -62051,14 +62117,15 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.106.62642.0",
     "link": "https://apps.microsoft.com/detail/9nblggh5r558",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
-  },
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true
+},
   {
     "slug": "microsoft-treasure-hunt",
     "name": "Microsoft Treasure Hunt",
@@ -62067,11 +62134,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoft-ultimate-word-games",
@@ -62081,11 +62149,12 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft Studios",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "developer",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftvisio",
@@ -62095,13 +62164,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "16.0426.1001",
     "link": "https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "microsoftvisualcredistributable",
@@ -62111,13 +62181,14 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "14.38.33135",
     "link": "https://aka.ms/vs/17/release/",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftweather",
@@ -62127,13 +62198,14 @@
     "categories": [
       "news"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.53.52331.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj3q2",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftwhiteboard",
@@ -62143,12 +62215,12 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "23.10927.120",
     "link": "https://apps.microsoft.com/detail/9mspc6mp8fm4",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "creativity"
@@ -62161,12 +62233,12 @@
     "categories": [
       "remote-desktop"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.0.285.0",
     "link": "https://apps.microsoft.com/detail/9n1f85v9t8bn",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "it-management"
@@ -62180,13 +62252,14 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.9.240214001-s2",
     "link": "https://support.microsoft.com/en-us/windows/how-to-use-the-pc-health-check-app-9c8abd9b-03ba-4e67-81ef-36f37caa7844",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "msftword",
@@ -62196,16 +62269,15 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
     "link": "https://m365.cloud.microsoft/apps",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "isMicrosoftApp": true,
     "microsoftCategory": "productivity"
-    
   },
   {
     "slug": "microworks",
@@ -67824,8 +67896,9 @@
     "emulationType": "native",
     "versionFrom": "24102.2225.2904.5181",
     "link": "https://apps.microsoft.com/store/detail/XP8BT8DW290MPQ",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "newprofilepicavatargenerator",
@@ -110348,13 +110421,15 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16.3.6.1949",
     "link": "https://apps.microsoft.com/detail/XPDCFJDKLZJLP8",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "dev-tools"
   },
   {
     "slug": "visualstudiocode",
@@ -110364,13 +110439,15 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.81.1.0",
     "link": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q",
     "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "dev-tools"
   },
   {
     "slug": "visualtimers",
@@ -113835,13 +113912,15 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.19.10821.0",
     "link": "https://apps.microsoft.com/detail/9n0dx20hk701",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "dev-tools"
   },
   {
     "slug": "windowsuniversaltool",
@@ -115663,13 +115742,15 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.2.5.0",
     "link": "https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R?hl=en-in&gl=in",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "publisher": "Microsoft",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "dev-tools"
   },
   {
     "slug": "wsttools",
@@ -121322,13 +121403,14 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.10.0.283",
     "link": "https://www.officeplus.cn/addin/OPCN/?source=OPCNNAVI",
-    "validation": "community",
-    "lastUpdated": "2026-03-02"
+    "validation": "microsoft",
+    "lastUpdated": "2026-03-02",
+    "isMicrosoftApp": true
   },
   {
     "slug": "bcut",
