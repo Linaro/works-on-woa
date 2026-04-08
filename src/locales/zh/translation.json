@@ -90,28 +90,48 @@
     "contactSales": "联系销售",
     "items": [
       {
-        "question": "如何知道应用是否与 Windows on ARM 兼容？",
-        "answer": "使用主页上的搜索栏或浏览应用部分来检查兼容性。"
+        "question": "为什么应该在企业环境中考虑为新 Surface 设备选择 Arm 处理器？",
+        "answer": "基于 Arm 的 Surface 设备在原生和模拟应用程序方面都具有卓越的性能、效率和兼容性。由 Snapdragon X 系列处理器驱动，它们提供出色的电池续航，并与 Microsoft 365 等关键生产力工具无缝集成。Prism 模拟引擎确保 x86/x64 应用程序的顺畅运行，在不牺牲性能的情况下促进向 Arm 架构的轻松过渡。"
       },
       {
-        "question": "什么是 Prism？x86 模拟是如何工作的？",
-        "answer": "Prism 是 Microsoft 的内置转换技术，允许 x86 和 x64 应用程序在 ARM 处理器上运行。"
+        "question": "Microsoft 如何增强了应用性能？",
+        "answer": "Microsoft 持续投资开发者生态系统，以确保 Windows on Arm 上原生和模拟应用的最佳性能。得益于扩展的开发工具和支持，预计近 90% 的应用使用量将来自原生应用。Prism 优化性能并降低 CPU 使用率，使模拟应用的性能可与旧型号上的原生应用持平甚至超越。Microsoft 的 <a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>App Assure 计划</a>免费提供开发者资源，帮助解决应用兼容性问题。"
       },
       {
-        "question": "'原生'和'模拟'有什么区别？",
-        "answer": "原生应用专为 ARM 处理器构建，以最佳性能运行。模拟应用通过 Prism 转换运行。"
+        "question": "什么是 Prism？",
+        "answer": "Prism 是 Microsoft 的模拟技术，使 x86/x64 应用程序能够在配备 Arm 处理器的 Windows PC 上运行。它无缝地将应用代码转换为在 Arm 架构上运行，优化性能并降低 CPU 使用率，确保在 Snapdragon X 系列芯片驱动的设备上获得流畅的用户体验。"
       },
       {
-        "question": "如何报告应用兼容性问题？",
-        "answer": "您可以通过我们的 GitHub 存储库报告兼容性问题。"
+        "question": "Windows on Arm 模拟有哪些新功能？",
+        "answer": "我们现在提供比以往更多的原生 Arm64 体验，包括 Teams、PowerPoint、Outlook、Word、Excel、OneDrive 和 OneNote 等 Microsoft 365 应用的最快实现。Chrome、Spotify、Zoom、WhatsApp、Blender、Affinity Suite 和 DaVinci Resolve 等热门应用现在已在 Arm 上原生运行，提供出色的性能。"
       },
       {
-        "question": "哪些 Microsoft 应用在 ARM 上完全原生？",
-        "answer": "包括 Word、Excel、PowerPoint、Outlook、Teams、Edge、Visual Studio Code 等大多数 Microsoft 365 应用在 ARM 上完全原生。"
+        "question": "在 Windows on Arm 上，原生应用和模拟应用有什么区别？",
+        "answer": "原生应用旨在充分利用 Arm64 架构，提供最佳性能和兼容性。模拟应用通过 Prism 模拟引擎运行，最大限度地减少性能损失，确保大多数 x86/x64 应用程序在 Arm64 系统上无缝运行。除了潜在的性能差异外，用户不会注意到明显的区别。"
       },
       {
-        "question": "能否在 Windows on ARM 上运行 x64 应用程序？",
-        "answer": "可以！Windows on ARM 通过 Prism 支持 x64 应用程序模拟。"
+        "question": "模拟应用的性能如何？",
+        "answer": "Prism 自动处理 x86/x64 应用，将其代码转换为在 Arm 架构上高效运行。Prism 的重大优化与以前的模拟技术相比提高了性能并降低了 CPU 使用率。大多数 x64 应用程序预计在模拟下的性能与原生应用相当。"
+      },
+      {
+        "question": "模拟对电池续航有什么影响？",
+        "answer": "电池续航取决于工作负载，但 Microsoft 已优化模拟效率和原生应用以确保出色的电池续航。然而，资源密集型应用可能比轻量级应用消耗电池更快。"
+      },
+      {
+        "question": "我可以运行不在 Microsoft Store 中的 Windows 程序吗？",
+        "answer": "可以，非 Store 的 Windows 应用可以在 Windows 11 Arm 设备上安装和运行。大多数应用程序通过原生或 Prism 模拟运行，提供流畅的性能。"
+      },
+      {
+        "question": "在哪里可以获得应用兼容性方面的帮助？",
+        "answer": "有关 Windows Arm64 设备上的应用兼容性帮助，请访问 <a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>Microsoft FastTrack 的 App Assure</a>。此服务对符合条件的 Microsoft 365 或 Windows 计划免费提供。App Assure 计划支持自定义业务应用、非 Microsoft 软件，并解决与 Microsoft 365 应用宏和加载项相关的问题。"
+      },
+      {
+        "question": "运行 Windows 11 Arm 设备时应注意哪些限制？",
+        "answer": "硬件、游戏和应用的驱动程序必须专为 Arm 设备设计。外设兼容性取决于 Arm64 驱动程序。如果您的硬件开发商没有 Arm64 驱动程序，请尝试<a href='https://support.microsoft.com/windows/install-a-printer-in-windows-cc0724cf-793e-3542-d1ff-727e4978638b' target='_blank' rel='noopener noreferrer'>通过 Windows 设置安装打印机</a>。依赖 OpenGL 3.3 以上版本或不受支持的反作弊驱动程序的某些游戏可能无法运行。某些自定义应用和防病毒软件除非针对 Arm64 进行优化，否则功能可能受限。Windows 安全中心继续提供全面保护。"
+      },
+      {
+        "question": "在 Windows 11 Arm 设备上使用辅助技术需要了解什么？",
+        "answer": "Windows 11 包含各种<a href='https://www.microsoft.com/Accessibility/windows' target='_blank' rel='noopener noreferrer'>内置辅助功能</a>，并支持 Microsoft Store 中提供的许多辅助技术应用。请与辅助软件供应商或 Microsoft Store 确认您的首选应用是否已针对 Arm 设备进行优化。NVDA 和 JAWS 等流行的屏幕阅读器越来越多地支持 Arm 设备。有关 NVDA 的更多信息，请访问 <a href='https://go.microsoft.com/fwlink/?linkid=867679' target='_blank' rel='noopener noreferrer'>NV Access 网站</a>。"
       }
     ]
   },

@@ -90,28 +90,48 @@
     "contactSales": "Contact Sales",
     "items": [
       {
-        "question": "How do I know if an app is compatible with Windows on Arm?",
-        "answer": "Use the search bar on our homepage or browse the Apps section to check compatibility. Each app is tagged with its compatibility status — 'Yes' means it works, 'No' means it doesn't, and 'Unknown' means it hasn't been tested yet."
+        "question": "Why should I consider Arm processors for new Surface devices in my corporate environment?",
+        "answer": "Arm-based Surface devices deliver exceptional performance, efficiency, and compatibility with both native and emulated applications. Powered by Snapdragon X series processors, they provide outstanding battery life and integrate seamlessly with key productivity tools like Microsoft 365. The Prism emulation engine ensures smooth operation of x86/x64 applications, facilitating an easy transition to Arm architecture without sacrificing performance."
       },
       {
-        "question": "What is Prism and how does x86 emulation work?",
-        "answer": "Prism is Microsoft's built-in translation technology that allows x86 and x64 applications to run on Arm processors. It translates instructions in real-time, enabling most existing Windows apps to work without modification."
+        "question": "How has Microsoft enhanced app performance?",
+        "answer": "Microsoft continues to invest in the developer ecosystem to ensure optimal performance for both native and emulated apps on Windows on Arm. Nearly 90% of total app usage is projected to come from native apps, thanks to expanded development tools and support. Prism optimizes performance and reduces CPU usage, allowing emulated apps to perform on par with, or even exceed, native apps on older models. Microsoft's <a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>App Assure program</a> offers developer resources at no extra cost to help resolve app compatibility issues."
       },
       {
-        "question": "What's the difference between 'Native' and 'Emulated'?",
-        "answer": "Native apps are built specifically for Arm processors and run at full performance. Emulated apps run through Prism translation, which may have a small performance overhead but ensures compatibility with the vast majority of existing Windows software."
+        "question": "What is Prism?",
+        "answer": "Prism is Microsoft's emulation technology that enables x86/x64 applications to run on Windows PCs with Arm processors. It seamlessly translates app code to run on Arm architecture, optimizing performance and reducing CPU usage to ensure a smooth user experience on devices powered by Snapdragon X series chips."
       },
       {
-        "question": "How do I report an app compatibility issue?",
-        "answer": "You can report compatibility issues through our GitHub repository. Click 'Report an Issue' in the footer, and follow the template to provide details about the app and the issue you encountered."
+        "question": "What's new with Windows on Arm emulation?",
+        "answer": "We now offer more native Arm64 experiences than ever before, including the fastest implementation of Microsoft 365 apps like Teams, PowerPoint, Outlook, Word, Excel, OneDrive, and OneNote. Popular apps such as Chrome, Spotify, Zoom, WhatsApp, Blender, Affinity Suite, and DaVinci Resolve now run natively on Arm, delivering excellent performance."
       },
       {
-        "question": "Which Microsoft apps are fully native on Arm?",
-        "answer": "Most Microsoft 365 apps including Word, Excel, PowerPoint, Outlook, Teams, Edge, Visual Studio Code, and many more are fully native on Arm. Check the Microsoft Apps section on our homepage for the complete list."
+        "question": "How do native and emulated apps differ on Windows on Arm?",
+        "answer": "Native apps are designed to fully utilize the Arm64 architecture, providing optimal performance and compatibility. Emulated apps run via the Prism emulation engine, which minimizes performance loss and ensures that most x86/x64 applications operate seamlessly on Arm64 systems. Users shouldn't notice any significant difference apart from potential performance variations."
       },
       {
-        "question": "Can I run x64 applications on Windows on Arm?",
-        "answer": "Yes! Windows on Arm supports x64 application emulation through Prism. Most x64 apps will run seamlessly, though native Arm apps will provide the best performance and battery life."
+        "question": "What's the performance for emulated apps?",
+        "answer": "Prism automatically handles x86/x64 apps, translating their code to run efficiently on Arm architecture. Significant optimizations in Prism have improved performance and reduced CPU usage compared to previous emulation technologies. Most x64 applications are expected to perform comparably to native apps under emulation."
+      },
+      {
+        "question": "How does emulation affect battery life?",
+        "answer": "Battery life depends on workload, but Microsoft has optimized emulation efficiency and native apps to ensure excellent battery life. Resource-heavy apps, however, might drain the battery faster than lightweight ones."
+      },
+      {
+        "question": "Can I run Windows programs that aren't in the Microsoft Store?",
+        "answer": "Yes, non-Store Windows apps can be installed and run on Windows 11 Arm-based devices. Most applications run natively or through Prism emulation, providing smooth performance."
+      },
+      {
+        "question": "Where can I get help with app compatibility?",
+        "answer": "For assistance with app compatibility on Windows Arm64 devices, visit <a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>App Assure with Microsoft FastTrack</a>. This service is available at no extra cost for eligible Microsoft 365 or Windows plans. The App Assure program supports custom line-of-business apps, non-Microsoft software, and resolves issues related to Microsoft 365 Apps macros and add-ins."
+      },
+      {
+        "question": "What limitations should I be aware of when running a Windows 11 Arm-based device?",
+        "answer": "Drivers for hardware, games, and apps must be designed for Arm-based devices. Peripheral compatibility depends on Arm64 drivers. If your hardware developer lacks Arm64 drivers, try <a href='https://support.microsoft.com/windows/install-a-printer-in-windows-cc0724cf-793e-3542-d1ff-727e4978638b' target='_blank' rel='noopener noreferrer'>installing the printer through Windows settings</a>. Certain games that rely on OpenGL versions greater than 3.3 or unsupported anti-cheat drivers might not work. Some customization apps and antivirus software may have limited functionality unless optimized for Arm64. Windows Security continues to offer comprehensive protection."
+      },
+      {
+        "question": "What should I know about using assistive technology on a Windows 11 Arm-based device?",
+        "answer": "Windows 11 includes various <a href='https://www.microsoft.com/Accessibility/windows' target='_blank' rel='noopener noreferrer'>built-in accessibility features</a> and supports many assistive technology apps available in the Microsoft Store. Check with your assistive software vendor or the Microsoft Store to confirm if your preferred apps are optimized for Arm-based devices. Popular screen readers like NVDA and JAWS are increasingly supporting Arm-based devices. For more information on NVDA, visit the <a href='https://go.microsoft.com/fwlink/?linkid=867679' target='_blank' rel='noopener noreferrer'>NV Access website</a>."
       }
     ]
   },

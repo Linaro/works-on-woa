@@ -90,28 +90,48 @@
     "contactSales": "営業に問い合わせる",
     "items": [
       {
-        "question": "アプリがWindows on ARMと互換性があるかどうかを確認するにはどうすればよいですか？",
-        "answer": "ホームページの検索バーを使用するか、アプリセクションを参照して互換性を確認してください。各アプリには互換性ステータスがタグ付けされています。"
+        "question": "企業環境で新しいSurfaceデバイスにArmプロセッサを検討すべき理由は何ですか？",
+        "answer": "Armベースのサーフェスデバイスは、ネイティブおよびエミュレーションの両方のアプリケーションで卓越したパフォーマンス、効率性、互換性を提供します。Snapdragon Xシリーズプロセッサを搭載し、優れたバッテリー寿命を提供し、Microsoft 365などの主要な生産性ツールとシームレスに統合されます。Prismエミュレーションエンジンは、x86/x64アプリケーションのスムーズな動作を保証し、パフォーマンスを犠牲にすることなくArmアーキテクチャへの容易な移行を促進します。"
       },
       {
-        "question": "Prismとは何ですか？x86エミュレーションはどのように動作しますか？",
-        "answer": "Prismは、x86およびx64アプリケーションをARMプロセッサ上で実行できるようにするMicrosoftの組み込み変換技術です。"
+        "question": "Microsoftはアプリのパフォーマンスをどのように向上させましたか？",
+        "answer": "Microsoftは、Windows on Armでのネイティブおよびエミュレーションアプリの最適なパフォーマンスを確保するために、開発者エコシステムへの投資を続けています。拡張された開発ツールとサポートにより、アプリ使用量の約90%がネイティブアプリから生まれると予測されています。Prismはパフォーマンスを最適化しCPU使用率を削減し、エミュレーションアプリが旧モデルのネイティブアプリと同等またはそれ以上のパフォーマンスを発揮できるようにします。Microsoftの<a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>App Assureプログラム</a>は、アプリの互換性問題の解決を支援する開発者リソースを無料で提供しています。"
       },
       {
-        "question": "「ネイティブ」と「エミュレーション」の違いは何ですか？",
-        "answer": "ネイティブアプリはARMプロセッサ向けに特別に構築されており、フルパフォーマンスで動作します。エミュレーションアプリはPrism変換を通じて動作します。"
+        "question": "Prismとは何ですか？",
+        "answer": "Prismは、Armプロセッサを搭載したWindows PCでx86/x64アプリケーションを実行できるようにするMicrosoftのエミュレーション技術です。Armアーキテクチャ上で実行されるようにアプリコードをシームレスに変換し、パフォーマンスを最適化してCPU使用率を削減し、Snapdragon Xシリーズチップを搭載したデバイスでスムーズなユーザー体験を保証します。"
       },
       {
-        "question": "アプリの互換性の問題を報告するにはどうすればよいですか？",
-        "answer": "GitHubリポジトリを通じて互換性の問題を報告できます。フッターの「問題を報告する」をクリックしてください。"
+        "question": "Windows on Armエミュレーションの新機能は何ですか？",
+        "answer": "Teams、PowerPoint、Outlook、Word、Excel、OneDrive、OneNoteなどのMicrosoft 365アプリの最速の実装を含む、これまで以上に多くのネイティブArm64体験を提供しています。Chrome、Spotify、Zoom、WhatsApp、Blender、Affinity Suite、DaVinci Resolveなどの人気アプリが、Arm上でネイティブに動作し、優れたパフォーマンスを提供します。"
       },
       {
-        "question": "どのMicrosoftアプリがARM上で完全にネイティブですか？",
-        "answer": "Word、Excel、PowerPoint、Outlook、Teams、Edge、Visual Studio Codeなど、ほとんどのMicrosoft 365アプリはARM上で完全にネイティブです。"
+        "question": "Windows on Armでネイティブアプリとエミュレーションアプリはどう違いますか？",
+        "answer": "ネイティブアプリは、Arm64アーキテクチャを最大限に活用するように設計されており、最適なパフォーマンスと互換性を提供します。エミュレーションアプリは、Prismエミュレーションエンジンを介して実行され、パフォーマンスの低下を最小限に抑え、ほとんどのx86/x64アプリケーションがArm64システム上でシームレスに動作するようにします。潜在的なパフォーマンスの違い以外に、大きな違いは感じないでしょう。"
       },
       {
-        "question": "Windows on ARMでx64アプリケーションを実行できますか？",
-        "answer": "はい！Windows on ARMはPrismを通じてx64アプリケーションのエミュレーションをサポートしています。"
+        "question": "エミュレーションアプリのパフォーマンスはどうですか？",
+        "answer": "Prismはx86/x64アプリを自動的に処理し、Armアーキテクチャ上で効率的に実行されるようにコードを変換します。Prismの大幅な最適化により、以前のエミュレーション技術と比較してパフォーマンスが向上し、CPU使用率が削減されました。ほとんどのx64アプリケーションは、エミュレーション下でネイティブアプリと同等のパフォーマンスを発揮すると期待されています。"
+      },
+      {
+        "question": "エミュレーションはバッテリー寿命にどう影響しますか？",
+        "answer": "バッテリー寿命はワークロードに依存しますが、Microsoftはエミュレーションの効率とネイティブアプリを最適化して優れたバッテリー寿命を確保しています。ただし、リソースを多く消費するアプリは、軽量なアプリよりもバッテリーの消耗が速くなる可能性があります。"
+      },
+      {
+        "question": "Microsoft StoreにないWindowsプログラムを実行できますか？",
+        "answer": "はい、Microsoft Store以外のWindowsアプリもWindows 11 Armベースのデバイスにインストールして実行できます。ほとんどのアプリケーションは、ネイティブまたはPrismエミュレーションを通じて実行され、スムーズなパフォーマンスを提供します。"
+      },
+      {
+        "question": "アプリの互換性に関するヘルプはどこで入手できますか？",
+        "answer": "Windows Arm64デバイスでのアプリ互換性の支援については、<a href='https://www.microsoft.com/fasttrack/microsoft-365/app-assure' target='_blank' rel='noopener noreferrer'>Microsoft FastTrackのApp Assure</a>をご覧ください。このサービスは、対象となるMicrosoft 365またはWindowsプランに対して追加費用なしで提供されます。App Assureプログラムは、カスタムビジネスアプリ、Microsoft以外のソフトウェアをサポートし、Microsoft 365アプリのマクロとアドインに関連する問題を解決します。"
+      },
+      {
+        "question": "Windows 11 Armベースのデバイスを使用する際に注意すべき制限事項は何ですか？",
+        "answer": "ハードウェア、ゲーム、アプリのドライバーはArmベースのデバイス向けに設計されている必要があります。周辺機器の互換性はArm64ドライバーに依存します。ハードウェア開発者がArm64ドライバーを提供していない場合は、<a href='https://support.microsoft.com/windows/install-a-printer-in-windows-cc0724cf-793e-3542-d1ff-727e4978638b' target='_blank' rel='noopener noreferrer'>Windows設定からプリンターのインストール</a>をお試しください。OpenGL 3.3以上やサポートされていないアンチチートドライバーに依存する一部のゲームは動作しない場合があります。一部のカスタマイズアプリやウイルス対策ソフトウェアは、Arm64に最適化されていない限り機能が制限される場合があります。Windowsセキュリティは引き続き包括的な保護を提供します。"
+      },
+      {
+        "question": "Windows 11 Armベースのデバイスでの支援技術の使用について知っておくべきことは何ですか？",
+        "answer": "Windows 11には、さまざまな<a href='https://www.microsoft.com/Accessibility/windows' target='_blank' rel='noopener noreferrer'>組み込みのアクセシビリティ機能</a>が含まれており、Microsoft Storeで利用可能な多くの支援技術アプリをサポートしています。お好みのアプリがArmベースのデバイスに最適化されているかどうか、支援ソフトウェアベンダーまたはMicrosoft Storeでご確認ください。NVDAやJAWSなどの人気のスクリーンリーダーは、Armベースのデバイスへの対応を拡大しています。NVDAの詳細については、<a href='https://go.microsoft.com/fwlink/?linkid=867679' target='_blank' rel='noopener noreferrer'>NV Accessのウェブサイト</a>をご覧ください。"
       }
     ]
   },

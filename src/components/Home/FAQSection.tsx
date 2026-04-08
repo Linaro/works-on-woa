@@ -48,9 +48,10 @@ export function FAQSection() {
                   title={item.question}
                   defaultOpen={i === 0}
                 >
-                  <p className="text-[var(--color-text-secondary)] leading-relaxed">
-                    {item.answer}
-                  </p>
+                  <p
+                    className="text-[var(--color-text-secondary)] leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: item.answer }}
+                  />
                 </Accordion>
               ))}
           </div>

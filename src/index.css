@@ -135,6 +135,18 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* ===== Inline Links (e.g. FAQ answers) ===== */
+p a[href] {
+  color: var(--color-accent-cyan);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+
+p a[href]:hover {
+  color: var(--color-accent-primary);
+}
+
 /* ===== Selection ===== */
 ::selection {
   background: rgba(0, 120, 212, 0.4);
