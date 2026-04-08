@@ -1,5 +1,5 @@
 ﻿---
-name: "Tasker- Notepad Notes Organizer and Work Tracker"
+name: "Tasker - Notepad Notes Organizer and Work Tracker"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

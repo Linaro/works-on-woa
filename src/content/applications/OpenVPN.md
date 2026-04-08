@@ -1,5 +1,5 @@
 ---
-name: "OpenVPN​"
+name: "OpenVPN"
 categories: ['vpn']
 compatibility: native
 display_result: "Compatible"

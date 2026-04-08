@@ -1,5 +1,5 @@
 ﻿---
-name: "Virtual Firepalce"
+name: "Virtual Fireplace"
 categories: ['entertainment']
 compatibility: emulation
 display_result: "Compatible"

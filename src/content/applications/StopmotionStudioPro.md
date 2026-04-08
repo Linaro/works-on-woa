@@ -1,5 +1,5 @@
 ﻿---
-name: "Stop motion Studio Pro"
+name: "Stop Motion Studio Pro"
 categories: ['education']
 compatibility: native
 display_result: "Compatible"

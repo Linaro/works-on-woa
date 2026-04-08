@@ -1,6 +1,6 @@
 ﻿---
-name: "FluentScreenRecorder"
-categories: ['multimedia']
+name: "Fluent Screen Recorder"
+categories: ['multimedia','utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "3.0.0"
