@@ -149,7 +149,7 @@
         "terms": "Terms of Use"
       }
     },
-    "copyright": "© 2026 Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. All rights reserved.",
     "legal": {
       "privacy": "Privacy",
       "terms": "Terms",
@@ -242,7 +242,8 @@
     "backToPublishers": "Back to Publishers"
   },
   "search": {
-    "noResults": "No results found",
+    "noResults": "No results found.",
+    "requestAssistance": "Request Assistance",
     "showMore": "Show {{count}} more",
     "publisherCount": "{{apps}} apps, {{games}} games"
   },

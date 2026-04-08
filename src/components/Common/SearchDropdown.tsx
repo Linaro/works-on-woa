@@ -64,6 +64,15 @@ export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelec
       <DropdownShell>
         <div className="px-4 py-6 text-center text-sm text-[var(--color-text-tertiary)]">
           {t("search.noResults")}
+          <a
+            href="https://www.microsoft.com/en-us/fasttrack/microsoft-365/app-assure"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 inline-flex items-center gap-1 text-[var(--color-text-link)] hover:underline"
+          >
+            {t("search.requestAssistance")}
+            <ArrowRight className="h-3.5 w-3.5" />
+          </a>
         </div>
       </DropdownShell>
     );
@@ -172,6 +181,15 @@ function PublisherDropdown({
       <DropdownShell>
         <div className="px-4 py-6 text-center text-sm text-[var(--color-text-tertiary)]">
           {t("search.noResults")}
+          <a
+            href="https://www.microsoft.com/en-us/fasttrack/microsoft-365/app-assure"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 inline-flex items-center gap-1 text-[var(--color-text-link)] hover:underline"
+          >
+            {t("search.requestAssistance")}
+            <ArrowRight className="h-3.5 w-3.5" />
+          </a>
         </div>
       </DropdownShell>
     );

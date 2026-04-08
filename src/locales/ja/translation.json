@@ -44,12 +44,26 @@
       "creativity": "クリエイティビティ",
       "dev-tools": "開発ツール",
       "security": "セキュリティ",
-      "itManagement": "IT管理"
+      "it-management": "IT管理"
     }
   },
   "resources": {
     "title": "リソース",
     "subtitle": "Windows on ARMでの構築、展開、成功に必要なすべて。",
+    "items": {
+      "gettingStarted": {
+        "title": "Windows on ARMを始める",
+        "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。"
+      },
+      "prism": {
+        "title": "Prismによるx86/x64エミュレーション",
+        "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。"
+      },
+      "windowsOnArm": {
+        "title": "Windows 11 — ARM向けに設計",
+        "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。"
+      }
+    },
     "gettingStarted": {
       "category": "ガイド",
       "title": "Windows on ARMを始める",
@@ -72,6 +86,7 @@
   "faq": {
     "title": "ご質問は？",
     "subtitle": "アプリの互換性とWindows on ARMに関するよくある質問への回答をご覧ください。",
+    "askQuestion": "質問する",
     "contactSales": "営業に問い合わせる",
     "items": [
       {
@@ -134,7 +149,7 @@
         "terms": "利用規約"
       }
     },
-    "copyright": "© 2026 Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. All rights reserved.",
     "legal": {
       "privacy": "プライバシー",
       "terms": "利用規約",
@@ -152,7 +167,15 @@
     "error": "エラーが発生しました",
     "retry": "再試行",
     "noResults": "結果が見つかりません",
-    "backToHome": "ホームに戻る"
+    "backToHome": "ホームに戻る",
+    "backToApps": "アプリに戻る",
+    "backToGames": "ゲームに戻る",
+    "learnMore": "詳細を見る",
+    "showingResults": "{{total}}件中{{count}}件を表示",
+    "previous": "前へ",
+    "next": "次へ",
+    "notFound": "見つかりません",
+    "goBack": "戻る"
   },
   "filters": {
     "category": "カテゴリ",
@@ -172,11 +195,14 @@
     "emulationType": "エミュレーションタイプ",
     "publisher": "パブリッシャー",
     "category": "カテゴリ",
+    "categories": "カテゴリ",
     "version": "バージョン",
     "lastUpdated": "最終更新日",
     "validation": "検証",
     "visitWebsite": "ウェブサイトを訪問",
     "getThisApp": "このアプリを入手",
+    "notes": "メモ",
+    "notFound": "お探しのプロジェクトが見つかりませんでした。",
     "backToApps": "アプリに戻る",
     "backToGames": "ゲームに戻る"
   },
@@ -217,6 +243,7 @@
   },
   "search": {
     "noResults": "結果が見つかりません",
+    "requestAssistance": "サポートをリクエスト",
     "showMore": "さらに{{count}}件表示",
     "publisherCount": "アプリ{{apps}}件、ゲーム{{games}}件"
   },

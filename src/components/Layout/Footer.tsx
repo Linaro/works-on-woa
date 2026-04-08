@@ -113,7 +113,7 @@ export function Footer() {
               <rect x="10.5" y="10.5" width="8.5" height="8.5" fill="#ffb900" />
             </svg>
             <span className="text-[13px] text-[var(--color-text-tertiary)]">
-              {t("footer.copyright")}
+              {t("footer.copyright", { year: new Date().getFullYear() })}
             </span>
           </div>
           <div className="flex items-center gap-4">

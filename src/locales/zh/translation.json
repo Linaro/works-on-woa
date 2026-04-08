@@ -44,12 +44,26 @@
       "creativity": "创意",
       "dev-tools": "开发工具",
       "security": "安全",
-      "itManagement": "IT 管理"
+      "it-management": "IT 管理"
     }
   },
   "resources": {
     "title": "资源",
     "subtitle": "在 Windows on ARM 上构建、部署和成功所需的一切。",
+    "items": {
+      "gettingStarted": {
+        "title": "开始使用 Windows on ARM",
+        "description": "了解如何设置开发环境、构建第一个 ARM 原生应用并优化性能。"
+      },
+      "prism": {
+        "title": "Prism 内置 x86/x64 模拟",
+        "description": "了解 Prism 转换技术如何使数千个现有应用在 ARM 处理器上无缝运行。"
+      },
+      "windowsOnArm": {
+        "title": "Windows 11 — 专为 ARM 设计",
+        "description": "探索从 Copilot+ PC 到开发者工具，ARM 驱动设备上的完整 Windows 11 体验。"
+      }
+    },
     "gettingStarted": {
       "category": "指南",
       "title": "开始使用 Windows on ARM",
@@ -72,6 +86,7 @@
   "faq": {
     "title": "有问题？",
     "subtitle": "查找关于应用兼容性和 Windows on ARM 的常见问题解答。",
+    "askQuestion": "提问",
     "contactSales": "联系销售",
     "items": [
       {
@@ -134,7 +149,7 @@
         "terms": "使用条款"
       }
     },
-    "copyright": "© 2026 Microsoft. 保留所有权利。",
+    "copyright": "© {{year}} Microsoft. 保留所有权利。",
     "legal": {
       "privacy": "隐私",
       "terms": "条款",
@@ -152,7 +167,15 @@
     "error": "出了点问题",
     "retry": "重试",
     "noResults": "未找到结果",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "backToApps": "返回应用",
+    "backToGames": "返回游戏",
+    "learnMore": "了解更多",
+    "showingResults": "显示 {{total}} 个中的 {{count}} 个结果",
+    "previous": "上一页",
+    "next": "下一页",
+    "notFound": "未找到",
+    "goBack": "返回"
   },
   "filters": {
     "category": "类别",
@@ -172,11 +195,14 @@
     "emulationType": "模拟类型",
     "publisher": "发行商",
     "category": "类别",
+    "categories": "类别",
     "version": "版本",
     "lastUpdated": "最后更新",
     "validation": "验证",
     "visitWebsite": "访问网站",
     "getThisApp": "获取此应用",
+    "notes": "备注",
+    "notFound": "找不到您要查找的项目。",
     "backToApps": "返回应用",
     "backToGames": "返回游戏"
   },
@@ -217,6 +243,7 @@
   },
   "search": {
     "noResults": "未找到结果",
+    "requestAssistance": "请求协助",
     "showMore": "显示更多 {{count}} 个",
     "publisherCount": "{{apps}} 个应用，{{games}} 个游戏"
   },

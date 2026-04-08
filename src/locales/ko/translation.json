@@ -44,12 +44,26 @@
       "creativity": "창의성",
       "dev-tools": "개발 도구",
       "security": "보안",
-      "itManagement": "IT 관리"
+      "it-management": "IT 관리"
     }
   },
   "resources": {
     "title": "리소스",
     "subtitle": "Windows on ARM에서 구축, 배포 및 성공하는 데 필요한 모든 것.",
+    "items": {
+      "gettingStarted": {
+        "title": "Windows on ARM 시작하기",
+        "description": "개발 환경 설정, 첫 ARM 네이티브 앱 빌드 및 성능 최적화 방법을 알아보세요."
+      },
+      "prism": {
+        "title": "Prism을 통한 x86/x64 에뮬레이션",
+        "description": "Prism 변환 기술이 수천 개의 기존 앱을 ARM 프로세서에서 원활하게 실행하는 방법을 이해하세요."
+      },
+      "windowsOnArm": {
+        "title": "Windows 11 — ARM을 위해 설계",
+        "description": "Copilot+ PC부터 개발자 도구까지, ARM 기반 장치에서의 전체 Windows 11 경험을 살펴보세요."
+      }
+    },
     "gettingStarted": {
       "category": "가이드",
       "title": "Windows on ARM 시작하기",
@@ -72,6 +86,7 @@
   "faq": {
     "title": "질문이 있으신가요?",
     "subtitle": "앱 호환성 및 Windows on ARM에 대한 일반적인 질문에 대한 답변을 찾아보세요.",
+    "askQuestion": "질문하기",
     "contactSales": "영업팀 문의",
     "items": [
       {
@@ -134,7 +149,7 @@
         "terms": "이용 약관"
       }
     },
-    "copyright": "© 2026 Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. All rights reserved.",
     "legal": {
       "privacy": "개인정보 보호",
       "terms": "이용 약관",
@@ -152,7 +167,15 @@
     "error": "문제가 발생했습니다",
     "retry": "재시도",
     "noResults": "결과를 찾을 수 없습니다",
-    "backToHome": "홈으로 돌아가기"
+    "backToHome": "홈으로 돌아가기",
+    "backToApps": "앱으로 돌아가기",
+    "backToGames": "게임으로 돌아가기",
+    "learnMore": "자세히 알아보기",
+    "showingResults": "{{total}}개 중 {{count}}개 표시",
+    "previous": "이전",
+    "next": "다음",
+    "notFound": "찾을 수 없음",
+    "goBack": "돌아가기"
   },
   "filters": {
     "category": "카테고리",
@@ -172,11 +195,14 @@
     "emulationType": "에뮬레이션 유형",
     "publisher": "퍼블리셔",
     "category": "카테고리",
+    "categories": "카테고리",
     "version": "버전",
     "lastUpdated": "최종 업데이트",
     "validation": "검증",
     "visitWebsite": "웹사이트 방문",
     "getThisApp": "이 앱 다운로드",
+    "notes": "참고",
+    "notFound": "찾으시는 프로젝트를 찾을 수 없습니다.",
     "backToApps": "앱으로 돌아가기",
     "backToGames": "게임으로 돌아가기"
   },
@@ -217,6 +243,7 @@
   },
   "search": {
     "noResults": "결과를 찾을 수 없습니다",
+    "requestAssistance": "지원 요청",
     "showMore": "{{count}}개 더 보기",
     "publisherCount": "앱 {{apps}}개, 게임 {{games}}개"
   },
