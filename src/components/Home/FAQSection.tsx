@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
-import { Button } from "@/components/Common/Button";
 import { Accordion } from "@/components/Common/Accordion";
 
 export function FAQSection() {
@@ -24,18 +23,6 @@ export function FAQSection() {
           <p className="mt-4 text-[var(--color-text-secondary)]">
             {t("faq.subtitle")}
           </p>
-          <Button
-            variant="secondary"
-            className="mt-6"
-            onClick={() =>
-              window.open(
-                "https://github.com/nicedoc/works-on-woa/issues",
-                "_blank"
-              )
-            }
-          >
-            {t("faq.askQuestion")}
-          </Button>
         </ScrollReveal>
 
         {/* Accordions */}

@@ -1,18 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
-import { Button } from "@/components/Common/Button";
 
 export function Footer() {
   const { t } = useTranslation();
-  const [email, setEmail] = useState("");
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Newsletter subscription — future implementation
-    setEmail("");
-  };
 
   return (
     <footer
@@ -20,34 +11,6 @@ export function Footer() {
       role="contentinfo"
     >
       <Container className="pb-10 pt-20">
-        {/* Newsletter */}
-        <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
-          <div>
-            <h4 className="text-xl font-semibold text-[var(--color-text-primary)]">
-              {t("footer.newsletter.title")}
-            </h4>
-            <p className="mt-1 text-[15px] text-[var(--color-text-secondary)]">
-              {t("footer.newsletter.subtitle")}
-            </p>
-          </div>
-          <form
-            onSubmit={handleSubscribe}
-            className="flex w-full gap-3 md:w-auto"
-          >
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder={t("footer.newsletter.placeholder")}
-              required
-              className="h-11 w-full rounded-[20px] border border-[rgba(255,255,255,0.1)] bg-[rgba(255,255,255,0.06)] px-4 text-sm text-[var(--color-text-primary)] placeholder:text-[var(--color-text-tertiary)] transition-colors focus:border-[var(--color-accent-primary)] focus:outline-none md:w-64"
-            />
-            <Button type="submit" size="sm">
-              {t("footer.newsletter.subscribe")}
-            </Button>
-          </form>
-        </div>
-
         {/* Links Grid */}
         <div className="mt-16 grid grid-cols-2 gap-8 md:grid-cols-4">
           <FooterColumn title={t("footer.columns.product.title")}>
