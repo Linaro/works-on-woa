@@ -1,5 +1,5 @@
 ﻿---
-name: "Embarcardero RAD Studio"
+name: "Delphi"
 categories: ['dev-tools']
 compatibility: native
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "GOM Player- Free Video Player"
+name: "GOM Player - Free Video Player"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

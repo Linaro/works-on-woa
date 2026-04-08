@@ -1,5 +1,5 @@
 ﻿---
-name: "Audio Recorder&voice Recorder Pro"
+name: "Audio Recorder & Voice Recorder Pro"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
