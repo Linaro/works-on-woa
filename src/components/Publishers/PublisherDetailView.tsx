@@ -1,7 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { motion } from "framer-motion";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
@@ -167,11 +166,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
 
   return (
     <Container className="py-10 md:py-16">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-      >
+      <div>
         {/* Back button */}
         <BackButton to="/publishers">
           {t("publishers.backToPublishers")}
@@ -296,7 +291,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
         </div>
 
         <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
-      </motion.div>
+      </div>
     </Container>
   );
 }

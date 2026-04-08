@@ -103,7 +103,7 @@ export function MultiSelect({
                     "flex w-full cursor-pointer items-center gap-2.5 px-4 py-2 text-sm transition-colors",
                     isSelected
                       ? "text-[var(--color-accent-primary)]"
-                      : "text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] hover:bg-[rgba(255,255,255,0.04)]"
+                      : "text-[var(--color-text-primary)] hover:text-[var(--color-text-primary)] hover:bg-[rgba(255,255,255,0.04)]"
                   )}
                 >
                   <span
@@ -111,7 +111,7 @@ export function MultiSelect({
                       "flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors",
                       isSelected
                         ? "border-[var(--color-accent-primary)] bg-[var(--color-accent-primary)]"
-                        : "border-[var(--color-border)]"
+                        : "border-[rgba(255,255,255,0.4)]"
                     )}
                   >
                     {isSelected && <Check className="h-3 w-3 text-white" />}

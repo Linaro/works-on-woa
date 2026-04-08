@@ -1,6 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
@@ -24,19 +23,12 @@ export function RootLayout() {
         Skip to content
       </a>
       <Header />
-      <AnimatePresence mode="wait">
-        <motion.main
-          key={location.pathname}
-          id="main-content"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.3 }}
-          className={`flex-1 ${isWindowsOnArmPage || isHomePage ? "pt-0" : "pt-24"}`}
-        >
-          <Outlet />
-        </motion.main>
-      </AnimatePresence>
+      <main
+        id="main-content"
+        className={`flex-1 ${isWindowsOnArmPage || isHomePage ? "pt-0" : "pt-24"}`}
+      >
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );

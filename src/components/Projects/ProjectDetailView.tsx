@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
-import { motion } from "framer-motion";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { BackButton } from "@/components/Common/BackButton";
@@ -100,11 +99,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
 
   return (
     <Container className="py-10 md:py-16">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
-      >
+      <div>
         {/* Back button */}
         <BackButton to={type === "application" ? "/apps" : "/games"}>
           {type === "application" ? t("common.backToApps") : t("common.backToGames")}
@@ -212,7 +207,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
             </p>
           </div>
         )}
-      </motion.div>
+      </div>
     </Container>
   );
 }
