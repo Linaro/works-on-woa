@@ -1,0 +1,8 @@
+---
+name: "3D CAD Models Engineering"
+categories: ['prod']
+compatibility: native
+display_result: "Compatible"
+version_from: "6.514.49848.0"
+link: https://apps.microsoft.com/detail/9NBLGGH5RMZM
+---
