@@ -2291,7 +2291,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "23.003.20284",
@@ -2307,7 +2307,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2023.006.20320",
@@ -2323,7 +2323,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "26.0",
@@ -2339,7 +2339,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "25.3",
@@ -2355,7 +2355,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2024.4.729.64",
@@ -2371,7 +2371,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.11.0.522.1",
@@ -2387,7 +2387,7 @@
     "categories": [
       "books"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "4.5.12.112",
@@ -2404,7 +2404,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16.5.0.1954",
@@ -2420,7 +2420,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "6.6.0.611",
@@ -2436,7 +2436,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.1.1.0",
@@ -2452,7 +2452,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "link": "https://helpx.adobe.com/fresco/get-started.html",
@@ -2467,7 +2467,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "28.7 beta",
@@ -2483,7 +2483,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "19.5 Beta",
@@ -2499,7 +2499,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "6.5",
@@ -2515,7 +2515,7 @@
     "categories": [
       "multimedia"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "link": "https://www.adobe.com/products/media-encoder.html",
@@ -2530,7 +2530,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "25.5.0.375",
@@ -2546,7 +2546,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "24",
@@ -2562,7 +2562,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.12.430",
@@ -2578,7 +2578,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "14.5.1",
@@ -2594,7 +2594,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "23.6.8",
@@ -2610,7 +2610,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "50.2.4",
@@ -5028,7 +5028,7 @@
     "categories": [
       "books"
     ],
-    "publisher": "",
+    "publisher": "Amazon",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.3.1.70682",
@@ -5044,7 +5044,7 @@
     "categories": [
       "books"
     ],
-    "publisher": "",
+    "publisher": "Amazon",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.3.5(70840)",
@@ -5060,7 +5060,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Amazon",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "9.4.3.2420a",
@@ -5076,7 +5076,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Amazon",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.148.0",
@@ -6497,7 +6497,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Apple",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "14.2",
@@ -6513,7 +6513,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Apple",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "12.12.10.1",
@@ -6530,7 +6530,7 @@
       "music",
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Apple",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.5.2.26",
@@ -6546,7 +6546,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Apple",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.5.2.26",
@@ -12315,7 +12315,7 @@
     "categories": [
       "personal"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.0.0.5",
@@ -16448,7 +16448,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Adobe",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "12.2.0",
@@ -17465,7 +17465,7 @@
     "categories": [
       "ai"
     ],
-    "publisher": "",
+    "publisher": "Open AI",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.2024.281.0",
@@ -18237,7 +18237,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -18471,7 +18471,7 @@
     "categories": [
       "vpn"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.10.08029",
@@ -18487,7 +18487,7 @@
     "categories": [
       "vpn"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.10.08029",
@@ -18503,7 +18503,7 @@
     "categories": [
       "security"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.1.11.388",
@@ -18519,7 +18519,7 @@
     "categories": [
       "vpn"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "5.0.00907",
@@ -18535,7 +18535,7 @@
     "categories": [
       "it"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "7.11.0",
@@ -18551,7 +18551,7 @@
     "categories": [
       "vpn"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.10.08029",
@@ -18567,7 +18567,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "8.2.2.0400",
@@ -18583,7 +18583,7 @@
     "categories": [
       "endpoint-sec"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "8.4.1.x",
@@ -18599,7 +18599,7 @@
     "categories": [
       "it"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://www.cisco.com/c/en/us/products/cloud-systems-management/thousandeyes-end-user-monitoring/index.html",
@@ -18614,7 +18614,7 @@
     "categories": [
       "data-prot"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.0.03072",
@@ -18630,7 +18630,7 @@
     "categories": [
       "endpoint-sec"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "8.4.1",
@@ -18646,7 +18646,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Cisco",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "43.8.0.26955",
@@ -19222,7 +19222,7 @@
     "categories": [
       "ai-tool"
     ],
-    "publisher": "",
+    "publisher": "Anthropic",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "0.9.0",
@@ -19819,7 +19819,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Amazon",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -26709,7 +26709,7 @@
     "categories": [
       "it"
     ],
-    "publisher": "",
+    "publisher": "Dell",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.1",
@@ -28171,7 +28171,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Discord",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.0.9003",
@@ -30473,7 +30473,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Dropbox",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "184.4.6543",
@@ -30489,7 +30489,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Dropbox",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "115.1.0.0",
@@ -30505,7 +30505,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Dropbox",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "23.4.21.0",
@@ -30521,7 +30521,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Dropbox",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "23.4.21.0",
@@ -36068,7 +36068,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Meta",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2023.531.1.0",
@@ -36084,7 +36084,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Meta",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "195.0.0.4.225",
@@ -38326,7 +38326,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Mozilla",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "123.0.0.0",
@@ -38342,7 +38342,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Mozilla",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "128.0a1 (2024-05-15) (64-bit)",
@@ -43004,7 +43004,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.4.5",
@@ -43778,7 +43778,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "116.0.5845.188",
@@ -43794,7 +43794,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -43810,7 +43810,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "100.0.2.0",
@@ -43826,7 +43826,7 @@
     "categories": [
       "nav"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "7.3.6.9345",
@@ -43842,7 +43842,7 @@
     "categories": [
       "ai-tool"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.5 Flash",
@@ -43858,7 +43858,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -43874,7 +43874,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Google",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -48324,7 +48324,7 @@
     "categories": [
       "printers"
     ],
-    "publisher": "",
+    "publisher": "HP",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.08.1.3348",
@@ -48340,7 +48340,7 @@
     "categories": [
       "education"
     ],
-    "publisher": "",
+    "publisher": "HP",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.1.14582.0",
@@ -48952,7 +48952,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Apple",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "14.2",
@@ -50504,7 +50504,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Meta",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "42.0.21.0",
@@ -56141,7 +56141,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.22.0",
@@ -62125,7 +62125,7 @@
     "lastUpdated": "2026-03-02",
     "publisher": "Microsoft",
     "isMicrosoftApp": true
-},
+  },
   {
     "slug": "microsoft-treasure-hunt",
     "name": "Microsoft Treasure Hunt",
@@ -64497,7 +64497,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Mozilla",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "115.7.0.0",
@@ -67766,7 +67766,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Netflix",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "6.98.1805.0",
@@ -69485,7 +69485,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Notion",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.2.1",
@@ -71511,7 +71511,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Opera",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "112.0.5172.0",
@@ -71527,7 +71527,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Opera",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "119.0.5497.70",
@@ -71543,7 +71543,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "",
+    "publisher": "Opera",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "109.0.590",
@@ -71635,7 +71635,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Oracle",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "17.5",
@@ -71651,7 +71651,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "",
+    "publisher": "Oracle",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "12.1.3.0.0",
@@ -71668,7 +71668,7 @@
       "business",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Oracle",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "7.2.0",
@@ -88199,7 +88199,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.23.12130.0",
@@ -88216,7 +88216,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "3.5.21.0",
@@ -88233,7 +88233,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.9.1004.0",
@@ -88249,7 +88249,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.13.17",
@@ -88265,7 +88265,7 @@
     "categories": [
       "kids-family"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.5.49.0",
@@ -88282,7 +88282,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Samsung",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.2.36.0",
@@ -91257,7 +91257,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Signal Foundation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "7.34.0",
@@ -92321,7 +92321,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "15.112.3203.0",
@@ -92352,7 +92352,7 @@
       "collaboration",
       "business"
     ],
-    "publisher": "",
+    "publisher": "Salesforce",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.38.87",
@@ -93339,7 +93339,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Snap Inc.",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.0.1.0",
@@ -95189,7 +95189,7 @@
       "music",
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Spotify",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.219.941.0",
@@ -100204,7 +100204,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Telegram",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.7.2",
@@ -102657,7 +102657,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "ByteDance",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.5.0",
@@ -113093,7 +113093,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Meta",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.2421.1.0",
@@ -116056,7 +116056,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "100.1804.3001.0",
@@ -118287,7 +118287,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Zoom",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.15.7(20303)",
@@ -118304,7 +118304,7 @@
       "collaboration",
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Zoom",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.14.0.0",
@@ -118320,7 +118320,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "",
+    "publisher": "Zoom",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "5.16.10",
@@ -118336,7 +118336,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Zoom",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "5.16.24500",
@@ -123324,7 +123324,7 @@
     "categories": [
       "it-tools-vdi"
     ],
-    "publisher": "",
+    "publisher": "Lenovo",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "9.0.1830.092",
@@ -123340,7 +123340,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "",
+    "publisher": "Lenovo",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "9.0.5.722",
@@ -123356,7 +123356,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "",
+    "publisher": "Lenovo",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "5.1.80.906",
@@ -123372,7 +123372,7 @@
     "categories": [
       "it-tools-vdi"
     ],
-    "publisher": "",
+    "publisher": "Lenovo",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.4.11.1",
@@ -123820,7 +123820,7 @@
     "categories": [
       "it-tools-vdi"
     ],
-    "publisher": "",
+    "publisher": "Lenovo",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "08.0.0.112.000",
