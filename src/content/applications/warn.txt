@@ -1,0 +1,592 @@
+Duplicate for key: https://learn.microsoft.com/en-us/sysinternals/downloads/, 
+ - d:\projects\works-on-woa\src\content\applications\AccessChk.md
+ - d:\projects\works-on-woa\src\content\applications\AccessEnum.md
+ - d:\projects\works-on-woa\src\content\applications\Autoruns.md
+ - d:\projects\works-on-woa\src\content\applications\BgInfo.md
+ - d:\projects\works-on-woa\src\content\applications\BlueScreen.md
+ - d:\projects\works-on-woa\src\content\applications\CacheSet.md
+ - d:\projects\works-on-woa\src\content\applications\ClockRes.md
+ - d:\projects\works-on-woa\src\content\applications\Contig.md
+ - d:\projects\works-on-woa\src\content\applications\CoreInfo.md
+ - d:\projects\works-on-woa\src\content\applications\DebugView.md
+ - d:\projects\works-on-woa\src\content\applications\Desktops.md
+ - d:\projects\works-on-woa\src\content\applications\Disk2vhd.md
+ - d:\projects\works-on-woa\src\content\applications\DiskExt.md
+ - d:\projects\works-on-woa\src\content\applications\Diskmon.md
+ - d:\projects\works-on-woa\src\content\applications\DiskUsage.md
+ - d:\projects\works-on-woa\src\content\applications\Diskview.md
+ - d:\projects\works-on-woa\src\content\applications\FindLinks.md
+ - d:\projects\works-on-woa\src\content\applications\Handle.md
+ - d:\projects\works-on-woa\src\content\applications\Hex2Dec.md
+ - d:\projects\works-on-woa\src\content\applications\Junction.md
+ - d:\projects\works-on-woa\src\content\applications\LDMDump.md
+ - d:\projects\works-on-woa\src\content\applications\LiveKd.md
+ - d:\projects\works-on-woa\src\content\applications\LoadOrder.md
+ - d:\projects\works-on-woa\src\content\applications\LogonSessions.md
+ - d:\projects\works-on-woa\src\content\applications\MoveFile.md
+ - d:\projects\works-on-woa\src\content\applications\NotMyFault.md
+ - d:\projects\works-on-woa\src\content\applications\NTFSInfo.md
+ - d:\projects\works-on-woa\src\content\applications\PendMoves.md
+ - d:\projects\works-on-woa\src\content\applications\PipeList.md
+ - d:\projects\works-on-woa\src\content\applications\PsGetSid.md
+ - d:\projects\works-on-woa\src\content\applications\PsInfo.md
+ - d:\projects\works-on-woa\src\content\applications\PsKill.md
+ - d:\projects\works-on-woa\src\content\applications\PsList.md
+ - d:\projects\works-on-woa\src\content\applications\PsLoggedOn.md
+ - d:\projects\works-on-woa\src\content\applications\PsLogList.md
+ - d:\projects\works-on-woa\src\content\applications\PsPasswd.md
+ - d:\projects\works-on-woa\src\content\applications\PsService.md
+ - d:\projects\works-on-woa\src\content\applications\PsSuspend.md
+ - d:\projects\works-on-woa\src\content\applications\RAMMAP.md
+ - d:\projects\works-on-woa\src\content\applications\RegDelNull.md
+ - d:\projects\works-on-woa\src\content\applications\RegJump.md
+ - d:\projects\works-on-woa\src\content\applications\RU.md
+ - d:\projects\works-on-woa\src\content\applications\Sdelete.md
+ - d:\projects\works-on-woa\src\content\applications\SigCheck.md
+ - d:\projects\works-on-woa\src\content\applications\Streams.md
+ - d:\projects\works-on-woa\src\content\applications\Strings.md
+ - d:\projects\works-on-woa\src\content\applications\TCPView.md
+ - d:\projects\works-on-woa\src\content\applications\VMMap.md
+ - d:\projects\works-on-woa\src\content\applications\VolumeID.md
+ - d:\projects\works-on-woa\src\content\applications\WHoIs.md
+ - d:\projects\works-on-woa\src\content\applications\WinObj.md
+Duplicate for key: https://www.malwarebytes.com/adwcleaner, 
+ - d:\projects\works-on-woa\src\content\applications\AdwCleaner.md
+ - d:\projects\works-on-woa\src\content\applications\MalwarebytesAdwCleaner.md
+Duplicate for key: https://apps.microsoft.com/detail/XP9KLGKKZV8ZT2, 
+ - d:\projects\works-on-woa\src\content\applications\AIActionFiguregenerator.md
+ - d:\projects\works-on-woa\src\content\applications\AIActionFigureGeneratorTurnYourPhototoAIToy.md
+Duplicate for key: https://apps.microsoft.com/detail/9P5LJFJZM96C, 
+ - d:\projects\works-on-woa\src\content\applications\AIPoseGenerator3DPoserforArtPainting.md
+ - d:\projects\works-on-woa\src\content\applications\AIPoseGeneratorModelillustration.md
+Duplicate for key: https://apps.microsoft.com/detail/9WZDNCRFJ5GB, 
+ - d:\projects\works-on-woa\src\content\applications\AIQuran.md
+ - d:\projects\works-on-woa\src\content\applications\AlQuran.md
+Duplicate for key: https://www.msi.co.jp, 
+ - d:\projects\works-on-woa\src\content\applications\Alkano.md
+ - d:\projects\works-on-woa\src\content\applications\BayoLinkS.md
+Duplicate for key: https://apps.microsoft.com/detail/9NJ2NG43SGZ2, 
+ - d:\projects\works-on-woa\src\content\applications\AllVideoDownloaderGetVid.md
+ - d:\projects\works-on-woa\src\content\applications\GetVid.md
+Duplicate for key: https://www.amazon.in/gp/browse.html?node=100105588031&ref=kcp_fd_hz, 
+ - d:\projects\works-on-woa\src\content\applications\AmazonKindleforPC.md
+ - d:\projects\works-on-woa\src\content\applications\KindleforPC.md
+Duplicate for key: https://apps.microsoft.com/detail/9PMH9P0FSW34, 
+ - d:\projects\works-on-woa\src\content\applications\Animatedwatermakonvideo.md
+ - d:\projects\works-on-woa\src\content\applications\AnimatedWatermarkonVideo.md
+Duplicate for key: https://apps.microsoft.com/detail/9P9H6D79TT3V, 
+ - d:\projects\works-on-woa\src\content\applications\AnyAudioconverter.md
+ - d:\projects\works-on-woa\src\content\applications\AudioConverterAudioFormatConverter.md
+Duplicate for key: https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview, 
+ - d:\projects\works-on-woa\src\content\applications\ArcGISArcMap.md
+ - d:\projects\works-on-woa\src\content\applications\ArcGISPro.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVGRQM5KS28, 
+ - d:\projects\works-on-woa\src\content\applications\ArtPixelColorbyNumber.md
+ - d:\projects\works-on-woa\src\content\applications\ArtPixelsColorbyNumber.md
+Duplicate for key: https://apps.microsoft.com/detail/9MZMH9WZQSD5, 
+ - d:\projects\works-on-woa\src\content\applications\Asteroids.cf382da9.md
+ - d:\projects\works-on-woa\src\content\applications\Asteroids.md
+Duplicate for key: https://apps.microsoft.com/detail/9P2WFQRCLW7C, 
+ - d:\projects\works-on-woa\src\content\applications\AUDIOEDIT.md
+ - d:\projects\works-on-woa\src\content\applications\AUDIOEDITAudioEditingControls.md
+Duplicate for key: https://apps.microsoft.com/detail/9PNVJQCBHZWJ, 
+ - d:\projects\works-on-woa\src\content\applications\AudioEditingToolMusicEffectsStudio.md
+ - d:\projects\works-on-woa\src\content\applications\AudioEditingToolMusicMakerSoftware.md
+Duplicate for key: https://apps.microsoft.com/detail/9N5F7QHXL8ZC, 
+ - d:\projects\works-on-woa\src\content\applications\Aurorafastprivatewebbrowser.md
+ - d:\projects\works-on-woa\src\content\applications\AuroralightAIwebbrowser.md
+Duplicate for key: https://www.autodesk.in/, 
+ - d:\projects\works-on-woa\src\content\applications\AutodeskAutoCADArchitecture.md
+ - d:\projects\works-on-woa\src\content\applications\AutodeskAutoCADMEP.md
+Duplicate for key: https://www.autodesk.com/products/design-review/download, 
+ - d:\projects\works-on-woa\src\content\applications\AutodeskDesignReview.md
+ - d:\projects\works-on-woa\src\content\applications\AutoDeskDesktopApp.md
+Duplicate for key: https://www.autohotkey.com/, 
+ - d:\projects\works-on-woa\src\content\applications\AutoHotKey.md
+ - d:\projects\works-on-woa\src\content\applications\AutoHotKeyv2019.md
+Duplicate for key: https://apps.microsoft.com/detail/9N9PZSP6WC3K, 
+ - d:\projects\works-on-woa\src\content\applications\BarcodeManager.md
+ - d:\projects\works-on-woa\src\content\applications\BarcodeManagerforWindows.md
+Duplicate for key: https://zoom.us/download, 
+ - d:\projects\works-on-woa\src\content\applications\Batterytracker.md
+ - d:\projects\works-on-woa\src\content\applications\ScreenToGif.md
+Duplicate for key: https://apps.microsoft.com/detail/9NP07WDDR01P, 
+ - d:\projects\works-on-woa\src\content\applications\BbeanCalendar.md
+ - d:\projects\works-on-woa\src\content\applications\BBeanCalendarScheduleSpending.md
+Duplicate for key: https://github.com/bitwarden/clients/releases, 
+ - d:\projects\works-on-woa\src\content\applications\BitWarden.md
+ - d:\projects\works-on-woa\src\content\applications\Bitwarden_desktop_.md
+Duplicate for key: https://apps.microsoft.com/detail/9pnxw61t4t0v, 
+ - d:\projects\works-on-woa\src\content\applications\Bluebird.md
+ - d:\projects\works-on-woa\src\content\applications\BlueBirdBrowser.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH4P167, 
+ - d:\projects\works-on-woa\src\content\applications\BodybuildingandFitnesssimulator.md
+ - d:\projects\works-on-woa\src\content\applications\BodybuildingandFitnessTrainingSimulator.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrdfd1f, 
+ - d:\projects\works-on-woa\src\content\applications\Books.md
+ - d:\projects\works-on-woa\src\content\applications\ZohoBooksAccountingSoftwareforBusinesses.md
+Duplicate for key: https://www.microsoft.com/store/productId/9PP81H1NCZS1?ocid=pdpshare, 
+ - d:\projects\works-on-woa\src\content\applications\Boom3D.md
+ - d:\projects\works-on-woa\src\content\applications\Boom3DAudioEnhancerEqualizerBass.md
+Duplicate for key: https://www.box.com/resources/downloads, 
+ - d:\projects\works-on-woa\src\content\applications\Box.md
+ - d:\projects\works-on-woa\src\content\applications\BoxDrive.md
+Duplicate for key: https://www.microsoft.com/store/productId/9NXKFGFQNCXS?ocid=pdpshare, 
+ - d:\projects\works-on-woa\src\content\applications\BreeAI.md
+ - d:\projects\works-on-woa\src\content\applications\BreeAIChatBot.md
+Duplicate for key: https://apps.microsoft.com/detail/XPFCTLDJ27CSQG, 
+ - d:\projects\works-on-woa\src\content\applications\btBase64.md
+ - d:\projects\works-on-woa\src\content\applications\softorbitsvideo.md
+Duplicate for key: https://apps.microsoft.com/detail/9NCJSM6L4MTX, 
+ - d:\projects\works-on-woa\src\content\applications\BusinessCardMakerTemplates.md
+ - d:\projects\works-on-woa\src\content\applications\BusinessCardMakerTemplatesDesigner.md
+Duplicate for key: https://pdf.55.la/news/, 
+ - d:\projects\works-on-woa\src\content\applications\CADZhuanzhuanCADEditor.md
+ - d:\projects\works-on-woa\src\content\applications\PDFZhuanzhuanPDFConverter.md
+ - d:\projects\works-on-woa\src\content\applications\PDFZhuanzhuanPDFEditor.md
+ - d:\projects\works-on-woa\src\content\applications\ZhuanzhuanImageConverter.md
+Duplicate for key: https://cad.caxa.com/pc/softdownload, 
+ - d:\projects\works-on-woa\src\content\applications\CAXACAD2024CAXACADBoard2024.md
+ - d:\projects\works-on-woa\src\content\applications\CAXACAXAElectronicDrawingBoard.md
+Duplicate for key: https://apps.microsoft.com/detail/xpfcwp0sqwxm3v, 
+ - d:\projects\works-on-woa\src\content\applications\Ccleaner.md
+ - d:\projects\works-on-woa\src\content\applications\CCleaner7.md
+Duplicate for key: https://chaogejiaoyu.com/download, 
+ - d:\projects\works-on-woa\src\content\applications\CGBOX.md
+ - d:\projects\works-on-woa\src\content\applications\Superclient.md
+Duplicate for key: https://apps.microsoft.com/detail/9PD73X65FXMG, 
+ - d:\projects\works-on-woa\src\content\applications\ChasysDrawIES.md
+ - d:\projects\works-on-woa\src\content\applications\ChasysPhotoEditorViewerandConverter.md
+Duplicate for key: https://apps.microsoft.com/detail/9P5DDWP14CB7, 
+ - d:\projects\works-on-woa\src\content\applications\Chatbot4oOfficialChatAI.md
+ - d:\projects\works-on-woa\src\content\applications\ChatRobot45ChatbotwithGPT.md
+Duplicate for key: https://support.checkpoint.com/results/sk/sk170777, 
+ - d:\projects\works-on-woa\src\content\applications\CheckpointMobile.md
+ - d:\projects\works-on-woa\src\content\applications\CheckpointSecurRemote.md
+Duplicate for key: https://apps.microsoft.com/detail/XPFFWH44RPBGQJ, 
+ - d:\projects\works-on-woa\src\content\applications\ChromaFiler.md
+ - d:\projects\works-on-woa\src\content\applications\fgadgetCPUMeterLite.md
+Duplicate for key: https://apps.microsoft.com/detail/9MVNNMSMRC4B, 
+ - d:\projects\works-on-woa\src\content\applications\Chronos.md
+ - d:\projects\works-on-woa\src\content\applications\ChronosDiaryJournalApp.md
+Duplicate for key: https://software.cisco.com/download/home/286281283/type/282364313/release/4.10.08029, 
+ - d:\projects\works-on-woa\src\content\applications\CiscoAnyConnectNVM.md
+ - d:\projects\works-on-woa\src\content\applications\CiscoISEPosture.md
+Duplicate for key: https://www.cisco.com, 
+ - d:\projects\works-on-woa\src\content\applications\CiscoAnyConnectSecureFirewallPostureModule.md
+ - d:\projects\works-on-woa\src\content\applications\CiscoVulnerabilityManagement.md
+Duplicate for key: https://apps.microsoft.com/detail/XPDNTQ2DV6NXXV, 
+ - d:\projects\works-on-woa\src\content\applications\cisdemvideoconverter.md
+ - d:\projects\works-on-woa\src\content\applications\CisdemVideoConverterconvertdownloadvideoripDVDBD.md
+Duplicate for key: https://apps.microsoft.com/detail/9PFQQCR7J681, 
+ - d:\projects\works-on-woa\src\content\applications\ColorbynumberColoringPagesAntisres.md
+ - d:\projects\works-on-woa\src\content\applications\ColorByNumberColoringPagesAntistress.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH408BK, 
+ - d:\projects\works-on-woa\src\content\applications\coloredNote.md
+ - d:\projects\works-on-woa\src\content\applications\nTeamGenerator.md
+Duplicate for key: https://apps.microsoft.com/detail/9nvx1mm0gblq, 
+ - d:\projects\works-on-woa\src\content\applications\ColoringBookDrawingForAdultsAndKids.md
+ - d:\projects\works-on-woa\src\content\applications\ColoringBookHarmony.md
+Duplicate for key: https://apps.microsoft.com/detail/9PP2R0J98D0X, 
+ - d:\projects\works-on-woa\src\content\applications\convertyouremailsMBOXtoPST.md
+ - d:\projects\works-on-woa\src\content\applications\ConvertYourEmailsMBOXtoPSTconverter.md
+Duplicate for key: https://apps.microsoft.com/detail/9NB9N7XWFLFQ, 
+ - d:\projects\works-on-woa\src\content\applications\CookingGameaApp.md
+ - d:\projects\works-on-woa\src\content\applications\CookingGamesApp.md
+Duplicate for key: https://www.wordperfect.com/en/product/office-suite/, 
+ - d:\projects\works-on-woa\src\content\applications\CorelWordPerfectOffice.md
+ - d:\projects\works-on-woa\src\content\applications\WordPerfectOffice.md
+Duplicate for key: https://apps.microsoft.com/detail/9P63K2Q56M1X, 
+ - d:\projects\works-on-woa\src\content\applications\CountdownTimerClock.md
+ - d:\projects\works-on-woa\src\content\applications\SIMPLEALARM.md
+Duplicate for key: https://www.microsoft.com/store/productId/9NC38RWWF1GX?ocid=pdpshare, 
+ - d:\projects\works-on-woa\src\content\applications\Crazyvideomaker2.md
+ - d:\projects\works-on-woa\src\content\applications\crazyvideomaker2videoeditormoviemaker.md
+Duplicate for key: https://www.crowdstrike.com/products/trials/try-falcon-prevent/, 
+ - d:\projects\works-on-woa\src\content\applications\CrowdStrikeEDR.md
+ - d:\projects\works-on-woa\src\content\applications\CrowdStrikeProtectOSML.md
+ - d:\projects\works-on-woa\src\content\applications\CrowdStrikeScriptControl.md
+Duplicate for key: https://apps.microsoft.com/detail/9MSZ40SLW145, 
+ - d:\projects\works-on-woa\src\content\applications\CryptoLive.md
+ - d:\projects\works-on-woa\src\content\applications\Easyplayer.md
+Duplicate for key: https://apps.microsoft.com/detail/9N3K66TDXC6V, 
+ - d:\projects\works-on-woa\src\content\applications\CSVto0365MigrationImportContactOnly.md
+ - d:\projects\works-on-woa\src\content\applications\CSVtoO365MigrationImportContactOnly.md
+Duplicate for key: https://apps.microsoft.com/detail/9P5P66K6H2ST, 
+ - d:\projects\works-on-woa\src\content\applications\CursorWallpaper.md
+ - d:\projects\works-on-woa\src\content\applications\Taskit.md
+Duplicate for key: https://apps.microsoft.com/detail/9MXGM22XWVQZ, 
+ - d:\projects\works-on-woa\src\content\applications\CVTemplates.md
+ - d:\projects\works-on-woa\src\content\applications\CVTemplatesPaperWritingForJobSearch.md
+Duplicate for key: https://www.cyberlink.com/downloads/application-manager/download_en_IN.html?r=1, 
+ - d:\projects\works-on-woa\src\content\applications\CyberlinkPowerDirectorEssential.md
+ - d:\projects\works-on-woa\src\content\applications\Cyberlinkscreenrecorder.md
+Duplicate for key: https://www.dameware.com/downloads, 
+ - d:\projects\works-on-woa\src\content\applications\DameWare.md
+ - d:\projects\works-on-woa\src\content\applications\DameWareMiniRemoteControlApp.md
+Duplicate for key: https://apps.microsoft.com/detail/9PHVZK7FFG3K, 
+ - d:\projects\works-on-woa\src\content\applications\DancingLettersproGIFMP4AnimationMaker.md
+ - d:\projects\works-on-woa\src\content\applications\GIFMakerDancingLettersPro.md
+Duplicate for key: https://apps.microsoft.com/detail/9N9W33352L39, 
+ - d:\projects\works-on-woa\src\content\applications\DebutVideoRecorder.md
+ - d:\projects\works-on-woa\src\content\applications\DebutVideoRecorderExpressEdition.md
+Duplicate for key: https://blogs.embarcadero.com/announcing-the-availability-of-rad-studio-13-florence-update-1/, 
+ - d:\projects\works-on-woa\src\content\applications\Delphi.md
+ - d:\projects\works-on-woa\src\content\applications\RADStudio.md
+Duplicate for key: https://apps.microsoft.com/detail/9NXR6FM13FFH, 
+ - d:\projects\works-on-woa\src\content\applications\DesktopWidgetTool.md
+ - d:\projects\works-on-woa\src\content\applications\DesktopWidgetToolsCustomCalendarandClock.md
+Duplicate for key: https://apps.microsoft.com/detail/9NXBC6LW30HR, 
+ - d:\projects\works-on-woa\src\content\applications\DigitalPlannerCreativeAgendaOrganizer.md
+ - d:\projects\works-on-woa\src\content\applications\DigitalplannerproCreativeOrganizerAgenda.md
+Duplicate for key: https://apps.microsoft.com/detail/9NCT0GH4HSFZ, 
+ - d:\projects\works-on-woa\src\content\applications\DJStationGroovePadRemixerBeatMaker.md
+ - d:\projects\works-on-woa\src\content\applications\DJStationMixingPadBeatMaker.md
+Duplicate for key: https://apps.microsoft.com/detail/9WZDNCRFHWQT, 
+ - d:\projects\works-on-woa\src\content\applications\DrawboardPDF.md
+ - d:\projects\works-on-woa\src\content\applications\DrawboardPDFNotes.md
+Duplicate for key: https://apps.microsoft.com/detail/9NXSX2KDNKMT, 
+ - d:\projects\works-on-woa\src\content\applications\DreamPlanHomeDesignSoftware.md
+ - d:\projects\works-on-woa\src\content\applications\DreamPlanHomeDesignSoftwareExpressEdition.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrfj0pk, 
+ - d:\projects\works-on-woa\src\content\applications\DropboxforSmode.md
+ - d:\projects\works-on-woa\src\content\applications\Dropboxlite.md
+Duplicate for key: https://apps.microsoft.com/detail/9N5SF581V968, 
+ - d:\projects\works-on-woa\src\content\applications\DucklingMemosticklynotesapp.md
+ - d:\projects\works-on-woa\src\content\applications\DucklingMemoStickynotesapp.md
+Duplicate for key: https://apps.microsoft.com/detail/9N5J109K69QL, 
+ - d:\projects\works-on-woa\src\content\applications\DVDPlayerAllFormatSupport4K.md
+ - d:\projects\works-on-woa\src\content\applications\DVDPlayerAllFormatSupports4k.md
+Duplicate for key: https://apps.microsoft.com/detail/9NXW1RS1KGQP, 
+ - d:\projects\works-on-woa\src\content\applications\EasybannerFP.md
+ - d:\projects\works-on-woa\src\content\applications\EasybannerFreemium.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH626NC, 
+ - d:\projects\works-on-woa\src\content\applications\EasyMailEmailMessagingandmore.md
+ - d:\projects\works-on-woa\src\content\applications\EasyMailforGmail.md
+Duplicate for key: https://www.hik-cloud.com/teach-prepare-web/download.html#/download, 
+ - d:\projects\works-on-woa\src\content\applications\Easyteachingassistant.md
+ - d:\projects\works-on-woa\src\content\applications\Videobooth.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVNH6QNH8WR, 
+ - d:\projects\works-on-woa\src\content\applications\EasyTimeManagerAddictiveTimeTrackerandManager.md
+ - d:\projects\works-on-woa\src\content\applications\EasytimemanagerFreetimetrackerPomodoroFocustimer.md
+Duplicate for key: https://apps.microsoft.com/detail/9NTDNKJVPFX7, 
+ - d:\projects\works-on-woa\src\content\applications\EasyTimeTracker.md
+ - d:\projects\works-on-woa\src\content\applications\TimeTracker.md
+Duplicate for key: https://www.obcnet.jp/news/25015, 
+ - d:\projects\works-on-woa\src\content\applications\EdgeKanjoBugyoEdge.md
+ - d:\projects\works-on-woa\src\content\applications\KanjoBugyoCloud.md
+Duplicate for key: https://apps.microsoft.com/detail/9NTVKK8W0Z1G, 
+ - d:\projects\works-on-woa\src\content\applications\Elisi.md
+ - d:\projects\works-on-woa\src\content\applications\ElisiAISmartTaskPlanner.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH537DF, 
+ - d:\projects\works-on-woa\src\content\applications\EmEditortexteditor64bit.md
+ - d:\projects\works-on-woa\src\content\applications\Emurasoft.md
+Duplicate for key: https://apps.microsoft.com/detail/9WZDNCRFJ43B, 
+ - d:\projects\works-on-woa\src\content\applications\EPUBeBookReader.md
+ - d:\projects\works-on-woa\src\content\applications\fredaepubebookreader.md
+Duplicate for key: https://apps.microsoft.com/detail/9N2G717XGJS7, 
+ - d:\projects\works-on-woa\src\content\applications\eTimer.md
+ - d:\projects\works-on-woa\src\content\applications\OneTask.md
+Duplicate for key: https://apps.microsoft.com/detail/9N2CWDRQV3LZ, 
+ - d:\projects\works-on-woa\src\content\applications\ExpressAccountsAccountingSoftware.md
+ - d:\projects\works-on-woa\src\content\applications\ExpressAccountsAccountingSoftwareExpressEdition.md
+Duplicate for key: https://www.fengyunsoft.cn, 
+ - d:\projects\works-on-woa\src\content\applications\FengyunMultiChat.md
+ - d:\projects\works-on-woa\src\content\applications\PDFFengyunPDFConverter.md
+Duplicate for key: https://apps.microsoft.com/detail/9nsf023x0mqs, 
+ - d:\projects\works-on-woa\src\content\applications\FilmForth.md
+ - d:\projects\works-on-woa\src\content\applications\MovieMakerVideoEditor.md
+Duplicate for key: https://apps.microsoft.com/detail/9NFPNX6XF6Z7, 
+ - d:\projects\works-on-woa\src\content\applications\FineScreenRecorderScreenRecord.md
+ - d:\projects\works-on-woa\src\content\applications\FinescreenrecorderScrrenrecord.md
+Duplicate for key: https://apps.microsoft.com/detail/9NDPRQSM3VFK, 
+ - d:\projects\works-on-woa\src\content\applications\FitonFreeFitnessWorkoutsPersonaizedPlans.md
+ - d:\projects\works-on-woa\src\content\applications\FitOnFreeFitnessWorkoutsPersonalizedPlans.md
+Duplicate for key: https://apps.microsoft.com/detail/9PGT8J90R869, 
+ - d:\projects\works-on-woa\src\content\applications\FlexformInfiniteNoteCanvas.md
+ - d:\projects\works-on-woa\src\content\applications\Freeform.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVSDC6F723M, 
+ - d:\projects\works-on-woa\src\content\applications\FlyerandBusinessCardMakerCustomize.md
+ - d:\projects\works-on-woa\src\content\applications\FlyerandBusinessCardMakerTemplatesDesigner.md
+Duplicate for key: https://apps.microsoft.com/detail/9NNFPJPDK076, 
+ - d:\projects\works-on-woa\src\content\applications\FocusCommit.md
+ - d:\projects\works-on-woa\src\content\applications\FocusCommitPomodoroTimerPlanner.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVFZPV0V0HT, 
+ - d:\projects\works-on-woa\src\content\applications\Folo.md
+ - d:\projects\works-on-woa\src\content\applications\FoloFolloweverythinginoneplace.md
+Duplicate for key: https://apps.microsoft.com/detail/9MXD2H8S2SK4, 
+ - d:\projects\works-on-woa\src\content\applications\FoxycapeReader.md
+ - d:\projects\works-on-woa\src\content\applications\LinghuBrosReader.md
+Duplicate for key: https://apps.microsoft.com/detail/9nwb19v7v858, 
+ - d:\projects\works-on-woa\src\content\applications\FreeMp3Cutter.md
+ - d:\projects\works-on-woa\src\content\applications\MP3CutterForWindows10.md
+Duplicate for key: https://apps.microsoft.com/detail/9mwcs6hvdm34, 
+ - d:\projects\works-on-woa\src\content\applications\FrostWire.md
+ - d:\projects\works-on-woa\src\content\applications\FrostWireTorrentDownloader.md
+Duplicate for key: https://www.sourcenext.com/support/contents/install/?i=support-top, 
+ - d:\projects\works-on-woa\src\content\applications\FudemameSelect2025.md
+ - d:\projects\works-on-woa\src\content\applications\Fudeohver29.md
+Duplicate for key: https://sourceforge.net/projects/mingw/, 
+ - d:\projects\works-on-woa\src\content\applications\GCC.md
+ - d:\projects\works-on-woa\src\content\applications\MinGW.md
+Duplicate for key: https://apps.microsoft.com/detail/9WZDNCRFJ0F2, 
+ - d:\projects\works-on-woa\src\content\applications\GeoPhotoGeotagyour.md
+ - d:\projects\works-on-woa\src\content\applications\GeoPhotoGeotagyourphotos.md
+Duplicate for key: https://apps.microsoft.com/detail/9n91n2jqgbzv, 
+ - d:\projects\works-on-woa\src\content\applications\GhotitRealWriterandReader.md
+ - d:\projects\works-on-woa\src\content\applications\RealWriterReader.md
+Duplicate for key: https://www.gnway.com/prod/esoonlink/, 
+ - d:\projects\works-on-woa\src\content\applications\GoldenWanweiSpeedLinkStandardEditionclient.md
+ - d:\projects\works-on-woa\src\content\applications\YisuLink.md
+Duplicate for key: https://apps.microsoft.com/detail/9NDGXMS8L507, 
+ - d:\projects\works-on-woa\src\content\applications\GoTodoTaskDocsReminders.md
+ - d:\projects\works-on-woa\src\content\applications\GoTodoTasksDocsReminders.md
+Duplicate for key: https://apps.microsoft.com/detail/XPFMX35TN58905, 
+ - d:\projects\works-on-woa\src\content\applications\gTok.md
+ - d:\projects\works-on-woa\src\content\applications\Stickies.md
+Duplicate for key: https://apps.microsoft.com/detail/9P60LHX9W0CV, 
+ - d:\projects\works-on-woa\src\content\applications\GXAIAIChatbotGroket.md
+ - d:\projects\works-on-woa\src\content\applications\GXAIPoweredbyAIChatbot.md
+Duplicate for key: https://apps.microsoft.com/detail/9NS67S0NTLZW, 
+ - d:\projects\works-on-woa\src\content\applications\HEICConverterHEICtoJPGPhotoViewer.md
+ - d:\projects\works-on-woa\src\content\applications\HEICConverterHEICtoJPGPhotoViewerPrinter.md
+Duplicate for key: https://apps.microsoft.com/detail/9PH2PXWJK18F, 
+ - d:\projects\works-on-woa\src\content\applications\HellocatColoringBook.md
+ - d:\projects\works-on-woa\src\content\applications\HelloCatColoringBookPages.md
+Duplicate for key: https://apps.microsoft.com/detail/XP8LGJ4RPLDLR6, 
+ - d:\projects\works-on-woa\src\content\applications\HitPawFotorPea.md
+ - d:\projects\works-on-woa\src\content\applications\HitPawFotorPeaAIPhotoEditorEnhancer.md
+Duplicate for key: https://apps.microsoft.com/detail/9P8N1G515J1Q, 
+ - d:\projects\works-on-woa\src\content\applications\HousePlanningSketchesApartmentFloorplanner.md
+ - d:\projects\works-on-woa\src\content\applications\HousePlanningSketchesCad3DHomeModeling.md
+Duplicate for key: https://apps.microsoft.com/detail/9NFGZLSQ1K31, 
+ - d:\projects\works-on-woa\src\content\applications\hubcardsDigitalBusinessCardsMakerAddress.md
+ - d:\projects\works-on-woa\src\content\applications\hubcardsDigitalBusinessCardsMakerAddressBook.md
+Duplicate for key: https://apps.microsoft.com/detail/9PJ5BMXL4WRL, 
+ - d:\projects\works-on-woa\src\content\applications\IdeaMappingFlowDiagramforGoalSetting.md
+ - d:\projects\works-on-woa\src\content\applications\IdeaMappingGoalVisualiserPlanning.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVZ8NXQRQR4, 
+ - d:\projects\works-on-woa\src\content\applications\ImgTeal.md
+ - d:\projects\works-on-woa\src\content\applications\MustDO.md
+Duplicate for key: https://www.ivanti.com/products/patch-for-endpoint-manager, 
+ - d:\projects\works-on-woa\src\content\applications\IvantiEPMPatchManagement.md
+ - d:\projects\works-on-woa\src\content\applications\IvantiNeuronsUEMNativePatching.md
+Duplicate for key: https://apps.microsoft.com/detail/9n318r854rhh, 
+ - d:\projects\works-on-woa\src\content\applications\Journal.md
+ - d:\projects\works-on-woa\src\content\applications\MicrosoftJournal.md
+Duplicate for key: https://kg.qq.com/index-pc.html, 
+ - d:\projects\works-on-woa\src\content\applications\KWesing.md
+ - d:\projects\works-on-woa\src\content\applications\KWeSingAnchor.md
+Duplicate for key: https://www.logmein.com/, 
+ - d:\projects\works-on-woa\src\content\applications\LogMeIn.md
+ - d:\projects\works-on-woa\src\content\applications\LogMeInRescue.md
+Duplicate for key: https://apps.microsoft.com/detail/9N5TTRD82SS6, 
+ - d:\projects\works-on-woa\src\content\applications\MasterofTyping3Learntotype.md
+ - d:\projects\works-on-woa\src\content\applications\MasterofTyping3LearntoTypeFaster.md
+Duplicate for key: https://apps.microsoft.com/detail/9N4F69HXK2LP, 
+ - d:\projects\works-on-woa\src\content\applications\Mconverter.md
+ - d:\projects\works-on-woa\src\content\applications\MConverterFileConverterPDFCompressor.md
+Duplicate for key: https://www.mendeley.com/download-reference-manager/windows, 
+ - d:\projects\works-on-woa\src\content\applications\MendeleyDesktop.md
+ - d:\projects\works-on-woa\src\content\applications\MendeleyReferenceManager.md
+Duplicate for key: https://apps.microsoft.com/detail/9PL6KDMD1V8X, 
+ - d:\projects\works-on-woa\src\content\applications\MergePDFFiles.md
+ - d:\projects\works-on-woa\src\content\applications\SwitchDodger.md
+Duplicate for key: https://learn.arm.com/install-guides/hyper-v/?utm_source=copilot.com, 
+ - d:\projects\works-on-woa\src\content\applications\MicrosoftHyperVManager.md
+ - d:\projects\works-on-woa\src\content\applications\MicrosoftHyperVPlatform.md
+Duplicate for key: https://apps.microsoft.com/detail/9mvt92nrf5mx, 
+ - d:\projects\works-on-woa\src\content\applications\MicrosoftSketchPal.md
+ - d:\projects\works-on-woa\src\content\applications\SketchPal.md
+Duplicate for key: https://apps.microsoft.com/detail/9NZBRGQWDM7K, 
+ - d:\projects\works-on-woa\src\content\applications\MossaikPresets.md
+ - d:\projects\works-on-woa\src\content\applications\MossaikPresetsPhotoFilters.md
+Duplicate for key: https://apps.microsoft.com/detail/XP9K238D38F6B7, 
+ - d:\projects\works-on-woa\src\content\applications\MovaviSlideshow.md
+ - d:\projects\works-on-woa\src\content\applications\MovaviSlideshowMaker.md
+Duplicate for key: https://apps.microsoft.com/detail/9NZHS436T082, 
+ - d:\projects\works-on-woa\src\content\applications\mPlayervideoPlay.md
+ - d:\projects\works-on-woa\src\content\applications\mPlayerVideoPlayandWebPlayer.md
+Duplicate for key: https://apps.microsoft.com/detail/XP8BSVRXS65HH1, 
+ - d:\projects\works-on-woa\src\content\applications\MRAMusicidentifier.md
+ - d:\projects\works-on-woa\src\content\applications\MRAMusicIdentifierMusicDiscovery.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrfj3pr, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTAlarmsClock.md
+ - d:\projects\works-on-woa\src\content\applications\WindowsClock.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrfhvn5, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTCalculator.md
+ - d:\projects\works-on-woa\src\content\applications\WindowsCalculator.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrfhv4v, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTMoney.md
+ - d:\projects\works-on-woa\src\content\applications\MSNMoney.md
+Duplicate for key: https://m365.cloud.microsoft/apps, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTPowerpoint.md
+ - d:\projects\works-on-woa\src\content\applications\MSFTWord.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrfhwkn, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTSoundRecorder.md
+ - d:\projects\works-on-woa\src\content\applications\WindowsSoundRecorder.md
+Duplicate for key: https://apps.microsoft.com/detail/9wzdncrd2g0j, 
+ - d:\projects\works-on-woa\src\content\applications\MSFTSway.md
+ - d:\projects\works-on-woa\src\content\applications\Sway.md
+Duplicate for key: https://nextup.com/download.html, 
+ - d:\projects\works-on-woa\src\content\applications\NextUpTalker.md
+ - d:\projects\works-on-woa\src\content\applications\TextAloud.md
+Duplicate for key: https://buy-static.norton.com/norton/ps/bb/inhard/360/in_en_nort_NAV-1D-3D-5D.html?om_sem_cid=hho_sem_sy:~en-in_nor_n36_sch_brn_exc_nfr_bng_nad_low:top~c_kw0000004480&gclid=f807db8523721ddc74a4bd7ab02b5c72&gclsrc=3p.ds&msclkid=f807db8523721ddc74a4bd7ab02b5c72, 
+ - d:\projects\works-on-woa\src\content\applications\Norton360Deluxe.md
+ - d:\projects\works-on-woa\src\content\applications\Norton360Standard.md
+ - d:\projects\works-on-woa\src\content\applications\NortonAntiVirusPlus.md
+Duplicate for key: https://apps.microsoft.com/detail/9N96MTTSZR1P, 
+ - d:\projects\works-on-woa\src\content\applications\Noteledge.md
+ - d:\projects\works-on-woa\src\content\applications\NoteLedgeNotesMoodBoards.md
+Duplicate for key: https://apps.microsoft.com/detail/9PCWSNMM8XJP, 
+ - d:\projects\works-on-woa\src\content\applications\NotePilot.md
+ - d:\projects\works-on-woa\src\content\applications\Notepiolt.md
+Duplicate for key: https://apps.microsoft.com/detail/9NMLXP17W2TM, 
+ - d:\projects\works-on-woa\src\content\applications\NowSmartAudiorecorder.md
+ - d:\projects\works-on-woa\src\content\applications\NowSmartAudioRecorderRecordVoiceandSoundEasily.md
+Duplicate for key: https://apps.microsoft.com/detail/9P4VRNG5N9PG, 
+ - d:\projects\works-on-woa\src\content\applications\OneStoryaDayforBeginners.md
+ - d:\projects\works-on-woa\src\content\applications\Onestoryadayforbiginners.md
+Duplicate for key: https://apps.microsoft.com/detail/9PK3M6J9Z99N, 
+ - d:\projects\works-on-woa\src\content\applications\OpenEmail.md
+ - d:\projects\works-on-woa\src\content\applications\Openmail.md
+Duplicate for key: https://apps.microsoft.com/detail/9NFW1RPPT999, 
+ - d:\projects\works-on-woa\src\content\applications\OriginalSoundHIFIPlayer.md
+ - d:\projects\works-on-woa\src\content\applications\OriginalSoundHQPlayer.md
+Duplicate for key: https://apps.microsoft.com/detail/9NMT57JFBWQ0, 
+ - d:\projects\works-on-woa\src\content\applications\PadsStudio.md
+ - d:\projects\works-on-woa\src\content\applications\PadsStudioProfessionalDrumPadMachine.md
+Duplicate for key: https://apps.microsoft.com/detail/9PJBJL6RTDZM, 
+ - d:\projects\works-on-woa\src\content\applications\PDFInfinity.md
+ - d:\projects\works-on-woa\src\content\applications\PDFInfinityDOCXXLSXandPDFEditor.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH1P3P6, 
+ - d:\projects\works-on-woa\src\content\applications\PDFJack.md
+ - d:\projects\works-on-woa\src\content\applications\PDFJackPDFEditorforWindows.md
+Duplicate for key: https://apps.microsoft.com/detail/9NQK8JSH0KLT, 
+ - d:\projects\works-on-woa\src\content\applications\PDFMergerCombineJoin.md
+ - d:\projects\works-on-woa\src\content\applications\PDFMergerCombineJoinPDF.md
+Duplicate for key: https://apps.microsoft.com/detail/9P3CP9G025RM, 
+ - d:\projects\works-on-woa\src\content\applications\PDFReaderPDFEditorandPDFConverter.md
+ - d:\projects\works-on-woa\src\content\applications\PDFX.md
+Duplicate for key: https://apps.microsoft.com/detail/9MWXX37WRBXT, 
+ - d:\projects\works-on-woa\src\content\applications\PDFtoAnyImages.md
+ - d:\projects\works-on-woa\src\content\applications\Snap2PDF.md
+Duplicate for key: https://apps.microsoft.com/detail/9P1VP6V0SKCL, 
+ - d:\projects\works-on-woa\src\content\applications\PhotoBlenderPhotoedit.md
+ - d:\projects\works-on-woa\src\content\applications\PhotoBlenderPhotoEditor.md
+Duplicate for key: https://apps.microsoft.com/detail/9PJ24F8QC5LK, 
+ - d:\projects\works-on-woa\src\content\applications\PhotoEraserBackgroundRemoverRetouching.md
+ - d:\projects\works-on-woa\src\content\applications\PhotoEraserObjectRemoverPhotoEnhancer.md
+Duplicate for key: https://apps.microsoft.com/detail/9NVCTQ61C0VL, 
+ - d:\projects\works-on-woa\src\content\applications\PhotoLabimageEditor.md
+ - d:\projects\works-on-woa\src\content\applications\PhotoLabImageEditorFaceEffectsFilters.md
+Duplicate for key: https://apps.microsoft.com/detail/9PC4CJFXJF3C, 
+ - d:\projects\works-on-woa\src\content\applications\photopadphotoeditor.md
+ - d:\projects\works-on-woa\src\content\applications\PhotoPadPhotoEditorExpressEdition.md
+Duplicate for key: https://apps.microsoft.com/detail/9N6V5NL8D81T, 
+ - d:\projects\works-on-woa\src\content\applications\PhotoSlicePhotoEditorFrame.md
+ - d:\projects\works-on-woa\src\content\applications\photoslicephotoeditorroom.md
+Duplicate for key: https://apps.microsoft.com/detail/9N5VMLGKF27T, 
+ - d:\projects\works-on-woa\src\content\applications\PIPCamera.md
+ - d:\projects\works-on-woa\src\content\applications\PIPCameraPhotoEditor.10adf185.md
+Duplicate for key: https://pixartargentina.com.ar/rxart-secure.html, 
+ - d:\projects\works-on-woa\src\content\applications\PixartMDM.md
+ - d:\projects\works-on-woa\src\content\applications\PixartRxArtSecure.md
+Duplicate for key: https://apps.microsoft.com/detail/9P64DBVW1X93, 
+ - d:\projects\works-on-woa\src\content\applications\PixelpaintApeapps.md
+ - d:\projects\works-on-woa\src\content\applications\PixelPaintbyApeApps.md
+Duplicate for key: https://apps.microsoft.com/detail/9PHWNQCB629S, 
+ - d:\projects\works-on-woa\src\content\applications\PocketSketchbookDrawillustrator.md
+ - d:\projects\works-on-woa\src\content\applications\PocketSketchbookDrawillustratorSketchMaker.md
+Duplicate for key: https://apps.microsoft.com/detail/9N1434C53TDR, 
+ - d:\projects\works-on-woa\src\content\applications\PocketSketches.md
+ - d:\projects\works-on-woa\src\content\applications\PocketSketchesHowtoDrawIllustrations.md
+Duplicate for key: https://apps.microsoft.com/detail/9nblggh6bgx8, 
+ - d:\projects\works-on-woa\src\content\applications\PolarrPhotoEditor.md
+ - d:\projects\works-on-woa\src\content\applications\PolarrProPhotoEditor.md
+Duplicate for key: https://www.policypak.com/company/contact-us-for-a-trial/, 
+ - d:\projects\works-on-woa\src\content\applications\PolicyPakCloudConnector.md
+ - d:\projects\works-on-woa\src\content\applications\PolicyPakCSE.md
+Duplicate for key: https://apps.microsoft.com/detail/9MWTN4ZWRS4X, 
+ - d:\projects\works-on-woa\src\content\applications\PostercoverMaker.md
+ - d:\projects\works-on-woa\src\content\applications\PosterDesignMaster.md
+Duplicate for key: https://apps.microsoft.com/detail/9P5ZSCL5QC8W, 
+ - d:\projects\works-on-woa\src\content\applications\powerpom.md
+ - d:\projects\works-on-woa\src\content\applications\PowerPomPomodoroTimer.md
+Duplicate for key: https://apps.microsoft.com/detail/9MSTPCR2LT2H, 
+ - d:\projects\works-on-woa\src\content\applications\PPTXSlides.md
+ - d:\projects\works-on-woa\src\content\applications\PPTXSlidesPresentation.md
+Duplicate for key: https://apps.microsoft.com/detail/9N6559VJN49S, 
+ - d:\projects\works-on-woa\src\content\applications\Pro4KWallpaper.md
+ - d:\projects\works-on-woa\src\content\applications\Pro4kWallpaperHDWallpapersForWindows.md
+Duplicate for key: https://apps.microsoft.com/detail/9NBLGGH4RP6B, 
+ - d:\projects\works-on-woa\src\content\applications\ProMicrophonePlus.md
+ - d:\projects\works-on-woa\src\content\applications\ProMicrophonePlusSpeakRecordVoiceRecordingStudio.md
+Duplicate for key: https://apps.microsoft.com/detail/9N38CTMDRBFF, 
+ - d:\projects\works-on-woa\src\content\applications\RadonBrowserDev.md
+ - d:\projects\works-on-woa\src\content\applications\RadonDeveloperpreview.md
+Duplicate for key: https://apps.microsoft.com/detail/9P45NQJ4G8B2, 
+ - d:\projects\works-on-woa\src\content\applications\ReVoicedFunnyVoiceTunerModifier.md
+ - d:\projects\works-on-woa\src\content\applications\ReVoicedSingingVoiceChanger.md
+Duplicate for key: https://apps.microsoft.com/detail/9PFM3P9T20N2, 
+ - d:\projects\works-on-woa\src\content\applications\SelfRapMakingHiphopBeats.md
+ - d:\projects\works-on-woa\src\content\applications\SelfRapMusicproductionstudio.md
+Duplicate for key: https://apps.microsoft.com/detail/9nvjbt29b36l, 
+ - d:\projects\works-on-woa\src\content\applications\SoundCloudforWindowsBeta.md
+ - d:\projects\works-on-woa\src\content\applications\SoundCloudPlayMusicPodcastsNewSongs.md
+Duplicate for key: https://apps.microsoft.com/detail/XPFCS9QJBKTHVZ, 
+ - d:\projects\works-on-woa\src\content\applications\SparkDesktop.md
+ - d:\projects\works-on-woa\src\content\applications\SparkMail.md
+Duplicate for key: https://www.speedtest.cn/pc/download, 
+ - d:\projects\works-on-woa\src\content\applications\SpeedTest.md
+ - d:\projects\works-on-woa\src\content\applications\SpeedTestNetwork.md
+Duplicate for key: https://www.stardock.com/products/start11/, 
+ - d:\projects\works-on-woa\src\content\applications\StarDockStart11.md
+ - d:\projects\works-on-woa\src\content\applications\Start11.md
+Duplicate for key: https://o.steinberg.net/en/support/downloads.html, 
+ - d:\projects\works-on-woa\src\content\applications\SteinbergCubase.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergGrooveAgent.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergHALion.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergHALionSonic.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergNuendo.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergPadshop.md
+ - d:\projects\works-on-woa\src\content\applications\SteinbergRetrologue.md
+Duplicate for key: https://apps.microsoft.com/detail/9PCH7B3N7LLG, 
+ - d:\projects\works-on-woa\src\content\applications\SuccbusWingsPhotoJoke.md
+ - d:\projects\works-on-woa\src\content\applications\SuccubusWingsPhotoJoke.md
+Duplicate for key: https://apps.microsoft.com/detail/9NB3XCTL0RWD, 
+ - d:\projects\works-on-woa\src\content\applications\TotalPCCleanerCleanDiskAntivirus.md
+ - d:\projects\works-on-woa\src\content\applications\TotalPCCleanerFreeDiskSpaceCleanUpOptimizeMemoryWindowsSystem.md
+Duplicate for key: https://apps.microsoft.com/detail/9pljwwsv01lk, 
+ - d:\projects\works-on-woa\src\content\applications\Twinkletray.md
+ - d:\projects\works-on-woa\src\content\applications\TwinkleTrayBrightnessSlider.md
+Duplicate for key: https://apps.microsoft.com/detail/9n63dnd1jhv0, 
+ - d:\projects\works-on-woa\src\content\applications\VideoConverter.4a62faec.md
+ - d:\projects\works-on-woa\src\content\applications\VideoConverterMP4Converter.md
+Duplicate for key: https://apps.microsoft.com/detail/9P4846M57VFH, 
+ - d:\projects\works-on-woa\src\content\applications\VideoderVideoDownloaderMP3MusicConverter.md
+ - d:\projects\works-on-woa\src\content\applications\VideoDownloaderMP3MusicConverterforVideoder.md
+Duplicate for key: https://apps.microsoft.com/detail/9n3blc6d9v3s, 
+ - d:\projects\works-on-woa\src\content\applications\VideoPadVideoEditor.md
+ - d:\projects\works-on-woa\src\content\applications\VideoPadVideoEditorExpressEdition.md
+ - d:\projects\works-on-woa\src\content\applications\VitalSourceBookshelf.md
+Duplicate for key: https://apps.microsoft.com/detail/9WZDNCRFJCN3, 
+ - d:\projects\works-on-woa\src\content\applications\VirtualFireplace.cd4861b0.md
+ - d:\projects\works-on-woa\src\content\applications\VirtualFireplace.md
+Duplicate for key: https://www.realvnc.com/en/connect/download/vnc/, 
+ - d:\projects\works-on-woa\src\content\applications\VNCEnterpriseEdition.md
+ - d:\projects\works-on-woa\src\content\applications\VNCServer.md
+Duplicate for key: https://wh6.wenhua.com.cn/Download/index, 
+ - d:\projects\works-on-woa\src\content\applications\WenhuaFinance.md
+ - d:\projects\works-on-woa\src\content\applications\wh6__wh6FuturesMarketTradingSoftware__RealTrading.md
+Duplicate for key: https://www.support.xerox.com, 
+ - d:\projects\works-on-woa\src\content\applications\XeroxArm64v3.md
+ - d:\projects\works-on-woa\src\content\applications\XeroxWorkplaceCloud.md
+Duplicate for key: https://www.yayoi-kk.co.jp/, 
+ - d:\projects\works-on-woa\src\content\applications\YayoiAccounting.md
+ - d:\projects\works-on-woa\src\content\applications\YayoiCustomerManagement.md
+ - d:\projects\works-on-woa\src\content\applications\YayoiPayroll.md
+ - d:\projects\works-on-woa\src\content\applications\YayoiSalesManagement.md
+Duplicate for key: https://apps.microsoft.com/detail/9pffd1whkj31, 
+ - d:\projects\works-on-woa\src\content\applications\YouPlayforYouTube.md
+ - d:\projects\works-on-woa\src\content\applications\YouPlayVideoMusicPlayer.md
