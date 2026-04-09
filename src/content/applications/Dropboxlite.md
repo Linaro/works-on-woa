@@ -1,5 +1,5 @@
 ﻿---
-name: "Dropbox-lite"
+name: "Dropbox Lite"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

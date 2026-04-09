@@ -1,5 +1,5 @@
 ﻿---
-name: "Idea Mapping — Flow Diagram for Goal Setting"
+name: "Idea Mapping — Project Visualization"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

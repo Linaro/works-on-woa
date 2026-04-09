@@ -1,5 +1,5 @@
 ﻿---
-name: "Photo Eraser - Background Remover & Retouching"
+name: "Photo Eraser: Photo Editing & Background Remover"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

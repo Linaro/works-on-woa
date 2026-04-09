@@ -1,5 +1,5 @@
 ﻿---
-name: "HitPaw FotorPea - AI Photo Editor & Enhancer"
+name: "HitPaw FotorPea - AI Photo Enhancer & Upscaler"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

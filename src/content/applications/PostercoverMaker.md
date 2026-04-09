@@ -1,5 +1,5 @@
 ﻿---
-name: "Poster cover Maker"
+name: "Poster Cover Maker"
 categories: ['multimedia']
 compatibility: emulation
 display_result: "Compatible"

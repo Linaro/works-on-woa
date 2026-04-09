@@ -1,5 +1,5 @@
 ﻿---
-name: "Foxycape Reader"
+name: "Foxycape AI Reader"
 categories: ['books']
 compatibility: native
 display_result: "Compatible"

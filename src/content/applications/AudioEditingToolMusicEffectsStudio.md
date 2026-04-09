@@ -1,5 +1,5 @@
 ﻿---
-name: "Audio Editing Tool - Music Effects Studio"
+name: "Audio Editing Tool - Music Producing"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

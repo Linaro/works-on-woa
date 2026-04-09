@@ -1,5 +1,5 @@
 ﻿---
-name: "Desktop Widget Tools: Custom Calendar and Clock"
+name: "Desktop Widget Tools: Note taker, Countdown reminders"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

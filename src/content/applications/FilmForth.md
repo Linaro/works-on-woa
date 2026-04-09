@@ -1,5 +1,5 @@
 ﻿---
-name: "FilmForth"
+name: "Nex Video Editor – Easy movie maker app"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

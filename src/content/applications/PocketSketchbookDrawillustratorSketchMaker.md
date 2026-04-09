@@ -1,5 +1,5 @@
 ﻿---
-name: "Pocket Sketchbook: Draw illustrator & Sketch Maker"
+name: "Pocket Sketchbook: Digital Artwork & Drawing Lessons"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

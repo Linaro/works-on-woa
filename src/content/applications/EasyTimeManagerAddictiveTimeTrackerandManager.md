@@ -1,5 +1,5 @@
 ﻿---
-name: "EasyTimeManager - Addictive Time Tracker and Manager"
+name: "EasyTimeManager : Pomodoro Timer , Focus Manager"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "PDF X"
+name: "PDF Infinity AI - DOCX, XLSX and PDF Editor"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"

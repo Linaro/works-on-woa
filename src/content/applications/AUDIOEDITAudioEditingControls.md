@@ -1,5 +1,5 @@
 ﻿---
-name: "AUDIOEDIT: Audio Editing Controls"
+name: "AUDIOEDIT: Audio Mastering Controller"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"
