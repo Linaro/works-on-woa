@@ -1,8 +1,9 @@
----
+﻿---
 name: "Internet Speed Test Meter"
 categories: ['utils-tools']
 compatibility: native
 display_result: "Compatible"
 version_from: "1.0.1.0"
 link: https://apps.microsoft.com/detail/9NBQJW02PRMX
+icon: InternetSpeedTestMeter.png
 ---
