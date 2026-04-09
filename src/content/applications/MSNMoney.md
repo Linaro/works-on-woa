@@ -1,6 +1,6 @@
 ﻿---
 name: "MSN Money"
-categories: ['entertainment']
+categories: ['personalfin']
 compatibility: native
 display_result: "Compatible"
 version_from: "4.53.51973.0"

@@ -1,5 +1,5 @@
 ﻿---
-name: "GX.AI - Powered by AI Chatbot"
+name: "GX.AI - Powered by [Grok] Chatbot"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

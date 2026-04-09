@@ -4,5 +4,5 @@ categories: ['music']
 compatibility: emulation
 display_result: "Compatible"
 version_from: "5.1.12.0"
-link: https://www.microsoft.com/store/productId/9WZDNCRDRDMB?ocid=pdpshare
+link: https://www.microsoft.com/store/productId/9WZDNCRDRDMB
 ---

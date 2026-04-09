@@ -1,5 +1,5 @@
 ﻿---
-name: "Cisdem Video Converter - convert/download video, rip DVD/BD"
+name: "Cisdem VideoPaw - convert/download video, rip DVD/BD"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

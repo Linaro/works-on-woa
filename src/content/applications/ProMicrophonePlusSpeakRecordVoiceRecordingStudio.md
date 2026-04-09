@@ -1,5 +1,5 @@
 ﻿---
-name: "Pro Microphone Plus - Speak & Record: Voice Recording Studio"
+name: "Pro Microphone Plus - Volume Enhancer & Speaker"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

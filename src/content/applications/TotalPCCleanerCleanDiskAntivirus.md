@@ -1,5 +1,5 @@
 ﻿---
-name: "Total PC Cleaner: Clean Disk, Antivirus"
+name: "Cleaner·"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

@@ -1,5 +1,5 @@
 ﻿---
-name: "Video Converter:MP4 Converter"
+name: "Video Converter"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

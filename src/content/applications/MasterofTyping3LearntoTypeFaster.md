@@ -1,5 +1,5 @@
 ﻿---
-name: "Master of Typing 3: Learn to Type Faster"
+name: "Master of Typing 3 - Keyboard Course"
 categories: ['education']
 compatibility: emulation
 display_result: "Compatible"

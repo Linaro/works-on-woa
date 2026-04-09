@@ -1,5 +1,5 @@
 ﻿---
-name: "CV Templates - Paper Writing For Job Search"
+name: "CV Templates — Resume Creator"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
