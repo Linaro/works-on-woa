@@ -1,5 +1,5 @@
 ﻿---
-name: "DJ Station: Groove Pad Remixer & Beat Maker"
+name: "DJ Station: Music Recording Studio"
 categories: ['music']
 compatibility: emulation
 display_result: "Compatible"

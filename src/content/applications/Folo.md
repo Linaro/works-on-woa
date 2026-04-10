@@ -1,5 +1,5 @@
 ﻿---
-name: "Folo"
+name: "Folo - Al Reader"
 categories: ['news']
 compatibility: emulation
 display_result: "Compatible"

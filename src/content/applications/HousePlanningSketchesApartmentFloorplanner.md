@@ -1,5 +1,5 @@
 ﻿---
-name: "House Planning Sketches - Apartment Floorplanner"
+name: "House Planning Sketches - Floor Plan Creator"
 categories: ['utils-tools']
 compatibility: emulation
 display_result: "Compatible"

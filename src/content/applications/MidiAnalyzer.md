@@ -1,0 +1,9 @@
+﻿---
+name: "Midi Analyzer"
+categories: ['music']
+compatibility: native
+display_result: "Compatible"
+version_from: "2.0.0.0"
+link: https://apps.microsoft.com/detail/9NBLGGH699RJ
+icon: MidiAnalyzer.png
+---

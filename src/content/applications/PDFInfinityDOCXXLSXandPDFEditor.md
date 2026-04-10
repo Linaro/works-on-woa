@@ -1,5 +1,5 @@
 ﻿---
-name: "PDF Infinity - DOCX, XLSX and PDF Editor"
+name: "PDF Infinity AI - DOCX, XLSX and PDF Editor"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

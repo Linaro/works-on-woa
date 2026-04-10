@@ -1,5 +1,5 @@
 ﻿---
-name: "Pocket Sketches - How to Draw Illustrations"
+name: "Pocket Sketches - Creative Sketchbook"
 categories: ['multimedia']
 compatibility: emulation
 display_result: "Compatible"

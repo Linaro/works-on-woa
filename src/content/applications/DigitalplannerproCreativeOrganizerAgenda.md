@@ -1,5 +1,5 @@
 ﻿---
-name: "Digital planner pro-Creative Organizer & Agenda"
+name: "Digital Planner - Goals Management & Journaling"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"

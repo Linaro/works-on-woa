@@ -1,5 +1,5 @@
 ﻿---
-name: "Video Quotes  And  Sayings"
+name: "Video Quotes And Sayings"
 categories: ['photo']
 compatibility: emulation
 display_result: "Compatible"

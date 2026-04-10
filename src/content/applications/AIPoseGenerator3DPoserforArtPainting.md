@@ -1,5 +1,5 @@
 ﻿---
-name: "AI Pose Generator: 3D Poser for Art Painting"
+name: "AI Pose Generator: Art Modeling"
 categories: ['creative']
 compatibility: emulation
 display_result: "Compatible"

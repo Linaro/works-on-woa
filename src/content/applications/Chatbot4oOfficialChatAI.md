@@ -1,5 +1,5 @@
 ﻿---
-name: "Chatbot 4o - Official Chat AI"
+name: "Chatbot 5.4 - Developed Open API"
 categories: ['prod']
 compatibility: emulation
 display_result: "Compatible"
