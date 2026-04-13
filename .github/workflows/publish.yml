@@ -1,0 +1,39 @@
+name: Deploy to publish.worksonwoa.com
+
+on:
+  workflow_dispatch:
+    branches: ["jwolff_march_2026"]
+
+env:
+  NODE_VERSION: "20.x"
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::497503705704:role/GitHub-OIDC-Role
+          aws-region: us-east-1
+
+      - name: Deploy with SST
+        run: npx sst deploy --stage publish
