@@ -17,6 +17,8 @@ export default $config({
       domain:
         $app.stage === "production"
           ? "worksonwoa.com"
+          : $app.stage === "publish"
+          ? "publish.worksonwoa.com"
           : undefined,
     });
   },

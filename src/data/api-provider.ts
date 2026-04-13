@@ -5,6 +5,7 @@ import type {
   ProjectFilters,
   Category,
   ProjectType,
+  Publisher,
 } from "./types";
 
 /**
@@ -39,6 +40,18 @@ export class ApiDataProvider implements DataProvider {
   }
 
   async searchProjects(_query: string, _limit?: number, _type?: ProjectType): Promise<Project[]> {
+    throw new Error("Not implemented — use local provider");
+  }
+
+  async getPublishers(_search?: string, _page?: number, _pageSize?: number): Promise<PaginatedResult<Publisher>> {
+    throw new Error("Not implemented — use local provider");
+  }
+
+  async getPublisherBySlug(_slug: string): Promise<Publisher | null> {
+    throw new Error("Not implemented — use local provider");
+  }
+
+  async getProjectsByPublisher(_publisherName: string, _page?: number, _pageSize?: number): Promise<PaginatedResult<Project>> {
     throw new Error("Not implemented — use local provider");
   }
 }
