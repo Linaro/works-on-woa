@@ -37,10 +37,6 @@ jobs:
           role-to-assume: arn:aws:iam::497503705704:role/GitHub-OIDC-Role
           aws-region: us-east-1
 
-      - name: Prepare staging domain
-        if: github.ref_name == 'staging-new'
-        run: bash scripts/prepare-staging-domain.sh
-
       - name: Deploy with SST
         run: |
           if [[ "${{ github.ref_name }}" == "staging-new" ]]; then
