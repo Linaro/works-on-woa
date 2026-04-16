@@ -32,8 +32,16 @@ echo "=== Preparing $DOMAIN for deployment ==="
 echo "Searching for CloudFront distribution with alternate domain: $DOMAIN"
 
 CF_RESULT=$(aws cloudfront list-distributions \
-  --query "DistributionList.Items[?contains(Aliases.Items, '$DOMAIN')].[Id,DomainName]" \
-  --output text)
+  --query "DistributionList.Items[?Aliases.Quantity > \`0\`].[Id,DomainName,Aliases.Items]" \
+  --output json | python3 -c "
+import json, sys
+items = json.load(sys.stdin)
+domain = '$DOMAIN'
+for id_, cf_domain, aliases in (items or []):
+    if domain in (aliases or []):
+        print(id_, cf_domain)
+        break
+")
 
 DISTRIBUTION_ID=$(echo "$CF_RESULT" | awk '{print $1}')
 CF_DOMAIN=$(echo "$CF_RESULT" | awk '{print $2}')
