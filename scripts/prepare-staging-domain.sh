@@ -17,7 +17,7 @@
 set -euo pipefail
 
 DOMAIN="staging.worksonwoa.com"
-HOSTED_ZONE="worksonwoa.com"
+HOSTED_ZONE="staging.worksonwoa.com"
 
 echo "Looking up hosted zone ID for $HOSTED_ZONE..."
 HOSTED_ZONE_ID=$(aws route53 list-hosted-zones-by-name \
@@ -52,13 +52,15 @@ R53_TARGET=$(aws route53 list-resource-record-sets \
   --hosted-zone-id "$HOSTED_ZONE_ID" \
   --query "ResourceRecordSets[?Name == '${DOMAIN}.' && Type == 'A'].AliasTarget.DNSName" \
   --output text)
-# Strip trailing dot if present
+# Strip trailing dot and dualstack. prefix if present (Route 53 stores CloudFront
+# alias targets as e.g. "dualstack.xxxxx.cloudfront.net.")
 R53_TARGET="${R53_TARGET%.}"
+R53_TARGET="${R53_TARGET#dualstack.}"
 
 # ── Check if everything is already consistent ─────────────────────────────────
 
 if [[ -n "$DISTRIBUTION_ID" && -n "$R53_TARGET" ]]; then
-  # Normalise: Route 53 alias targets have a trailing dot and may differ in case
+  # Normalise case before comparing
   CF_DOMAIN_NORM=$(echo "$CF_DOMAIN" | tr '[:upper:]' '[:lower:]')
   R53_TARGET_NORM=$(echo "$R53_TARGET" | tr '[:upper:]' '[:lower:]')
 
