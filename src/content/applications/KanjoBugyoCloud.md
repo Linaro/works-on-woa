@@ -1,5 +1,5 @@
 ---
-name: "勘定奉行クラウド (Kanjo Bugyo Cloud)"
+name: "奉行クラウド（Bugyo Cloud)"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"
