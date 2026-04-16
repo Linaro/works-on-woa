@@ -2,9 +2,9 @@ name: Deploy new website
 
 on:
   push:
-    branches: ["jwolff_march_2026", "staging-new", "staging-main"]
+    branches: ["jwolff_march_2026", "staging-new", "main-new"]
   workflow_dispatch:
-    branches: ["jwolff_march_2026", "staging-new", "staging-main"]
+    branches: ["jwolff_march_2026", "staging-new", "main-new"]
 
 env:
   NODE_VERSION: "20.x"
