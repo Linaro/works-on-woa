@@ -118,6 +118,14 @@ EOF
 fi
 
 # ── Step 2: Delete Route 53 A and AAAA alias records ─────────────────────────
+# Only needed if step 1 removed a CNAME from a distribution — if no distribution
+# owned the CNAME, the records are already pointing at the right place.
+
+if [[ -z "$DISTRIBUTION_ID" || "$DISTRIBUTION_ID" == "None" ]]; then
+  echo "No CloudFront CNAME was removed — Route 53 records are correct, skipping cleanup"
+  echo "=== Domain preparation complete — safe to run SST deploy ==="
+  exit 0
+fi
 
 echo "Looking for Route 53 A/AAAA records for $DOMAIN in hosted zone $HOSTED_ZONE_ID..."
 
