@@ -1,5 +1,5 @@
 ---
-name: "勘定奉行Edge (Kanjo Bugyo Edge)"
+name: "奉行クラウドEdge（Bugyo Cloud Edge)"
 categories: ['business']
 compatibility: emulation
 display_result: "Compatible"
