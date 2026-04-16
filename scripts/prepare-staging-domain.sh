@@ -106,7 +106,7 @@ EOF
     --id "$DISTRIBUTION_ID" \
     --if-match "$ETAG" \
     --distribution-config "$UPDATED" \
-    --output none
+    --output text
 
   rm -f "$TMPFILE"
 
@@ -142,7 +142,7 @@ EOF
   aws route53 change-resource-record-sets \
     --hosted-zone-id "$HOSTED_ZONE_ID" \
     --change-batch "$CHANGE_BATCH" \
-    --output none
+    --output text
 
   echo "Route 53 records deleted"
 fi
