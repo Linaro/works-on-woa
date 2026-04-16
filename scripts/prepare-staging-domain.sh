@@ -12,12 +12,18 @@
 # each create their own CloudFront distribution, and CloudFront enforces that a
 # CNAME can only be attached to one distribution at a time.
 #
-# Usage: HOSTED_ZONE_ID=<id> ./scripts/prepare-staging-domain.sh
+# Usage: ./scripts/prepare-staging-domain.sh
 
 set -euo pipefail
 
 DOMAIN="staging.worksonwoa.com"
-HOSTED_ZONE_ID="${HOSTED_ZONE_ID:?HOSTED_ZONE_ID environment variable must be set}"
+HOSTED_ZONE="worksonwoa.com"
+
+echo "Looking up hosted zone ID for $HOSTED_ZONE..."
+HOSTED_ZONE_ID=$(aws route53 list-hosted-zones-by-name \
+  --dns-name "$HOSTED_ZONE" \
+  --query "HostedZones[?Name == '${HOSTED_ZONE}.'].Id" \
+  --output text | sed 's|/hostedzone/||')
 
 echo "=== Preparing $DOMAIN for deployment ==="
 

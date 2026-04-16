@@ -39,8 +39,6 @@ jobs:
 
       - name: Prepare staging domain
         if: github.ref_name == 'staging-new'
-        env:
-          HOSTED_ZONE_ID: ${{ vars.HOSTED_ZONE }}
         run: bash scripts/prepare-staging-domain.sh
 
       - name: Deploy with SST
