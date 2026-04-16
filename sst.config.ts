@@ -19,6 +19,8 @@ export default $config({
           ? "worksonwoa.com"
           : $app.stage === "publish"
           ? "publish.worksonwoa.com"
+          : $app.stage === "dev"
+          ? "staging.worksonwoa.com"
           : undefined,
     });
   },
