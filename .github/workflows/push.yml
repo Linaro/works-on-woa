@@ -1,3 +1,5 @@
+name: Deploy old website
+
 on:
   push:
     branches: ["main", "staging"]

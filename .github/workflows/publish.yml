@@ -1,8 +1,10 @@
-name: Deploy to publish.worksonwoa.com
+name: Deploy new website
 
 on:
+  push:
+    branches: ["jwolff_march_2026", "staging-new", "staging-main"]
   workflow_dispatch:
-    branches: ["jwolff_march_2026"]
+    branches: ["jwolff_march_2026", "staging-new", "staging-main"]
 
 env:
   NODE_VERSION: "20.x"
@@ -36,4 +38,14 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy with SST
-        run: npx sst deploy --stage publish
+        run: |
+          if [[ "${{ github.ref_name }}" == "staging-new" ]]; then
+            export STAGE="dev"
+          fi
+          if [[ "${{ github.ref_name }}" == "main-new" ]]; then
+            export STAGE="main"
+          fi
+          if [[ "${{ github.ref_name }}" == "jwolff_march_2026" ]]; then
+            export STAGE="publish"
+          fi
+          npx sst deploy --stage $STAGE
