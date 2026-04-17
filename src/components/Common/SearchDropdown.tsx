@@ -1,8 +1,10 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { CompatibilityBadge } from "@/components/Common/Badge";
+import { cn } from "@/utils/cn";
 import { useSearch } from "@/data/hooks/useSearch";
 import { usePublishers } from "@/data/hooks/usePublishers";
 import type { Project, ProjectType, Publisher } from "@/data/types";
@@ -11,14 +13,16 @@ interface SearchDropdownProps {
   query: string;
   scope?: ProjectType | "publisher";
   visible: boolean;
+  activeIndex: number;
   onSelect: () => void;
   onProjectSelect?: (project: Project) => void;
+  onItemCountChange?: (count: number) => void;
 }
 
 const PREVIEW_LIMIT = 4;
 const FETCH_LIMIT = 100;
 
-export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelect }: SearchDropdownProps) {
+export function SearchDropdown({ query, scope, visible, activeIndex, onSelect, onProjectSelect, onItemCountChange }: SearchDropdownProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
@@ -37,6 +41,15 @@ export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelec
     FETCH_LIMIT
   );
 
+  // Report item count to parent for keyboard navigation
+  const itemCount = scope === "publisher"
+    ? Math.min(publisherResults?.items?.length ?? 0, PREVIEW_LIMIT)
+    : Math.min((projectResults ?? []).length, PREVIEW_LIMIT);
+
+  useEffect(() => {
+    onItemCountChange?.(visible && query.length >= 2 ? itemCount : 0);
+  }, [itemCount, visible, query, onItemCountChange]);
+
   if (!visible || query.length < 2) return null;
 
   if (scope === "publisher") {
@@ -45,6 +58,7 @@ export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelec
         query={query}
         publishers={publisherResults?.items ?? []}
         total={publisherResults?.total ?? 0}
+        activeIndex={activeIndex}
         navigate={navigate}
         onSelect={onSelect}
         t={t}
@@ -80,11 +94,13 @@ export function SearchDropdown({ query, scope, visible, onSelect, onProjectSelec
 
   return (
     <DropdownShell>
-      <ul role="listbox">
-        {preview.map((project) => (
+      <ul id="search-listbox" role="listbox">
+        {preview.map((project, index) => (
           <ProjectRow
             key={project.slug}
             project={project}
+            isActive={index === activeIndex}
+            id={`search-option-${index}`}
             navigate={navigate}
             onSelect={onSelect}
             onProjectSelect={onProjectSelect}
@@ -120,11 +136,15 @@ function DropdownShell({ children }: { children: React.ReactNode }) {
 
 function ProjectRow({
   project,
+  isActive,
+  id,
   navigate,
   onSelect,
   onProjectSelect,
 }: {
   project: Project;
+  isActive: boolean;
+  id: string;
   navigate: ReturnType<typeof useNavigate>;
   onSelect: () => void;
   onProjectSelect?: (project: Project) => void;
@@ -133,8 +153,13 @@ function ProjectRow({
 
   return (
     <li
+      id={id}
       role="option"
-      className="flex cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors hover:bg-[rgba(255,255,255,0.06)]"
+      aria-selected={isActive}
+      className={cn(
+        "flex cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors",
+        isActive ? "bg-[rgba(255,255,255,0.08)]" : "hover:bg-[rgba(255,255,255,0.06)]"
+      )}
       onClick={() => {
         if (onProjectSelect) {
           onProjectSelect(project);
@@ -162,6 +187,7 @@ function PublisherDropdown({
   query,
   publishers,
   total,
+  activeIndex,
   navigate,
   onSelect,
   t,
@@ -169,6 +195,7 @@ function PublisherDropdown({
   query: string;
   publishers: Publisher[];
   total: number;
+  activeIndex: number;
   navigate: ReturnType<typeof useNavigate>;
   onSelect: () => void;
   t: ReturnType<typeof useTranslation>["t"];
@@ -197,12 +224,17 @@ function PublisherDropdown({
 
   return (
     <DropdownShell>
-      <ul role="listbox">
-        {preview.map((publisher) => (
+      <ul id="search-listbox" role="listbox">
+        {preview.map((publisher, index) => (
           <li
             key={publisher.slug}
+            id={`search-option-${index}`}
             role="option"
-            className="flex cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors hover:bg-[rgba(255,255,255,0.06)]"
+            aria-selected={index === activeIndex}
+            className={cn(
+              "flex cursor-pointer items-center gap-3 px-4 py-2.5 transition-colors",
+              index === activeIndex ? "bg-[rgba(255,255,255,0.08)]" : "hover:bg-[rgba(255,255,255,0.06)]"
+            )}
             onClick={() => {
               navigate(`/publishers/${publisher.slug}`);
               onSelect();
