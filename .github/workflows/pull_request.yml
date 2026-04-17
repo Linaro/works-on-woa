@@ -25,6 +25,8 @@ jobs:
           cache: "npm"
 
       - name: Build to make sure data is OK
+        env:
+          VITE_APPINSIGHTS_CONNECTION_STRING: ${{ secrets.VITE_APPINSIGHTS_CONNECTION_STRING }}
         run: |
           # Set up yarn
           yarn install

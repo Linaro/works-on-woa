@@ -1,5 +1,6 @@
 import { Check, Plus, X } from "lucide-react";
 import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
+import { trackButtonClick } from "@/lib/telemetry";
 
 interface RowReportActionProps {
   slug: string;
@@ -15,8 +16,10 @@ export function RowReportAction({ slug }: RowReportActionProps) {
       onClick={(e) => {
         e.stopPropagation();
         if (inReport) {
+          trackButtonClick("Project List: remove from report", { project: slug });
           removeBulkReportSlug(slug);
         } else {
+          trackButtonClick("Project Table List: add to report", { project: slug });
           addBulkReportSlug(slug);
         }
       }}
