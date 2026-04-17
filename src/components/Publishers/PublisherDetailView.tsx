@@ -21,6 +21,7 @@ import {
   activeFiltersFromProjectFilters,
 } from "@/utils/filter-params";
 import type { ProjectFilters } from "@/data/types";
+import { trackButtonClick, trackFilterUsage } from "@/lib/telemetry";
 
 interface PublisherDetailViewProps {
   slug: string;
@@ -100,6 +101,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
 
   const handleFilterChange = useCallback(
     (key: string, values: string[]) => {
+      trackFilterUsage("Publisher", key, values);
       const next = { ...filters, [key]: values.length > 0 ? values : undefined };
       setFilters(next);
       setPage(1);
@@ -208,6 +210,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
               variant="secondary"
               size="sm"
               onClick={async () => {
+                trackButtonClick("Publisher: share", { publisher: slug });
                 await navigator.clipboard.writeText(window.location.href);
                 setCopied(true);
                 setTimeout(() => setCopied(false), 2000);
@@ -229,6 +232,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
                 if (allPublisherSlugsInReport) {
                   handleRemoveAllApps();
                 } else {
+                  trackButtonClick("Publisher: add all apps", { publisher: slug });
                   handleAddAllApps();
                 }
               }}

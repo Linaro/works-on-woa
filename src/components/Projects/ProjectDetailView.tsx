@@ -11,6 +11,7 @@ import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
 import { formatDate, capitalize, formatCategory } from "@/utils/formatting";
 import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
+import { trackButtonClick } from "@/lib/telemetry";
 import type { ProjectType } from "@/data/types";
 
 interface ProjectDetailViewProps {
@@ -27,6 +28,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
   const [copied, setCopied] = useState(false);
 
   const handleShare = async () => {
+    trackButtonClick("Project Detail: share", { project: slug });
     await navigator.clipboard.writeText(window.location.href);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -119,7 +121,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 <Button
                   variant="primary"
                   size="sm"
-                  onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}
+                  onClick={() => { trackButtonClick("Project Detail: get app", { project: project.slug }); window.open(project.link, "_blank", "noopener,noreferrer"); }}
                 >
                   {t("appDetail.getThisApp")}
                 </Button>
@@ -142,8 +144,10 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 onMouseLeave={() => setReportHover(false)}
                 onClick={() => {
                   if (bulkReport.hasSlug(project.slug)) {
+                    trackButtonClick("Project Detail: remove from report", { project: project.slug });
                     removeBulkReportSlug(project.slug);
                   } else {
+                    trackButtonClick("Project Detail: add to report", { project: project.slug });
                     addBulkReportSlug(project.slug);
                   }
                 }}

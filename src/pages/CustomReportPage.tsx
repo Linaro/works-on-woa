@@ -16,6 +16,7 @@ import {
 } from "@/lib/bulk-report";
 import { generateReportPdf } from "@/lib/pdf-report";
 import { generateReportXlsx } from "@/lib/xlsx-report";
+import { trackButtonClick } from "@/lib/telemetry";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { formatCategory } from "@/utils/formatting";
 
@@ -141,7 +142,7 @@ export default function BulkReportPage() {
         </p>
 
           <div className="mt-3 flex flex-row items-center gap-2">
-            <Button variant="secondary" size="sm" onClick={handleShare}>
+            <Button variant="secondary" size="sm" onClick={() => { trackButtonClick("Custom Report: share"); handleShare(); }}>
               {copied ? (
                 <><Check className="mr-1 h-4 w-4" /> {t("customReport.copied")}</>
               ) : (
@@ -152,7 +153,8 @@ export default function BulkReportPage() {
               variant="secondary"
               size="sm"
               disabled={reportItems.length === 0}
-              onClick={() =>
+              onClick={() => {
+                trackButtonClick("Custom Report: download pdf");
                 generateReportPdf({
                   title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
                   items: reportItems,
@@ -161,8 +163,8 @@ export default function BulkReportPage() {
                   groupedByPublisher,
                   sortField,
                   sortDirection,
-                })
-              }
+                });
+              }}
             >
               <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadPdf")}
             </Button>
@@ -170,7 +172,8 @@ export default function BulkReportPage() {
               variant="secondary"
               size="sm"
               disabled={reportItems.length === 0}
-              onClick={() =>
+              onClick={() => {
+                trackButtonClick("Custom Report: download excel");
                 generateReportXlsx({
                   title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
                   items: reportItems,
@@ -179,12 +182,12 @@ export default function BulkReportPage() {
                   groupedByPublisher,
                   sortField,
                   sortDirection,
-                })
-              }
+                });
+              }}
             >
               <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadXlsx")}
             </Button>
-            <Button variant="ghost" size="sm" onClick={bulkReport.clear}>
+            <Button variant="ghost" size="sm" onClick={() => { trackButtonClick("Custom Report: clear report"); bulkReport.clear(); }}>
               <Trash2 className="mr-1 h-4 w-4" /> {t("customReport.clearReport")}
             </Button>
           </div>
@@ -207,21 +210,21 @@ export default function BulkReportPage() {
           <Button
             variant={view === "table" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("table")}
+            onClick={() => { trackButtonClick("Custom Report: all items"); setView("table"); }}
           >
             {t("customReport.viewAll")}
           </Button>
           <Button
             variant={view === "category" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("category")}
+            onClick={() => { trackButtonClick("Custom Report: by category"); setView("category"); }}
           >
             {t("customReport.viewByCategory")}
           </Button>
           <Button
             variant={view === "publisher" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("publisher")}
+            onClick={() => { trackButtonClick("Custom Report: by publisher"); setView("publisher"); }}
           >
             {t("customReport.viewByPublisher")}
           </Button>

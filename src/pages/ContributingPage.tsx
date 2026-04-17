@@ -3,6 +3,7 @@ import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
 import { usePageTitle } from "@/hooks/usePageTitle";
+import { trackButtonClick } from "@/lib/telemetry";
 import { formatCategory } from "@/utils/formatting";
 import { ExternalLink } from "lucide-react";
 
@@ -39,6 +40,7 @@ export default function ContributingPage() {
                 href="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6l5AWBOr4JBj12WisgeWgBUMlgzNk5CSFYzQzRWMlc0MFhRRjdQR0xSSC4u&route=shorturl"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackButtonClick("Contributing: open app request form")}
                 className="mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-[var(--color-accent-primary)] px-6 py-2.5 text-[15px] font-medium text-white transition-colors duration-200 hover:bg-[var(--color-accent-hover)]"
               >
                 {t("contributing.form.button")}

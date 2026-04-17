@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Search } from "lucide-react";
 import { cn } from "@/utils/cn";
 import { SearchDropdown } from "@/components/Common/SearchDropdown";
+import { trackSearch } from "@/lib/telemetry";
 import type { Project, ProjectType } from "@/data/types";
 
 interface SearchBarProps {
@@ -37,6 +38,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
       e.preventDefault();
       setShowDropdown(false);
       if (query.trim()) {
+        trackSearch(query.trim());
         if (onSearch) {
           onSearch(query.trim());
         } else {

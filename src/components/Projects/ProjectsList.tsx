@@ -17,6 +17,7 @@ import {
   activeFiltersFromProjectFilters,
 } from "@/utils/filter-params";
 import type { ProjectFilters, ProjectType } from "@/data/types";
+import { trackFilterUsage } from "@/lib/telemetry";
 
 interface ProjectsListProps {
   type: ProjectType;
@@ -89,6 +90,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
 
   const handleFilterChange = useCallback(
     (key: string, values: string[]) => {
+      trackFilterUsage(type === "application" ? "Apps" : "Games", key, values);
       const next = {
         ...filters,
         [key]: values.length > 0 ? values : undefined,
@@ -97,7 +99,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
       setPage(1);
       syncFiltersToUrl(next);
     },
-    [filters, syncFiltersToUrl]
+    [filters, syncFiltersToUrl, type]
   );
 
   const handleClearAll = useCallback(() => {

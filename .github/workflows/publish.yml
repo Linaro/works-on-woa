@@ -38,6 +38,8 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy with SST
+        env:
+          VITE_APPINSIGHTS_CONNECTION_STRING: ${{ secrets.VITE_APPINSIGHTS_CONNECTION_STRING }}
         run: |
           if [[ "${{ github.ref_name }}" == "staging" ]]; then
             export STAGE="dev"
