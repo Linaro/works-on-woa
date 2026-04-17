@@ -13,11 +13,11 @@
   },
   "hero": {
     "title": "Windows는 ARM에서 실행됩니다",
-    "subtitle": "가장 강력하고 효율적인 PC로 자신감을 가지고 전환하세요.",
+    "subtitle": "하루 종일 지속되는 성능과 배터리 수명을 위해 만들어진 앱을 탐색하세요.",
     "supportedBy": "지원:",
-    "searchPlaceholder": "앱, 게임 또는 파일 검색",
-    "searchApps": "앱 검색 또는 분석할 앱 업로드",
-    "searchGames": "게임 검색 또는 분석할 게임 업로드",
+    "searchPlaceholder": "앱 및 게임 검색",
+    "searchApps": "앱 검색",
+    "searchGames": "게임 검색",
     "searchPublishers": "퍼블리셔 검색 또는 앱 업로드"
   },
   "popularApps": {
@@ -36,7 +36,7 @@
   },
   "microsoftApps": {
     "title": "Microsoft 앱은 ARM에서 실행됩니다",
-    "subtitle": "초고속 자사 애플리케이션. 100% 검증됨.",
+    "subtitle": "퍼스트 파티 애플리케이션. 100% 검증됨.",
     "seeAll": "모든 Microsoft 앱 보기",
     "categories": {
       "productivity": "생산성",
@@ -160,7 +160,7 @@
         "title": "커뮤니티",
         "github": "GitHub",
         "reportIssue": "문제 보고",
-        "contribute": "기여하기"
+        "contribute": "데이터 기여"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -195,7 +195,13 @@
     "previous": "이전",
     "next": "다음",
     "notFound": "찾을 수 없음",
-    "goBack": "돌아가기"
+    "goBack": "돌아가기",
+    "typeTooltip": {
+      "nativeLabel": "네이티브",
+      "nativeDesc": "Arm용으로 빌드 — 프로세서에서 직접 실행되어 최고의 성능을 제공합니다.",
+      "emulatedLabel": "에뮬레이션",
+      "emulatedDesc": "x86/x64용으로 빌드 — Prism이 Arm 장치에서 실행되도록 변환합니다."
+    }
   },
   "filters": {
     "category": "카테고리",
@@ -212,7 +218,7 @@
   },
   "appDetail": {
     "compatibility": "호환성",
-    "emulationType": "에뮬레이션 유형",
+    "emulationType": "유형",
     "publisher": "퍼블리셔",
     "category": "카테고리",
     "categories": "카테고리",
@@ -251,7 +257,7 @@
   },
   "publishers": {
     "title": "퍼블리셔",
-    "subtitle": "Windows on ARM의 모든 앱 및 게임 퍼블리셔를 검색하세요.",
+    "subtitle": "Windows on Arm에서 앱 및 게임을 제공하는 주요 퍼블리셔를 찾아보세요.",
     "columns": {
       "name": "퍼블리셔",
       "apps": "앱",
@@ -274,6 +280,7 @@
     "copied": "복사됨!",
     "clearReport": "보고서 초기화",
     "downloadPdf": "PDF 다운로드",
+    "downloadXlsx": "Excel 다운로드",
     "viewAll": "모든 항목",
     "viewByCategory": "카테고리별",
     "viewByPublisher": "퍼블리셔별",

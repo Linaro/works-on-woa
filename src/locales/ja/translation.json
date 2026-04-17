@@ -13,11 +13,11 @@
   },
   "hero": {
     "title": "WindowsはARMで動作します",
-    "subtitle": "最も強力で効率的なPCへ、安心して移行しましょう。",
+    "subtitle": "終日続くパフォーマンスとバッテリー駆動時間のために作られたアプリを探索しましょう。",
     "supportedBy": "提供：",
-    "searchPlaceholder": "アプリ、ゲーム、またはファイルを検索",
-    "searchApps": "アプリを検索、または分析用にアップロード",
-    "searchGames": "ゲームを検索、または分析用にアップロード",
+    "searchPlaceholder": "アプリやゲームを検索",
+    "searchApps": "アプリを検索",
+    "searchGames": "ゲームを検索",
     "searchPublishers": "パブリッシャーを検索、またはアプリをアップロード"
   },
   "popularApps": {
@@ -36,7 +36,7 @@
   },
   "microsoftApps": {
     "title": "MicrosoftアプリはARMで動作します",
-    "subtitle": "超高速のファーストパーティアプリケーション。100%検証済み。",
+    "subtitle": "ファーストパーティアプリケーション。100%検証済み。",
     "seeAll": "すべてのMicrosoftアプリを見る",
     "categories": {
       "productivity": "生産性",
@@ -160,7 +160,7 @@
         "title": "コミュニティ",
         "github": "GitHub",
         "reportIssue": "問題を報告する",
-        "contribute": "貢献する"
+        "contribute": "データを提供"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -195,7 +195,13 @@
     "previous": "前へ",
     "next": "次へ",
     "notFound": "見つかりません",
-    "goBack": "戻る"
+    "goBack": "戻る",
+    "typeTooltip": {
+      "nativeLabel": "ネイティブ",
+      "nativeDesc": "Arm向けに構築 — プロセッサ上で直接実行され、最高のパフォーマンスを発揮します。",
+      "emulatedLabel": "エミュレーション",
+      "emulatedDesc": "x86/x64向けに構築 — PrismによりArmデバイス上で動作するよう変換されます。"
+    }
   },
   "filters": {
     "category": "カテゴリ",
@@ -212,7 +218,7 @@
   },
   "appDetail": {
     "compatibility": "互換性",
-    "emulationType": "エミュレーションタイプ",
+    "emulationType": "タイプ",
     "publisher": "パブリッシャー",
     "category": "カテゴリ",
     "categories": "カテゴリ",
@@ -251,7 +257,7 @@
   },
   "publishers": {
     "title": "パブリッシャー",
-    "subtitle": "Windows on ARMのアプリとゲームの全パブリッシャーを閲覧。",
+    "subtitle": "Windows on Arm上のアプリやゲームの主要パブリッシャーを閲覧。",
     "columns": {
       "name": "パブリッシャー",
       "apps": "アプリ",
@@ -274,6 +280,7 @@
     "copied": "コピーしました！",
     "clearReport": "レポートをクリア",
     "downloadPdf": "PDFをダウンロード",
+    "downloadXlsx": "Excelをダウンロード",
     "viewAll": "すべてのアイテム",
     "viewByCategory": "カテゴリ別",
     "viewByPublisher": "パブリッシャー別",

@@ -1,7 +1,7 @@
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowUpDown, X } from "lucide-react";
+import { ArrowUpDown, X, Info } from "lucide-react";
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
@@ -164,6 +164,45 @@ function useEmulationLabel() {
 }
 
 // ---------------------------------------------------------------------------
+// Type info tooltip
+// ---------------------------------------------------------------------------
+function TypeInfoTooltip() {
+  const { t } = useTranslation();
+  const [show, setShow] = useState(false);
+  const timeout = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+  const open = () => {
+    clearTimeout(timeout.current);
+    setShow(true);
+  };
+  const close = () => {
+    timeout.current = setTimeout(() => setShow(false), 150);
+  };
+
+  return (
+    <span
+      className="relative inline-flex"
+      onMouseEnter={open}
+      onMouseLeave={close}
+    >
+      <Info className="h-3.5 w-3.5 text-[var(--color-text-tertiary)] cursor-help" />
+      {show && (
+        <div className="absolute left-1/2 top-full z-50 mt-2 w-64 -translate-x-1/2 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-tertiary)] p-3 shadow-lg normal-case tracking-normal">
+          <p className="text-xs font-semibold text-[var(--color-text-primary)]">{t("common.typeTooltip.nativeLabel")}</p>
+          <p className="mt-0.5 text-xs font-normal text-[var(--color-text-secondary)]">
+            {t("common.typeTooltip.nativeDesc")}
+          </p>
+          <p className="mt-2 text-xs font-semibold text-[var(--color-text-primary)]">{t("common.typeTooltip.emulatedLabel")}</p>
+          <p className="mt-0.5 text-xs font-normal text-[var(--color-text-secondary)]">
+            {t("common.typeTooltip.emulatedDesc")}
+          </p>
+        </div>
+      )}
+    </span>
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
 export function ProjectTable({
@@ -292,17 +331,23 @@ export function ProjectTable({
                 <th key={col} className={headerClass(col)}>
                   {col !== "icon" && COLUMN_META[col].i18nKey ? (
                     sortable && COLUMN_META[col].sortField ? (
-                      <button
-                        onClick={() =>
-                          handleSort(COLUMN_META[col].sortField!)
-                        }
-                        className="inline-flex cursor-pointer items-center gap-1 text-[13px] uppercase tracking-wider"
-                      >
-                        {t(COLUMN_META[col].i18nKey)}
-                        <ArrowUpDown className="h-3.5 w-3.5" />
-                      </button>
+                      <span className="inline-flex items-center gap-1.5">
+                        <button
+                          onClick={() =>
+                            handleSort(COLUMN_META[col].sortField!)
+                          }
+                          className="inline-flex cursor-pointer items-center gap-1 text-[13px] uppercase tracking-wider"
+                        >
+                          {t(COLUMN_META[col].i18nKey)}
+                          <ArrowUpDown className="h-3.5 w-3.5" />
+                        </button>
+                        {col === "type" && <TypeInfoTooltip />}
+                      </span>
                     ) : (
-                      t(COLUMN_META[col].i18nKey)
+                      <span className="inline-flex items-center gap-1.5">
+                        {t(COLUMN_META[col].i18nKey)}
+                        {col === "type" && <TypeInfoTooltip />}
+                      </span>
                     )
                   ) : null}
                 </th>

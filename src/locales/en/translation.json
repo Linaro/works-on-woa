@@ -160,7 +160,7 @@
         "title": "Community",
         "github": "GitHub",
         "reportIssue": "Report an Issue",
-        "contribute": "Contribute"
+        "contribute": "Contribute Data"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -195,7 +195,13 @@
     "previous": "Previous",
     "next": "Next",
     "notFound": "Not Found",
-    "goBack": "Go Back"
+    "goBack": "Go Back",
+    "typeTooltip": {
+      "nativeLabel": "Native",
+      "nativeDesc": "Built for Arm.",
+      "emulatedLabel": "Emulated",
+      "emulatedDesc": "Translated by Prism to run on Arm."
+    }
   },
   "filters": {
     "category": "Category",
@@ -212,7 +218,7 @@
   },
   "appDetail": {
     "compatibility": "Compatibility",
-    "emulationType": "Emulation Type",
+    "emulationType": "Type",
     "publisher": "Publisher",
     "category": "Category",
     "categories": "Categories",
@@ -274,6 +280,7 @@
     "copied": "Copied!",
     "clearReport": "Clear Report",
     "downloadPdf": "Download PDF",
+    "downloadXlsx": "Download Excel",
     "viewAll": "All Items",
     "viewByCategory": "By Category",
     "viewByPublisher": "By Publisher",

@@ -13,11 +13,11 @@
   },
   "hero": {
     "title": "Windows 在 ARM 上运行",
-    "subtitle": "自信地过渡到最强大、最高效的电脑。",
+    "subtitle": "探索为全天性能和电池续航而打造的应用。",
     "supportedBy": "支持方：",
-    "searchPlaceholder": "搜索应用、游戏或从设备上传",
-    "searchApps": "搜索应用或上传应用进行分析",
-    "searchGames": "搜索游戏或上传游戏进行分析",
+    "searchPlaceholder": "搜索应用和游戏",
+    "searchApps": "搜索应用",
+    "searchGames": "搜索游戏",
     "searchPublishers": "搜索发行商或上传应用进行分析"
   },
   "popularApps": {
@@ -36,7 +36,7 @@
   },
   "microsoftApps": {
     "title": "Microsoft 应用在 ARM 上运行",
-    "subtitle": "超快速的第一方应用程序。100% 经过验证。",
+    "subtitle": "第一方应用程序。100% 经过验证。",
     "seeAll": "查看所有 Microsoft 应用",
     "categories": {
       "productivity": "生产力",
@@ -160,7 +160,7 @@
         "title": "社区",
         "github": "GitHub",
         "reportIssue": "报告问题",
-        "contribute": "贡献"
+        "contribute": "贡献数据"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -195,7 +195,13 @@
     "previous": "上一页",
     "next": "下一页",
     "notFound": "未找到",
-    "goBack": "返回"
+    "goBack": "返回",
+    "typeTooltip": {
+      "nativeLabel": "原生",
+      "nativeDesc": "专为Arm构建 — 直接在处理器上运行，性能最佳。",
+      "emulatedLabel": "模拟",
+      "emulatedDesc": "为x86/x64构建 — 通过Prism转换在Arm设备上运行。"
+    }
   },
   "filters": {
     "category": "类别",
@@ -212,7 +218,7 @@
   },
   "appDetail": {
     "compatibility": "兼容性",
-    "emulationType": "模拟类型",
+    "emulationType": "类型",
     "publisher": "发行商",
     "category": "类别",
     "categories": "类别",
@@ -251,7 +257,7 @@
   },
   "publishers": {
     "title": "发行商",
-    "subtitle": "浏览 Windows on ARM 上所有应用和游戏的发行商。",
+    "subtitle": "浏览在 Windows on Arm 上提供应用和游戏的精选发行商。",
     "columns": {
       "name": "发行商",
       "apps": "应用",
@@ -274,6 +280,7 @@
     "copied": "已复制！",
     "clearReport": "清除报告",
     "downloadPdf": "下载PDF",
+    "downloadXlsx": "下载Excel",
     "viewAll": "所有项目",
     "viewByCategory": "按类别",
     "viewByPublisher": "按发行商",
