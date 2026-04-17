@@ -81,7 +81,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const syncFiltersToUrl = useCallback(
     (nextFilters: ProjectFilters) => {
       // Exclude publisher from URL since it's implicit from the route
-      const { publisher: _pub, ...urlFilters } = nextFilters;
+      const { publisher: _unusedPub, ...urlFilters } = nextFilters; // eslint-disable-line @typescript-eslint/no-unused-vars
       const params = filtersToSearchParams(urlFilters as ProjectFilters);
       params.set("page", "1");
       setSearchParams(params, { replace: true });
