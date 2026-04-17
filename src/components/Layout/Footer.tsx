@@ -79,26 +79,6 @@ export function Footer() {
               {t("footer.copyright", { year: new Date().getFullYear() })}
             </span>
           </div>
-          <div className="flex items-center gap-4">
-            <a
-              href="https://privacy.microsoft.com"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.privacy")}
-            </a>
-            <a
-              href="https://www.microsoft.com/en-us/legal/terms-of-use"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.terms")}
-            </a>
-            <a
-              href="#"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.cookies")}
-            </a>
-          </div>
         </div>
       </Container>
     </footer>
@@ -114,9 +94,9 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h5 className="text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
+      <p className="text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
         {title}
-      </h5>
+      </p>
       <div className="mt-4 flex flex-col gap-2.5">{children}</div>
     </div>
   );
