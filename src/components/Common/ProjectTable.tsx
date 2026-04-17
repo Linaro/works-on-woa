@@ -240,7 +240,7 @@ export function ProjectTable({
       case "developer":
         return project.publisher || "—";
       case "category":
-        return project.categories[0] || "—";
+        return project.categories[0] && project.categories[0] !== "unknown" ? project.categories[0] : "—";
       case "validation":
         return <ValidationBadge validation={project.validation} />;
       case "updated":
@@ -332,6 +332,7 @@ export function ProjectTable({
                       <Button
                         variant="ghost"
                         size="sm"
+                        title="Remove from Report"
                         aria-label="Remove from report"
                         onClick={(e) => {
                           e.stopPropagation();
@@ -377,6 +378,7 @@ export function ProjectTable({
               <Button
                 variant="ghost"
                 size="sm"
+                title="Remove from Report"
                 aria-label="Remove from report"
                 onClick={(e) => {
                   e.stopPropagation();

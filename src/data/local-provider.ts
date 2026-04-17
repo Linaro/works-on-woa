@@ -147,7 +147,7 @@ export class LocalDataProvider implements DataProvider {
 
     return Array.from(categoryMap.entries())
       .map(([slug, data]) => ({ slug, ...data }))
-      .sort((a, b) => b.count - a.count);
+      .sort((a, b) => a.name.localeCompare(b.name));
   }
 
   async getPopularProjects(locale = "en", limit = 10): Promise<Project[]> {
@@ -212,7 +212,13 @@ export class LocalDataProvider implements DataProvider {
         gameCount: counts.gameCount,
         totalCount: counts.appCount + counts.gameCount,
       }))
-      .sort((a, b) => b.totalCount - a.totalCount);
+      .sort((a, b) => {
+        const aIsMicrosoft = a.name.toLowerCase() === "microsoft";
+        const bIsMicrosoft = b.name.toLowerCase() === "microsoft";
+        if (aIsMicrosoft && !bIsMicrosoft) return -1;
+        if (!aIsMicrosoft && bIsMicrosoft) return 1;
+        return b.totalCount - a.totalCount;
+      });
   }
 
   async getPublishers(

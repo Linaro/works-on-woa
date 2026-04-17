@@ -42,7 +42,7 @@ export function AppCard({ project }: AppCardProps) {
           )}
           <div className="mt-2 flex flex-wrap items-center gap-2">
             <CompatibilityBadge compatibility={project.compatibility} size="sm" />
-            {project.categories[0] && (
+            {project.categories[0] && project.categories[0] !== "unknown" && (
               <span className="rounded-full bg-[rgba(255,255,255,0.06)] px-2 py-0.5 text-xs text-[var(--color-text-tertiary)]">
                 {project.categories[0]}
               </span>

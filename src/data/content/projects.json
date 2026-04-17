@@ -721,7 +721,7 @@
     ],
     "publisher": "360 game",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -1543,7 +1543,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -1671,7 +1671,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://www.ableton.com/",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -3171,7 +3171,7 @@
     ],
     "publisher": "Tencent",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -3245,7 +3245,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -3259,7 +3259,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -3273,7 +3273,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -3287,7 +3287,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -3315,7 +3315,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -3357,7 +3357,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-08-28"
@@ -4921,7 +4921,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -6344,7 +6344,7 @@
     ],
     "publisher": "Respawn Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -6388,7 +6388,7 @@
     ],
     "publisher": "Capcom",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Doesn't start. Error window pops up with title gs456.exe - Entry Point Not Found, and no body.",
     "validation": "developer",
     "lastUpdated": "2024-07-26"
@@ -6711,7 +6711,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -6725,7 +6725,7 @@
     ],
     "publisher": "Trion Worlds",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -7001,7 +7001,7 @@
     ],
     "publisher": "Bandai Namco",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Fails with error Unsupported Architechture: ARM64",
     "validation": "developer",
     "lastUpdated": "2024-06-26"
@@ -7470,7 +7470,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -7484,7 +7484,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -7512,7 +7512,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -7526,7 +7526,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-02-26"
   },
@@ -7540,7 +7540,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-03-25"
   },
@@ -7950,7 +7950,7 @@
     ],
     "publisher": "Mundfish",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-15"
   },
@@ -8268,7 +8268,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -9831,7 +9831,7 @@
     ],
     "publisher": "Warner Bros. Interactive Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -9845,7 +9845,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -9859,7 +9859,7 @@
     ],
     "publisher": "Warner Bros. Interactive Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -10589,7 +10589,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -10937,7 +10937,7 @@
     ],
     "publisher": "SgtOkiDoki",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -10979,7 +10979,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-02-26"
   },
@@ -10993,7 +10993,7 @@
     ],
     "publisher": "EA Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -11021,7 +11021,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -11190,7 +11190,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -12320,7 +12320,7 @@
     "emulationType": "emulation",
     "versionFrom": "2.0.0.5",
     "link": "https://www.microsoft.com/en-in/bing/bing-wallpaper-msn",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -12934,7 +12934,7 @@
     ],
     "publisher": "Kakao Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-25"
   },
@@ -13008,7 +13008,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -13158,7 +13158,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -13467,7 +13467,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "versionFrom": "10.5.0.1016",
     "link": "https://www.bluestacks.com/download.html",
     "validation": "community",
@@ -13959,7 +13959,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://www.box.com/resources/downloads",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -14052,7 +14052,7 @@
     ],
     "publisher": "Blue Mammoth Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15686,7 +15686,7 @@
     ],
     "publisher": "1C-777 Limited",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15730,7 +15730,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -15772,7 +15772,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15786,7 +15786,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15814,7 +15814,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15828,7 +15828,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -15856,7 +15856,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15870,7 +15870,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -15884,7 +15884,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -15954,7 +15954,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -15968,7 +15968,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -15982,7 +15982,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -15996,7 +15996,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -16010,7 +16010,7 @@
     ],
     "publisher": "Activision",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -17041,7 +17041,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -17923,7 +17923,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -18458,7 +18458,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://www.maxon.net/en/try",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -18758,7 +18758,7 @@
     ],
     "publisher": "Paradox Interactive",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-25"
   },
@@ -21618,7 +21618,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -22045,7 +22045,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -22092,7 +22092,7 @@
     ],
     "publisher": "astragon Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -23357,7 +23357,7 @@
     ],
     "publisher": "Valve",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Slight screen glitching that could not get captured on video ",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
@@ -23931,7 +23931,7 @@
     ],
     "publisher": "505 Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -23976,7 +23976,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -24300,7 +24300,7 @@
     ],
     "publisher": "Crytek",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -25511,7 +25511,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -25680,7 +25680,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -25767,7 +25767,7 @@
     ],
     "publisher": "Red Hook Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -26017,7 +26017,7 @@
     ],
     "publisher": "Epic Games Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -26276,7 +26276,7 @@
     ],
     "publisher": "Behaviour Interactive Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -26318,7 +26318,7 @@
     ],
     "publisher": "Deep Silver",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -26375,7 +26375,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -26403,7 +26403,7 @@
     ],
     "publisher": "Kojima Productions",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -26433,7 +26433,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-15"
   },
@@ -26496,7 +26496,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -26510,7 +26510,7 @@
     ],
     "publisher": "Tripwire Presents",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -27293,7 +27293,7 @@
     ],
     "publisher": "Bungie",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Game will launch BattlEye, then silently crash in the background without ever opening.",
     "validation": "developer",
     "lastUpdated": "2024-06-25"
@@ -27339,7 +27339,7 @@
     ],
     "publisher": "Square Enix",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-08-17"
@@ -27582,7 +27582,7 @@
     ],
     "publisher": "Blizzard Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-02-26"
   },
@@ -28131,7 +28131,7 @@
     ],
     "publisher": "Codemasters",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-02-26"
   },
@@ -28543,7 +28543,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -28903,7 +28903,7 @@
     ],
     "publisher": "DMM.com",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -29257,7 +29257,7 @@
     ],
     "publisher": "Ankama Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -29532,7 +29532,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -29562,7 +29562,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -29822,7 +29822,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -29836,7 +29836,7 @@
     ],
     "publisher": "Bandi Namco",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-10-16"
@@ -29866,7 +29866,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -31009,7 +31009,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -31777,7 +31777,7 @@
     ],
     "publisher": "Techland",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-08"
   },
@@ -31962,7 +31962,7 @@
     ],
     "publisher": "EA Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -31976,7 +31976,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -32168,7 +32168,7 @@
     ],
     "publisher": "Epic Games Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -33086,7 +33086,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -33100,7 +33100,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-03-25"
   },
@@ -33310,7 +33310,7 @@
     ],
     "publisher": "FromSoftware Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -33482,7 +33482,7 @@
     ],
     "publisher": "Frontier Developments",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -34179,7 +34179,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -34532,7 +34532,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -34722,7 +34722,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -34752,7 +34752,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -35044,7 +35044,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -35871,7 +35871,7 @@
     ],
     "publisher": "Codemasters",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -35899,7 +35899,7 @@
     ],
     "publisher": "Frontier Developments",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Game launches to menu but crashes when entering a race",
     "validation": "developer",
     "lastUpdated": "2024-08-09"
@@ -36272,7 +36272,7 @@
     ],
     "publisher": "Devolver Digital",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -36343,7 +36343,7 @@
     ],
     "publisher": "Bethesda Softworks",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -36371,7 +36371,7 @@
     ],
     "publisher": "Bethesda Softworks",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -36562,7 +36562,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -36590,7 +36590,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -36718,7 +36718,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -36732,7 +36732,7 @@
     ],
     "publisher": "GIANTS Software",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -37093,7 +37093,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -37436,7 +37436,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -38622,7 +38622,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -38636,7 +38636,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -40079,7 +40079,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -40093,7 +40093,7 @@
     ],
     "publisher": "Sports Interactive",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -40150,7 +40150,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -40346,7 +40346,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -40360,7 +40360,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -40374,7 +40374,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -41328,7 +41328,7 @@
     ],
     "publisher": "Captain Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Install from steam: fine, launch: fine, Open level: fine, Try to build a bridge: crash",
     "validation": "developer",
     "lastUpdated": "2024-06-22"
@@ -42238,7 +42238,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -42330,7 +42330,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -42676,7 +42676,7 @@
     ],
     "publisher": "Playstation",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-07-04"
   },
@@ -42734,7 +42734,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-15"
   },
@@ -43009,7 +43009,7 @@
     "emulationType": "emulation",
     "versionFrom": "3.4.5",
     "link": "https://github.com/desktop/desktop?tab=readme-ov-file",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -43392,7 +43392,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "versionFrom": "13.3 rel1",
     "link": "https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads",
     "validation": "community",
@@ -43456,7 +43456,7 @@
     ],
     "publisher": "Coffee Stain",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "0",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
@@ -43892,7 +43892,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -43952,7 +43952,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -44217,7 +44217,7 @@
     ],
     "publisher": "Cygames, Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-18"
   },
@@ -44245,7 +44245,7 @@
     ],
     "publisher": "RockStar Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -44730,7 +44730,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -45120,7 +45120,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -45523,7 +45523,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -45551,7 +45551,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -45653,7 +45653,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -45667,7 +45667,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -45681,7 +45681,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -45723,7 +45723,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -46630,7 +46630,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -46948,7 +46948,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-03-18"
   },
@@ -46991,7 +46991,7 @@
     ],
     "publisher": "Playstation PC",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-18"
   },
@@ -47321,7 +47321,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -47335,7 +47335,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://www.hidglobal.com/products/activclient",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -47366,7 +47366,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -47521,7 +47521,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -47701,7 +47701,7 @@
     ],
     "publisher": "Warner Bros. Interactive Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-18"
   },
@@ -48026,7 +48026,7 @@
     ],
     "publisher": "Guerilla Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Game crashes immediately on launch.",
     "validation": "developer",
     "lastUpdated": "2024-06-26"
@@ -48087,7 +48087,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -48312,7 +48312,7 @@
     ],
     "publisher": "WildTangent",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -48575,7 +48575,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-03-25"
   },
@@ -48589,7 +48589,7 @@
     ],
     "publisher": "Crytek",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -49900,7 +49900,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -50635,7 +50635,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -50649,7 +50649,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -51254,7 +51254,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -51442,7 +51442,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "0",
     "validation": "community",
     "lastUpdated": "2024-04-08"
@@ -51798,7 +51798,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://www.izotope.com/",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -53346,7 +53346,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -54979,7 +54979,7 @@
     ],
     "publisher": "Riot Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -54993,7 +54993,7 @@
     ],
     "publisher": "Tencent",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -55225,7 +55225,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -55365,7 +55365,7 @@
     ],
     "publisher": "2K",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-10-11"
@@ -55927,7 +55927,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -56032,7 +56032,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -56146,7 +56146,7 @@
     "emulationType": "emulation",
     "versionFrom": "3.0.22.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj4q7",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -57257,7 +57257,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -57303,7 +57303,7 @@
     ],
     "publisher": "Smilegate RPG",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-25"
   },
@@ -57345,7 +57345,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -58065,7 +58065,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -58079,7 +58079,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -58093,7 +58093,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -58715,7 +58715,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -58836,7 +58836,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -58850,7 +58850,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -58895,7 +58895,7 @@
     ],
     "publisher": "EA",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-09-03"
@@ -58910,7 +58910,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -58924,7 +58924,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -58952,7 +58952,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -60752,7 +60752,7 @@
     ],
     "publisher": "Deep Silver",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Very slow framerate through cinematics ",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
@@ -61440,7 +61440,7 @@
     ],
     "publisher": "Microsoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "microsoft",
     "lastUpdated": "2024-03-25",
     "isMicrosoftApp": true
@@ -62674,7 +62674,7 @@
     ],
     "publisher": "Xbox Game Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -62923,7 +62923,7 @@
     ],
     "publisher": "Wemade Next",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -62937,7 +62937,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -63045,7 +63045,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -63634,7 +63634,7 @@
     ],
     "publisher": "CAPCOM Co. Ltd.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -63662,7 +63662,7 @@
     ],
     "publisher": "Capcom",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Able to load into the social space but crashes when trying to do quests",
     "validation": "developer",
     "lastUpdated": "2024-06-20"
@@ -63813,7 +63813,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -64090,7 +64090,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -66598,7 +66598,7 @@
     ],
     "publisher": "NetEase",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -66995,7 +66995,7 @@
     ],
     "publisher": "NetEase Games Global",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-25"
   },
@@ -67025,7 +67025,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-22"
   },
@@ -67211,7 +67211,7 @@
     ],
     "publisher": "2K Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -67225,7 +67225,7 @@
     ],
     "publisher": "2K Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -67239,7 +67239,7 @@
     ],
     "publisher": "2K Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -67253,7 +67253,7 @@
     ],
     "publisher": "2K Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-25"
   },
@@ -67267,7 +67267,7 @@
     ],
     "publisher": "2K Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -67407,7 +67407,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -67436,7 +67436,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-03-18"
   },
@@ -67450,7 +67450,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -67478,7 +67478,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -67506,7 +67506,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -67520,7 +67520,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -67548,7 +67548,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -67926,7 +67926,7 @@
     ],
     "publisher": "Amazon Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -68255,7 +68255,7 @@
     ],
     "publisher": "Inflexion",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "",
     "validation": "developer",
     "lastUpdated": "2024-09-12"
@@ -68333,7 +68333,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -68441,7 +68441,7 @@
     ],
     "publisher": "Hello Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -70712,7 +70712,7 @@
     ],
     "publisher": "Starry Studio",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -72616,7 +72616,7 @@
     ],
     "publisher": "Hi-Rez Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -72741,7 +72741,7 @@
     ],
     "publisher": "PocketPair",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -73790,7 +73790,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -73820,7 +73820,7 @@
     ],
     "publisher": "505 Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -75497,7 +75497,7 @@
     ],
     "publisher": "Atlus",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Character models are completely broken",
     "validation": "developer",
     "lastUpdated": "2024-07-11"
@@ -75512,7 +75512,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -75526,7 +75526,7 @@
     ],
     "publisher": "Atlus",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Crashes after the loading screen.",
     "validation": "developer",
     "lastUpdated": "2024-07-11"
@@ -75698,7 +75698,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -75712,7 +75712,7 @@
     ],
     "publisher": "SEGA Corporation",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -75726,7 +75726,7 @@
     ],
     "publisher": "SEGA Corporation",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -79134,7 +79134,7 @@
     ],
     "publisher": "Frontier Developments",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "0",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
@@ -79223,7 +79223,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -80053,7 +80053,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "0",
     "validation": "community",
     "lastUpdated": "2024-04-01"
@@ -81268,7 +81268,7 @@
     ],
     "publisher": "Konami",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -82144,7 +82144,7 @@
     ],
     "publisher": "KRAFTON Inc.",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Blocked by Anti-cheat",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
@@ -82811,7 +82811,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -84166,7 +84166,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -84723,7 +84723,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -84767,7 +84767,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -85085,7 +85085,7 @@
     ],
     "publisher": "Xbox Games Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -85231,7 +85231,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "link": "https://rekordbox.com",
     "validation": "community",
     "lastUpdated": "2026-03-02"
@@ -85600,7 +85600,7 @@
     ],
     "publisher": "Arc Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-29"
   },
@@ -85869,7 +85869,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -85897,7 +85897,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -85911,7 +85911,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -85925,7 +85925,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -85939,7 +85939,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -86249,7 +86249,7 @@
     ],
     "publisher": "Playstation PC",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -86683,7 +86683,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -86814,7 +86814,7 @@
     ],
     "publisher": "Roblox Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -86920,7 +86920,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -86995,7 +86995,7 @@
     ],
     "publisher": "Digits Crossed Interactive",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -87689,7 +87689,7 @@
     ],
     "publisher": "Facepunch Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -87798,7 +87798,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -88020,7 +88020,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -88300,7 +88300,7 @@
     ],
     "publisher": "Rockstar Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Crash once you are in world",
     "validation": "developer",
     "lastUpdated": "2024-10-12"
@@ -88786,7 +88786,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -88800,7 +88800,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-01"
   },
@@ -89503,7 +89503,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -90132,7 +90132,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -90404,7 +90404,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -91384,7 +91384,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -92326,7 +92326,7 @@
     "emulationType": "emulation",
     "versionFrom": "15.112.3203.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfj364",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -92851,7 +92851,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -93135,7 +93135,7 @@
     ],
     "publisher": "Hi-Rez Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-01"
   },
@@ -94029,7 +94029,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -94074,7 +94074,7 @@
     ],
     "publisher": "Sega",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "The process quietly dies immediately after attempting to launch the game. Only the configuration window, should you choose to launch that instead of the actual game, functions.",
     "validation": "developer",
     "lastUpdated": "2024-08-27"
@@ -94371,7 +94371,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -94491,7 +94491,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -95432,7 +95432,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-03-25"
   },
@@ -95670,7 +95670,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -95732,7 +95732,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -95774,7 +95774,7 @@
     ],
     "publisher": "Star Stable Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -95817,7 +95817,7 @@
     ],
     "publisher": "Electronic Arts",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -95831,7 +95831,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -95859,7 +95859,7 @@
     ],
     "publisher": "Respawn",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -95930,7 +95930,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -95944,7 +95944,7 @@
     ],
     "publisher": "Steam",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -96916,7 +96916,7 @@
     ],
     "publisher": "Frontier Developments",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -97406,7 +97406,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -98172,7 +98172,7 @@
     ],
     "publisher": "Square Enix",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "To get the program to run, find you game install location, SupremeCommander.exe, right-click, properties, compatibility, select 'Change emulation settings'. Then tick 'Use advanced settings' and select 'Disable hybrid execution mode (x86 apps only)'.",
     "validation": "developer",
     "lastUpdated": "2024-09-02"
@@ -99231,7 +99231,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-22"
   },
@@ -100192,7 +100192,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-15"
   },
@@ -100301,7 +100301,7 @@
     ],
     "publisher": "Tencent",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -101196,7 +101196,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -101331,7 +101331,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -101460,7 +101460,7 @@
     ],
     "publisher": "Embark Studios",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -101474,7 +101474,7 @@
     ],
     "publisher": "NEXON",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Game refuses to launch, ARM64 not supported",
     "validation": "developer",
     "lastUpdated": "2024-07-02"
@@ -101574,7 +101574,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -101660,7 +101660,7 @@
     ],
     "publisher": "Naughty Dog",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -101716,7 +101716,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -102675,7 +102675,7 @@
     ],
     "publisher": "Google",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -103446,7 +103446,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -103460,7 +103460,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -103474,7 +103474,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -103517,7 +103517,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-04-15"
   },
@@ -104130,7 +104130,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -104238,7 +104238,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-29"
   },
@@ -105019,7 +105019,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2026-03-02"
   },
@@ -106869,7 +106869,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -107725,7 +107725,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -108232,7 +108232,7 @@
     ],
     "publisher": "Riot Games",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Blocked by Anti-cheat",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
@@ -108261,7 +108261,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -108305,7 +108305,7 @@
     ],
     "publisher": "Riot",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -108686,7 +108686,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-15"
   },
@@ -110425,7 +110425,7 @@
     "emulationType": "native",
     "versionFrom": "16.3.6.1949",
     "link": "https://apps.microsoft.com/detail/XPDCFJDKLZJLP8",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "publisher": "Microsoft",
     "isMicrosoftApp": true,
@@ -110443,7 +110443,7 @@
     "emulationType": "native",
     "versionFrom": "1.81.1.0",
     "link": "https://apps.microsoft.com/detail/xp9khm4bk9fz7q",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02",
     "publisher": "Microsoft",
     "isMicrosoftApp": true,
@@ -111132,7 +111132,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -111227,7 +111227,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -111755,7 +111755,7 @@
     ],
     "publisher": "Gaijin Entertainment",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -111842,7 +111842,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -111998,7 +111998,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -112144,7 +112144,7 @@
     ],
     "publisher": "Ubisoft",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2024-05-15"
   },
@@ -112158,7 +112158,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-04-15"
   },
@@ -112172,7 +112172,7 @@
     ],
     "publisher": "UBISOFT",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2023-11-01"
   },
@@ -113387,7 +113387,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -114618,7 +114618,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -115309,7 +115309,7 @@
     ],
     "publisher": "Wargaming.net",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "developer",
     "lastUpdated": "2026-03-02"
   },
@@ -115384,7 +115384,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -115823,7 +115823,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2024-05-15"
   },
@@ -115980,7 +115980,7 @@
     ],
     "publisher": "",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "validation": "community",
     "lastUpdated": "2023-11-01"
   },
@@ -116061,7 +116061,7 @@
     "emulationType": "emulation",
     "versionFrom": "100.1804.3001.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGGZ5QDQ",
-    "validation": "community",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -116645,7 +116645,7 @@
     ],
     "publisher": "SEGA",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "Crashes on startup, tested using Steam",
     "validation": "developer",
     "lastUpdated": "2024-07-11"
@@ -117893,7 +117893,7 @@
     ],
     "publisher": "miHoYo",
     "compatibility": "no",
-    "emulationType": "na",
+    "emulationType": "none",
     "compatibilityDetails": "CPU usage 0%",
     "validation": "developer",
     "lastUpdated": "2024-07-03"
