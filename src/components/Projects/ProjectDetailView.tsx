@@ -9,7 +9,7 @@ import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
-import { formatDate, capitalize } from "@/utils/formatting";
+import { formatDate, capitalize, formatCategory } from "@/utils/formatting";
 import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
 import type { ProjectType } from "@/data/types";
 
@@ -90,7 +90,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     {
       label: t("appDetail.categories"),
       value: project.categories.length > 0 && !(project.categories.length === 1 && project.categories[0] === "unknown")
-        ? project.categories.join(", ")
+        ? project.categories.map(formatCategory).join(", ")
         : "—",
     },
     {

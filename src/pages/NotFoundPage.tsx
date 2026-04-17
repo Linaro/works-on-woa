@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import { Container } from "@/components/Common/Container";
 import { Button } from "@/components/Common/Button";
 import { GradientText } from "@/components/Common/GradientText";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function NotFoundPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  usePageTitle("Page Not Found");
 
   return (
     <main id="main-content" className="flex min-h-[70vh] items-center justify-center">

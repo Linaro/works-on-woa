@@ -28,7 +28,7 @@
       "name": "이름",
       "compatibility": "호환성",
       "type": "유형",
-      "developer": "개발자",
+      "developer": "퍼블리셔",
       "category": "카테고리",
       "validation": "검증",
       "updated": "업데이트"
@@ -199,7 +199,7 @@
   },
   "filters": {
     "category": "카테고리",
-    "developer": "개발자",
+    "developer": "퍼블리셔",
     "compatibility": "호환성",
     "type": "유형",
     "publisher": "퍼블리셔",
@@ -245,7 +245,7 @@
   "validation": {
     "microsoft": "Microsoft 검증",
     "qualcomm": "Qualcomm 검증",
-    "developer": "개발자 검증",
+    "developer": "퍼블리셔 검증",
     "community": "커뮤니티 검증",
     "unverified": "미검증"
   },

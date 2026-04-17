@@ -28,7 +28,7 @@
       "name": "名称",
       "compatibility": "兼容性",
       "type": "类型",
-      "developer": "开发者",
+      "developer": "发行商",
       "category": "类别",
       "validation": "验证",
       "updated": "更新日期"
@@ -199,7 +199,7 @@
   },
   "filters": {
     "category": "类别",
-    "developer": "开发者",
+    "developer": "发行商",
     "compatibility": "兼容性",
     "type": "类型",
     "publisher": "发行商",
@@ -245,7 +245,7 @@
   "validation": {
     "microsoft": "Microsoft 已验证",
     "qualcomm": "Qualcomm 已验证",
-    "developer": "开发者已验证",
+    "developer": "发行商已验证",
     "community": "社区已验证",
     "unverified": "未验证"
   },

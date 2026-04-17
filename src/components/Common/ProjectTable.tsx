@@ -6,7 +6,7 @@ import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { RowReportAction } from "@/components/Common/RowReportAction";
-import { formatDate } from "@/utils/formatting";
+import { formatDate, formatCategory } from "@/utils/formatting";
 import type { Project } from "@/data/types";
 
 // ---------------------------------------------------------------------------
@@ -240,7 +240,7 @@ export function ProjectTable({
       case "developer":
         return project.publisher || "—";
       case "category":
-        return project.categories[0] && project.categories[0] !== "unknown" ? project.categories[0] : "—";
+        return project.categories[0] && project.categories[0] !== "unknown" ? formatCategory(project.categories[0]) : "—";
       case "validation":
         return <ValidationBadge validation={project.validation} />;
       case "updated":

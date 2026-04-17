@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { CompatibilityBadge } from "@/components/Common/Badge";
+import { formatCategory } from "@/utils/formatting";
 import type { Project } from "@/data/types";
 
 interface AppCardProps {
@@ -44,7 +45,7 @@ export function AppCard({ project }: AppCardProps) {
             <CompatibilityBadge compatibility={project.compatibility} size="sm" />
             {project.categories[0] && project.categories[0] !== "unknown" && (
               <span className="rounded-full bg-[rgba(255,255,255,0.06)] px-2 py-0.5 text-xs text-[var(--color-text-tertiary)]">
-                {project.categories[0]}
+                {formatCategory(project.categories[0])}
               </span>
             )}
           </div>

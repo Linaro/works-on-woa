@@ -1,4 +1,5 @@
 import type { DataProvider } from "./provider";
+import { formatCategory } from "@/utils/formatting";
 import type {
   Project,
   ProjectFilters,
@@ -154,7 +155,7 @@ export class LocalDataProvider implements DataProvider {
           existing.count++;
         } else {
           categoryMap.set(cat, {
-            name: cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, " "),
+            name: formatCategory(cat),
             type: project.type,
             count: 1,
           });

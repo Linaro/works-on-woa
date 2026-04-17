@@ -5,6 +5,7 @@ import { BookOpen, Cpu, Monitor } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const LEARN_CARDS = [
   {
@@ -33,6 +34,7 @@ const LEARN_CARDS = [
 export default function LearnPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  usePageTitle("Learn");
 
   return (
     <main id="main-content" className="pt-28">

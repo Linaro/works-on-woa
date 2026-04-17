@@ -93,6 +93,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
     {
       label: t("filters.category"),
       key: "category",
+      sortSelectedFirst: true,
       options: (categoriesData ?? []).map((c) => ({
         label: c.name,
         value: c.slug,
@@ -118,6 +119,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
     {
       label: t("filters.publisher"),
       key: "publisher",
+      sortSelectedFirst: true,
       options: typePublishers.map((p) => ({
         label: p.name,
         value: p.name,
@@ -178,7 +180,6 @@ export function ProjectsList({ type }: ProjectsListProps) {
             columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
             onRowClick={(project) => navigate(`${basePath}/${project.slug}`)}
             actionMode="add-remove"
-            sortable
           />
         ) : (
           <div className="py-20 text-center">

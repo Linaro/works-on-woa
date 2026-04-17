@@ -15,6 +15,7 @@ import {
   useBulkReport,
 } from "@/lib/bulk-report";
 import { generateReportPdf } from "@/lib/pdf-report";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 type ReportView = "table" | "category" | "publisher";
 
@@ -23,6 +24,7 @@ export default function BulkReportPage() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const bulkReport = useBulkReport();
+  usePageTitle("Custom Report");
 
   const [search, setSearch] = useState("");
   const [copied, setCopied] = useState(false);

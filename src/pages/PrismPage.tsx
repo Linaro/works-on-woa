@@ -2,9 +2,11 @@ import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function PrismPage() {
   const { t } = useTranslation();
+  usePageTitle("Prism");
 
   return (
     <main id="main-content" className="pt-28">

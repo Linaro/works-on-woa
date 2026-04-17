@@ -28,7 +28,7 @@
       "name": "Name",
       "compatibility": "Compatibility",
       "type": "Type",
-      "developer": "Developer",
+      "developer": "Publisher",
       "category": "Category",
       "validation": "Validation",
       "updated": "Updated"
@@ -199,7 +199,7 @@
   },
   "filters": {
     "category": "Category",
-    "developer": "Developer",
+    "developer": "Publisher",
     "compatibility": "Compatibility",
     "type": "Type",
     "publisher": "Publisher",
@@ -245,7 +245,7 @@
   "validation": {
     "microsoft": "Verified by Microsoft",
     "qualcomm": "Verified by Qualcomm",
-    "developer": "Verified by Developer",
+    "developer": "Verified by Publisher",
     "community": "Community Verified",
     "unverified": "Unverified"
   },

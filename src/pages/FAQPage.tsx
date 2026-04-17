@@ -3,9 +3,11 @@ import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { Accordion } from "@/components/Common/Accordion";
 import { GradientText } from "@/components/Common/GradientText";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function FAQPage() {
   const { t } = useTranslation();
+  usePageTitle("FAQ");
 
   const faqItems = (t("faq.items", { returnObjects: true }) ?? []) as Array<{
     question: string;

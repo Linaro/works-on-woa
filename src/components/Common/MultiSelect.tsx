@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Check } from "lucide-react";
 import { cn } from "@/utils/cn";
@@ -13,6 +13,7 @@ interface MultiSelectProps {
   options: MultiSelectOption[];
   selected: string[];
   onChange: (values: string[]) => void;
+  sortSelectedFirst?: boolean;
   className?: string;
 }
 
@@ -21,6 +22,7 @@ export function MultiSelect({
   options,
   selected,
   onChange,
+  sortSelectedFirst = false,
   className,
 }: MultiSelectProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +43,15 @@ export function MultiSelect({
   }, []);
 
   const isActive = selected.length > 0;
+
+  const sortedOptions = useMemo(() => {
+    if (!sortSelectedFirst || selected.length === 0) return options;
+    const selectedSet = new Set(selected);
+    return [
+      ...options.filter((o) => selectedSet.has(o.value)),
+      ...options.filter((o) => !selectedSet.has(o.value)),
+    ];
+  }, [options, selected, sortSelectedFirst]);
 
   const toggleValue = (value: string) => {
     if (selected.includes(value)) {
@@ -92,7 +103,7 @@ export function MultiSelect({
             transition={{ duration: 0.3 }}
             className="absolute left-0 top-full z-50 mt-2 min-w-[200px] max-h-[280px] md:max-h-[400px] overflow-y-auto rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-tertiary)] py-1 shadow-lg"
           >
-            {options.map((opt) => {
+            {sortedOptions.map((opt) => {
               const isSelected = selected.includes(opt.value);
               return (
                 <button
@@ -100,7 +111,7 @@ export function MultiSelect({
                   type="button"
                   onClick={() => toggleValue(opt.value)}
                   className={cn(
-                    "flex w-full cursor-pointer items-center gap-2.5 px-4 py-2 text-sm transition-colors",
+                    "flex w-full cursor-pointer items-start gap-2.5 px-4 py-2 text-sm transition-colors text-left",
                     isSelected
                       ? "text-[var(--color-accent-primary)]"
                       : "text-[var(--color-text-primary)] hover:text-[var(--color-text-primary)] hover:bg-[rgba(255,255,255,0.04)]"
@@ -108,7 +119,7 @@ export function MultiSelect({
                 >
                   <span
                     className={cn(
-                      "flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors",
+                      "flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors mt-0.5",
                       isSelected
                         ? "border-[var(--color-accent-primary)] bg-[var(--color-accent-primary)]"
                         : "border-[rgba(255,255,255,0.4)]"
@@ -116,7 +127,7 @@ export function MultiSelect({
                   >
                     {isSelected && <Check className="h-3 w-3 text-white" />}
                   </span>
-                  {opt.label}
+                  <span className="text-left">{opt.label}</span>
                 </button>
               );
             })}

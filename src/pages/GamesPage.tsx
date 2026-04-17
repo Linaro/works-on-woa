@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { ProjectsList } from "@/components/Projects/ProjectsList";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function GamesPage() {
   const { t } = useTranslation();
+  usePageTitle("Games");
 
   return (
     <main id="main-content">

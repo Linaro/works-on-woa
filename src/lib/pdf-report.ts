@@ -33,13 +33,13 @@ function validationLabel(v: string): string {
   switch (v) {
     case "microsoft": return "Microsoft";
     case "qualcomm": return "Qualcomm";
-    case "developer": return "Developer";
+    case "developer": return "Publisher";
     case "community": return "Community";
     default: return "Unverified";
   }
 }
 
-const TABLE_COLUMNS = ["Name", "Compatibility", "Type", "Developer", "Category", "Validation", "Updated"];
+const TABLE_COLUMNS = ["Name", "Compatibility", "Type", "Publisher", "Category", "Validation", "Updated"];
 
 function projectToRow(p: Project): string[] {
   return [
