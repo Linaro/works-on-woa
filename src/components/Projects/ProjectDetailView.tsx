@@ -74,7 +74,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     },
     {
       label: t("appDetail.emulationType"),
-      value: capitalize(project.emulationType),
+      value: t(`common.${project.emulationType}`) || capitalize(project.emulationType),
     },
     {
       label: t("appDetail.validation"),

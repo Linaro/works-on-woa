@@ -2,6 +2,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
+import { formatCategory } from "@/utils/formatting";
 
 interface GenerateReportPdfOptions {
   title: string;
@@ -47,7 +48,7 @@ function projectToRow(p: Project): string[] {
     compatibilityLabel(p.compatibility),
     emulationLabel(p.emulationType),
     p.publisher || "—",
-    p.categories[0] || "—",
+    p.categories[0] && p.categories[0] !== "unknown" ? formatCategory(p.categories[0]) : "—",
     validationLabel(p.validation),
     p.lastUpdated ? new Date(p.lastUpdated).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" }) : "—",
   ];

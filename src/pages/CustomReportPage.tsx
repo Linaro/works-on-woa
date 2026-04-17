@@ -15,7 +15,9 @@ import {
   useBulkReport,
 } from "@/lib/bulk-report";
 import { generateReportPdf } from "@/lib/pdf-report";
+import { generateReportXlsx } from "@/lib/xlsx-report";
 import { usePageTitle } from "@/hooks/usePageTitle";
+import { formatCategory } from "@/utils/formatting";
 
 type ReportView = "table" | "category" | "publisher";
 
@@ -73,7 +75,8 @@ export default function BulkReportPage() {
   const groupedByCategory = useMemo(() => {
     const map = new Map<string, Project[]>();
     for (const item of reportItems) {
-      const category = item.categories[0] || t("customReport.uncategorized");
+      const raw = item.categories[0];
+      const category = raw ? formatCategory(raw) : t("customReport.uncategorized");
       const existing = map.get(category) ?? [];
       existing.push(item);
       map.set(category, existing);
@@ -163,6 +166,24 @@ export default function BulkReportPage() {
             >
               <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadPdf")}
             </Button>
+            <Button
+              variant="secondary"
+              size="sm"
+              disabled={reportItems.length === 0}
+              onClick={() =>
+                generateReportXlsx({
+                  title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
+                  items: reportItems,
+                  view,
+                  groupedByCategory,
+                  groupedByPublisher,
+                  sortField,
+                  sortDirection,
+                })
+              }
+            >
+              <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadXlsx")}
+            </Button>
             <Button variant="ghost" size="sm" onClick={bulkReport.clear}>
               <Trash2 className="mr-1 h-4 w-4" /> {t("customReport.clearReport")}
             </Button>
@@ -219,10 +240,6 @@ export default function BulkReportPage() {
               items={reportItems}
               columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
               onRowClick={handleRowClick}
-              sortable
-              sortField={sortField}
-              sortDirection={sortDirection}
-              onSort={toggleSort}
               actionMode="remove-only"
               onRemove={bulkReport.removeSlug}
               title={t("customReport.viewAll")}
@@ -236,10 +253,6 @@ export default function BulkReportPage() {
                   items={items}
                   columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
                   onRowClick={handleRowClick}
-                  sortable
-                  sortField={sortField}
-                  sortDirection={sortDirection}
-                  onSort={toggleSort}
                   actionMode="remove-only"
                   onRemove={bulkReport.removeSlug}
                   title={category}
@@ -255,10 +268,6 @@ export default function BulkReportPage() {
                   items={items}
                   columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
                   onRowClick={handleRowClick}
-                  sortable
-                  sortField={sortField}
-                  sortDirection={sortDirection}
-                  onSort={toggleSort}
                   actionMode="remove-only"
                   onRemove={bulkReport.removeSlug}
                   title={publisher}
