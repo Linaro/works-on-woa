@@ -28,7 +28,7 @@
       "name": "名前",
       "compatibility": "互換性",
       "type": "タイプ",
-      "developer": "開発者",
+      "developer": "パブリッシャー",
       "category": "カテゴリ",
       "validation": "検証",
       "updated": "更新日"
@@ -199,7 +199,7 @@
   },
   "filters": {
     "category": "カテゴリ",
-    "developer": "開発者",
+    "developer": "パブリッシャー",
     "compatibility": "互換性",
     "type": "タイプ",
     "publisher": "パブリッシャー",
@@ -245,7 +245,7 @@
   "validation": {
     "microsoft": "Microsoft検証済み",
     "qualcomm": "Qualcomm検証済み",
-    "developer": "開発者検証済み",
+    "developer": "パブリッシャー検証済み",
     "community": "コミュニティ検証済み",
     "unverified": "未検証"
   },

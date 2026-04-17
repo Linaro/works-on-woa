@@ -226,6 +226,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
               {
                 label: t("filters.category"),
                 key: "category",
+                sortSelectedFirst: true,
                 options: (categoriesData ?? []).map((c) => ({
                   label: c.name,
                   value: c.slug,
@@ -274,7 +275,6 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
               items={projectsData.items}
               columns={["icon", "name", "compatibility", "type", "category", "validation", "updated"]}
               actionMode="add-remove"
-              sortable
             />
           ) : (
             <div className="py-20 text-center">

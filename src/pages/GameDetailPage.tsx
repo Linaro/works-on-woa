@@ -1,8 +1,12 @@
 import { useParams } from "react-router-dom";
 import { ProjectDetailView } from "@/components/Projects/ProjectDetailView";
+import { usePageTitle } from "@/hooks/usePageTitle";
+import { useProject } from "@/data/hooks/useProject";
 
 export default function GameDetailPage() {
   const { slug } = useParams<{ slug: string }>();
+  const { data: project } = useProject(slug ?? "");
+  usePageTitle(project?.name);
 
   if (!slug) return null;
 

@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function WindowsOnArmPage() {
   const [showScrollIndicator, setShowScrollIndicator] = useState(true);
+  usePageTitle("Windows on Arm");
 
   useEffect(() => {
     let lastScrollY = window.scrollY;

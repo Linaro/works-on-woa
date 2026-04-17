@@ -7,6 +7,7 @@ interface FilterBarProps {
     label: string;
     key: string;
     options: MultiSelectOption[];
+    sortSelectedFirst?: boolean;
   }[];
   activeFilters: Record<string, string[]>;
   onFilterChange: (key: string, values: string[]) => void;
@@ -34,6 +35,7 @@ export function FilterBar({
           options={filter.options}
           selected={activeFilters[filter.key] ?? []}
           onChange={(values) => onFilterChange(filter.key, values)}
+          sortSelectedFirst={filter.sortSelectedFirst}
         />
       ))}
       {hasActiveFilters && (
