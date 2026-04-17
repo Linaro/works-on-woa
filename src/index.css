@@ -133,6 +133,10 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
 }
 
 /* ===== Inline Links (e.g. FAQ answers) ===== */
