@@ -88,7 +88,7 @@ export function HeroSection() {
             : "pointer-events-none translate-y-2 opacity-0"
         }`}
       >
-        <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">Scroll</span>
+        <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">{t("common.scroll")}</span>
         <div
           className="h-16"
           style={{

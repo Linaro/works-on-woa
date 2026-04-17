@@ -1,5 +1,6 @@
 import type { DataProvider } from "./provider";
 import { formatCategory } from "@/utils/formatting";
+import { publisherIcons } from "./content/publisher-icons";
 import type {
   Project,
   ProjectFilters,
@@ -231,6 +232,7 @@ export class LocalDataProvider implements DataProvider {
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/^-|-$/g, ""),
         name,
+        icon: publisherIcons[name],
         appCount: counts.appCount,
         gameCount: counts.gameCount,
         totalCount: counts.appCount + counts.gameCount,

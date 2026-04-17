@@ -60,14 +60,23 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <MobileLink to="/learn/getting-started" onClick={onClose}>
                 {t("nav.gettingStarted")}
               </MobileLink>
-              <MobileLink to="/learn/prism" onClick={onClose}>
+              <a
+                href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={onClose}
+                className="rounded-lg px-4 py-3 text-base font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+              >
                 {t("nav.prism")}
-              </MobileLink>
+              </a>
               <MobileLink to="/learn/windows-on-arm" onClick={onClose}>
                 {t("nav.windowsOnArm")}
               </MobileLink>
               <MobileLink to="/faq" onClick={onClose}>
                 {t("nav.faq")}
+              </MobileLink>
+              <MobileLink to="/contributing" onClick={onClose}>
+                {t("nav.contributing")}
               </MobileLink>
             </nav>
           </motion.div>

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
+import { PublisherIcon } from "@/components/Common/PublisherIcon";
 import { CompatibilityBadge } from "@/components/Common/Badge";
 import { cn } from "@/utils/cn";
 import { useSearch } from "@/data/hooks/useSearch";
@@ -240,9 +241,7 @@ function PublisherDropdown({
               onSelect();
             }}
           >
-            <div className="flex h-8 w-8 items-center justify-center rounded-md bg-[rgba(255,255,255,0.06)] text-xs font-semibold text-[var(--color-text-secondary)]">
-              {publisher.name.charAt(0).toUpperCase()}
-            </div>
+            <PublisherIcon icon={publisher.icon} name={publisher.name} size="sm" />
             <div className="min-w-0 flex-1">
               <p className="truncate text-sm font-medium text-[var(--color-text-primary)]">
                 {publisher.name}

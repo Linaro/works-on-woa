@@ -9,7 +9,8 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
     "publishers": "发行商",
-    "customReport": "自定义报告"
+    "customReport": "自定义报告",
+    "contributing": "贡献"
   },
   "hero": {
     "title": "Windows 在 ARM 上运行",
@@ -183,6 +184,9 @@
     "yes": "是",
     "no": "否",
     "na": "—",
+    "share": "分享",
+    "copied": "已复制！",
+    "scroll": "滚动",
     "loading": "加载中...",
     "error": "出了点问题",
     "retry": "重试",
@@ -255,6 +259,15 @@
     "community": "社区已验证",
     "unverified": "未验证"
   },
+  "games": {
+    "subtitle": "浏览 Windows on Arm 上的游戏兼容性。"
+  },
+  "publisherDetail": {
+    "appCount_one": "{{count}} 个应用",
+    "appCount_other": "{{count}} 个应用",
+    "gameCount_one": "{{count}} 个游戏",
+    "gameCount_other": "{{count}} 个游戏"
+  },
   "publishers": {
     "title": "发行商",
     "subtitle": "浏览在 Windows on Arm 上提供应用和游戏的精选发行商。",
@@ -295,5 +308,130 @@
     "actions": "操作",
     "addAllPublisherApps": "添加所有应用",
     "remove": "移除"
+  },
+  "categoryNames": {
+    "accessibility": "辅助功能",
+    "ai": "AI",
+    "ai-tool": "AI 工具",
+    "anti-virus": "杀毒软件",
+    "audio": "音频",
+    "benchmarking": "基准测试",
+    "books": "图书",
+    "browsers": "浏览器",
+    "business": "商业",
+    "cad": "CAD",
+    "collaboration": "协作",
+    "creative": "创意",
+    "data-prot": "数据保护",
+    "database": "数据库",
+    "dev-mgmt": "开发管理",
+    "dev-tools": "开发工具",
+    "ecom": "电子商务",
+    "education": "教育",
+    "emulators": "模拟器",
+    "endpoint-sec": "终端安全",
+    "engineering": "工程",
+    "enterprise": "企业",
+    "entertainment": "娱乐",
+    "food-dining": "美食 & 餐饮",
+    "health": "健康",
+    "healthcare": "医疗保健",
+    "it": "IT",
+    "it-sec-tools": "IT 安全工具",
+    "it-tools-vdi": "IT 工具 VDI",
+    "kids-family": "儿童 & 家庭",
+    "library": "图书馆",
+    "lifestyle": "生活方式",
+    "multimedia": "多媒体",
+    "music": "音乐",
+    "nav": "导航",
+    "news": "新闻",
+    "nw-storage": "网络存储",
+    "oss": "OSS",
+    "personal": "个人",
+    "personalfin": "个人理财",
+    "photo": "照片",
+    "printers": "打印机",
+    "prod": "生产力",
+    "remote-desktop": "远程桌面",
+    "security": "安全",
+    "sports": "体育",
+    "sysinfo": "系统信息",
+    "travel": "旅行",
+    "utils-tools": "实用工具",
+    "video": "视频",
+    "vpn": "VPN",
+    "web-social": "网络社交",
+    "actionandadventure": "动作与冒险",
+    "cardandboard": "卡牌与桌游",
+    "platformer": "平台游戏",
+    "roleplaying": "角色扮演"
+  },
+  "contributing": {
+    "title": "贡献",
+    "subtitle": "帮助我们保持 Windows on Arm 兼容性目录的准确和最新。",
+    "form": {
+      "title": "提交应用请求",
+      "description": "最快的贡献方式是填写我们的应用请求表单。您可以用它来请求添加新的应用或游戏、报告现有条目的错误数据或建议更新。无需编码经验 — 只需填写详细信息，我们会处理其余部分。",
+      "button": "打开应用请求表单"
+    },
+    "github": {
+      "title": "通过 GitHub Pull Request 贡献",
+      "step1": "如果您熟悉 Git 和 JSON，可以通过提交 Pull Request 直接贡献项目数据。",
+      "step2": "1. 在 <a href='https://github.com/Linaro/works-on-woa/fork' target='_blank' rel='noopener noreferrer'>github.com/Linaro/works-on-woa</a> Fork 仓库。",
+      "step3": "2. 将 Fork 克隆到本地，然后进行更改。应用和游戏数据存储在单个文件中：src/data/content/projects.json。每个条目是一个 JSON 对象 — 请参阅下面的架构和示例。",
+      "step4": "3. 提交更改，推送到您的 Fork，然后向主仓库创建 <a href='https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork' target='_blank' rel='noopener noreferrer'>Pull Request</a>。",
+      "step5": "4. 我们建议在提交前在本地运行网站（npm install && npm run dev）以验证您的更改能正确构建。"
+    },
+    "schema": {
+      "title": "项目架构",
+      "description": "所有应用和游戏存储在 <code>src/data/content/projects.json</code> 中。请在 JSON 文件中搜索现有标签/类别/发行商并适当重用。我们的架构验证器将在构建时强制执行此操作，以防止重复和架构扩展。每个条目是包含以下字段的 JSON 对象：",
+      "field": "字段",
+      "type": "类型",
+      "descriptionCol": "描述",
+      "fields": [
+        { "field": "slug", "type": "string", "description": "项目的唯一 URL 安全标识符（例如 <code>visual-studio-code</code>）。" },
+        { "field": "name", "type": "string", "description": "应用或游戏的显示名称。" },
+        { "field": "type", "type": "\"application\" | \"game\"", "description": "此条目是应用程序还是游戏。" },
+        { "field": "icon", "type": "string", "description": "<code>public/icons/</code> 中的图标文件名。最大 512×512。推荐 SVG。" },
+        { "field": "categories", "type": "string[]", "description": "一个或多个类别标识符（参见下方类别）。" },
+        { "field": "publisher", "type": "string", "description": "发行商或开发者的名称。" },
+        { "field": "compatibility", "type": "\"yes\" | \"no\" | \"unknown\"", "description": "<strong>yes</strong>：可在 Windows on Arm 上运行。<strong>no</strong>：不兼容。<strong>unknown</strong>：尚未验证。" },
+        { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>：为 Arm64 构建。<strong>emulation</strong>：通过 Prism x86/x64 转换运行。<strong>unknown</strong>：未确定。<strong>na</strong>：不适用。" },
+        { "field": "versionFrom", "type": "string", "description": "可选。Arm 兼容性可用的版本。" },
+        { "field": "link", "type": "URL", "description": "可选。软件的下载或主页链接。" },
+        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "验证兼容性状态的主体。" },
+        { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "此条目最后一次验证或更新的日期。" },
+        { "field": "notes", "type": "string", "description": "可选。有关兼容性或注意事项的附加信息。" },
+        { "field": "shouldShowNotes", "type": "boolean", "description": "是否在详情页面显示备注字段。" }
+      ]
+    },
+    "example": {
+      "title": "条目示例",
+      "description": "以下是 projects.json 中一个应用程序的示例条目：",
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+    },
+    "categories": {
+      "title": "类别",
+      "description": "每个项目必须引用一个或多个类别标识符。请使用以下认可的类别：",
+      "tagColumn": "标识符",
+      "nameColumn": "显示名称",
+      "list": [
+        "accessibility", "ai", "ai-tool", "anti-virus", "audio", "benchmarking",
+        "books", "browsers", "business", "cad", "collaboration", "creative",
+        "data-prot", "database", "dev-mgmt", "dev-tools", "ecom", "education",
+        "emulators", "endpoint-sec", "engineering", "enterprise", "entertainment",
+        "food-dining", "health", "healthcare", "it", "it-sec-tools", "it-tools-vdi",
+        "kids-family", "library", "lifestyle", "multimedia", "music", "nav", "news",
+        "nw-storage", "oss", "personal", "personalfin", "photo", "printers", "prod",
+        "remote-desktop", "security", "sports", "sysinfo", "travel", "utils-tools",
+        "video", "vpn", "web-social",
+        "actionandadventure", "cardandboard", "platformer", "roleplaying"
+      ]
+    },
+    "help": {
+      "title": "需要帮助？",
+      "description": "如果您遇到问题或对贡献有疑问，请<a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>打开 GitHub Issue</a>，我们将尽力提供帮助。"
+    }
   }
 }

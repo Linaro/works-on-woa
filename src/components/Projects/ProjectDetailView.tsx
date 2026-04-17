@@ -130,9 +130,9 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 onClick={handleShare}
               >
                 {copied ? (
-                  <><Check className="mr-1 h-4 w-4" /> Copied!</>
+                  <><Check className="mr-1 h-4 w-4" /> {t("common.copied")}</>
                 ) : (
-                  <><Copy className="mr-1 h-4 w-4" /> Share</>
+                  <><Copy className="mr-1 h-4 w-4" /> {t("common.share")}</>
                 )}
               </Button>
               <Button

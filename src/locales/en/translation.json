@@ -9,7 +9,8 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on Arm",
     "publishers": "Publishers",
-    "customReport": "Custom Report"
+    "customReport": "Custom Report",
+    "contributing": "Contributing"
   },
   "hero": {
     "title": "Windows runs on Arm",
@@ -183,6 +184,9 @@
     "yes": "Yes",
     "no": "No",
     "na": "—",
+    "share": "Share",
+    "copied": "Copied!",
+    "scroll": "Scroll",
     "loading": "Loading...",
     "error": "Something went wrong",
     "retry": "Retry",
@@ -255,6 +259,15 @@
     "community": "Community Verified",
     "unverified": "Unverified"
   },
+  "games": {
+    "subtitle": "Browse game compatibility on Windows on Arm."
+  },
+  "publisherDetail": {
+    "appCount_one": "{{count}} app",
+    "appCount_other": "{{count}} apps",
+    "gameCount_one": "{{count}} game",
+    "gameCount_other": "{{count}} games"
+  },
   "publishers": {
     "title": "Publishers",
     "subtitle": "Browse select publishers with apps and games on Windows on Arm.",
@@ -295,5 +308,130 @@
     "actions": "Actions",
     "addAllPublisherApps": "Add all apps",
     "remove": "Remove"
+  },
+  "categoryNames": {
+    "accessibility": "Accessibility",
+    "ai": "AI",
+    "ai-tool": "AI Tool",
+    "anti-virus": "Anti Virus",
+    "audio": "Audio",
+    "benchmarking": "Benchmarking",
+    "books": "Books",
+    "browsers": "Browsers",
+    "business": "Business",
+    "cad": "CAD",
+    "collaboration": "Collaboration",
+    "creative": "Creative",
+    "data-prot": "Data Protection",
+    "database": "Database",
+    "dev-mgmt": "Dev Management",
+    "dev-tools": "Dev Tools",
+    "ecom": "Ecommerce",
+    "education": "Education",
+    "emulators": "Emulators",
+    "endpoint-sec": "Endpoint Security",
+    "engineering": "Engineering",
+    "enterprise": "Enterprise",
+    "entertainment": "Entertainment",
+    "food-dining": "Food & Dining",
+    "health": "Health",
+    "healthcare": "Healthcare",
+    "it": "IT",
+    "it-sec-tools": "IT Security Tools",
+    "it-tools-vdi": "IT Tools VDI",
+    "kids-family": "Kids & Family",
+    "library": "Library",
+    "lifestyle": "Lifestyle",
+    "multimedia": "Multimedia",
+    "music": "Music",
+    "nav": "Navigation",
+    "news": "News",
+    "nw-storage": "Network Storage",
+    "oss": "OSS",
+    "personal": "Personal",
+    "personalfin": "Personal Finance",
+    "photo": "Photo",
+    "printers": "Printers",
+    "prod": "Productivity",
+    "remote-desktop": "Remote Desktop",
+    "security": "Security",
+    "sports": "Sports",
+    "sysinfo": "System Info",
+    "travel": "Travel",
+    "utils-tools": "Utility",
+    "video": "Video",
+    "vpn": "VPN",
+    "web-social": "Web & Social",
+    "actionandadventure": "Action & Adventure",
+    "cardandboard": "Card & Board",
+    "platformer": "Platformer",
+    "roleplaying": "Role Playing"
+  },
+  "contributing": {
+    "title": "Contributing",
+    "subtitle": "Help us keep the Windows on Arm compatibility catalog accurate and up to date.",
+    "form": {
+      "title": "Submit an app request",
+      "description": "The quickest way to contribute is by filling out our app request form. Use this to request a new app or game be added, report incorrect data for an existing entry, or suggest updates. No coding experience required — just fill in the details and we'll take it from there.",
+      "button": "Open App Request Form"
+    },
+    "github": {
+      "title": "Contribute via GitHub Pull Request",
+      "step1": "For those comfortable with Git and JSON, you can contribute directly to the project data by opening a Pull Request.",
+      "step2": "1. Fork the repository at <a href='https://github.com/Linaro/works-on-woa/fork' target='_blank' rel='noopener noreferrer'>github.com/Linaro/works-on-woa</a>.",
+      "step3": "2. Clone your fork locally, then make your changes. App and game data lives in a single file: src/data/content/projects.json. Each entry is a JSON object — see the schema and example below.",
+      "step4": "3. Commit your changes, push to your fork, and open a <a href='https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork' target='_blank' rel='noopener noreferrer'>Pull Request</a> against the main repository.",
+      "step5": "4. We recommend running the site locally before submitting (npm install && npm run dev) to verify your changes build correctly."
+    },
+    "schema": {
+      "title": "Project Schema",
+      "description": "All apps and games are stored in <code>src/data/content/projects.json</code>. Please search the JSON file for existing labels/categories/publishers and reuse where appropriate. Our schema validator will enforce this during build time to prevent duplication and expansion of schema. Each entry is a JSON object that must include the following fields:",
+      "field": "Field",
+      "type": "Type",
+      "descriptionCol": "Description",
+      "fields": [
+        { "field": "slug", "type": "string", "description": "A unique URL-safe identifier for the project (e.g. <code>visual-studio-code</code>)." },
+        { "field": "name", "type": "string", "description": "The display name of the app or game." },
+        { "field": "type", "type": "\"application\" | \"game\"", "description": "Whether this entry is an application or a game." },
+        { "field": "icon", "type": "string", "description": "Filename of the icon in <code>public/icons/</code>. 512×512 max. SVG preferred." },
+        { "field": "categories", "type": "string[]", "description": "One or more category slugs (see Categories below)." },
+        { "field": "publisher", "type": "string", "description": "The name of the publisher or developer." },
+        { "field": "compatibility", "type": "\"yes\" | \"no\" | \"unknown\"", "description": "<strong>yes</strong>: works on Windows on Arm. <strong>no</strong>: not compatible. <strong>unknown</strong>: status not yet verified." },
+        { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>: built for Arm64. <strong>emulation</strong>: runs via Prism x86/x64 translation. <strong>unknown</strong>: not determined. <strong>na</strong>: not applicable." },
+        { "field": "versionFrom", "type": "string", "description": "Optional. The version from which Arm compatibility is available." },
+        { "field": "link", "type": "URL", "description": "Optional. A download or homepage link for the software." },
+        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "Who verified the compatibility status." },
+        { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "The date this entry was last verified or updated." },
+        { "field": "notes", "type": "string", "description": "Optional. Any additional information about compatibility or caveats." },
+        { "field": "shouldShowNotes", "type": "boolean", "description": "Whether to display the notes field on the detail page." }
+      ]
+    },
+    "example": {
+      "title": "Example Entry",
+      "description": "Here is a sample entry for an application in projects.json:",
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+    },
+    "categories": {
+      "title": "Categories",
+      "description": "Each project must reference one or more category slugs. Use the following recognized categories:",
+      "tagColumn": "Slug",
+      "nameColumn": "Display Name",
+      "list": [
+        "accessibility", "ai", "ai-tool", "anti-virus", "audio", "benchmarking",
+        "books", "browsers", "business", "cad", "collaboration", "creative",
+        "data-prot", "database", "dev-mgmt", "dev-tools", "ecom", "education",
+        "emulators", "endpoint-sec", "engineering", "enterprise", "entertainment",
+        "food-dining", "health", "healthcare", "it", "it-sec-tools", "it-tools-vdi",
+        "kids-family", "library", "lifestyle", "multimedia", "music", "nav", "news",
+        "nw-storage", "oss", "personal", "personalfin", "photo", "printers", "prod",
+        "remote-desktop", "security", "sports", "sysinfo", "travel", "utils-tools",
+        "video", "vpn", "web-social",
+        "actionandadventure", "cardandboard", "platformer", "roleplaying"
+      ]
+    },
+    "help": {
+      "title": "Need help?",
+      "description": "If you run into issues or have questions about contributing, please <a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>open a GitHub Issue</a> and we'll do our best to help."
+    }
   }
 }

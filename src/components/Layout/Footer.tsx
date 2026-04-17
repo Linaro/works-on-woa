@@ -24,9 +24,9 @@ export function Footer() {
             <FooterLink to="/learn/getting-started">
               {t("footer.columns.learn.gettingStarted")}
             </FooterLink>
-            <FooterLink to="/learn/prism">
+            <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation">
               {t("footer.columns.learn.prism")}
-            </FooterLink>
+            </FooterExternalLink>
             <FooterLink to="/learn/windows-on-arm">
               {t("footer.columns.learn.windowsOnArm")}
             </FooterLink>
@@ -42,9 +42,9 @@ export function Footer() {
             <FooterExternalLink href="https://github.com/Linaro/works-on-woa/issues">
               {t("footer.columns.community.reportIssue")}
             </FooterExternalLink>
-            <FooterExternalLink href="https://github.com/Linaro/works-on-woa/blob/main/README.md">
+            <FooterLink to="/contributing">
               {t("footer.columns.community.contribute")}
-            </FooterExternalLink>
+            </FooterLink>
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.microsoft.title")}>

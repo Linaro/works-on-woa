@@ -30,7 +30,10 @@ export function ProjectsList({ type }: ProjectsListProps) {
   const [searchParams, setSearchParams] = useSearchParams();
 
   // Initialize filters from URL
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(() => {
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    return isNaN(p) || p < 1 ? 1 : p;
+  });
   const [filters, setFilters] = useState<ProjectFilters>(() => ({
     type,
     ...filtersFromSearchParams(searchParams),
@@ -44,15 +47,34 @@ export function ProjectsList({ type }: ProjectsListProps) {
   useEffect(() => {
     const urlFilters = filtersFromSearchParams(searchParams);
     setFilters((prev) => ({ ...prev, type, ...urlFilters }));
-  }, [searchParams, type]);
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    setPage(isNaN(p) || p < 1 ? 1 : p);
+
+    if (!searchParams.has("page")) {
+      const params = new URLSearchParams(searchParams);
+      params.set("page", "1");
+      setSearchParams(params, { replace: true });
+    }
+  }, [searchParams, type, setSearchParams]);
 
   // Sync filters → URL whenever filters change
   const syncFiltersToUrl = useCallback(
     (nextFilters: ProjectFilters) => {
       const params = filtersToSearchParams(nextFilters);
+      params.set("page", "1");
       setSearchParams(params, { replace: true });
     },
     [setSearchParams]
+  );
+
+  const handlePageChange = useCallback(
+    (newPage: number) => {
+      setPage(newPage);
+      const params = new URLSearchParams(searchParams);
+      params.set("page", String(newPage));
+      setSearchParams(params);
+    },
+    [searchParams, setSearchParams]
   );
 
   const handleSearch = useCallback(
@@ -82,7 +104,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
     const next: ProjectFilters = { type };
     setFilters(next);
     setPage(1);
-    setSearchParams({});
+    setSearchParams({ page: "1" });
   }, [type, setSearchParams]);
 
   const typePublishers = (publishersData?.items ?? [])
@@ -193,7 +215,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
         )}
       </div>
 
-      <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
+      <Pagination page={page} totalPages={totalPages} onPageChange={handlePageChange} />
     </Container>
   );
 }

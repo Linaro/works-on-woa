@@ -58,6 +58,7 @@ export interface Category {
 export interface Publisher {
   slug: string;
   name: string;
+  icon?: string;
   appCount: number;
   gameCount: number;
   totalCount: number;

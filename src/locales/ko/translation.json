@@ -9,7 +9,8 @@
     "prism": "Prism",
     "windowsOnArm": "Windows on ARM",
     "publishers": "퍼블리셔",
-    "customReport": "맞춤 보고서"
+    "customReport": "맞춤 보고서",
+    "contributing": "기여하기"
   },
   "hero": {
     "title": "Windows는 ARM에서 실행됩니다",
@@ -169,7 +170,7 @@
         "terms": "이용 약관"
       }
     },
-    "copyright": "© {{year}} Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. 모든 권리 보유.",
     "legal": {
       "privacy": "개인정보 보호",
       "terms": "이용 약관",
@@ -183,6 +184,9 @@
     "yes": "예",
     "no": "아니오",
     "na": "—",
+    "share": "공유",
+    "copied": "복사됨!",
+    "scroll": "스크롤",
     "loading": "로딩 중...",
     "error": "문제가 발생했습니다",
     "retry": "재시도",
@@ -255,6 +259,15 @@
     "community": "커뮤니티 검증",
     "unverified": "미검증"
   },
+  "games": {
+    "subtitle": "Windows on Arm에서 게임 호환성을 확인하세요."
+  },
+  "publisherDetail": {
+    "appCount_one": "앱 {{count}}개",
+    "appCount_other": "앱 {{count}}개",
+    "gameCount_one": "게임 {{count}}개",
+    "gameCount_other": "게임 {{count}}개"
+  },
   "publishers": {
     "title": "퍼블리셔",
     "subtitle": "Windows on Arm에서 앱 및 게임을 제공하는 주요 퍼블리셔를 찾아보세요.",
@@ -295,5 +308,130 @@
     "actions": "작업",
     "addAllPublisherApps": "모든 앱 추가",
     "remove": "제거"
+  },
+  "categoryNames": {
+    "accessibility": "접근성",
+    "ai": "AI",
+    "ai-tool": "AI 도구",
+    "anti-virus": "바이러스 백신",
+    "audio": "오디오",
+    "benchmarking": "벤치마크",
+    "books": "도서",
+    "browsers": "브라우저",
+    "business": "비즈니스",
+    "cad": "CAD",
+    "collaboration": "협업",
+    "creative": "크리에이티브",
+    "data-prot": "데이터 보호",
+    "database": "데이터베이스",
+    "dev-mgmt": "개발 관리",
+    "dev-tools": "개발 도구",
+    "ecom": "이커머스",
+    "education": "교육",
+    "emulators": "에뮬레이터",
+    "endpoint-sec": "엔드포인트 보안",
+    "engineering": "엔지니어링",
+    "enterprise": "엔터프라이즈",
+    "entertainment": "엔터테인먼트",
+    "food-dining": "음식 & 외식",
+    "health": "건강",
+    "healthcare": "의료",
+    "it": "IT",
+    "it-sec-tools": "IT 보안 도구",
+    "it-tools-vdi": "IT 도구 VDI",
+    "kids-family": "어린이 & 가족",
+    "library": "라이브러리",
+    "lifestyle": "라이프스타일",
+    "multimedia": "멀티미디어",
+    "music": "음악",
+    "nav": "내비게이션",
+    "news": "뉴스",
+    "nw-storage": "네트워크 스토리지",
+    "oss": "OSS",
+    "personal": "개인",
+    "personalfin": "개인 금융",
+    "photo": "사진",
+    "printers": "프린터",
+    "prod": "생산성",
+    "remote-desktop": "원격 데스크톱",
+    "security": "보안",
+    "sports": "스포츠",
+    "sysinfo": "시스템 정보",
+    "travel": "여행",
+    "utils-tools": "유틸리티",
+    "video": "비디오",
+    "vpn": "VPN",
+    "web-social": "웹 & 소셜",
+    "actionandadventure": "액션 & 어드벤처",
+    "cardandboard": "카드 & 보드",
+    "platformer": "플랫포머",
+    "roleplaying": "롤플레잉"
+  },
+  "contributing": {
+    "title": "기여하기",
+    "subtitle": "Windows on Arm 호환성 카탈로그를 정확하고 최신 상태로 유지하도록 도와주세요.",
+    "form": {
+      "title": "앱 요청 제출",
+      "description": "가장 쉬운 기여 방법은 앱 요청 양식을 작성하는 것입니다. 새로운 앱이나 게임 추가 요청, 기존 항목의 잘못된 데이터 보고 또는 업데이트 제안에 사용하세요. 코딩 경험이 필요 없습니다 — 세부 정보를 입력하시면 나머지는 저희가 처리합니다.",
+      "button": "앱 요청 양식 열기"
+    },
+    "github": {
+      "title": "GitHub Pull Request로 기여하기",
+      "step1": "Git과 JSON에 익숙한 분은 Pull Request를 열어 프로젝트 데이터에 직접 기여할 수 있습니다.",
+      "step2": "1. <a href='https://github.com/Linaro/works-on-woa/fork' target='_blank' rel='noopener noreferrer'>github.com/Linaro/works-on-woa</a>에서 리포지토리를 포크합니다.",
+      "step3": "2. 포크를 로컬로 클론한 후 변경합니다. 앱과 게임 데이터는 단일 파일 src/data/content/projects.json에 있습니다. 각 항목은 JSON 객체입니다 — 아래 스키마와 예시를 참조하세요.",
+      "step4": "3. 변경 사항을 커밋하고 포크에 푸시한 후 메인 리포지토리에 <a href='https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork' target='_blank' rel='noopener noreferrer'>Pull Request</a>를 생성합니다.",
+      "step5": "4. 제출 전에 로컬에서 사이트를 실행하여 (npm install && npm run dev) 변경 사항이 올바르게 빌드되는지 확인하는 것을 권장합니다."
+    },
+    "schema": {
+      "title": "프로젝트 스키마",
+      "description": "모든 앱과 게임은 <code>src/data/content/projects.json</code>에 저장됩니다. JSON 파일에서 기존 라벨/카테고리/퍼블리셔를 검색하고 적절히 재사용하세요. 스키마 검증기가 빌드 시 이를 강제하여 중복 및 스키마 확장을 방지합니다. 각 항목은 다음 필드를 포함하는 JSON 객체입니다:",
+      "field": "필드",
+      "type": "유형",
+      "descriptionCol": "설명",
+      "fields": [
+        { "field": "slug", "type": "string", "description": "프로젝트의 고유 URL 안전 식별자 (예: <code>visual-studio-code</code>)." },
+        { "field": "name", "type": "string", "description": "앱 또는 게임의 표시 이름." },
+        { "field": "type", "type": "\"application\" | \"game\"", "description": "이 항목이 애플리케이션인지 게임인지." },
+        { "field": "icon", "type": "string", "description": "<code>public/icons/</code>의 아이콘 파일명. 최대 512×512. SVG 권장." },
+        { "field": "categories", "type": "string[]", "description": "하나 이상의 카테고리 슬러그 (아래 카테고리 참조)." },
+        { "field": "publisher", "type": "string", "description": "퍼블리셔 또는 개발자의 이름." },
+        { "field": "compatibility", "type": "\"yes\" | \"no\" | \"unknown\"", "description": "<strong>yes</strong>: Windows on Arm에서 작동. <strong>no</strong>: 호환되지 않음. <strong>unknown</strong>: 아직 검증되지 않음." },
+        { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>: Arm64용으로 빌드. <strong>emulation</strong>: Prism x86/x64 변환으로 실행. <strong>unknown</strong>: 미확인. <strong>na</strong>: 해당 없음." },
+        { "field": "versionFrom", "type": "string", "description": "선택. Arm 호환성이 제공되는 버전." },
+        { "field": "link", "type": "URL", "description": "선택. 소프트웨어 다운로드 또는 홈페이지 링크." },
+        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "호환성 상태를 검증한 주체." },
+        { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "이 항목이 마지막으로 검증 또는 업데이트된 날짜." },
+        { "field": "notes", "type": "string", "description": "선택. 호환성 또는 주의 사항에 대한 추가 정보." },
+        { "field": "shouldShowNotes", "type": "boolean", "description": "상세 페이지에 메모 필드를 표시할지 여부." }
+      ]
+    },
+    "example": {
+      "title": "항목 예시",
+      "description": "다음은 projects.json의 애플리케이션 샘플 항목입니다:",
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+    },
+    "categories": {
+      "title": "카테고리",
+      "description": "각 프로젝트는 하나 이상의 카테고리 슬러그를 참조해야 합니다. 다음 인정된 카테고리를 사용하세요:",
+      "tagColumn": "슬러그",
+      "nameColumn": "표시 이름",
+      "list": [
+        "accessibility", "ai", "ai-tool", "anti-virus", "audio", "benchmarking",
+        "books", "browsers", "business", "cad", "collaboration", "creative",
+        "data-prot", "database", "dev-mgmt", "dev-tools", "ecom", "education",
+        "emulators", "endpoint-sec", "engineering", "enterprise", "entertainment",
+        "food-dining", "health", "healthcare", "it", "it-sec-tools", "it-tools-vdi",
+        "kids-family", "library", "lifestyle", "multimedia", "music", "nav", "news",
+        "nw-storage", "oss", "personal", "personalfin", "photo", "printers", "prod",
+        "remote-desktop", "security", "sports", "sysinfo", "travel", "utils-tools",
+        "video", "vpn", "web-social",
+        "actionandadventure", "cardandboard", "platformer", "roleplaying"
+      ]
+    },
+    "help": {
+      "title": "도움이 필요하신가요?",
+      "description": "문제가 발생하거나 기여에 대한 질문이 있으시면 <a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>GitHub Issue를 열어</a> 주세요. 최선을 다해 도와드리겠습니다."
+    }
   }
 }
