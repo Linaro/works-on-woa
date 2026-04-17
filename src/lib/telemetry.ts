@@ -64,3 +64,37 @@ export function trackFilterUsage(page: string, filterKey: string, values: string
     properties: { page, filterKey, values: values.join(",") },
   });
 }
+
+const MAX_SLUGS_BYTES = 8000;
+const reportedSlugSets = new Set<string>();
+
+function slugSetFingerprint(slugs: string[]): string {
+  return [...slugs].sort().join("\0");
+}
+
+export function trackReportAction(
+  action: string,
+  title: string,
+  slugs: string[],
+) {
+  const fingerprint = slugSetFingerprint(slugs);
+  if (reportedSlugSets.has(fingerprint)) return;
+  reportedSlugSets.add(fingerprint);
+
+  const slugsJson = JSON.stringify(slugs);
+  const truncated = slugsJson.length > MAX_SLUGS_BYTES;
+  const safeSlugs = truncated
+    ? JSON.stringify(slugs.slice(0, Math.floor(slugs.length * (MAX_SLUGS_BYTES / slugsJson.length))))
+    : slugsJson;
+
+  appInsights?.trackEvent({
+    name: "CustomReportAction",
+    properties: {
+      action,
+      title,
+      appCount: String(slugs.length),
+      slugs: safeSlugs,
+      ...(truncated ? { truncated: "true" } : {}),
+    },
+  });
+}

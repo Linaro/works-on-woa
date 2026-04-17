@@ -16,7 +16,7 @@ import {
 } from "@/lib/bulk-report";
 import { generateReportPdf } from "@/lib/pdf-report";
 import { generateReportXlsx } from "@/lib/xlsx-report";
-import { trackButtonClick } from "@/lib/telemetry";
+import { trackButtonClick, trackReportAction } from "@/lib/telemetry";
 import { usePageTitle } from "@/hooks/usePageTitle";
 import { formatCategory } from "@/utils/formatting";
 
@@ -142,7 +142,7 @@ export default function BulkReportPage() {
         </p>
 
           <div className="mt-3 flex flex-row items-center gap-2">
-            <Button variant="secondary" size="sm" onClick={() => { trackButtonClick("Custom Report: share"); handleShare(); }}>
+            <Button variant="secondary" size="sm" onClick={() => { trackButtonClick("Custom Report: share"); trackReportAction("share", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs); handleShare(); }}>
               {copied ? (
                 <><Check className="mr-1 h-4 w-4" /> {t("customReport.copied")}</>
               ) : (
@@ -155,6 +155,7 @@ export default function BulkReportPage() {
               disabled={reportItems.length === 0}
               onClick={() => {
                 trackButtonClick("Custom Report: download pdf");
+                trackReportAction("download pdf", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs);
                 generateReportPdf({
                   title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
                   items: reportItems,
@@ -174,6 +175,7 @@ export default function BulkReportPage() {
               disabled={reportItems.length === 0}
               onClick={() => {
                 trackButtonClick("Custom Report: download excel");
+                trackReportAction("download excel", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs);
                 generateReportXlsx({
                   title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
                   items: reportItems,
