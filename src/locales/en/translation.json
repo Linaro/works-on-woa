@@ -49,7 +49,7 @@
   },
   "resources": {
     "title": "Resources",
-    "subtitle": "Everything you need to build, deploy, and succeed on Windows on Arm.",
+    "subtitle": "Everything you need to understand Windows on Arm and get started.",
     "items": {
       "gettingStarted": {
         "title": "Get started with Windows on Arm",
@@ -251,7 +251,7 @@
   },
   "publishers": {
     "title": "Publishers",
-    "subtitle": "Browse all publishers with apps and games on Windows on Arm.",
+    "subtitle": "Browse select publishers with apps and games on Windows on Arm.",
     "columns": {
       "name": "Publisher",
       "apps": "Apps",

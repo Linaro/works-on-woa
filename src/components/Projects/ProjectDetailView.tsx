@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
-import { BackButton } from "@/components/Common/BackButton";
+
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
@@ -89,7 +89,9 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     },
     {
       label: t("appDetail.categories"),
-      value: project.categories.length > 0 ? project.categories.join(", ") : "—",
+      value: project.categories.length > 0 && !(project.categories.length === 1 && project.categories[0] === "unknown")
+        ? project.categories.join(", ")
+        : "—",
     },
     {
       label: t("appDetail.lastUpdated"),
@@ -100,11 +102,6 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
   return (
     <Container className="py-10 md:py-16">
       <div>
-        {/* Back button */}
-        <BackButton to={type === "application" ? "/apps" : "/games"}>
-          {type === "application" ? t("common.backToApps") : t("common.backToGames")}
-        </BackButton>
-
         {/* Header */}
         <div className="flex items-start gap-5">
           <ProjectIcon icon={project.icon} name={project.name} size="xl" />

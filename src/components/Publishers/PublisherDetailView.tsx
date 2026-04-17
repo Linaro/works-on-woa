@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
-import { BackButton } from "@/components/Common/BackButton";
+
 import { Button } from "@/components/Common/Button";
 import { FilterBar } from "@/components/Common/FilterBar";
 import { ProjectTable } from "@/components/Common/ProjectTable";
@@ -167,11 +167,6 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   return (
     <Container className="py-10 md:py-16">
       <div>
-        {/* Back button */}
-        <BackButton to="/publishers">
-          {t("publishers.backToPublishers")}
-        </BackButton>
-
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-[var(--color-text-primary)] md:text-4xl">
