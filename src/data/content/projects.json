@@ -26,7 +26,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "7.0.306",
@@ -13875,7 +13875,7 @@
     "slug": "bingwallpaper",
     "name": "Bing Wallpaper",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "bing-wallpaper.png",
     "categories": [
       "personal"
     ],
@@ -21666,7 +21666,7 @@
     "slug": "claude",
     "name": "Claude",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "claude.png",
     "categories": [
       "ai-tool"
     ],
@@ -22008,7 +22008,7 @@
     "slug": "clipchamp",
     "name": "Clipchamp",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "microsoft-clipchamp.png",
     "categories": [
       "video"
     ],
@@ -48476,7 +48476,7 @@
     "slug": "githubdesktop",
     "name": "GitHub Desktop",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "github-desktop.png",
     "categories": [
       "dev-tools"
     ],
@@ -68722,7 +68722,7 @@
     "slug": "netmaui",
     "name": "Microsoft .NET MAUI",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "NETRuntime.svg",
     "categories": [
       "dev-tools"
     ],
@@ -68760,7 +68760,7 @@
     "slug": "microsoft365store",
     "name": "Microsoft 365 (Store)",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "microsoft-365-store.png",
     "categories": [
       "prod"
     ],
@@ -69045,26 +69045,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "msftclipchamp",
-    "name": "Microsoft Clipchamp",
-    "type": "application",
-    "icon": "MicrosoftClipChamp.svg",
-    "categories": [
-      "video"
-    ],
-    "publisher": "Microsoft",
-    "compatibility": "yes",
-    "emulationType": "native",
-    "versionFrom": "2.9.1.0",
-    "link": "https://apps.microsoft.com/detail/9p1j8s7ccwwt",
-    "validation": "microsoft",
-    "lastUpdated": "2026-03-02",
-    "isMicrosoftApp": true,
-    "microsoftCategory": "creativity",
-    "notes": "",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "msftcredentialguard",
     "name": "Microsoft Credential Guard​",
     "type": "application",
@@ -69264,7 +69244,7 @@
     "slug": "microsoft-flight-simulator",
     "name": "Microsoft Flight Simulator",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "flight-simulator.png",
     "categories": [
       "unknown"
     ],
@@ -69339,7 +69319,7 @@
     "slug": "microsoft-jigsaw",
     "name": "Microsoft Jigsaw",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-jigsaw.jpeg",
     "categories": [
       "unknown"
     ],
@@ -69395,7 +69375,7 @@
     "slug": "microsoft-mahjong",
     "name": "Microsoft Mahjong",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-mahjong.jpeg",
     "categories": [
       "unknown"
     ],
@@ -69451,7 +69431,7 @@
     "slug": "microsoft-minesweeper",
     "name": "Microsoft Minesweeper",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-minesweeper.jpeg",
     "categories": [
       "unknown"
     ],
@@ -69891,7 +69871,7 @@
     "slug": "microsoft-solitaire-collection",
     "name": "Microsoft Solitaire Collection",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-solitaire-collection.jpeg",
     "categories": [
       "unknown"
     ],
@@ -70042,7 +70022,7 @@
     "slug": "microsoft-treasure-hunt",
     "name": "Microsoft Treasure Hunt",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-treasure-hunt.jpeg",
     "categories": [
       "unknown"
     ],
@@ -70059,7 +70039,7 @@
     "slug": "microsoft-ultimate-word-games",
     "name": "Microsoft Ultimate Word Games",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "microsoft-ultimate-word-games.jpeg",
     "categories": [
       "unknown"
     ],
@@ -70173,7 +70153,7 @@
     "slug": "msftwindowspchealthcheck",
     "name": "Microsoft Windows PC Health Check",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "microsoft-pc-health.png",
     "categories": [
       "oss",
       "dev-tools"
@@ -76531,7 +76511,7 @@
     "slug": "newmicrosoftteams",
     "name": "New Microsoft Teams",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "MicrosoftTeams.svg",
     "categories": [
       "collaboration"
     ],
@@ -130482,7 +130462,7 @@
     "slug": "wsl",
     "name": "WSL",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "wsl.png",
     "categories": [
       "dev-tools"
     ],
@@ -136855,7 +136835,7 @@
     "slug": "officeplusmicrosoftofficeplus",
     "name": "微软OfficePlus (Microsoft OfficePlus)",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "microsoft-office-plus.png",
     "categories": [
       "prod"
     ],

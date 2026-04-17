@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
+import { PublisherIcon } from "@/components/Common/PublisherIcon";
 
 import { Button } from "@/components/Common/Button";
 import { FilterBar } from "@/components/Common/FilterBar";
@@ -31,7 +32,10 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(() => {
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    return isNaN(p) || p < 1 ? 1 : p;
+  });
   const [isAddingAllApps, setIsAddingAllApps] = useState(false);
   const [reportHover, setReportHover] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -62,7 +66,15 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
   useEffect(() => {
     const urlFilters = filtersFromSearchParams(searchParams);
     setFilters((prev) => ({ ...prev, ...urlFilters }));
-  }, [searchParams]);
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    setPage(isNaN(p) || p < 1 ? 1 : p);
+
+    if (!searchParams.has("page")) {
+      const params = new URLSearchParams(searchParams);
+      params.set("page", "1");
+      setSearchParams(params, { replace: true });
+    }
+  }, [searchParams, setSearchParams]);
 
   // Sync filters → URL
   const syncFiltersToUrl = useCallback(
@@ -70,9 +82,20 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
       // Exclude publisher from URL since it's implicit from the route
       const { publisher: _pub, ...urlFilters } = nextFilters;
       const params = filtersToSearchParams(urlFilters as ProjectFilters);
+      params.set("page", "1");
       setSearchParams(params, { replace: true });
     },
     [setSearchParams]
+  );
+
+  const handlePageChange = useCallback(
+    (newPage: number) => {
+      setPage(newPage);
+      const params = new URLSearchParams(searchParams);
+      params.set("page", String(newPage));
+      setSearchParams(params);
+    },
+    [searchParams, setSearchParams]
   );
 
   const handleFilterChange = useCallback(
@@ -89,7 +112,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
     const next: ProjectFilters = {};
     setFilters(next);
     setPage(1);
-    setSearchParams({});
+    setSearchParams({ page: "1" });
   }, [setSearchParams]);
 
   if (isLoading) {
@@ -169,13 +192,17 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
       <div>
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-[var(--color-text-primary)] md:text-4xl">
-            {publisher.name}
-          </h1>
-          <p className="mt-2 text-[var(--color-text-secondary)]">
-            {publisher.appCount} {publisher.appCount === 1 ? "app" : "apps"} · {publisher.gameCount}{" "}
-            {publisher.gameCount === 1 ? "game" : "games"}
-          </p>
+          <div className="flex items-center gap-4">
+            <PublisherIcon icon={publisher.icon} name={publisher.name} size="xl" />
+            <div>
+              <h1 className="text-3xl font-bold text-[var(--color-text-primary)] md:text-4xl">
+                {publisher.name}
+              </h1>
+              <p className="mt-2 text-[var(--color-text-secondary)]">
+                {t("publisherDetail.appCount", { count: publisher.appCount })} · {t("publisherDetail.gameCount", { count: publisher.gameCount })}
+              </p>
+            </div>
+          </div>
           <div className="mt-3 flex flex-wrap items-center gap-3">
             <Button
               variant="secondary"
@@ -187,9 +214,9 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
               }}
             >
               {copied ? (
-                <><Check className="mr-1 h-4 w-4" /> Copied!</>
+                <><Check className="mr-1 h-4 w-4" /> {t("common.copied")}</>
               ) : (
-                <><Copy className="mr-1 h-4 w-4" /> Share</>
+                <><Copy className="mr-1 h-4 w-4" /> {t("common.share")}</>
               )}
             </Button>
             <Button
@@ -285,7 +312,7 @@ export function PublisherDetailView({ slug }: PublisherDetailViewProps) {
           )}
         </div>
 
-        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
+        <Pagination page={page} totalPages={totalPages} onPageChange={handlePageChange} />
       </div>
     </Container>
   );

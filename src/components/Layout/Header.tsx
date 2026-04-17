@@ -176,12 +176,14 @@ export function Header() {
                 >
                   {t("nav.gettingStarted")}
                 </Link>
-                <Link
-                  to="/learn/prism"
+                <a
+                  href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.prism")}
-                </Link>
+                </a>
                 <Link
                   to="/learn/windows-on-arm"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
@@ -193,6 +195,12 @@ export function Header() {
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.faq")}
+                </Link>
+                <Link
+                  to="/contributing"
+                  className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+                >
+                  {t("nav.contributing")}
                 </Link>
               </motion.div>
               )}

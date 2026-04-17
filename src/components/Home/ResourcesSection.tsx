@@ -16,7 +16,8 @@ const RESOURCES = [
   {
     key: "prism",
     icon: Cpu,
-    href: "/learn/prism",
+    href: "https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation",
+    external: true,
     gradient: "linear-gradient(135deg, #50e6ff, #00bcf2)",
   },
   {
@@ -51,7 +52,7 @@ export function ResourcesSection() {
                 <motion.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  onClick={() => navigate(resource.href)}
+                  onClick={() => resource.external ? window.open(resource.href, '_blank', 'noopener,noreferrer') : navigate(resource.href)}
                   className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)] h-full"
                 >
                   {/* Glow gradient on hover */}

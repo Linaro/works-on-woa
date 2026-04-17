@@ -27,6 +27,10 @@ export default $config({
             cacheControl: "max-age=31536000,public,immutable",
           },
           {
+            files: "icons/**",
+            cacheControl: "max-age=604800,public",
+          },
+          {
             files: "**/*.html",
             cacheControl: "max-age=0,no-cache,no-store,must-revalidate",
           },

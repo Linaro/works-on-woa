@@ -19,7 +19,8 @@ const LEARN_CARDS = [
     titleKey: "prismPage.title",
     subtitleKey: "prismPage.subtitle",
     icon: Cpu,
-    href: "/learn/prism",
+    href: "https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation",
+    external: true,
     gradient: "linear-gradient(135deg, #50e6ff, #00bcf2)",
   },
   {
@@ -56,7 +57,7 @@ export default function LearnPage() {
                 <motion.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  onClick={() => navigate(card.href)}
+                  onClick={() => 'external' in card && card.external ? window.open(card.href, '_blank', 'noopener,noreferrer') : navigate(card.href)}
                   className="group cursor-pointer rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)]"
                 >
                   <div

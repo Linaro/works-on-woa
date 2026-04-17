@@ -42,7 +42,10 @@ export function capitalize(text: string): string {
 
 /**
  * Format a category slug for display (e.g. "dev-tools" → "Dev Tools")
+ * Uses i18n translations when available, falls back to English overrides.
  */
+import i18n from "i18next";
+
 const CATEGORY_OVERRIDES: Record<string, string> = {
   "ai": "AI",
   "ai-tool": "AI Tool",
@@ -67,5 +70,10 @@ const CATEGORY_OVERRIDES: Record<string, string> = {
 };
 
 export function formatCategory(slug: string): string {
+  const key = `categoryNames.${slug}`;
+  if (i18n.isInitialized) {
+    const localized = i18n.t(key, { defaultValue: "" });
+    if (localized) return localized;
+  }
   return CATEGORY_OVERRIDES[slug] ?? slug.split("-").map(capitalize).join(" ");
 }
