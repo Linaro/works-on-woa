@@ -96,7 +96,7 @@ export default function BulkReportPage() {
     return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
   }, [reportItems]);
 
-  const toggleSort = (field: SortField) => {
+  const _toggleSort = (field: SortField) => {
     if (field === sortField) {
       setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"));
     } else {

@@ -46,13 +46,13 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
   if (filters.compatibility) {
     const comps = Array.isArray(filters.compatibility) ? filters.compatibility : [filters.compatibility];
     if (comps.length > 0) {
-      result = result.filter((p) => comps.includes(p.compatibility as any));
+      result = result.filter((p) => comps.includes(p.compatibility as string));
     }
   }
   if (filters.emulationType) {
     const ems = Array.isArray(filters.emulationType) ? filters.emulationType : [filters.emulationType];
     if (ems.length > 0) {
-      result = result.filter((p) => ems.includes(p.emulationType as any));
+      result = result.filter((p) => ems.includes(p.emulationType as string));
     }
   }
   if (filters.publisher) {

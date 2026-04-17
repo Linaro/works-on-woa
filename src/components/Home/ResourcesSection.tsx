@@ -53,7 +53,7 @@ export function ResourcesSection() {
                 <motion.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  onClick={() => { if (resource.key === 'prism') trackButtonClick('Home: Prism emulation link'); resource.external ? window.open(resource.href, '_blank', 'noopener,noreferrer') : navigate(resource.href); }}
+                  onClick={() => { if (resource.key === 'prism') trackButtonClick('Home: Prism emulation link'); if (resource.external) { window.open(resource.href, '_blank', 'noopener,noreferrer'); } else { navigate(resource.href); } }}
                   className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)] h-full"
                 >
                   {/* Glow gradient on hover */}
