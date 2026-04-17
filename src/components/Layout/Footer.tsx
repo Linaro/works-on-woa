@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { ExternalLink } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 
 export function Footer() {
@@ -131,9 +132,10 @@ function FooterExternalLink({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-[15px] text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
+      className="inline-flex items-center gap-1 text-[15px] text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
     >
       {children}
+      <ExternalLink className="h-3 w-3 shrink-0" />
     </a>
   );
 }

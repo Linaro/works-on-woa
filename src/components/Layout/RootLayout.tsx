@@ -4,10 +4,10 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, key } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, key]);
   return null;
 }
 

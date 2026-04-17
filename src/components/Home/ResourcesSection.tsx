@@ -47,12 +47,12 @@ export function ResourcesSection() {
           {RESOURCES.map((resource, i) => {
             const Icon = resource.icon;
             return (
-              <ScrollReveal key={resource.key} delay={i * 0.1}>
+              <ScrollReveal key={resource.key} delay={i * 0.1} className="h-full">
                 <motion.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                   onClick={() => navigate(resource.href)}
-                  className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)]"
+                  className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)] h-full"
                 >
                   {/* Glow gradient on hover */}
                   <div
