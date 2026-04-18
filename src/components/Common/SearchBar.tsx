@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Search } from "lucide-react";
+import { Search, X } from "lucide-react";
 import { cn } from "@/utils/cn";
 import { SearchDropdown } from "@/components/Common/SearchDropdown";
 import { trackSearch } from "@/lib/telemetry";
@@ -83,6 +83,15 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
     itemCountRef.current = count;
   }, []);
 
+  const handleClear = useCallback(() => {
+    setQuery("");
+    setShowDropdown(false);
+    setActiveIndex(-1);
+    if (onSearch) {
+      onSearch("");
+    }
+  }, [onSearch]);
+
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     if (!showDropdown) return;
 
@@ -141,10 +150,20 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
           compact ? "right-2" : "right-3"
         )}
       >
+        {query && (
+          <button
+            type="button"
+            onClick={handleClear}
+            aria-label="Clear search"
+            className="rounded-lg p-2 text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-primary)] cursor-pointer"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
         <button
           type="submit"
           aria-label="Search"
-          className="rounded-lg p-2 text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-primary)]"
+          className="rounded-lg p-2 text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-primary)] cursor-pointer"
         >
           <Search className="h-4 w-4" />
         </button>

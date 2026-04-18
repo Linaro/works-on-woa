@@ -196,12 +196,6 @@ export function Header() {
                 >
                   {t("nav.faq")}
                 </Link>
-                <Link
-                  to="/contributing"
-                  className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
-                >
-                  {t("nav.contributing")}
-                </Link>
               </motion.div>
               )}
             </AnimatePresence>
