@@ -33,8 +33,8 @@ export default function BulkReportPage() {
   const [copied, setCopied] = useState(false);
   const [reportItems, setReportItems] = useState<Project[]>([]);
   const [view, setView] = useState<ReportView>("table");
-  const [sortField, setSortField] = useState<SortField>("name");
-  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
+  const [sortField, _setSortField] = useState<SortField>("name");
+  const [sortDirection, _setSortDirection] = useState<SortDirection>("asc");
   const [titleDraft, setTitleDraft] = useState(bulkReport.title || DEFAULT_BULK_REPORT_TITLE);
 
   useEffect(() => {
@@ -95,15 +95,6 @@ export default function BulkReportPage() {
     }
     return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
   }, [reportItems]);
-
-  const _toggleSort = (field: SortField) => {
-    if (field === sortField) {
-      setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"));
-    } else {
-      setSortField(field);
-      setSortDirection("asc");
-    }
-  };
 
   const handleShare = async () => {
     const encoded = encodeBulkReportState({

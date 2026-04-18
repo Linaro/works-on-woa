@@ -75,9 +75,6 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <MobileLink to="/faq" onClick={onClose}>
                 {t("nav.faq")}
               </MobileLink>
-              <MobileLink to="/contributing" onClick={onClose}>
-                {t("nav.contributing")}
-              </MobileLink>
             </nav>
           </motion.div>
         </>

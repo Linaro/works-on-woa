@@ -6,7 +6,7 @@ import { FAQSection } from "@/components/Home/FAQSection";
 import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function HomePage() {
-  usePageTitle();
+  usePageTitle("Windows on Arm");
 
   return (
     <main id="main-content">

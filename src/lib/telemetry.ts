@@ -40,8 +40,8 @@ export function initTelemetry() {
   });
 }
 
-export function trackPageView(name: string, uri: string) {
-  appInsights?.trackPageView({ name, uri });
+export function trackPageView(name: string, uri: string, properties?: Record<string, string>) {
+  appInsights?.trackPageView({ name, uri, properties });
 }
 
 export function trackSearch(term: string) {
