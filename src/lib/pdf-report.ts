@@ -4,6 +4,7 @@ import i18n from "i18next";
 import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { formatCategory } from "@/utils/formatting";
+import { ensurePdfFont } from "@/lib/pdf-fonts";
 
 interface GenerateReportPdfOptions {
   title: string;
@@ -66,7 +67,7 @@ function projectToRow(p: Project): string[] {
   ];
 }
 
-function addTable(doc: jsPDF, items: Project[], sortField: SortField, sortDirection: SortDirection, startY: number): number {
+function addTable(doc: jsPDF, items: Project[], sortField: SortField, sortDirection: SortDirection, startY: number, fontFamily: string): number {
   const sorted = sortProjects(items, sortField, sortDirection);
   const body = sorted.map(projectToRow);
 
@@ -76,6 +77,7 @@ function addTable(doc: jsPDF, items: Project[], sortField: SortField, sortDirect
     body,
     theme: "grid",
     styles: {
+      font: fontFamily,
       fontSize: 8,
       cellPadding: 3,
       textColor: [40, 40, 40],
@@ -101,26 +103,29 @@ function addTable(doc: jsPDF, items: Project[], sortField: SortField, sortDirect
   return (doc as any).lastAutoTable?.finalY ?? startY + 20;
 }
 
-export function generateReportPdf(options: GenerateReportPdfOptions) {
+export async function generateReportPdf(options: GenerateReportPdfOptions) {
   const { title, items, view, groupedByCategory, groupedByPublisher, sortField, sortDirection } = options;
 
   const doc = new jsPDF({ orientation: "landscape", unit: "mm", format: "a4" });
   const pageWidth = doc.internal.pageSize.getWidth();
 
+  // Load CJK font if needed, otherwise use built-in helvetica
+  const locale = i18n.language || "en";
+  const fontFamily = await ensurePdfFont(doc, locale);
+
   // Title
-  doc.setFont("helvetica", "bold");
+  doc.setFont(fontFamily, "bold");
   doc.setFontSize(20);
   doc.setTextColor(30, 30, 30);
   doc.text(title, pageWidth / 2, 20, { align: "center" });
 
   // Subtitle
-  doc.setFont("helvetica", "normal");
+  doc.setFont(fontFamily, "normal");
   doc.setFontSize(11);
   doc.setTextColor(100, 100, 100);
   doc.text(i18n.t("customReport.reportSubtitle"), pageWidth / 2, 28, { align: "center" });
 
   // Date
-  const locale = i18n.language || "en";
   const today = new Date().toLocaleDateString(locale, {
     year: "numeric",
     month: "long",
@@ -137,7 +142,7 @@ export function generateReportPdf(options: GenerateReportPdfOptions) {
   let currentY = 44;
 
   if (view === "table") {
-    addTable(doc, items, sortField, sortDirection, currentY);
+    addTable(doc, items, sortField, sortDirection, currentY, fontFamily);
   } else if (view === "category" && groupedByCategory) {
     for (const [category, categoryItems] of groupedByCategory) {
       // Check if we need a new page
@@ -146,13 +151,13 @@ export function generateReportPdf(options: GenerateReportPdfOptions) {
         currentY = 15;
       }
 
-      doc.setFont("helvetica", "bold");
+      doc.setFont(fontFamily, "bold");
       doc.setFontSize(12);
       doc.setTextColor(30, 30, 30);
       doc.text(category, 20, currentY);
       currentY += 4;
 
-      currentY = addTable(doc, categoryItems, sortField, sortDirection, currentY);
+      currentY = addTable(doc, categoryItems, sortField, sortDirection, currentY, fontFamily);
       currentY += 8;
     }
   } else if (view === "publisher" && groupedByPublisher) {
@@ -162,13 +167,13 @@ export function generateReportPdf(options: GenerateReportPdfOptions) {
         currentY = 15;
       }
 
-      doc.setFont("helvetica", "bold");
+      doc.setFont(fontFamily, "bold");
       doc.setFontSize(12);
       doc.setTextColor(30, 30, 30);
       doc.text(publisher, 20, currentY);
       currentY += 4;
 
-      currentY = addTable(doc, publisherItems, sortField, sortDirection, currentY);
+      currentY = addTable(doc, publisherItems, sortField, sortDirection, currentY, fontFamily);
       currentY += 8;
     }
   }
@@ -178,7 +183,7 @@ export function generateReportPdf(options: GenerateReportPdfOptions) {
   for (let i = 1; i <= pageCount; i++) {
     doc.setPage(i);
     const pageHeight = doc.internal.pageSize.getHeight();
-    doc.setFont("helvetica", "normal");
+    doc.setFont(fontFamily, "normal");
     doc.setFontSize(8);
     doc.setTextColor(150, 150, 150);
     doc.text(i18n.t("customReport.pageOf", { current: i, total: pageCount }), pageWidth / 2, pageHeight - 8, { align: "center" });

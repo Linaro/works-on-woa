@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Check, Copy, Download, Trash2 } from "lucide-react";
+import { Check, Copy, Download, Loader2, Trash2 } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { Button } from "@/components/Common/Button";
 import { SearchBar } from "@/components/Common/SearchBar";
@@ -36,6 +36,7 @@ export default function BulkReportPage() {
   const [sortField, _setSortField] = useState<SortField>("name");
   const [sortDirection, _setSortDirection] = useState<SortDirection>("asc");
   const [titleDraft, setTitleDraft] = useState(bulkReport.title || DEFAULT_BULK_REPORT_TITLE);
+  const [pdfState, setPdfState] = useState<"idle" | "loading" | "done">("idle");
 
   useEffect(() => {
     const encoded = searchParams.get("data");
@@ -143,22 +144,35 @@ export default function BulkReportPage() {
             <Button
               variant="secondary"
               size="sm"
-              disabled={reportItems.length === 0}
-              onClick={() => {
+              disabled={reportItems.length === 0 || pdfState === "loading"}
+              onClick={async () => {
                 trackButtonClick("Custom Report: download pdf");
                 trackReportAction("download pdf", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs);
-                generateReportPdf({
-                  title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
-                  items: reportItems,
-                  view,
-                  groupedByCategory,
-                  groupedByPublisher,
-                  sortField,
-                  sortDirection,
-                });
+                setPdfState("loading");
+                try {
+                  await generateReportPdf({
+                    title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
+                    items: reportItems,
+                    view,
+                    groupedByCategory,
+                    groupedByPublisher,
+                    sortField,
+                    sortDirection,
+                  });
+                  setPdfState("done");
+                  setTimeout(() => setPdfState("idle"), 2500);
+                } catch {
+                  setPdfState("idle");
+                }
               }}
             >
-              <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadPdf")}
+              {pdfState === "loading" ? (
+                <Loader2 className="mr-1 h-4 w-4 animate-spin" />
+              ) : pdfState === "done" ? (
+                <Check className="mr-1 h-4 w-4" />
+              ) : (
+                <Download className="mr-1 h-4 w-4" />
+              )} {t("customReport.downloadPdf")}
             </Button>
             <Button
               variant="secondary"
