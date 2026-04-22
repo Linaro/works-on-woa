@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
@@ -8,6 +8,7 @@ import { CompatibilityBadge } from "@/components/Common/Badge";
 import { cn } from "@/utils/cn";
 import { useSearch } from "@/data/hooks/useSearch";
 import { usePublishers } from "@/data/hooks/usePublishers";
+import { trackSearchDropdownView, trackSearchNoResults, trackSearchResultSelect } from "@/lib/telemetry";
 import type { Project, ProjectType, Publisher } from "@/data/types";
 
 interface SearchDropdownProps {
@@ -18,12 +19,13 @@ interface SearchDropdownProps {
   onSelect: () => void;
   onProjectSelect?: (project: Project) => void;
   onItemCountChange?: (count: number) => void;
+  selectionMethodRef?: React.MutableRefObject<"click" | "keyboard">;
 }
 
 const PREVIEW_LIMIT = 4;
 const FETCH_LIMIT = 100;
 
-export function SearchDropdown({ query, scope, visible, activeIndex, onSelect, onProjectSelect, onItemCountChange }: SearchDropdownProps) {
+export function SearchDropdown({ query, scope, visible, activeIndex, onSelect, onProjectSelect, onItemCountChange, selectionMethodRef }: SearchDropdownProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
@@ -50,6 +52,27 @@ export function SearchDropdown({ query, scope, visible, activeIndex, onSelect, o
   useEffect(() => {
     onItemCountChange?.(visible && query.length >= 2 ? itemCount : 0);
   }, [itemCount, visible, query, onItemCountChange]);
+
+  // Track dropdown view / no-results (debounced per distinct query)
+  const lastTrackedQueryRef = useRef("");
+  useEffect(() => {
+    if (!visible || query.length < 2) return;
+    if (query === lastTrackedQueryRef.current) return;
+
+    const totalResults = scope === "publisher"
+      ? (publisherResults?.items?.length ?? 0)
+      : (projectResults ?? []).length;
+
+    // Only fire once data has loaded (totalResults can be 0 legitimately)
+    if (scope === "publisher" ? publisherResults !== undefined : projectResults !== undefined) {
+      lastTrackedQueryRef.current = query;
+      if (totalResults === 0) {
+        trackSearchNoResults(query.trim(), scope);
+      } else {
+        trackSearchDropdownView(query.trim(), totalResults, scope);
+      }
+    }
+  }, [visible, query, scope, projectResults, publisherResults]);
 
   if (!visible || query.length < 2) return null;
 
@@ -102,9 +125,12 @@ export function SearchDropdown({ query, scope, visible, activeIndex, onSelect, o
             project={project}
             isActive={index === activeIndex}
             id={`search-option-${index}`}
+            index={index}
+            query={query}
             navigate={navigate}
             onSelect={onSelect}
             onProjectSelect={onProjectSelect}
+            selectionMethodRef={selectionMethodRef}
           />
         ))}
       </ul>
@@ -139,16 +165,22 @@ function ProjectRow({
   project,
   isActive,
   id,
+  index,
+  query,
   navigate,
   onSelect,
   onProjectSelect,
+  selectionMethodRef,
 }: {
   project: Project;
   isActive: boolean;
   id: string;
+  index: number;
+  query: string;
   navigate: ReturnType<typeof useNavigate>;
   onSelect: () => void;
   onProjectSelect?: (project: Project) => void;
+  selectionMethodRef?: React.MutableRefObject<"click" | "keyboard">;
 }) {
   const basePath = project.type === "application" ? "/apps" : "/games";
 
@@ -162,6 +194,9 @@ function ProjectRow({
         isActive ? "bg-[rgba(255,255,255,0.08)]" : "hover:bg-[rgba(255,255,255,0.06)]"
       )}
       onClick={() => {
+        const method = selectionMethodRef?.current ?? "click";
+        trackSearchResultSelect(query.trim(), project.slug, project.name, index, method);
+        selectionMethodRef && (selectionMethodRef.current = "click");
         if (onProjectSelect) {
           onProjectSelect(project);
         } else {

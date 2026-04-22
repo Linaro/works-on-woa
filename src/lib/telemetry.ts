@@ -100,3 +100,50 @@ export function trackReportAction(
     },
   });
 }
+
+export function trackSearchSubmit(term: string, resultCount: number, scope?: string) {
+  appInsights?.trackEvent({
+    name: "SearchSubmit",
+    properties: { term, resultCount: String(resultCount), scope: scope ?? "all" },
+  });
+}
+
+export function trackSearchNoResults(term: string, scope?: string) {
+  appInsights?.trackEvent({
+    name: "SearchNoResults",
+    properties: { term, scope: scope ?? "all" },
+  });
+}
+
+export function trackSearchResultSelect(
+  term: string,
+  selectedSlug: string,
+  selectedName: string,
+  resultIndex: number,
+  selectionMethod: "click" | "keyboard",
+) {
+  appInsights?.trackEvent({
+    name: "SearchResultSelect",
+    properties: {
+      term,
+      selectedSlug,
+      selectedName,
+      resultIndex: String(resultIndex),
+      selectionMethod,
+    },
+  });
+}
+
+export function trackSearchDropdownView(term: string, resultCount: number, scope?: string) {
+  appInsights?.trackEvent({
+    name: "SearchDropdownView",
+    properties: { term, resultCount: String(resultCount), scope: scope ?? "all" },
+  });
+}
+
+export function trackSearchAbandon(term: string, resultCount: number) {
+  appInsights?.trackEvent({
+    name: "SearchAbandon",
+    properties: { term, resultCount: String(resultCount) },
+  });
+}
