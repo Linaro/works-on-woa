@@ -232,6 +232,7 @@
     "visitWebsite": "访问网站",
     "getThisApp": "获取此应用",
     "notes": "备注",
+    "compatibilityDetails": "兼容性详情",
     "notFound": "找不到您要查找的项目。",
     "backToApps": "返回应用",
     "backToGames": "返回游戏"
@@ -307,7 +308,11 @@
     "add": "添加",
     "actions": "操作",
     "addAllPublisherApps": "添加所有应用",
-    "remove": "移除"
+    "remove": "移除",
+    "reportSubtitle": "自定义应用程序列表的 Arm 设备兼容性报告。",
+    "createdOn": "创建日期：{{date}}",
+    "pageOf": "第 {{current}} 页，共 {{total}} 页",
+    "generatedBy": "由 worksonwoa.com 生成"
   },
   "categoryNames": {
     "accessibility": "辅助功能",

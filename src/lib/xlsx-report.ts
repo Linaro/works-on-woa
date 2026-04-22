@@ -1,4 +1,5 @@
 import * as XLSX from "xlsx";
+import i18n from "i18next";
 import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { formatCategory } from "@/utils/formatting";
@@ -13,35 +14,44 @@ interface GenerateReportXlsxOptions {
   sortDirection: SortDirection;
 }
 
-const COLUMNS = ["Name", "Compatibility", "Type", "Publisher", "Category", "Validation", "Updated"];
+const COLUMNS = () => [
+  i18n.t("popularApps.columns.name"),
+  i18n.t("popularApps.columns.compatibility"),
+  i18n.t("popularApps.columns.type"),
+  i18n.t("popularApps.columns.developer"),
+  i18n.t("popularApps.columns.category"),
+  i18n.t("popularApps.columns.validation"),
+  i18n.t("popularApps.columns.updated"),
+];
 
 function compatibilityLabel(c: string): string {
   switch (c) {
-    case "yes": return "Yes";
-    case "no": return "No";
+    case "yes": return i18n.t("common.yes");
+    case "no": return i18n.t("common.no");
     default: return "-";
   }
 }
 
 function emulationLabel(e: string): string {
   switch (e) {
-    case "native": return "Native";
-    case "emulation": return "Emulated";
+    case "native": return i18n.t("common.native");
+    case "emulation": return i18n.t("common.emulation");
     default: return "-";
   }
 }
 
 function validationLabel(v: string): string {
   switch (v) {
-    case "microsoft": return "Microsoft";
-    case "qualcomm": return "Qualcomm";
-    case "developer": return "Publisher";
-    case "community": return "Community";
-    default: return "Unverified";
+    case "microsoft": return i18n.t("validation.microsoft");
+    case "qualcomm": return i18n.t("validation.qualcomm");
+    case "developer": return i18n.t("validation.developer");
+    case "community": return i18n.t("validation.community");
+    default: return i18n.t("validation.unverified");
   }
 }
 
 function projectToRow(p: Project): string[] {
+  const locale = i18n.language || "en";
   return [
     p.name,
     compatibilityLabel(p.compatibility),
@@ -50,14 +60,14 @@ function projectToRow(p: Project): string[] {
     p.categories[0] && p.categories[0] !== "unknown" ? formatCategory(p.categories[0]) : "-",
     validationLabel(p.validation),
     p.lastUpdated
-      ? new Date(p.lastUpdated).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })
+      ? new Date(p.lastUpdated).toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" })
       : "-",
   ];
 }
 
 function buildSheet(items: Project[], sortField: SortField, sortDirection: SortDirection): XLSX.WorkSheet {
   const sorted = sortProjects(items, sortField, sortDirection);
-  const data = [COLUMNS, ...sorted.map(projectToRow)];
+  const data = [COLUMNS(), ...sorted.map(projectToRow)];
   const ws = XLSX.utils.aoa_to_sheet(data);
 
   // Set column widths

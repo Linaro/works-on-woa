@@ -232,6 +232,7 @@
     "visitWebsite": "ウェブサイトを訪問",
     "getThisApp": "このアプリを入手",
     "notes": "メモ",
+    "compatibilityDetails": "互換性の詳細",
     "notFound": "お探しのプロジェクトが見つかりませんでした。",
     "backToApps": "アプリに戻る",
     "backToGames": "ゲームに戻る"
@@ -307,7 +308,11 @@
     "add": "追加",
     "actions": "操作",
     "addAllPublisherApps": "すべてのアプリを追加",
-    "remove": "削除"
+    "remove": "削除",
+    "reportSubtitle": "カスタムアプリケーションリストのArm デバイス互換性レポート。",
+    "createdOn": "作成日：{{date}}",
+    "pageOf": "{{current}} / {{total}} ページ",
+    "generatedBy": "worksonwoa.com で生成"
   },
   "categoryNames": {
     "accessibility": "アクセシビリティ",

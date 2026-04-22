@@ -197,6 +197,18 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
           })}
         </div>
 
+        {/* Compatibility Details */}
+        {project.compatibilityDetails && project.compatibilityDetails.trim() !== "" && (
+          <div className="mt-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-4">
+            <p className="text-xs font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
+              {t("appDetail.compatibilityDetails")}
+            </p>
+            <p className="mt-2 whitespace-pre-wrap text-[var(--color-text-primary)]">
+              {project.compatibilityDetails}
+            </p>
+          </div>
+        )}
+
         {/* Notes */}
         {project.notes && (
           <div className="mt-8 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5">
