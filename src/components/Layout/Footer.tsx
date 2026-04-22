@@ -21,13 +21,13 @@ export function Footer() {
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.learn.title")}>
-            <FooterLink to="/learn/getting-started">
+            <FooterLink to="#">
               {t("footer.columns.learn.gettingStarted")}
             </FooterLink>
             <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation">
               {t("footer.columns.learn.prism")}
             </FooterExternalLink>
-            <FooterLink to="/learn/windows-on-arm">
+            <FooterLink to="#">
               {t("footer.columns.learn.windowsOnArm")}
             </FooterLink>
             <FooterLink to="/faq">

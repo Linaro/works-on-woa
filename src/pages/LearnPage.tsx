@@ -12,7 +12,7 @@ const LEARN_CARDS = [
     titleKey: "gettingStarted.title",
     subtitleKey: "gettingStarted.subtitle",
     icon: BookOpen,
-    href: "/learn/getting-started",
+    href: "#",
     gradient: "linear-gradient(135deg, #0078d4, #50e6ff)",
   },
   {
@@ -27,7 +27,7 @@ const LEARN_CARDS = [
     titleKey: "windowsOnArmPage.title",
     subtitleKey: "windowsOnArmPage.subtitle",
     icon: Monitor,
-    href: "/learn/windows-on-arm",
+    href: "#",
     gradient: "linear-gradient(135deg, #00bcf2, #0078d4)",
   },
 ];
