@@ -148,7 +148,8 @@
         "title": "제품",
         "apps": "앱",
         "games": "게임",
-        "publishers": "퍼블리셔"
+        "publishers": "퍼블리셔",
+        "customReport": "맞춤 보고서"
       },
       "learn": {
         "title": "학습",
@@ -161,7 +162,9 @@
         "title": "커뮤니티",
         "github": "GitHub",
         "reportIssue": "문제 보고",
-        "contribute": "데이터 기여"
+        "contribute": "데이터 기여",
+        "takedown": "콘텐츠 삭제",
+        "contact": "문의하기"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -170,7 +173,7 @@
         "terms": "이용 약관"
       }
     },
-    "copyright": "© {{year}} Microsoft. 모든 권리 보유.",
+    "copyright": "© {{year}} Microsoft. 모든 권리 보유. 모든 제품명, 로고, 브랜드, 상표 및 등록 상표는 해당 소유자의 재산입니다. 데이터의 정확성은 Linaro에 의해 보장되지 않습니다.",
     "legal": {
       "privacy": "개인정보 보호",
       "terms": "이용 약관",
@@ -438,5 +441,10 @@
       "title": "도움이 필요하신가요?",
       "description": "문제가 발생하거나 기여에 대한 질문이 있으시면 <a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>GitHub Issue를 열어</a> 주세요. 최선을 다해 도와드리겠습니다."
     }
+  },
+  "takedown": {
+    "title": "콘텐츠 삭제 요청",
+    "description": "이 사이트에서 제품이나 로고를 삭제하려면 다음 이메일로 연락해 주세요:",
+    "suffix": "적절한 정보를 포함해 주세요."
   }
 }
