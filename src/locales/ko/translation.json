@@ -232,6 +232,7 @@
     "visitWebsite": "웹사이트 방문",
     "getThisApp": "이 앱 다운로드",
     "notes": "참고",
+    "compatibilityDetails": "호환성 세부 정보",
     "notFound": "찾으시는 프로젝트를 찾을 수 없습니다.",
     "backToApps": "앱으로 돌아가기",
     "backToGames": "게임으로 돌아가기"
@@ -307,7 +308,11 @@
     "add": "추가",
     "actions": "작업",
     "addAllPublisherApps": "모든 앱 추가",
-    "remove": "제거"
+    "remove": "제거",
+    "reportSubtitle": "맞춤 애플리케이션 목록의 Arm 장치 호환성 보고서.",
+    "createdOn": "작성일: {{date}}",
+    "pageOf": "{{total}} 페이지 중 {{current}} 페이지",
+    "generatedBy": "worksonwoa.com에서 생성"
   },
   "categoryNames": {
     "accessibility": "접근성",

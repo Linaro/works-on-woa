@@ -1,4 +1,5 @@
 import { ApplicationInsights } from "@microsoft/applicationinsights-web";
+import i18n from "i18next";
 
 const connectionString = import.meta.env.VITE_APPINSIGHTS_CONNECTION_STRING;
 const buildMode = import.meta.env.MODE; // "development" | "production"
@@ -31,11 +32,12 @@ export function initTelemetry() {
 
   appInsights.loadAppInsights();
 
-  // Tag every telemetry item with environment + ISO timestamp
+  // Tag every telemetry item with environment, locale + ISO timestamp
   const environment = resolveEnvironment();
   appInsights.addTelemetryInitializer((envelope) => {
     envelope.data = envelope.data ?? {};
     envelope.data.environment = environment;
+    envelope.data.locale = i18n.language ?? "unknown";
     envelope.data.timestamp = new Date().toISOString();
   });
 }
