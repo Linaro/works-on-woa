@@ -171,7 +171,7 @@ export function Header() {
                   className="absolute left-0 top-full z-50 mt-3 w-max rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-tertiary)] py-1 shadow-lg"
                 >
                 <Link
-                  to="/learn/getting-started"
+                  to="#"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.gettingStarted")}
@@ -185,7 +185,7 @@ export function Header() {
                   {t("nav.prism")}
                 </a>
                 <Link
-                  to="/learn/windows-on-arm"
+                  to="#"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.windowsOnArm")}

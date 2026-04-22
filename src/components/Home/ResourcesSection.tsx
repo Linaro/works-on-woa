@@ -11,7 +11,7 @@ const RESOURCES = [
   {
     key: "gettingStarted",
     icon: BookOpen,
-    href: "/learn/getting-started",
+    href: "#",
     gradient: "linear-gradient(135deg, #0078d4, #50e6ff)",
   },
   {
@@ -24,7 +24,7 @@ const RESOURCES = [
   {
     key: "windowsOnArm",
     icon: Monitor,
-    href: "/learn/windows-on-arm",
+    href: "#",
     gradient: "linear-gradient(135deg, #00bcf2, #0078d4)",
   },
 ];

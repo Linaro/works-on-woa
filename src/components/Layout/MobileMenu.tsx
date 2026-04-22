@@ -57,7 +57,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <p className="px-4 py-1.5 text-xs uppercase tracking-wider text-[var(--color-text-tertiary)]">
                 {t("nav.learn")}
               </p>
-              <MobileLink to="/learn/getting-started" onClick={onClose}>
+              <MobileLink to="#" onClick={onClose}>
                 {t("nav.gettingStarted")}
               </MobileLink>
               <a
@@ -69,7 +69,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               >
                 {t("nav.prism")}
               </a>
-              <MobileLink to="/learn/windows-on-arm" onClick={onClose}>
+              <MobileLink to="#" onClick={onClose}>
                 {t("nav.windowsOnArm")}
               </MobileLink>
               <MobileLink to="/faq" onClick={onClose}>

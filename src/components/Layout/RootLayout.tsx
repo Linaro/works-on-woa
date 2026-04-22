@@ -13,7 +13,6 @@ function ScrollToTop() {
 
 export function RootLayout() {
   const location = useLocation();
-  const isWindowsOnArmPage = location.pathname === "/learn/windows-on-arm";
   const isHomePage = location.pathname === "/";
 
   return (
@@ -25,7 +24,7 @@ export function RootLayout() {
       <Header />
       <main
         id="main-content"
-        className={`flex-1 ${isWindowsOnArmPage || isHomePage ? "pt-0" : "pt-24"}`}
+        className={`flex-1 ${isHomePage ? "pt-0" : "pt-24"}`}
       >
         <Outlet />
       </main>
