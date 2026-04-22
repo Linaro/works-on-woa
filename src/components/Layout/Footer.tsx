@@ -18,6 +18,7 @@ export function Footer() {
             <FooterLink to="/apps">{t("footer.columns.product.apps")}</FooterLink>
             <FooterLink to="/games">{t("footer.columns.product.games")}</FooterLink>
             <FooterLink to="/publishers">{t("footer.columns.product.publishers")}</FooterLink>
+            <FooterLink to="/custom-report">{t("footer.columns.product.customReport")}</FooterLink>
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.learn.title")}>
@@ -45,6 +46,12 @@ export function Footer() {
             <FooterLink to="/contributing">
               {t("footer.columns.community.contribute")}
             </FooterLink>
+            <FooterLink to="/takedown">
+              {t("footer.columns.community.takedown")}
+            </FooterLink>
+            <FooterExternalLink href="https://www.linaro.org/contact/">
+              {t("footer.columns.community.contact")}
+            </FooterExternalLink>
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.microsoft.title")}>
@@ -61,22 +68,9 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[rgba(255,255,255,0.06)] pt-6 md:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-center gap-4 border-t border-[rgba(255,255,255,0.12)] pt-6">
           <div className="flex items-center gap-2">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <rect x="1" y="1" width="8.5" height="8.5" fill="#f25022" />
-              <rect x="10.5" y="1" width="8.5" height="8.5" fill="#7fba00" />
-              <rect x="1" y="10.5" width="8.5" height="8.5" fill="#00a4ef" />
-              <rect x="10.5" y="10.5" width="8.5" height="8.5" fill="#ffb900" />
-            </svg>
-            <span className="text-[13px] text-[var(--color-text-tertiary)]">
+            <span className="text-[13px] text-[var(--color-text-tertiary)] text-center">
               {t("footer.copyright", { year: new Date().getFullYear() })}
             </span>
           </div>

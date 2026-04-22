@@ -148,7 +148,8 @@
         "title": "Product",
         "apps": "Apps",
         "games": "Games",
-        "publishers": "Publishers"
+        "publishers": "Publishers",
+        "customReport": "Custom Report"
       },
       "learn": {
         "title": "Learn",
@@ -161,7 +162,9 @@
         "title": "Community",
         "github": "GitHub",
         "reportIssue": "Report an Issue",
-        "contribute": "Contribute Data"
+        "contribute": "Contribute Data",
+        "takedown": "Content Takedown",
+        "contact": "Contact"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -170,7 +173,7 @@
         "terms": "Terms of Use"
       }
     },
-    "copyright": "© {{year}} Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. All rights reserved. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. Accuracy of the data is not guaranteed by Linaro.",
     "legal": {
       "privacy": "Privacy",
       "terms": "Terms",
@@ -438,5 +441,10 @@
       "title": "Need help?",
       "description": "If you run into issues or have questions about contributing, please <a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>open a GitHub Issue</a> and we'll do our best to help."
     }
+  },
+  "takedown": {
+    "title": "Content Takedown Request",
+    "description": "If you would like your product or logo removed from this site, please email",
+    "suffix": "with the appropriate information."
   }
 }

@@ -148,7 +148,8 @@
         "title": "製品",
         "apps": "アプリ",
         "games": "ゲーム",
-        "publishers": "パブリッシャー"
+        "publishers": "パブリッシャー",
+        "customReport": "カスタムレポート"
       },
       "learn": {
         "title": "学ぶ",
@@ -161,7 +162,9 @@
         "title": "コミュニティ",
         "github": "GitHub",
         "reportIssue": "問題を報告する",
-        "contribute": "データを提供"
+        "contribute": "データを提供",
+        "takedown": "コンテンツ削除",
+        "contact": "お問い合わせ"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -170,7 +173,7 @@
         "terms": "利用規約"
       }
     },
-    "copyright": "© {{year}} Microsoft. All rights reserved.",
+    "copyright": "© {{year}} Microsoft. All rights reserved. すべての製品名、ロゴ、ブランド、商標および登録商標は、それぞれの所有者の財産です。データの正確性はLinaroによって保証されません。",
     "legal": {
       "privacy": "プライバシー",
       "terms": "利用規約",
@@ -438,5 +441,10 @@
       "title": "ヘルプが必要ですか？",
       "description": "問題が発生した場合や貢献に関する質問がある場合は、<a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>GitHub Issueを開いて</a>ください。できる限りお手伝いいたします。"
     }
+  },
+  "takedown": {
+    "title": "コンテンツ削除リクエスト",
+    "description": "このサイトから製品やロゴを削除したい場合は、以下のメールアドレスにご連絡ください：",
+    "suffix": "適切な情報をお知らせください。"
   }
 }

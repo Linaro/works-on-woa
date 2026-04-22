@@ -148,7 +148,8 @@
         "title": "产品",
         "apps": "应用",
         "games": "游戏",
-        "publishers": "发布商"
+        "publishers": "发布商",
+        "customReport": "自定义报告"
       },
       "learn": {
         "title": "学习",
@@ -161,7 +162,9 @@
         "title": "社区",
         "github": "GitHub",
         "reportIssue": "报告问题",
-        "contribute": "贡献数据"
+        "contribute": "贡献数据",
+        "takedown": "内容删除",
+        "contact": "联系我们"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -170,7 +173,7 @@
         "terms": "使用条款"
       }
     },
-    "copyright": "© {{year}} Microsoft. 保留所有权利。",
+    "copyright": "© {{year}} Microsoft. 保留所有权利。所有产品名称、标志、品牌、商标和注册商标均为其各自所有者的财产。数据的准确性不由 Linaro 保证。",
     "legal": {
       "privacy": "隐私",
       "terms": "条款",
@@ -438,5 +441,10 @@
       "title": "需要帮助？",
       "description": "如果您遇到问题或对贡献有疑问，请<a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>打开 GitHub Issue</a>，我们将尽力提供帮助。"
     }
+  },
+  "takedown": {
+    "title": "内容删除请求",
+    "description": "如果您希望将您的产品或标志从本网站移除，请发送电子邮件至",
+    "suffix": "并提供相关信息。"
   }
 }

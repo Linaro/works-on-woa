@@ -14,6 +14,7 @@ const CustomReportPage = lazy(() => import("@/pages/CustomReportPage"));
 const PublishersPage = lazy(() => import("@/pages/PublishersPage"));
 const PublisherDetailPage = lazy(() => import("@/pages/PublisherDetailPage"));
 const ContributingPage = lazy(() => import("@/pages/ContributingPage"));
+const TakedownPage = lazy(() => import("@/pages/TakedownPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
 export const router = createBrowserRouter([
@@ -31,6 +32,7 @@ export const router = createBrowserRouter([
       { path: "learn", element: <LearnPage /> },
       { path: "custom-report", element: <CustomReportPage /> },
       { path: "contributing", element: <ContributingPage /> },
+      { path: "takedown", element: <TakedownPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },
