@@ -36,17 +36,17 @@ async function loadCjkFont(locale: string): Promise<string> {
   const cached = cachedFonts.get(key);
   if (cached) return cached;
 
-  const url = FONT_URLS[key];
+  const url = FONT_URLS[key] as string;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Failed to fetch CJK font for ${key}: ${response.status}`);
 
   const buffer = await response.arrayBuffer();
   const bytes = new Uint8Array(buffer);
-  let binary = "";
+  const chunks: string[] = [];
   for (let i = 0; i < bytes.length; i++) {
-    binary += String.fromCharCode(bytes[i]);
+    chunks.push(String.fromCharCode(bytes[i]!));
   }
-  const base64 = btoa(binary);
+  const base64 = btoa(chunks.join(""));
   cachedFonts.set(key, base64);
   return base64;
 }
