@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Search, X } from "lucide-react";
 import { cn } from "@/utils/cn";
 import { SearchDropdown } from "@/components/Common/SearchDropdown";
-import { trackSearch } from "@/lib/telemetry";
+import { trackSearch, trackSearchSubmit, trackSearchAbandon } from "@/lib/telemetry";
 import type { Project, ProjectType } from "@/data/types";
 
 interface SearchBarProps {
@@ -27,6 +27,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
   const [activeIndex, setActiveIndex] = useState(-1);
   const itemCountRef = useRef(0);
   const blurTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const selectionMethodRef = useRef<"click" | "keyboard">("click");
 
   // Sync query when defaultValue changes (e.g. URL search param update)
   useEffect(() => {
@@ -39,6 +40,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
       setShowDropdown(false);
       if (query.trim()) {
         trackSearch(query.trim());
+        trackSearchSubmit(query.trim(), itemCountRef.current, scope);
         if (onSearch) {
           onSearch(query.trim());
         } else {
@@ -46,7 +48,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
         }
       }
     },
-    [query, onSearch, navigate]
+    [query, onSearch, navigate, scope]
   );
 
   const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
@@ -68,11 +70,14 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
 
   const handleBlur = useCallback(() => {
     blurTimeoutRef.current = setTimeout(() => {
+      if (showDropdown && query.length >= 2 && itemCountRef.current > 0) {
+        trackSearchAbandon(query.trim(), itemCountRef.current);
+      }
       setIsFocused(false);
       setShowDropdown(false);
       setActiveIndex(-1);
     }, 200);
-  }, []);
+  }, [showDropdown, query]);
 
   const handleDropdownSelect = useCallback(() => {
     setShowDropdown(false);
@@ -106,11 +111,15 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
       setActiveIndex((prev) => (prev > 0 ? prev - 1 : count - 1));
     } else if (e.key === "Enter" && activeIndex >= 0) {
       e.preventDefault();
+      selectionMethodRef.current = "keyboard";
       const activeOption = document.getElementById(`search-option-${activeIndex}`);
       if (activeOption) {
         activeOption.click();
       }
     } else if (e.key === "Escape") {
+      if (query.length >= 2 && itemCountRef.current > 0) {
+        trackSearchAbandon(query.trim(), itemCountRef.current);
+      }
       setShowDropdown(false);
       setActiveIndex(-1);
     }
@@ -177,6 +186,7 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
         onSelect={handleDropdownSelect}
         onProjectSelect={onProjectSelect}
         onItemCountChange={handleItemCountChange}
+        selectionMethodRef={selectionMethodRef}
       />
     </form>
   );
