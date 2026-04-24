@@ -109,9 +109,23 @@ export function ProjectsList({ type }: ProjectsListProps) {
     setSearchParams({ page: "1" });
   }, [type, setSearchParams]);
 
+  const bigTechPublishers = new Set([
+    "Adobe", "Amazon", "Anthropic", "Apple", "Cisco", "Cloudflare", "Dell", "Dropbox",
+    "Epic Games", "Google", "HP", "IBM", "Intel", "Lenovo", "Meta",
+    "Microsoft", "Mozilla", "Netflix", "NVIDIA", "Open AI","Oracle", "Qualcomm",
+    "Salesforce", "Samsung", "SAP", "Slack", "Sony", "Spotify", "Valve",
+    "VMware", "Zoom",
+  ]);
+
   const typePublishers = (publishersData?.items ?? [])
     .filter((p) => type === "application" ? p.appCount > 0 : p.gameCount > 0)
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const aIsBig = bigTechPublishers.has(a.name);
+      const bIsBig = bigTechPublishers.has(b.name);
+      if (aIsBig && !bIsBig) return -1;
+      if (!aIsBig && bIsBig) return 1;
+      return a.name.localeCompare(b.name);
+    });
 
   const filterConfig = [
     {
