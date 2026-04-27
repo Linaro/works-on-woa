@@ -67,6 +67,11 @@ export function Footer() {
           </FooterColumn>
         </div>
 
+        {/* Disclaimer */}
+        <p className="mt-12 text-left text-[11px] text-[var(--color-text-tertiary)]">
+          {t("footer.disclaimer")}
+        </p>
+
         {/* Bottom Bar */}
         <div className="mt-12 flex flex-col items-center justify-center gap-4 border-t border-[rgba(255,255,255,0.12)] pt-6">
           <div className="flex items-center gap-2">

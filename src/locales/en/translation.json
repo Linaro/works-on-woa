@@ -173,7 +173,8 @@
         "terms": "Terms of Use"
       }
     },
-    "copyright": "© {{year}} Microsoft. All rights reserved. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. Accuracy of the data is not guaranteed by Linaro.",
+    "disclaimer": "The information on this site is intended to serve as a guide, but does not absolutely guarantee that an app or game will run. The results have been tested, but may not work on your specific machine and configuration. If your results differ, please contribute to the site with your own findings.",
+    "copyright": "© {{year}} Linaro. All rights reserved. All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. Accuracy of the data is not guaranteed by Linaro.",
     "legal": {
       "privacy": "Privacy",
       "terms": "Terms",
