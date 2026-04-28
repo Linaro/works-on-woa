@@ -10297,7 +10297,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.54.0",
@@ -13525,7 +13525,7 @@
     "categories": [
       "personal"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.0.0.5",
@@ -19010,7 +19010,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.0.15.0",
@@ -21389,7 +21389,7 @@
     "categories": [
       "video"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.8.3.0",
@@ -46684,7 +46684,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.4.5",
@@ -61952,7 +61952,7 @@
     "categories": [
       "web-social"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.22.0",
@@ -67142,7 +67142,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": "microsoft",
@@ -67158,7 +67158,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "no",
     "emulationType": "none",
     "validation": "microsoft",
@@ -67174,7 +67174,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": "microsoft",
@@ -67190,7 +67190,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "validation": "microsoft",
@@ -67206,7 +67206,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": "microsoft",
@@ -67222,7 +67222,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "validation": "microsoft",
@@ -67238,7 +67238,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": "microsoft",
@@ -67254,7 +67254,7 @@
     "categories": [
       "unknown"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": "microsoft",
@@ -67270,7 +67270,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "18.2502.1111.0",
@@ -67289,7 +67289,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "18.0.0.0",
@@ -67306,7 +67306,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "18.2308.1034.0",
@@ -67323,7 +67323,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "20.0.4.0",
@@ -67340,7 +67340,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "7.307.2704.0",
@@ -67357,7 +67357,7 @@
     "categories": [
       "database"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2308",
@@ -67374,7 +67374,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2306.23.0",
@@ -67391,7 +67391,7 @@
     "categories": [
       "it-sec-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/microsoft-defender-application-guard/install-md-app-guard",
@@ -67409,7 +67409,7 @@
     "categories": [
       "it"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/autopilot/overview",
@@ -67429,7 +67429,7 @@
       "dev-tools",
       "nw-storage"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.39.1",
@@ -67447,7 +67447,7 @@
       "enterprise",
       "remote-desktop"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.2.4157.0",
@@ -67464,7 +67464,7 @@
     "categories": [
       "education"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.8.2.0",
@@ -67481,7 +67481,7 @@
     "categories": [
       "security"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
@@ -67501,7 +67501,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2307.4.0",
@@ -67518,7 +67518,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2023.2305.4.0",
@@ -67535,7 +67535,7 @@
     "categories": [
       "security"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
@@ -67552,7 +67552,7 @@
     "categories": [
       "anti-virus"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "nan",
@@ -67572,7 +67572,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "3.0.1.0",
@@ -67592,7 +67592,7 @@
       "security",
       "sysinfo"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "NA",
@@ -67612,7 +67612,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.0.28.0",
@@ -67629,7 +67629,7 @@
     "categories": [
       "browsers"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "126.0.2592.113",
@@ -67648,7 +67648,7 @@
     "categories": [
       "data-prot"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "link": "https://learn.microsoft.com/en-us/purview/endpoint-dlp-getting-started",
@@ -67666,7 +67666,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
@@ -67685,7 +67685,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.1.0",
@@ -67702,7 +67702,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "October 2025",
@@ -67755,7 +67755,7 @@
     "categories": [
       "dev-mgmt"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2.179.0",
@@ -67774,7 +67774,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.25150.49.0",
@@ -67791,7 +67791,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.0.1.0",
@@ -67810,7 +67810,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16005.14326.21514.0",
@@ -67829,7 +67829,7 @@
     "categories": [
       "nav"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2308.3.0",
@@ -67846,7 +67846,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": " 8.0.303",
@@ -67863,7 +67863,7 @@
     "categories": [
       "news"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.55.62231.0",
@@ -67880,7 +67880,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2406.9.0",
@@ -67913,7 +67913,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "23.153.0724.0001",
@@ -67930,7 +67930,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16.0.17231.20236",
@@ -67947,7 +67947,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
@@ -67966,7 +67966,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2308.18.0",
@@ -67983,7 +67983,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "6.2305.16087.0",
@@ -68001,7 +68001,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "3.9.5.0",
@@ -68018,7 +68018,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.23092.142.0",
@@ -68035,7 +68035,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2023.11090.20015.0",
@@ -68052,7 +68052,7 @@
     "categories": [
       "photo"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2024.11040.10002.0",
@@ -68069,7 +68069,7 @@
     "categories": [
       "business"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2.122.746.0",
@@ -68086,7 +68086,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
@@ -68105,7 +68105,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "v0.68.1",
@@ -68124,7 +68124,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2016",
@@ -68141,7 +68141,7 @@
     "categories": [
       "creative"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "2308",
@@ -68158,7 +68158,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "10.2.3012.0",
@@ -68175,7 +68175,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.7.0.0",
@@ -68193,7 +68193,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.2.11.0",
@@ -68210,7 +68210,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2209.4.0",
@@ -68227,7 +68227,7 @@
     "categories": [
       "dev-mgmt"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "1.0.7.0",
@@ -68244,7 +68244,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "0.1",
@@ -68263,7 +68263,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.106.62642.0",
@@ -68280,7 +68280,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "16.0426.1001",
@@ -68297,7 +68297,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "14.38.33135",
@@ -68314,7 +68314,7 @@
     "categories": [
       "news"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.53.52331.0",
@@ -68331,7 +68331,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "23.10927.120",
@@ -68350,7 +68350,7 @@
     "categories": [
       "remote-desktop"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2.0.285.0",
@@ -68370,7 +68370,7 @@
       "oss",
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.9.240214001-s2",
@@ -68387,7 +68387,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "2308",
@@ -71316,7 +71316,7 @@
     "categories": [
       "personalfin"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.53.51973.0",
@@ -71333,7 +71333,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "10.23050.1000.0",
@@ -71350,7 +71350,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "11.2304.25.0",
@@ -71367,7 +71367,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "4.6.0.0",
@@ -71384,7 +71384,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "18.2003.51105.0",
@@ -71401,7 +71401,7 @@
     "categories": [
       "it"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "15.0",
@@ -74539,7 +74539,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "7.0.306",
@@ -74666,7 +74666,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "24102.2225.2904.5181",
@@ -77131,7 +77131,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.10.0.283",
@@ -77164,7 +77164,7 @@
     "categories": [
       "prod"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "3.10.0.283",
@@ -100923,7 +100923,7 @@
     "categories": [
       "collaboration"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "15.112.3203.0",
@@ -120390,7 +120390,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "14.40.33810",
@@ -120454,7 +120454,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "16.3.6.1949",
@@ -120473,7 +120473,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.81.1.0",
@@ -124041,7 +124041,7 @@
     "categories": [
       "utils-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "8.0.2",
@@ -124057,7 +124057,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "8.1.0",
@@ -124319,7 +124319,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.19.10821.0",
@@ -126366,7 +126366,7 @@
     "categories": [
       "dev-tools"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "1.2.5.0",
@@ -126652,7 +126652,7 @@
     "categories": [
       "entertainment"
     ],
-    "publisher": "Microsoft",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "100.1804.3001.0",

@@ -238,8 +238,8 @@ export class LocalDataProvider implements DataProvider {
         totalCount: counts.appCount + counts.gameCount,
       }))
       .sort((a, b) => {
-        const aIsMicrosoft = a.name.toLowerCase() === "microsoft";
-        const bIsMicrosoft = b.name.toLowerCase() === "microsoft";
+        const aIsMicrosoft = a.name.toLowerCase() === "microsoft corporation";
+        const bIsMicrosoft = b.name.toLowerCase() === "microsoft corporation";
         if (aIsMicrosoft && !bIsMicrosoft) return -1;
         if (!aIsMicrosoft && bIsMicrosoft) return 1;
         return b.totalCount - a.totalCount;

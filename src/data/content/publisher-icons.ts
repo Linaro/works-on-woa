@@ -4,6 +4,7 @@
  */
 export const publisherIcons: Record<string, string> = {
   "Microsoft": "microsoft.png",
+  "Microsoft Corporation": "microsoft.png",
   "Electronic Arts": "electronic-arts.png",
   "Adobe": "adobe.png",
   "Xbox Game Studios": "xbox-game-studios.png",

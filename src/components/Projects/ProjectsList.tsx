@@ -112,7 +112,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
   const bigTechPublishers = new Set([
     "Adobe", "Amazon", "Anthropic", "Apple", "Cisco", "Cloudflare", "Dell", "Dropbox",
     "Epic Games", "Google", "HP", "IBM", "Intel", "Lenovo", "Meta",
-    "Microsoft", "Mozilla", "Netflix", "NVIDIA", "Open AI","Oracle", "Qualcomm",
+    "Microsoft Corporation", "Mozilla", "Netflix", "NVIDIA", "Open AI","Oracle", "Qualcomm",
     "Salesforce", "Samsung", "SAP", "Slack", "Sony", "Spotify", "Valve",
     "VMware", "Zoom",
   ]);
