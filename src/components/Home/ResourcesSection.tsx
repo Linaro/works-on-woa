@@ -11,7 +11,8 @@ const RESOURCES = [
   {
     key: "gettingStarted",
     icon: BookOpen,
-    href: "#",
+    href: "https://learn.microsoft.com/en-us/windows/arm/overview",
+    external: true,
     gradient: "linear-gradient(135deg, #0078d4, #50e6ff)",
   },
   {
@@ -24,7 +25,8 @@ const RESOURCES = [
   {
     key: "windowsOnArm",
     icon: Monitor,
-    href: "#",
+    href: "https://www.microsoft.com/en-us/windows/windows-11",
+    external: true,
     gradient: "linear-gradient(135deg, #00bcf2, #0078d4)",
   },
 ];

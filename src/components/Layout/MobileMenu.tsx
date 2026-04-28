@@ -69,9 +69,15 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               >
                 {t("nav.prism")}
               </a>
-              <MobileLink to="#" onClick={onClose}>
+              <a
+                href="https://www.microsoft.com/en-us/windows/windows-11"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={onClose}
+                className="rounded-lg px-4 py-3 text-base font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+              >
                 {t("nav.windowsOnArm")}
-              </MobileLink>
+              </a>
               <MobileLink to="/faq" onClick={onClose}>
                 {t("nav.faq")}
               </MobileLink>

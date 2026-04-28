@@ -47,10 +47,6 @@ function run() {
     { loc: "/games", priority: "0.9", changefreq: "weekly" },
     { loc: "/publishers", priority: "0.8", changefreq: "weekly" },
     { loc: "/faq", priority: "0.5", changefreq: "monthly" },
-    { loc: "/learn", priority: "0.6", changefreq: "monthly" },
-    { loc: "/learn/getting-started", priority: "0.6", changefreq: "monthly" },
-    { loc: "/learn/prism", priority: "0.6", changefreq: "monthly" },
-    { loc: "/learn/windows-on-arm", priority: "0.6", changefreq: "monthly" },
   ];
 
   // Dynamic pages from projects

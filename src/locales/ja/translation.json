@@ -7,13 +7,13 @@
     "learn": "学ぶ",
     "gettingStarted": "はじめに",
     "prism": "Prism",
-    "windowsOnArm": "Windows on ARM",
+    "windowsOnArm": "Arm 版 Windows",
     "publishers": "パブリッシャー",
     "customReport": "カスタムレポート",
     "contributing": "コントリビューション"
   },
   "hero": {
-    "title": "WindowsはARMで動作します",
+    "title": "WindowsはArmで動作します",
     "subtitle": "終日続くパフォーマンスとバッテリー駆動時間のために作られたアプリを探索しましょう。",
     "supportedBy": "提供：",
     "searchPlaceholder": "アプリやゲームを検索",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "人気のアプリケーション",
-    "subtitle": "WindowsはARM上で5,000以上の人気アプリをサポートしています",
+    "subtitle": "WindowsはArm上で5,000以上の人気アプリをサポートしています",
     "seeAll": "すべてのWindowsアプリを見る",
     "columns": {
       "name": "名前",
@@ -36,7 +36,7 @@
     }
   },
   "microsoftApps": {
-    "title": "MicrosoftアプリはARMで動作します",
+    "title": "MicrosoftアプリはArmで動作します",
     "subtitle": "ファーストパーティアプリケーション。100%検証済み。",
     "seeAll": "すべてのMicrosoftアプリを見る",
     "categories": {
@@ -50,43 +50,43 @@
   },
   "resources": {
     "title": "リソース",
-    "subtitle": "Windows on ARMでの構築、展開、成功に必要なすべて。",
+    "subtitle": "Windows on Armでの構築、展開、成功に必要なすべて。",
     "items": {
       "gettingStarted": {
-        "title": "Windows on ARMを始める",
-        "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。"
+        "title": "Windows on Armを始める",
+        "description": "開発環境のセットアップ、最初のArmネイティブアプリの構築、パフォーマンスの最適化方法を学びます。"
       },
       "prism": {
         "title": "Prismによるx86/x64エミュレーション",
-        "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。"
+        "description": "Prism変換技術により、何千もの既存アプリがArmプロセッサ上でシームレスに動作する仕組みを理解します。"
       },
       "windowsOnArm": {
-        "title": "Windows 11 — ARM向けに設計",
-        "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。"
+        "title": "Windows 11 — Arm向けに設計",
+        "description": "Copilot+ PCから開発者ツールまで、Arm搭載デバイスでの完全なWindows 11体験をご覧ください。"
       }
     },
     "gettingStarted": {
       "category": "ガイド",
-      "title": "Windows on ARMを始める",
-      "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。",
+      "title": "Windows on Armを始める",
+      "description": "開発環境のセットアップ、最初のArmネイティブアプリの構築、パフォーマンスの最適化方法を学びます。",
       "link": "詳細を見る"
     },
     "prism": {
       "category": "テクノロジー",
       "title": "Prismによるx86/x64エミュレーション",
-      "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。",
+      "description": "Prism変換技術により、何千もの既存アプリがArmプロセッサ上でシームレスに動作する仕組みを理解します。",
       "link": "詳細を見る"
     },
     "windowsOnArm": {
       "category": "プラットフォーム",
-      "title": "Windows 11 — ARM向けに設計",
-      "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。",
+      "title": "Windows 11 — Arm向けに設計",
+      "description": "Copilot+ PCから開発者ツールまで、Arm搭載デバイスでの完全なWindows 11体験をご覧ください。",
       "link": "詳細を見る"
     }
   },
   "faq": {
     "title": "ご質問は？",
-    "subtitle": "アプリの互換性とWindows on ARMに関するよくある質問への回答をご覧ください。",
+    "subtitle": "アプリの互換性とWindows on Armに関するよくある質問への回答をご覧ください。",
     "askQuestion": "質問する",
     "contactSales": "営業に問い合わせる",
     "items": [
@@ -139,7 +139,7 @@
   "footer": {
     "newsletter": {
       "title": "最新情報を受け取る",
-      "subtitle": "Windows on ARMアプリの互換性に関する最新情報をお届けします。",
+      "subtitle": "Windows on Armアプリの互換性に関する最新情報をお届けします。",
       "placeholder": "メールアドレスを入力",
       "subscribe": "購読"
     },
@@ -155,7 +155,7 @@
         "title": "学ぶ",
         "gettingStarted": "はじめに",
         "prism": "Prism",
-        "windowsOnArm": "Windows on ARM",
+        "windowsOnArm": "Arm 版 Windows",
         "faq": "よくある質問"
       },
       "community": {
@@ -243,19 +243,19 @@
   },
   "learn": {
     "title": "学ぶ",
-    "subtitle": "Windows on ARM技術、開発のベストプラクティス、プラットフォーム機能について深く学びましょう。"
+    "subtitle": "Windows on Arm技術、開発のベストプラクティス、プラットフォーム機能について深く学びましょう。"
   },
   "gettingStarted": {
-    "title": "Windows on ARMを始める",
-    "subtitle": "ARM向けの開発を始めるために必要なすべて。"
+    "title": "Windows on Armを始める",
+    "subtitle": "Arm向けの開発を始めるために必要なすべて。"
   },
   "prismPage": {
     "title": "Prism変換技術",
-    "subtitle": "Windows on ARMでのx86/x64エミュレーションの仕組み。"
+    "subtitle": "Windows on Armでのx86/x64エミュレーションの仕組み。"
   },
   "windowsOnArmPage": {
-    "title": "Windows 11 on ARM",
-    "subtitle": "ARM搭載デバイスでの完全なWindows体験。"
+    "title": "Windows 11 on Arm",
+    "subtitle": "Arm搭載デバイスでの完全なWindows体験。"
   },
   "validation": {
     "microsoft": "Microsoft検証済み",

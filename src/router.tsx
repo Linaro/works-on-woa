@@ -8,8 +8,6 @@ const AppDetailPage = lazy(() => import("@/pages/AppDetailPage"));
 const GamesPage = lazy(() => import("@/pages/GamesPage"));
 const GameDetailPage = lazy(() => import("@/pages/GameDetailPage"));
 const FAQPage = lazy(() => import("@/pages/FAQPage"));
-const LearnPage = lazy(() => import("@/pages/LearnPage"));
-
 const CustomReportPage = lazy(() => import("@/pages/CustomReportPage"));
 const PublishersPage = lazy(() => import("@/pages/PublishersPage"));
 const PublisherDetailPage = lazy(() => import("@/pages/PublisherDetailPage"));
@@ -29,7 +27,6 @@ export const router = createBrowserRouter([
       { path: "publishers", element: <PublishersPage /> },
       { path: "publishers/:slug", element: <PublisherDetailPage /> },
       { path: "faq", element: <FAQPage /> },
-      { path: "learn", element: <LearnPage /> },
       { path: "custom-report", element: <CustomReportPage /> },
       { path: "contributing", element: <ContributingPage /> },
       { path: "takedown", element: <TakedownPage /> },

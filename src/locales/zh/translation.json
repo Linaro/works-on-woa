@@ -7,13 +7,13 @@
     "learn": "学习",
     "gettingStarted": "入门",
     "prism": "Prism",
-    "windowsOnArm": "Windows on ARM",
+    "windowsOnArm": "Arm 上的 Windows",
     "publishers": "发行商",
     "customReport": "自定义报告",
     "contributing": "贡献"
   },
   "hero": {
-    "title": "Windows 在 ARM 上运行",
+    "title": "Windows 在 Arm 上运行",
     "subtitle": "探索为全天性能和电池续航而打造的应用。",
     "supportedBy": "支持方：",
     "searchPlaceholder": "搜索应用和游戏",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "热门应用程序",
-    "subtitle": "Windows 在 ARM 上支持超过 5,000 个热门应用",
+    "subtitle": "Windows 在 Arm 上支持超过 5,000 个热门应用",
     "seeAll": "查看所有 Windows 应用",
     "columns": {
       "name": "名称",
@@ -36,7 +36,7 @@
     }
   },
   "microsoftApps": {
-    "title": "Microsoft 应用在 ARM 上运行",
+    "title": "Microsoft 应用在 Arm 上运行",
     "subtitle": "第一方应用程序。100% 经过验证。",
     "seeAll": "查看所有 Microsoft 应用",
     "categories": {
@@ -50,43 +50,43 @@
   },
   "resources": {
     "title": "资源",
-    "subtitle": "在 Windows on ARM 上构建、部署和成功所需的一切。",
+    "subtitle": "在 Windows on Arm 上构建、部署和成功所需的一切。",
     "items": {
       "gettingStarted": {
-        "title": "开始使用 Windows on ARM",
-        "description": "了解如何设置开发环境、构建第一个 ARM 原生应用并优化性能。"
+        "title": "开始使用 Windows on Arm",
+        "description": "了解如何设置开发环境、构建第一个 Arm 原生应用并优化性能。"
       },
       "prism": {
         "title": "Prism 内置 x86/x64 模拟",
-        "description": "了解 Prism 转换技术如何使数千个现有应用在 ARM 处理器上无缝运行。"
+        "description": "了解 Prism 转换技术如何使数千个现有应用在 Arm 处理器上无缝运行。"
       },
       "windowsOnArm": {
-        "title": "Windows 11 — 专为 ARM 设计",
-        "description": "探索从 Copilot+ PC 到开发者工具，ARM 驱动设备上的完整 Windows 11 体验。"
+        "title": "Windows 11 — 专为 Arm 设计",
+        "description": "探索从 Copilot+ PC 到开发者工具，Arm 驱动设备上的完整 Windows 11 体验。"
       }
     },
     "gettingStarted": {
       "category": "指南",
-      "title": "开始使用 Windows on ARM",
-      "description": "了解如何设置开发环境、构建第一个 ARM 原生应用并优化性能。",
+      "title": "开始使用 Windows on Arm",
+      "description": "了解如何设置开发环境、构建第一个 Arm 原生应用并优化性能。",
       "link": "了解更多"
     },
     "prism": {
       "category": "技术",
       "title": "Prism 内置 x86/x64 模拟",
-      "description": "了解 Prism 转换技术如何使数千个现有应用在 ARM 处理器上无缝运行。",
+      "description": "了解 Prism 转换技术如何使数千个现有应用在 Arm 处理器上无缝运行。",
       "link": "了解更多"
     },
     "windowsOnArm": {
       "category": "平台",
-      "title": "Windows 11 — 专为 ARM 设计",
-      "description": "探索从 Copilot+ PC 到开发者工具，ARM 驱动设备上的完整 Windows 11 体验。",
+      "title": "Windows 11 — 专为 Arm 设计",
+      "description": "探索从 Copilot+ PC 到开发者工具，Arm 驱动设备上的完整 Windows 11 体验。",
       "link": "了解更多"
     }
   },
   "faq": {
     "title": "有问题？",
-    "subtitle": "查找关于应用兼容性和 Windows on ARM 的常见问题解答。",
+    "subtitle": "查找关于应用兼容性和 Windows on Arm 的常见问题解答。",
     "askQuestion": "提问",
     "contactSales": "联系销售",
     "items": [
@@ -139,7 +139,7 @@
   "footer": {
     "newsletter": {
       "title": "保持更新",
-      "subtitle": "获取 Windows on ARM 应用兼容性的最新信息。",
+      "subtitle": "获取 Windows on Arm 应用兼容性的最新信息。",
       "placeholder": "输入您的电子邮件",
       "subscribe": "订阅"
     },
@@ -155,7 +155,7 @@
         "title": "学习",
         "gettingStarted": "入门",
         "prism": "Prism",
-        "windowsOnArm": "Windows on ARM",
+        "windowsOnArm": "Arm 上的 Windows",
         "faq": "常见问题"
       },
       "community": {
@@ -243,19 +243,19 @@
   },
   "learn": {
     "title": "学习",
-    "subtitle": "深入了解 Windows on ARM 技术、开发最佳实践和平台功能。"
+    "subtitle": "深入了解 Windows on Arm 技术、开发最佳实践和平台功能。"
   },
   "gettingStarted": {
-    "title": "Windows on ARM 入门",
-    "subtitle": "开始为 ARM 构建所需的一切。"
+    "title": "Windows on Arm 入门",
+    "subtitle": "开始为 Arm 构建所需的一切。"
   },
   "prismPage": {
     "title": "Prism 转换技术",
-    "subtitle": "x86/x64 模拟在 Windows on ARM 上的工作原理。"
+    "subtitle": "x86/x64 模拟在 Windows on Arm 上的工作原理。"
   },
   "windowsOnArmPage": {
-    "title": "Windows 11 on ARM",
-    "subtitle": "ARM 驱动设备上的完整 Windows 体验。"
+    "title": "Windows 11 on Arm",
+    "subtitle": "Arm 驱动设备上的完整 Windows 体验。"
   },
   "validation": {
     "microsoft": "Microsoft 已验证",

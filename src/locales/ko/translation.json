@@ -7,13 +7,13 @@
     "learn": "학습",
     "gettingStarted": "시작하기",
     "prism": "Prism",
-    "windowsOnArm": "Windows on ARM",
+    "windowsOnArm": "Arm용 Windows",
     "publishers": "퍼블리셔",
     "customReport": "맞춤 보고서",
     "contributing": "기여하기"
   },
   "hero": {
-    "title": "Windows는 ARM에서 실행됩니다",
+    "title": "Windows는 Arm에서 실행됩니다",
     "subtitle": "하루 종일 지속되는 성능과 배터리 수명을 위해 만들어진 앱을 탐색하세요.",
     "supportedBy": "지원:",
     "searchPlaceholder": "앱 및 게임 검색",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "인기 애플리케이션",
-    "subtitle": "Windows는 ARM에서 5,000개 이상의 인기 앱을 지원합니다",
+    "subtitle": "Windows는 Arm에서 5,000개 이상의 인기 앱을 지원합니다",
     "seeAll": "모든 Windows 앱 보기",
     "columns": {
       "name": "이름",
@@ -36,7 +36,7 @@
     }
   },
   "microsoftApps": {
-    "title": "Microsoft 앱은 ARM에서 실행됩니다",
+    "title": "Microsoft 앱은 Arm에서 실행됩니다",
     "subtitle": "퍼스트 파티 애플리케이션. 100% 검증됨.",
     "seeAll": "모든 Microsoft 앱 보기",
     "categories": {
@@ -50,43 +50,43 @@
   },
   "resources": {
     "title": "리소스",
-    "subtitle": "Windows on ARM에서 구축, 배포 및 성공하는 데 필요한 모든 것.",
+    "subtitle": "Windows on Arm에서 구축, 배포 및 성공하는 데 필요한 모든 것.",
     "items": {
       "gettingStarted": {
-        "title": "Windows on ARM 시작하기",
-        "description": "개발 환경 설정, 첫 ARM 네이티브 앱 빌드 및 성능 최적화 방법을 알아보세요."
+        "title": "Windows on Arm 시작하기",
+        "description": "개발 환경 설정, 첫 Arm 네이티브 앱 빌드 및 성능 최적화 방법을 알아보세요."
       },
       "prism": {
         "title": "Prism을 통한 x86/x64 에뮬레이션",
-        "description": "Prism 변환 기술이 수천 개의 기존 앱을 ARM 프로세서에서 원활하게 실행하는 방법을 이해하세요."
+        "description": "Prism 변환 기술이 수천 개의 기존 앱을 Arm 프로세서에서 원활하게 실행하는 방법을 이해하세요."
       },
       "windowsOnArm": {
-        "title": "Windows 11 — ARM을 위해 설계",
-        "description": "Copilot+ PC부터 개발자 도구까지, ARM 기반 장치에서의 전체 Windows 11 경험을 살펴보세요."
+        "title": "Windows 11 — Arm을 위해 설계",
+        "description": "Copilot+ PC부터 개발자 도구까지, Arm 기반 장치에서의 전체 Windows 11 경험을 살펴보세요."
       }
     },
     "gettingStarted": {
       "category": "가이드",
-      "title": "Windows on ARM 시작하기",
-      "description": "개발 환경 설정, 첫 ARM 네이티브 앱 빌드 및 성능 최적화 방법을 알아보세요.",
+      "title": "Windows on Arm 시작하기",
+      "description": "개발 환경 설정, 첫 Arm 네이티브 앱 빌드 및 성능 최적화 방법을 알아보세요.",
       "link": "자세히 알아보기"
     },
     "prism": {
       "category": "기술",
       "title": "Prism을 통한 x86/x64 에뮬레이션",
-      "description": "Prism 변환 기술이 수천 개의 기존 앱을 ARM 프로세서에서 원활하게 실행하는 방법을 이해하세요.",
+      "description": "Prism 변환 기술이 수천 개의 기존 앱을 Arm 프로세서에서 원활하게 실행하는 방법을 이해하세요.",
       "link": "자세히 알아보기"
     },
     "windowsOnArm": {
       "category": "플랫폼",
-      "title": "Windows 11 — ARM을 위해 설계",
-      "description": "Copilot+ PC부터 개발자 도구까지, ARM 기반 장치에서의 전체 Windows 11 경험을 살펴보세요.",
+      "title": "Windows 11 — Arm을 위해 설계",
+      "description": "Copilot+ PC부터 개발자 도구까지, Arm 기반 장치에서의 전체 Windows 11 경험을 살펴보세요.",
       "link": "자세히 알아보기"
     }
   },
   "faq": {
     "title": "질문이 있으신가요?",
-    "subtitle": "앱 호환성 및 Windows on ARM에 대한 일반적인 질문에 대한 답변을 찾아보세요.",
+    "subtitle": "앱 호환성 및 Windows on Arm에 대한 일반적인 질문에 대한 답변을 찾아보세요.",
     "askQuestion": "질문하기",
     "contactSales": "영업팀 문의",
     "items": [
@@ -139,7 +139,7 @@
   "footer": {
     "newsletter": {
       "title": "최신 정보 받기",
-      "subtitle": "Windows on ARM 앱 호환성에 대한 최신 정보를 받아보세요.",
+      "subtitle": "Windows on Arm 앱 호환성에 대한 최신 정보를 받아보세요.",
       "placeholder": "이메일 주소 입력",
       "subscribe": "구독"
     },
@@ -155,7 +155,7 @@
         "title": "학습",
         "gettingStarted": "시작하기",
         "prism": "Prism",
-        "windowsOnArm": "Windows on ARM",
+        "windowsOnArm": "Arm용 Windows",
         "faq": "자주 묻는 질문"
       },
       "community": {
@@ -243,19 +243,19 @@
   },
   "learn": {
     "title": "학습",
-    "subtitle": "Windows on ARM 기술, 개발 모범 사례 및 플랫폼 기능에 대해 자세히 알아보세요."
+    "subtitle": "Windows on Arm 기술, 개발 모범 사례 및 플랫폼 기능에 대해 자세히 알아보세요."
   },
   "gettingStarted": {
-    "title": "Windows on ARM 시작하기",
-    "subtitle": "ARM용 개발을 시작하는 데 필요한 모든 것."
+    "title": "Windows on Arm 시작하기",
+    "subtitle": "Arm용 개발을 시작하는 데 필요한 모든 것."
   },
   "prismPage": {
     "title": "Prism 변환 기술",
-    "subtitle": "Windows on ARM에서 x86/x64 에뮬레이션이 작동하는 방식."
+    "subtitle": "Windows on Arm에서 x86/x64 에뮬레이션이 작동하는 방식."
   },
   "windowsOnArmPage": {
-    "title": "Windows 11 on ARM",
-    "subtitle": "ARM 기반 장치에서의 완전한 Windows 경험."
+    "title": "Windows 11 on Arm",
+    "subtitle": "Arm 기반 장치에서의 완전한 Windows 경험."
   },
   "validation": {
     "microsoft": "Microsoft 검증",

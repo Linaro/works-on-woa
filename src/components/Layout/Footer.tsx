@@ -22,15 +22,15 @@ export function Footer() {
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.learn.title")}>
-            <FooterLink to="#">
+            <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/overview">
               {t("footer.columns.learn.gettingStarted")}
-            </FooterLink>
+            </FooterExternalLink>
             <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation">
               {t("footer.columns.learn.prism")}
             </FooterExternalLink>
-            <FooterLink to="#">
+            <FooterExternalLink href="https://www.microsoft.com/en-us/windows/windows-11">
               {t("footer.columns.learn.windowsOnArm")}
-            </FooterLink>
+            </FooterExternalLink>
             <FooterLink to="/faq">
               {t("footer.columns.learn.faq")}
             </FooterLink>
