@@ -7,7 +7,7 @@
     "learn": "Learn",
     "gettingStarted": "Getting Started",
     "prism": "Prism",
-    "windowsOnArm": "Windows on Arm",
+    "windowsOnArm": "Windows 11",
     "publishers": "Publishers",
     "customReport": "Custom Report",
     "contributing": "Contributing"
@@ -155,7 +155,7 @@
         "title": "Learn",
         "gettingStarted": "Getting Started",
         "prism": "Prism",
-        "windowsOnArm": "Windows on Arm",
+        "windowsOnArm": "Windows 11",
         "faq": "FAQ"
       },
       "community": {

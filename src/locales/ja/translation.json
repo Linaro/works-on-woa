@@ -7,7 +7,7 @@
     "learn": "学ぶ",
     "gettingStarted": "はじめに",
     "prism": "Prism",
-    "windowsOnArm": "Arm 版 Windows",
+    "windowsOnArm": "Windows 11",
     "publishers": "パブリッシャー",
     "customReport": "カスタムレポート",
     "contributing": "コントリビューション"
@@ -155,7 +155,7 @@
         "title": "学ぶ",
         "gettingStarted": "はじめに",
         "prism": "Prism",
-        "windowsOnArm": "Arm 版 Windows",
+        "windowsOnArm": "Windows 11",
         "faq": "よくある質問"
       },
       "community": {

@@ -7,7 +7,7 @@
     "learn": "학습",
     "gettingStarted": "시작하기",
     "prism": "Prism",
-    "windowsOnArm": "Arm용 Windows",
+    "windowsOnArm": "Windows 11",
     "publishers": "퍼블리셔",
     "customReport": "맞춤 보고서",
     "contributing": "기여하기"
@@ -155,7 +155,7 @@
         "title": "학습",
         "gettingStarted": "시작하기",
         "prism": "Prism",
-        "windowsOnArm": "Arm용 Windows",
+        "windowsOnArm": "Windows 11",
         "faq": "자주 묻는 질문"
       },
       "community": {

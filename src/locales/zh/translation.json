@@ -7,7 +7,7 @@
     "learn": "学习",
     "gettingStarted": "入门",
     "prism": "Prism",
-    "windowsOnArm": "Arm 上的 Windows",
+    "windowsOnArm": "Windows 11",
     "publishers": "发行商",
     "customReport": "自定义报告",
     "contributing": "贡献"
@@ -155,7 +155,7 @@
         "title": "学习",
         "gettingStarted": "入门",
         "prism": "Prism",
-        "windowsOnArm": "Arm 上的 Windows",
+        "windowsOnArm": "Windows 11",
         "faq": "常见问题"
       },
       "community": {
