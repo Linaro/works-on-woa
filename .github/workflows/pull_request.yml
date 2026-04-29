@@ -24,11 +24,13 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npx tsc --noEmit
+
       - name: Build to make sure data is OK
         env:
           VITE_APPINSIGHTS_CONNECTION_STRING: ${{ secrets.VITE_APPINSIGHTS_CONNECTION_STRING }}
-        run: |
-          # Set up yarn
-          yarn install
-          # Build
-          yarn build:public
+        run: npm run build
