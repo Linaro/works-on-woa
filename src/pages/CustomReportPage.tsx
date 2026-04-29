@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Check, Copy, Download, Trash2 } from "lucide-react";
+import { Check, Copy, Download, Loader2, Trash2 } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { Button } from "@/components/Common/Button";
 import { SearchBar } from "@/components/Common/SearchBar";
@@ -15,6 +15,10 @@ import {
   useBulkReport,
 } from "@/lib/bulk-report";
 import { generateReportPdf } from "@/lib/pdf-report";
+import { generateReportXlsx } from "@/lib/xlsx-report";
+import { trackButtonClick, trackReportAction } from "@/lib/telemetry";
+import { usePageTitle } from "@/hooks/usePageTitle";
+import { formatCategory } from "@/utils/formatting";
 
 type ReportView = "table" | "category" | "publisher";
 
@@ -23,14 +27,16 @@ export default function BulkReportPage() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const bulkReport = useBulkReport();
+  usePageTitle("Custom Report");
 
   const [search, setSearch] = useState("");
   const [copied, setCopied] = useState(false);
   const [reportItems, setReportItems] = useState<Project[]>([]);
   const [view, setView] = useState<ReportView>("table");
-  const [sortField, setSortField] = useState<SortField>("name");
-  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
+  const [sortField, _setSortField] = useState<SortField>("name");
+  const [sortDirection, _setSortDirection] = useState<SortDirection>("asc");
   const [titleDraft, setTitleDraft] = useState(bulkReport.title || DEFAULT_BULK_REPORT_TITLE);
+  const [pdfState, setPdfState] = useState<"idle" | "loading" | "done">("idle");
 
   useEffect(() => {
     const encoded = searchParams.get("data");
@@ -71,7 +77,8 @@ export default function BulkReportPage() {
   const groupedByCategory = useMemo(() => {
     const map = new Map<string, Project[]>();
     for (const item of reportItems) {
-      const category = item.categories[0] || t("customReport.uncategorized");
+      const raw = item.categories[0];
+      const category = raw ? formatCategory(raw) : t("customReport.uncategorized");
       const existing = map.get(category) ?? [];
       existing.push(item);
       map.set(category, existing);
@@ -89,15 +96,6 @@ export default function BulkReportPage() {
     }
     return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]));
   }, [reportItems]);
-
-  const toggleSort = (field: SortField) => {
-    if (field === sortField) {
-      setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"));
-    } else {
-      setSortField(field);
-      setSortDirection("asc");
-    }
-  };
 
   const handleShare = async () => {
     const encoded = encodeBulkReportState({
@@ -136,7 +134,7 @@ export default function BulkReportPage() {
         </p>
 
           <div className="mt-3 flex flex-row items-center gap-2">
-            <Button variant="secondary" size="sm" onClick={handleShare}>
+            <Button variant="secondary" size="sm" onClick={() => { trackButtonClick("Custom Report: share"); trackReportAction("share", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs); handleShare(); }}>
               {copied ? (
                 <><Check className="mr-1 h-4 w-4" /> {t("customReport.copied")}</>
               ) : (
@@ -146,9 +144,44 @@ export default function BulkReportPage() {
             <Button
               variant="secondary"
               size="sm"
+              disabled={reportItems.length === 0 || pdfState === "loading"}
+              onClick={async () => {
+                trackButtonClick("Custom Report: download pdf");
+                trackReportAction("download pdf", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs);
+                setPdfState("loading");
+                try {
+                  await generateReportPdf({
+                    title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
+                    items: reportItems,
+                    view,
+                    groupedByCategory,
+                    groupedByPublisher,
+                    sortField,
+                    sortDirection,
+                  });
+                  setPdfState("done");
+                  setTimeout(() => setPdfState("idle"), 2500);
+                } catch {
+                  setPdfState("idle");
+                }
+              }}
+            >
+              {pdfState === "loading" ? (
+                <Loader2 className="mr-1 h-4 w-4 animate-spin" />
+              ) : pdfState === "done" ? (
+                <Check className="mr-1 h-4 w-4" />
+              ) : (
+                <Download className="mr-1 h-4 w-4" />
+              )} {t("customReport.downloadPdf")}
+            </Button>
+            <Button
+              variant="secondary"
+              size="sm"
               disabled={reportItems.length === 0}
-              onClick={() =>
-                generateReportPdf({
+              onClick={() => {
+                trackButtonClick("Custom Report: download excel");
+                trackReportAction("download excel", bulkReport.title || DEFAULT_BULK_REPORT_TITLE, bulkReport.slugs);
+                generateReportXlsx({
                   title: bulkReport.title || DEFAULT_BULK_REPORT_TITLE,
                   items: reportItems,
                   view,
@@ -156,12 +189,12 @@ export default function BulkReportPage() {
                   groupedByPublisher,
                   sortField,
                   sortDirection,
-                })
-              }
+                });
+              }}
             >
-              <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadPdf")}
+              <Download className="mr-1 h-4 w-4" /> {t("customReport.downloadXlsx")}
             </Button>
-            <Button variant="ghost" size="sm" onClick={bulkReport.clear}>
+            <Button variant="ghost" size="sm" onClick={() => { trackButtonClick("Custom Report: clear report"); bulkReport.clear(); }}>
               <Trash2 className="mr-1 h-4 w-4" /> {t("customReport.clearReport")}
             </Button>
           </div>
@@ -184,21 +217,21 @@ export default function BulkReportPage() {
           <Button
             variant={view === "table" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("table")}
+            onClick={() => { trackButtonClick("Custom Report: all items"); setView("table"); }}
           >
             {t("customReport.viewAll")}
           </Button>
           <Button
             variant={view === "category" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("category")}
+            onClick={() => { trackButtonClick("Custom Report: by category"); setView("category"); }}
           >
             {t("customReport.viewByCategory")}
           </Button>
           <Button
             variant={view === "publisher" ? "primary" : "ghost"}
             size="sm"
-            onClick={() => setView("publisher")}
+            onClick={() => { trackButtonClick("Custom Report: by publisher"); setView("publisher"); }}
           >
             {t("customReport.viewByPublisher")}
           </Button>
@@ -217,10 +250,6 @@ export default function BulkReportPage() {
               items={reportItems}
               columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
               onRowClick={handleRowClick}
-              sortable
-              sortField={sortField}
-              sortDirection={sortDirection}
-              onSort={toggleSort}
               actionMode="remove-only"
               onRemove={bulkReport.removeSlug}
               title={t("customReport.viewAll")}
@@ -234,10 +263,6 @@ export default function BulkReportPage() {
                   items={items}
                   columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
                   onRowClick={handleRowClick}
-                  sortable
-                  sortField={sortField}
-                  sortDirection={sortDirection}
-                  onSort={toggleSort}
                   actionMode="remove-only"
                   onRemove={bulkReport.removeSlug}
                   title={category}
@@ -253,10 +278,6 @@ export default function BulkReportPage() {
                   items={items}
                   columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
                   onRowClick={handleRowClick}
-                  sortable
-                  sortField={sortField}
-                  sortDirection={sortDirection}
-                  onSort={toggleSort}
                   actionMode="remove-only"
                   onRemove={bulkReport.removeSlug}
                   title={publisher}

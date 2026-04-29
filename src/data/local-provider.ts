@@ -1,4 +1,6 @@
 import type { DataProvider } from "./provider";
+import { formatCategory } from "@/utils/formatting";
+import { publisherIcons } from "./content/publisher-icons";
 import type {
   Project,
   ProjectFilters,
@@ -8,10 +10,24 @@ import type {
   Publisher,
 } from "./types";
 
-import projectsData from "./content/projects.json";
-import popularAppsByLocale from "./content/popular-apps-by-locale.json";
+let projects: Project[] | null = null;
+let popularAppsByLocale: Record<string, string[]> | null = null;
 
-const projects: Project[] = projectsData as Project[];
+async function getProjects(): Promise<Project[]> {
+  if (!projects) {
+    const mod = await import("./content/projects.json");
+    projects = mod.default as Project[];
+  }
+  return projects;
+}
+
+async function getPopularAppsData(): Promise<Record<string, string[]>> {
+  if (!popularAppsByLocale) {
+    const mod = await import("./content/popular-apps-by-locale.json");
+    popularAppsByLocale = mod.default as Record<string, string[]>;
+  }
+  return popularAppsByLocale;
+}
 
 function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
   if (!filters) return items;
@@ -30,13 +46,13 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
   if (filters.compatibility) {
     const comps = Array.isArray(filters.compatibility) ? filters.compatibility : [filters.compatibility];
     if (comps.length > 0) {
-      result = result.filter((p) => comps.includes(p.compatibility as any));
+      result = result.filter((p) => (comps as string[]).includes(p.compatibility as string));
     }
   }
   if (filters.emulationType) {
     const ems = Array.isArray(filters.emulationType) ? filters.emulationType : [filters.emulationType];
     if (ems.length > 0) {
-      result = result.filter((p) => ems.includes(p.emulationType as any));
+      result = result.filter((p) => (ems as string[]).includes(p.emulationType as string));
     }
   }
   if (filters.publisher) {
@@ -115,18 +131,21 @@ export class LocalDataProvider implements DataProvider {
     page = 1,
     pageSize = 25
   ): Promise<PaginatedResult<Project>> {
-    const filtered = applyFilters(projects, filters);
+    const allProjects = await getProjects();
+    const filtered = applyFilters(allProjects, filters);
     return paginate(filtered, page, pageSize);
   }
 
   async getProject(slug: string): Promise<Project | null> {
-    return projects.find((p) => p.slug === slug) ?? null;
+    const allProjects = await getProjects();
+    return allProjects.find((p) => p.slug === slug) ?? null;
   }
 
   async getCategories(type?: ProjectType): Promise<Category[]> {
+    const allProjects = await getProjects();
     const filtered = type
-      ? projects.filter((p) => p.type === type)
-      : projects;
+      ? allProjects.filter((p) => p.type === type)
+      : allProjects;
 
     const categoryMap = new Map<string, { name: string; type: ProjectType; count: number }>();
 
@@ -137,7 +156,7 @@ export class LocalDataProvider implements DataProvider {
           existing.count++;
         } else {
           categoryMap.set(cat, {
-            name: cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, " "),
+            name: formatCategory(cat),
             type: project.type,
             count: 1,
           });
@@ -147,16 +166,18 @@ export class LocalDataProvider implements DataProvider {
 
     return Array.from(categoryMap.entries())
       .map(([slug, data]) => ({ slug, ...data }))
-      .sort((a, b) => b.count - a.count);
+      .sort((a, b) => a.name.localeCompare(b.name));
   }
 
   async getPopularProjects(locale = "en", limit = 10): Promise<Project[]> {
-    const localeSlugs = (popularAppsByLocale as Record<string, string[]>)[locale];
-    const slugs = localeSlugs?.length ? localeSlugs : popularAppsByLocale.en;
+    const allProjects = await getProjects();
+    const popData = await getPopularAppsData();
+    const localeSlugs = popData[locale];
+    const slugs = localeSlugs?.length ? localeSlugs : (popData.en ?? []);
 
     const slugSet = new Set(slugs.slice(0, limit));
     const projectMap = new Map<string, Project>();
-    for (const p of projects) {
+    for (const p of allProjects) {
       if (slugSet.has(p.slug)) {
         projectMap.set(p.slug, p);
       }
@@ -170,12 +191,14 @@ export class LocalDataProvider implements DataProvider {
   }
 
   async getMicrosoftApps(): Promise<Project[]> {
-    return projects.filter((p) => p.isMicrosoftApp === true);
+    const allProjects = await getProjects();
+    return allProjects.filter((p) => p.isMicrosoftApp === true);
   }
 
   async searchProjects(query: string, limit = 20, type?: ProjectType): Promise<Project[]> {
+    const allProjects = await getProjects();
     const q = query.toLowerCase();
-    return projects
+    return allProjects
       .filter(
         (p) =>
           (!type || p.type === type) &&
@@ -186,9 +209,10 @@ export class LocalDataProvider implements DataProvider {
       .slice(0, limit);
   }
 
-  private buildPublishers(): Publisher[] {
+  private async buildPublishers(): Promise<Publisher[]> {
+    const allProjects = await getProjects();
     const map = new Map<string, { appCount: number; gameCount: number }>();
-    for (const p of projects) {
+    for (const p of allProjects) {
       if (!p.publisher) continue;
       const existing = map.get(p.publisher);
       if (existing) {
@@ -208,11 +232,18 @@ export class LocalDataProvider implements DataProvider {
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/^-|-$/g, ""),
         name,
+        icon: publisherIcons[name],
         appCount: counts.appCount,
         gameCount: counts.gameCount,
         totalCount: counts.appCount + counts.gameCount,
       }))
-      .sort((a, b) => b.totalCount - a.totalCount);
+      .sort((a, b) => {
+        const aIsMicrosoft = a.name.toLowerCase() === "microsoft corporation";
+        const bIsMicrosoft = b.name.toLowerCase() === "microsoft corporation";
+        if (aIsMicrosoft && !bIsMicrosoft) return -1;
+        if (!aIsMicrosoft && bIsMicrosoft) return 1;
+        return b.totalCount - a.totalCount;
+      });
   }
 
   async getPublishers(
@@ -220,7 +251,7 @@ export class LocalDataProvider implements DataProvider {
     page = 1,
     pageSize = 25
   ): Promise<PaginatedResult<Publisher>> {
-    let publishers = this.buildPublishers();
+    let publishers = await this.buildPublishers();
     if (search) {
       const q = search.toLowerCase();
       publishers = publishers.filter((p) => p.name.toLowerCase().includes(q));
@@ -229,7 +260,7 @@ export class LocalDataProvider implements DataProvider {
   }
 
   async getPublisherBySlug(slug: string): Promise<Publisher | null> {
-    const publishers = this.buildPublishers();
+    const publishers = await this.buildPublishers();
     return publishers.find((p) => p.slug === slug) ?? null;
   }
 
@@ -238,7 +269,8 @@ export class LocalDataProvider implements DataProvider {
     page = 1,
     pageSize = 25
   ): Promise<PaginatedResult<Project>> {
-    const filtered = projects.filter(
+    const allProjects = await getProjects();
+    const filtered = allProjects.filter(
       (p) => p.publisher.toLowerCase() === publisherName.toLowerCase()
     );
     return paginate(filtered, page, pageSize);

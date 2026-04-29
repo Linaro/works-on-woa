@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { PublishersList } from "@/components/Publishers/PublishersList";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function PublishersPage() {
   const { t } = useTranslation();
+  usePageTitle("Publishers");
 
   return (
     <main id="main-content">

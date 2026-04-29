@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
 import { GradientText } from "@/components/Common/GradientText";
-import { ScrollReveal } from "@/components/Common/ScrollReveal";
 
 export function HeroSection() {
   const { t } = useTranslation();
@@ -48,26 +48,43 @@ export function HeroSection() {
       />
 
       <Container className="relative flex min-h-[100vh] flex-col items-center justify-center text-center">
-        <ScrollReveal>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
           <GradientText
             as="h1"
             className="text-5xl font-bold leading-[1.05] md:text-[72px]"
           >
             {t("hero.title")}
           </GradientText>
-        </ScrollReveal>
+        </motion.div>
 
-                <ScrollReveal delay={0.1}>
+                <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+        >
           <p className="mt-4 max-w-xl text-lg text-[var(--color-text-secondary)] md:text-2xl md:font-normal">
             {t("hero.subtitle")}
           </p>
-        </ScrollReveal>
+        </motion.div>
 
-        <ScrollReveal delay={0.3} className="relative z-20 mt-10 w-full max-w-[720px]">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
+          className="relative z-20 mt-10 w-full max-w-[720px]"
+        >
           <SearchBar placeholder={t("hero.searchPlaceholder")} />
-        </ScrollReveal>
+        </motion.div>
 
-        <ScrollReveal delay={0.2}>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+        >
           <div className="mt-5 flex items-center gap-2.5 text-[15px] text-[var(--color-text-tertiary)]">
             <span>{t("hero.supportedBy")}</span>
             <img
@@ -76,7 +93,7 @@ export function HeroSection() {
               className="h-5 w-auto"
             />
           </div>
-        </ScrollReveal>
+        </motion.div>
 
       </Container>
 
@@ -88,7 +105,7 @@ export function HeroSection() {
             : "pointer-events-none translate-y-2 opacity-0"
         }`}
       >
-        <span className="text-xs tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">Scroll</span>
+        <span className="text-sm tracking-widest uppercase text-[var(--color-text-tertiary)] opacity-70">{t("common.scroll")}</span>
         <div
           className="h-16"
           style={{

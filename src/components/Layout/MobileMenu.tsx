@@ -57,15 +57,27 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <p className="px-4 py-1.5 text-xs uppercase tracking-wider text-[var(--color-text-tertiary)]">
                 {t("nav.learn")}
               </p>
-              <MobileLink to="/learn/getting-started" onClick={onClose}>
+              <MobileLink to="#" onClick={onClose}>
                 {t("nav.gettingStarted")}
               </MobileLink>
-              <MobileLink to="/learn/prism" onClick={onClose}>
+              <a
+                href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={onClose}
+                className="rounded-lg px-4 py-3 text-base font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+              >
                 {t("nav.prism")}
-              </MobileLink>
-              <MobileLink to="/learn/windows-on-arm" onClick={onClose}>
+              </a>
+              <a
+                href="https://www.microsoft.com/en-us/windows/windows-11"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={onClose}
+                className="rounded-lg px-4 py-3 text-base font-medium text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
+              >
                 {t("nav.windowsOnArm")}
-              </MobileLink>
+              </a>
               <MobileLink to="/faq" onClick={onClose}>
                 {t("nav.faq")}
               </MobileLink>

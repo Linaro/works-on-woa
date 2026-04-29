@@ -193,7 +193,7 @@ function processDirectory(
           project.isMicrosoftApp = true;
           project.microsoftCategory = MICROSOFT_CATEGORIES[slug] || "productivity";
           project.validation = "microsoft";
-          project.publisher = "Microsoft";
+          project.publisher = "Microsoft Corporation";
         }
 
         results.push(project);

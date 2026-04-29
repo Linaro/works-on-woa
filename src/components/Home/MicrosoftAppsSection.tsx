@@ -9,6 +9,7 @@ import { CompatibilityBadge } from "@/components/Common/Badge";
 import { CardSkeleton } from "@/components/Common/Skeleton";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Button } from "@/components/Common/Button";
+import { trackButtonClick } from "@/lib/telemetry";
 import { useMicrosoftApps } from "@/data/hooks/useMicrosoftApps";
 
 const CATEGORIES = [
@@ -101,17 +102,13 @@ export function MicrosoftAppsSection() {
                       key={app.slug}
                       whileHover={{ y: -4, scale: 1.02 }}
                       onClick={() => navigate(`/apps/${app.slug}`)}
-                      className="cursor-pointer group flex w-[180px] flex-col items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5 text-center transition-colors hover:border-[rgba(0,120,212,0.3)]"
+                      className="cursor-pointer group flex w-[180px] h-[176px] flex-col items-center justify-between gap-2 rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-5 text-center transition-colors hover:border-[rgba(0,120,212,0.3)]"
                     >
                       <ProjectIcon icon={app.icon} name={app.name} size="lg" />
-                      <div>
-                        <p className="font-medium text-[var(--color-text-primary)] text-sm">
-                          {app.name}
-                        </p>
-                        <div className="mt-1.5">
-                          <CompatibilityBadge compatibility={app.compatibility} size="sm" />
-                        </div>
-                      </div>
+                      <p className="font-medium text-[var(--color-text-primary)] text-sm">
+                        {app.name}
+                      </p>
+                      <CompatibilityBadge compatibility={app.compatibility} size="sm" />
                     </motion.div>
                   ))
                 )}
@@ -121,7 +118,7 @@ export function MicrosoftAppsSection() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <Button variant="secondary" onClick={() => navigate("/publishers/microsoft")}>
+          <Button variant="secondary" onClick={() => { trackButtonClick("Home: See all Microsoft Apps"); navigate("/publishers/microsoft"); }}>
             {t("microsoftApps.seeAll")}
           </Button>
         </div>

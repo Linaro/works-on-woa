@@ -17,6 +17,7 @@ import {
   activeFiltersFromProjectFilters,
 } from "@/utils/filter-params";
 import type { ProjectFilters, ProjectType } from "@/data/types";
+import { trackFilterUsage } from "@/lib/telemetry";
 
 interface ProjectsListProps {
   type: ProjectType;
@@ -30,7 +31,10 @@ export function ProjectsList({ type }: ProjectsListProps) {
   const [searchParams, setSearchParams] = useSearchParams();
 
   // Initialize filters from URL
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(() => {
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    return isNaN(p) || p < 1 ? 1 : p;
+  });
   const [filters, setFilters] = useState<ProjectFilters>(() => ({
     type,
     ...filtersFromSearchParams(searchParams),
@@ -44,15 +48,34 @@ export function ProjectsList({ type }: ProjectsListProps) {
   useEffect(() => {
     const urlFilters = filtersFromSearchParams(searchParams);
     setFilters((prev) => ({ ...prev, type, ...urlFilters }));
-  }, [searchParams, type]);
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    setPage(isNaN(p) || p < 1 ? 1 : p);
+
+    if (!searchParams.has("page")) {
+      const params = new URLSearchParams(searchParams);
+      params.set("page", "1");
+      setSearchParams(params, { replace: true });
+    }
+  }, [searchParams, type, setSearchParams]);
 
   // Sync filters → URL whenever filters change
   const syncFiltersToUrl = useCallback(
     (nextFilters: ProjectFilters) => {
       const params = filtersToSearchParams(nextFilters);
+      params.set("page", "1");
       setSearchParams(params, { replace: true });
     },
     [setSearchParams]
+  );
+
+  const handlePageChange = useCallback(
+    (newPage: number) => {
+      setPage(newPage);
+      const params = new URLSearchParams(searchParams);
+      params.set("page", String(newPage));
+      setSearchParams(params);
+    },
+    [searchParams, setSearchParams]
   );
 
   const handleSearch = useCallback(
@@ -67,6 +90,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
 
   const handleFilterChange = useCallback(
     (key: string, values: string[]) => {
+      trackFilterUsage(type === "application" ? "Apps" : "Games", key, values);
       const next = {
         ...filters,
         [key]: values.length > 0 ? values : undefined,
@@ -75,24 +99,39 @@ export function ProjectsList({ type }: ProjectsListProps) {
       setPage(1);
       syncFiltersToUrl(next);
     },
-    [filters, syncFiltersToUrl]
+    [filters, syncFiltersToUrl, type]
   );
 
   const handleClearAll = useCallback(() => {
     const next: ProjectFilters = { type };
     setFilters(next);
     setPage(1);
-    setSearchParams({});
+    setSearchParams({ page: "1" });
   }, [type, setSearchParams]);
+
+  const bigTechPublishers = new Set([
+    "Adobe", "Amazon", "Anthropic", "Apple", "Cisco", "Cloudflare", "Dell", "Dropbox",
+    "Epic Games", "Google", "HP", "IBM", "Intel", "Lenovo", "Meta",
+    "Microsoft Corporation", "Mozilla", "Netflix", "NVIDIA", "Open AI","Oracle", "Qualcomm",
+    "Salesforce", "Samsung", "SAP", "Slack", "Sony", "Spotify", "Valve",
+    "VMware", "Zoom",
+  ]);
 
   const typePublishers = (publishersData?.items ?? [])
     .filter((p) => type === "application" ? p.appCount > 0 : p.gameCount > 0)
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const aIsBig = bigTechPublishers.has(a.name);
+      const bIsBig = bigTechPublishers.has(b.name);
+      if (aIsBig && !bIsBig) return -1;
+      if (!aIsBig && bIsBig) return 1;
+      return a.name.localeCompare(b.name);
+    });
 
   const filterConfig = [
     {
       label: t("filters.category"),
       key: "category",
+      sortSelectedFirst: true,
       options: (categoriesData ?? []).map((c) => ({
         label: c.name,
         value: c.slug,
@@ -118,6 +157,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
     {
       label: t("filters.publisher"),
       key: "publisher",
+      sortSelectedFirst: true,
       options: typePublishers.map((p) => ({
         label: p.name,
         value: p.name,
@@ -178,7 +218,6 @@ export function ProjectsList({ type }: ProjectsListProps) {
             columns={["icon", "name", "compatibility", "type", "developer", "category", "validation", "updated"]}
             onRowClick={(project) => navigate(`${basePath}/${project.slug}`)}
             actionMode="add-remove"
-            sortable
           />
         ) : (
           <div className="py-20 text-center">
@@ -192,7 +231,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
         )}
       </div>
 
-      <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
+      <Pagination page={page} totalPages={totalPages} onPageChange={handlePageChange} />
     </Container>
   );
 }

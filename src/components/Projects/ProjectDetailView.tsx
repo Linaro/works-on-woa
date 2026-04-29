@@ -3,14 +3,15 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, Link } from "react-router-dom";
 import { Check, Copy, Plus, X } from "lucide-react";
 import { Container } from "@/components/Common/Container";
-import { BackButton } from "@/components/Common/BackButton";
+
 import { CompatibilityBadge, ValidationBadge } from "@/components/Common/Badge";
 import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
-import { formatDate, capitalize } from "@/utils/formatting";
+import { formatDate, capitalize, formatCategory } from "@/utils/formatting";
 import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
+import { trackButtonClick } from "@/lib/telemetry";
 import type { ProjectType } from "@/data/types";
 
 interface ProjectDetailViewProps {
@@ -27,6 +28,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
   const [copied, setCopied] = useState(false);
 
   const handleShare = async () => {
+    trackButtonClick("Project Detail: share", { project: slug });
     await navigator.clipboard.writeText(window.location.href);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -74,7 +76,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     },
     {
       label: t("appDetail.emulationType"),
-      value: capitalize(project.emulationType),
+      value: t(`common.${project.emulationType}`) || capitalize(project.emulationType),
     },
     {
       label: t("appDetail.validation"),
@@ -89,7 +91,9 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     },
     {
       label: t("appDetail.categories"),
-      value: project.categories.length > 0 ? project.categories.join(", ") : "—",
+      value: project.categories.length > 0 && !(project.categories.length === 1 && project.categories[0] === "unknown")
+        ? project.categories.map(formatCategory).join(", ")
+        : "—",
     },
     {
       label: t("appDetail.lastUpdated"),
@@ -100,11 +104,6 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
   return (
     <Container className="py-10 md:py-16">
       <div>
-        {/* Back button */}
-        <BackButton to={type === "application" ? "/apps" : "/games"}>
-          {type === "application" ? t("common.backToApps") : t("common.backToGames")}
-        </BackButton>
-
         {/* Header */}
         <div className="flex items-start gap-5">
           <ProjectIcon icon={project.icon} name={project.name} size="xl" />
@@ -122,7 +121,7 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 <Button
                   variant="primary"
                   size="sm"
-                  onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}
+                  onClick={() => { trackButtonClick("Project Detail: get app", { project: project.slug }); window.open(project.link, "_blank", "noopener,noreferrer"); }}
                 >
                   {t("appDetail.getThisApp")}
                 </Button>
@@ -133,9 +132,9 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 onClick={handleShare}
               >
                 {copied ? (
-                  <><Check className="mr-1 h-4 w-4" /> Copied!</>
+                  <><Check className="mr-1 h-4 w-4" /> {t("common.copied")}</>
                 ) : (
-                  <><Copy className="mr-1 h-4 w-4" /> Share</>
+                  <><Copy className="mr-1 h-4 w-4" /> {t("common.share")}</>
                 )}
               </Button>
               <Button
@@ -145,8 +144,10 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
                 onMouseLeave={() => setReportHover(false)}
                 onClick={() => {
                   if (bulkReport.hasSlug(project.slug)) {
+                    trackButtonClick("Project Detail: remove from report", { project: project.slug });
                     removeBulkReportSlug(project.slug);
                   } else {
+                    trackButtonClick("Project Detail: add to report", { project: project.slug });
                     addBulkReportSlug(project.slug);
                   }
                 }}
@@ -195,6 +196,18 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
             );
           })}
         </div>
+
+        {/* Compatibility Details */}
+        {project.compatibilityDetails && project.compatibilityDetails.trim() !== "" && (
+          <div className="mt-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-4">
+            <p className="text-xs font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
+              {t("appDetail.compatibilityDetails")}
+            </p>
+            <p className="mt-2 whitespace-pre-wrap text-[var(--color-text-primary)]">
+              {project.compatibilityDetails}
+            </p>
+          </div>
+        )}
 
         {/* Notes */}
         {project.notes && (

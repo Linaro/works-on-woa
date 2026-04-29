@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && tsx scripts/generate-sitemap.ts",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
@@ -14,6 +14,7 @@
     "migrate": "tsx scripts/migrate-md-to-json.ts"
   },
   "dependencies": {
+    "@microsoft/applicationinsights-web": "^3.4.1",
     "@tanstack/react-query": "^5.0.0",
     "clsx": "^2.0.0",
     "flag-icons": "^7.5.0",
@@ -29,6 +30,7 @@
     "react-router": "^7.0.0",
     "react-router-dom": "^7.0.0",
     "tailwind-merge": "^3.0.0",
+    "xlsx": "^0.18.5",
     "zustand": "^5.0.0"
   },
   "devDependencies": {
