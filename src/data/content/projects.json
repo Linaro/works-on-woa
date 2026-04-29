@@ -1076,7 +1076,7 @@
     "emulationType": "emulation",
     "versionFrom": "7.2407.16012.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGH42THS",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -7630,7 +7630,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.1.0",
     "link": "https://apps.microsoft.com/detail/9NS5CT1MZ7M8",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -10621,7 +10621,7 @@
     "emulationType": "emulation",
     "versionFrom": "6.4.0.0",
     "link": "https://apps.microsoft.com/detail/9NF1LFD5XXG3",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -18396,7 +18396,7 @@
     "emulationType": "emulation",
     "versionFrom": "6.0.7.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGH434KN",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -20740,7 +20740,7 @@
     "emulationType": "emulation",
     "versionFrom": "8.0.4.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRDTBTP",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -29785,7 +29785,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.2.0",
     "link": "https://apps.microsoft.com/detail/9N7DVKWXKQFC",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -30018,7 +30018,7 @@
     "emulationType": "emulation",
     "versionFrom": "4.2209.41991.0",
     "link": "https://apps.microsoft.com/detail/9N8WTRRSQ8F7",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -34557,7 +34557,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.3.0",
     "link": "https://apps.microsoft.com/detail/9NKBPXWF3RWR",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -39475,7 +39475,7 @@
     "emulationType": "native",
     "versionFrom": "0.2.40.0",
     "link": "https://apps.microsoft.com/detail/9pdjdjs743xf",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -44823,7 +44823,7 @@
     "emulationType": "emulation",
     "versionFrom": "3.1.10383.1000",
     "link": "https://apps.microsoft.com/detail/9wzdncrfjb13",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -45614,7 +45614,7 @@
     "emulationType": "emulation",
     "versionFrom": "2.0.10.0",
     "link": "https://apps.microsoft.com/detail/9NBLGGH4Q4JG",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -51205,7 +51205,7 @@
     "emulationType": "native",
     "versionFrom": "5.6.3.0",
     "link": "https://apps.microsoft.com/detail/9nmzlz57r3t7",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -59409,7 +59409,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.4.0",
     "link": "https://apps.microsoft.com/detail/9NGB5S5XG2KP",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -63280,7 +63280,7 @@
     "emulationType": "native",
     "versionFrom": "8.0.0.0",
     "link": "https://apps.microsoft.com/detail/9P7X9K692TMW",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -64346,7 +64346,7 @@
     "emulationType": "native",
     "versionFrom": "1.1.1.0",
     "link": "https://apps.microsoft.com/detail/9nwh29b68gth",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -64378,7 +64378,7 @@
     "emulationType": "native",
     "versionFrom": "v6.0.25",
     "link": "https://apps.microsoft.com/detail/9nmqdq2xzkwk",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -67723,7 +67723,7 @@
     "emulationType": "native",
     "versionFrom": "Windows 11 22H2",
     "link": "https://learn.arm.com/install-guides/hyper-v/?utm_source=copilot.com",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-04-17",
     "isMicrosoftApp": true,
     "microsoftCategory": "it-management",
@@ -67743,7 +67743,7 @@
     "emulationType": "native",
     "versionFrom": "Windows 11 22H2",
     "link": "https://learn.arm.com/install-guides/hyper-v/?utm_source=copilot.com",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-04-17",
     "isMicrosoftApp": true,
     "microsoftCategory": "it-management",
@@ -71165,7 +71165,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.61931.0",
     "link": "https://apps.microsoft.com/detail/9N95Q1ZZPMH4",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -71441,7 +71441,7 @@
     "emulationType": "native",
     "versionFrom": "4.53.51973.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhv4v",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -71457,7 +71457,7 @@
     "emulationType": "native",
     "versionFrom": "4.53.62621.0",
     "link": "https://www.microsoft.com/store/productId/9WZDNCRFJ3Q2",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -87260,7 +87260,7 @@
     "emulationType": "native",
     "versionFrom": "1.2.0.0",
     "link": "https://apps.microsoft.com/detail/9N1V8LS4DXQQ",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -88257,7 +88257,7 @@
     "emulationType": "emulation",
     "versionFrom": "3.25022.7.0",
     "link": "https://apps.microsoft.com/detail/9MVC8P1Q3B29",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -88273,7 +88273,7 @@
     "emulationType": "emulation",
     "versionFrom": "2.44.00035.24141",
     "link": "https://www.microsoft.com/store/productId/9NFTCH6J7FHV",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -88289,7 +88289,7 @@
     "emulationType": "emulation",
     "versionFrom": "15.7.1813.0",
     "link": "https://apps.microsoft.com/detail/9N3BL69HC2MC",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -88419,7 +88419,7 @@
     "emulationType": "native",
     "versionFrom": "7.4.1",
     "link": "https://apps.microsoft.com/detail/9mz1snwt0n5d",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -88435,7 +88435,7 @@
     "emulationType": "native",
     "versionFrom": "7.6.0",
     "link": "https://apps.microsoft.com/detail/9P95ZZKTNRN4",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -92298,7 +92298,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.36.0",
     "link": "https://apps.microsoft.com/detail/9NPG0B292H4R",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -92362,7 +92362,7 @@
     "emulationType": "native",
     "versionFrom": "1.2.3.0",
     "link": "https://www.microsoft.com/store/productId/9N0DGWH9PSZF",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -100610,7 +100610,7 @@
     "emulationType": "native",
     "versionFrom": "3.0.101.0",
     "link": "https://apps.microsoft.com/detail/9P89S2QLH11T",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -100755,7 +100755,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.2.11.0",
     "link": "https://apps.microsoft.com/detail/9MVT92NRF5MX",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -107612,7 +107612,7 @@
     "emulationType": "emulation",
     "versionFrom": "18.2003.51105.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrd2g0j",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -115064,7 +115064,7 @@
     "emulationType": "emulation",
     "versionFrom": "2.0.1.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRDTBJL",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -118231,7 +118231,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.1.20.0",
     "link": "https://apps.microsoft.com/detail/9PF5PFTSNWPT",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -121935,7 +121935,7 @@
     "emulationType": "emulation",
     "versionFrom": "3.0.6.0",
     "link": "https://apps.microsoft.com/detail/9PD35CDQCMG3",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124017,7 +124017,7 @@
     "emulationType": "emulation",
     "versionFrom": "11.2411.2.0",
     "link": "https://apps.microsoft.com/detail/9WZDNCRFJ3PR",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124082,7 +124082,7 @@
     "emulationType": "emulation",
     "versionFrom": "2025.416.0.0",
     "link": "https://apps.microsoft.com/detail/9nblggh4tx22",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124132,7 +124132,7 @@
     "emulationType": "native",
     "versionFrom": "10.3.0.0",
     "link": "https://apps.microsoft.com/detail/9p7vbbbc49rb",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124149,7 +124149,7 @@
     "emulationType": "native",
     "versionFrom": "0.1.20151.0",
     "link": "https://apps.microsoft.com/detail/9N26S50LN705",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124166,7 +124166,7 @@
     "emulationType": "emulation",
     "versionFrom": "0.0.6.0",
     "link": "https://apps.microsoft.com/detail/9PJ2G5X9GJWC",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124215,7 +124215,7 @@
     "emulationType": "emulation",
     "versionFrom": "1.0.152.0",
     "link": "https://apps.microsoft.com/detail/9n7f2sm5d1lr",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124263,7 +124263,7 @@
     "emulationType": "emulation",
     "versionFrom": "11.1.5.1",
     "link": "https://apps.microsoft.com/detail/9n0w1b2bxgnz",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
@@ -124295,7 +124295,7 @@
     "emulationType": "native",
     "versionFrom": "11.2304.25.0",
     "link": "https://apps.microsoft.com/detail/9wzdncrfhwkn",
-    "validation": "qualcomm",
+    "validation": "microsoft",
     "lastUpdated": "2026-03-02"
   },
   {
