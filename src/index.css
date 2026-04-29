@@ -12,7 +12,7 @@
   /* Text */
   --color-text-primary: #ffffff;
   --color-text-secondary: #a1a1a6;
-  --color-text-tertiary: #6e6e73;
+  --color-text-tertiary: #8e8e93;
 
   /* Accent — Microsoft blue family */
   --color-accent-primary: #0078d4;
@@ -123,7 +123,6 @@ body {
 .glass {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -133,6 +132,10 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
 }
 
 /* ===== Inline Links (e.g. FAQ answers) ===== */

@@ -22,7 +22,8 @@ export interface Project {
   link?: string;
   validation: Validation;
   lastUpdated: string;
-  notes?: string;
+  notes: string;
+  shouldShowNotes: boolean;
   isMicrosoftApp?: boolean;
   microsoftCategory?: string;
 }
@@ -57,6 +58,7 @@ export interface Category {
 export interface Publisher {
   slug: string;
   name: string;
+  icon?: string;
   appCount: number;
   gameCount: number;
   totalCount: number;

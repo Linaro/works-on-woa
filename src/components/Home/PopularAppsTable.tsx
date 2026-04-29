@@ -5,6 +5,7 @@ import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { Button } from "@/components/Common/Button";
 import { TableSkeleton } from "@/components/Common/Skeleton";
 import { ProjectTable } from "@/components/Common/ProjectTable";
+import { trackButtonClick } from "@/lib/telemetry";
 import { usePopularProjects } from "@/data/hooks/usePopularProjects";
 
 export function PopularAppsTable() {
@@ -38,7 +39,7 @@ export function PopularAppsTable() {
               actionMode="none"
               footer={
                 <div className="mt-6 flex justify-center">
-                  <Button variant="secondary" onClick={() => navigate("/apps")}>
+                  <Button variant="secondary" onClick={() => { trackButtonClick("Home: See All Windows Apps"); navigate("/apps"); }}>
                     {t("popularApps.seeAll")}
                   </Button>
                 </div>

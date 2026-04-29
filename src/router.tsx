@@ -8,13 +8,11 @@ const AppDetailPage = lazy(() => import("@/pages/AppDetailPage"));
 const GamesPage = lazy(() => import("@/pages/GamesPage"));
 const GameDetailPage = lazy(() => import("@/pages/GameDetailPage"));
 const FAQPage = lazy(() => import("@/pages/FAQPage"));
-const LearnPage = lazy(() => import("@/pages/LearnPage"));
-const GettingStartedPage = lazy(() => import("@/pages/GettingStartedPage"));
-const PrismPage = lazy(() => import("@/pages/PrismPage"));
-const WindowsOnArmPage = lazy(() => import("@/pages/WindowsOnArmPage"));
 const CustomReportPage = lazy(() => import("@/pages/CustomReportPage"));
 const PublishersPage = lazy(() => import("@/pages/PublishersPage"));
 const PublisherDetailPage = lazy(() => import("@/pages/PublisherDetailPage"));
+const ContributingPage = lazy(() => import("@/pages/ContributingPage"));
+const TakedownPage = lazy(() => import("@/pages/TakedownPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
 export const router = createBrowserRouter([
@@ -29,11 +27,9 @@ export const router = createBrowserRouter([
       { path: "publishers", element: <PublishersPage /> },
       { path: "publishers/:slug", element: <PublisherDetailPage /> },
       { path: "faq", element: <FAQPage /> },
-      { path: "learn", element: <LearnPage /> },
-      { path: "learn/getting-started", element: <GettingStartedPage /> },
-      { path: "learn/prism", element: <PrismPage /> },
-      { path: "learn/windows-on-arm", element: <WindowsOnArmPage /> },
       { path: "custom-report", element: <CustomReportPage /> },
+      { path: "contributing", element: <ContributingPage /> },
+      { path: "takedown", element: <TakedownPage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },

@@ -5,24 +5,28 @@ import { BookOpen, Cpu, Monitor } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
+import { trackButtonClick } from "@/lib/telemetry";
 
 const RESOURCES = [
   {
     key: "gettingStarted",
     icon: BookOpen,
-    href: "/learn/getting-started",
+    href: "https://learn.microsoft.com/en-us/windows/arm/overview",
+    external: true,
     gradient: "linear-gradient(135deg, #0078d4, #50e6ff)",
   },
   {
     key: "prism",
     icon: Cpu,
-    href: "/learn/prism",
+    href: "https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation",
+    external: true,
     gradient: "linear-gradient(135deg, #50e6ff, #00bcf2)",
   },
   {
     key: "windowsOnArm",
     icon: Monitor,
-    href: "/learn/windows-on-arm",
+    href: "https://www.microsoft.com/en-us/windows/windows-11",
+    external: true,
     gradient: "linear-gradient(135deg, #00bcf2, #0078d4)",
   },
 ];
@@ -47,12 +51,12 @@ export function ResourcesSection() {
           {RESOURCES.map((resource, i) => {
             const Icon = resource.icon;
             return (
-              <ScrollReveal key={resource.key} delay={i * 0.1}>
+              <ScrollReveal key={resource.key} delay={i * 0.1} className="h-full">
                 <motion.div
                   whileHover={{ y: -6, scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  onClick={() => navigate(resource.href)}
-                  className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)]"
+                  onClick={() => { if (resource.key === 'prism') trackButtonClick('Home: Prism emulation link'); if (resource.external) { window.open(resource.href, '_blank', 'noopener,noreferrer'); } else { navigate(resource.href); } }}
+                  className="group relative cursor-pointer overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-6 transition-colors hover:border-[rgba(0,120,212,0.3)] h-full"
                 >
                   {/* Glow gradient on hover */}
                   <div

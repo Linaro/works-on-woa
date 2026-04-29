@@ -69,7 +69,8 @@ export function ValidationBadge({
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full border border-[var(--color-border)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-text-secondary)]",
+        "inline-flex items-center whitespace-nowrap rounded-full border border-[var(--color-border)] px-2.5 py-0.5 text-xs font-medium text-[var(--color-text-secondary)]",
+        "min-w-fit shrink-0",
         className
       )}
     >

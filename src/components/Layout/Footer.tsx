@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { ExternalLink } from "lucide-react";
 import { Container } from "@/components/Common/Container";
 
 export function Footer() {
@@ -17,18 +18,19 @@ export function Footer() {
             <FooterLink to="/apps">{t("footer.columns.product.apps")}</FooterLink>
             <FooterLink to="/games">{t("footer.columns.product.games")}</FooterLink>
             <FooterLink to="/publishers">{t("footer.columns.product.publishers")}</FooterLink>
+            <FooterLink to="/custom-report">{t("footer.columns.product.customReport")}</FooterLink>
           </FooterColumn>
 
           <FooterColumn title={t("footer.columns.learn.title")}>
-            <FooterLink to="/learn/getting-started">
+            <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/overview">
               {t("footer.columns.learn.gettingStarted")}
-            </FooterLink>
-            <FooterLink to="/learn/prism">
+            </FooterExternalLink>
+            <FooterExternalLink href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation">
               {t("footer.columns.learn.prism")}
-            </FooterLink>
-            <FooterLink to="/learn/windows-on-arm">
+            </FooterExternalLink>
+            <FooterExternalLink href="https://www.microsoft.com/en-us/windows/windows-11">
               {t("footer.columns.learn.windowsOnArm")}
-            </FooterLink>
+            </FooterExternalLink>
             <FooterLink to="/faq">
               {t("footer.columns.learn.faq")}
             </FooterLink>
@@ -41,8 +43,14 @@ export function Footer() {
             <FooterExternalLink href="https://github.com/Linaro/works-on-woa/issues">
               {t("footer.columns.community.reportIssue")}
             </FooterExternalLink>
-            <FooterExternalLink href="https://github.com/Linaro/works-on-woa/blob/main/README.md">
+            <FooterLink to="/contributing">
               {t("footer.columns.community.contribute")}
+            </FooterLink>
+            <FooterLink to="/takedown">
+              {t("footer.columns.community.takedown")}
+            </FooterLink>
+            <FooterExternalLink href="https://www.linaro.org/contact/">
+              {t("footer.columns.community.contact")}
             </FooterExternalLink>
           </FooterColumn>
 
@@ -59,45 +67,17 @@ export function Footer() {
           </FooterColumn>
         </div>
 
+        {/* Disclaimer */}
+        <p className="mt-12 text-left text-[11px] text-[var(--color-text-tertiary)]">
+          {t("footer.disclaimer")}
+        </p>
+
         {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[rgba(255,255,255,0.06)] pt-6 md:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-center gap-4 border-t border-[rgba(255,255,255,0.12)] pt-6">
           <div className="flex items-center gap-2">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <rect x="1" y="1" width="8.5" height="8.5" fill="#f25022" />
-              <rect x="10.5" y="1" width="8.5" height="8.5" fill="#7fba00" />
-              <rect x="1" y="10.5" width="8.5" height="8.5" fill="#00a4ef" />
-              <rect x="10.5" y="10.5" width="8.5" height="8.5" fill="#ffb900" />
-            </svg>
-            <span className="text-[13px] text-[var(--color-text-tertiary)]">
+            <span className="text-[13px] text-[var(--color-text-tertiary)] text-center">
               {t("footer.copyright", { year: new Date().getFullYear() })}
             </span>
-          </div>
-          <div className="flex items-center gap-4">
-            <a
-              href="https://privacy.microsoft.com"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.privacy")}
-            </a>
-            <a
-              href="https://www.microsoft.com/en-us/legal/terms-of-use"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.terms")}
-            </a>
-            <a
-              href="#"
-              className="text-[13px] text-[var(--color-text-tertiary)] transition-colors hover:text-[var(--color-text-secondary)]"
-            >
-              {t("footer.legal.cookies")}
-            </a>
           </div>
         </div>
       </Container>
@@ -114,9 +94,9 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h5 className="text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
+      <p className="text-[13px] font-medium uppercase tracking-wider text-[var(--color-text-tertiary)]">
         {title}
-      </h5>
+      </p>
       <div className="mt-4 flex flex-col gap-2.5">{children}</div>
     </div>
   );
@@ -151,9 +131,10 @@ function FooterExternalLink({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-[15px] text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
+      className="inline-flex items-center gap-1 text-[15px] text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
     >
       {children}
+      <ExternalLink className="h-3 w-3 shrink-0" />
     </a>
   );
 }

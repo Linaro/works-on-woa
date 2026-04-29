@@ -7,36 +7,37 @@
     "learn": "学ぶ",
     "gettingStarted": "はじめに",
     "prism": "Prism",
-    "windowsOnArm": "Windows on ARM",
+    "windowsOnArm": "Windows 11",
     "publishers": "パブリッシャー",
-    "customReport": "カスタムレポート"
+    "customReport": "カスタムレポート",
+    "contributing": "コントリビューション"
   },
   "hero": {
-    "title": "WindowsはARMで動作します",
-    "subtitle": "最も強力で効率的なPCへ、安心して移行しましょう。",
+    "title": "WindowsはArmで動作します",
+    "subtitle": "終日続くパフォーマンスとバッテリー駆動時間のために作られたアプリを探索しましょう。",
     "supportedBy": "提供：",
-    "searchPlaceholder": "アプリ、ゲーム、またはファイルを検索",
-    "searchApps": "アプリを検索、または分析用にアップロード",
-    "searchGames": "ゲームを検索、または分析用にアップロード",
+    "searchPlaceholder": "アプリやゲームを検索",
+    "searchApps": "アプリを検索",
+    "searchGames": "ゲームを検索",
     "searchPublishers": "パブリッシャーを検索、またはアプリをアップロード"
   },
   "popularApps": {
     "title": "人気のアプリケーション",
-    "subtitle": "WindowsはARM上で5,000以上の人気アプリをサポートしています",
+    "subtitle": "WindowsはArm上で5,000以上の人気アプリをサポートしています",
     "seeAll": "すべてのWindowsアプリを見る",
     "columns": {
       "name": "名前",
       "compatibility": "互換性",
       "type": "タイプ",
-      "developer": "開発者",
+      "developer": "パブリッシャー",
       "category": "カテゴリ",
       "validation": "検証",
       "updated": "更新日"
     }
   },
   "microsoftApps": {
-    "title": "MicrosoftアプリはARMで動作します",
-    "subtitle": "超高速のファーストパーティアプリケーション。100%検証済み。",
+    "title": "MicrosoftアプリはArmで動作します",
+    "subtitle": "ファーストパーティアプリケーション。100%検証済み。",
     "seeAll": "すべてのMicrosoftアプリを見る",
     "categories": {
       "productivity": "生産性",
@@ -49,43 +50,43 @@
   },
   "resources": {
     "title": "リソース",
-    "subtitle": "Windows on ARMでの構築、展開、成功に必要なすべて。",
+    "subtitle": "Windows on Armでの構築、展開、成功に必要なすべて。",
     "items": {
       "gettingStarted": {
-        "title": "Windows on ARMを始める",
-        "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。"
+        "title": "Windows on Armを始める",
+        "description": "開発環境のセットアップ、最初のArmネイティブアプリの構築、パフォーマンスの最適化方法を学びます。"
       },
       "prism": {
         "title": "Prismによるx86/x64エミュレーション",
-        "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。"
+        "description": "Prism変換技術により、何千もの既存アプリがArmプロセッサ上でシームレスに動作する仕組みを理解します。"
       },
       "windowsOnArm": {
-        "title": "Windows 11 — ARM向けに設計",
-        "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。"
+        "title": "Windows 11 — Arm向けに設計",
+        "description": "Copilot+ PCから開発者ツールまで、Arm搭載デバイスでの完全なWindows 11体験をご覧ください。"
       }
     },
     "gettingStarted": {
       "category": "ガイド",
-      "title": "Windows on ARMを始める",
-      "description": "開発環境のセットアップ、最初のARMネイティブアプリの構築、パフォーマンスの最適化方法を学びます。",
+      "title": "Windows on Armを始める",
+      "description": "開発環境のセットアップ、最初のArmネイティブアプリの構築、パフォーマンスの最適化方法を学びます。",
       "link": "詳細を見る"
     },
     "prism": {
       "category": "テクノロジー",
       "title": "Prismによるx86/x64エミュレーション",
-      "description": "Prism変換技術により、何千もの既存アプリがARMプロセッサ上でシームレスに動作する仕組みを理解します。",
+      "description": "Prism変換技術により、何千もの既存アプリがArmプロセッサ上でシームレスに動作する仕組みを理解します。",
       "link": "詳細を見る"
     },
     "windowsOnArm": {
       "category": "プラットフォーム",
-      "title": "Windows 11 — ARM向けに設計",
-      "description": "Copilot+ PCから開発者ツールまで、ARM搭載デバイスでの完全なWindows 11体験をご覧ください。",
+      "title": "Windows 11 — Arm向けに設計",
+      "description": "Copilot+ PCから開発者ツールまで、Arm搭載デバイスでの完全なWindows 11体験をご覧ください。",
       "link": "詳細を見る"
     }
   },
   "faq": {
     "title": "ご質問は？",
-    "subtitle": "アプリの互換性とWindows on ARMに関するよくある質問への回答をご覧ください。",
+    "subtitle": "アプリの互換性とWindows on Armに関するよくある質問への回答をご覧ください。",
     "askQuestion": "質問する",
     "contactSales": "営業に問い合わせる",
     "items": [
@@ -138,7 +139,7 @@
   "footer": {
     "newsletter": {
       "title": "最新情報を受け取る",
-      "subtitle": "Windows on ARMアプリの互換性に関する最新情報をお届けします。",
+      "subtitle": "Windows on Armアプリの互換性に関する最新情報をお届けします。",
       "placeholder": "メールアドレスを入力",
       "subscribe": "購読"
     },
@@ -147,20 +148,23 @@
         "title": "製品",
         "apps": "アプリ",
         "games": "ゲーム",
-        "publishers": "パブリッシャー"
+        "publishers": "パブリッシャー",
+        "customReport": "カスタムレポート"
       },
       "learn": {
         "title": "学ぶ",
         "gettingStarted": "はじめに",
         "prism": "Prism",
-        "windowsOnArm": "Windows on ARM",
+        "windowsOnArm": "Windows 11",
         "faq": "よくある質問"
       },
       "community": {
         "title": "コミュニティ",
         "github": "GitHub",
         "reportIssue": "問題を報告する",
-        "contribute": "貢献する"
+        "contribute": "データを提供",
+        "takedown": "コンテンツ削除",
+        "contact": "お問い合わせ"
       },
       "microsoft": {
         "title": "Microsoft",
@@ -169,7 +173,8 @@
         "terms": "利用規約"
       }
     },
-    "copyright": "© {{year}} Microsoft. All rights reserved.",
+    "disclaimer": "本サイトの情報はガイドとしてご利用いただくことを目的としていますが、アプリやゲームが必ず動作することを保証するものではありません。結果はテスト済みですが、お使いのマシンや構成によっては動作しない場合があります。結果が異なる場合は、ご自身の調査結果をサイトにご提供ください。",
+    "copyright": "© {{year}} Linaro. All rights reserved. すべての製品名、ロゴ、ブランド、商標および登録商標は、それぞれの所有者の財産です。データの正確性はLinaroによって保証されません。",
     "legal": {
       "privacy": "プライバシー",
       "terms": "利用規約",
@@ -183,6 +188,9 @@
     "yes": "はい",
     "no": "いいえ",
     "na": "—",
+    "share": "共有",
+    "copied": "コピーしました！",
+    "scroll": "詳細を見る",
     "loading": "読み込み中...",
     "error": "エラーが発生しました",
     "retry": "再試行",
@@ -195,11 +203,17 @@
     "previous": "前へ",
     "next": "次へ",
     "notFound": "見つかりません",
-    "goBack": "戻る"
+    "goBack": "戻る",
+    "typeTooltip": {
+      "nativeLabel": "ネイティブ",
+      "nativeDesc": "Arm向けに構築 — プロセッサ上で直接実行され、最高のパフォーマンスを発揮します。",
+      "emulatedLabel": "エミュレーション",
+      "emulatedDesc": "x86/x64向けに構築 — PrismによりArmデバイス上で動作するよう変換されます。"
+    }
   },
   "filters": {
     "category": "カテゴリ",
-    "developer": "開発者",
+    "developer": "パブリッシャー",
     "compatibility": "互換性",
     "type": "タイプ",
     "publisher": "パブリッシャー",
@@ -212,7 +226,7 @@
   },
   "appDetail": {
     "compatibility": "互換性",
-    "emulationType": "エミュレーションタイプ",
+    "emulationType": "タイプ",
     "publisher": "パブリッシャー",
     "category": "カテゴリ",
     "categories": "カテゴリ",
@@ -222,36 +236,46 @@
     "visitWebsite": "ウェブサイトを訪問",
     "getThisApp": "このアプリを入手",
     "notes": "メモ",
+    "compatibilityDetails": "互換性の詳細",
     "notFound": "お探しのプロジェクトが見つかりませんでした。",
     "backToApps": "アプリに戻る",
     "backToGames": "ゲームに戻る"
   },
   "learn": {
     "title": "学ぶ",
-    "subtitle": "Windows on ARM技術、開発のベストプラクティス、プラットフォーム機能について深く学びましょう。"
+    "subtitle": "Windows on Arm技術、開発のベストプラクティス、プラットフォーム機能について深く学びましょう。"
   },
   "gettingStarted": {
-    "title": "Windows on ARMを始める",
-    "subtitle": "ARM向けの開発を始めるために必要なすべて。"
+    "title": "Windows on Armを始める",
+    "subtitle": "Arm向けの開発を始めるために必要なすべて。"
   },
   "prismPage": {
     "title": "Prism変換技術",
-    "subtitle": "Windows on ARMでのx86/x64エミュレーションの仕組み。"
+    "subtitle": "Windows on Armでのx86/x64エミュレーションの仕組み。"
   },
   "windowsOnArmPage": {
-    "title": "Windows 11 on ARM",
-    "subtitle": "ARM搭載デバイスでの完全なWindows体験。"
+    "title": "Windows 11 on Arm",
+    "subtitle": "Arm搭載デバイスでの完全なWindows体験。"
   },
   "validation": {
     "microsoft": "Microsoft検証済み",
     "qualcomm": "Qualcomm検証済み",
-    "developer": "開発者検証済み",
+    "developer": "パブリッシャー検証済み",
     "community": "コミュニティ検証済み",
     "unverified": "未検証"
   },
+  "games": {
+    "subtitle": "Windows on Armでのゲーム互換性を確認。"
+  },
+  "publisherDetail": {
+    "appCount_one": "{{count}}件のアプリ",
+    "appCount_other": "{{count}}件のアプリ",
+    "gameCount_one": "{{count}}件のゲーム",
+    "gameCount_other": "{{count}}件のゲーム"
+  },
   "publishers": {
     "title": "パブリッシャー",
-    "subtitle": "Windows on ARMのアプリとゲームの全パブリッシャーを閲覧。",
+    "subtitle": "Windows on Arm上のアプリやゲームの主要パブリッシャーを閲覧。",
     "columns": {
       "name": "パブリッシャー",
       "apps": "アプリ",
@@ -274,6 +298,7 @@
     "copied": "コピーしました！",
     "clearReport": "レポートをクリア",
     "downloadPdf": "PDFをダウンロード",
+    "downloadXlsx": "Excelをダウンロード",
     "viewAll": "すべてのアイテム",
     "viewByCategory": "カテゴリ別",
     "viewByPublisher": "パブリッシャー別",
@@ -287,6 +312,140 @@
     "add": "追加",
     "actions": "操作",
     "addAllPublisherApps": "すべてのアプリを追加",
-    "remove": "削除"
+    "remove": "削除",
+    "reportSubtitle": "カスタムアプリケーションリストのArm デバイス互換性レポート。",
+    "createdOn": "作成日：{{date}}",
+    "pageOf": "{{current}} / {{total}} ページ",
+    "generatedBy": "worksonwoa.com で生成"
+  },
+  "categoryNames": {
+    "accessibility": "アクセシビリティ",
+    "ai": "AI",
+    "ai-tool": "AIツール",
+    "anti-virus": "ウイルス対策",
+    "audio": "オーディオ",
+    "benchmarking": "ベンチマーク",
+    "books": "書籍",
+    "browsers": "ブラウザ",
+    "business": "ビジネス",
+    "cad": "CAD",
+    "collaboration": "コラボレーション",
+    "creative": "クリエイティブ",
+    "data-prot": "データ保護",
+    "database": "データベース",
+    "dev-mgmt": "開発管理",
+    "dev-tools": "開発ツール",
+    "ecom": "Eコマース",
+    "education": "教育",
+    "emulators": "エミュレータ",
+    "endpoint-sec": "エンドポイントセキュリティ",
+    "engineering": "エンジニアリング",
+    "enterprise": "エンタープライズ",
+    "entertainment": "エンターテイメント",
+    "food-dining": "食事・グルメ",
+    "health": "ヘルス",
+    "healthcare": "ヘルスケア",
+    "it": "IT",
+    "it-sec-tools": "ITセキュリティツール",
+    "it-tools-vdi": "ITツール VDI",
+    "kids-family": "キッズ・ファミリー",
+    "library": "ライブラリ",
+    "lifestyle": "ライフスタイル",
+    "multimedia": "マルチメディア",
+    "music": "音楽",
+    "nav": "ナビゲーション",
+    "news": "ニュース",
+    "nw-storage": "ネットワークストレージ",
+    "oss": "OSS",
+    "personal": "パーソナル",
+    "personalfin": "個人財務",
+    "photo": "フォト",
+    "printers": "プリンター",
+    "prod": "生産性",
+    "remote-desktop": "リモートデスクトップ",
+    "security": "セキュリティ",
+    "sports": "スポーツ",
+    "sysinfo": "システム情報",
+    "travel": "旅行",
+    "utils-tools": "ユーティリティ",
+    "video": "動画",
+    "vpn": "VPN",
+    "web-social": "Webソーシャル",
+    "actionandadventure": "アクション＆アドベンチャー",
+    "cardandboard": "カード＆ボード",
+    "platformer": "プラットフォーマー",
+    "roleplaying": "ロールプレイング"
+  },
+  "contributing": {
+    "title": "コントリビューション",
+    "subtitle": "Windows on Arm互換性カタログを正確で最新の状態に保つためにご協力ください。",
+    "form": {
+      "title": "アプリリクエストを送信",
+      "description": "最も簡単な貢献方法は、アプリリクエストフォームに記入することです。新しいアプリやゲームの追加リクエスト、既存エントリの誤ったデータの報告、更新の提案にご利用ください。コーディングの経験は不要です — 詳細を入力するだけで対応いたします。",
+      "button": "アプリリクエストフォームを開く"
+    },
+    "github": {
+      "title": "GitHub Pull Requestで貢献する",
+      "step1": "GitとJSONに慣れている方は、Pull Requestを開いてプロジェクトデータに直接貢献できます。",
+      "step2": "1. <a href='https://github.com/Linaro/works-on-woa/fork' target='_blank' rel='noopener noreferrer'>github.com/Linaro/works-on-woa</a> でリポジトリをフォークします。",
+      "step3": "2. フォークをローカルにクローンし、変更を加えます。アプリとゲームのデータは単一ファイル src/data/content/projects.json にあります。各エントリはJSONオブジェクトです — 以下のスキーマと例を参照してください。",
+      "step4": "3. 変更をコミットし、フォークにプッシュして、メインリポジトリに対して<a href='https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork' target='_blank' rel='noopener noreferrer'>Pull Request</a>を作成します。",
+      "step5": "4. 送信前にローカルでサイトを実行して（npm install && npm run dev）、変更が正しくビルドされることを確認することをお勧めします。"
+    },
+    "schema": {
+      "title": "プロジェクトスキーマ",
+      "description": "すべてのアプリとゲームは <code>src/data/content/projects.json</code> に保存されています。既存のラベル/カテゴリ/パブリッシャーをJSONファイルで検索し、適切に再利用してください。スキーマバリデーターがビルド時にこれを強制し、重複やスキーマの拡張を防ぎます。各エントリは以下のフィールドを含むJSONオブジェクトです：",
+      "field": "フィールド",
+      "type": "型",
+      "descriptionCol": "説明",
+      "fields": [
+        { "field": "slug", "type": "string", "description": "プロジェクトの一意のURL安全な識別子（例：<code>visual-studio-code</code>）。" },
+        { "field": "name", "type": "string", "description": "アプリまたはゲームの表示名。" },
+        { "field": "type", "type": "\"application\" | \"game\"", "description": "このエントリがアプリケーションかゲームか。" },
+        { "field": "icon", "type": "string", "description": "<code>public/icons/</code> 内のアイコンファイル名。最大512×512。SVG推奨。" },
+        { "field": "categories", "type": "string[]", "description": "1つ以上のカテゴリスラッグ（下記のカテゴリを参照）。" },
+        { "field": "publisher", "type": "string", "description": "パブリッシャーまたは開発者の名前。" },
+        { "field": "compatibility", "type": "\"yes\" | \"no\" | \"unknown\"", "description": "<strong>yes</strong>：Windows on Armで動作。<strong>no</strong>：非互換。<strong>unknown</strong>：未検証。" },
+        { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>：Arm64向けに構築。<strong>emulation</strong>：Prism x86/x64変換で実行。<strong>unknown</strong>：未確定。<strong>na</strong>：該当なし。" },
+        { "field": "versionFrom", "type": "string", "description": "任意。Arm互換性が利用可能なバージョン。" },
+        { "field": "link", "type": "URL", "description": "任意。ソフトウェアのダウンロードまたはホームページリンク。" },
+        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "互換性ステータスを検証した主体。" },
+        { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "このエントリが最後に検証または更新された日付。" },
+        { "field": "notes", "type": "string", "description": "任意。互換性や注意事項に関する追加情報。" },
+        { "field": "shouldShowNotes", "type": "boolean", "description": "詳細ページにメモフィールドを表示するかどうか。" }
+      ]
+    },
+    "example": {
+      "title": "エントリの例",
+      "description": "以下はprojects.jsonのアプリケーションのサンプルエントリです：",
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+    },
+    "categories": {
+      "title": "カテゴリ",
+      "description": "各プロジェクトは1つ以上のカテゴリスラッグを参照する必要があります。以下の認識されたカテゴリを使用してください：",
+      "tagColumn": "スラッグ",
+      "nameColumn": "表示名",
+      "list": [
+        "accessibility", "ai", "ai-tool", "anti-virus", "audio", "benchmarking",
+        "books", "browsers", "business", "cad", "collaboration", "creative",
+        "data-prot", "database", "dev-mgmt", "dev-tools", "ecom", "education",
+        "emulators", "endpoint-sec", "engineering", "enterprise", "entertainment",
+        "food-dining", "health", "healthcare", "it", "it-sec-tools", "it-tools-vdi",
+        "kids-family", "library", "lifestyle", "multimedia", "music", "nav", "news",
+        "nw-storage", "oss", "personal", "personalfin", "photo", "printers", "prod",
+        "remote-desktop", "security", "sports", "sysinfo", "travel", "utils-tools",
+        "video", "vpn", "web-social",
+        "actionandadventure", "cardandboard", "platformer", "roleplaying"
+      ]
+    },
+    "help": {
+      "title": "ヘルプが必要ですか？",
+      "description": "問題が発生した場合や貢献に関する質問がある場合は、<a href='https://github.com/Linaro/works-on-woa/issues/new' target='_blank' rel='noopener noreferrer'>GitHub Issueを開いて</a>ください。できる限りお手伝いいたします。"
+    }
+  },
+  "takedown": {
+    "title": "コンテンツ削除リクエスト",
+    "description": "このサイトから製品やロゴを削除したい場合は、以下のメールアドレスにご連絡ください：",
+    "suffix": "適切な情報をお知らせください。"
   }
 }

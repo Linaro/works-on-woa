@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { Container } from "@/components/Common/Container";
-import { ScrollReveal } from "@/components/Common/ScrollReveal";
 import { GradientText } from "@/components/Common/GradientText";
 import { Accordion } from "@/components/Common/Accordion";
 
@@ -16,17 +15,17 @@ export function FAQSection() {
     <section className="relative">
       <Container className="py-20 md:py-section-desktop">
         {/* Title & CTA */}
-        <ScrollReveal className="text-center">
+        <div className="text-center">
           <GradientText as="h2" className="text-3xl font-semibold md:text-5xl">
             {t("faq.title")}
           </GradientText>
           <p className="mt-4 text-[var(--color-text-secondary)]">
             {t("faq.subtitle")}
           </p>
-        </ScrollReveal>
+        </div>
 
         {/* Accordions */}
-        <ScrollReveal delay={0.15} className="mx-auto mt-12 max-w-3xl">
+        <div className="mx-auto mt-12 max-w-3xl">
           <div className="flex flex-col gap-3">
             {Array.isArray(faqItems) &&
               faqItems.map((item, i) => (
@@ -42,7 +41,7 @@ export function FAQSection() {
                 </Accordion>
               ))}
           </div>
-        </ScrollReveal>
+        </div>
       </Container>
     </section>
   );

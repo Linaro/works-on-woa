@@ -68,19 +68,6 @@ export function Header() {
           to="/"
           className="flex items-center gap-2 text-[15px] font-semibold text-[var(--color-text-primary)]"
         >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <rect x="1" y="1" width="8.5" height="8.5" fill="#f25022" />
-            <rect x="10.5" y="1" width="8.5" height="8.5" fill="#7fba00" />
-            <rect x="1" y="10.5" width="8.5" height="8.5" fill="#00a4ef" />
-            <rect x="10.5" y="10.5" width="8.5" height="8.5" fill="#ffb900" />
-          </svg>
           <span>Works on WoA</span>
         </Link>
 
@@ -170,24 +157,30 @@ export function Header() {
                   transition={{ duration: 0.3 }}
                   className="absolute left-0 top-full z-50 mt-3 w-max rounded-lg border border-[var(--color-border)] bg-[var(--color-bg-tertiary)] py-1 shadow-lg"
                 >
-                <Link
-                  to="/learn/getting-started"
+                 <a
+                  href="https://learn.microsoft.com/en-us/windows/arm/overview"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.gettingStarted")}
-                </Link>
-                <Link
-                  to="/learn/prism"
+                </a>
+                <a
+                  href="https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.prism")}
-                </Link>
-                <Link
-                  to="/learn/windows-on-arm"
+                </a>
+                <a
+                  href="https://www.microsoft.com/en-us/windows/windows-11"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"
                 >
                   {t("nav.windowsOnArm")}
-                </Link>
+                </a>
                 <Link
                   to="/faq"
                   className="block px-4 py-2.5 text-sm text-[var(--color-text-secondary)] transition-colors hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--color-text-primary)]"

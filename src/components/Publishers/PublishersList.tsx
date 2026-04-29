@@ -5,6 +5,7 @@ import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
 import { TableSkeleton } from "@/components/Common/Skeleton";
 import { Button } from "@/components/Common/Button";
+import { PublisherIcon } from "@/components/Common/PublisherIcon";
 import { usePublishers } from "@/data/hooks/usePublishers";
 
 const PAGE_SIZE = 24;
@@ -14,7 +15,10 @@ export function PublishersList() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const initialSearch = searchParams.get("search") ?? "";
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(() => {
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    return isNaN(p) || p < 1 ? 1 : p;
+  });
   const [search, setSearch] = useState<string | undefined>(initialSearch || undefined);
 
   const { data, isLoading } = usePublishers(search, page, PAGE_SIZE);
@@ -23,17 +27,35 @@ export function PublishersList() {
   useEffect(() => {
     const urlSearch = searchParams.get("search") ?? "";
     setSearch(urlSearch || undefined);
-  }, [searchParams]);
+    const p = parseInt(searchParams.get("page") ?? "1", 10);
+    setPage(isNaN(p) || p < 1 ? 1 : p);
+
+    if (!searchParams.has("page")) {
+      const params = new URLSearchParams(searchParams);
+      params.set("page", "1");
+      setSearchParams(params, { replace: true });
+    }
+  }, [searchParams, setSearchParams]);
 
   const handleSearch = useCallback((q: string) => {
     setSearch(q || undefined);
     setPage(1);
     if (q) {
-      setSearchParams({ search: q });
+      setSearchParams({ search: q, page: "1" });
     } else {
-      setSearchParams({});
+      setSearchParams({ page: "1" });
     }
   }, [setSearchParams]);
+
+  const handlePageChange = useCallback(
+    (newPage: number) => {
+      setPage(newPage);
+      const params = new URLSearchParams(searchParams);
+      params.set("page", String(newPage));
+      setSearchParams(params);
+    },
+    [searchParams, setSearchParams]
+  );
 
   const totalPages = data ? Math.ceil(data.total / PAGE_SIZE) : 0;
 
@@ -81,7 +103,10 @@ export function PublishersList() {
                       }`}
                     >
                       <td className="px-4 py-3 font-medium text-[var(--color-text-primary)]">
-                        {publisher.name}
+                        <div className="flex items-center gap-3">
+                          <PublisherIcon icon={publisher.icon} name={publisher.name} size="sm" />
+                          {publisher.name}
+                        </div>
                       </td>
                       <td className="px-4 py-3 text-sm text-[var(--color-text-secondary)]">
                         {publisher.appCount}
@@ -107,7 +132,10 @@ export function PublishersList() {
                   className="flex cursor-pointer items-center justify-between rounded-[12px] border border-[var(--color-border)] bg-[var(--color-bg-surface)] p-4 transition-colors hover:bg-[var(--color-bg-surface-hover)]"
                 >
                   <p className="font-medium text-[var(--color-text-primary)]">
-                    {publisher.name}
+                    <span className="flex items-center gap-3">
+                      <PublisherIcon icon={publisher.icon} name={publisher.name} size="sm" />
+                      {publisher.name}
+                    </span>
                   </p>
                   <p className="text-sm text-[var(--color-text-tertiary)]">
                     {publisher.totalCount} {publisher.totalCount === 1 ? "title" : "titles"}
@@ -132,7 +160,7 @@ export function PublishersList() {
             variant="ghost"
             size="sm"
             disabled={page <= 1}
-            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            onClick={() => handlePageChange(Math.max(1, page - 1))}
           >
             <span>←</span> <span className="hidden md:inline">{t("common.previous")}</span>
           </Button>
@@ -152,7 +180,7 @@ export function PublishersList() {
               return (
                 <button
                   key={pageNum}
-                  onClick={() => setPage(pageNum)}
+                  onClick={() => handlePageChange(pageNum)}
                   className={`cursor-pointer flex h-8 w-8 items-center justify-center rounded-lg text-sm transition-colors ${
                     pageNum === page
                       ? "bg-[var(--color-accent-primary)] text-white"
@@ -169,7 +197,7 @@ export function PublishersList() {
             variant="ghost"
             size="sm"
             disabled={page >= totalPages}
-            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            onClick={() => handlePageChange(Math.min(totalPages, page + 1))}
           >
             <span className="hidden md:inline">{t("common.next")}</span> <span>→</span>
           </Button>

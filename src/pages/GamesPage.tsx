@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { ProjectsList } from "@/components/Projects/ProjectsList";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function GamesPage() {
   const { t } = useTranslation();
+  usePageTitle("Games");
 
   return (
     <main id="main-content">
@@ -11,7 +13,7 @@ export default function GamesPage() {
           {t("nav.games")}
         </h1>
         <p className="mt-2 text-[var(--color-text-secondary)]">
-          Browse game compatibility on Windows on ARM
+          {t("games.subtitle")}
         </p>
       </div>
       <ProjectsList type="game" />
