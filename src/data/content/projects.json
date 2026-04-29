@@ -5442,7 +5442,7 @@
     "icon": "AlteryxDesigner.png",
     "categories": [
       "prod",
-      "ai"
+      "ai-tool"
     ],
     "publisher": "",
     "compatibility": "yes",
@@ -21083,7 +21083,7 @@
     "type": "application",
     "icon": "claude.png",
     "categories": [
-      "ai-tool"
+      "ai"
     ],
     "publisher": "Anthropic",
     "compatibility": "yes",
@@ -26743,15 +26743,15 @@
     "slug": "cursor",
     "name": "Cursor",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "Cursor.png",
     "categories": [
-      "ai-tool"
+      "ai"
     ],
-    "publisher": "",
+    "publisher": "Anysphere",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "0.50.5",
-    "link": "https://www.cursor.com/cn/downloads",
+    "link": "https://www.cursor.com/en/downloads",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
   },
@@ -47589,7 +47589,7 @@
     "type": "application",
     "icon": "googlegemini.svg",
     "categories": [
-      "ai-tool"
+      "ai"
     ],
     "publisher": "Google",
     "compatibility": "yes",
@@ -67416,7 +67416,6 @@
     "validation": "microsoft",
     "lastUpdated": "2026-04-17",
     "isMicrosoftApp": true,
-    "microsoftCategory": "it-management",
     "shouldShowNotes": false
   },
   {
@@ -67655,7 +67654,6 @@
     "validation": "microsoft",
     "lastUpdated": "2026-04-17",
     "isMicrosoftApp": true,
-    "microsoftCategory": "it-management",
     "shouldShowNotes": false
   },
   {
@@ -67720,13 +67718,15 @@
       "it-tools-vdi",
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "Windows 11 22H2",
     "link": "https://learn.arm.com/install-guides/hyper-v/?utm_source=copilot.com",
     "validation": "qualcomm",
     "lastUpdated": "2026-04-17",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management",
     "compatibilityDetails": "An optional Windows feature, enabled through Windows Features, that provides a management console for creating and controlling virtual machines through Hyper‑V."
   },
   {
@@ -67738,13 +67738,15 @@
       "it-tools-vdi",
       "utils-tools"
     ],
-    "publisher": "",
+    "publisher": "Microsoft Corporation",
     "compatibility": "yes",
     "emulationType": "native",
     "versionFrom": "Windows 11 22H2",
     "link": "https://learn.arm.com/install-guides/hyper-v/?utm_source=copilot.com",
     "validation": "qualcomm",
     "lastUpdated": "2026-04-17",
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management",
     "compatibilityDetails": "The Hyper‑V Platform is an optional Windows virtualization feature—supported on Windows on Arm starting with Windows 11 22H2—that provides the core hypervisor needed to run Arm‑based virtual machines on supported Arm hardware."
   },
   {
@@ -74546,7 +74548,8 @@
     "link": "https://dotnet.microsoft.com/en-us/download",
     "validation": "microsoft",
     "lastUpdated": "2026-03-02",
-    "isMicrosoftApp": true
+    "isMicrosoftApp": true,
+    "microsoftCategory": "it-management"
   },
   {
     "slug": "netskope",
