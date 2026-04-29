@@ -16,7 +16,7 @@ export default $config({
       },
       domain:
         $app.stage === "production"
-          ? "worksonwoa.com"
+          ? { name: "worksonwoa.com", redirects: ["www.worksonwoa.com"] }
           : $app.stage === "publish"
           ? "publish.worksonwoa.com"
           : $app.stage === "dev"

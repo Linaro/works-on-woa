@@ -43,7 +43,7 @@ jobs:
             export STAGE="dev"
           fi
           if [[ "${{ github.ref_name }}" == "main" ]]; then
-            export STAGE="main"
+            export STAGE="production"
           fi
           if [[ "${{ github.ref_name }}" == "jwolff_march_2026" ]]; then
             export STAGE="publish"
