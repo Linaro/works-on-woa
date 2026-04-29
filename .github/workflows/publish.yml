@@ -2,9 +2,9 @@ name: Deploy new website
 
 on:
   push:
-    branches: ["jwolff_march_2026", "staging-new", "main-new"]
+    branches: ["jwolff_march_2026", "staging", "main"]
   workflow_dispatch:
-    branches: ["jwolff_march_2026", "staging-new", "main-new"]
+    branches: ["jwolff_march_2026", "staging", "main"]
 
 env:
   NODE_VERSION: "20.x"
@@ -39,10 +39,10 @@ jobs:
 
       - name: Deploy with SST
         run: |
-          if [[ "${{ github.ref_name }}" == "staging-new" ]]; then
+          if [[ "${{ github.ref_name }}" == "staging" ]]; then
             export STAGE="dev"
           fi
-          if [[ "${{ github.ref_name }}" == "main-new" ]]; then
+          if [[ "${{ github.ref_name }}" == "main" ]]; then
             export STAGE="main"
           fi
           if [[ "${{ github.ref_name }}" == "jwolff_march_2026" ]]; then
