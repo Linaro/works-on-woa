@@ -118,7 +118,7 @@ export function MicrosoftAppsSection() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <Button variant="secondary" onClick={() => { trackButtonClick("Home: See all Microsoft Apps"); navigate("/publishers/microsoft"); }}>
+          <Button variant="secondary" onClick={() => { trackButtonClick("Home: See all Microsoft Apps"); navigate("/publishers/microsoft-corporation"); }}>
             {t("microsoftApps.seeAll")}
           </Button>
         </div>
