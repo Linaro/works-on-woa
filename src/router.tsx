@@ -1,6 +1,7 @@
 import { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, redirect } from "react-router-dom";
 import { RootLayout } from "@/components/Layout/RootLayout";
+import i18n from "@/lib/i18n";
 
 const HomePage = lazy(() => import("@/pages/HomePage"));
 const AppsPage = lazy(() => import("@/pages/AppsPage"));
@@ -30,6 +31,20 @@ export const router = createBrowserRouter([
       { path: "custom-report", element: <CustomReportPage /> },
       { path: "contributing", element: <ContributingPage /> },
       { path: "takedown", element: <TakedownPage /> },
+      {
+        path: ":lang/*",
+        loader: ({ params }) => {
+          const supported = ["en", "ja", "ko", "zh"];
+          if (params.lang && supported.includes(params.lang)) {
+            i18n.changeLanguage(params.lang);
+            const rest = params["*"] || "";
+            return redirect(rest ? `/${rest}` : "/");
+          }
+          i18n.changeLanguage("en");
+          throw new Response("Not Found", { status: 404 });
+        },
+        errorElement: <NotFoundPage />,
+      },
       { path: "*", element: <NotFoundPage /> },
     ],
   },
