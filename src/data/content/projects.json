@@ -18660,14 +18660,15 @@
     "type": "game",
     "icon": "gaming-icon-white.svg",
     "categories": [
-      "unknown"
+      "platformer"
     ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
+    "publisher": "Maddy Makes Games",
+    "compatibility": "yes",
+    "emulationType": "unknown",
+    "validation": "community",
+    "lastUpdated": "2026-01-18",
+    "notes": "Tested on Radxa Dragon Q6A (QCS6490 SoC, Adreno 643 GPU). OS build 26200.7623.",
+    "shouldShowNotes": true
   },
   {
     "slug": "celestia",
