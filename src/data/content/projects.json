@@ -123927,7 +123927,7 @@
     "slug": "windhawk",
     "name": "Windhawk",
     "type": "application",
-    "icon": "application-icon-white.svg",
+    "icon": "Windhawk.svg",
     "categories": [
       "utils-tools"
     ],
