@@ -1790,12 +1790,13 @@
       "audio",
       "creative"
     ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
+    "publisher": "Ableton",
+    "compatibility": "yes",
+    "emulationType": "native",
     "link": "https://www.ableton.com/",
     "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-05-08",
+    "versionFrom": "12.2.5"
   },
   {
     "slug": "aboutthecowandthedragongame",
@@ -13566,7 +13567,7 @@
   },
   {
     "slug": "biopdfpdfwriter",
-    "name": "bioPDF PDF Writer",
+    "name": "BioPDF",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -15252,12 +15253,13 @@
     "categories": [
       "education"
     ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "na",
+    "publisher": "Box",
+    "compatibility": "yes",
+    "emulationType": "native",
     "link": "https://www.box.com/resources/downloads",
     "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "versionFrom": "2.36"
   },
   {
     "slug": "boxfitter",
@@ -18660,14 +18662,15 @@
     "type": "game",
     "icon": "gaming-icon-white.svg",
     "categories": [
-      "unknown"
+      "platformer"
     ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
+    "publisher": "Maddy Makes Games",
+    "compatibility": "yes",
+    "emulationType": "unknown",
+    "validation": "community",
+    "lastUpdated": "2026-01-18",
+    "notes": "Tested on Radxa Dragon Q6A (QCS6490 SoC, Adreno 643 GPU). OS build 26200.7623.",
+    "shouldShowNotes": true
   },
   {
     "slug": "celestia",
@@ -20313,12 +20316,13 @@
     "categories": [
       "creative"
     ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
+    "publisher": "Maxon",
+    "compatibility": "yes",
+    "emulationType": "emulation",
     "link": "https://www.maxon.net/en/try",
     "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-05-08",
+    "versionFrom": "2026.1.4"
   },
   {
     "slug": "ciscoanyconnecthostscan",
@@ -20680,7 +20684,8 @@
     "emulationType": "emulation",
     "link": "https://www.citrix.com/platform/citrix-workspace-app.html",
     "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "versionFrom": "2303"
   },
   {
     "slug": "city-bus-manager",
@@ -25099,7 +25104,7 @@
   },
   {
     "slug": "corelwordperfectoffice",
-    "name": "Corel WordPerfect Office ",
+    "name": "WordPerfect Office ",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -27298,22 +27303,6 @@
     "emulationType": "emulation",
     "versionFrom": "22.6",
     "link": "https://apps.microsoft.com/detail/xpdm4zr5kj9jn9",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "cyberlinkpowerdirectoressential",
-    "name": "Cyberlink PowerDirector Essential",
-    "type": "application",
-    "icon": "application-icon-white.svg",
-    "categories": [
-      "creative"
-    ],
-    "publisher": "",
-    "compatibility": "yes",
-    "emulationType": "emulation",
-    "versionFrom": "23.0.0823.0",
-    "link": "https://www.cyberlink.com/downloads/application-manager/download_en_IN.html?r=1",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
   },
@@ -49019,22 +49008,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "gxaiaichatbotgroket",
-    "name": "GX.AI-AI chatbot Groket",
-    "type": "application",
-    "icon": "GXAIAIChatbotGroket.png",
-    "categories": [
-      "prod"
-    ],
-    "publisher": "GAI.GROUP",
-    "compatibility": "yes",
-    "emulationType": "emulation",
-    "versionFrom": "1.0.11.0",
-    "link": "https://apps.microsoft.com/detail/9P60LHX9W0CV",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
-  },
-  {
     "slug": "gxaipoweredbygrokchatbot",
     "name": "GX.AI - Powered by [Grok] Chatbot",
     "type": "application",
@@ -54402,7 +54375,7 @@
     "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
-    "versionFrom": "10.4.8",
+    "versionFrom": "10.9",
     "link": "https://imanage.com/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
@@ -114645,7 +114618,7 @@
   },
   {
     "slug": "trendmicroapex",
-    "name": "Trend Micro Apex",
+    "name": "Trend Micro Apex One Security Agent",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -115674,7 +115647,7 @@
   },
   {
     "slug": "twinkletraybrightnessslider",
-    "name": "Twinkle Tray: Brightness Slider",
+    "name": "Twinkle Tray",
     "type": "application",
     "icon": "TwinkleTrayBrightnessSlider.png",
     "categories": [
@@ -120708,8 +120681,8 @@
     ],
     "publisher": "",
     "compatibility": "yes",
-    "emulationType": "emulation",
-    "link": "https://customerconnect.omnissa.com/downloads/details?downloadGroup=CART25FQ2_WIN_2406&productId=1027&rPId=118762",
+    "emulationType": "navitve",
+    "link": "https://www.vmware.com/products/horizon",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
   },
@@ -120740,10 +120713,10 @@
     "publisher": "",
     "compatibility": "yes",
     "emulationType": "native",
-    "versionFrom": "2111",
+    "versionFrom": "23.1",
     "link": "https://support.broadcom.com/",
     "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-05-08"
   },
   {
     "slug": "vmwareworkspaceoneuem",
@@ -122372,21 +122345,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "watchguard",
-    "name": "WatchGuard",
-    "type": "application",
-    "icon": "application-icon-white.svg",
-    "categories": [
-      "endpoint-sec"
-    ],
-    "publisher": "",
-    "compatibility": "yes",
-    "emulationType": "native",
-    "link": "https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Endpoint-Security/installation/download-client-agent-installer.html",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
-  },
-  {
     "slug": "watchone",
     "name": "Watch one",
     "type": "application",
@@ -123922,6 +123880,22 @@
     "link": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
+  },
+  {
+    "slug": "windhawk",
+    "name": "Windhawk",
+    "type": "application",
+    "icon": "Windhawk.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "Ramen Software",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.7.3",
+    "link": "https://windhawk.net",
+    "validation": "community",
+    "lastUpdated": "2026-05-10"
   },
   {
     "slug": "windirstat",
@@ -130195,5 +130169,6733 @@
     "link": "https://zxtune.bitbucket.io/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
+  },
+  {
+    "slug": "steam",
+    "name": "Steam",
+    "type": "application",
+    "icon": "steam.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "Valve Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "link": "https://store.steampowered.com/about/download",
+    "validation": "community",
+    "lastUpdated": "2026-05-11",
+    "isMicrosoftApp": false,
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "markdownvieweruwp",
+    "name": "Markdown Viewer UWP",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N6P2L5D1JB4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sketchtouch",
+    "name": "Sketch Touch",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.15.20.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDCN5L",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "yesserrng",
+    "name": "Yesser RNG",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9P7FB516X1FT",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sleekshotscreenshotandscreensnippingtool",
+    "name": "Sleekshot – Screenshot & Screen Snipping Tool",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0.45.0",
+    "link": "https://apps.microsoft.com/detail/9P5LKRJ5S2ZK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "alexandria",
+    "name": "Alexandria",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "books"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.13.1",
+    "link": "https://github.com/btpf/Alexandria/releases",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "start11",
+    "name": "Start 11",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personal"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.2",
+    "link": "https://www.stardock.com/products/start11/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "flowboardfirecubesedition",
+    "name": "FlowBoard - FireCube's Edition",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.2.12.0",
+    "link": "https://apps.microsoft.com/detail/9PB20HCH5XN2",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "querybox",
+    "name": "QueryBox",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "database"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.4.0",
+    "link": "https://github.com/cristian0barros/querybox/releases/tag/v0.4.0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "changecaseforcommandpalette",
+    "name": "Change Case for Command Palette",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.4.0.0",
+    "link": "https://apps.microsoft.com/detail/9PK6S30QBKVK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "unitconverterforcommandpalette",
+    "name": "Unit Converter for Command Palette",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.4.1.0",
+    "link": "https://apps.microsoft.com/detail/9N46RM40VR8D",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ecpcmdpalextension",
+    "name": "ECP:cmdpal Extension",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.5.25082.0",
+    "link": "https://apps.microsoft.com/detail/9N2DRHJ970D9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "komodo",
+    "name": "Komodo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.8.2",
+    "link": "https://komodoplatform.com/en/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "beeskie",
+    "name": "Beeskie",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.9.0.0",
+    "link": "https://apps.microsoft.com/detail/9PCGNR7QHQGP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "acroedit",
+    "name": "AcroEdit",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.9.31.168",
+    "link": "http://www.acrosoft.pe.kr/acroedit/?form=MG0AV3&ckattempt=1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "bambustudio",
+    "name": "Bambu Studio",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "02.04.00.70",
+    "link": "https://bambustudio.org/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mixmeisterbpmanalyzer",
+    "name": "MixMeister BPM Analyzer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1",
+    "link": "https://www.mixmeister.com/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "countdowntimer",
+    "name": "Countdown-Timer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDX1G9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fastping",
+    "name": "Fastping",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9n6p5gphjczl",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "notebookednotestodoandjournal",
+    "name": "Notebooked - Notes, To-do & Journal",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9N8SCPLZQSFZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfconverterconvertpdf",
+    "name": "PDF Converter: Convert PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9N5HB1PPVFQS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "quicksynclocalfiletransfer",
+    "name": "Quick Sync - Local File Transfer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9PJZH0TWS94P",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "todotaskdailytasks",
+    "name": "To Do Task - Daily Tasks",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9P48RHNKRK71",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tradingsimulator",
+    "name": "Trading Simulator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9MVZQ0Q6BDPS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "5secondbattle",
+    "name": "5 Second Battle",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P902L56L7WC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aivoicegeneratorfree",
+    "name": "ai voice generator free",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NT4FMGRR4G4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "alphabetpaint",
+    "name": "Alphabet Paint",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NSX1GHQRK84",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "beautygirlmakeupgameslauncher",
+    "name": "Beauty Girl Makeup Games Launcher",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NHCKWP6HN90",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "biodatamaker",
+    "name": "Bio Data Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NWM7K1H9VT4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "biodatamaker2",
+    "name": "Biodata Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NPK0DJMXZ0T",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "biodatamakerforjob",
+    "name": "Biodata Maker For Job",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N6N75VMR7LL",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "bjornsphotoslides",
+    "name": "Bjorn's Photo Slides",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N194KQ4JR0H",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "charades",
+    "name": "Charades",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NKPXHC2XDSH",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "clockforgamebar",
+    "name": "Clock for Game Bar",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PC29TG1047H",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "collegeplanner",
+    "name": "College_Planner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NG2PBXK93C4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "combinepdffile",
+    "name": "Combine PDF File",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P2TLV86Z3QF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "compresspdffile",
+    "name": "Compress PDF File",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PGZ7FJH9W6G",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "coverlettergenerator",
+    "name": "Cover Letter Generator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N2LJS38C9S7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dailymoodtracker",
+    "name": "Daily Mood Tracker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PPNKC18G91P",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "docxvieweruwp",
+    "name": "DOCX Viewer UWP",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P78GZ4NM9Q7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "freeaudiojoiner",
+    "name": "Free Audio Joiner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NVW23XVRLGV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "heictojpgmaker",
+    "name": "HEIC To JPG Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PBGTQ563RDM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hindueshop",
+    "name": "Hindu eShop",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "books"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NL8DV9GM3QQ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "imagetopdfmaker",
+    "name": "Image To PDF Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N675F0Q5TG2",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "internetspeedtestmeter",
+    "name": "Internet Speed Test Meter",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NBQJW02PRMX",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "jellyfishchrysaora",
+    "name": "Jellyfish Chrysaora",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "healthcare"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P0Q3D0QBW7T",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "jobseduportalbd",
+    "name": "Jobs - EduportalBD",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NXMR2TFC3WZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "justtime",
+    "name": "Just Time",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N9CZNXMD27H",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lovechat",
+    "name": "Love chat.",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N4984SVHDMQ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lovetesterproplus",
+    "name": "Love Tester Pro+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N7XXZCNKWCW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "luxa",
+    "name": "Luxa",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N5F93QSH8B7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mangacourier",
+    "name": "Manga Courier",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PP0GL7H3HG8",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "memegeneratorproplus",
+    "name": "Meme Generator Pro+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P6HCMQ71W56",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mergepdffile",
+    "name": "Merge PDF File",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NDM2VG48C0C",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mithril",
+    "name": "Mithril",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NFHGFDMR1SX",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "monitorsizecalculator",
+    "name": "Monitor Size Calculator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N0HGCV8VB9S",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "moodymoodtracker",
+    "name": "Moody Mood Tracker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NJTTGV334M9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mortgagecalculatorproplus",
+    "name": "Mortgage Calculator Pro+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NZ3B0WFQN8D",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "noisemeterpro",
+    "name": "Noise Meter Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NQB0RXVRV2R",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfconverterproplus",
+    "name": "PDF Converter Pro+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PGBQRPMGSPQ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pictopdf",
+    "name": "Pic To PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NFGTL5V23TS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "picturetopdfmaker",
+    "name": "Picture To PDF Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NCKVN31K5VP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "resumebuilderproplus",
+    "name": "Resume Builder Pro+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PGX2HRV4MVV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sensorygoo",
+    "name": "Sensory Goo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N5K0ZJ1NDPV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "soundmeterpro",
+    "name": "Sound Meter Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NTM0X0NWLFW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "swaproulette",
+    "name": "Swap Roulette",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NDHH7MVCPLD",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "switchbounce",
+    "name": "Switch Bounce",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N9S2PXB9KXC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "switchdodger",
+    "name": "Switch Dodger",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PL6KDMD1V8X",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tcgcardmaker",
+    "name": "TCG Card Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NFJTPK74Z0R",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "texttovoicegenerator",
+    "name": "Text To Voice Generator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NGNTJ2WV168",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tierlistpro",
+    "name": "Tier List Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PHXGH4HCVXM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "todolistbycstrsk",
+    "name": "To-Do List by CSTRSK",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9P2LMNJLLG30",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videotoaudiomaker",
+    "name": "Video To Audio Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N5RSDMB9DGB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "widevideo",
+    "name": "wide.video",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PFH4CH1TTCF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "wifispeedtestpro",
+    "name": "Wifi Speed Test Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9MZ5M7VGXSV1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "wizarlabs",
+    "name": "wizarlabs",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N2N4JC507P7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dvdmediaplayerandmovievideoplayerforalldvdformats",
+    "name": "DVD Media Player & Movie Video Player for All DVD Formats",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.10.0",
+    "link": "https://apps.microsoft.com/detail/9NDMLN02VQQ3",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "snatchclipboardmanager",
+    "name": "Snatch - Clipboard manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.10.0",
+    "link": "https://apps.microsoft.com/detail/9P53HFV0H21X",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "walkiecloud",
+    "name": "Walkie Cloud",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.10.0",
+    "link": "https://apps.microsoft.com/detail/9P37TTX4GWT5",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aiimagegeneratoraiartgenerator",
+    "name": "AI Image Generator - AI Art Generator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.11.0",
+    "link": "https://apps.microsoft.com/detail/9NSDNC2FR0FR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aismartcut",
+    "name": "AI SmartCut",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.11.0",
+    "link": "https://apps.microsoft.com/detail/9NMTTHHL6QS4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "logomakergraphicsdesigncreator",
+    "name": "Logo Maker - Graphics Design Creator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.12.0",
+    "link": "https://apps.microsoft.com/detail/9MZS8696F5W7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mylotto49generator",
+    "name": "My Lotto 49 Generator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.14.0",
+    "link": "https://apps.microsoft.com/detail/9NF5WQ557RJZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ambiambientsounds",
+    "name": "Ambi - Ambient Sounds",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "health"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.140.0",
+    "link": "https://apps.microsoft.com/detail/9NM9PB62VPS5",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videoconverter2",
+    "name": "Video Converter‘",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.15.0",
+    "link": "https://apps.microsoft.com/detail/9n63dnd1jhv0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "taskbarplus",
+    "name": "Taskbar+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.16.0",
+    "link": "https://apps.microsoft.com/detail/9P2N75KZFBPB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ahnlabinternetsecurity",
+    "name": "AhnLab Internet Security",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.19.10",
+    "link": "https://www.ahnlab.com/ko/product/v3-endpoint-security",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "asciiartfree",
+    "name": "ASCII Art - Free",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NM5S56493VM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "compresspdfpdfcompressor",
+    "name": "Compress PDF - PDF Compressor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NZ2GS63XWBB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "coolsymbols",
+    "name": "Cool Symbols",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NFR8QG18NVS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mdcai",
+    "name": "MDC AI",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NW24N9W33C9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nteamgenerator",
+    "name": "nTeam Generator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH408BK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "retirementinvestmentplanner",
+    "name": "Retirement Investment Planner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9N7Z1W92Q5GC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "socialsecurityoptimizer",
+    "name": "Social Security Optimizer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9PGKCM8GXT6V",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "switchpong",
+    "name": "Switch Pong",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9N6VN9NW90DD",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "yatzyscorecard",
+    "name": "Yatzy Scorecard",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.2.0",
+    "link": "https://apps.microsoft.com/detail/9NM7F3V0HJND",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pomotime",
+    "name": "PomoTime",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.22.0",
+    "link": "https://apps.microsoft.com/detail/9N9X65HF0B5D",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "youplayforyoutube",
+    "name": "YouPlay for YouTube",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.22.0",
+    "link": "https://apps.microsoft.com/detail/9PFFD1WHKJ31",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "byebyedistractionappblocker",
+    "name": "ByeByeDistraction : App Blocker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.24.0",
+    "link": "https://apps.microsoft.com/detail/9MSZ5W3G02GB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cvwizardonlinecvmaker",
+    "name": "CVwizard: Online CV Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.3.0",
+    "link": "https://apps.microsoft.com/detail/9N5KHPQT8HBJ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "neverhaveiever",
+    "name": "Never Have I Ever­",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.3.0",
+    "link": "https://apps.microsoft.com/detail/9P64082Z0GFD",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "socialsecuritycalculator",
+    "name": "Social Security Calculator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.3.0",
+    "link": "https://apps.microsoft.com/detail/9NJT1LTKJKRC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "wouldyourather",
+    "name": "Would You Rather",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.3.0",
+    "link": "https://apps.microsoft.com/detail/9PFR6P2WFKPL",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "poslabtest",
+    "name": "Pos Lab Test",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.30.0",
+    "link": "https://apps.microsoft.com/detail/9P3X83Z68DHM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "installerbatchuninstallstartupandappmanager",
+    "name": "Installer – Batch Uninstall, Startup & App Manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.37.0",
+    "link": "https://apps.microsoft.com/detail/9PCM6QW3034Z",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "texttospeech",
+    "name": "Text to Speech",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.39.0",
+    "link": "https://apps.microsoft.com/detail/9PMV6WXSDHJP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "kidsbraincrushertimestable",
+    "name": "Kid`s Brain Crusher - Times Table",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9NMBQ1XZ5NT1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "loanplanner",
+    "name": "Loan Planner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9N8RD49L282T",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "neversleep",
+    "name": "Never Sleep",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9NPWDQZRG923",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "richbox",
+    "name": "Rich box",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9N5TQ90W2GBD",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "falconbricks",
+    "name": "Falconbricks",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.5.0",
+    "link": "https://apps.microsoft.com/detail/9PH7RQP5XH3W",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "incomeandtaxplanner",
+    "name": "Income and Tax Planner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.5.0",
+    "link": "https://apps.microsoft.com/detail/9MXFQJF51K64",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "chatbot4oofficialchatai",
+    "name": "Chatbot 4o - Official Chat AI",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.6.0",
+    "link": "https://apps.microsoft.com/detail/9P5DDWP14CB7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mypay",
+    "name": "My Pay",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.6.0",
+    "link": "https://apps.microsoft.com/detail/9NGV81VDGB85",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lightmvphotovideomakerwithmusic",
+    "name": "LightMV-Photo Video Maker with Music",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.7",
+    "link": "https://apps.microsoft.com/detail/XP8K08FV1SLT0N",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "soundreaver",
+    "name": "Sound Reaver",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.7.0",
+    "link": "https://apps.microsoft.com/detail/9PC9XXBC2WB9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nurseryrhymes",
+    "name": "Nursery Rhymes",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.8.0",
+    "link": "https://apps.microsoft.com/detail/9NM67F3TF34W",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "bondcdtreasuryplanner",
+    "name": "Bond-CD-Treasury Planner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.01.0",
+    "link": "https://apps.microsoft.com/detail/9NHB9MX830DW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dramacountdown",
+    "name": "Drama Countdown",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.01.0",
+    "link": "https://apps.microsoft.com/detail/9PBDRVXWM800",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mangakademo",
+    "name": "MangaKa - Demo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "multimedia"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.01.0",
+    "link": "https://apps.microsoft.com/detail/9NQT19HWNCDR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "notebookstyle",
+    "name": "Notebook Style",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.01.0",
+    "link": "https://apps.microsoft.com/detail/9P3PNW1CZJHM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "samsaraapplication",
+    "name": "Samsara Application",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.01.0",
+    "link": "https://apps.microsoft.com/detail/9NKR9LQ4FWQW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aiposegenerator3dposerforartpainting",
+    "name": "AI Pose Generator: 3D Poser for Art Painting",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0",
+    "link": "https://apps.microsoft.com/detail/9P5LJFJZM96C",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "animebookshelf",
+    "name": "Anime Book Shelf",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "books"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9PC6P2H8PJK7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "audioeditingtoolmusicmakersoftware",
+    "name": "Audio Editing Tool - Music Maker Software",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9PNVJQCBHZWJ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cutaudiofiles",
+    "name": "Cut Audio Files",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9P6S80C2N953",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "djstationgroovepadremixerandbeatmaker",
+    "name": "DJ Station: Groove Pad Remixer & Beat Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9NCT0GH4HSFZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "doctopdfconvertdocxtopdf",
+    "name": "Doc to PDF: Convert .docx to PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9N8GFB995NJL",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "houseplanningsketchesapartmentfloorplanner",
+    "name": "House Planning Sketches - Apartment Floorplanner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9P8N1G515J1Q",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "jpgtopdfconvertjpegtopdf",
+    "name": "JPG to PDF: Convert JPEG to PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9PCZX08QG4P9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "markdownview",
+    "name": "Markdown View",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9PJ021LR0M3G",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mergevideosfree",
+    "name": "Merge Videos - Free",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9P7N5S862CCH",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdftojpgconvertpdftojpg",
+    "name": "PDF to JPG: Convert PDF to JPG",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9P25D77695C0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pngtopdfconvertpngtopdf",
+    "name": "PNG to PDF: Convert PNG to PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9NPP4RHWVV66",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "succubuswingsphotojoke",
+    "name": "Succubus Wings Photo Joke",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9PCH7B3N7LLG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "universalunzip",
+    "name": "Universal Unzip",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH4VSWG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "vectoreditor",
+    "name": "Vector Editor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.0",
+    "link": "https://www.microsoft.com/store/productId/9PDQ6HF7R3JC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "leostarhoroscope",
+    "name": "Leo Star Horoscope",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.0.4",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDM7VG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "easycurrencycalculator",
+    "name": "Easy Currency Calculator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.1.0",
+    "link": "https://apps.microsoft.com/detail/9NWQ0X3JL2RH",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sensorycamloco",
+    "name": "Sensory Camloco",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.1.0",
+    "link": "https://apps.microsoft.com/detail/9NQT4ZJVJDDC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sparkfest",
+    "name": "SparkFest",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.1.0",
+    "link": "https://apps.microsoft.com/detail/9N27TPCL3T36",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aviraantiviruspro",
+    "name": "Avira Antivirus Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.112.2751",
+    "link": "https://www.avira.com/en/antivirus-pro",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "formatgenius",
+    "name": "Format Genius",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.15.0",
+    "link": "https://apps.microsoft.com/detail/9P0ZF7H76R6S",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "currencyexchangecalculator",
+    "name": "Currency Exchange calculator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.19.0",
+    "link": "https://apps.microsoft.com/detail/9NMSNWV7PNNP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "abstractknots",
+    "name": "Abstract Knots",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9N1112QGQQW3",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "funpainting",
+    "name": "FunPainting",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NDDK64RP8QT",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mandalapatterns",
+    "name": "Mandala Patterns",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "multimedia"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NNJK8H61K68",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sensoryabstract5",
+    "name": "Sensory Abstract 5",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NXL484CKZBP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sensoryplazma",
+    "name": "Sensory Plazma",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NF4DP8H3VGQ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sensoryrorschab",
+    "name": "Sensory Rorschab",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NLS797GV2H1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videocolorgrading",
+    "name": "Video Color Grading",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.3.0",
+    "link": "https://apps.microsoft.com/detail/9NXGZXJ2MT1F",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videoconverterfree",
+    "name": "Video Converter - Free!",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.4.0",
+    "link": "https://apps.microsoft.com/detail/9NWS2RHKRZQR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "simplealarm",
+    "name": "SIMPLE ALARM",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.5.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH5FF1F",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "programmingsmallbasic",
+    "name": "Programming Small Basic",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.6.0",
+    "link": "https://apps.microsoft.com/detail/9PPJCBMZ3SDP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "shoppingcart",
+    "name": "ShoppingCart",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.6.0",
+    "link": "https://apps.microsoft.com/detail/9N5Z312CPBCR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "bytestreamtorrent",
+    "name": "ByteStream Torrent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.7.0",
+    "link": "https://apps.microsoft.com/detail/9PJT9PBVG7K8",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "navigator",
+    "name": "Navigator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.7.2",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH3666J",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tripsmarttv",
+    "name": "TripSmart.tv",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "travel"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.1.9.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDFNV3",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "viscosityvpn",
+    "name": "Viscosity VPN",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.10.5",
+    "link": "https://www.sparklabs.com/viscosity",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "almerator",
+    "name": "ALMerator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.11",
+    "link": "https://altools.co.kr/service/FAQ?no=258",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ahnlabsafetransaction",
+    "name": "AhnLab Safe Transaction",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it-sec-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.13.0.1907",
+    "link": "https://ask.ahnlab.com/hc/ko/articles/39494447763097--ASTx-AhnLab-Safe-Transaction-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cryptolive",
+    "name": "CryptoLive",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.14.0",
+    "link": "https://apps.microsoft.com/detail/9MSZ40SLW145",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aescryptor",
+    "name": "AEScryptor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.17",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDFW0F",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ezqrcode",
+    "name": "EZ QR Code",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.0",
+    "link": "https://apps.microsoft.com/detail/9NVQ2SQ4NS3K",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "easytimemanageraddictivetimetrackerandmanager",
+    "name": "EasyTimeManager - Addictive Time Tracker and Manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.2.0.0",
+    "link": "https://apps.microsoft.com/detail/9NVNH6QNH8WR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "funtypingpractice",
+    "name": "Fun Typing Practice",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9NRGDGTXX4CG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lunarinc",
+    "name": "Lunar, Inc",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9NTG64024B5X",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "manus",
+    "name": "Manus",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9PHV7M7V4S5L",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videodervideodownloaderandmp3musicconverter",
+    "name": "Videoder - Video Downloader & MP3 Music Converter",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9P4846M57VFH",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "amphetamine",
+    "name": "Amphetamine",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.20",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH4WHSP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "selfrapmusicproductionstudio",
+    "name": "Self Rap: Music production studio",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.2.3.0",
+    "link": "https://apps.microsoft.com/detail/9PFM3P9T20N2",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "markerpad",
+    "name": "Markerpad",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.4.0",
+    "link": "https://apps.microsoft.com/detail/9NH0WPDRK28T",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "soncalitetheonesmartplayer",
+    "name": "Sonca Lite - the one smart player",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.80.0",
+    "link": "https://apps.microsoft.com/detail/9NQD0CSL861R",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "familywall",
+    "name": "FamilyWall",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2.9.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH5KPQF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tidytabs",
+    "name": "TidyTabs",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.22.2",
+    "link": "https://apps.microsoft.com/detail/XPDLJXH603QVT8",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nortonsecurityonline",
+    "name": "Norton Security Online",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.22.248.0",
+    "link": "https://in.norton.com/products/norton-360-premium",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ezcards",
+    "name": "EZ Cards",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.3.0",
+    "link": "https://apps.microsoft.com/detail/9PD0NCHTGQFN",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "emailinboxes",
+    "name": "Email Inboxes",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.3.0.0",
+    "link": "https://apps.microsoft.com/detail/9MX57PFKF3GC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "rapidplay",
+    "name": "RapidPlay",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.3.0.0",
+    "link": "https://apps.microsoft.com/detail/9PM4MD521959",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "videoplayerfullhdvideoplayerfordesktop",
+    "name": "Video Player-Full HD Video Player for Desktop",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.0.0",
+    "link": "https://www.microsoft.com/store/productId/9N0DXV1TWHL2",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "photoeraserbackgroundremoverandretouching",
+    "name": "Photo Eraser - Background Remover & Retouching",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.1.0",
+    "link": "https://apps.microsoft.com/detail/9PJ24F8QC5LK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "voicechangerapp",
+    "name": "Voice Changer App",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.3.1.0",
+    "link": "https://apps.microsoft.com/detail/9PP0HM8FD8C0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "melonplayer",
+    "name": "Melon Player",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.3",
+    "link": "https://www.melon.com/customer/serviceintro/index.htm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cvtemplatespaperwritingforjobsearch",
+    "name": "CV Templates - Paper Writing For Job Search",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.3.0",
+    "link": "https://apps.microsoft.com/detail/9MXGM22XWVQZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfx",
+    "name": "PDF X",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.59.0",
+    "link": "https://apps.microsoft.com/detail/9P3CP9G025RM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "blocorganizeemailsocialandwebapps",
+    "name": "Bloc - Organize Email, Social & Web Apps",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.4.0.0",
+    "link": "https://apps.microsoft.com/detail/9N79VRWFL807",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "multimessenger",
+    "name": "MultiMessenger",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.4.0.0",
+    "link": "https://apps.microsoft.com/detail/9PCDP529JZNF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "noteastic",
+    "name": "Noteastic",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.4.5.0",
+    "link": "https://apps.microsoft.com/detail/9PP6QXXZS9D1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "simpleimageviewer",
+    "name": "Simple Image viewer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.4.6.0",
+    "link": "https://apps.microsoft.com/detail/9NNZPQD4WJCK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "trdo",
+    "name": "Trdo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.5.0.0",
+    "link": "https://apps.microsoft.com/detail/9NXT4TGJVHVV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "smartmicrophone",
+    "name": "Smart Microphone",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.1.0",
+    "link": "https://apps.microsoft.com/detail/9MSZH7K8J3Z7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "timemanagement",
+    "name": "Time Management",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.1.0",
+    "link": "https://apps.microsoft.com/detail/9PC085VDNZNT",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "completecanineanatomy3d",
+    "name": "Complete Canine Anatomy 3D",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "healthcare"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.2.0",
+    "link": "https://apps.microsoft.com/detail/9MV2CZKX70WB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "voicemod",
+    "name": "Voicemod",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.6",
+    "link": "https://www.voicemod.net/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "moiseslive",
+    "name": "Moises Live",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.7",
+    "link": "https://apps.microsoft.com/detail/XPDF75XHHZTNHW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "designreceipt",
+    "name": "DesignReceipt",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.7.0.0",
+    "link": "https://apps.microsoft.com/detail/9NL617W7GTDT",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "jandi",
+    "name": "JANDI",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "collaboration"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.7.7",
+    "link": "https://www.jandi.com/landing/en/download",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "zoneplayer",
+    "name": "ZonePlayer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.8",
+    "link": "https://zoneplayer.imgtech.co.kr/products/index#pc",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "searchmanagerlight",
+    "name": "Search Manager Light",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.8.0.0",
+    "link": "https://apps.microsoft.com/detail/9P44BMCWB07D",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "logitechoptionsplus",
+    "name": "Logitech Options+",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.86.675082",
+    "link": "https://www.logitech.com/en-in/software/logi-options-plus.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "simpleqrcodemaker",
+    "name": "Simple QR Code Maker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.9.2.0",
+    "link": "https://apps.microsoft.com/detail/9NCH56G3RQFC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "esetendpointantivirus",
+    "name": "ESET Endpoint Antivirus",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "10",
+    "link": "https://www.eset.com/business/downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sapbusinessoneversion10",
+    "name": "SAP Business One Version 10",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.0 FP2308",
+    "link": "https://help.sap.com/docs/SAP_BUSINESS_ONE/68a2e87fb29941b5bf959a184d9c6727/44c4c1cd7ca22e17e10000000a114a6b.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aosterminator10plusbiosuefiversion",
+    "name": "AOS Terminator 10 Plus BiOS/UEFI version",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.0.0.1",
+    "link": "https://www.amazon.co.jp/-/en/Terminator-plus-Data-Complete-Match/dp/B07C2491TV?th=1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "macriumreflectx",
+    "name": "Macrium Reflect X",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.0.8843",
+    "link": "https://www.macrium.com/reflect-x",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ivantiworkspacemanagerappcontrol",
+    "name": "Ivanti Workspace Manager App Control",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "10.18",
+    "link": "https://www.ivanti.com/products/workspace-control",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "collegeanalysis",
+    "name": "College Analysis",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.3",
+    "link": "https://sites.google.com/view/fukuimasayasu",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "stockdesktopwidget",
+    "name": "Stock Desktop Widget",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "10.3.44.0",
+    "link": "https://apps.microsoft.com/detail/9N4S3L6L8KZC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "vitalsourcebookshelf",
+    "name": "VitalSource Bookshelf",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.4.28.0",
+    "link": "https://apps.microsoft.com/detail/9n3blc6d9v3s",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "trellixens",
+    "name": "Trellix ENS",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "10.7.0",
+    "link": "https://www.trellix.com/products/endpoint-security",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "trellixdlp",
+    "name": "Trellix DLP",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.1",
+    "link": "https://www.trellix.com/products/data-loss-prevention",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "windowscalculator",
+    "name": "Windows Calculator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.2307.4.0",
+    "link": "https://apps.microsoft.com/detail/9wzdncrfhvn5",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08",
+    "isMicrosoftApp": true
+  },
+  {
+    "slug": "commvaultbackupandrecovery",
+    "name": "Commvault backup and recovery",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "11.28",
+    "link": "https://www.commvault.com/downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "watchguardmobilevpn",
+    "name": "WatchGuard Mobile VPN",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "12.1",
+    "link": "https://www.watchguard.com/support",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "forte",
+    "name": "Forte",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "12.1.0.0",
+    "link": "https://www.fortenotation.com/en/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "foxitphantompdf",
+    "name": "Foxit PhantomPDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "12.1.4.15400",
+    "link": "https://apps.microsoft.com/detail/xpdnzd76fp5jr7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "riverbedaternityunifiedagent",
+    "name": "Riverbed Aternity Unified Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "12.5",
+    "link": "https://help.aternity.com/bundle/console_admin_guide_x_console_saas/page/console/topics/agent_ig_download_unified.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "watchguardendpointsecurity",
+    "name": "WatchGuard​ Endpoint Security",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "12.5",
+    "link": "https://support.zoom.us",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hancomofficeviewer",
+    "name": "Hancom Office Viewer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "oss",
+      "library",
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "13.0.0.226",
+    "link": "https://www.hancom.com/product/office/officeViewer",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskcivil3d",
+    "name": "AutoDesk Civil 3D",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "13.6.342.0",
+    "link": "https://www.autodesk.in/products/civil-3d/trial-intake",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nortonsecurebrowser",
+    "name": "Norton Secure Browser",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "browsers"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "131.0.27894.265",
+    "link": "https://us.norton.com/products/norton-private-browser?form=MG0AV3",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "symantecendpointsecurityagent",
+    "name": "Symantec Endpoint Security Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "14.3 RU6",
+    "link": "https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/endpoint-security/sescloud/about-esa-sep/esa-sep16-system-requirements.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "openttd2",
+    "name": "OpenTTD",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "15",
+    "link": "https://www.openttd.org/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sapme",
+    "name": "SAP ME",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "15.5",
+    "link": "https://support.sap.com/en/my-support/software-downloads.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pomtimer",
+    "name": "PomTimer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "16.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9PDJWLPK5BB0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskvreddesign",
+    "name": "AutoDesk VRED Design",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "16.0.0.11988",
+    "link": "https://manage.autodesk.com/products",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "systemtest",
+    "name": "System Test",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "17.1.3.671",
+    "link": "https://www.aja.com/products/aja-system-test",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "esethomesecurityessential",
+    "name": "ESET Home Security Essential",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "17.2.8.0",
+    "link": "https://www.eset.com/in/home/free-trial/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "soundforgepro",
+    "name": "SoundForge Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "18.0.0.21",
+    "link": "https://www.magix.com/us/music-editing/sound-forge/sound-forge-pro/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "jobkanaccounting",
+    "name": "Jobkan Accounting",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "18.13.1",
+    "link": "https://www.jobcan.biz/trialdl/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fsecureantivirus",
+    "name": "F-Secure Antivirus",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "19",
+    "link": "https://www.f-secure.com/en/business/downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "azurevpnclient",
+    "name": "Azure VPN Client",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0",
+    "link": "https://apps.microsoft.com/store/detail/azure-vpn-client/9NP355QT2SQB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lexel",
+    "name": "LexeL",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9NJ0LGWFFG55",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "movieworld",
+    "name": "Movie World",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDR3QS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdftoimage",
+    "name": "PDFtoImage",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9NKMFPQKXGR8",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdftozpl",
+    "name": "PDFtoZPL",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9P5XMPR5MFDF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "soundcloudplaymusicpodcastsandnewsongs",
+    "name": "SoundCloud - Play Music, Podcasts & New Songs",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9NVJBT29B36L",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "photag",
+    "name": "Photag",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH4R826",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "utilitykit",
+    "name": "Utility kit",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH43H8X",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "winfsp",
+    "name": "WinFsp",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.23075",
+    "link": "https://winfsp.dev/rel/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfconverter",
+    "name": "PDF Converter",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.9",
+    "link": "https://apps.microsoft.com/detail/9NCJQQZC021H",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "webboard",
+    "name": "webboard",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.1.1.0",
+    "link": "https://apps.microsoft.com/detail/9P53Q9BF3MV6",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sparrow",
+    "name": "Sparrow",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.1.2",
+    "link": "https://sparrowwallet.com/download/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftpurviewinformationprotectionclient",
+    "name": "Microsoft Purview Information Protection Client",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.14",
+    "link": "https://learn.microsoft.com/en-us/purview/information-protection-client",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "freescan",
+    "name": "FreeScan",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.18 beta-6",
+    "link": "https://github.com/mfcallahan/FreeSCAN/releases",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "vehiclescreensavers",
+    "name": "Vehicle Screen Savers",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.2",
+    "link": "https://apps.microsoft.com/detail/9PNNL64P97L9",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ezoutliner",
+    "name": "EZ Outliner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.2.0",
+    "link": "https://apps.microsoft.com/detail/9MZXCP8S6NR3",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "personaldevelopment",
+    "name": "Personal Development",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.2.0.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDF99F",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tinyc",
+    "name": "TinyC",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.2.3.0",
+    "link": "https://apps.microsoft.com/detail/9NHSHM2K7ZD5",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "foxycapereader",
+    "name": "Foxycape Reader",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "books"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.2.8",
+    "link": "https://apps.microsoft.com/detail/9MXD2H8S2SK4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "flux2",
+    "name": "FL-UX",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.25.2.20",
+    "link": "https://fl-ux.run-edge.com/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "clevershare",
+    "name": "Clevershare",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.3",
+    "link": "https://www.clevertouch.com/products/clever-software-solutions/clevershare",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sophosconnectclient",
+    "name": "Sophos Connect Client",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.3",
+    "link": "https://community.sophos.com/sophos-xg-firewall/b/blog/posts/sophos-connect-2-5-for-windows-arm-and-x64-now-available",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sefirah",
+    "name": "Sefirah",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.3.0.0",
+    "link": "https://apps.microsoft.com/detail/9PJV6D1JPG0H",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "gommediaplayer",
+    "name": "GOM Media Player",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.3.108.5378",
+    "link": "https://www.gomlab.com/gomplayer-media-player/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "coloringbookharmony",
+    "name": "Coloring Book - Harmony",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.3.5.0",
+    "link": "https://apps.microsoft.com/detail/9NVX1MM0GBLQ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ambientsoundsmixer",
+    "name": "Ambient Sounds Mixer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.4.10",
+    "link": "https://apps.microsoft.com/detail/9PK1LZNX7NR7",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sakuraeditor",
+    "name": "Sakura Editor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.4.2.6048",
+    "link": "https://github.com/sakura-editor/sakura/releases/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "quickimg",
+    "name": "QuickImg",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.4.3.0",
+    "link": "https://apps.microsoft.com/detail/9NV88TZCDRZX",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "screentogif",
+    "name": "ScreenToGif",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.41.1",
+    "link": "https://zoom.us/download",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "markanyepsbroker",
+    "name": "MarkAny EPSBroker",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.5.0.40",
+    "link": "https://m.blog.naver.com/windowexe/222187328941",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pomodorotimer",
+    "name": "Pomodoro Timer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.5.2.0",
+    "link": "https://apps.microsoft.com/detail/9P2HPRWRN6FB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfviewer",
+    "name": "PDF-Viewer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.5.322.10",
+    "link": "https://www.pdf-xchange.com/product/downloads/enduser/pdf-xchange-editor",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "quicktxt",
+    "name": "QuickTxt",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.6.0.0",
+    "link": "https://apps.microsoft.com/detail/9N5039V74XNW",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dgvoodoo",
+    "name": "dgVoodoo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "emulators"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.86.1",
+    "link": "https://github.com/dege-diosg/dgVoodoo2/releases",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftidentitymanager",
+    "name": "Microsoft Identity Manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2016",
+    "link": "https://www.microsoft.com/download/details.aspx",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "papercutmobilityprint",
+    "name": "PaperCut Mobility Print",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2023.2",
+    "link": "https://www.papercut.com/products/free-software/mobility-print",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mediafilemanager",
+    "name": "Media File Manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2023.703.1",
+    "link": "https://apps.microsoft.com/detail/9PD3JFK7W5MB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "12gpixelclock",
+    "name": "12g Pixel Clock",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2024.11.12.0",
+    "link": "https://apps.microsoft.com/detail/9NXBJ2KVV3JG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cakewalk",
+    "name": "Cakewalk",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.12",
+    "link": "https://www.bandlab.com/products/cakewalk",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hfss",
+    "name": "HFSS",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.0.1",
+    "link": "https://www.ansys.com/products/electronics/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "icepak",
+    "name": "IcePak",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.0.1",
+    "link": "https://www.ansys.com/products/electronics/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "maxwell",
+    "name": "Maxwell",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.0.1",
+    "link": "https://www.ansys.com/products/electronics/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "q3dextractor",
+    "name": "Q3D Extractor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.0.1",
+    "link": "https://www.ansys.com/products/electronics/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "twinbuilder",
+    "name": "Twin Builder",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.0.1",
+    "link": "https://www.ansys.com/products/digital-twin/ansys-twin-builder",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lightworks",
+    "name": "Lightworks",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2025.1.149576",
+    "link": "https://lwks.com/pricing",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "kpluslearningkidsmath",
+    "name": "K+Learning: Kids Math",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.12.18.0",
+    "link": "https://apps.microsoft.com/detail/9NW1QSDBX6PG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hacked",
+    "name": "Hacked?",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.1204.1.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH6850J",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "radiantdicomviewer",
+    "name": "RadiAnt DICOM Viewer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "healthcare"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.2.0.13300",
+    "link": "https://apps.microsoft.com/detail/XPDM2B27284V8J",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nprotectonlinesecurity",
+    "name": "nProtect Online Security",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it-sec-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2025.5.7.1",
+    "link": "https://www.kosaf.go.kr/pluginfree/jsp/nppfs.install.jsp",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "zbrush",
+    "name": "Zbrush",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2026.1.2",
+    "link": "https://www.maxon.net/en/zbrush",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "12gledmatrix",
+    "name": "12g LED Matrix",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2026.1.22.0",
+    "link": "https://apps.microsoft.com/detail/9NXBJ2KVV3JG",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cplusmathdemo",
+    "name": "C+Math (Demo)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2026.3.18.0",
+    "link": "https://apps.microsoft.com/detail/9NFR780MMZSX",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "nortonsecurevpn",
+    "name": "Norton Secure VPN",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Norton",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "22.24",
+    "link": "https://www.norton.com/products/norton-secure-vpn",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodesknavisworks",
+    "name": "AutoDesk Navisworks",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "22.4.142684",
+    "link": "https://www.autodesk.com/products/navisworks/overview?msockid=0bd3206b9212602113ec34ce93b46167&term=1-YEAR&tab=subscription&plc=NAVSIM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ivantisecureaccessclient",
+    "name": "Ivanti Secure Access Client",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "22.7",
+    "link": "https://help.ivanti.com/ps/help/en_US/ISAC/22.X/spg-22.X/arm64featurelist.htm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "homepagebuilder22",
+    "name": "Homepage Builder 22",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "23.0.1.0",
+    "link": "https://www.justmyshop.com/products/hpb/?__utma=124733073.1470808329.1747013693.1760755325.1761206884.4&__utmb=124733073.1.10.1761206884&__utmc=124733073&__utmx=-&__utmz=124733073.1761206884.4.3.utmcsr=bing|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=242386178",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sourcenextmoviestudio",
+    "name": "Source Next MOVIE STUDIO",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "23.01.1.192",
+    "link": "https://www.sourcenext.com/product/0000014647/?msockid=31d00256561a699a02d3172857b768de",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "beyondtrustepmonprem",
+    "name": "BeyondTrust EPM on-prem",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "23.1",
+    "link": "https://www.beyondtrust.com/products/endpoint-privilege-management",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cyberlinkpowerdirector365",
+    "name": "CyberLink PowerDirector365",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "23.1.1406.0",
+    "link": "https://www.cyberlink.com/downloads/trials/powerdirector-video-editing-software/download_en_US.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "citrixsso",
+    "name": "Citrix (SSO)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "23.3",
+    "link": "https://www.citrix.com/downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cyberlinkpowerdirector",
+    "name": "Cyberlink PowerDirector",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "23.3.1614.0",
+    "link": "https://www.cyberlink.com/downloads/trials/powerdirector-video-editing-software/download_en_US.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cyberarkendpointprivilegemanageragent",
+    "name": "CyberArk Endpoint Privilege Manager Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "23.6",
+    "link": "https://docs.cyberark.com/epm/latest/en/content/installation/windows-installagents.htm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "netscalervpn",
+    "name": "Netscaler VPN",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "23.x",
+    "link": "https://docs.citrix.com/en-us/citrix-secure-access/install-citrix-secure-access.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ringcentral",
+    "name": "RingCentral",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "23.x",
+    "link": "https://www.ringcentral.com/apps",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "citrixworkspaceapp",
+    "name": "Citrix Workspace app",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2303",
+    "link": "https://www.citrix.com/downloads/workspace-app",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftsccm",
+    "name": "Microsoft SCCM",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-mgmt"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2303",
+    "link": "https://learn.microsoft.com/mem/configmgr",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08",
+    "isMicrosoftApp": true
+  },
+  {
+    "slug": "inroads",
+    "name": "InRoads",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.0.0.205",
+    "link": "https://connect.bentley.com/Trials/2515",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "aecosimbuildingdesigner",
+    "name": "AECOsim Building Designer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.0.0.72",
+    "link": "https://www.bentley.com/software/openbuildings-designer/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "openbuildingdesigner",
+    "name": "OpenBuildingDesigner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.0.0.72",
+    "link": "https://www.bentley.com/software/openbuildings-designer/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "bentleymicrostationconnect",
+    "name": "Bentley MicroStation CONNECT",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.00.01.56",
+    "link": "https://connect.bentley.com/Trials/1000",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "apex",
+    "name": "Apex",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.1.0",
+    "link": "https://go.mi.hexagon.com/l/980223/2023-01-26/35mjsn?_gl=1*kkl4ie*_gcl_au*MTMwNDI4NTUzNi4xNzMyNjA1MjI2*_ga*MTI0MDY4Mjc5NC4xNzMyNjA1MjI2*_ga_1JSKJVLJEN*MTczMjYwNTIyNi4xLjEuMTczMjYwNTIzMS4wLjAuMA..",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lsdyna",
+    "name": "LS-DYNA",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.2",
+    "link": "https://www.ansys.com/academic/students/ansys-ls-dyna-student",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ansoftsuite",
+    "name": "Ansoft Suite",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.2.0",
+    "link": "https://www.ansys.com/products/electronics",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "emurasoft",
+    "name": "Emurasoft",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.5.3",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH537DF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "biovia",
+    "name": "BIOVIA",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.1.0.24284",
+    "link": "https://discover.3ds.com/discovery-studio-visualizer-download",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskmotionbuilder",
+    "name": "AutoDesk MotionBuilder",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.1.0.66",
+    "link": "https://www.autodesk.com/products/motionbuilder/free-trial?msockid=2c6413bd0ece65c1240700c10f396494",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "libreofficedev",
+    "name": "LibreOffice Dev",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "oss",
+      "library",
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.2.23.2",
+    "link": "https://www.libreoffice.org/download/download-libreoffice/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "kakaotalk",
+    "name": "Kakao Talk",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "collaboration"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.4.1.4484",
+    "link": "https://www.kakaocorp.com/page/service/service/KakaoTalk",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "citrixendpointmanagement",
+    "name": "Citrix Endpoint Management",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "26.2.0",
+    "link": "https://www.citrix.com/downloads/citrix-endpoint-management",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sapfieldservicemanagementfsm",
+    "name": "SAP Field Service Management (FSM)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2602",
+    "link": "https://apps.microsoft.com/detail/9n03c60h1x4q",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mastercam",
+    "name": "MasterCAM",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "27.0.7027.0",
+    "link": "https://signup.mastercam.com/free-download-mastercam",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "realmjoin",
+    "name": "RealmJoin",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3",
+    "link": "https://gkrealmjoin.s3.amazonaws.com/win-release/RealmJoin.exe",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "guidpro",
+    "name": "GUID Pro",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0.1",
+    "link": "https://apps.microsoft.com/detail/9NWDPT7W3C08",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "mytokens",
+    "name": "My Tokens",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N7PWHCB6Z51",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "estsecurityalyac",
+    "name": "EST Security (ALYac)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0.1.1078",
+    "link": "https://www.estsecurity.com/public/product/alyac-3?arch=arm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "appgoatweb",
+    "name": "AppGoat_Web",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.5",
+    "link": "https://info.ipa.go.jp/form/pub/application/appgoat",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "farmanager",
+    "name": "Far Manager",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0.6364.0",
+    "link": "https://www.farmanager.com/download.php",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ezpdfeditorforpersonaluse",
+    "name": "ezPDF Editor for Personal Use",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.8.3",
+    "link": "http://www.ezpdf.co.kr/editor3/main.do",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "totalpccleanercleandiskantivirus",
+    "name": "Total PC Cleaner: Clean Disk, Antivirus",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.9.0",
+    "link": "https://apps.microsoft.com/detail/9nb3xctl0rwd",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "kollusplayer",
+    "name": "Kollus Player",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.1.1.4",
+    "link": "https://www.catenoid.net/ko/streaming/kollus-player.php",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "smediotruebd",
+    "name": "sMedio True BD",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.1.48.0",
+    "link": "https://apps.microsoft.com/detail/9N05DNCRB86P",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sparkmail",
+    "name": "Spark Mail",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.13.5",
+    "link": "https://apps.microsoft.com/detail/XPFCS9QJBKTHVZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "textcompare",
+    "name": "TextCompare",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.17.1.0",
+    "link": "https://apps.microsoft.com/detail/9NFQ537Q4JMR",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "2pintstifleragent",
+    "name": "2Pint StifleR agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.2",
+    "link": "https://documentation.2pintsoftware.com/stifler/setup/prerequisites",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lightspeedsmartagent",
+    "name": "Lightspeed Smart Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.2",
+    "link": "https://www.lightspeedsystems.com/en_uk/blog/lightspeed-filter-now-support-windows-on-arm-devices/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "rapid7insightvm",
+    "name": "Rapid7 InsightVM",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.2.0",
+    "link": "https://www.rapid7.com/products/insightvm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "camin",
+    "name": "CamIn",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "multimedia"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.2.0.11",
+    "link": "https://apps.microsoft.com/detail/XPDC65WJJH6393",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "alcapture",
+    "name": "ALCapture",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.21",
+    "link": "https://altools.co.kr/product/ALCAPTURE",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "calendarchecklist",
+    "name": "Calendar Checklist",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.21.223.6999",
+    "link": "https://www.xiaoweiyunfu.com",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dolbyatmos",
+    "name": "Dolby Atmos",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.26.1421.0",
+    "link": "https://apps.microsoft.com/detail/9n0866fs04w8",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "centerwindows",
+    "name": "Center windows",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.3.0.0",
+    "link": "https://apps.microsoft.com/detail/9P3RF1QPJ3QC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "honeypot",
+    "name": "Honeypot",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.3.3.0",
+    "link": "https://apps.microsoft.com/detail/9NLZPBCS0F5C",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "midify",
+    "name": "Midify",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.4.4.0",
+    "link": "https://apps.microsoft.com/detail/9NXSW4372N3K",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cisdemvideoconverterconvertdownloadvideoripdvdbd",
+    "name": "Cisdem Video Converter - convert/download video, rip DVD/BD",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.5.0",
+    "link": "https://apps.microsoft.com/detail/XPDNTQ2DV6NXXV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "viviuserapp",
+    "name": "Vivi User App",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.6",
+    "link": "https://www.vivi.io/downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "openssl",
+    "name": "OpenSSL",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.6.0",
+    "link": "https://slproweb.com/products/Win32OpenSSL.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "xpressioncamera",
+    "name": "xpression camera",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.6.8.0",
+    "link": "https://apps.microsoft.com/detail/XPFBKLQQ4GD1C0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "filecontentexplorerlight",
+    "name": "File Content Explorer Light",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.7.0.0",
+    "link": "https://apps.microsoft.com/detail/9N7WHG461L5Z",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "flashget",
+    "name": "FlashGet",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.7.0.1195",
+    "link": "https://www.flashget.com/en/download.htm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "foldr380",
+    "name": "Foldr 3.8.0",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.8.0",
+    "link": "https://foldr.com/foldr-support/foldr-for-windows/windows/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskaliassurface",
+    "name": "AutoDesk Alias Surface",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "31.0.0.236",
+    "link": "https://www.autodesk.com/products/alias-products/free-trial",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskalias",
+    "name": "AutoDesk Alias",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "32.1.0.654",
+    "link": "https://www.autodesk.com/products/alias-products/free-trial?msockid=2c6413bd0ece65c1240700c10f396494",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "augustus",
+    "name": "Augustus",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.0.0",
+    "link": "https://github.com/Gaius-Augustus/Augustus",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "pdfcompressorreducefilesize",
+    "name": "PDF Compressor - reduce file size",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9N02RRD7WZ7N",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "designer",
+    "name": "Designer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9PJGRCLDLX5V",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "gpsspeedometer",
+    "name": "GPS Speedometer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "travel"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH093JB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "easymailforgmail",
+    "name": "EasyMail for Gmail",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.0.11.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH626NC",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "alfebpdf40user",
+    "name": "ALFebPDF 4.0user",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.04",
+    "link": "https://altools.co.kr/product/ALPDF",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "manhairmustachebeardstyle",
+    "name": "Man Hair Mustache Beard Style",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "photo"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.1.10.1",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH3ZW9Q",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hashme",
+    "name": "HashMe",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.1.1903.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRFJVH0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "lineworks",
+    "name": "LINE WORKS",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.1.3",
+    "link": "https://join.worksmobile.com/jp/join?loaded=true",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ytvideodownloader",
+    "name": "YT.Video Downloader",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.1.5.0",
+    "link": "https://apps.microsoft.com/detail/9MZLRZ6KJ3LS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "userlibertyclientpackage",
+    "name": "user Liberty client package",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.10.000",
+    "link": "https://www.jdlibex.net/ab-major/order/index.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "books",
+    "name": "Books",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.11.14.0",
+    "link": "https://apps.microsoft.com/detail/9wzdncrdfd1f",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ahnlablite",
+    "name": "AhnLab Lite",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "anti-virus"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.14.1.590",
+    "link": "https://ahnlab.com/ko/product/v3-lite",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftdefenderforendpointmde",
+    "name": "Microsoft Defender for Endpoint (MDE)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.18.26030.3011",
+    "link": "https://learn.microsoft.com/microsoft-365/security/defender-endpoint",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08",
+    "isMicrosoftApp": true
+  },
+  {
+    "slug": "bitcoinpricesandwidget",
+    "name": "Bitcoin Prices and Widget",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDKGQK",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "naverwhale",
+    "name": "Naver Whale",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "browsers"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.30.291.11",
+    "link": "https://whale.naver.com/ko/download/win/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "papyrus5",
+    "name": "Papyrus 5",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.36",
+    "link": "https://eclipse.dev/papyrus/download.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dngrep",
+    "name": "dnGREP",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.4.2.0",
+    "link": "https://github.com/dnGrep/dGrep/releases/tag/v4.4.2.0",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "estartapp",
+    "name": "E START App",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.4.4.321",
+    "link": "https://service.estart.jp/app/index.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "planformmeasuremarkupandmanagepdf2",
+    "name": "PlanForm – Measure, Mark up, and Manage PDF",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.7.1.72",
+    "link": "https://apps.microsoft.com/detail/XPDBXQWTJ0ZVFP",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskmoldflow",
+    "name": "AutoDesk Moldflow",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "engineering"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "48.0.19",
+    "link": "https://www.autodesk.com/products/moldflow/overview?msockid=0bd3206b9212602113ec34ce93b46167&term=1-YEAR&tab=subscription&plc=F36MA",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "internetsagiwall",
+    "name": "Internet SagiWall",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it-sec-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.0.0",
+    "link": "https://www.sagiwall.jp/trial/windows.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ciscoanyconnectiseposturemodule",
+    "name": "Cisco AnyConnect ISE Posture Module",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.1",
+    "link": "https://software.cisco.com",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ciscosbl",
+    "name": "Cisco SBL",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.1.16.194",
+    "link": "https://software.cisco.com",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "trellixepoepolicyorchestrator",
+    "name": "Trellix ePO (ePolicy Orchestrator)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.10.0 SP1 Update 6",
+    "link": "https://docs.trellix.com/bundle/trellix-endpoint-security-10.7.x-release-notes/page/UUID-ebc08368-8f98-316b-29d1-1bc22354890e.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "zoomvdiplugin",
+    "name": "Zoom VDI Plugin",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.17",
+    "link": "https://support.zoom.us",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ciscoduoauthentication",
+    "name": "Cisco DUO Authentication",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.2.1",
+    "link": "https://duo.com/docs/rdp",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "openig",
+    "name": "Open-IG",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.3.2",
+    "link": "https://github.com/OpenIdentityPlatform/OpenIG/releases",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "opswat2",
+    "name": "Opswat​",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.4",
+    "link": "https://www.opswat.com/products",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "inssider",
+    "name": "InSSIDer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.5.50",
+    "link": "https://www.metageek.com/inssider/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "smemo",
+    "name": "Smemo",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.7.7.0",
+    "link": "https://www.smemo.co.kr",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dashcamgtx",
+    "name": "Dashcam GTX",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.8.104.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH4RNQB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "harmanair",
+    "name": "HARMAN AIR",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "50.2.4",
+    "link": "https://blog.adobe.com/en/publish/2019/05/30/the-future-of-adobe-air",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "dtexintercept",
+    "name": "DTEX Intercept",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6",
+    "link": "https://www.dtexsystems.com/platform",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "trellixedr",
+    "name": "Trellix EDR",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6",
+    "link": "https://www.trellix.com/products/endpoint-detection-and-response",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "zoomworkplace",
+    "name": "Zoom Workplace",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "collaboration"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6",
+    "link": "https://zoom.us/download",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "globalprotect",
+    "name": "GlobalProtect",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "enterprise"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.2",
+    "link": "https://www.paloaltonetworks.com/sase/globalprotect",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftlaps",
+    "name": "Microsoft LAPS",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.2",
+    "link": "https://learn.microsoft.com/windows-server/identity/laps",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "urzagatherer",
+    "name": "UrzaGatherer",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.2.14.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDBZT1",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "vray",
+    "name": "V-Ray",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.20.06",
+    "link": "https://www.chaos.com/vray/sketchup/free-trial",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "xodopdfreaderandeditor",
+    "name": "Xodo - PDF Reader & Editor",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "business"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.3.4.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDJXP4",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "proxynetworksproxyprohost",
+    "name": "ProxyNetworks Proxy Pro Host",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "remote-desktop"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.5",
+    "link": "https://products.proxynetworks.com/downloads/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "snowinventoryagent",
+    "name": "Snow Inventory Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.5",
+    "link": "https://docs-snow.flexera.com/other-snow-products/snow-inventory-agents-and-oracle-scanners/compatibility-matrix/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "3dcadmodelsengineering",
+    "name": "3D CAD Models Engineering",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.514.49848.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH5RMZM",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "gmtgenericmappingtools",
+    "name": "GMT (Generic Mapping Tools)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.6.0",
+    "link": "https://www.generic-mapping-tools.org/download/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "karaokeone",
+    "name": "Karaoke One",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "music"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.6.11.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH529WB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ravenfornetwork",
+    "name": "Raven for network",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "web-social"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "69.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH5LHWV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "crowdstrikefalconscriptcontrol",
+    "name": "Crowdstrike Falcon Script Control",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7",
+    "link": "https://www.crowdstrike.com/products/falcon-platform",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "akamaiguardicore",
+    "name": "Akamai Guardicore",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.1.3",
+    "link": "https://www.akamai.com/products/microsegmentation",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ancestralsources",
+    "name": "Ancestral Sources",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "kids-family"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.10.9.0",
+    "link": "https://apps.microsoft.com/detail/9MXZ7Q1WZ1SS",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fortinetforticlientvpn",
+    "name": "Fortinet Forticlient VPN",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.2",
+    "link": "https://www.fortinet.com/support/product-downloads",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fujixeroxdocuworkspdfcreator",
+    "name": "Fuji Xerox DocuWorks PDF Creator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.2.1",
+    "link": "https://www.support.xerox.com/en-us/product/xerox-docuworks/downloads?platform=winxp&category=utils&language=en_GB",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "ccleaner7",
+    "name": "CCleaner 7",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.2.1080.1295",
+    "link": "https://apps.microsoft.com/detail/XPFCWP0SQWXM3V",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "syxsensemanage",
+    "name": "Syxsense Manage",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.3",
+    "link": "https://ofmcomputersystems.syxsense.io/Documentation/Windows_Agent_Installation.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fingerprintluckscanner",
+    "name": "Fingerprint Luck Scanner",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.3.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRDKGPZ",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "autodeskarnold",
+    "name": "AutoDesk Arnold",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "cad"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.4",
+    "link": "https://www.autodesk.com/products/arnold/free-trial",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "taniumdeploy",
+    "name": "Tanium Deploy",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.4",
+    "link": "https://download.tanium.com/customers/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "shanaencoder",
+    "name": "ShanaEncoder",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.4.0.0",
+    "link": "https://shana.pe.kr/shanaencoder_download/173616",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "gotologmeinrescue",
+    "name": "GoTo LogMeIn Rescue",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.5",
+    "link": "https://www.logmein.com/download",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "cortexxdr",
+    "name": "Cortex XDR",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "endpoint-sec"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.8",
+    "link": "https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/7.9/Cortex-XDR-Agent-Administrator-Guide/Install-the-Cortex-XDR-Agent-for-Windows",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "fortradigitalguardian",
+    "name": "Fortra Digital Guardian",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.8",
+    "link": "https://www.fortra.com/products/digital-guardian",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "sapgui",
+    "name": "SAP GUI",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.8",
+    "link": "https://support.sap.com/en/my-support/software-downloads.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hdrevolutioneraserver8completepcwipe",
+    "name": "HD Revolution / Eraser Ver.8 – Complete PC Wipe",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8",
+    "link": "https://function-fc.com/eraser8.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "hdrevolutioneraserver8fileerasure",
+    "name": "HD Revolution / Eraser Ver.8 File Erasure",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8",
+    "link": "https://function-fc.com/eraser8.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "tmpgencvideomasteringworks8",
+    "name": "TMPGEnc Video Mastering Works 8",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "video"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.0.9.10",
+    "link": "https://tmpgenc.pegasys-inc.com/ja/download/tvmw8.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "encaseenhancedagent2",
+    "name": "EnCase​ Enhanced Agent",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.1",
+    "link": "https://www.opentext.com/products/encase-endpoint-security",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "proofpointitmdlp",
+    "name": "Proofpoint ITM (DLP)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.6",
+    "link": "https://docs.public.analyze.proofpoint.com/itm_endpoint_dlp_configuration/supported_platforms_itm.htm",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "forcepointdlp",
+    "name": "Forcepoint DLP",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.9",
+    "link": "https://www.forcepoint.com/product/forcepoint-dlp",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "absolutesecureaccess",
+    "name": "Absolute Secure Access",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "9",
+    "link": "https://www.absolute.com/customers/support/windows-and-macos-client-files",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "splunkuniversalforwarder",
+    "name": "Splunk Universal Forwarder",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "9.1",
+    "link": "https://www.splunk.com/en_us/download/universal-forwarder.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "symantecwebsecurityservicewss",
+    "name": "Symantec Web Security Service (WSS)",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "data-prot"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "9.8.5",
+    "link": "https://www.broadcom.com/products/cyber-security/network/web-security-service",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "thepowdertoy",
+    "name": "The Powder Toy",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "99.3.0.384",
+    "link": "https://powdertoy.co.uk/Download.html",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "thinkcyberredflags",
+    "name": "ThinkCyber Redflags",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "security"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "Browser-based",
+    "link": "https://redflags.io/",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "quickendeluxe",
+    "name": "Quicken Deluxe",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "r52.33",
+    "link": "https://www.quicken.com/product-selector/reverse-nst",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "windowsforumdiagnostics",
+    "name": "WindowsForum Diagnostics",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "V2.2.0",
+    "link": "https://apps.microsoft.com/detail/9NJ59RH053PV",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "navermybox",
+    "name": "Naver MyBox",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "v3.0.7.125",
+    "link": "https://mybox.naver.com/about/explorer-guide/win",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
+  },
+  {
+    "slug": "microsoftrsat",
+    "name": "Microsoft RSAT",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "it"
+    ],
+    "publisher": "Microsoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "Windows 11 ARM64 (26100.x)",
+    "link": "https://learn.microsoft.com/en-us/windows-server/administration/install-remote-server-administration-tools",
+    "validation": "qualcomm",
+    "lastUpdated": "2026-05-08"
   }
 ]
