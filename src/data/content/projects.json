@@ -130171,6 +130171,23 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "steam",
+    "name": "Steam",
+    "type": "application",
+    "icon": "steam.svg",
+    "categories": [
+      "entertainment"
+    ],
+    "publisher": "Valve Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "link": "https://store.steampowered.com/about/download",
+    "validation": "community",
+    "lastUpdated": "2026-05-11",
+    "isMicrosoftApp": false,
+    "shouldShowNotes": false
+  },
+  {
     "slug": "markdownvieweruwp",
     "name": "Markdown Viewer UWP",
     "type": "application",
