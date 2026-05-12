@@ -74,10 +74,10 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
       label: t("appDetail.compatibility"),
       value: <CompatibilityBadge compatibility={project.compatibility} />,
     },
-    {
+    ...(type !== "game" ? [{
       label: t("appDetail.emulationType"),
       value: t(`common.${project.emulationType}`) || capitalize(project.emulationType),
-    },
+    }] : []),
     {
       label: t("appDetail.validation"),
       value: <ValidationBadge validation={project.validation} />,
