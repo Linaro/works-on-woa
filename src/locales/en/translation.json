@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "Popular Applications",
-    "subtitle": "Windows supports over 5,000 popular apps on Arm",
+    "subtitle": "Windows supports over 7,000 popular apps on Arm",
     "seeAll": "See All Windows Apps",
     "columns": {
       "name": "Name",

@@ -648,21 +648,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "360-game-manager360",
-    "name": "360 Game manager(360游戏管家)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "360 game",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "360360antivirus",
     "name": "360杀毒 (360 Antivirus)",
     "type": "application",
@@ -1650,21 +1635,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "a-way-out",
-    "name": "A Way Out",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
     "shouldShowNotes": false
   },
   {
@@ -3334,21 +3304,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "against-the-war",
-    "name": "Against the War (逆战)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Tencent",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "age-of-empires-definitive-edition",
     "name": "Age of Empires: Definitive Edition",
     "type": "game",
@@ -3407,81 +3362,6 @@
     "lastUpdated": "2024-04-22"
   },
   {
-    "slug": "age-of-empires-iii-definitive-edition",
-    "name": "Age of Empires III: Definitive Edition",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "age-of-empires-iii-definitive-edition-store",
-    "name": "Age of Empires III: Definitive Edition (Store)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "age-of-empires-iv",
-    "name": "Age of Empires IV",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "age-of-empires-iv-store",
-    "name": "Age of Empires IV (Store)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "age-of-gunslingers",
-    "name": "AGE OF GUNSLINGERS (枪神纪)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "age-of-history-ii",
     "name": "Age of History II",
     "type": "game",
@@ -3510,21 +3390,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "age-of-mythology-retold",
-    "name": "Age of Mythology: Retold",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-08-28"
   },
   {
     "slug": "age-of-wonders-iii",
@@ -5470,21 +5335,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "altspacevr-steam",
-    "name": "AltspaceVR (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "alwaysontop",
     "name": "Always on Top",
     "type": "application",
@@ -7046,21 +6896,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "apex-legends",
-    "name": "Apex Legends",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Respawn Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "aphalinadesigner",
     "name": "Aphalina Designer",
     "type": "application",
@@ -7090,21 +6925,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "apollo-justice-ace-attorney-trilogy",
-    "name": "Apollo Justice: Ace Attorney Trilogy",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Capcom",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Doesn't start. Error window pops up with title gs456.exe - Entry Point Not Found, and no body.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-26"
   },
   {
     "slug": "apoweredit",
@@ -7447,36 +7267,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "arche-age",
-    "name": "Arche Age (上古世纪)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "archeage",
-    "name": "Archeage",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Trion Worlds",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "archethicwallet",
     "name": "Archethic Wallet",
     "type": "application",
@@ -7787,21 +7577,6 @@
     "link": "https://github.com/ArmCord/ArmCord/releases/download/v3.2.7/ArmCord-3.2.7-arm64.tar.gz",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "armored-core-vi-fires-of-rubicon",
-    "name": "Armored Core VI: Fires of Rubicon",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Bandai Namco",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Fails with error Unsupported Architechture: ARM64",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-06-26"
   },
   {
     "slug": "arozos",
@@ -8277,36 +8052,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "assassins-creed-odyssey",
-    "name": "Assassin's Creed Odyssey",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "assassins-creed-origins",
-    "name": "Assassin's Creed Origins",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "assassins-creed-revelations",
     "name": "Assassin's Creed Revelations",
     "type": "game",
@@ -8319,51 +8064,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "assassins-creed-syndicate",
-    "name": "Assassins Creed Syndicate",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "assassins-creed-unity",
-    "name": "Assassin's Creed Unity",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "assassins-creed-valhalla",
-    "name": "Assassin's Creed Valhalla",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-02-26",
     "shouldShowNotes": false
   },
   {
@@ -8786,21 +8486,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "atomic-heart",
-    "name": "Atomic Heart",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Mundfish",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "atomicclockclockwithntptime",
     "name": "AtomicClock • Clock with NTP Time",
     "type": "application",
@@ -9136,21 +8821,6 @@
     "link": "https://www.luyinzhushou.com",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "audition-dance-battle-online",
-    "name": "Audition Dance Battle Online (劲舞团)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "aukziprarzip",
@@ -10721,51 +10391,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "back-4-blood",
-    "name": "Back 4 Blood",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Warner Bros. Interactive Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "back-4-blood-steam",
-    "name": "Back 4 Blood (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "back-4-blood-store",
-    "name": "Back 4 Blood (Store)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Warner Bros. Interactive Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "back-to-the-dawn",
     "name": "Back to the Dawn",
     "type": "game",
@@ -11616,21 +11241,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "batman-arkham-knight",
-    "name": "Batman: Arkham Knight",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "batman-arkham-origins",
     "name": "Batman: Arkham Origins",
     "type": "game",
@@ -11950,21 +11560,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "battlebit-remastered",
-    "name": "BattleBit Remastered",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "SgtOkiDoki",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "battleblock-theater",
     "name": "BattleBlock Theater",
     "type": "game",
@@ -11995,36 +11590,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "battlefield-2042",
-    "name": "Battlefield 2042",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-02-26",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "battlefield-3",
-    "name": "Battlefield 3",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "EA Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "battlefield-4",
     "name": "Battlefield 4",
     "type": "game",
@@ -12037,21 +11602,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-08",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "battlefield-v",
-    "name": "Battlefield V",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -12226,21 +11776,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "beat-saber",
-    "name": "Beat Saber",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -14103,21 +13638,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "black-desert-online",
-    "name": "Black Desert Online",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Kakao Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "black-mesa",
     "name": "Black Mesa",
     "type": "game",
@@ -14208,21 +13728,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "blade-sorcery",
-    "name": "Blade & Sorcery",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -14349,21 +13854,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH51MJK",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "bless-unleashed",
-    "name": "Bless Unleashed",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "bliptransfer",
@@ -15355,21 +14845,6 @@
     "link": "https://apps.microsoft.com/detail/xp8c9qzms2pc1t?hl=en-gb&gl=IN",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "brawlhalla",
-    "name": "Brawlhalla",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Blue Mammoth Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "braytech",
@@ -17174,21 +16649,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "caliber",
-    "name": "Caliber",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "1C-777 Limited",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "calibre",
     "name": "calibre",
     "type": "application",
@@ -17250,36 +16710,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "call-of-duty-black-ops-4",
-    "name": "Call of Duty: Black Ops 4",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-black-ops-cold-war",
-    "name": "Call of Duty: Black Ops Cold War",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "call-of-duty-black-ops-ii",
     "name": "Call of Duty: Black Ops II",
     "type": "game",
@@ -17292,51 +16722,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-black-ops-iii",
-    "name": "Call of Duty: Black Ops III",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-cold-war",
-    "name": "Call of Duty Cold War",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-ghosts",
-    "name": "Call Of Duty: Ghosts",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -17355,36 +16740,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "call-of-duty-modern-warfare",
-    "name": "Call of Duty: Modern Warfare",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-modern-warfare-2-2009",
-    "name": "Call of Duty: Modern Warfare 2 (2009)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "call-of-duty-modern-warfare-2-2009---multiplayer",
     "name": "Call of Duty: Modern Warfare 2 (2009) - Multiplayer",
     "type": "game",
@@ -17397,21 +16752,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-modern-warfare-2007",
-    "name": "Call of Duty: Modern Warfare (2007)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -17456,81 +16796,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "call-of-duty-modern-warfare-ii",
-    "name": "Call of Duty: Modern Warfare II",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-modern-warfare-remastered",
-    "name": "Call Of Duty: Modern Warfare Remastered",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-vanguard",
-    "name": "Call of Duty: Vanguard",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-warzone-20",
-    "name": "Call of Duty: Warzone 2.0",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "call-of-duty-wwii",
-    "name": "Call of Duty: WWII",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Activision",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "call-of-war",
@@ -19737,21 +19002,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "chivalry-2",
-    "name": "Chivalry 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "chivalry-medieval-warfare-dedicated-server",
     "name": "Chivalry: Medieval Warfare Dedicated Server",
     "type": "game",
@@ -20608,21 +19858,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "cities-skylines-2",
-    "name": "Cities: Skylines 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Paradox Interactive",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
     "shouldShowNotes": false
   },
   {
@@ -23626,21 +22861,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "command-conquer-red-alert-2-and-yuris-revenge",
-    "name": "Command & Conquer: Red Alert 2 and Yuri's Revenge",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "commandcalculator",
     "name": "Command calculator",
     "type": "application",
@@ -24114,21 +23334,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "conquerors-blade",
-    "name": "Conqueror'S Blade",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "conscripts",
     "name": "Conscripts",
     "type": "application",
@@ -24176,21 +23381,6 @@
     "link": "https://apps.microsoft.com/detail/9NKQW28VQSJF",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "construction-simulator",
-    "name": "Construction Simulator",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "astragon Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "contactlenses",
@@ -25363,21 +24553,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "counter-strike-source",
-    "name": "Counter-Strike: Source",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Valve",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Slight screen glitching that could not get captured on video ",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01"
-  },
-  {
     "slug": "counterapp",
     "name": "Counter App",
     "type": "application",
@@ -26057,21 +25232,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "crime-boss-rockay-city",
-    "name": "Crime Boss: Rockay City",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "505 Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "cropipiccropvideoimage",
     "name": "CropiPic- crop video & image",
     "type": "application",
@@ -26100,21 +25260,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "crossout",
-    "name": "Crossout",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "crowdstrikeedr",
@@ -26426,21 +25571,6 @@
     "link": "https://apps.microsoft.com/detail/9P6F593T1F9Z",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "crysis-3-remastered",
-    "name": "Crysis 3 Remastered",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Crytek",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "crystaldiskinfo",
@@ -27660,21 +26790,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dakar-desert-rally",
-    "name": "Dakar Desert Rally",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dakmediaplayer",
     "name": "DAK Media Player",
     "type": "application",
@@ -27895,21 +27010,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dark-alliance",
-    "name": "Dark Alliance",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dark-deception",
     "name": "Dark Deception",
     "type": "game",
@@ -27964,21 +27064,6 @@
     "publisher": "BANDAI NAMCO Entertainment",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "darkest-dungeon",
-    "name": "Darkest Dungeon",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Red Hook Studios",
-    "compatibility": "no",
-    "emulationType": "none",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
@@ -28270,21 +27355,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dauntless",
-    "name": "Dauntless",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Epic Games Inc.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dave-the-diver",
     "name": "DAVE THE DIVER",
     "type": "game",
@@ -28568,21 +27638,6 @@
     "lastUpdated": "2026-04-17"
   },
   {
-    "slug": "dead-by-daylight",
-    "name": "Dead by Daylight",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Behaviour Interactive Inc.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dead-cells",
     "name": "Dead Cells",
     "type": "game",
@@ -28610,21 +27665,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "dead-island",
-    "name": "Dead Island",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Deep Silver",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -28672,21 +27712,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "dead-space-2023",
-    "name": "Dead Space (2023)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "death-must-die",
     "name": "Death Must Die",
     "type": "game",
@@ -28699,36 +27724,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "death-stranding",
-    "name": "Death Stranding",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Kojima Productions",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "deathloop",
-    "name": "DEATHLOOP",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
     "shouldShowNotes": false
   },
   {
@@ -28795,36 +27790,6 @@
     "link": "https://apps.microsoft.com/detail/9N9W33352L39",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "deceit",
-    "name": "Deceit",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "deceive-inc",
-    "name": "Deceive Inc.",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Tripwire Presents",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "decibelmeterapp",
@@ -29654,21 +28619,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "destiny-2",
-    "name": "Destiny 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Bungie",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Game will launch BattlEye, then silently crash in the background without ever opening.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-06-25"
-  },
-  {
     "slug": "desynced",
     "name": "Desynced",
     "type": "game",
@@ -29697,21 +28647,6 @@
     "link": "https://apps.microsoft.com/detail/9ND36C9S2Q2S",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "deus-ex-goty-edition",
-    "name": "Deus Ex GOTY Edition",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Square Enix",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-08-17"
   },
   {
     "slug": "deus-ex-human-revolution---directors-cut",
@@ -29944,21 +28879,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "diablo-immortal",
-    "name": "Diablo Immortal",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Blizzard Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-02-26",
     "shouldShowNotes": false
   },
   {
@@ -30598,21 +29518,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dirt-5",
-    "name": "DiRT 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Codemasters",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-02-26",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dirt-rally-20",
     "name": "DiRT Rally 2.0",
     "type": "game",
@@ -31015,21 +29920,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "distant-worlds-2",
-    "name": "Distant Worlds 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dittoclipboard",
     "name": "Ditto Clipboard",
     "type": "application",
@@ -31395,21 +30285,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dmm-game-player",
-    "name": "DMM Game Player",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "DMM.com",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "doceditorfree",
     "name": "Doc Editor Free",
     "type": "application",
@@ -31750,21 +30625,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "dofus",
-    "name": "Dofus",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ankama Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dogwhistleapp",
     "name": "Dog Whistle App",
     "type": "application",
@@ -32026,21 +30886,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "doom-vfr-steam",
-    "name": "DOOM VFR (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dopplesworldcoloringbook",
     "name": "Dopples World Coloring Book",
     "type": "application",
@@ -32055,21 +30900,6 @@
     "link": "https://apps.microsoft.com/detail/9P1MZHR9B81V",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "dorfromantik",
-    "name": "Dorfromantik",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "dota-2",
@@ -32416,51 +31246,6 @@
     "link": "https://www.draftsight.com/support/draftsight-download",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "dragon-ball-fighterz",
-    "name": "DRAGON BALL FighterZ",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "dragon-ball-sparking-zero",
-    "name": "Dragon Ball Sparking Zero",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Bandi Namco",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-10-16"
-  },
-  {
-    "slug": "dragon-ball-xenoverse-2",
-    "name": "Dragon Ball: Xenoverse 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "dragon-ball-z-kakarot",
@@ -33744,21 +32529,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "dungeon-and-fighter",
-    "name": "Dungeon and Fighter",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dungeon-defenders",
     "name": "Dungeon Defenders",
     "type": "game",
@@ -34502,21 +33272,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "dying-light-2-stay-human",
-    "name": "Dying Light 2 Stay Human",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Techland",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-08",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "dynamensionscrosshair",
     "name": "Dynamensions Crosshair",
     "type": "application",
@@ -34622,36 +33377,6 @@
     "publisher": "网之易",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "ea-anticheat",
-    "name": "EA Anticheat",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "EA Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "ea-sports-fc-24",
-    "name": "EA Sports FC 24",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
@@ -34881,21 +33606,6 @@
     "link": "https://www.dfzq.com.cn/osoa/views/main/home/Softwaredownload/index.shtml",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "easy-anti-cheat",
-    "name": "Easy Anti-Cheat",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Epic Games Inc.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "easy8cook",
@@ -35961,36 +34671,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "efootball-2023",
-    "name": "eFootball 2023",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "efootball-2024",
-    "name": "eFootball 2024",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "efsdailyquotes",
     "name": "EFS Daily Quotes",
     "type": "application",
@@ -36203,21 +34883,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "elden-ring",
-    "name": "Elden Ring",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "FromSoftware Inc.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "electriclooppads",
     "name": "Electric Loop Pads",
     "type": "application",
@@ -36359,21 +35024,6 @@
     "link": "https://apps.microsoft.com/detail/9NTVKK8W0Z1G",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "elite-dangerous",
-    "name": "Elite: Dangerous",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Frontier Developments",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "elitecalculator",
@@ -37078,21 +35728,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "enlisted",
-    "name": "Enlisted",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "ennyholidayplanner",
     "name": "Enny Holiday Planner",
     "type": "application",
@@ -37488,21 +36123,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "escape-the-backrooms",
-    "name": "Escape the Backrooms",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "escrowtab",
     "name": "EscrowTab",
     "type": "application",
@@ -37695,21 +36315,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "esports-boxing-club",
-    "name": "eSports Boxing Club",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "essentialmusicchords",
     "name": "Essential Music Chords",
     "type": "application",
@@ -37756,21 +36361,6 @@
     "link": "https://www.e-tax.nta.go.jp/download/e-taxSoftDownLoad.htm#flow04",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "eternal-return",
-    "name": "Eternal Return",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "etimer",
@@ -38130,21 +36720,6 @@
     "link": "https://www.ieway.cn/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "evil-dead-the-game",
-    "name": "Evil Dead: The Game",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "evil-genius-2",
@@ -38928,21 +37503,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "f1-2021",
-    "name": "F1 2021",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Codemasters",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "f1-22",
     "name": "F1 22",
     "type": "game",
@@ -38956,21 +37516,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "f1-manager-2022",
-    "name": "F1 Manager 2022",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Frontier Developments",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Game launches to menu but crashes when entering a race",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-08-09"
   },
   {
     "slug": "f2d",
@@ -39333,21 +37878,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "fall-guys",
-    "name": "Fall Guys",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Devolver Digital",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "fallout",
     "name": "Fallout",
     "type": "game",
@@ -39404,36 +37934,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-03-18",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "fallout-76",
-    "name": "Fallout 76",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Bethesda Softworks",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "fallout-new-vegas",
-    "name": "Fallout: New Vegas",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Bethesda Softworks",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -39645,21 +38145,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "far-cry-3",
-    "name": "Far Cry 3",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "far-cry-4",
     "name": "Far Cry 4",
     "type": "game",
@@ -39672,21 +38157,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-22",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "far-cry-5",
-    "name": "Far Cry 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
   },
   {
@@ -39806,36 +38276,6 @@
     "publisher": "",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "farming-simulator-19",
-    "name": "Farming Simulator 19",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "farming-simulator-22",
-    "name": "Farming Simulator 22",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "GIANTS Software",
-    "compatibility": "no",
-    "emulationType": "none",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
@@ -40235,21 +38675,6 @@
     "link": "https://apps.microsoft.com/detail/9PMZ94127M4G",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "fc-24",
-    "name": "FC 24",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "fcan",
@@ -40705,21 +39130,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "fifa-23",
-    "name": "FIFA 23",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -41948,36 +40358,6 @@
     "link": "https://apps.microsoft.com/detail/9WZDNCRDFN64",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "five-nights-at-freddys-2",
-    "name": "Five Nights at Freddy's 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "five-nights-at-freddys-security-breach",
-    "name": "Five Nights at Freddy's: Security Breach",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
   },
   {
     "slug": "fixdows",
@@ -43443,35 +41823,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "football-manager",
-    "name": "Football Manager​",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "na",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "football-manager-2022-steam",
-    "name": "Football Manager 2022 (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Sports Interactive",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "football-manager-2023",
     "name": "Football Manager 2023",
     "type": "game",
@@ -43514,21 +41865,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "for-honor",
-    "name": "For Honor",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "for-the-king",
@@ -43731,51 +42067,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "forza-horizon-4",
-    "name": "Forza Horizon 4",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "forza-horizon-5",
-    "name": "Forza Horizon 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "forza-horizon-5-store",
-    "name": "Forza Horizon 5 (Store)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -44734,21 +43025,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH35MPC",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "freeways",
-    "name": "Freeways",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Captain Games",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Install from steam: fine, launch: fine, Open level: fine, Try to build a bridge: crash",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-06-22"
   },
   {
     "slug": "freewmatomp3converter",
@@ -45823,21 +44099,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "gas-station-simulator",
-    "name": "Gas Station Simulator",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "gatekeeper-infinity",
     "name": "Gatekeeper: Infinity",
     "type": "game",
@@ -45931,21 +44192,6 @@
     "link": "https://apps.microsoft.com/detail/9PGXJTCXN8QM",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "gears-5",
-    "name": "Gears 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "geekpdfconvertpdftodoc",
@@ -46332,21 +44578,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "ghost-of-tsushima",
-    "name": "Ghost of Tsushima",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Playstation",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-04",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "ghost-watchers",
     "name": "Ghost Watchers",
     "type": "game",
@@ -46391,21 +44622,6 @@
     "link": "https://www.ghostscript.com/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "ghostwire-tokyo",
-    "name": "Ghostwire: Tokyo",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "ghotitrealwriterandreader",
@@ -47115,21 +45331,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "goat-simulator",
-    "name": "Goat Simulator",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Coffee Stain",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "0",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01"
-  },
-  {
     "slug": "god-of-war",
     "name": "God of War",
     "type": "game",
@@ -47621,21 +45822,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "goose-goose-duck",
-    "name": "Goose Goose Duck",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "gooseekerdatamanagerenhancedcrawler",
     "name": "数据管家 - 增强版爬虫软件 (GooSeeker Data Manager - Enhanced Crawler)",
     "type": "application",
@@ -47713,21 +45899,6 @@
     "link": "https://apps.microsoft.com/detail/9WZDNCRDFDCD",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "gotham-knights",
-    "name": "Gotham Knights",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "gotodotaskdocsreminders",
@@ -47953,21 +46124,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "granblue-fantasy-relink",
-    "name": "Granblue Fantasy: Relink",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Cygames, Inc.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-18",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "granblue-fantasy-versus-rising",
     "name": "Granblue Fantasy Versus: Rising",
     "type": "game",
@@ -48008,21 +46164,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "grand-theft-auto-iv",
-    "name": "Grand Theft Auto IV",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "RockStar Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -48507,21 +46648,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "grounded",
-    "name": "Grounded",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "groupme",
     "name": "GroupMe",
     "type": "application",
@@ -48915,21 +47041,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "gundam-evolution",
-    "name": "Gundam Evolution",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "gunfire-reborn",
     "name": "Gunfire Reborn",
     "type": "game",
@@ -49291,36 +47402,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "half-life",
-    "name": "Half-Life",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "half-life-2",
-    "name": "Half Life 2​",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "half-life-2-episode-two",
     "name": "Half-Life 2: Episode Two",
     "type": "game",
@@ -49444,51 +47525,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "halo-infinite",
-    "name": "Halo Infinite",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "halo-infinite-store-uwp",
-    "name": "Halo Infinite (Store UWP)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "halo-master-chief-collection",
-    "name": "Halo Master Chief Collection",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "halo-the-master-chief-collection",
     "name": "Halo: The Master Chief Collection",
     "type": "game",
@@ -49501,21 +47537,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "halo-the-master-chief-collection-store",
-    "name": "Halo: The Master Chief Collection (Store)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -50496,21 +48517,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "hearthstone",
-    "name": "Hearthstone​",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "hearts-of-iron-iv",
     "name": "Hearts of Iron IV",
     "type": "game",
@@ -50849,21 +48855,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "hell-let-loose",
-    "name": "Hell Let Loose",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-18",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "hellcard",
     "name": "HELLCARD",
     "type": "game",
@@ -50890,21 +48881,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "helldivers-2",
-    "name": "Helldivers 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Playstation PC",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-18",
     "shouldShowNotes": false
   },
   {
@@ -51230,21 +49206,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "hi-fi-rush",
-    "name": "Hi-Fi Rush",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "hi-how-are-you-today",
     "name": "Hi_How_are_you_today_",
     "type": "application",
@@ -51402,21 +49363,6 @@
     "link": "https://lestore.lenovo.com/detail/L119542",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "high-on-life",
-    "name": "High on Life",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "hillstonevpn",
@@ -51592,21 +49538,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "hitman-2-steam",
-    "name": "Hitman 2 (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "hitman-3",
     "name": "Hitman 3",
     "type": "game",
@@ -51774,21 +49705,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "hogwarts-legacy",
-    "name": "Hogwarts Legacy",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Warner Bros. Interactive Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-18",
     "shouldShowNotes": false
   },
   {
@@ -52172,21 +50088,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "horizon-forbidden-west",
-    "name": "Horizon Forbidden West",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Guerilla Games",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Game crashes immediately on launch.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-06-26"
-  },
-  {
     "slug": "horizon-zero-dawn",
     "name": "Horizon Zero Dawn",
     "type": "game",
@@ -52249,21 +50150,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH3VRQD",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "hot-dogs-horseshoes-hand-grenades",
-    "name": "Hot Dogs, Horseshoes & Hand Grenades",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "hot-wheels-unleashed",
@@ -52495,21 +50381,6 @@
     "link": "https://apps.microsoft.com/detail/9WZDNCRDFM03",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "hoyle-card-games",
-    "name": "Hoyle Card Games",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "WildTangent",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "hparm64v4printerdriver",
@@ -52921,36 +50792,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "hunt-showdown",
-    "name": "Hunt: Showdown",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "hunt-showdown-steam",
-    "name": "Hunt: Showdown (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Crytek",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -54478,21 +52319,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "immortals-fenyx-rising",
-    "name": "Immortals Fenyx Rising",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "imo",
     "name": "imo",
     "type": "application",
@@ -55230,36 +53056,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "insurgency",
-    "name": "Insurgency",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "insurgency-sandstorm",
-    "name": "Insurgency: Sandstorm",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "integralcalculator",
     "name": "Integral Calculator",
     "type": "application",
@@ -55964,21 +53760,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "iracing",
-    "name": "iRacing",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "irfanview",
     "name": "IrfanView",
     "type": "application",
@@ -56152,21 +53933,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH51634",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "it-takes-two",
-    "name": "It Takes Two",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "0",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-08"
   },
   {
     "slug": "italiantungcoloringbook",
@@ -58548,21 +56314,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "kerbal-space-program-2",
-    "name": "Kerbal Space Program 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "kernelextractorforpdf",
     "name": "Kernel Extractor for PDF",
     "type": "application",
@@ -60463,36 +58214,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "league-of-legends27d16739",
-    "name": "League of Legends (英雄联盟)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Tencent",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "league-of-legendsd23cb318",
-    "name": "League of Legends",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Riot Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "learn-to-fly-3",
     "name": "Learn to Fly 3",
     "type": "game",
@@ -60742,21 +58463,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "legends-of-runeterra",
-    "name": "Legends of Runeterra",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "legion-td-2",
     "name": "Legion TD 2",
     "type": "game",
@@ -60770,21 +58476,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "lego-2k-drive",
-    "name": "LEGO� 2K Drive",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "2K",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-10-11"
   },
   {
     "slug": "lego-batman-3-beyond-gotham",
@@ -61683,21 +59374,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "like-a-dragon-infinite-wealth",
-    "name": "Like A Dragon: Infinite Wealth",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "lilostitchcoloringbook",
     "name": "Lilo Stitch Coloring Book",
     "type": "application",
@@ -61771,21 +59447,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-02-26",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "lineagem",
-    "name": "LineageM",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -63119,21 +60780,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "lords-of-the-fallen-2023",
-    "name": "Lords Of The Fallen (2023)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "loseweightfast",
     "name": "Lose Weight Fast",
     "type": "application",
@@ -63166,21 +60812,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "lost-ark",
-    "name": "Lost Ark",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Smilegate RPG",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "lost-branch-of-legend",
     "name": "Lost Branch of Legend",
     "type": "game",
@@ -63208,21 +60839,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "lost-light",
-    "name": "Lost Light",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -63950,51 +61566,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "madden-21",
-    "name": "Madden 21",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "madden-nfl-22",
-    "name": "Madden NFL 22",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "madden-nfl-23",
-    "name": "Madden NFL 23",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "madness-project-nexus",
     "name": "MADNESS: Project Nexus",
     "type": "game",
@@ -64673,21 +62244,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "marauders",
-    "name": "Marauders",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "march-of-empires",
     "name": "March of Empires",
     "type": "game",
@@ -64828,36 +62384,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "marvels-midnight-suns",
-    "name": "Marvel's Midnight Suns",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "marvels-spider-man-miles-morales",
-    "name": "Marvel's Spider-Man: Miles Morales",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "marvels-spider-man-remastered",
     "name": "Marvels Spider-Man Remastered",
     "type": "game",
@@ -64888,51 +62414,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "mass-effect",
-    "name": "Mass Effect",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "EA",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-09-03"
-  },
-  {
-    "slug": "mass-effect-2",
-    "name": "Mass Effect 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "mass-effect-3",
-    "name": "Mass Effect 3",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "mass-effect-andromeda",
     "name": "Mass Effect: Andromeda",
     "type": "game",
@@ -64960,21 +62441,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "mass-effect-legendary-edition-steam",
-    "name": "Mass Effect Legendary Edition (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -66854,21 +64320,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "metro-exodus-enhanced-edition",
-    "name": "Metro Exodus Enhanced Edition",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Deep Silver",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Very slow framerate through cinematics ",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01"
-  },
-  {
     "slug": "metro-last-light-complete-edition",
     "name": "Metro: Last Light Complete Edition",
     "type": "game",
@@ -67120,22 +64571,6 @@
     "emulationType": "emulation",
     "validation": "microsoft",
     "lastUpdated": "2026-03-02",
-    "isMicrosoftApp": true,
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "microsoft-flight-simulator",
-    "name": "Microsoft Flight Simulator",
-    "type": "game",
-    "icon": "flight-simulator.png",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Microsoft Corporation",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "microsoft",
-    "lastUpdated": "2024-03-25",
     "isMicrosoftApp": true,
     "shouldShowNotes": false
   },
@@ -68843,21 +66278,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "minecraft-legends",
-    "name": "Minecraft Legends",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Game Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "minecrafteducation",
     "name": "Minecraft Education",
     "type": "application",
@@ -69127,36 +66547,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "mir4",
-    "name": "MIR4",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Wemade Next",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "mir4-steam",
-    "name": "MIR4 (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "miragemakerpixelpaletteforai",
     "name": "MirageMaker - Pixel Palette for AI",
     "type": "application",
@@ -69266,21 +66656,6 @@
     "link": "https://apps.microsoft.com/detail/9NZZ6SHB114G",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "mirrors-edge-catalyst",
-    "name": "Mirror's Edge Catalyst",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "miservice",
@@ -69971,21 +67346,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "monster-hunter-rise",
-    "name": "MONSTER HUNTER RISE",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "CAPCOM Co. Ltd.",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "monster-hunter-stories-2-wings-of-ruin",
     "name": "Monster Hunter Stories 2: Wings of Ruin",
     "type": "game",
@@ -69999,21 +67359,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "monster-hunter-world",
-    "name": "Monster Hunter World",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "roleplaying"
-    ],
-    "publisher": "Capcom",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Able to load into the social space but crashes when trying to do quests",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-06-20"
   },
   {
     "slug": "monster-sanctuary",
@@ -70169,21 +67514,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "mordhau",
-    "name": "MORDHAU",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -70453,21 +67783,6 @@
     "link": "https://apps.microsoft.com/detail/9WZDNCRDRW3Z",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "motogp-20-steam",
-    "name": "MotoGP 20 (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "motorsport-manager",
@@ -72326,21 +69641,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "my-world-launcher",
-    "name": "My world launcher (我的世界启动器)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "NetEase",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "my8bitpiano",
     "name": "My 8-bit Piano",
     "type": "application",
@@ -73568,21 +70868,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "naraka-bladepoint",
-    "name": "Naraka: Bladepoint",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "NetEase Games Global",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "narrativewriter",
     "name": "Narrative Writer",
     "type": "application",
@@ -73597,21 +70882,6 @@
     "link": "https://apps.microsoft.com/detail/9PHGBH0F25CH",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "naruto-shippuden-ultimate-ninja-storm-4",
-    "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-22",
-    "shouldShowNotes": false
   },
   {
     "slug": "naruto-x-boruto-ultimate-ninja-storm-connections",
@@ -73805,81 +71075,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "nba-2k20",
-    "name": "NBA 2K20",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "2K Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "nba-2k21",
-    "name": "NBA 2K21",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "2K Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "nba-2k23",
-    "name": "NBA 2K23",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "2K Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "nba-2k24",
-    "name": "NBA 2K24",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "2K Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "nba2k-online-2",
-    "name": "NBA2K Online 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "2K Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "nbcsports",
     "name": "NBC Sports",
     "type": "application",
@@ -73992,21 +71187,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "need-for-speed-2016",
-    "name": "Need For Speed (2016)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "need-for-speed-carbon",
     "name": "Need For Speed Carbon",
     "type": "game",
@@ -74019,36 +71199,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-10-12"
-  },
-  {
-    "slug": "need-for-speed-heat",
-    "name": "Need for Speed Heat",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-18",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "need-for-speed-heat-origin",
-    "name": "Need for Speed Heat (Origin)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "need-for-speed-hot-pursuit",
@@ -74081,36 +71231,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "need-for-speed-most-wanted-2012",
-    "name": "Need for Speed: Most Wanted (2012)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "need-for-speed-online",
-    "name": "Need for Speed Online (极品飞车)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "need-for-speed-payback",
     "name": "Need for Speed Payback",
     "type": "game",
@@ -74123,36 +71243,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "need-for-speed-rivals",
-    "name": "Need For Speed Rivals",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "need-for-speed-unbound",
-    "name": "Need for Speed Unbound",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
     "shouldShowNotes": false
   },
   {
@@ -74604,21 +71694,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "new-world",
-    "name": "New World",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Amazon Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "newageplayer",
     "name": "New Age Player",
     "type": "application",
@@ -74999,21 +72074,6 @@
     "lastUpdated": "2024-10-12"
   },
   {
-    "slug": "nightingale",
-    "name": "Nightingale",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Inflexion",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-09-12"
-  },
-  {
     "slug": "nightingalerestclient",
     "name": "Nightingale REST Client",
     "type": "application",
@@ -75090,21 +72150,6 @@
     "link": "https://github.com/ninja-build/ninja/wiki",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "nioh-2-steam",
-    "name": "Nioh 2 (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "nioh-complete-edition",
@@ -75184,21 +72229,6 @@
     "link": "https://www.kdanmobile.com/noteledge",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "no-mans-sky",
-    "name": "No Man's Sky",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Hello Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "no-more-room-in-hell",
@@ -77595,21 +74625,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "once-human",
-    "name": "Once Human",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Starry Studio",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "one-armed-cook",
     "name": "One-armed cook",
     "type": "game",
@@ -79658,21 +76673,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "paladins",
-    "name": "Paladins",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Hi-Rez Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "paleo-pines",
     "name": "Paleo Pines",
     "type": "game",
@@ -79781,21 +76781,6 @@
     "link": "https://apps.microsoft.com/detail/9nblggh6bzl3",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "palworld",
-    "name": "Palworld",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "PocketPair",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "panaformaeasypdfdataextraction",
@@ -80854,21 +77839,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "pavlov-vr",
-    "name": "Pavlov VR",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "pawa",
     "name": "PAWA",
     "type": "application",
@@ -80883,21 +77853,6 @@
     "link": "https://apps.microsoft.com/detail/9MV27CW02VNT",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "payday-2",
-    "name": "Payday 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "505 Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "payday-3",
@@ -83047,51 +80002,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "persona-4-golden",
-    "name": "Persona 4 Golden",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "roleplaying"
-    ],
-    "publisher": "Atlus",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Character models are completely broken",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-11"
-  },
-  {
-    "slug": "persona-5",
-    "name": "Persona 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "persona-5-royal",
-    "name": "Persona 5 Royal",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "roleplaying"
-    ],
-    "publisher": "Atlus",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Crashes after the loading screen.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-11"
-  },
-  {
     "slug": "persona-5-strikers",
     "name": "Persona 5 Strikers",
     "type": "game",
@@ -83249,51 +80159,6 @@
     "link": "https://apps.microsoft.com/detail/9PGMKJ8FFW7X",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "pga-tour-2k23",
-    "name": "PGA Tour 2K23",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "phantasy-star-online-2",
-    "name": "PHANTASY STAR ONLINE 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "SEGA Corporation",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "phantasy-star-online-2-new-genesis-steam",
-    "name": "Phantasy Star Online 2 New Genesis (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "SEGA Corporation",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "pharaoh-a-new-era",
@@ -86815,21 +83680,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "planet-coaster",
-    "name": "Planet Coaster",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Frontier Developments",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "0",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15"
-  },
-  {
     "slug": "planet-zoo",
     "name": "Planet Zoo",
     "type": "game",
@@ -86905,21 +83755,6 @@
     "link": "https://github.com/Pigeon-Ming/CorePlanetMusicPlayer/releases",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "planetside-2",
-    "name": "Planetside 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "planformmeasuremarkupandmanagepdf",
@@ -87807,21 +84642,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "portal",
-    "name": "Portal",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "0",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01"
   },
   {
     "slug": "portal-2",
@@ -89051,21 +85871,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "pro-evolution-soccer",
-    "name": "Pro Evolution Soccer",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Konami",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "pro-soccer-online",
     "name": "Pro Soccer Online",
     "type": "game",
@@ -89982,21 +86787,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "pubg-battlegrounds",
-    "name": "PUBG: BATTLEGROUNDS",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "KRAFTON Inc.",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Blocked by Anti-cheat",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01"
-  },
-  {
     "slug": "pulsesecurevpn",
     "name": "Pulse Secure VPN",
     "type": "application",
@@ -90730,21 +87520,6 @@
     "link": "https://www.qualys.com/cloud-agent/",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "quantum-break",
-    "name": "Quantum Break",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "quark",
@@ -92163,21 +88938,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "ravenswatch",
-    "name": "Ravenswatch",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "raycast",
     "name": "Raycast",
     "type": "application",
@@ -92576,21 +89336,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "realm-of-the-mad-god",
-    "name": "Realm of the Mad God",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "realm-of-the-mad-god-exalt",
     "name": "Realm of the Mad God Exalt",
     "type": "game",
@@ -92814,21 +89559,6 @@
     "link": "https://www.reaper.fm/download.php",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "rec-room",
-    "name": "Rec Room",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
   },
   {
     "slug": "recipebuddy",
@@ -93118,21 +89848,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH4SR27",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "redfall",
-    "name": "Redfall",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Xbox Games Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "redfingerpro",
@@ -93698,21 +90413,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "remnant-ii",
-    "name": "Remnant II",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Arc Games",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "remoduplicatefileremover",
     "name": "Remo Duplicate File Remover",
     "type": "application",
@@ -93972,21 +90672,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "resident-evil-2-2019",
-    "name": "Resident Evil 2 (2019)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "resident-evil-3",
     "name": "Resident Evil 3",
     "type": "game",
@@ -93999,66 +90684,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "resident-evil-4",
-    "name": "Resident Evil 4",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "resident-evil-4-2023",
-    "name": "Resident Evil 4 (2023)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "resident-evil-5",
-    "name": "Resident Evil 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "resident-evil-6",
-    "name": "Resident Evil 6",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
   },
   {
@@ -94374,21 +90999,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "returnal",
-    "name": "Returnal",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Playstation PC",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "revelationwin",
@@ -94845,21 +91455,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "rising-storm-2-vietnam",
-    "name": "Rising Storm 2: Vietnam",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "rising-storm-red-orchestra-2-multiplayer",
     "name": "Rising Storm Red Orchestra 2 Multiplayer",
     "type": "game",
@@ -94981,21 +91576,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "roblox-studio",
-    "name": "Roblox Studio",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Roblox Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "roboform",
     "name": "RoboForm",
     "type": "application",
@@ -95055,21 +91635,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "rocket-arena",
-    "name": "Rocket Arena",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -95211,21 +91776,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "rogue-company",
-    "name": "Rogue Company",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Digits Crossed Interactive",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -95901,21 +92451,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "rust",
-    "name": "Rust",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Facepunch Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "rust-app",
     "name": "Rust",
     "type": "application",
@@ -95992,21 +92527,6 @@
     "link": "https://apps.microsoft.com/detail/9nblggh1rrh1",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "sackboy-a-big-adventure",
-    "name": "Sackboy: A Big Adventure",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "safe2print",
@@ -96214,21 +92734,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "saints-row-2022-boss-factory",
-    "name": "Saints Row (2022) & Boss Factory",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "saints-row-iv",
@@ -96500,21 +93005,6 @@
     "link": "https://apps.microsoft.com/detail/9P5025MM7WDT",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "san-andreas-multiplayer-sa-mp",
-    "name": "San Andreas Multiplayer (SA-MP)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "Rockstar Games",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Crash once you are in world",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-10-12"
   },
   {
     "slug": "sanabi",
@@ -97004,36 +93494,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "scp-containment-breach-multiplayer",
-    "name": "SCP: Containment Breach Multiplayer",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "scp-secret-laboratory",
-    "name": "SCP: Secret Laboratory",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "scrap-mechanic",
@@ -97724,21 +94184,6 @@
     "link": "https://apps.microsoft.com/detail/9MWCLGJ5XCBS",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "scum",
-    "name": "SCUM",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
   },
   {
     "slug": "sdelete",
@@ -98520,21 +94965,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "session-skate-sim",
-    "name": "Session: Skate Sim",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "settlement-survival",
     "name": "Settlement Survival",
     "type": "game",
@@ -98799,21 +95229,6 @@
     "link": "https://apps.microsoft.com/detail/XPFFCG7M673D4F",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "shatterline",
-    "name": "Shatterline",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "sheepchat",
@@ -99916,21 +96331,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "simcity-2013",
-    "name": "SimCity (2013)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "simcity-4-deluxe",
@@ -101429,21 +97829,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "smalland",
-    "name": "SMALLAND",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "smallbusinessstartupcosts",
     "name": "Small Business Start Up Costs",
     "type": "application",
@@ -101761,21 +98146,6 @@
     "link": "https://apps.microsoft.com/detail/9N4ZSMMJT563",
     "validation": "qualcomm",
     "lastUpdated": "2026-04-17"
-  },
-  {
-    "slug": "smite",
-    "name": "SMITE",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Hi-Rez Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "smokeinpictureeffectsjoke",
@@ -102731,21 +99101,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "sonic-frontiers",
-    "name": "Sonic Frontiers",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "sonic-mania",
     "name": "Sonic Mania",
     "type": "game",
@@ -102758,21 +99113,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-08-12"
-  },
-  {
-    "slug": "sonic-the-hedgehog-4---episode-i",
-    "name": "Sonic the Hedgehog 4 - Episode I",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "platformer"
-    ],
-    "publisher": "Sega",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "The process quietly dies immediately after attempting to launch the game. Only the configuration window, should you choose to launch that instead of the actual game, functions.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-08-27"
   },
   {
     "slug": "sonicpdffastpdfeditorconverter",
@@ -103059,21 +99399,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "soundpad",
-    "name": "Soundpad",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "soundrecorderapp",
     "name": "Sound Recorder App",
     "type": "application",
@@ -103229,21 +99554,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "space-pirate-trainer-vr-steam",
-    "name": "Space Pirate Trainer VR (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -104294,21 +100604,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "squad",
-    "name": "Squad",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "squareartphotoeditorcollagemaker",
     "name": "Square Art Photo Editor - Collage Maker",
     "type": "application",
@@ -104514,21 +100809,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "stalcraft",
-    "name": "Stalcraft",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "standardformcalculator",
     "name": "Standard Form Calculator",
     "type": "application",
@@ -104558,21 +100838,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "star-citizen",
-    "name": "Star Citizen",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "star-conflict",
@@ -104605,21 +100870,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "star-stable-online",
-    "name": "Star Stable Online",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Star Stable Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "star-trek-infinite",
     "name": "Star Trek: Infinite",
     "type": "game",
@@ -104649,21 +100899,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "star-wars-battlefront-2",
-    "name": "Star Wars Battlefront 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Electronic Arts",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "star-wars-battlefront-2-classic-2005",
     "name": "Star Wars: Battlefront 2 (Classic, 2005)",
     "type": "game",
@@ -104679,36 +100914,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "star-wars-battlefront-ii",
-    "name": "STAR WARS Battlefront II",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "star-wars-empire-at-war",
-    "name": "Star Wars: Empire at War",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "star-wars-jedi-fallen-order",
     "name": "STAR WARS Jedi: Fallen Order ",
     "type": "game",
@@ -104721,21 +100926,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "star-wars-jedi-survivor",
-    "name": "STAR WARS Jedi: Survivor",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Respawn",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -104778,21 +100968,6 @@
     "publisher": "Electronic Arts",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "starbound",
-    "name": "Starbound",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Steam",
-    "compatibility": "no",
-    "emulationType": "none",
     "validation": "qualcomm",
     "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
@@ -105829,21 +102004,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "stranded-alien-dawn",
-    "name": "Stranded: Alien Dawn",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Frontier Developments",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "stranded-deep",
     "name": "Stranded Deep",
     "type": "game",
@@ -106370,21 +102530,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "subnautica-below-zero",
-    "name": "Subnautica: Below Zero",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
     "shouldShowNotes": false
   },
   {
@@ -107239,21 +103384,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "supreme-command-forged-alliance",
-    "name": "Supreme Command: Forged Alliance",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Square Enix",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "To get the program to run, find you game install location, SupremeCommander.exe, right-click, properties, compatibility, select 'Change emulation settings'. Then tick 'Use advanced settings' and select 'Disable hybrid execution mode (x86 apps only)'.",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-09-02"
   },
   {
     "slug": "supreme-commander-2",
@@ -108273,21 +104403,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "tales-of-kenzera-zau",
-    "name": "Tales of Kenzera: Zau",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-22",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "talisman-digital-edition",
     "name": "Talisman: Digital Edition",
     "type": "game",
@@ -109290,21 +105405,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "tekken-8",
-    "name": "Tekken 8",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "telegram",
     "name": "Telegram",
     "type": "application",
@@ -109381,21 +105481,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01"
-  },
-  {
-    "slug": "tencent-qq-speed-qq",
-    "name": "Tencent QQ Speed (QQ飞车)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Tencent",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "tencentappstore",
@@ -110429,21 +106514,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "the-callisto-protocol",
-    "name": "The Callisto Protocol",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "the-case-of-the-golden-idol",
     "name": "The Case of the Golden Idol",
     "type": "game",
@@ -110500,21 +106570,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "the-cycle-frontier",
-    "name": "The Cycle: Frontier",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -110622,36 +106677,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "the-finals",
-    "name": "The Finals",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Embark Studios",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "the-first-descendant",
-    "name": "The First Descendant",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "NEXON",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Game refuses to launch, ARM64 not supported",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-02"
-  },
-  {
     "slug": "the-forest",
     "name": "The Forest",
     "type": "game",
@@ -110757,21 +106782,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "the-isle",
-    "name": "The Isle",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "the-jackbox-party-pack-3",
     "name": "The Jackbox Party Pack 3",
     "type": "game",
@@ -110845,21 +106855,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "the-last-of-us-part-i",
-    "name": "The Last of Us Part I",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Naughty Dog",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "the-last-spell",
     "name": "The Last Spell",
     "type": "game",
@@ -110902,21 +106897,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "the-long-drive",
-    "name": "The Long Drive",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -112096,21 +108076,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "tilt-brush-steam",
-    "name": "Tilt Brush (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Google",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "tim",
     "name": "TIM",
     "type": "application",
@@ -112902,64 +108867,6 @@
     "lastUpdated": "2024-09-04"
   },
   {
-    "slug": "tom-clancys-ghost-recon-breakpoint",
-    "name": "Tom Clancy's Ghost Recon Breakpoint",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "tom-clancys-ghost-recon-wildlands",
-    "name": "Tom Clancy's Ghost Recon Wildlands",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "tom-clancys-rainbow-six-extraction",
-    "name": "Tom Clancy’s Rainbow Six Extraction",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15"
-  },
-  {
-    "slug": "tom-clancys-rainbow-six-siege",
-    "name": "Tom Clancy's Rainbow Six Siege",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "na",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02"
-  },
-  {
     "slug": "tom-clancys-the-division",
     "name": "Tom Clancy's The Division",
     "type": "game",
@@ -112972,20 +108879,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-03-25"
-  },
-  {
-    "slug": "tom-clancys-the-division-2",
-    "name": "Tom Clancy's The Division 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "na",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01"
   },
   {
     "slug": "tomatomusic",
@@ -113649,21 +109542,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "totally-accurate-battlegrounds",
-    "name": "Totally Accurate Battlegrounds",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "totalpccleanerfreediskspacecleanupoptimizememorywindowssystem",
     "name": "Total PC Cleaner - Free Disk Space Clean Up, Optimize Memory & Windows System",
     "type": "application",
@@ -113805,21 +109683,6 @@
     "link": "https://apps.microsoft.com/detail/9WZDNCRFJ9Q6",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "tower-of-fantasy",
-    "name": "Tower of Fantasy",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-29",
-    "shouldShowNotes": false
   },
   {
     "slug": "tower-unite",
@@ -114660,21 +110523,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "trials-on-tatooine-steam",
-    "name": "Trials on Tatooine (Steam)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
     "shouldShowNotes": false
   },
   {
@@ -116661,21 +112509,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "uncharted-legacy-of-thieves-collection",
-    "name": "Uncharted: Legacy of Thieves Collection",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "uncharted-waters-origin",
     "name": "Uncharted Waters Origin",
     "type": "game",
@@ -117556,21 +113389,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "unravel-two",
-    "name": "Unravel Two",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "unsolved-case",
     "name": "Unsolved Case",
     "type": "game",
@@ -118132,21 +113950,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "valorant",
-    "name": "Valorant",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Riot Games",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Blocked by Anti-cheat",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01"
-  },
-  {
     "slug": "vampire-survivors",
     "name": "Vampire Survivors",
     "type": "game",
@@ -118159,21 +113962,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-03-25",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "vampire-the-masquerade---bloodhunt",
-    "name": "Vampire: The Masquerade - Bloodhunt",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -118206,21 +113994,6 @@
     "link": "https://apps.microsoft.com/detail/9PF5PFTSNWPT",
     "validation": "microsoft",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "vanguard",
-    "name": "Vanguard",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Riot",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
   },
   {
     "slug": "vanquish",
@@ -118618,21 +114391,6 @@
     "link": "https://apps.microsoft.com/detail/xpfm5p5kdwf0jp",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "victoria-3",
-    "name": "Victoria 3",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
   },
   {
     "slug": "victoria-ii",
@@ -121184,21 +116942,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "vrchat",
-    "name": "VRChat",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "vsco",
     "name": "VSCO",
     "type": "application",
@@ -121278,21 +117021,6 @@
     "link": "https://apps.microsoft.com/detail/9NBLGGH5FPKL",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "vtol-vr",
-    "name": "VTOL VR",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "vtube-studio",
@@ -121881,21 +117609,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "war-thunder",
-    "name": "War Thunder",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Gaijin Entertainment",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "warehousemanagement",
     "name": "Warehouse Management",
     "type": "application",
@@ -121968,21 +117681,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "warhammer-40000-darktide",
-    "name": "Warhammer 40,000: Darktide",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -122134,21 +117832,6 @@
     "lastUpdated": "2024-04-01"
   },
   {
-    "slug": "warhammer-vermintide-2",
-    "name": "Warhammer: Vermintide 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "warm-snow",
     "name": "Warm Snow",
     "type": "game",
@@ -122297,51 +117980,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "watch-dogs",
-    "name": "Watch Dogs",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Ubisoft",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "watch-dogs-2",
-    "name": "Watch Dogs 2",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-04-15",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "watch-dogs-legion",
-    "name": "Watch Dogs: Legion",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "UBISOFT",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
     "shouldShowNotes": false
   },
   {
@@ -123742,21 +119380,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "wild-hearts",
-    "name": "Wild Hearts",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "wildermyth",
     "name": "Wildermyth",
     "type": "game",
@@ -125087,21 +120710,6 @@
     "lastUpdated": "2026-04-17"
   },
   {
-    "slug": "wo-long-fallen-dynasty",
-    "name": "Wo Long: Fallen Dynasty",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "wobbly-life",
     "name": "Wobbly Life",
     "type": "game",
@@ -125847,21 +121455,6 @@
     "shouldShowNotes": false
   },
   {
-    "slug": "world-of-warplanes",
-    "name": "World of Warplanes",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "Wargaming.net",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2026-03-02",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "world-of-warships",
     "name": "World of Warships",
     "type": "game",
@@ -125889,21 +121482,6 @@
     "emulationType": "emulation",
     "validation": "qualcomm",
     "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
-  },
-  {
-    "slug": "world-war-z",
-    "name": "World War Z",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
     "shouldShowNotes": false
   },
   {
@@ -126480,21 +122058,6 @@
     "lastUpdated": "2026-03-02"
   },
   {
-    "slug": "wwe-2k23",
-    "name": "WWE 2K23",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-05-15",
-    "shouldShowNotes": false
-  },
-  {
     "slug": "wwwwebbrowser",
     "name": "WWW Web Browser",
     "type": "application",
@@ -126541,21 +122104,6 @@
     "link": "https://apps.microsoft.com/detail/9p1z9sm8fpnk",
     "validation": "qualcomm",
     "lastUpdated": "2026-03-02"
-  },
-  {
-    "slug": "x4-foundations",
-    "name": "X4: Foundations",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "unknown"
-    ],
-    "publisher": "",
-    "compatibility": "no",
-    "emulationType": "none",
-    "validation": "qualcomm",
-    "lastUpdated": "2023-11-01",
-    "shouldShowNotes": false
   },
   {
     "slug": "xamarinlogomaker",
@@ -127738,21 +123286,6 @@
     "validation": "qualcomm",
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
-  },
-  {
-    "slug": "yakuza-5",
-    "name": "Yakuza 5",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "SEGA",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "Crashes on startup, tested using Steam",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-11"
   },
   {
     "slug": "yandex",
@@ -129227,21 +124760,6 @@
     "publisher": "miHoYo/HoyoVerse",
     "compatibility": "yes",
     "emulationType": "emulation",
-    "validation": "qualcomm",
-    "lastUpdated": "2024-07-03"
-  },
-  {
-    "slug": "zenless-zone-zero-cn-server",
-    "name": "Zenless Zone Zero (CN Server)",
-    "type": "game",
-    "icon": "gaming-icon-white.svg",
-    "categories": [
-      "actionandadventure"
-    ],
-    "publisher": "miHoYo",
-    "compatibility": "no",
-    "emulationType": "na",
-    "compatibilityDetails": "CPU usage 0%",
     "validation": "qualcomm",
     "lastUpdated": "2024-07-03"
   },

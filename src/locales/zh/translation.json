@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "热门应用程序",
-    "subtitle": "Windows 在 Arm 上支持超过 5,000 个热门应用",
+    "subtitle": "Windows 在 Arm 上支持超过 7,000 个热门应用",
     "seeAll": "查看所有 Windows 应用",
     "columns": {
       "name": "名称",

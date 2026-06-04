@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "인기 애플리케이션",
-    "subtitle": "Windows는 Arm에서 5,000개 이상의 인기 앱을 지원합니다",
+    "subtitle": "Windows는 Arm에서 7,000개 이상의 인기 앱을 지원합니다",
     "seeAll": "모든 Windows 앱 보기",
     "columns": {
       "name": "이름",
