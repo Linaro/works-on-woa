@@ -1762,7 +1762,7 @@
     ],
     "publisher": "Ableton",
     "compatibility": "yes",
-    "emulationType": "native",
+    "emulationType": "emulation",
     "link": "https://www.ableton.com/",
     "validation": "qualcomm",
     "lastUpdated": "2026-05-08",
