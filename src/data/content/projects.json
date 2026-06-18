@@ -44358,16 +44358,18 @@
     "slug": "geometry-dash",
     "name": "Geometry Dash",
     "type": "game",
-    "icon": "gaming-icon-white.svg",
+    "icon": "GeometryDash.png",
     "categories": [
-      "unknown"
+      "platformer"
     ],
-    "publisher": "",
+    "publisher": "RobTop Games",
     "compatibility": "yes",
     "emulationType": "emulation",
+    "link": "https://store.steampowered.com/app/322170/Geometry_Dash/",
     "validation": "qualcomm",
-    "lastUpdated": "2024-04-01",
-    "shouldShowNotes": false
+    "lastUpdated": "2026-06-17",
+    "notes": "Steam version of this video game by RobTop Games (https://www.geometrydash.com/contact) works under x64 emulation on Windows on ARM.",
+    "shouldShowNotes": true
   },
   {
     "slug": "geometrypainter",
