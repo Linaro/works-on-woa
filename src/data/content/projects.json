@@ -144762,5 +144762,41 @@
     "lastUpdated": "2026-07-15",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "carbon-black-app-control-windows-agent",
+    "name": "Carbon Black App Control Windows Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "VMware",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.9.4",
+    "link": "https://techdocs.broadcom.com/us/en/carbon-black/app-control/app-control-agents/index/appc-release-notes_tile_agents/carbon-black-app-control-windows-agent/windows-agent-8-12-0-release-notes.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-17",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "anyverse",
+    "name": "Anyverse",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Anyverse",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://anyverse.ai/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-17",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
