@@ -139488,5 +139488,4361 @@
     "link": "https://www.ichano.cn/download.html",
     "validation": "qualcomm",
     "lastUpdated": "2026-05-22"
+  },
+  {
+    "slug": "nv-access",
+    "name": "NV Access",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "NV Access",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.nvaccess.org/about-nvda/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "goguardian",
+    "name": "GoGuardian",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "GoGuardian",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://support.goguardian.com/s/article/What-is-the-GoGuardian-App",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pan-cortex",
+    "name": "PAN Cortex",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Palo Alto Networks Inc",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-4.x-Release-Notes/Release-Information",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "texthelp-read-write",
+    "name": "Texthelp Read&Write",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "TextHelp",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://support.texthelp.com/help/system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "fortiedr-unified-collector",
+    "name": "FortiEDR Unified Collector",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Fortinet",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.1.1.1281",
+    "link": "https://docs.fortinet.com/document/fortiedr/7.2.0/fortiedr-unified-collector-for-windows-and-macos-6-1-1-1281-release-notes/172759/whats-new",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "symantec-encryption",
+    "name": "Symantec Encryption",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Symantec Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/endpoint-security/sescloud/Release-Notes/system-requirements-for-v118544952-d4161e11232.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endpoint-media-encryption-and-port-protection",
+    "name": "Endpoint Media Encryption and Port Protection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Checkpoint",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://support.checkpoint.com/results/sk/sk182237",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "vmware-horizon-client",
+    "name": "VMware Horizon Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "VMware",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.0",
+    "link": "https://docs.vmware.com/en/VMware-Horizon-Client-for-Windows/2309/rn/vmware-horizon-client-for-windows-2309-release-notes/index.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "forcepoint-f1e",
+    "name": "Forcepoint F1E",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Forcepoint",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.06",
+    "link": "https://help.forcepoint.com/F1E/en-us/v24/ep_release_notes/release_notes_24_06.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "check-point-vpn-ve87-x",
+    "name": "Check Point VPN vE87.x",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Check Point",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.checkpoint.com/results/sk/sk181447",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cato-client",
+    "name": "Cato Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Cato Networks",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.0",
+    "link": "https://support.catonetworks.com/hc/en-us/articles/34147870632221-Product-Updates-February-23-2026",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "webex",
+    "name": "Webex",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Cisco",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "45.10.0.33234",
+    "link": "https://help.webex.com/en-us/article/8dmbcr/What's-New-in-Webex-Suite#reference-template_10b52a62-7166-47df-8f0a-5248f1b5c22b",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "photoshop",
+    "name": "Photoshop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Adobe",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://helpx.adobe.com/photoshop/system-requirements.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "webroot",
+    "name": "Webroot",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Opentext",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.webroot.com/us/en/support/system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "check-point-harmony-sase-agent",
+    "name": "Check Point Harmony SASE Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Check Point Software Technologies Ltd",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.perimeter81.com/docs/downloading-the-agent#downloading-the-harmony-sase-agent",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "zscaler",
+    "name": "Zscaler",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Zscaler",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.8",
+    "link": "https://www.zscaler.com/blogs/product-insights/zscaler-partners-microsoft-secure-lte-arm-devices",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cisco-secure-endpoint",
+    "name": "Cisco Secure Endpoint",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Cisco",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.4.1.30307",
+    "link": "https://console.amp.cisco.com/help/en/Content/Secure_Endpoint_User_Guide/Release_Notes/202408.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bitdefender-endpoint-security-tools",
+    "name": "Bitdefender Endpoint Security Tools",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Bitdefender",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.6.13.183",
+    "link": "https://www.bitdefender.com/business/support/en/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "crowdstrike-arm-application",
+    "name": "CrowdStrike ARM Application",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Crowdstrike",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.56",
+    "link": "https://www.crowdstrike.co.uk/products/faq/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "huorong-security",
+    "name": "Huorong Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Beijing Huorong Network Technology Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.0.64.3",
+    "link": "https://www.huorong.cn/info/1669714962942.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "secure-connector",
+    "name": "Secure Connector",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Forescout",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.2",
+    "link": "https://compatibility.forescout.com/microsoft-windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "safenet-authentication-client-v0-0-arm",
+    "name": "SafeNet Authentication Client v0.0 ARM",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Thales",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://cpl.thalesgroup.com/access-management/security-applications/authentication-client-token-management",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cisco-duo-for-windows-logon-and-rdp",
+    "name": "Cisco Duo for Windows Logon and RDP",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Cisco",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.2.0",
+    "link": "https://duo.com/docs/rdp",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "carbon-black-cloud-sensor",
+    "name": "Carbon Black Cloud Sensor",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "VMware",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.9",
+    "link": "https://docs.vmware.com/en/VMware-Carbon-Black-Cloud/3.9.0.2357/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pulse-secure-client",
+    "name": "Pulse Secure Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Pulse Secure",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "9.1.2",
+    "link": "https://help.ivanti.com/ps/help/en_US/PDC/9.1R14/rn/new_features.htm#Release22",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cisco-anyconnect-secure-mobility-client",
+    "name": "Cisco AnyConnect Secure Mobility Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Cisco",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.10",
+    "link": "https://www.cisco.com/c/en/us/td/docs/security/vpn_client",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "workspace-one-v0-arm",
+    "name": "Workspace One v0 ARM",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "VMware, Inc.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://blogs.vmware.com/euc/2022/02/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "rsa-netwitness-endpoint",
+    "name": "RSA NetWitness Endpoint",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "RSA",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.4.1",
+    "link": "https://community.netwitness.com/t5/netwitness-platform-product",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endpoint-manager",
+    "name": "Endpoint Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Ivanti",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2023",
+    "link": "https://forums.ivanti.com/s/article/About-ARM-processor-support-in-EPM?language=en_US#:~:text=Ivanti%20EPM%20supports%20and%20enables%20administrators%20to%20manage%20the%20latest",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "workspace-app",
+    "name": "Workspace App",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Citrix",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1",
+    "link": "https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "citrix-endpoint-management-v0-0-arm",
+    "name": "Citrix Endpoint Management v0.0 ARM",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Citrix",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://docs.citrix.com/en-us/citrix-endpoint-management/system-requirements/supported-device-platforms",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "dell-optimizer",
+    "name": "Dell Optimizer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Dell",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.dell.com/en-us/shop/dell-laptops/new-xps-13/spd/xps-13-9345-laptop/usexchbts9345hchl?ref=variantstack",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "coreldraw-arm",
+    "name": "CorelDRAW ARM",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Corel Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://apps.microsoft.com/detail/9pbl2kqxq47k?hl=en-US&gl=US",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "visio",
+    "name": "Visio",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://support.microsoft.com/en-us/office/compare-visio-versions-and-features-c659cbc1-34c7-42d8-92e6-80c87fb572a7",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "microsoft-endpoint-dlp-data-loss-protection",
+    "name": "Microsoft Endpoint DLP Data Loss Protection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-s-new-with-windows-at-microsoft-ignite-2023/ba-p/3980507",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "connectwise-automate",
+    "name": "ConnectWise Automate",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "ConnectWise",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://docs.connectwise.com/ConnectWise_Automate_Documentation/040/010",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "trellix-dlp-endpoint",
+    "name": "Trellix DLP Endpoint",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Trellix",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "11.12.1",
+    "link": "https://docs.trellix.com/bundle/data-loss-prevention-endpoint-windows-11.12.x-release-notes/page/UUID-f745d740-03c7-e25c-f037-9c5515a59e95.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "aurora-endpoint-security",
+    "name": "Aurora Endpoint Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Arctic Wolf Networks",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://docs.arcticwolf.com/en/aurora-endpoint-security/aurora-endpoint-security-setup/aurora-endpoint-security-setup-guide/prerequisites/aurora-protect-desktop",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "eset",
+    "name": "Eset",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Eset Spol S R.O.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.28.32.0",
+    "link": "https://www.eset.com/blog/business/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "trellix-endpoint-security",
+    "name": "Trellix Endpoint Security (ENS)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Trellix",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.7.0",
+    "link": "https://docs.trellix.com/bundle/trellix-endpoint-security-10.7.x-release-notes/page/UUID-1cacf0a9-4dd2-8b7f-b34a-9756dc941808.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "beyond-trust-endpoint-privilege-management",
+    "name": "Beyond Trust Endpoint Privilege Management",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Beyond Trust",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.beyondtrust.com/docs/release-notes/privilege-management/windows-and-mac/cloud/epm-cloud-24-7.htm?utm_source=feedotter&utm_medium=email&utm_campaign=FO-11-12-2024&utm_content=httpswwwbeyondtrustcomdocsreleasenotesprivilegemanagementwindowsandmaccloudepmcloud247htm&elqTrack=true",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endpoint-protection",
+    "name": "Endpoint Protection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Panda Security",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.71.00",
+    "link": "https://www.pandasecurity.com/en/mediacenter/panda-security/aether-protection-for-windows-on-arm/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "convo-relay",
+    "name": "Convo Relay",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Convo Relay",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.convorelay.com/en/articles/885966-what-is-the-system-requirements-for-convo-on-windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "claroread",
+    "name": "ClaroRead",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "TextHelp Systems",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.texthelp.com/help/system-requirements-for-claroread",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "policypak",
+    "name": "PolicyPak",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Netwrix",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3375",
+    "link": "https://kb.policypak.com/kb/article/1308-policypak-arm-support-supportability-statement/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "absolute-secure-endpoint-agent",
+    "name": "Absolute Secure Endpoint Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Absolute",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.absolute.com/platform/requirements/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netskope-client-npa",
+    "name": "Netskope client - NPA",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Netskope",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "123.0.0",
+    "link": "https://docs.netskope.com/en/netskope-release-notes-version-123-0-0/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "foxit-reader",
+    "name": "Foxit Reader",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Foxit",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.0",
+    "link": "https://www.foxit.com/pdf-reader/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "withsecure-endpoint-protection",
+    "name": "WithSecure Endpoint Protection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "WithSecure",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.2",
+    "link": "https://community.withsecure.com/discussion/comment/130615#Comment_130615",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "symantec-data-loss-prevention",
+    "name": "Symantec Data Loss Prevention",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Broadcom",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "15.8",
+    "link": "https://knowledge.broadcom.com/external/article?articleId=273805",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "control-plane",
+    "name": "Control Plane",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Venafi",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0",
+    "link": "https://docs.venafi.com/Docs/current/TopNav/Content/Agent/r-agent-install-supportedOSes.php?Highlight=venafi%20support%20windows%2011",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "expressvpn-vn-a",
+    "name": "ExpressVPN vN/A",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Express Technologies Ltd",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/store/detail/XP9M14XF781P6R?ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "universal-discovery-and-cmdb",
+    "name": "Universal Discovery and CMDB",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Opentext",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2022.11",
+    "link": "https://docs.microfocus.com/doc/Universal_Discovery_Content_Pack/24.1/AgentScannerSupport#Windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "chrome",
+    "name": "Chrome",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Google",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "65",
+    "link": "https://blog.google/products/chrome/download-google-chrome-windows-pc-arm/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "themida",
+    "name": "Themida",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Oreans Technologies",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.1.4.0",
+    "link": "https://oreans.com/Release/VirtualizerArm64Install.exe",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "securezip",
+    "name": "SecureZIP",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "PKware",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "14.5",
+    "link": "https://www.pkware.com/products/securezip",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pk-protect-endpoint-manager",
+    "name": "PK Protect Endpoint Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "PKware",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "19.5.67",
+    "link": "https://www.pkware.com/products/pk-endpoint-manager",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "figma-desktop",
+    "name": "Figma Desktop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Figma",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.figma.com/download/desktop/win-arm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "encase-endpoint-security-agent",
+    "name": "EnCase Endpoint Security Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Opentext",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "22.2",
+    "link": "https://support.opentext.com/csm?id=search&spa=1&q=%23EndpointInvestigator24.4",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bloomberg-terminal-software",
+    "name": "Bloomberg Terminal software",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Bloomberg",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2022",
+    "link": "https://assets.bbhub.io/professional/sites/10/workstation_requirements_85en.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "thousandeyes-platform",
+    "name": "ThousandEyes Platform",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Thousand Eyes",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0",
+    "link": "https://docs.thousandeyes.com/whats-new/changelog#thousandeyes-endpoint-agent-support-for-arm-based-windows-and-macos-platforms",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ahnlab-v3-365-clinic",
+    "name": "AhnLab V3 365 Clinic",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "AhnLab",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=15",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "telegram-desktop",
+    "name": "Telegram Desktop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Telegram",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.9.3",
+    "link": "https://github.com/telegramdesktop/tdesktop/releases/tag/v5.7.2",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "qq-music",
+    "name": "QQ Music",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Tencent",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "19.44.0",
+    "link": "https://apps.microsoft.com/detail/9WZDNCRFJ1Q1?gl=CN&hl=zh-cn",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "banking-u-shield",
+    "name": "Banking U-shield (ABC/ICBC/SPDB/)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Tendyron",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0",
+    "link": "http://www.tendyron.com/wysafe.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "tencent-video",
+    "name": "Tencent Video",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Tencent",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0",
+    "link": "https://v.qq.com/download.html#Windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "power-director",
+    "name": "Power Director",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "CyberLink",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.0.9118",
+    "link": "https://www.cyberlink.com/products/powerdirector-video-editing-software/specs_en_US.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netskope-client-casb-swg",
+    "name": "Netskope Client - CASB/SWG",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Netskope",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://docs.netskope.com/en/netskope-help/traffic-steering/netskope-client/netskope-client-supported-os-and-platform/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "matlab-r2025b",
+    "name": "MATLAB R2025b",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "MathWorks",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.mathworks.com/matlabcentral/answers/2182415-is-matlab-supported-on-windows-on-arm-devices",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "securezip-server",
+    "name": "SecureZip Server",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "PKware",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://www.pkware.com/products/securezip",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "digicert-pki-client",
+    "name": "DigiCert PKI Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "DigiCert",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://docs.digicert.com/en/digicert-one.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "vpn",
+    "name": "天清汉马VPN",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "启明星辰(VenusTech)",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.3.3.32",
+    "link": "https://www.venustech.com.cn/new_type/VPNmmj/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "hp-wolf-enterprise-security",
+    "name": "HP Wolf Enterprise Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "HP",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.019.378",
+    "link": "https://threatresearch.ext.hp.com/bringing-threat-containment-to-arm/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "einstein-activity-capture-v0-arm",
+    "name": "Einstein Activity Capture v0 Arm",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "SalesForce",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://help.salesforce.com/s/articleView?id=sf.aac_system_requirements.htm&type=5",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "unnamed-app",
+    "name": "同花顺(RoyalFlush)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "浙江核新同花顺网络信息股份有限公司",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "9.20.71",
+    "link": "https://apps.microsoft.com/detail/xp99vsxh2mlsvc?hl=zh-cn&gl=CN",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ccc-one",
+    "name": "CCC ONE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "CCC Intelligent Solutions Inc",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://assets.website-files.com/6489e7b6fc92d5cfa861ba7f/6552fb1c32645f7dd54e5238_CCC-ONE-Technical-Requirements-FINAL.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "citrix-workspace-app-protection",
+    "name": "Citrix Workspace - App Protection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Citrix",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2508",
+    "link": "https://docs.citrix.com/en-us/citrix-workspace-app-for-windows/whats-new#app-protection-support-for-arm64-on-windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "firefox-uwp-arm",
+    "name": "Firefox UWP Arm",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Mozilla",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.mozilla.org/en-US/firefox/all/#product-desktop-release",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "eclipse-temurin-jre",
+    "name": "Eclipse Temurin JRE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Eclipse Foundation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.8.0_372",
+    "link": "https://adoptium.net/temurin/releases",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "avast-av",
+    "name": "Avast AV",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Gen Digital",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.avast.com/premium-security?full_trSrc=mmm_ava_tst_007_402_c&om_sem_cid=hho_sem_sy:~en-ww_ava_sch_brn_exc_bng_dtp~&gclid=d6804c6369f91c9f76c32b3a280262e0&gclsrc=3p.ds&msclkid=d6804c6369f91c9f76c32b3a280262e0&utm_source=bing&utm_medium=cpc&utm_campaign=en-ww_ava_sch_brn_exc_bng_dtp&utm_term=avast%20premium%20free&utm_content=premier-exact?full_trSrc=mmm_ava_tst_007_402_c&om_sem_cid=hho_sem_sy:~en-ww_ava_sch_brn_exc_bng_dtp~&gclid=d6804c6369f91c9f76c32b3a280262e0&gclsrc=3p.ds&msclkid=d6804c6369f91c9f76c32b3a280262e0&utm_source=bing&utm_medium=cpc&utm_campaign=en-ww_ava_sch_brn_exc_bng_dtp&utm_term=avast%20premium%20free&utm_content=premier-exact#pc",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cinebench-ms-store",
+    "name": "Cinebench – MS Store",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Maxon Computers",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/detail/9PGZKJC81Q7J?hl=en-us&gl=RO&ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endnote",
+    "name": "EndNote",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Clarivate",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "20.4.1.16297",
+    "link": "https://endnote.com/product-details/compatibility/#windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "workspace-one-tunnel-feature-arm",
+    "name": "Workspace ONE Tunnel Feature Arm",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Omnissa",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://docs.omnissa.com/bundle/Workspace_ONE_Tunnel_Windows-RN/page/Tunnel-Windows-ReleaseNotes.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netwrix-endpoint-protector",
+    "name": "Netwrix Endpoint Protector",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Netwrix",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2605",
+    "link": "https://community.netwrix.com/t/netwrix-endpoint-protector-client-version-2605-release-notes/130335",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "app-control",
+    "name": "App Control",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Ivanti",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.2",
+    "link": "https://help.ivanti.com/ap/help/en_US/am/2025/Content/AC%C2%A0for%20ARM%20Features%20Release%20Notes.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "backup-agent",
+    "name": "Backup agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Code42",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "12",
+    "link": "https://support.code42.com/hc/en-us/articles/14827695243415-Backup-agent-version-12-release-notes#h_01HC38FS6197DDZ8FYJNG20SED",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "norton",
+    "name": "Norton",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Gen Digital",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.norton.com/sp/en/my/norton-download-install/current/solutions/v130433626",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "2345-browser",
+    "name": "2345 Browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "2345",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0",
+    "link": "https://ie.2345.cc/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "vegas-pro",
+    "name": "Vegas Pro",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Magix",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "22",
+    "link": "https://www.vegascreativesoftware.com/us/vegas-pro/whats-new/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "examplify",
+    "name": "Examplify",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Examsoft/Turntin LLC",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.0",
+    "link": "https://examsoft.com/resources/examplify-minimum-system-requirements/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netease-youdao-cloud-notes",
+    "name": "NetEase Youdao Cloud Notes",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "NetEase",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.0.20",
+    "link": "https://note.youdao.com/note-download/?keyfrom=ydoc",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "windows-app",
+    "name": "Windows App",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://learn.microsoft.com/en-us/windows-app/get-started-connect-devices-desktops-apps?tabs=windows-avd%2Cwindows-w365%2Cwindows-devbox%2Cmacos-rds%2Cmacos-pc&pivots=azure-virtual-desktop#prerequisites",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pango-vpn",
+    "name": "Pango VPN",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Pango Group",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.pango.co/vpn",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "docuworks",
+    "name": "DocuWorks",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "FUJIFILM Business Innovation Corp.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "9.0",
+    "link": "https://www.fujifilm.com/fb/ja/support/software/document-management/docuworks/info/dw10/183",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "asset-view",
+    "name": "Asset View",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Qualys",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://success.qualys.com/customersupport/s/cloud-agent-pam",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cyberark-end-point-manager",
+    "name": "CyberArk End Point Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "CyberArk",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "24.9.0",
+    "link": "https://docs.cyberark.com/EPM-onprem/Latest/en/Content/EPM_PET/Endpoint%20Machines%20Supported%20Operating%20Systems.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "rsat-remote-server-administration-tools",
+    "name": "RSAT Remote Server Administration Tools",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://windowsforum.com/threads/windows-11-february-2026-optional-preview-sysmon-in-box-rsat-arm64-taskbar-speed-test.403130/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "splashtop-buisiness-application",
+    "name": "Splashtop Buisiness Application",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Splashtop",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0",
+    "link": "https://support-splashtopbusiness.splashtop.com/hc/en-us/articles/212729003-System-Requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "todoist",
+    "name": "Todoist",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Doist",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/store/detail/XP99K37G9CWBDC?ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endpoint-privilege-manager",
+    "name": "Endpoint Privilege Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Admin by Request",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1",
+    "link": "https://docs.adminbyrequest.com/release-notes.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sophos-connect",
+    "name": "Sophos Connect",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Sophos",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.5",
+    "link": "https://community.sophos.com/sophos-xg-firewall/b/blog/posts/sophos-connect-2-5-for-windows-arm-and-x64-now-available",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "endpoint-security-agent",
+    "name": "Endpoint Security Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Symantec",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/cloud-swg/help/conn-about-wssa/about-esa.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "yuja-software-capture",
+    "name": "Yuja Software Capture",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Yuja",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://updates.yuja.com/category/product/lecture-capture/?utm_source=chatgpt.com",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sunlogin-remote-control-v15-8-0-17603-2024-11",
+    "name": "Sunlogin Remote Control v15.8.0.17603（2024.11）",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "贝锐信息科技股份有限公司",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://sunlogin.oray.com/download",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "threathlocker-agent",
+    "name": "ThreathLocker Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "ThreatLocker",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://threatlocker.kb.help/minimum-system-requirements/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "poly-lens",
+    "name": "Poly Lens",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Poly",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.16",
+    "link": "https://www.hp.com/us-en/poly/software-and-services/software/poly-lens/app.html?jumpid=va_us_na_ot_hc__x_ot",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "logic",
+    "name": "Logic",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Saleae",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.4.14",
+    "link": "https://support.saleae.com/getting-help/troubleshooting/technical-faq/can-logic-run-on-arm#windows-arm-support",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "purview-information-protection-client",
+    "name": "Purview Information Protection Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://learn.microsoft.com/en-us/purview/information-protection-client?tabs=devices%2Cinstall-client-exe%2Cclassification-file-types%2Cexcluded-folders#requirements-for-deploying-the-information-protection-client",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sogou-wubi-ime",
+    "name": "Sogou Wubi IME (搜狗五笔输入法)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sogou",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0",
+    "link": "https://wubi.sogou.com/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "desktop-security",
+    "name": "Desktop Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "MalwareBytes",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.2",
+    "link": "https://support.malwarebytes.com/hc/en-us/articles/38107793753491-Features-available-on-ARM-based-devices",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "janison-replay-lockdown-browser",
+    "name": "Janison replay lockdown browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Janison",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0",
+    "link": "https://help.janison.com/janison-academy/supported-browsers-and-platforms/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cloud-secure-edge",
+    "name": "Cloud Secure Edge",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "SonicWall",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.1.2",
+    "link": "https://docs.banyansecurity.io/docs/banyan-components/desktop-app/installation-registration/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "hidemaru-editor",
+    "name": "Hidemaru Editor (秀丸エディタ)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Saitou Kikaku Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://hide.maruo.co.jp/arm64.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "domo",
+    "name": "Domo",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Domo",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0",
+    "link": "https://domo-support.domo.com/s/article/360043427193?language=en_US",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "quicken-classic",
+    "name": "Quicken Classic",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Rocket Mortgage",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://worksonwoa.com/apps/quickendeluxe",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "onenote-printer-support-application",
+    "name": "OneNote Printer Support Application",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.microsoft.com/en-us/office/print-documents-and-files-to-onenote-3b6048a9-cd98-46b8-a121-87dfe861e977",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bitwarden-password-manager",
+    "name": "Bitwarden Password Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Bitwarden",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://bitwarden.com/download/#downloads-desktop",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "camtasia",
+    "name": "Camtasia",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "TechSmith",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.1.5",
+    "link": "https://www.techsmith.com/camtasia/system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "zwcad-2025",
+    "name": "ZWCAD_2025",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "ZWSOFT",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://confluence.zwcad.com/pages/viewpage.action?pageId=215056755",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "partition-assistant",
+    "name": "Partition Assistant",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "AOMEI",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.diskpart.com/free-partition-manager.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "eclipse-ide",
+    "name": "Eclipse IDE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Parasoft Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2024-03",
+    "link": "https://www.eclipse.org/downloads/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "systeminfo",
+    "name": "SystemInfo",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "UL Solutions",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://benchmarks.ul.com/systeminfo",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pycharm",
+    "name": "PyCharm",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "JetBrains s.r.o.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2024.2.1",
+    "link": "https://www.jetbrains.com/pycharm/download/?section=windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "yayoi-kyuryo",
+    "name": "Yayoi Kyuryo",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Yayoi",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.yayoi-kk.co.jp/products/spec/dt_os_support_win11_arm/?msockid=175bb68336756f6e1515a31a37286efe",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bitdefender-vpn",
+    "name": "BitDefender VPN",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Bitdefender S.R.L",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.bitdefender.com/consumer/support/answer/1776/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "naplan-testing-browser",
+    "name": "NAPLAN Testing Browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Australian Curriculum, Assessment and Reporting Authority (ACARA)",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.nap.edu.au/docs/default-source/naplan/how-to-check-your-ldb-for-naplan-2025.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "lanschool-air",
+    "name": "LanSchool Air",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "LanSchool",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://helpdesk.lanschoolair.com/portal/en/kb/articles/lanschool-air-system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "syxsense-endpoint-and-vulnerability-management",
+    "name": "Syxsense Endpoint and Vulnerability Management",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Absolute Security",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://www.absolute.com/customers/support/windows-and-macos-client-files",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ltspice",
+    "name": "LTspice",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Analog Devices",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "epson-iprojection",
+    "name": "Epson iProjection",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "SEIKO EPSON CORPORATION",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://download3.ebz.epson.net/dsc/f/03/00/17/62/11/46bc550331a1ccd038a5cc21174497650def2a1a/ReleaseNote_iPro_W_EN_V410.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "gretl-2024d",
+    "name": "gretl 2024d",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "The Gretl Team",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://gretl.sourceforge.net/win32/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "harmony-browser",
+    "name": "Harmony Browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Checkpoint",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://sc1.checkpoint.com/documents/Infinity_Portal/WebAdminGuides/EN/Harmony-Browse-Admin-Guide/Topics-HB/Introduction.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "biopdf-pdf-writer",
+    "name": "bioPDF PDF Writer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "BioPDF ApS",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.1.0.2985",
+    "link": "https://www.biopdf.com/download.php",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ankiweb",
+    "name": "AnkiWeb",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Anki",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "25.02",
+    "link": "https://github.com/facepunch01/anki-arm64/blob/main/docs/windows.md",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "it-service-management",
+    "name": "IT Service Management (ITSM)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sunrise Software GmbH",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8",
+    "link": "https://www.relations-crm.com/en/overview/technology",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "surfshark-antivirus",
+    "name": "Surfshark Antivirus",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "SurfShark",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://surfshark.com/download/windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "paperstream-capture",
+    "name": "PaperStream Capture",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "PFU Ricoh",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5.0.0",
+    "link": "https://www.pfu.ricoh.com/fi/news/2026/info260630.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pc-talker-neo",
+    "name": "PC-Talker Neo",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Kochi System Development, Inc.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2601",
+    "link": "https://aok-net.jp/manuals/txt2html.php?url=https://aok-net.jp/pctalker/manual/99%20%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "skysea-client",
+    "name": "Skysea client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Sky株式会社",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.skyseaclientview.net/product-info/operation/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "lightspeed-classroom",
+    "name": "Lightspeed Classroom",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Lightspeed Systems",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.lightspeedsystems.com/blog/lightspeed-solutions-now-support-windows-on-arm-devices/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "delphi",
+    "name": "Delphi",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Embarcadero",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://blogs.embarcadero.com/announcing-the-availability-of-rad-studio-13-florence-update-1/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "microsip",
+    "name": "MicroSIP",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "microsip.org",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/detail/9p710wqx079b?hl=en-us&gl=US&ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "microstation-connect-edition",
+    "name": "MicroStation Connect Edition",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Bentley Systems",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "14.40.33816.0",
+    "link": "https://docs.bentley.com/LiveContent/web/MicroStation-v2026.0.1/ReadMe/en/topics/369286/GUID-637B20A8-F57B-4FD0-9B4E-628574844438.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "examwritepad",
+    "name": "ExamWritePad",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Texthelp Systems Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://support.texthelp.com/help/system-requirements-prerequisites",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "iboss-zero-trust-sase-for-education",
+    "name": "iboss Zero Trust SASE for Education",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "iboss",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.iboss.com/zero-trust/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netsweeper-workstation-agent",
+    "name": "Netsweeper Workstation Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Netsweeper",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.netsweeper.com/hc/en-us/articles/41833468742676-13-30-EA-Client-Filter-Release-and-Downloads-September-2nd-2025",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "13",
+    "name": "農業簿記 13 (Nogyo Boki 13)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sorimachi Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://sorimachi.co.jp/products/farmer/boki/require.php",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "online-banking-assistant",
+    "name": "Online Banking Assistant",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Agricultural bank of China",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.abchina.com/cn/wydl/CCustomerLogin_new/kbzs_new/default.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "etests",
+    "name": "eTests",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Casas",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://etestsonline.org/eTests2/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "smoothwall-monitor",
+    "name": "Smoothwall Monitor",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Quoria",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.1",
+    "link": "https://monitorhelp.smoothwall.com/hc/en-gb/articles/17349623494556-Monitor-Release-Notes",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "snapplify",
+    "name": "Snapplify",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Snapplify",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/detail/9NRCWRHPPXRJ?hl=en-us&gl=RO&ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "25",
+    "name": "会計王 25 (Kaikei Oh 25)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sorimachi Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://sorimachi.co.jp/products_gyou/acc/require.php",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "facet",
+    "name": "Facet",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Quintor",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "14",
+    "link": "https://facet-oss.atlassian.net/wiki/spaces/CS/overview",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "carbon-black-app-control-windows-agent",
+    "name": "Carbon Black App Control Windows Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "VMware",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "8.9.4",
+    "link": "https://techdocs.broadcom.com/us/en/carbon-black/app-control/app-control-agents/index/appc-release-notes_tile_agents/carbon-black-app-control-windows-agent/windows-agent-8-12-0-release-notes.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "trendmicro-virus-buster-cloud",
+    "name": "TrendMicro Virus Buster Cloud",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "TrendMicro",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0",
+    "link": "https://www.trendmicro.com/ja_jp/forHome/products/vb/requirement.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "tanium-client-threat-response",
+    "name": "Tanium Client Threat Response",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Tanium",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://help.tanium.com/bundle/2025H2_releasenotes/page/modules.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "windows-admin-center",
+    "name": "Windows Admin Center",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://techcommunity.microsoft.com/blog/windows-admin-center-blog/announcing-windows-admin-center-for-arm-based-copilot-pcs/4477557",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "securly-classroom",
+    "name": "Securly Classroom",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Securly, Inc",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://support.securly.com/hc/en-us/articles/4414796485271-How-do-I-use-Securly-Classroom-with-Windows-devices",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "environment-manager-console-agent",
+    "name": "Environment Manager Console Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Ivanti",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "10.18.0.0",
+    "link": "https://help.ivanti.com/ap/help/en_US/em/2026/Content/EM_2026.2_Release_Notes.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bus-hound",
+    "name": "Bus Hound",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Perisoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.05",
+    "link": "https://bushound.com/bushound/index.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "inkscape-x64",
+    "name": "Inkscape x64",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Inkscape",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.32",
+    "link": "https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "tenable-nessus",
+    "name": "Tenable Nessus",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Tenable",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://docs.tenable.com/general-requirements/Content/NessusAgentSoftwareRequirements.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ukg-pro-workforce-management",
+    "name": "UKG Pro Workforce Management",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "UKG",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2024.R2",
+    "link": "https://library.ukg.com/docs/en-us/Community/Release_Information/Compatibility_Guide/Compatibility_Guide.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "stat-transfer",
+    "name": "Stat/Transfer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Circle Systems, Inc.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "17",
+    "link": "https://stattransfer.com/overview/platforms/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "igtb-net",
+    "name": "中国银行企业网银iGTB Net",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "中国银行",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://netc1.igtb.boc.cn/#/login-page?redirect=%2Findex",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "horizon-client",
+    "name": "Horizon Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Omnissa",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://docs.omnissa.com/bundle/horizon-client-windows-RNV2309/page/HorizonClientWindows-ReleaseNotes.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Oracle",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://www.microsoft.com/openjdk",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "teraterm-project",
+    "name": "TeraTerm Project",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Tera Term development team",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://github.com/TeraTermProject/teraterm/releases",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "keeper-security",
+    "name": "Keeper Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Keeper Security",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "17.1.0",
+    "link": "https://www.keepersecurity.com/download.html?t=ff",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "radmin-vpn",
+    "name": "Radmin VPN",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Famatech",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.radmin-vpn.com/help/#system_requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "appgate-sdp-client",
+    "name": "Appgate SDP Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Appgate",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.5",
+    "link": "https://www.appgate.com/support/software-defined-perimeter-support/sdp-v6-5",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "infoblox-bloxone-endpoint",
+    "name": "Infoblox BloxOne Endpoint",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "InfoBlox",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.3.11",
+    "link": "https://support.infoblox.com/s/article/Bloxone-endpoint-compatibility-with-Snapdragon-processors",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "instashare2",
+    "name": "InstaShare2",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "BenQ",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.benq.com/en-us/business/support/products/ifp/instashare-2/download.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "crashplan",
+    "name": "CrashPlan",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "CrashPlan Inc",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "11.8",
+    "link": "https://support.crashplan.com/hc/en-us/articles/8999516640909-CrashPlan-hardware-and-software-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "myob-accountright",
+    "name": "MYOB AccountRight",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "MYOB",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.myob.com/au/support/myob-business/product-account/minimum-system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cura",
+    "name": "Cura",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "UltiMaker",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://github.com/Ultimaker/Cura/releases/tag/5.14.0-alpha.0",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "screenconnect",
+    "name": "ScreenConnect",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "ConnectWise",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.3",
+    "link": "https://docs.connectwise.com/ScreenConnect_Documentation/Get_started/System_requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "stifler-agent",
+    "name": "StifleR Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "2Pint",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.10",
+    "link": "https://documentation.2pintsoftware.com/stifler/setup/prerequisites#stifler-client",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "scigress",
+    "name": "SCIGRESS",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "FQS Poland",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.8.0",
+    "link": "https://www.scigress.com",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "fiji",
+    "name": "Fiji",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Wayne Rasband",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://imagej.net/software/fiji/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "spyder-ide",
+    "name": "Spyder IDE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Spyder",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.1.0a3",
+    "link": "https://github.com/spyder-ide/spyder/issues/24707#issuecomment-3103651914",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "stellarium",
+    "name": "Stellarium",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Stellarium",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.22.3",
+    "link": "https://stellarium.org/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "calculator-suite",
+    "name": "Calculator Suite",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "GeoGebra",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.00",
+    "link": "https://geogebra.github.io/docs/reference/en/Changelog_6_0/#_6_0_902_0_30th_september_2025_build",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "gnuplot",
+    "name": "gnuplot",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Gnuplot",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0",
+    "link": "https://gnuplot.sourceforge.net/ReleaseNotes_6_0_4.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "studio-one-pro",
+    "name": "Studio One Pro",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "PreSonus",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.2",
+    "link": "https://www.presonus.com/pages/studio-one-tech-specs",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "datto-rmm",
+    "name": "Datto RMM",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Datto",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "14.4.0",
+    "link": "https://rmm.datto.com/help/en/Content/1INTRODUCTION/Requirements/AgentRequirements.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "iprescribe",
+    "name": "iPrescribe",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "DrFirst Inc.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.23.0",
+    "link": "https://help.iprescribe.com/hc/en-us/articles/27678602523667-DrFirst-Browser-Policy",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "acronis-cyber-protect",
+    "name": "Acronis Cyber Protect",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Acronis",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://dl.acronis.com/u/baas/rn/26.03/en-US/AcronisCyberProtectCloud_relnotes.htm#AgentforWindowsonARM-10",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ivanti-epm-patch-management-2024-su3",
+    "name": "Ivanti EPM Patch Management 2024 SU3",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Ivanti",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://download.ivanti.com/downloads/Readme/Pages/EPM2024-SU3.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "powerbi",
+    "name": "PowerBI",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://powerbi.microsoft.com/en-us/blog/power-bi-october-2025-feature-summary/#post-31333-_Toc211268347",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pdfdocs",
+    "name": "pdfDocs",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Litera",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.12.0",
+    "link": "https://support.litera.com/article/pdfDocs-621-Release-Notes-786857",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "tanium-deploy-cloud",
+    "name": "Tanium Deploy Cloud",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Tanium",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://help.tanium.com/bundle/ug_deploy_cloud/page/deploy/requirements.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "dialpad-desktop",
+    "name": "Dialpad desktop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Dialpad Inc",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "25.x",
+    "link": "https://apps.microsoft.com/detail/9p1q0p5sqr11?hl=en-US&gl=US",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "tecmfa",
+    "name": "TecMFA",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Tecnics Consulting Inc.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://tecnics.com/contact-us/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "nw-js",
+    "name": "NW.js",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "NW.js community",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.102.0",
+    "link": "https://nwjs.io/blog/v0.106.0/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "kace-systems-management-appliance",
+    "name": "KACE Systems Management Appliance",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Quest Software",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "15.1",
+    "link": "https://support.quest.com/technical-documents/kace-systems-management-appliance/15.1/release-notes#TOPIC-2369905",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "dual-core-browser",
+    "name": "Dual-core browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Shenzhen Ivy League Software Technology Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.1.7.6",
+    "link": "https://dcbrowser.cqttech.com/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "just-pdf",
+    "name": "Just PDF",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Just Systems",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.justsystems.com/jp/products/justpdf/features/spec.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "a-49",
+    "name": "A-49",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Roland",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://support.roland.com/hc/en-us/articles/213565306-A-49-USB-Driver-Setting",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "safeincloud",
+    "name": "Safeincloud",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Safeincloud S.A.S.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0",
+    "link": "https://www.safe-in-cloud.com/en/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "flexnet-publisher-2026-r1",
+    "name": "FlexNet Publisher 2026 R1",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Revenera",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.19.10.0",
+    "link": "https://community.revenera.com/s/feed/0D5PL00000plvEF0AY",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "maxthon-browser",
+    "name": "Maxthon Browser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Maxthon",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.3.1",
+    "link": "https://www.maxthon.com/download/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "graphical-analysis-web-app",
+    "name": "Graphical Analysis Web App",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Vernier Software & Technology",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0",
+    "link": "https://www.vernier.com/til/9689",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sohu-player",
+    "name": "Sohu Player (搜狐影音)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "SOHU",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "7.2.6.0",
+    "link": "https://apps.microsoft.com/detail/XP8JFZXJK5DTGJ?hl=en-US&gl=CN&ocid=pdpshare",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "real-narrator-4",
+    "name": "Real Narrator 4",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Skyfish",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.skyfish.co.jp/service/realnarrators.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "uptodate",
+    "name": "UpToDate",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Wolters Kluwer",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://wkhealthce.my.site.com/customers/s/article/system-requirements?language=en_US",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "norton-computer-tuneup",
+    "name": "Norton Computer TuneUp",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Gen Digital",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://us.norton.com/products/norton-computer-tune-up",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "microsoft-configuration-manager",
+    "name": "Microsoft Configuration Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://learn.microsoft.com/en-us/intune/configmgr/hotfix/2509/35877153",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "azure-vpn-gateway",
+    "name": "Azure VPN Gateway",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Microsoft",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0",
+    "link": "https://learn.microsoft.com/en-us/azure/vpn-gateway/point-to-site-vpn-client-certificate-windows-azure-vpn-client#prerequisites",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sophos-endpoint-security",
+    "name": "Sophos Endpoint Security",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Sophos",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.2",
+    "link": "https://support.sophos.com/support/s/article/KBA-000009867?language=en_US",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "zoho-endpoint-central",
+    "name": "Zoho Endpoint Central",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Zoho Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.manageengine.com/products/desktop-central/download-free.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "trend-vision-one-endpoint-security-agent",
+    "name": "Trend Vision One Endpoint Security agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Trend Micro",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-sep-agent-sys-requirements#GUID-09957805-70E7-401F-A691-F587FCE2CB8B-pe3l2c",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "riverbed-unified-agent",
+    "name": "Riverbed Unified Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Riverbed",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "25.07.0.144",
+    "link": "https://help.aternity.com/bundle/console_admin_guide_x_console_saas/page/console/topics/all_xg_system_requirements_unified.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "smartdeploy",
+    "name": "SmartDeploy",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "SmartDeploy",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.2051",
+    "link": "https://smartdeploy.pdq.com/hc/en-us/articles/12982168116251-Release-Notes-and-Schedule",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "25-npo",
+    "name": "会計王 25 NPO 法人スタイル",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sorimachi Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://sorimachi.co.jp/products_gyou/acn/require.php",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "after-effects",
+    "name": "After Effects",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Adobe",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "25.6",
+    "link": "https://helpx.adobe.com/after-effects/system-requirements.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sb-client",
+    "name": "SB Client (for SB/XA)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Rocket Software",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.6.5",
+    "link": "https://docs.rocketsoftware.com/bundle/sbxa_rn_665/page/fsi1762540918911.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "secure-access-client",
+    "name": "Secure Access Client",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Ivanti",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0",
+    "link": "https://help.ivanti.com/ps/help/en_US/ISAC/22.X/spg-22.X/arm64featurelist.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "2pxe",
+    "name": "2PXE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "2Pint Software",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.0",
+    "link": "https://2pintsoftware.com/products/deployr-community",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "decimal-basic",
+    "name": "Decimal BASIC (十進BASIC)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Decimal BASIC",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://decimalbasic.web.fc2.com/basicw32.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sparkvue",
+    "name": "SparkVue",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "PASCO Scientific",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.12.2",
+    "link": "https://www.pasco.com/downloads/sparkvue",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "vexcode",
+    "name": "VEXcode",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Vex Robotics",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "5",
+    "link": "https://www.vexrobotics.com/vexcode/install/v5",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "picaxe-editor",
+    "name": "Picaxe Editor",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Revolution Education Ltd",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6.2.1.0",
+    "link": "https://picaxe.com/docs/picaxe_arm64.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "db-browser-for-sqlite",
+    "name": "DB Browser for SQLite",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "DB Browser for SQLite",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.13.1",
+    "link": "https://sqlitebrowser.org/blog/official-support-for-windows-on-arm-begins/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cirrus-sms-noisetools",
+    "name": "Cirrus SMS & NoiseTools",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Cirrus Research PLC",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://cirrusresearch.com/wp-content/uploads/NoiseTools-Installation-Guide-English.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "diligent-boards-v4-0-0",
+    "name": "Diligent Boards v4.0.0 (Web Access)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Diligent Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.diligent.com/legal/tech-specs",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "text-mining-studio",
+    "name": "Text Mining Studio",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "NTT DATA Mathematical Systems",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.1.7",
+    "link": "https://www.msi.co.jp/solution/tmstudio/top.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "ezr",
+    "name": "EZR",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Yoshinobu Kanda",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.70",
+    "link": "https://www.jichi.ac.jp/usr/hema/EZR/statmed.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "blockly",
+    "name": "Blockly",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Revolution Education Ltd",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.5.1",
+    "link": "https://picaxe.com/docs/picaxe_arm64.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "axepad",
+    "name": "Axepad",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Revolution Education Ltd",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.0",
+    "link": "https://picaxe.com/docs/picaxe_arm64.pdf",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "wave-link",
+    "name": "Wave Link",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Corsair Gaming",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0",
+    "link": "https://help.elgato.com/hc/en-us/articles/44408325264017-Elgato-Wave-Link-3-0-0-Windows-Release-Notes",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cerebrum",
+    "name": "Cerebrum",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "EVS Broadcast Equipment SA",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.7",
+    "link": "https://evs.com/products/real-time-media-processing/synapse/configuration-and-setup-cortex",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "netsweeper-client-filter",
+    "name": "Netsweeper - Client Filter",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Netsweeper",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.netsweeper.com/hc/en-us/articles/47997975773844-13-50-GA-Client-Filter-Release-and-Downloads-April-6th-2026",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "pgp-encryption-desktop",
+    "name": "PGP Encryption Desktop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Broadcom",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "11.5",
+    "link": "https://techdocs.broadcom.com/us/en/symantec-security-software/information-security/symantec-encryption-desktop/11-5-0/system-requirements/system-requirements-for-symantec-encryption-desktop-11-5-0-for-windows.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "winmostar",
+    "name": "Winmostar",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "X-Ability Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "11.16.2",
+    "link": "https://winmostar.com/jp/requirements/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "testflex",
+    "name": "TestFlex",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Scantron Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.scantron.com/product/testflex",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "evaexam",
+    "name": "evaexam",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Scantron Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.scantron.com/product/evaexam",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "evasys",
+    "name": "evasys",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Scantron Corporation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.0",
+    "link": "https://www.scantron.com/product/evasys",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "qfield",
+    "name": "QField",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "QGIS",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "4.1.12",
+    "link": "https://github.com/opengisch/QField/pull/7355#issuecomment-4299721810",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "sas-viya-4",
+    "name": "SAS Viya 4",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "SAS",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://documentation.sas.com/doc/en/itopscdc/v_075/itopssr/n06icj8cl1p3bbn12z5e8d8cidvw.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "anyverse",
+    "name": "Anyverse",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Anyverse",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://anyverse.ai/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "onlyoffice",
+    "name": "ONLYOFFICE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Ascensio System SIA",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://apps.microsoft.com/detail/XPDLH3XBZXQV23?hl=en-US&gl=US&ocid=pdpshare.",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
