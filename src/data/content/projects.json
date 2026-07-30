@@ -143844,5 +143844,59 @@
     "lastUpdated": "2026-07-30",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "securezip-ser",
+    "name": "SecureZip Ser",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "PKware",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.pkware.com/products/securezip",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "dbea",
+    "name": "Dbea",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Dbeaver",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://dbeaver.io/download/",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "nas-na",
+    "name": "NAS Na",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "BUFFALO",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.buffalo.jp/support/download/detail/?dl_contents_id=60819",
+    "validation": "microsoft",
+    "lastUpdated": "2026-07-30",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
