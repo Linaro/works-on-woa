@@ -143898,5 +143898,41 @@
     "lastUpdated": "2026-07-30",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "ninjaone-windows-endpoint-management-agent",
+    "name": "NinjaOne Windows Endpoint Management Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "NinjaOne",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://ninjarmm.zendesk.com/hc/en-us/articles/41890875255309-NinjaOne-Endpoint-Management-Microsoft-Windows-Agent-System-Requirements-and-OS-Support",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-03",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "jasperactive",
+    "name": "Jasperactive",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "CCI Learning Solutions Inc.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://support.jasperactive.com/support/solutions/articles/36000022227-jasperactive-mos-technical-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-03",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
