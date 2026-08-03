@@ -143934,5 +143934,23 @@
     "lastUpdated": "2026-08-03",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "25-9649f14e67",
+    "name": "みんなの青色申告 25",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Sorimachi Co., Ltd.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://sorimachi.co.jp/products_gyou/min/require.php",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-03",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
