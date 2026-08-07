@@ -143952,5 +143952,59 @@
     "lastUpdated": "2026-08-03",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "dreambox-reading-plus",
+    "name": "DreamBox Reading Plus",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Discovery Education",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://dreamboxlearning.zendesk.com/hc/en-us/articles/29879358399379-Reading-Plus-System-Requirements",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-07",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "wiztree",
+    "name": "WizTree",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "Antibody Software",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://diskanalyzer.com/download",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-07",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "harmony-sase",
+    "name": "Harmony SASE",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Check Point Software Technologies Ltd",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://sc1.checkpoint.com/documents/Infinity_Portal/WebAdminGuides/EN/SASE-Admin-Guide/Content/Topics-SASE-AG/Release-Notes/HS-Agent/Windows.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-07",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
