@@ -144006,5 +144006,23 @@
     "lastUpdated": "2026-08-07",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "sonic-pi",
+    "name": "Sonic Pi",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Sam Aaron",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://sonic-pi.net/#windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-12",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
