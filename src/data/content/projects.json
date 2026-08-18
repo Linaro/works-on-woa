@@ -144024,5 +144024,113 @@
     "lastUpdated": "2026-08-12",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "avast-one",
+    "name": "Avast One",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Gen Digital",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.avast.com/en-us/free-antivirus-download#mac",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "commvault-platform-tools",
+    "name": "Commvault Platform Tools",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Commvault",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://documentation.commvault.com/2024e/essential/system_requirements_for_laptop.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "spy-hunter",
+    "name": "Spy Hunter",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "EnigmaSoft Limited",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.enigmasoftware.com/products/spyhunter/#windows",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "photo-director",
+    "name": "Photo Director",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Cyberlink",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.cyberlink.com/support-center/faq/content?id=28078",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "lightspeed-filter-agent",
+    "name": "Lightspeed Filter Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "Lightspeed Systems",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://help.lightspeedsystems.com/s/article/Release-Notes-Filter-Agent-for-Windows-v3-2-1-GA",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "bentley-viewer",
+    "name": "Bentley Viewer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Bentley",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://docs.bentley.com/LiveContent/web/Bentley%20View-v2026.0.1/ReadMe/en/topics/369286/GUID-637B20A8-F57B-4FD0-9B4E-628574844438.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-18",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
