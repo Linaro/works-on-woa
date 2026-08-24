@@ -144132,5 +144132,59 @@
     "lastUpdated": "2026-08-18",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "privilege-manager",
+    "name": "Privilege Manager",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Delinea",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://docs.delinea.com/online-help/privilege-manager/release-notes/13.0.0.htm",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-24",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "elastic-endpoint-agent",
+    "name": "Elastic Endpoint Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Elastic",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.elastic.co/docs/release-notes/elastic-agent",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-24",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "voicemod-v3-x64",
+    "name": "Voicemod v3 x64",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "creative"
+    ],
+    "publisher": "Voicemod S.L.",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://support.voicemod.net/hc/en-us/articles/5641794328594-Voicemod-s-system-requirements-Windows-macOS",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-24",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
