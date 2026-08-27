@@ -144186,5 +144186,23 @@
     "lastUpdated": "2026-08-24",
     "notes": "",
     "shouldShowNotes": false
+  },
+  {
+    "slug": "chronowis",
+    "name": "Chronowis",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Panasonic Corporation",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.panasonic.com/jp/business/its/chojikan.html",
+    "validation": "microsoft",
+    "lastUpdated": "2026-08-27",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
