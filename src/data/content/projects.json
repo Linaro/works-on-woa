@@ -55054,9 +55054,9 @@
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
-      "education"
+      "Engineering"
     ],
-    "publisher": "",
+    "publisher": "JMP Statistical Discovery",
     "compatibility": "yes",
     "emulationType": "emulation",
     "versionFrom": "18.2.1",
