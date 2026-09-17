@@ -141965,5 +141965,95 @@
     "link": "https://www.pospal.cn/downcenter.aspx",
     "validation": "qualcomm",
     "lastUpdated": "2026-07-22"
+  },
+  {
+    "slug": "goguardian",
+    "name": "GoGuardian",
+    "type": "application",
+    "icon": "goguardian.png",
+    "categories": [
+      "education"
+    ],
+    "publisher": "GoGuardian",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://support.goguardian.com/s/article/What-is-the-GoGuardian-App",
+    "validation": "microsoft",
+    "lastUpdated": "9/17/2026",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "cato-client",
+    "name": "Cato Client",
+    "type": "application",
+    "icon": "cato-client.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Cato Networks",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://support.catonetworks.com/hc/en-us/articles/34147870632221-Product-Updates-February-23-2026",
+    "validation": "microsoft",
+    "lastUpdated": "9/17/2026",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "webroot",
+    "name": "Webroot",
+    "type": "application",
+    "icon": "webroot.svg",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "OpenText",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://www.webroot.com/us/en/support/system-requirements",
+    "validation": "microsoft",
+    "lastUpdated": "9/17/2026",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "zscaler",
+    "name": "Zscaler",
+    "type": "application",
+    "icon": "zscaler.png",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "Zscaler",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "",
+    "link": "https://www.zscaler.com/blogs/product-insights/zscaler-partners-microsoft-secure-lte-arm-devices",
+    "validation": "microsoft",
+    "lastUpdated": "9/17/2026",
+    "notes": "",
+    "shouldShowNotes": false
+  },
+  {
+    "slug": "privilege-manager",
+    "name": "Privilege Manager",
+    "type": "application",
+    "icon": "privilege-manager.png",
+    "categories": [
+      "it-tools-vdi"
+    ],
+    "publisher": "Delinea",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "",
+    "link": "https://docs.delinea.com/online-help/privilege-manager/release-notes/13.0.0.htm",
+    "validation": "microsoft",
+    "lastUpdated": "9/17/2026",
+    "notes": "",
+    "shouldShowNotes": false
   }
 ]
