@@ -4,6 +4,7 @@ import i18n from "i18next";
 import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { formatCategory } from "@/utils/formatting";
+import { getProjectDisplayName } from "@/utils/project-name";
 import { ensurePdfFont } from "@/lib/pdf-fonts";
 
 interface GenerateReportPdfOptions {
@@ -57,7 +58,7 @@ function getTableColumns(): string[] {
 function projectToRow(p: Project): string[] {
   const locale = i18n.language || "en";
   return [
-    p.name,
+    getProjectDisplayName(p, locale),
     compatibilityLabel(p.compatibility),
     emulationLabel(p.emulationType),
     p.publisher || "—",

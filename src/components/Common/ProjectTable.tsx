@@ -7,6 +7,7 @@ import { Button } from "@/components/Common/Button";
 import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { RowReportAction } from "@/components/Common/RowReportAction";
 import { formatDate, formatCategory } from "@/utils/formatting";
+import { getProjectDisplayName } from "@/utils/project-name";
 import type { Project } from "@/data/types";
 
 // ---------------------------------------------------------------------------
@@ -119,7 +120,7 @@ export function sortProjects(
     const getValue = (p: Project) => {
       switch (field) {
         case "name":
-          return p.name.toLowerCase();
+          return getProjectDisplayName(p).toLowerCase();
         case "compatibility":
           return p.compatibility;
         case "type":
@@ -219,9 +220,10 @@ export function ProjectTable({
   title,
   footer,
 }: ProjectTableProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const emulationLabel = useEmulationLabel();
+  const displayName = (project: Project) => getProjectDisplayName(project, i18n.language);
 
   // Internal sort state (used when sortable but no external state provided)
   const [intSortField, setIntSortField] = useState<SortField>("name");
@@ -266,12 +268,12 @@ export function ProjectTable({
         return (
           <ProjectIcon
             icon={project.icon}
-            name={project.name}
+            name={displayName(project)}
             size={iconSize}
           />
         );
       case "name":
-        return project.name;
+        return displayName(project);
       case "compatibility":
         return <CompatibilityBadge compatibility={project.compatibility} />;
       case "type":
@@ -405,12 +407,12 @@ export function ProjectTable({
           >
             <ProjectIcon
               icon={project.icon}
-              name={project.name}
+              name={displayName(project)}
               size="sm"
             />
             <div className="min-w-0 flex-1">
               <p className="truncate font-medium text-[var(--color-text-primary)]">
-                {project.name}
+                {displayName(project)}
               </p>
               <p className="text-sm text-[var(--color-text-tertiary)]">
                 {emulationLabel(project.emulationType)}

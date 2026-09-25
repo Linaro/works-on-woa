@@ -401,6 +401,7 @@
       "fields": [
         { "field": "slug", "type": "string", "description": "프로젝트의 고유 URL 안전 식별자 (예: <code>visual-studio-code</code>)." },
         { "field": "name", "type": "string", "description": "앱 또는 게임의 표시 이름." },
+        { "field": "translatedTitleJP", "type": "string", "description": "선택 사항. 앱 또는 게임의 일본어 이름. 사이트 언어가 일본어일 때 <code>name</code> 대신 표시되며, 일본어로 검색할 때 검색 대상이 됩니다." },
         { "field": "type", "type": "\"application\" | \"game\"", "description": "이 항목이 애플리케이션인지 게임인지." },
         { "field": "icon", "type": "string", "description": "<code>public/icons/</code>의 아이콘 파일명. 최대 512×512. SVG 권장." },
         { "field": "categories", "type": "string[]", "description": "하나 이상의 카테고리 슬러그 (아래 카테고리 참조)." },

@@ -401,6 +401,7 @@
       "fields": [
         { "field": "slug", "type": "string", "description": "プロジェクトの一意のURL安全な識別子（例：<code>visual-studio-code</code>）。" },
         { "field": "name", "type": "string", "description": "アプリまたはゲームの表示名。" },
+        { "field": "translatedTitleJP", "type": "string", "description": "任意。アプリまたはゲームの日本語名。サイトの言語が日本語の場合に <code>name</code> の代わりに表示され、日本語で検索した際の検索対象にもなります。" },
         { "field": "type", "type": "\"application\" | \"game\"", "description": "このエントリがアプリケーションかゲームか。" },
         { "field": "icon", "type": "string", "description": "<code>public/icons/</code> 内のアイコンファイル名。最大512×512。SVG推奨。" },
         { "field": "categories", "type": "string[]", "description": "1つ以上のカテゴリスラッグ（下記のカテゴリを参照）。" },
