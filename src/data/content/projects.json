@@ -2409,6 +2409,7 @@
   {
     "slug": "adobeacrobatpro",
     "name": "Adobe Acrobat Pro",
+    "translatedTitleJP": "アドビ アクロバット プロ",
     "type": "application",
     "icon": "AdobeAcrobat.svg",
     "categories": [
@@ -2425,6 +2426,7 @@
   {
     "slug": "adobeacrobatreader",
     "name": "Adobe Acrobat Reader",
+    "translatedTitleJP": "アドビ アクロバット リーダー",
     "type": "application",
     "icon": "AdobeAcrobat.svg",
     "categories": [
@@ -2441,6 +2443,7 @@
   {
     "slug": "adobeaftereffects",
     "name": "Adobe After Effects",
+    "translatedTitleJP": "アドビ アフター エフェクト",
     "type": "application",
     "icon": "AdobeAfterEffects.svg",
     "categories": [
@@ -2473,6 +2476,7 @@
   {
     "slug": "adobeaudition",
     "name": "Adobe Audition",
+    "translatedTitleJP": "アドビ オーディション",
     "type": "application",
     "icon": "AdobeAudition.svg",
     "categories": [
@@ -2505,6 +2509,7 @@
   {
     "slug": "adobecreativecloudportal",
     "name": "Adobe Creative Cloud Portal",
+    "translatedTitleJP": "アドビ クリエイティブ クラウド (ランチャー/ハブ)",
     "type": "application",
     "icon": "AdobeCC.svg",
     "categories": [
@@ -2570,6 +2575,7 @@
   {
     "slug": "adobeexpress",
     "name": "Adobe Express",
+    "translatedTitleJP": "アドビ エクスプレス",
     "type": "application",
     "icon": "AdobeExpress.png",
     "categories": [
@@ -2601,6 +2607,7 @@
   {
     "slug": "adobeillustrator",
     "name": "Adobe Illustrator",
+    "translatedTitleJP": "アドビ イラストレーター",
     "type": "application",
     "icon": "AdobeIllustrator.svg",
     "categories": [
@@ -2617,6 +2624,7 @@
   {
     "slug": "adobeindesign",
     "name": "Adobe InDesign",
+    "translatedTitleJP": "アドビ インデザイン",
     "type": "application",
     "icon": "AdobeInDesign.svg",
     "categories": [
@@ -2649,6 +2657,7 @@
   {
     "slug": "adobemediaencoder",
     "name": "Adobe Media Encoder",
+    "translatedTitleJP": "アドビ メディア エンコーダー",
     "type": "application",
     "icon": "AdobeMediaEncoder.svg",
     "categories": [
@@ -2664,6 +2673,7 @@
   {
     "slug": "adobephotoshop",
     "name": "Adobe Photoshop",
+    "translatedTitleJP": "アドビ フォトショップ",
     "type": "application",
     "icon": "AdobePhotoshop.svg",
     "categories": [
@@ -2680,6 +2690,7 @@
   {
     "slug": "adobephotoshopelements",
     "name": "Adobe Photoshop Elements",
+    "translatedTitleJP": "アドビ フォトショップ エレメント",
     "type": "application",
     "icon": "AdobePhotoshopElements.avif",
     "categories": [
@@ -2696,6 +2707,7 @@
   {
     "slug": "adobephotoshopexpress",
     "name": "Adobe Photoshop Express",
+    "translatedTitleJP": "アドビ フォトショップ エクスプレス",
     "type": "application",
     "icon": "AdobePhotoshopExpress.svg",
     "categories": [
@@ -2712,6 +2724,7 @@
   {
     "slug": "adobephotoshoplightroomclassic",
     "name": "Adobe Photoshop Lightroom Classic",
+    "translatedTitleJP": "アドビ フォトショップ ライトルーム クラシック",
     "type": "application",
     "icon": "AdobePhotoshopLightroomClassic.png",
     "categories": [
@@ -2728,6 +2741,7 @@
   {
     "slug": "adobepremierepro",
     "name": "Adobe Premiere Pro",
+    "translatedTitleJP": "アドビ プレミア プロ",
     "type": "application",
     "icon": "AdobePremierePro.svg",
     "categories": [
@@ -5433,6 +5447,7 @@
   {
     "slug": "amazonkindle",
     "name": "Amazon Kindle",
+    "translatedTitleJP": "アマゾン キンドル",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -5481,6 +5496,7 @@
   {
     "slug": "amazonprimevideo",
     "name": "Amazon Prime Video",
+    "translatedTitleJP": "アマゾン プライムビデオ",
     "type": "application",
     "icon": "AmazonPrimeVideo.png",
     "categories": [
@@ -7057,6 +7073,7 @@
   {
     "slug": "appleicloud",
     "name": "Apple iCloud",
+    "translatedTitleJP": "アップル アイクラウド",
     "type": "application",
     "icon": "AppleiCloud.png",
     "categories": [
@@ -7089,6 +7106,7 @@
   {
     "slug": "applemusic",
     "name": "Apple Music",
+    "translatedTitleJP": "アップル ミュージック",
     "type": "application",
     "icon": "AppleMusic.png",
     "categories": [
@@ -9691,6 +9709,7 @@
   {
     "slug": "avastfreeantivirus",
     "name": "AVAST Free Antivirus",
+    "translatedTitleJP": "アバスト フリー アンチウイルス",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -9723,6 +9742,7 @@
   {
     "slug": "avastsecurebrowser",
     "name": "Avast Secure Browser",
+    "translatedTitleJP": "アバスト セキュア ブラウザ",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -17149,6 +17169,7 @@
   {
     "slug": "canva",
     "name": "Canva",
+    "translatedTitleJP": "キャンバ",
     "type": "application",
     "icon": "Canva.png",
     "categories": [
@@ -17195,6 +17216,7 @@
   {
     "slug": "capcut",
     "name": "CapCut",
+    "translatedTitleJP": "キャップカット",
     "type": "application",
     "icon": "CapCut.png",
     "categories": [
@@ -18386,6 +18408,7 @@
   {
     "slug": "chatgpt",
     "name": "ChatGPT",
+    "translatedTitleJP": "チャットGPT",
     "type": "application",
     "icon": "ChatGPT.png",
     "categories": [
@@ -26406,6 +26429,7 @@
   {
     "slug": "cyberlinkpower2go",
     "name": "CyberLink Power2Go",
+    "translatedTitleJP": "サイバーリンク パワー2Go",
     "type": "application",
     "icon": "CyberLinkPower2Go.png",
     "categories": [
@@ -26439,6 +26463,7 @@
   {
     "slug": "cyberlinkpowerdvd",
     "name": "CyberLink PowerDVD",
+    "translatedTitleJP": "サイバーリンク パワーDVD",
     "type": "application",
     "icon": "CyberlinkPowerDVD.png",
     "categories": [
@@ -26455,6 +26480,7 @@
   {
     "slug": "cyberlinkscreenrecorder",
     "name": "Cyberlink screen recorder",
+    "translatedTitleJP": "サイバーリンク スクリーンレコーダー",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -35569,6 +35595,7 @@
   {
     "slug": "endnotex7",
     "name": "EndNote X7",
+    "translatedTitleJP": "エンドノート",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -36348,7 +36375,7 @@
   },
   {
     "slug": "etaxsoftwareforwindowsusers",
-    "name": "e-Tax software for Windows users",
+    "name": "e-Taxソフト ウィンドウズ利用者向け (e-Tax software for Windows users)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -36553,6 +36580,7 @@
   {
     "slug": "evernote64c7a79f",
     "name": "EverNote",
+    "translatedTitleJP": "エバーノート",
     "type": "application",
     "icon": "EverNote.png",
     "categories": [
@@ -45716,6 +45744,7 @@
   {
     "slug": "googlechrome",
     "name": "Google Chrome",
+    "translatedTitleJP": "グーグル クロム",
     "type": "application",
     "icon": "GoogleChrome.svg",
     "categories": [
@@ -45732,6 +45761,7 @@
   {
     "slug": "googledocs",
     "name": "Google Docs",
+    "translatedTitleJP": "グーグル ドキュメント",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -45748,6 +45778,7 @@
   {
     "slug": "googledrive",
     "name": "Google Drive",
+    "translatedTitleJP": "グーグル ドライブ",
     "type": "application",
     "icon": "GoogleDrive.svg",
     "categories": [
@@ -45764,6 +45795,7 @@
   {
     "slug": "googleearth",
     "name": "Google Earth",
+    "translatedTitleJP": "グーグル アース",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -45780,6 +45812,7 @@
   {
     "slug": "googlegemini",
     "name": "Google Gemini",
+    "translatedTitleJP": "グーグル ジェミニ",
     "type": "application",
     "icon": "googlegemini.svg",
     "categories": [
@@ -45812,6 +45845,7 @@
   {
     "slug": "googleslides",
     "name": "Google Slides",
+    "translatedTitleJP": "グーグル スライド",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -45860,6 +45894,7 @@
   {
     "slug": "goproplayer",
     "name": "GoPro player",
+    "translatedTitleJP": "ゴープロ プレイヤー",
     "type": "application",
     "icon": "GoProplayer.png",
     "categories": [
@@ -52901,6 +52936,7 @@
   {
     "slug": "instagram",
     "name": "Instagram",
+    "translatedTitleJP": "インスタグラム",
     "type": "application",
     "icon": "instagram.png",
     "categories": [
@@ -55356,7 +55392,7 @@
   },
   {
     "slug": "jukedox",
-    "name": "Juke Dox",
+    "name": "ジュークドックス 4 (JukeDoX4)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -57808,7 +57844,7 @@
   },
   {
     "slug": "labelyasan10",
-    "name": "Labelyasan 10",
+    "name": "ラベル屋さん10 (Labelyasan 10)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -59424,7 +59460,7 @@
   },
   {
     "slug": "line",
-    "name": "LINE",
+    "name": "ライン (LINE)",
     "type": "application",
     "icon": "LINE.png",
     "categories": [
@@ -62865,6 +62901,7 @@
   {
     "slug": "mcafeelivesafe",
     "name": "McAfee LiveSafe",
+    "translatedTitleJP": "マカフィー リブセーフ",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -62881,6 +62918,7 @@
   {
     "slug": "mcafeesecurityscanplus",
     "name": "McAfee Security Scan Plus",
+    "translatedTitleJP": "マカフィー セキュリティ スキャン プラス",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -62897,6 +62935,7 @@
   {
     "slug": "mcafeetotalprotection",
     "name": "McAfee Total Protection",
+    "translatedTitleJP": "マカフィー トータル プロテクション",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -64764,6 +64803,7 @@
   {
     "slug": "microsoftaccess",
     "name": "Microsoft Access",
+    "translatedTitleJP": "マイクロソフト アクセス",
     "type": "application",
     "icon": "MicrosoftAccess.svg",
     "categories": [
@@ -65035,6 +65075,7 @@
   {
     "slug": "microsoftedge",
     "name": "Microsoft Edge",
+    "translatedTitleJP": "マイクロソフト エッジ",
     "type": "application",
     "icon": "MicrosoftEdge.svg",
     "categories": [
@@ -65183,6 +65224,7 @@
   {
     "slug": "microsoftjournal",
     "name": "Microsoft Journal",
+    "translatedTitleJP": "マイクロソフト ジャーナル",
     "type": "application",
     "icon": "MicrosoftJournal.png",
     "categories": [
@@ -65322,6 +65364,7 @@
   {
     "slug": "microsoftonedrive",
     "name": "Microsoft OneDrive",
+    "translatedTitleJP": "マイクロソフト ワンドライブ",
     "type": "application",
     "icon": "MicrosoftOneDrive.svg",
     "categories": [
@@ -65356,6 +65399,7 @@
   {
     "slug": "microsoftoutlook",
     "name": "Microsoft Outlook",
+    "translatedTitleJP": "マイクロソフト アウトルック",
     "type": "application",
     "icon": "MicrosoftOutlook.png",
     "categories": [
@@ -65495,6 +65539,7 @@
   {
     "slug": "microsoftpowerpoint",
     "name": "Microsoft Powerpoint",
+    "translatedTitleJP": "マイクロソフト パワー ポイント",
     "type": "application",
     "icon": "MicrosoftPowerpoint.png",
     "categories": [
@@ -65514,6 +65559,7 @@
   {
     "slug": "microsoftpowertoys",
     "name": "Microsoft PowerToys",
+    "translatedTitleJP": "マイクロソフト パワートイズ",
     "type": "application",
     "icon": "MicrosoftPowerToys.png",
     "categories": [
@@ -65567,6 +65613,7 @@
   {
     "slug": "microsoftremotedesktop",
     "name": "Microsoft Remote Desktop",
+    "translatedTitleJP": "マイクロソフト リモート デスクトップ",
     "type": "application",
     "icon": "MicrosoftRemoteDesktop.png",
     "categories": [
@@ -65740,6 +65787,7 @@
   {
     "slug": "microsoftwhiteboard",
     "name": "Microsoft Whiteboard",
+    "translatedTitleJP": "マイクロソフト ホワイトボード",
     "type": "application",
     "icon": "MicrosoftWhiteboard.png",
     "categories": [
@@ -69044,6 +69092,7 @@
   {
     "slug": "mumumumuemulator",
     "name": "MuMu模拟器 (MuMu Emulator)",
+    "translatedTitleJP": "ムームーエミュレーター",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -72849,6 +72898,7 @@
   {
     "slug": "notepad",
     "name": "Notepad++",
+    "translatedTitleJP": "メモ帳++",
     "type": "application",
     "icon": "NotepadPlusPlus.svg",
     "categories": [
@@ -116058,7 +116108,7 @@
   },
   {
     "slug": "virusbustercloudstandardpremium",
-    "name": "ウィルスバスター クラウド スタンダード/プレミアム (Virus Buster Cloud Standard/Premium)",
+    "name": "ウイルスバスタークラウド スタンダード/プレミアム (Virus Buster Cloud Standard/Premium)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -118679,6 +118729,7 @@
   {
     "slug": "wechat",
     "name": "微信 (WeChat)",
+    "translatedTitleJP": "ウィーチャット",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -124784,7 +124835,7 @@
   },
   {
     "slug": "zero",
-    "name": "ZEROウィルスセキュリティ",
+    "name": "ZEROウイルスセキュリティ (ZERO Virus Security)",
     "type": "application",
     "icon": "ZEROVirusSecurity.png",
     "categories": [
@@ -129825,7 +129876,7 @@
   },
   {
     "slug": "sakuraeditor",
-    "name": "Sakura Editor",
+    "name": "サクラエディタ (Sakura Editor)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -130338,6 +130389,7 @@
   {
     "slug": "cyberlinkpowerdirector365",
     "name": "CyberLink PowerDirector365",
+    "translatedTitleJP": "サイバーリンク パワーディレクター",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -131332,7 +131384,7 @@
   },
   {
     "slug": "lineworks",
-    "name": "LINE WORKS",
+    "name": "ラインワークス (LINE WORKS)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -131493,7 +131545,7 @@
   },
   {
     "slug": "estartapp",
-    "name": "E START App",
+    "name": "E START アプリ (E START App)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [
@@ -131541,7 +131593,7 @@
   },
   {
     "slug": "internetsagiwall",
-    "name": "Internet SagiWall",
+    "name": "詐欺ウォール (Internet SagiWall)",
     "type": "application",
     "icon": "application-icon-white.svg",
     "categories": [

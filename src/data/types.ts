@@ -11,6 +11,8 @@ export type Validation =
 export interface Project {
   slug: string;
   name: string;
+  /** Optional Japanese display name, shown when the site language is Japanese. */
+  translatedTitleJP?: string;
   type: ProjectType;
   icon: string;
   categories: string[];
