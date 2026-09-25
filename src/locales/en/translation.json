@@ -401,6 +401,7 @@
       "fields": [
         { "field": "slug", "type": "string", "description": "A unique URL-safe identifier for the project (e.g. <code>visual-studio-code</code>)." },
         { "field": "name", "type": "string", "description": "The display name of the app or game." },
+        { "field": "translatedTitleJP", "type": "string", "description": "Optional. The Japanese name of the app or game. Shown instead of <code>name</code> when the site language is Japanese, and matched when users search in Japanese." },
         { "field": "type", "type": "\"application\" | \"game\"", "description": "Whether this entry is an application or a game." },
         { "field": "icon", "type": "string", "description": "Filename of the icon in <code>public/icons/</code>. 512×512 max. SVG preferred." },
         { "field": "categories", "type": "string[]", "description": "One or more category slugs (see Categories below)." },

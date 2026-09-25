@@ -98,6 +98,8 @@ export function SearchBar({ className, compact, defaultValue, placeholder, scope
   }, [onSearch]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
+    // Let IME composition (e.g. Japanese input) use arrow/Enter keys for candidate selection
+    if (e.nativeEvent.isComposing || e.keyCode === 229) return;
     if (!showDropdown) return;
 
     const count = itemCountRef.current;

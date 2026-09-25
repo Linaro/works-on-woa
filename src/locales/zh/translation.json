@@ -401,6 +401,7 @@
       "fields": [
         { "field": "slug", "type": "string", "description": "项目的唯一 URL 安全标识符（例如 <code>visual-studio-code</code>）。" },
         { "field": "name", "type": "string", "description": "应用或游戏的显示名称。" },
+        { "field": "translatedTitleJP", "type": "string", "description": "可选。应用或游戏的日文名称。当网站语言为日语时将代替 <code>name</code> 显示，并在用户使用日语搜索时参与匹配。" },
         { "field": "type", "type": "\"application\" | \"game\"", "description": "此条目是应用程序还是游戏。" },
         { "field": "icon", "type": "string", "description": "<code>public/icons/</code> 中的图标文件名。最大 512×512。推荐 SVG。" },
         { "field": "categories", "type": "string[]", "description": "一个或多个类别标识符（参见下方类别）。" },
