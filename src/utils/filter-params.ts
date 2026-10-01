@@ -11,7 +11,6 @@ const FILTER_KEYS = [
   "compatibility",
   "emulationType",
   "publisher",
-  "validation",
   "lastUpdated",
 ] as const;
 

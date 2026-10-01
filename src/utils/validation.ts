@@ -10,15 +10,6 @@ export const VALIDATION_ORDER: Validation[] = [
   "unverified",
 ];
 
-/** Options offered in the Verification filter ("unverified" is not selectable). */
-export const VALIDATION_FILTER_OPTIONS: Validation[] = [
-  "microsoft",
-  "qualcomm",
-  "nvidia",
-  "developer",
-  "community",
-];
-
 type TFn = (key: string, options?: Record<string, unknown>) => string;
 
 export function orderValidations(validation: Validation[]): Validation[] {
