@@ -4,6 +4,7 @@ import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { formatCategory } from "@/utils/formatting";
 import { formatValidationList } from "@/utils/validation";
+import { getProjectDisplayName } from "@/utils/project-name";
 
 interface GenerateReportXlsxOptions {
   title: string;
@@ -48,7 +49,7 @@ function validationLabel(v: Project["validation"]): string {
 function projectToRow(p: Project): string[] {
   const locale = i18n.language || "en";
   return [
-    p.name,
+    getProjectDisplayName(p, locale),
     compatibilityLabel(p.compatibility),
     emulationLabel(p.emulationType),
     p.publisher || "-",

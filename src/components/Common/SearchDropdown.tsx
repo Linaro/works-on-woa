@@ -6,6 +6,7 @@ import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { PublisherIcon } from "@/components/Common/PublisherIcon";
 import { CompatibilityBadge } from "@/components/Common/Badge";
 import { cn } from "@/utils/cn";
+import { getProjectDisplayName } from "@/utils/project-name";
 import { useSearch } from "@/data/hooks/useSearch";
 import { usePublishers } from "@/data/hooks/usePublishers";
 import { trackSearchDropdownView, trackSearchNoResults, trackSearchResultSelect } from "@/lib/telemetry";
@@ -183,6 +184,8 @@ function ProjectRow({
   selectionMethodRef?: React.MutableRefObject<"click" | "keyboard">;
 }) {
   const basePath = project.type === "application" ? "/apps" : "/games";
+  const { i18n } = useTranslation();
+  const displayName = getProjectDisplayName(project, i18n.language);
 
   return (
     <li
@@ -205,10 +208,10 @@ function ProjectRow({
         onSelect();
       }}
     >
-      <ProjectIcon icon={project.icon} name={project.name} size="sm" />
+      <ProjectIcon icon={project.icon} name={displayName} size="sm" />
       <div className="min-w-0 flex-1">
         <p className="truncate text-sm font-medium text-[var(--color-text-primary)]">
-          {project.name}
+          {displayName}
         </p>
         <p className="truncate text-xs text-[var(--color-text-tertiary)]">
           {project.publisher}

@@ -1,6 +1,7 @@
 import type { DataProvider } from "./provider";
 import { formatCategory } from "@/utils/formatting";
 import { orderValidations } from "@/utils/validation";
+import { containsJapanese, normalizeForSearch } from "@/utils/project-name";
 import { publisherIcons } from "./content/publisher-icons";
 import type {
   Project,
@@ -104,16 +105,28 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
     );
   }
   if (filters.search) {
-    const q = filters.search.toLowerCase();
-    result = result.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.publisher.toLowerCase().includes(q) ||
-        p.categories.some((c) => c.toLowerCase().includes(q))
-    );
+    const search = filters.search;
+    result = result.filter((p) => matchesSearch(p, search));
   }
 
   return result;
+}
+
+function matchesSearch(p: Project, query: string): boolean {
+  const q = query.toLowerCase();
+  if (
+    p.name.toLowerCase().includes(q) ||
+    p.publisher.toLowerCase().includes(q) ||
+    p.categories.some((c) => c.toLowerCase().includes(q))
+  ) {
+    return true;
+  }
+  // Japanese queries also match the Japanese title, regardless of site language
+  return (
+    !!p.translatedTitleJP &&
+    containsJapanese(query) &&
+    normalizeForSearch(p.translatedTitleJP).includes(normalizeForSearch(query))
+  );
 }
 
 function paginate<T>(
@@ -223,15 +236,8 @@ export class LocalDataProvider implements DataProvider {
 
   async searchProjects(query: string, limit = 20, type?: ProjectType): Promise<Project[]> {
     const allProjects = await getProjects();
-    const q = query.toLowerCase();
     return allProjects
-      .filter(
-        (p) =>
-          (!type || p.type === type) &&
-          (p.name.toLowerCase().includes(q) ||
-          p.publisher.toLowerCase().includes(q) ||
-          p.categories.some((c) => c.toLowerCase().includes(q)))
-      )
+      .filter((p) => (!type || p.type === type) && matchesSearch(p, query))
       .slice(0, limit);
   }
 
