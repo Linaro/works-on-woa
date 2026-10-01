@@ -15,7 +15,7 @@
   "hero": {
     "title": "Windows는 Arm에서 실행됩니다",
     "subtitle": "하루 종일 지속되는 성능과 배터리 수명을 위해 만들어진 앱을 탐색하세요.",
-    "supportedBy": "지원:",
+    "supportedBy": "지원",
     "searchPlaceholder": "앱 및 게임 검색",
     "searchApps": "앱 검색",
     "searchGames": "게임 검색",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "인기 애플리케이션",
-    "subtitle": "Windows는 Arm에서 7,000개 이상의 인기 앱을 지원합니다",
+    "subtitle": "Windows는 Arm에서 {{appCount}}개 이상의 인기 앱을 지원합니다",
     "seeAll": "모든 Windows 앱 보기",
     "columns": {
       "name": "이름",
@@ -217,6 +217,7 @@
     "compatibility": "호환성",
     "type": "유형",
     "publisher": "퍼블리셔",
+    "validation": "검증",
     "lastUpdated": "마지막 업데이트",
     "last7Days": "최근 7일",
     "last30Days": "최근 30일",
@@ -258,11 +259,21 @@
     "subtitle": "Arm 기반 장치에서의 완전한 Windows 경험."
   },
   "validation": {
-    "microsoft": "Microsoft 검증",
-    "qualcomm": "Qualcomm 검증",
-    "developer": "퍼블리셔 검증",
-    "community": "커뮤니티 검증",
-    "unverified": "미검증"
+    "microsoft": "Verified by Microsoft",
+    "qualcomm": "Verified by Qualcomm",
+    "nvidia": "Verified by NVIDIA",
+    "developer": "Verified by Publisher",
+    "community": "Community Verified",
+    "unverified": "Unverified",
+    "verifiedBy": "Verified by {{names}}",
+    "names": {
+      "microsoft": "Microsoft",
+      "qualcomm": "Qualcomm",
+      "nvidia": "NVIDIA",
+      "developer": "Publisher",
+      "community": "Community",
+      "unverified": "Unverified"
+    }
   },
   "games": {
     "subtitle": "Windows on Arm에서 게임 호환성을 확인하세요."
@@ -410,7 +421,7 @@
         { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>: Arm64용으로 빌드. <strong>emulation</strong>: Prism x86/x64 변환으로 실행. <strong>unknown</strong>: 미확인. <strong>na</strong>: 해당 없음." },
         { "field": "versionFrom", "type": "string", "description": "선택. Arm 호환성이 제공되는 버전." },
         { "field": "link", "type": "URL", "description": "선택. 소프트웨어 다운로드 또는 홈페이지 링크." },
-        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "호환성 상태를 검증한 주체." },
+        { "field": "validation", "type": "(\"microsoft\" | \"qualcomm\" | \"nvidia\" | \"developer\" | \"community\" | \"unverified\")[]", "description": "호환성 상태를 검증한 주체. 하나 이상 지정 가능." },
         { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "이 항목이 마지막으로 검증 또는 업데이트된 날짜." },
         { "field": "notes", "type": "string", "description": "선택. 호환성 또는 주의 사항에 대한 추가 정보." },
         { "field": "shouldShowNotes", "type": "boolean", "description": "상세 페이지에 메모 필드를 표시할지 여부." }
@@ -419,7 +430,7 @@
     "example": {
       "title": "항목 예시",
       "description": "다음은 projects.json의 애플리케이션 샘플 항목입니다:",
-      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": [\"microsoft\"],\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
     },
     "categories": {
       "title": "카테고리",

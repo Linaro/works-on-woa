@@ -1,9 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { ProjectsList } from "@/components/Projects/ProjectsList";
 import { usePageTitle } from "@/hooks/usePageTitle";
+import { useAppsSubtitle } from "@/hooks/useAppsSubtitle";
 
 export default function AppsPage() {
   const { t } = useTranslation();
+  const subtitle = useAppsSubtitle();
   usePageTitle("Apps");
 
   return (
@@ -13,7 +15,7 @@ export default function AppsPage() {
           {t("nav.apps")}
         </h1>
         <p className="mt-2 text-[var(--color-text-secondary)]">
-          {t("popularApps.subtitle")}
+          {subtitle}
         </p>
       </div>
       <ProjectsList type="application" />

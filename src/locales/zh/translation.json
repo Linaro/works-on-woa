@@ -15,7 +15,7 @@
   "hero": {
     "title": "Windows 在 Arm 上运行",
     "subtitle": "探索为全天性能和电池续航而打造的应用。",
-    "supportedBy": "支持方：",
+    "supportedBy": "支持方",
     "searchPlaceholder": "搜索应用和游戏",
     "searchApps": "搜索应用",
     "searchGames": "搜索游戏",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "热门应用程序",
-    "subtitle": "Windows 在 Arm 上支持超过 7,000 个热门应用",
+    "subtitle": "Windows 在 Arm 上支持超过 {{appCount}} 个热门应用",
     "seeAll": "查看所有 Windows 应用",
     "columns": {
       "name": "名称",
@@ -217,6 +217,7 @@
     "compatibility": "兼容性",
     "type": "类型",
     "publisher": "发行商",
+    "validation": "验证",
     "lastUpdated": "最后更新",
     "last7Days": "最近7天",
     "last30Days": "最近30天",
@@ -258,11 +259,21 @@
     "subtitle": "Arm 驱动设备上的完整 Windows 体验。"
   },
   "validation": {
-    "microsoft": "Microsoft 已验证",
-    "qualcomm": "Qualcomm 已验证",
-    "developer": "发行商已验证",
-    "community": "社区已验证",
-    "unverified": "未验证"
+    "microsoft": "Verified by Microsoft",
+    "qualcomm": "Verified by Qualcomm",
+    "nvidia": "Verified by NVIDIA",
+    "developer": "Verified by Publisher",
+    "community": "Community Verified",
+    "unverified": "Unverified",
+    "verifiedBy": "Verified by {{names}}",
+    "names": {
+      "microsoft": "Microsoft",
+      "qualcomm": "Qualcomm",
+      "nvidia": "NVIDIA",
+      "developer": "Publisher",
+      "community": "Community",
+      "unverified": "Unverified"
+    }
   },
   "games": {
     "subtitle": "浏览 Windows on Arm 上的游戏兼容性。"
@@ -410,7 +421,7 @@
         { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>：为 Arm64 构建。<strong>emulation</strong>：通过 Prism x86/x64 转换运行。<strong>unknown</strong>：未确定。<strong>na</strong>：不适用。" },
         { "field": "versionFrom", "type": "string", "description": "可选。Arm 兼容性可用的版本。" },
         { "field": "link", "type": "URL", "description": "可选。软件的下载或主页链接。" },
-        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "验证兼容性状态的主体。" },
+        { "field": "validation", "type": "(\"microsoft\" | \"qualcomm\" | \"nvidia\" | \"developer\" | \"community\" | \"unverified\")[]", "description": "验证兼容性状态的主体，可为多个。" },
         { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "此条目最后一次验证或更新的日期。" },
         { "field": "notes", "type": "string", "description": "可选。有关兼容性或注意事项的附加信息。" },
         { "field": "shouldShowNotes", "type": "boolean", "description": "是否在详情页面显示备注字段。" }
@@ -419,7 +430,7 @@
     "example": {
       "title": "条目示例",
       "description": "以下是 projects.json 中一个应用程序的示例条目：",
-      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": [\"microsoft\"],\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
     },
     "categories": {
       "title": "类别",

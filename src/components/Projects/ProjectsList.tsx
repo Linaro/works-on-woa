@@ -127,6 +127,8 @@ export function ProjectsList({ type }: ProjectsListProps) {
       return a.name.localeCompare(b.name);
     });
 
+  const activeFilters = activeFiltersFromProjectFilters(filters);
+
   const filterConfig = [
     {
       label: t("filters.category"),
@@ -193,7 +195,7 @@ export function ProjectsList({ type }: ProjectsListProps) {
       <div className="mt-6">
         <FilterBar
           filters={filterConfig}
-          activeFilters={activeFiltersFromProjectFilters(filters)}
+          activeFilters={activeFilters}
           onFilterChange={handleFilterChange}
           onClearAll={handleClearAll}
           className="justify-center"

@@ -3,6 +3,7 @@ import i18n from "i18next";
 import type { Project } from "@/data/types";
 import { sortProjects, type SortField, type SortDirection } from "@/components/Common/ProjectTable";
 import { formatCategory } from "@/utils/formatting";
+import { formatValidationList } from "@/utils/validation";
 import { getProjectDisplayName } from "@/utils/project-name";
 
 interface GenerateReportXlsxOptions {
@@ -41,14 +42,8 @@ function emulationLabel(e: string): string {
   }
 }
 
-function validationLabel(v: string): string {
-  switch (v) {
-    case "microsoft": return i18n.t("validation.microsoft");
-    case "qualcomm": return i18n.t("validation.qualcomm");
-    case "developer": return i18n.t("validation.developer");
-    case "community": return i18n.t("validation.community");
-    default: return i18n.t("validation.unverified");
-  }
+function validationLabel(v: Project["validation"]): string {
+  return formatValidationList(v, i18n.t) || i18n.t("validation.unverified");
 }
 
 function projectToRow(p: Project): string[] {

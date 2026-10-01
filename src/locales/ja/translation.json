@@ -15,7 +15,7 @@
   "hero": {
     "title": "WindowsはArmで動作します",
     "subtitle": "終日続くパフォーマンスとバッテリー駆動時間のために作られたアプリを探索しましょう。",
-    "supportedBy": "提供：",
+    "supportedBy": "提供",
     "searchPlaceholder": "アプリやゲームを検索",
     "searchApps": "アプリを検索",
     "searchGames": "ゲームを検索",
@@ -23,7 +23,7 @@
   },
   "popularApps": {
     "title": "人気のアプリケーション",
-    "subtitle": "WindowsはArm上で7,000以上の人気アプリをサポートしています",
+    "subtitle": "WindowsはArm上で{{appCount}}以上の人気アプリをサポートしています",
     "seeAll": "すべてのWindowsアプリを見る",
     "columns": {
       "name": "名前",
@@ -217,6 +217,7 @@
     "compatibility": "互換性",
     "type": "タイプ",
     "publisher": "パブリッシャー",
+    "validation": "検証",
     "lastUpdated": "最終更新",
     "last7Days": "過去7日間",
     "last30Days": "過去30日間",
@@ -258,11 +259,21 @@
     "subtitle": "Arm搭載デバイスでの完全なWindows体験。"
   },
   "validation": {
-    "microsoft": "Microsoft検証済み",
-    "qualcomm": "Qualcomm検証済み",
-    "developer": "パブリッシャー検証済み",
-    "community": "コミュニティ検証済み",
-    "unverified": "未検証"
+    "microsoft": "Verified by Microsoft",
+    "qualcomm": "Verified by Qualcomm",
+    "nvidia": "Verified by NVIDIA",
+    "developer": "Verified by Publisher",
+    "community": "Community Verified",
+    "unverified": "Unverified",
+    "verifiedBy": "Verified by {{names}}",
+    "names": {
+      "microsoft": "Microsoft",
+      "qualcomm": "Qualcomm",
+      "nvidia": "NVIDIA",
+      "developer": "Publisher",
+      "community": "Community",
+      "unverified": "Unverified"
+    }
   },
   "games": {
     "subtitle": "Windows on Armでのゲーム互換性を確認。"
@@ -410,7 +421,7 @@
         { "field": "emulationType", "type": "\"native\" | \"emulation\" | \"unknown\" | \"na\"", "description": "<strong>native</strong>：Arm64向けに構築。<strong>emulation</strong>：Prism x86/x64変換で実行。<strong>unknown</strong>：未確定。<strong>na</strong>：該当なし。" },
         { "field": "versionFrom", "type": "string", "description": "任意。Arm互換性が利用可能なバージョン。" },
         { "field": "link", "type": "URL", "description": "任意。ソフトウェアのダウンロードまたはホームページリンク。" },
-        { "field": "validation", "type": "\"microsoft\" | \"qualcomm\" | \"developer\" | \"community\" | \"unverified\"", "description": "互換性ステータスを検証した主体。" },
+        { "field": "validation", "type": "(\"microsoft\" | \"qualcomm\" | \"nvidia\" | \"developer\" | \"community\" | \"unverified\")[]", "description": "互換性ステータスを検証した主体。複数指定可。" },
         { "field": "lastUpdated", "type": "date (YYYY-MM-DD)", "description": "このエントリが最後に検証または更新された日付。" },
         { "field": "notes", "type": "string", "description": "任意。互換性や注意事項に関する追加情報。" },
         { "field": "shouldShowNotes", "type": "boolean", "description": "詳細ページにメモフィールドを表示するかどうか。" }
@@ -419,7 +430,7 @@
     "example": {
       "title": "エントリの例",
       "description": "以下はprojects.jsonのアプリケーションのサンプルエントリです：",
-      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": \"microsoft\",\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
+      "code": "{\n  \"slug\": \"visualstudiocode\",\n  \"name\": \"Visual Studio Code\",\n  \"type\": \"application\",\n  \"icon\": \"VisualStudioCode.svg\",\n  \"categories\": [\"dev-tools\"],\n  \"publisher\": \"Microsoft\",\n  \"compatibility\": \"yes\",\n  \"emulationType\": \"native\",\n  \"versionFrom\": \"1.81.1\",\n  \"link\": \"https://apps.microsoft.com/detail/xp9khm4bk9fz7q\",\n  \"validation\": [\"microsoft\"],\n  \"lastUpdated\": \"2026-03-15\",\n  \"notes\": \"\",\n  \"shouldShowNotes\": false\n}"
     },
     "categories": {
       "title": "カテゴリ",
