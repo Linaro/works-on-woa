@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Container } from "@/components/Common/Container";
 import { SearchBar } from "@/components/Common/SearchBar";
 import { GradientText } from "@/components/Common/GradientText";
+import { SupportedBy } from "@/components/Home/SupportedBy";
 
 export function HeroSection() {
   const { t } = useTranslation();
@@ -47,7 +48,8 @@ export function HeroSection() {
         }}
       />
 
-      <Container className="relative flex min-h-[100vh] flex-col items-center justify-center text-center">
+      <div className="relative flex min-h-[100vh] w-full flex-col items-center justify-center">
+        <Container className="flex flex-col items-center text-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -79,23 +81,17 @@ export function HeroSection() {
         >
           <SearchBar placeholder={t("hero.searchPlaceholder")} />
         </motion.div>
+        </Container>
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          className="mt-12 w-full"
         >
-          <div className="mt-5 flex items-center gap-2.5 text-[15px] text-[var(--color-text-tertiary)]">
-            <span>{t("hero.supportedBy")}</span>
-            <img
-              src="/microsoft-logo.png"
-              alt="Microsoft"
-              className="h-5 w-auto"
-            />
-          </div>
+          <SupportedBy />
         </motion.div>
-
-      </Container>
+      </div>
 
       {/* Scroll indicator line */}
       <div

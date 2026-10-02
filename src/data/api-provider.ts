@@ -6,6 +6,7 @@ import type {
   Category,
   ProjectType,
   Publisher,
+  Validation,
 } from "./types";
 
 /**
@@ -28,6 +29,10 @@ export class ApiDataProvider implements DataProvider {
   }
 
   async getCategories(_type?: ProjectType): Promise<Category[]> {
+    throw new Error("Not implemented — use local provider");
+  }
+
+  async getValidations(_type?: ProjectType): Promise<Validation[]> {
     throw new Error("Not implemented — use local provider");
   }
 

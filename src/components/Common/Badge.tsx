@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
 import type { Compatibility, Validation } from "@/data/types";
+import { formatValidationLines, shownValidations } from "@/utils/validation";
 import { useTranslation } from "react-i18next";
 import { Shield, Users, CheckCircle } from "lucide-react";
 
@@ -46,7 +47,7 @@ export function CompatibilityBadge({
 }
 
 interface ValidationBadgeProps {
-  validation: Validation;
+  validation: Validation[];
   className?: string;
 }
 
@@ -59,12 +60,18 @@ export function ValidationBadge({
   const icons: Record<Validation, React.ReactNode> = {
     microsoft: <Shield className="mr-1 h-3 w-3" />,
     qualcomm: <CheckCircle className="mr-1 h-3 w-3" />,
+    nvidia: <CheckCircle className="mr-1 h-3 w-3" />,
     developer: <CheckCircle className="mr-1 h-3 w-3" />,
     community: <Users className="mr-1 h-3 w-3" />,
     unverified: null,
   };
 
-  if (validation === "unverified") return null;
+  const shown = shownValidations(validation);
+  const primary = shown[0];
+
+  if (!primary) return null;
+
+  const lines = formatValidationLines(validation, t);
 
   return (
     <span
@@ -74,8 +81,16 @@ export function ValidationBadge({
         className
       )}
     >
-      {icons[validation]}
-      {t(`validation.${validation}`)}
+      {icons[primary]}
+      {lines.length > 1 ? (
+        <span className="flex flex-col leading-snug">
+          {lines.map((line) => (
+            <span key={line}>{line}</span>
+          ))}
+        </span>
+      ) : (
+        lines[0]
+      )}
     </span>
   );
 }

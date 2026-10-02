@@ -1,5 +1,6 @@
 import type { DataProvider } from "./provider";
 import { formatCategory } from "@/utils/formatting";
+import { orderValidations } from "@/utils/validation";
 import { containsJapanese, normalizeForSearch } from "@/utils/project-name";
 import { publisherIcons } from "./content/publisher-icons";
 import type {
@@ -9,6 +10,7 @@ import type {
   Category,
   ProjectType,
   Publisher,
+  Validation,
 } from "./types";
 
 let projects: Project[] | null = null;
@@ -62,6 +64,14 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
       const lower = pubs.map((p) => p.toLowerCase());
       result = result.filter((p) =>
         lower.some((pub) => p.publisher.toLowerCase() === pub)
+      );
+    }
+  }
+  if (filters.validation) {
+    const vals = Array.isArray(filters.validation) ? filters.validation : [filters.validation];
+    if (vals.length > 0) {
+      result = result.filter((p) =>
+        (vals as string[]).some((v) => (p.validation as string[]).includes(v))
       );
     }
   }
@@ -180,6 +190,22 @@ export class LocalDataProvider implements DataProvider {
     return Array.from(categoryMap.entries())
       .map(([slug, data]) => ({ slug, ...data }))
       .sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  async getValidations(type?: ProjectType): Promise<Validation[]> {
+    const allProjects = await getProjects();
+    const filtered = type
+      ? allProjects.filter((p) => p.type === type)
+      : allProjects;
+
+    const present = new Set<Validation>();
+    for (const project of filtered) {
+      for (const v of project.validation ?? []) {
+        present.add(v);
+      }
+    }
+
+    return orderValidations([...present]);
   }
 
   async getPopularProjects(locale = "en", limit = 10): Promise<Project[]> {

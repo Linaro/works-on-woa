@@ -7,11 +7,13 @@ import { TableSkeleton } from "@/components/Common/Skeleton";
 import { ProjectTable } from "@/components/Common/ProjectTable";
 import { trackButtonClick } from "@/lib/telemetry";
 import { usePopularProjects } from "@/data/hooks/usePopularProjects";
+import { useAppsSubtitle } from "@/hooks/useAppsSubtitle";
 
 export function PopularAppsTable() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const { data, isLoading } = usePopularProjects(i18n.language, 10);
+  const subtitle = useAppsSubtitle();
 
   return (
     <section className="relative bg-[var(--color-bg-primary)] noise-bg">
@@ -24,7 +26,7 @@ export function PopularAppsTable() {
             {t("popularApps.title")}
           </h2>
           <p className="mt-3 text-lg text-[var(--color-text-secondary)]">
-            {t("popularApps.subtitle")}
+            {subtitle}
           </p>
         </ScrollReveal>
 
