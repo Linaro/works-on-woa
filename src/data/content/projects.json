@@ -6656,14 +6656,16 @@
       "dev-tools"
     ],
     "publisher": "",
-    "compatibility": "yes",
-    "emulationType": "emulation",
+    "compatibility": "no",
+    "emulationType": "na",
     "versionFrom": "2022.3.1.18",
     "link": "https://developer.android.com/studio",
     "validation": [
       "qualcomm"
     ],
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-02",
+    "notes": "The IDE, editor, and Device Manager for connected physical devices are all functional under emulation. The device emulators are unable to start. Performance of the tools are slugish under emulation.",
+    "shouldShowNotes": true
   },
   {
     "slug": "angel-legion---idle-rpg",
