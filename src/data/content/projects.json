@@ -6664,7 +6664,7 @@
       "qualcomm"
     ],
     "lastUpdated": "2026-03-02",
-    "notes": "The IDE, editor, and Device Manager for connected physical devices are all functional under emulation. The device emulators are unable to start. Performance of the tools are slugish under emulation.",
+    "notes": "The IDE, editor, and Device Manager for connected physical devices are all functional under emulation. The device emulators are unable to start. Performance of the tools are sluggish under emulation.",
     "shouldShowNotes": true
   },
   {
