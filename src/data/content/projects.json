@@ -8152,6 +8152,27 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "aqemu",
+    "name": "AQEMU",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "emulators",
+      "dev-tools"
+    ],
+    "publisher": "Chronic Engineering",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.6.0",
+    "link": "https://apps.microsoft.com/detail/9P0HGKHQ9W19?cid=worksonwoa",
+    "validation": [
+      "developer"
+    ],
+    "lastUpdated": "2026-10-31",
+    "notes": "Native Arm64 build. Qt GUI for QEMU with native Arm64 WHPX acceleration (requires Windows 11 24H2 build 26100.3915 or later), snapshots, and drag-and-drop file copy to and from guests. The Microsoft Store build is paid; the source code is open source under GPLv2: https://github.com/chronic8000/aqemu",
+    "shouldShowNotes": true
+  },
+  {
     "slug": "aquilereader",
     "name": "Aquile reader",
     "type": "application",
