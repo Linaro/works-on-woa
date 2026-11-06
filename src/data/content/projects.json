@@ -3110,7 +3110,7 @@
     ],
     "publisher": "Adobe",
     "compatibility": "yes",
-    "emulationType": "emulation",
+    "emulationType": "native",
     "versionFrom": "23.6.8",
     "link": "https://www.adobe.com/products/premiere/free-trial-download.html",
     "validation": [
@@ -172022,5 +172022,1661 @@
       "nvidia"
     ],
     "lastUpdated": "2026-09-29"
+  },
+  {
+    "slug": "3dfindit",
+    "name": "3Dfind.it",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.0.0",
+    "link": "https://apps.microsoft.com/detail/9N8HJ4CGLMNX",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "afterburner",
+    "name": "Afterburner",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.6.5.16370",
+    "link": "https://www.msi.com/Landing/afterburner/graphics-cards",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "agisoftmetashape",
+    "name": "Agisoft Metashape",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.2.1",
+    "link": "Https://www.agisoft.com/downloads/installer",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "ahnlabeppdevicecontrol",
+    "name": "AhnLab EPP Device Control",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "it"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.19.10",
+    "link": "https://qualcomm-my.sharepoint.com/:u:/p/jiwool_qti/EdiKU3Lqv7JFgZn8D3RsALYB42-AuciwE-66FKDQCTTmjA?e=LLfgTv",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "aisuites",
+    "name": "AI Suites",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9PLN2BB2HRJG",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "aivenue",
+    "name": "AIvenue",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.6.12.0",
+    "link": "https://apps.microsoft.com/detail/9P35QSHWV2B0",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "amazonchime",
+    "name": "Amazon chime",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.23.32079",
+    "link": "http://www.g.chime.aws/trial/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "amazonquickdesktop",
+    "name": "Amazon Quick (Desktop)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.1000.1410",
+    "link": "https://aws.amazon.com/quick/desktop/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "aquavoice",
+    "name": "Aqua Voice",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.14.2",
+    "link": "https://aquavoice.com/download",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "avoicerecorder",
+    "name": "Avoice Recorder",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.4.0",
+    "link": "https://apps.microsoft.com/detail/9nzxpr4zmcbj",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "brackets",
+    "name": "Brackets",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.2.1",
+    "link": "https://github.com/brackets-cont/brackets/releases",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "bunbackup",
+    "name": "BunBackup",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.12",
+    "link": "https://nagatsuki.la.coocan.jp/bunbackup/download.htm",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "claudecode",
+    "name": "Claude Code",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.7196.0.0",
+    "link": "https://claude.com/product/claude-code",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "claunch",
+    "name": "Claunch",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.22",
+    "link": "https://pyonkichi.g1.xrea.com/claunch.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "comet",
+    "name": "Comet",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "TBD",
+    "link": "https://www.comet.com/site/pricing/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "completeharddiskerasure18",
+    "name": "Complete Hard Disk Erasure 18",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.1.4",
+    "link": "https://www.junglejapan.com/products/masshou/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "convertanythingtopdf",
+    "name": "Convert Anything To PDF",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9NGCJN1KB3CV",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "crewtyping",
+    "name": "Crew Typing",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1",
+    "link": "https://crew-lab.sfc.keio.ac.jp/projects/2000keyboarding/download.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "daoffice",
+    "name": "DaOffice",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "9.2",
+    "link": "https://datools.kr/Download/DaOffice920.exe",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "dictation",
+    "name": "Dictation.",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2025.2.7.0",
+    "link": "https://apps.microsoft.com/detail/9P4LW96T0BCD",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "doublecommander",
+    "name": "Double Commander",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.28",
+    "link": "https://github.com/doublecmd/doublecmd/wiki/versions",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "estartupdatecenter",
+    "name": "E START Update Center",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.3.34.4",
+    "link": "https://start.jword.jp/update_center/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "easytex",
+    "name": "Easy Tex",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.141",
+    "link": "https://www.juen.ac.jp/math/nakagawa/texguide.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "eclipsepleiadespluscdt",
+    "name": "Eclipse Pleiades + CDT",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.40.0",
+    "link": "https://willbrains.jp/index.html#/pleiades_distros2026.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "egovelectricapplication",
+    "name": "e-Gov Electric Application",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.1.6",
+    "link": "https://shinsei.e-gov.go.jp/contents/preparation#egovui-step3",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "eiffelstudio",
+    "name": "EiffelStudio",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "25.02",
+    "link": "https://account.eiffel.com/downloads",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "elephantoffice",
+    "name": "Elephant Office",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.2.1.0",
+    "link": "https://apps.microsoft.com/detail/9MW57NH8FB6V",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "fastaccessfacerecognition",
+    "name": "FastAccess Face recognition",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.0.94",
+    "link": "https://sensiblevision.com/fastaccess",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "fmvportal",
+    "name": "FMV Portal",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.1.16.0",
+    "link": "https://apps.microsoft.com/detail/9wzdncrdrb7l",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "githubcopilotvscode",
+    "name": "GitHub Copilot (VS Code)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.121.0",
+    "link": "https://github.com/features/copilot",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "glidex",
+    "name": "GlideX",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.1.3.0",
+    "link": "https://apps.microsoft.com/detail/9PLH2SV1DVK5",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "gmsh",
+    "name": "GMSH",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "4.14.0",
+    "link": "https://gmsh.info/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "gnufortran",
+    "name": "GNU Fortran",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "16.1.0",
+    "link": "http://www.equation.com/servlet/equation.cmd?fa=fortran",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "gnuemacs",
+    "name": "GNUEmacs",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "30.2",
+    "link": "https://ftp.gnu.org/gnu/emacs/windows/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "gooseaaif",
+    "name": "Goose (AAIF)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.38.0.0",
+    "link": "https://github.com/aaif-goose/goose/releases",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "gpuoverclocking",
+    "name": "GPU Overclocking",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.49.0.0",
+    "link": "https://apps.microsoft.com/detail/9NNGBQXXL8S9",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "hypersbi2",
+    "name": "HYPER SBI 2",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.18.0",
+    "link": "https://go.sbisec.co.jp/lp/lp_hyper_sbi2_211112_download.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "ibmaspera",
+    "name": "IBM Aspera",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.14",
+    "link": "https://ibmaspera.com/help/downloads/desktop",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "ibmpersonalcommunications",
+    "name": "IBM Personal Communications",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "15.0.0.0",
+    "link": "https://www.ibm.com/support/pages/ibm-personal-communications",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "kompozer",
+    "name": "KompoZer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.8b3",
+    "link": "https://sourceforge.net/projects/kompozer/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "krisp",
+    "name": "Krisp",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.33.4",
+    "link": "https://apps.microsoft.com/detail/xp9d25xxg3sv5x",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "lhaforge",
+    "name": "Lhaforge",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.0.1",
+    "link": "https://github.com/Claybird/lhaforge/releases",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "lhaplus",
+    "name": "Lhaplus",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.74",
+    "link": "https://www7a.biglobe.ne.jp/~schezo/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "lhaz",
+    "name": "Lhaz",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.4.0",
+    "link": "https://lhaz.jp.download.it/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "libcef",
+    "name": "LibCEF",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "TBD",
+    "link": "https://www.dll-files.com/libcef.dll.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "ltspice24110",
+    "name": "LTSpice 24.1.10",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "26.0.1.0",
+    "link": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "ltspicexv11",
+    "name": "LTSpice XV11",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "XV11",
+    "link": "https://ltspice.analog.com/software/LTspice64.exe",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "manusmycomputer",
+    "name": "Manus My Computer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.6.0.0",
+    "link": "https://apps.microsoft.com/detail/9PHV7M7V4S5L",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "maxsoftdesktopaiagent",
+    "name": "MaxSoft Desktop AI Agent",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.0.16.0",
+    "link": "https://apps.microsoft.com/detail/9MWH00ZVKB7D",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "memoit",
+    "name": "Memoit",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.9",
+    "link": "https://memoit.filei.co.kr",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "mergeobjectviewer",
+    "name": "Merge Object Viewer",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.5.7.0",
+    "link": "https://apps.microsoft.com/detail/9N1HMCNBLN0N",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "metatrader2",
+    "name": "Meta Trader",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "personalfin"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.0.",
+    "link": "https://www.metatrader5.com/en/download",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "microsoftgaragemousewithoutborders",
+    "name": "Microsoft Garage Mouse without Borders",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.2.1.0327",
+    "link": "https://www.microsoft.com/en-my/download/details.aspx",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "mucommander",
+    "name": "muCommander",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.5.2",
+    "link": "https://www.mucommander.com/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "multispec",
+    "name": "MultiSpec",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2025.02.19",
+    "link": "https://engineering.purdue.edu/~biehl/MultiSpec/download_win.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "musehub",
+    "name": "MuseHub",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.7.1.2150",
+    "link": "https://www.musehub.com/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "neo4jdesktop",
+    "name": "Neo4j Desktop",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.1.3",
+    "link": "https://neo4j.com/download/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "notioncalendar",
+    "name": "Notion Calendar",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.133.0",
+    "link": "https://www.notion.com/product/calendar/download/windows",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "openinterpreterlocal",
+    "name": "Open Interpreter (Local)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "0.0.45",
+    "link": "https://www.openinterpreter.com/download/windows",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "openaicodexdesktop",
+    "name": "OpenAI Codex (Desktop)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "26.506.3741.0",
+    "link": "https://apps.microsoft.com/detail/9PLM9XGG6VKS",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "opencodedesktop",
+    "name": "OpenCode (Desktop)",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "v1.14.50",
+    "link": "https://opencode.ai/download",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "oraclejdk",
+    "name": "Oracle JDK",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "20.0.2",
+    "link": "https://www.oracle.com/java/technologies/downloads/#jdk20-windows",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "pclouddrive",
+    "name": "pCloud Drive",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.0.20.0",
+    "link": "https://www.pcloud.com/download-free-online-cloud-file-storage.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "pingx",
+    "name": "PingX",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.2404.1901.0",
+    "link": "https://apps.microsoft.com/detail/9n4vlqp14nw0",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "pymol",
+    "name": "PyMOL",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.1.6.1",
+    "link": "https://pymol.org/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "qdir",
+    "name": "Q-DIR",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "12.35",
+    "link": "https://q-dir.com/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "quickassist",
+    "name": "Quick Assist",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "2.0.35.0",
+    "link": "https://apps.microsoft.com/detail/9P7BP5VNWKX5",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "rambox",
+    "name": "Rambox",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.6.2",
+    "link": "https://rambox.app/download-windows/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "remoteviewsimplelauncher",
+    "name": "Remote View Simple Launcher",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "vpn"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.0.0.82",
+    "link": "https://content.rview.com/ja/trial/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "skales",
+    "name": "Skales",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "10.3.2",
+    "link": "https://skales.app/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "snapgene",
+    "name": "SnapGene",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "8.1.1",
+    "link": "https://www.snapgene.com/support/downloads",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "softmakeroffice",
+    "name": "SoftMaker Office",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "24.0.6144",
+    "link": "https://www.softmaker.com/en/products/softmaker-office/download-permanent-version",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "stationv300",
+    "name": "Station v3.0.0",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.0",
+    "link": "https://github.com/getstation/desktop-app/releases/tag/v3.0.0",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "strawberryperl",
+    "name": "Strawberry Perl",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "5.42.3001",
+    "link": "https://strawberryperl.com/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "streamfab",
+    "name": "StreamFab",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "7.0.2.8",
+    "link": "https://streamfab.dvdfab.cn/downloader.htm",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "studyaiddbmath",
+    "name": "Studyaid D.B. Math",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.3.7.1",
+    "link": "https://www.chart.co.jp/stdb/online/dl/desktop_new.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "supermappledigital26",
+    "name": "Super Mapple Digital 26",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "26.0.0",
+    "link": "https://smd.mapple.net/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "task4u",
+    "name": "Task4U",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.1.115.0",
+    "link": "https://apps.microsoft.com/detail/9nblggh52zp6",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "tldv",
+    "name": "tldv",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.0.319",
+    "link": "https://tldv.io/desktop-app/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "turbocleaner",
+    "name": "Turbo cleaner",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.0.8.0",
+    "link": "https://apps.microsoft.com/detail/9pfs7jw2bskm",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "unity3dpersonaledition",
+    "name": "Unity 3D Personal Edition",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "6000.1.11f1",
+    "link": "https://unity.com/products/unity-personal",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "urlsnooper",
+    "name": "URL Snooper",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.42.01",
+    "link": "https://www.donationcoder.com/software/mouser/popular-apps/url-snooper",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "verbatiktexttospeech",
+    "name": "Verbatik Text to Speech",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.1.0",
+    "link": "https://apps.microsoft.com/detail/9N7FMM11QKD2",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "videolock",
+    "name": "Video Lock",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "1.8.2.0",
+    "link": "https://apps.microsoft.com/detail/9NBLGGH596NH",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "vmprotect",
+    "name": "VMProtect",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.9.6",
+    "link": "https://www.vmpsoft.com/files",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "wolframmathematica",
+    "name": "Wolfram Mathematica",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "14.2",
+    "link": "https://www.wolfram.com/mathematica/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "wordq",
+    "name": "WordQ",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "prod"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "6.1.9.0",
+    "link": "https://www.quillsoft.ca/wordq-windows",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "xilinxvivado",
+    "name": "Xilinx Vivado",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2026.1",
+    "link": "https://www.amd.com/en/support/downloads/adaptive-socs-and-fpgas/development-tools/2026-1.html",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "xrmtoolbox",
+    "name": "XRMToolBox",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "v1.2024.9.69",
+    "link": "https://www.xrmtoolbox.com/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "xtoolcreativespace",
+    "name": "xTool Creative Space",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "2.7.22",
+    "link": "https://www.xtool.com/pages/software",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "yenka",
+    "name": "Yenka",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "education"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "3.4.4.1",
+    "link": "https://yenka.com/yenka-home-installers/",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "yosys",
+    "name": "Yosys",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "versionFrom": "NA",
+    "link": "https://github.com/YosysHQ/oss-cad-suite-build/releases/tag/2026-10-21",
+    "validation": [
+      "qualcomm"
+    ],
+    "lastUpdated": "2026-11-03"
   }
 ]
