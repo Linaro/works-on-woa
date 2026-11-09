@@ -67,6 +67,9 @@ const CATEGORY_OVERRIDES: Record<string, string> = {
   "actionandadventure": "Action & Adventure",
   "cardandboard": "Card & Board",
   "roleplaying": "Role Playing",
+  "iot": "Internet of Things",
+  "retail": "Retail",
+  "industrial automation": "Industrial Automation",
 };
 
 export function formatCategory(slug: string): string {

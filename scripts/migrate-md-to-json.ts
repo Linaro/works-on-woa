@@ -45,7 +45,7 @@ interface ProjectOutput {
   compatibilityDetails?: string;
   versionFrom?: string;
   link?: string;
-  validation: "microsoft" | "qualcomm" | "developer" | "community" | "unverified";
+  validation: ("microsoft" | "qualcomm" | "nvidia" | "developer" | "community" | "unverified")[];
   lastUpdated: string;
   isMicrosoftApp?: boolean;
   microsoftCategory?: string;
@@ -185,14 +185,14 @@ function processDirectory(
           emulationType,
           versionFrom: fm.version_from,
           link: fm.link,
-          validation: "community",
+          validation: ["community"],
           lastUpdated: new Date().toISOString().split("T")[0]!,
         };
 
         if (MICROSOFT_APPS.has(slug)) {
           project.isMicrosoftApp = true;
           project.microsoftCategory = MICROSOFT_CATEGORIES[slug] || "productivity";
-          project.validation = "microsoft";
+          project.validation = ["microsoft"];
           project.publisher = "Microsoft Corporation";
         }
 
@@ -218,7 +218,7 @@ function processDirectory(
           emulationType,
           compatibilityDetails: fm.compatibility_details,
           link: fm.link,
-          validation: fm.publisher ? "developer" : "community",
+          validation: fm.publisher ? ["developer"] : ["community"],
           lastUpdated: fm.date_tested
             ? new Date(fm.date_tested).toISOString().split("T")[0]!
             : new Date().toISOString().split("T")[0]!,

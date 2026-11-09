@@ -5,6 +5,7 @@ import type {
   Category,
   ProjectType,
   Publisher,
+  Validation,
 } from "./types";
 
 export interface DataProvider {
@@ -15,6 +16,8 @@ export interface DataProvider {
   ): Promise<PaginatedResult<Project>>;
   getProject(slug: string): Promise<Project | null>;
   getCategories(type?: ProjectType): Promise<Category[]>;
+  /** Validation values present on at least one project. */
+  getValidations(type?: ProjectType): Promise<Validation[]>;
   getPopularProjects(locale?: string, limit?: number): Promise<Project[]>;
   getMicrosoftApps(): Promise<Project[]>;
   searchProjects(query: string, limit?: number, type?: ProjectType): Promise<Project[]>;

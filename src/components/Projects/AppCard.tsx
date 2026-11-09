@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { CompatibilityBadge } from "@/components/Common/Badge";
 import { formatCategory } from "@/utils/formatting";
+import { getProjectDisplayName } from "@/utils/project-name";
 import type { Project } from "@/data/types";
 
 interface AppCardProps {
@@ -10,6 +12,8 @@ interface AppCardProps {
 
 export function AppCard({ project }: AppCardProps) {
   const navigate = useNavigate();
+  const { i18n } = useTranslation();
+  const displayName = getProjectDisplayName(project, i18n.language);
   const detailPath =
     project.type === "application"
       ? `/apps/${project.slug}`
@@ -28,13 +32,13 @@ export function AppCard({ project }: AppCardProps) {
       <div className="relative z-10 flex items-start gap-4">
         {/* Icon */}
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[rgba(255,255,255,0.06)] text-lg font-bold text-[var(--color-accent)]">
-          {project.name.charAt(0)}
+          {displayName.charAt(0)}
         </div>
 
         {/* Info */}
         <div className="min-w-0 flex-1">
           <h3 className="truncate font-semibold text-[var(--color-text-primary)]">
-            {project.name}
+            {displayName}
           </h3>
           {project.publisher && (
             <p className="mt-0.5 truncate text-sm text-[var(--color-text-tertiary)]">

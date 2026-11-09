@@ -10,6 +10,7 @@ import { ProjectIcon } from "@/components/Common/ProjectIcon";
 import { Skeleton } from "@/components/Common/Skeleton";
 import { useProject } from "@/data/hooks/useProject";
 import { formatDate, capitalize, formatCategory } from "@/utils/formatting";
+import { getProjectDisplayName } from "@/utils/project-name";
 import { addBulkReportSlug, removeBulkReportSlug, useBulkReport } from "@/lib/bulk-report";
 import { trackButtonClick } from "@/lib/telemetry";
 import type { ProjectType } from "@/data/types";
@@ -20,7 +21,7 @@ interface ProjectDetailViewProps {
 }
 
 export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const { data: project, isLoading, error } = useProject(slug);
   const bulkReport = useBulkReport();
@@ -69,6 +70,8 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
     );
   }
 
+  const displayName = getProjectDisplayName(project, i18n.language);
+
   const infoItems = [
     {
       label: t("appDetail.compatibility"),
@@ -106,10 +109,10 @@ export function ProjectDetailView({ slug, type }: ProjectDetailViewProps) {
       <div>
         {/* Header */}
         <div className="flex items-start gap-5">
-          <ProjectIcon icon={project.icon} name={project.name} size="xl" />
+          <ProjectIcon icon={project.icon} name={displayName} size="xl" />
           <div className="min-w-0">
             <h1 className="text-3xl font-bold text-[var(--color-text-primary)] md:text-4xl">
-              {project.name}
+              {displayName}
             </h1>
             {project.publisher && (
               <p className="mt-1 text-lg text-[var(--color-text-secondary)]">

@@ -1,5 +1,6 @@
 # build output
 dist/
+tsconfig.app.tsbuildinfo
 
 # dependencies
 node_modules/

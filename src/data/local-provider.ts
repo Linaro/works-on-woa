@@ -1,5 +1,7 @@
 import type { DataProvider } from "./provider";
 import { formatCategory } from "@/utils/formatting";
+import { orderValidations } from "@/utils/validation";
+import { containsJapanese, normalizeForSearch } from "@/utils/project-name";
 import { publisherIcons } from "./content/publisher-icons";
 import type {
   Project,
@@ -8,6 +10,7 @@ import type {
   Category,
   ProjectType,
   Publisher,
+  Validation,
 } from "./types";
 
 let projects: Project[] | null = null;
@@ -64,6 +67,14 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
       );
     }
   }
+  if (filters.validation) {
+    const vals = Array.isArray(filters.validation) ? filters.validation : [filters.validation];
+    if (vals.length > 0) {
+      result = result.filter((p) =>
+        (vals as string[]).some((v) => (p.validation as string[]).includes(v))
+      );
+    }
+  }
   if (filters.isMicrosoftApp !== undefined) {
     result = result.filter((p) => p.isMicrosoftApp === filters.isMicrosoftApp);
   }
@@ -94,16 +105,28 @@ function applyFilters(items: Project[], filters?: ProjectFilters): Project[] {
     );
   }
   if (filters.search) {
-    const q = filters.search.toLowerCase();
-    result = result.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.publisher.toLowerCase().includes(q) ||
-        p.categories.some((c) => c.toLowerCase().includes(q))
-    );
+    const search = filters.search;
+    result = result.filter((p) => matchesSearch(p, search));
   }
 
   return result;
+}
+
+function matchesSearch(p: Project, query: string): boolean {
+  const q = query.toLowerCase();
+  if (
+    p.name.toLowerCase().includes(q) ||
+    p.publisher.toLowerCase().includes(q) ||
+    p.categories.some((c) => c.toLowerCase().includes(q))
+  ) {
+    return true;
+  }
+  // Japanese queries also match the Japanese title, regardless of site language
+  return (
+    !!p.translatedTitleJP &&
+    containsJapanese(query) &&
+    normalizeForSearch(p.translatedTitleJP).includes(normalizeForSearch(query))
+  );
 }
 
 function paginate<T>(
@@ -169,6 +192,22 @@ export class LocalDataProvider implements DataProvider {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  async getValidations(type?: ProjectType): Promise<Validation[]> {
+    const allProjects = await getProjects();
+    const filtered = type
+      ? allProjects.filter((p) => p.type === type)
+      : allProjects;
+
+    const present = new Set<Validation>();
+    for (const project of filtered) {
+      for (const v of project.validation ?? []) {
+        present.add(v);
+      }
+    }
+
+    return orderValidations([...present]);
+  }
+
   async getPopularProjects(locale = "en", limit = 10): Promise<Project[]> {
     const allProjects = await getProjects();
     const popData = await getPopularAppsData();
@@ -197,15 +236,8 @@ export class LocalDataProvider implements DataProvider {
 
   async searchProjects(query: string, limit = 20, type?: ProjectType): Promise<Project[]> {
     const allProjects = await getProjects();
-    const q = query.toLowerCase();
     return allProjects
-      .filter(
-        (p) =>
-          (!type || p.type === type) &&
-          (p.name.toLowerCase().includes(q) ||
-          p.publisher.toLowerCase().includes(q) ||
-          p.categories.some((c) => c.toLowerCase().includes(q)))
-      )
+      .filter((p) => (!type || p.type === type) && matchesSearch(p, query))
       .slice(0, limit);
   }
 
