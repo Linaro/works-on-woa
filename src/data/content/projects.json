@@ -38823,6 +38823,23 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "eclipsetemurin",
+    "name": "Eclipse Temurin",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "Eclipse Foundation",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "validation": [
+      "microsoft"
+    ],
+    "lastUpdated": "2026-10-26",
+    "link": "https://adoptium.net/temurin/releases?version=21&os=any&arch=any"
+  },
+  {
     "slug": "eclypsiumforendpoints",
     "name": "Eclypsium for Endpoints",
     "type": "application",
@@ -60850,13 +60867,14 @@
     ],
     "publisher": "Irfan Skiljan (IrfanView)",
     "compatibility": "yes",
-    "emulationType": "emulation",
+    "emulationType": "native",
     "versionFrom": "4.62",
     "link": "https://apps.microsoft.com/detail/9nl0r0jnnzm0",
     "validation": [
-      "qualcomm"
+      "qualcomm",
+      "microsoft"
     ],
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-10-26"
   },
   {
     "slug": "irfanview64",
@@ -77868,13 +77886,14 @@
     ],
     "publisher": "",
     "compatibility": "yes",
-    "emulationType": "emulation",
+    "emulationType": "native",
     "versionFrom": "2024.7",
     "link": "https://mullvad.net/en/download/vpn/windows",
     "validation": [
-      "qualcomm"
+      "qualcomm",
+      "microsoft"
     ],
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-10-26"
   },
   {
     "slug": "mulppypro",
@@ -106122,14 +106141,15 @@
     ],
     "publisher": "Learnpulse",
     "compatibility": "yes",
-    "emulationType": "emulation",
+    "emulationType": "native",
     "versionFrom": "2.1.25.0",
     "link": "https://www.microsoft.com/store/productId/9N3GRQTX1QPF",
     "validation": [
       "qualcomm",
-      "nvidia"
+      "nvidia",
+      "microsoft"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-10-26"
   },
   {
     "slug": "screenrecorder",
@@ -111379,14 +111399,15 @@
     ],
     "publisher": "Le Liu",
     "compatibility": "yes",
-    "emulationType": "emulation",
+    "emulationType": "native",
     "versionFrom": "2.8.8",
     "link": "https://apps.microsoft.com/detail/9p1wxpkb68kx",
     "validation": [
       "qualcomm",
-      "nvidia"
+      "nvidia",
+      "microsoft"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-10-26"
   },
   {
     "slug": "snipdo",
