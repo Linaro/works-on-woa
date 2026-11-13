@@ -64827,9 +64827,9 @@
     "validation": [
       "unverified"
     ],
-    "lastUpdated": "2026-10-11",
-    "compatibilityDetails": "Klakk 1.4.1 provides a native Windows ARM64 application and runtime. Automated ARM64 validation checked the installer SHA-256, installation, app/runtime PE architecture, 14 bundled sound packs, same-version reinstall, and uninstall. The application was not launched in that CI run; interactive audio behavior on physical Windows on Arm devices remains unverified.",
-    "notes": "Keyboard sound app with 14 sound packs. The website Windows edition includes a three-day trial starting at first launch, then costs US$4.49 once plus applicable tax. Its license is separate from the website Mac edition and Mac App Store edition. The 1.4.1 Windows installer is unsigned. The official Windows page includes a dedicated ARM64 download option.",
+    "lastUpdated": "2026-11-13",
+    "compatibilityDetails": "Klakk 1.4.3 provides a native Windows ARM64 application and runtime. Earlier 1.4.1 automated ARM64 packaging validation checked the installer SHA-256, installation, app/runtime PE architecture, 14 bundled sound packs, same-version reinstall, and uninstall; the application was not launched in that run. Those historical checks are not a new 1.4.3 runtime test. Interactive audio on physical Windows on Arm devices remains unverified.",
+    "notes": "Keyboard sound app with 14 included sound packs. Browser previews are available before downloading. The website Windows edition includes a three-day trial from first launch, then costs US$6.99 once plus applicable tax for up to three personally owned Windows devices. Website Mac and Mac App Store licenses are separate. New purchases use Creem; existing Creem and Pancake licenses remain supported. The current Windows installer is unsigned. Its universal download selects the native ARM64 or x64 application automatically.",
     "shouldShowNotes": true
   },
   {
