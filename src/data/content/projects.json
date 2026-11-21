@@ -7418,6 +7418,42 @@
     "lastUpdated": "2024-04-01"
   },
   {
+    "slug": "antigravity",
+    "name": "Antigravity",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "Google",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "link": "https://antigravity.google/download",
+    "validation": [
+      "qualcomm",
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
+  },
+    {
+    "slug": "antigravity-ide",
+    "name": "Antigravity IDE",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "Google",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "link": "https://antigravity.google/download",
+    "validation": [
+      "qualcomm",
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
+  },
+  {
     "slug": "antutu",
     "name": "安兔兔 (Antutu)",
     "type": "application",
@@ -13133,9 +13169,10 @@
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": [
-      "qualcomm"
+      "qualcomm",
+      "nvidia"
     ],
-    "lastUpdated": "2024-03-18",
+    "lastUpdated": "2026-11-20",
     "shouldShowNotes": false
   },
   {
@@ -170577,6 +170614,22 @@
       "nvidia"
     ],
     "lastUpdated": "2026-09-29"
+  },
+  {
+    "slug": "yubico-authenticator",
+    "name": "Yubico Authenticator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "Yubico",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "validation": [
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
   },
   {
     "slug": "yuewen-edit",
