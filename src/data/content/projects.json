@@ -7418,6 +7418,42 @@
     "lastUpdated": "2024-04-01"
   },
   {
+    "slug": "antigravity",
+    "name": "Antigravity",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "Google",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "link": "https://antigravity.google/download",
+    "validation": [
+      "qualcomm",
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
+  },
+    {
+    "slug": "antigravity-ide",
+    "name": "Antigravity IDE",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "dev-tools"
+    ],
+    "publisher": "Google",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "link": "https://antigravity.google/download",
+    "validation": [
+      "qualcomm",
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
+  },
+  {
     "slug": "antutu",
     "name": "安兔兔 (Antutu)",
     "type": "application",
@@ -13133,9 +13169,10 @@
     "compatibility": "yes",
     "emulationType": "emulation",
     "validation": [
-      "qualcomm"
+      "qualcomm",
+      "nvidia"
     ],
-    "lastUpdated": "2024-03-18",
+    "lastUpdated": "2026-11-20",
     "shouldShowNotes": false
   },
   {
@@ -114103,6 +114140,24 @@
     "shouldShowNotes": false
   },
   {
+    "slug": "star-trek-fleet-command",
+    "name": "Star Trek Fleet Command",
+    "type": "game",
+    "icon": "gaming-icon-white.svg",
+    "categories": [
+      "unknown"
+    ],
+    "publisher": "Scopely",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "validation": [
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-26",
+    "notes": "Runs sluggish compared to X86", 
+    "shouldShowNotes": true
+  },
+  {
     "slug": "star-trek-infinite",
     "name": "Star Trek: Infinite",
     "type": "game",
@@ -114152,6 +114207,23 @@
     "lastUpdated": "2024-04-01",
     "shouldShowNotes": false
   },
+  {
+    "slug": "star-wars-galaxy-of-heroes",
+    "name": "Star Wars Galaxy of Heroes",
+    "type": "game",
+    "icon": "gaming-icon-white.svg",
+    "categories": [
+      "roleplaying"
+    ],
+    "publisher": "Electronic Arts",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "validation": [
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20",
+    "shouldShowNotes": false
+  }, 
   {
     "slug": "star-wars-jedi-fallen-order",
     "name": "STAR WARS Jedi: Fallen Order ",
@@ -170542,6 +170614,22 @@
       "nvidia"
     ],
     "lastUpdated": "2026-09-29"
+  },
+  {
+    "slug": "yubico-authenticator",
+    "name": "Yubico Authenticator",
+    "type": "application",
+    "icon": "application-icon-white.svg",
+    "categories": [
+      "utils-tools"
+    ],
+    "publisher": "Yubico",
+    "compatibility": "yes",
+    "emulationType": "emulation",
+    "validation": [
+      "nvidia"
+    ],
+    "lastUpdated": "2026-11-20"
   },
   {
     "slug": "yuewen-edit",
