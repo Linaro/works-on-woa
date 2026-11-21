@@ -127264,6 +127264,28 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "unboom",
+    "name": "Unboom",
+    "type": "application",
+    "icon": "",
+    "categories": [
+      "music",
+      "audio"
+    ],
+    "publisher": "Unboom",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "compatibilityDetails": "Native Arm64 build (separate Arm64 and x64 installers). So far tested by the developer only in CI, not on a physical Arm PC: the Arm64 installer ran on GitHub's Windows 11 Arm64 runner (windows-11-arm), and the app's system-audio self-test played test tones through a VB-CABLE virtual sound card. The Windows audio engine loaded Unboom's audio effect, it cut a 132 Hz tone by about 12 dB, it passed audio through unchanged when switched off, and uninstalling removed it. Not yet tested with real speakers or a microphone on Arm hardware.",
+    "versionFrom": "0.2.0",
+    "link": "https://unboom.app",
+    "validation": [
+      "developer"
+    ],
+    "lastUpdated": "2026-10-23",
+    "notes": "Finds the bass frequency an untreated room exaggerates and turns just that part down on the calibrated speakers. Free download with a 14-day trial, then a one-time license.",
+    "shouldShowNotes": true
+  },
+  {
     "slug": "uncharted-waters-origin",
     "name": "Uncharted Waters Origin",
     "type": "game",
