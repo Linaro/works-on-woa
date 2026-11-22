@@ -173678,5 +173678,26 @@
       "qualcomm"
     ],
     "lastUpdated": "2026-11-03"
+  },
+  {
+    "slug": "deskwand",
+    "name": "DeskWand for PC",
+    "type": "application",
+    "icon": "DeskWand.png",
+    "categories": [
+      "remote-desktop",
+      "utils-tools"
+    ],
+    "publisher": "Schematic",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "0.1.3",
+    "link": "https://schematic.cz/apps/deskwand/",
+    "validation": [
+      "developer"
+    ],
+    "lastUpdated": "2026-11-22",
+    "notes": "Native Arm64 MSI (separate x64 and Arm64 installers). Windows companion for the DeskWand Android app: use your phone as a touchpad and keyboard for the PC, even at the Windows sign-in screen.",
+    "shouldShowNotes": true
   }
 ]
