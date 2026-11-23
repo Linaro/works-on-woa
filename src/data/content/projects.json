@@ -6603,13 +6603,13 @@
     ],
     "publisher": "Catfish Animation Studio S.r.l.",
     "compatibility": "yes",
-    "emulationType": "emulation",
-    "versionFrom": "6.6.11.0",
+    "emulationType": "native",
+    "versionFrom": "7.4.5.0",
     "link": "https://apps.microsoft.com/detail/9MVGZCMBPSB1",
     "validation": [
-      "qualcomm"
+      "developer"
     ],
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-11-23"
   },
   {
     "slug": "anchoragesmarinas",
