@@ -4897,6 +4897,26 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "airdesk",
+    "name": "AirDesk",
+    "type": "application",
+    "icon": "AirDesk.svg",
+    "categories": [
+      "remote-desktop"
+    ],
+    "publisher": "AirDesk",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "1.0.133",
+    "link": "https://airdesk.co.kr/en/download",
+    "validation": [
+      "developer"
+    ],
+    "lastUpdated": "2026-11-24",
+    "notes": "Native Arm64 host and client. On Snapdragon PCs the host encodes H.264/HEVC with the Qualcomm hardware encoder through Media Foundation, and the client decodes in hardware.",
+    "shouldShowNotes": true
+  },
+  {
     "slug": "airemovebg",
     "name": "AI - Remove BG",
     "type": "application",
