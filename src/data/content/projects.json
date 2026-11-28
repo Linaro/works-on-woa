@@ -114775,6 +114775,27 @@
     "lastUpdated": "2026-03-02"
   },
   {
+    "slug": "stereokeeper",
+    "name": "StereoKeeper",
+    "type": "application",
+    "icon": "StereoKeeper.png",
+    "categories": [
+      "audio",
+      "utils-tools"
+    ],
+    "publisher": "Avazbek Olimov",
+    "compatibility": "yes",
+    "emulationType": "native",
+    "versionFrom": "3.0",
+    "link": "https://apps.microsoft.com/detail/9N3QLB1RBBBC",
+    "validation": [
+      "developer"
+    ],
+    "lastUpdated": "2026-11-28",
+    "notes": "Native Arm64. Fixes bad Bluetooth headphone sound on Windows on Arm: when Call of Duty, Discord, Teams or OBS turns on the headset mic, Windows switches to low-quality mono Hands-Free mode. StereoKeeper brings back stereo in one click and can keep it on.",
+    "shouldShowNotes": true
+  },
+  {
     "slug": "sterissurgicalconnectemea",
     "name": "STERIS Surgical Connect EMEA",
     "type": "application",
